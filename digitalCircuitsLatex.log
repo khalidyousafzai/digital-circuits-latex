@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.25)  23 MAR 2023 16:13
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.25)  29 MAR 2023 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1698,9 +1698,9 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-2023323973.tex)...disabled (restricted).
+runsystem(touch w18-test-20233291011.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2023323973.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20233291011.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -1764,7 +1764,21 @@ LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
 
 (./tex/digitalCircuitsPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/binarySystem.aux))
+(./tex/binarySystem.aux
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+) (./tex/basicMaths.aux
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 15.
+LaTeX Info: Redefining \ttfamily on input line 15.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
+))
 \openout1 = `digitalCircuitsLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
@@ -1971,669 +1985,577 @@ e 160.
 (./digitalCircuitsLatex.toc
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+LaTeX Info: Redefining \rmfamily on input line 11.
+LaTeX Info: Redefining \sffamily on input line 11.
+LaTeX Info: Redefining \ttfamily on input line 11.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+LaTeX Info: Redefining \rmfamily on input line 27.
+LaTeX Info: Redefining \sffamily on input line 27.
+LaTeX Info: Redefining \ttfamily on input line 27.
 )
 \tf@toc=\write6
 \openout6 = `digitalCircuitsLatex.toc'.
 
  [3]
-\openout2 = `./tex/digitalCircuitsPreface.aux'.
+\openout2 = `./tex/basicMaths.aux'.
 
- (./tex/digitalCircuitsPreface.tex [4
+ (./tex/basicMaths.tex [10
+
+
+
+
+
 
 
 
 ]
+باب \arabicdigits{2}.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 یہ کتاب اس عزم سے لکھی گئی ہے کہ یہ ایک دن
- برقی انجنیئرنگ کی نصابی کتاب کے طور پر پڑھائی جائے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 گی۔امید کی جاتی ہے کہ اب بھی طلبہ و طالبات
- اس سے استفادہ حاصل کر سکیں گے۔ میں ڈاکٹر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 محمد اشرف عطا (ہلالِ امتیاز، ستارہِ امتیاز
-) کا خصوصی طور پر نہایت مشکور و ممنون ہوں جنہوں نے اپنے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 مصروفیات سے وقت نکال کر اس کتاب کو پڑھ کر 
-نہ صرف درست کیا بلکہ بہت سارے تکنیکی[]
- []
-
-
-Underfull \hbox (badness 7944) in paragraph at lines 5--6
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 میں یہاں کامسیٹ کے طلبہ و طالبات کا بھی 
-شکریہ ادا کرنا چاہتا ہوں جنہوں نے اس کتاب کو بار بار پڑھ کر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 اس کتاب کے پڑھنے والوں سے گزارش کی جاتی 
-ہے کہ وہ اس کتاب کو زیادہ سے زیادہ طلبہ و طالبات تک[]
- []
-
-) [5]
-\openout2 = `./tex/prefaceFirstBook.aux'.
-
- (./tex/prefaceFirstBook.tex [6
-
-
-
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 گزشتہ چند برسوں سے حکومتِ پاکستان اعلیٰ تع
-لیم کی طرف توجہ دے رہی ہے جس سے ملک کی تاریخ میں[]
+[]\TU/JameelNooriNastaleeq(1)/b/n/10 ثنائی نظام میں حساب بالکل اسی طرح کیا جاتا
+ ہے جس طرح اعشاری نظام میں۔چند مثالوں کے[]
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 4--5
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 پاکستان میں اعلٰی تعلیم کا نظام انگریزی 
-زبان میں رائج ہے۔دنیا میں تحقیقی کام کا بیشتر حصہ انگریزی زبان میں ہی چھپتا[]
+Underfull \hbox (badness 2707) in paragraph at lines 4--5
+[][]\TU/JameelNooriNastaleeq(1)/b/n/10 ثنائی نظام میں دو اعداد کا مجموعہ اعشاری
+ نظام میں دو اعداد کے مجموعہ سے سمجھا جا سکتا ہے۔اعشاری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 کے لئے انگریزی زبان میں موجود مواد سے استف
-ادہ کرنا تو ایک طرف، انگریزی زبان ازخود ایک رکاوٹ کے طور پر ان کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+[]\TU/JameelNooriNastaleeq(1)/b/n/10 آپ نے دیکھا کہ حاصل$\OT1/zplm/m/n/10 (\OT1
+/ppl/m/n/10 1\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(1)/b/n/10 کو (بائیں) 
+زیادہ وزنی مقام پر منتقل کیا گیا۔یہی ثنائی جمع میں کیا جائے گا۔ ثنائی[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 سامنے آتی ہے۔یہ طلبہ و طالبات ذہین ہونے کے
- باوجود آگے بڑھنے اور قوم و ملک کی بھر پور خدمت کرنے کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 میں برسوں تک اس صورت حال کی وجہ سے پریشا
-نی کا شکار رہا۔کچھ کرنے کی نیت رکھنے کے باوجود کچھ نہ کر سکتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 تھا۔میرے لئے اردو میں ایک صفحہ بھی لکھنا ن
-اممکن تھا۔آخر کار ایک دن میں نے اپنی اس کمزوری کو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 یہ کتاب اردو زبان میں تعلیم حاصل کرنے وا
-لے طلبہ و طالبات کے لئے نہایت آسان اردو میں لکھی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 کتاب میں بین الاقوامی نظامِ اکائی استعما
-ل کی گئ ہے۔اہم متغیرات کی علامتیں وہی رکھی گئی ہیں جو موجودہ نظامِ تعلیم کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 نصابی کتابوں میں رائج ہیں۔یوں اردو میں لکھ
-ی اس کتاب اور انگریزی میں اسی مضمون پر لکھی کتاب پڑھنے والے طلبہ و[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 امید کی جاتی ہے کہ یہ کتاب ایک دن خالصتا
-ً اردو زبان میں انجنیئرنگ کی نصابی کتاب کے طور پر استعمال کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 اس کتاب کے پڑھنے والوں سے گزارش کی جاتی 
-ہے کہ اسے زیادہ سے زیادہ طلبہ و طالبات تک پہنچانے میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 مدد دیں اور انہیں جہاں اس کتاب میں غلطی نظ
-ر آئے وہ اس کی نشاندہی میری ای-میل پر کریں۔میں ان کا[]
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 اس کتاب میں تمام غلطیاں مجھ سے ہی سر زد 
-ہوئی ہیں البتہ انہیں درست کرنے میں بہت لوگوں کا ہاتھ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ہے۔میں ان سب کا شکریہ ادا کرتا ہوں۔ یہ سلس
-لہ ابھی جاری ہے اور مکمل ہونے پر ان حضرات کے تاثرات[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 میں یہاں کامسیٹ یونیورسٹی اور ہائر ایجوک
-یشن کمیشن کا شکریہ ادا کرنا چاہتا ہوں جن کی وجہ سے ایسی سرگرمیاں[]
- []
-
-) [8]
-\openout2 = `./tex/binarySystem.aux'.
-
- (./tex/binarySystem.tex
-باب \arabicdigits{1}.
+[11]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
+(Font)              scaled to size 14.4pt on input line 101.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
+(Font)              scaled to size 14.4pt on input line 101.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 3.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 3.
+(Font)              scaled to size 7.6pt on input line 108.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 108.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 عام زندگی میں اعشاری نظامِ گنتی استعمال ہو
-تا ہے جو $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/b/n/10 تا $\OT1/ppl/m/
-n/10 9$ \TU/JameelNooriNastaleeq(1)/b/n/10 کے ہندسوں پر مبنی ہے۔کسی بھی گنتی کے
- نظام[]
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
+[]\TU/JameelNooriNastaleeq(1)/b/n/10 ی آخری مساوات میں صفر سے ایک اس صورت منفی 
+کیا دکھایا گیا ہے جب ادھار $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/b/n/
+10 لینا ممکن[]
  []
 
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 128.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 128.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 15.0049pt on input line 128.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 128.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 میں کل علامات کی تعداد کو اس نظام کی اساس 
-کہتے ہیں۔اعشاری نظام میں $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/b/n/10
- تا $\OT1/ppl/m/n/10 9$ \TU/JameelNooriNastaleeq(1)/b/n/10 یعنی دس $\OT1/ppl/m/
-n/10 10$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 مساوات ١.١[] میں $\OT1/ppl/m/n/10 538.72
-$ \TU/JameelNooriNastaleeq(1)/b/n/10 کو اعشاری نظام میں لکھتے ہوئے زیر نوشت میں
- $\OT1/ppl/m/n/10 10$ \TU/JameelNooriNastaleeq(1)/b/n/10 لکھا گیا ہے، جو اس بات
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--13
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 اس نظام میں اعشاریہ کے بائیں جانب پہلا ہند
-سہ اکائی وزن رکھتا ہے، دوسرا دہائی، تیسرا سینکڑا،[]
- []
-
-[1
-
-
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 اگر عدد $\OT1/ppl/m/n/10 538.72[]$ \TU/Jam
-eelNooriNastaleeq(1)/b/n/10 کو $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(1
-)/b/n/10 کا نام دیا جائے تو شکل 1.‏1 میں اس عدد کے مختلف ہندسوں کو پکارنے کا طر
-یقہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 اس طرح کسی بھی عدد میں بائیں جانب والے ہ
-ندسے کا رتبہ 4 دائیں جانب والے ہندسے سے بلند ہوتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ہے۔مساوات 1.‏1 میں بلند تر رتبہ والا ہندسہ
- 5 ہے جبکہکم تر رتبہ والا ہندسہ 6 ہے۔ مساوات 1.‏4 میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 سات کو تین مختلف طریقوں سے لکھا گیا ہے۔عام
- زندگی میں سات کو مساوات کی پہلی طرز پر لکھا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 جاتا ہے۔یوں کاغذ پر لکھتے ہوئے کسی بھی عدد
- کے بائیں جانب صفر نہیں لکھے جاتے اور اس جانب کاغذ کو[]
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 خالی چھوڑا جاتا ہے۔یہاں یہ بات سمجھنا ضرور
-ی ہے کہ عام زندگی میں اعداد لکھتے وقت ان کی لمبائی یا ان میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 کُل ہندسوں کی تعداد پہلے سے متعین نہیں کی 
-جاتی۔کمپیوٹر میں چیزیں قدرِ مختلف ہیں جہاں صرف صفر اور[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ایک کا وجود ممکن ہے۔کسی مقام پر اگرنہیں لک
-ھا ہو تو اس پرلکھا ہوتا ہے۔یوں کسی بھی عدد کے بائیں جانب خالی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 جگہ کا کمپیوٹر میں کوئی مطلب نہیں۔یہاں یا 
-تو اور یا پھرکا ہونا ضروری ہے۔کمپیوٹر میں ہر قسم کی معلومات لکھنے سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 پہلے اس بات کا فیصلہ کیا جاتا ہے کہ اسے لک
-ھنے کی خاطر کتنی جگہ درکار ہو گی۔یوں اگر کسی عدد کو لکھنے کی خاطر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 تین ہندسوں کے لکھے جانے کے برابر جگہ تعین 
-کی گئی ہو تو اس تمام جگہ کو ہر صورت استعمال کیا جائے گا او یوں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 اعشاری نظام میں گنتی سے شروع ہوتی ہے اور
- بتدریج بڑھتے ہوئے تک پہنچتی ہے۔ اس دوران دہائی، سینکڑا وغیرہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 کے مقام پر صفر رہتا ہے اور انہیں عام طور ن
-ہیں لکھا جاتا۔گنتیتک پہنچنے کے بعد دہائی یعنی وزن رکھنے والے مقام پر کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 بجائےلکھا جاتا ہے اور اکائی یعنی وزن رکھنے
- والے مقام پر دوبارہسے کی جانب گنتی شروع ہوتا ہے۔ اگر آپ کو اس[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 پیراگراف کی سمجھ نہیں آئی تو اسے دوبارہ پڑ
-ھیں۔اس میں سادہ گنتی کی وضاحت کی گئی ہے۔ اعشاری نظام[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 میں اگر اعداد کو ایک ہندسے تک محدود کر دیا
- جائے تو اس میں سے تک گنتی ممکن ہو گی۔اگر اعداد کو دو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 تین ہندسوں تک کے عدد استعمال کرنے سے سے تک
- گنتی کی جا سکتی ہے وغیرہ۔ 1.‏2 ہشتمی نظامِ گنتی ہشتمی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ہے۔بالکل اعشاری نظام کی طرح، اس نظام میں ا
-عداد لکھتے ہوئے اعشاریہ کے بائیں جانب پہلے ہندسے کا[]
- []
-
-
-Underfull \hbox (badness 2856) in paragraph at lines 33--38
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 وزن ہے، دوسرے ہندسے کا ، تیسرے کا وغیرہ جب
-کہ اعشاریہ کے دائیں جانب پہلے کسری ہندسے کا وزن ہے،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 مساوات 1.‏5 میں ہشتمی نظام میں دئے گئے ع
-دد کو اعشاری نظام میں تبدیل کرنا دکھایا گیا ہے۔ہشتمی عدد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 کی دائیں جانب نیچے کر کے چھوٹی لکھائی میں 
-اس بات کی یاد دہانی کرتا ہے کہ یہ عدد ہشتمی نظام میں لکھا گیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ہے۔ اس نظام میں گنتی سے شروع ہوتی ہے۔ تک پ
-ہنچنے کے بعد وزن رکھنے والے مقام پر کی بجائے لکھا جاتا[]
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 47--52
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ہے اور وزن رکھنے والے مقام پر دوبارہ سے کی
- جانب گنتی شروع ہوتی ہے۔ 1.‏3 ثنائی نظامِ گنتی مائکرو کنٹرولر کی دنیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 اساس-دو کا نظامِ گنتی ہے۔ اس نظام میں گنتی
-سے شروع ہوتی ہے۔ تک پہنچنے کے بعد وزن رکھنے والی مقام پرکی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--52
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 بجائےلکھا جاتا ہے اوروزن رکھنے والی مقام پ
-ر دوبارہسےکی جانب گنتی شروع ہوتی ہے۔اس نظام میں گنتی[]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]\TU/JameelNooriNastaleeq(1)/b/n/10 کسی بھی اساسی نظام میں، ہندسہ کو اساس ، $\
+OT1/zplm/m/n/10 (\OML/zplm/m/it/10 r\OT1/zplm/m/n/10 )$\TU/JameelNooriNastaleeq
+(1)/b/n/10 ، سے منفی کرنے سے ہندسے کا اساسی تکملہ (یا تکملہ $\OML/zplm/m/it/10 
+r$\TU/JameelNooriNastaleeq(1)/b/n/10 )[]
  []
 
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(1)/m/sl' undefined
 (Font)              using `TU/JameelNooriNastaleeq(1)/m/n' instead on input lin
-e 52.
+e 130.
 
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(0)/m/sl' undefined
 (Font)              using `TU/JameelNooriNastaleeq(0)/m/n' instead on input lin
-e 52.
+e 130.
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 52.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس نظام میں اعداد لکھتے ہوئے اعشاریہ کے
- بائیں جانب پہلے ہندسے کا وزن ہوتا ہے دوسرے ہندسے کا ،[]
+(Font)              scaled to size 10.0pt on input line 130.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساسی تکملہ کے تصور کو ایک سے زائد ہندس
+وں پر مبنی عدد تک وسعت دیتے ہیں۔اساس $\OML/zplm/m/it/10 r$ \TU/JameelNooriNasta
+leeq(1)/m/sl/10 کے اعدادی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تیسرے کا وغیرہ جبکہ اعشاریہ کے دائیں جانب
- پہلے ہندسے کا وزن ،دوسرے ہندسے کا وزنوغیرہ ہوتا ہے۔[]
+Underfull \hbox (badness 1603) in paragraph at lines 158--159
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہر عدد $\OML/zplm/m/it/10 N$ \TU/Jameel
+NooriNastaleeq(1)/m/sl/10 کے اساسی تکملہ کا اساسی تکملہ وہی عدد $\OML/zplm/m/it
+/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا۔اس کا ثبوت کچھ یوں ہے: عددی $\
+OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا اساسی تکملہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 مساوات 1.‏9 میں ثنائی نظام میں دئے گئے 
-عدد کو اعشاری نظام میں تبدیل کرنا دکھایا گیا ہے۔ ثنائی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 عدد کی دائیں جانب نیچے کر کے چھوٹی لکھائی
- میںاس بات کی یاد دہانی کراتا ہے کہ یہ عدد ثنائی نظام میں لکھا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل 1.‏2 میں کسی بھی ثنائی عدد کے ہندسو
-ں کو پکارنے کا طریقہ دکھایا گیا ہے۔یوں شکل میں سب سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دائیں جانب ہندسے کو کم تر رتبہ والا بِٹ 7
- یا کم تر رتبہ والا ثنائی ہندسہ یا بِٹ صفر یا بِٹکہیں گے ۔ اس سے اگلے کو بِٹ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک یا بِٹ اور اس سے اگلے کو بِٹ دو یعنی 
-بِٹ وغیرہ جبکہ سب سے بائیں جانب ہندسے کو بلند تر رتبہ والا ثنائی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اگر دئے گئے عدد میں اعشاریہ کے دائیں جا
-نب کچھ نہ ہو تب اس عدد کو یوں بھی اعشاری نظام میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی گنتی کے لئے استعمال ہو سکتا ہے۔اگر اس 
-سے بڑا عدد لکھنا ہو تو چار سے زیادہ ہندسے استعمال کرنا ضروری ہو گا۔مائکرو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کنٹرولر آٹھ ثنائی ہندسوں کے اعداد استعمال
- کرتا ہے۔ آٹھ ہندسوں کو استعمال کرتے سے تک کے اعداد ظاہر کئے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 نہیں لکھے جاتے یعنیکونہیں لکھا جاتا۔کمپیو
-ٹر کی دنیا میں اعداد عموماً آٹھ ہندسوں پر مبنی ثنائی عدد کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 صورت میں لکھے جاتے ہیں۔آٹھ سے کم ثنائی ہن
-دسوں پر مبنی اعداد لکھتے وقت ان کے بائیں جانب صفریں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لکھ کر انہیں آٹھ ہندسوں کی شکل میں لکھا ج
-اتا ہے۔یوںکو کی بجائے لکھا جاتا ہے۔ 1.‏4 اعشاری نظام سے ثنائی[]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی نظام میں عدد $\OT1/ppl/m/n/10 10[
+]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے سب سے وزنی ہندسے کی قیمت $\OT1/ppl/m/
+n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گی، اور اس کی دائیں جانب $\OT1/p
+pl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 قیمت کے[]
  []
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 79.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعشاری نظام میں دئے گئے عدد کو ثنائی نظ
-ام میں لکھنے کی خاطر اس کے عدد کو بار بار 2 سے تقسیم کریں حتٰی[]
+(Font)              scaled to size 10.0pt on input line 177.
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس $\OML/zplm/m/it/10 r$ \TU/JameelNoor
+iNastaleeq(1)/m/sl/10 کے نظام میں، عدد $\OML/zplm/m/it/10 N$\TU/JameelNooriNast
+aleeq(1)/m/sl/10 کے اساس منفی ایک ($\OML/zplm/m/it/10 r \OMS/zplm/m/n/10 ^^@ \O
+T1/ppl/m/n/10 1$\TU/JameelNooriNastaleeq(1)/m/sl/10 ) تکملہ سے مراد $\OML/zplm/
+m/it/10 r[] \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1 \OMS/zplm/m/n/10 ^^@ \OML/zp
+lm/m/it/10 N$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کہ یہ مزید تقسیم نہ ہو سکے۔ہر مرتبہ تقسیم
- کے بعد حاصل باقی ہوگا۔پہلے حاصل باقی کو ثنائی عدد[]
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آپ دیکھ سکتے ہیں کہ ثنائی عدد $\OT1/ppl/m
+/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 (صفر) کا تکملہ $\OT1/ppl/m/n/10 1$
+\TU/JameelNooriNastaleeq(1)/m/sl/10 ، ثنائی عدد $\OT1/ppl/m/n/10 1$ \TU/JameelN
+ooriNastaleeq(1)/m/sl/10 (ایک) ہو گا ، اور اسی طرح $\OT1/ppl/m/n/10 1$ \TU/Jame
+elNooriNastaleeq(1)/m/sl/10 کا تکملہ $\OT1/ppl/m/n/10 1$\TU/JameelNooriNastalee
+q(1)/m/sl/10 ،[]
+ []
+
+[14]
+LaTeX Font Info:    Font shape `TU/AASameerSagarNastaleeqBold(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 230.
+
+Underfull \hbox (badness 2913) in paragraph at lines 232--233
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ $\OT1/zplm/m/n/10 (\OML/zplm/m/it/1
+0 r \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1\OT1/zplm/m/n/10 )$ \TU/JameelNooriNa
+staleeq(1)/m/sl/10 کے ساتھ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl
+/10 جمع کر کے تکملہ $\OML/zplm/m/it/10 r$\TU/JameelNooriNastaleeq(1)/m/sl/10 حا
+صل کیا جا سکتا ہے، یعنی عدد کے متمم کے ساتھ $\OT1/ppl/m/n/10 1$ \TU/JameelNoori
+Nastaleeq(1)/m/sl/10 جمع کر کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی سب سے کم وزن والے مقام پر لکھیں۔اگلے ح
-اصل باقی کو اس سے دگنے وزن کے مقام پر لکھیں۔اسی طرح آخری[]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNoori
+Nastaleeq(1)/m/sl/10 حاصل ہو گا۔اس طرح اساسی تکملہ کا حصول عموماً زیادہ آسان ثا
+بت ہوتا ہے۔ مساوات ٢.٦[] میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اب سب سے آخری بقایا کو سب سے زیادہ وزن 
-کی مقام پر اور سب سے پہلے بقایا کو سب سے کم وزن کے مقام پر[]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 قلم و کاغذ کے ساتھ، $\OML/zplm/m/it/10 M$
+ \TU/JameelNooriNastaleeq(1)/m/sl/10 سے $\OML/zplm/m/it/10 N$ \TU/JameelNooriNa
+staleeq(1)/m/sl/10 منفی کرنا چھوٹی جماعتوں میں سکھایا جاتا ہے۔برقیات میں تکملہ 
+کی مدد[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی نظام سے اس عدد کو واپس اعشاری نظا
-م میں منتقل کر کے ہم یہ یقین دہانی کر سکتے ہیں کہ یہی اصل جواب[]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سے دو اعداد منفی کیے جاتے ہیں، جہاں دونوں
+ اعداد میں ہندسوں کی تعداد برابر ہونا لازم ہے ۔اساسی تکملہ کی مدد سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی عدد کے اعشاریہ کے بائیں جانب وا
-لے حصہ کو حصہ صحیح 9 کہتے ہیں جبکہ دائیں جانب والے حصہ کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 دونوں اعداد میں ہندسوں کی تعداد برابر ک
+رنے کی خاطر، کم ہندسوں والے عدد کی بائیں جانب (درکار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 مثلاًمیں کو عدد صحیح اور کو عدد مسکور ک
-ہیں گے۔اس طرح کے اعشاری نظام میں دئے گئے عدد کے صحیح[]
+Underfull \hbox (badness 6978) in paragraph at lines 244--246
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہو گا، جس کی بنا یہ \TU/JameelNooriN
+astaleeq(1)/m/n/9 مجموعہ $\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 + \OT1/ppl/m/n/1
+0 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مشتمل ہو گا اور اس کا بایاں 
+ہندسہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا۔اس بائیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حصہ کو ثنائی نظام میں تبدیل کرنے کیلئے اس
-ے اوپر دی گئی مثال کی طرح ہی حل کیا جاتا ہے البتہ حصہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+[][]$\OML/zplm/m/it/10 M$\TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت $\OML/zplm
+/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت سے کم ہونے کی صورت میں،
+ آخری (بائیں) ہندسے جمع کرنے سے حاصل $\OT1/ppl/m/n/10 1$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 مسکور کو مختلف طریقہ سے تبدیل کیا جاتا ہے
-۔دونوں حصوں کے جوابات کو آخر میں ایک ساتھ لکھ لیا[]
+Underfull \hbox (badness 1721) in paragraph at lines 253--255
+[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
+ یہاں بڑا عدد $\OT1/ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 چار ہن
+دسوں پر مبنی ہے، لہٰذا چھوٹا عدد $\OT1/ppl/m/n/10 0974$ \TU/JameelNooriNastalee
+q(1)/m/sl/10 لکھیں اور $\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 
+4$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لیں۔یوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جاتا ہے۔ حصہ مسکور کو یوں حل کیا جاتا ہے۔
-حصہ مسکور کو بار بار سے ضرب دیں۔اگر حاصلِ ضرب میں[]
+Underfull \hbox (badness 2042) in paragraph at lines 253--255
+[]$\OT1/ppl/m/n/10 0974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا اساسی تکملہ $\O
+T1/ppl/m/n/10 10000 \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 0974 \OT1/zplm/m/n/10 
+= \OT1/ppl/m/n/10 9026$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا، جس کو $\OT1/
+ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے ساتھ جمع کرنے سے $\OT1/
+ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں کا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعشاریہ کے بائیں جانب حاصل ہو تو اس کو حا
-صلِ ضرب سے ہٹا کر اسے ثنائی عدد کے دائیں جانب[]
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو نظر انداز کرتے ہوئے $\OT1/ppl/m/n/10 6
+878$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو جواب تسلیم کرتے ہیں۔(ہم درحقیقت آخر
+ی ہندسوں کی جمع سے پیدا حاصل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منسلک کر دیں اور اگر حاصلِ ضرب میں اعشاری
-ہ کے بائیں جانب حاصل ہو تب ثنائی عدد کے دائیں[]
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو رد کرتے ہیں۔ چونکہ
+ یہ مجموعہ میں بائیں ترین مقام پر اترتا ہے لہٰذا مجموعہ کا بایاں ہندسہ رد کر کے
+ جواب[]
+ []
+
+[15]
+LaTeX Info: Redefining \rmfamily on input line 256.
+LaTeX Info: Redefining \sffamily on input line 256.
+LaTeX Info: Redefining \ttfamily on input line 256.
+
+Underfull \hbox (badness 1515) in paragraph at lines 291--294
+[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
+ عدد $\OT1/ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے اساسی تکملہ 
+$\OT1/ppl/m/n/10 10000 \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 7852 \OT1/zplm/m/n/
+10 = \OT1/ppl/m/n/10 2148$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا $\OT1/ppl/m/n
+/10 0974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے ساتھ مجموعہ لیتے[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 295.
+LaTeX Info: Redefining \sffamily on input line 295.
+LaTeX Info: Redefining \ttfamily on input line 295.
+
+Underfull \hbox (badness 1430) in paragraph at lines 352--354
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بائیں آخری ہندسوں کو جمع کرتے ہوئے حاصل $
+\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا نہیں ہوا، لہٰذا اس 
+کا تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لینا ہوگا۔چونک
+ہ $[] \OT1/zplm/m/n/10 =$[]
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
+[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
+ (ب) یہاں ایک عدد پانچ ہندسوں پر مشتمل ہے، لہٰذا دوسرے عدد میں بھی پانچ ہندسے[]
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں انگریزی حروفِ تہجی کے پہلے چہ حروف یع
-نی ہیں۔ ان میںدس کو ظاہر کرتا ہے یعنیجبکہگیارہ کو یعنیاورپندرہ کو[]
+Underfull \hbox (badness 1137) in paragraph at lines 355--357
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پورے کیے جائیں گے۔یوں $\OT1/ppl/m/n/10 10
+11$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو $\OT1/ppl/m/n/10 01011$ \TU/JameelNo
+oriNastaleeq(1)/m/sl/10 لکھ کر، اس کے متمم $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/
+10 10100$ \TU/JameelNooriNastaleeq(1)/m/sl/10 سے عدد کا اساسی تکملہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ظاہر کرتا ہے۔مساوات 1.‏11 میں مختلف نظامِ
- گنتی آمنے سامنے لکھے دکھائے گئے ہیں۔ان پر غور کریں اور انہیں[]
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 مساوات 1.‏12 میں سادس عشری یا اساس سولہ
- کے نظام میں دئے گئے عدد کو اعشاری نظام میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آخری ہندسے جمع کرتے ہوئے حاصل $\OT1/ppl/m
+/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہوا جس کو نظرانداز کرکے باقی 
+مجموعہ $\OT1/ppl/m/n/10 01110[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو نتیجہ ت
+سلیم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تبدیل کرنا دکھایا گیا ہے۔ایسا کرتے وقت او
-ر لئے گئے ہیں۔ مساوات 1.‏3 کو اساس-سولہ کے لئے یوں لکھ سکتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس-منفی-ایک کے تکملہ کی مدد سے بھی دو ا
+عداد منفی کئے جا سکتے ہیں۔مندرجہ ذیل اقدام پر چلنے سے یوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 1.‏6 اساس-دو کا اساس-آٹھ میں تبادلہ مسا
-وات 1.‏14 میں کا ثنائی عدد بائیں جانب دیا گیا[]
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 • دونوں اعداد میں ہندسوں کی تعداد برابر
+ ہونی چاہیے لہٰذا کم ہندسوں پر مبنی عدد کے بائیں جانب صفریں لگا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔اس ثنائی عدد کو اساس آٹھ میں لکھنے کی 
-خاطر پہلے اس کو اعشاریہ سے شروع کرتے ہوئے[]
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کر اس میں ہندسوں کی تعداد دوسرے عدد جتنا 
+کریں۔فرض کریں کہ یوں دونوں اعداد میں ہندسے ہو جاتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعشاریہ کے دونوں جانب تین تین ہندسوں کے گ
-روہ میں لکھیں۔اعشاریہ کے بائیں جانب اگر آخر میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔ • کے ساتھ کا اساس-منفی-ایک کا تکملہ 
+جمع کریں یعنی حاصل کریں۔ • اگر کی قیمت کی قیمت سے زیادہ ہو تب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تین ہندسوں کا گروہ پورا نہ ہو تو عدد کے ب
-ائیں جانب صفریں لگا کر تین ہندسوں کا گروہ پورا کریں۔اسی طرح اعشاریہ[]
+Underfull \hbox (badness 3323) in paragraph at lines 373--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جواب میں بائیں جانب 1 حاصل ہو گا اور یوں 
+جواب ہندسوں پر مبنی ہوگا۔اس صورت میں بائیں جانب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کے دائیں جانب اگر آخر میں تین ہندسوں کا گ
-روہ پورا نہ ہو تو عدد کے دائیں جانب صفریں لگا کر تین ہندسوں[]
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل 1 کو نظر انداز کرنے کی بجائے اس کو ب
+اقی عدد سے علیحدہ کر کے اس کا وزن اکائی تصور کریں اور پھر اسے بقایا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کا گروہ پورا کریں۔اب مساوات 1.‏11 کی مدد 
-سے ان تین تین کے گروہ کی جگہ ان کا مساوی اساس آٹھ کا ہندسہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 • اگر کی قیمت کی قیمت سے کم ہو تب کا جواب
+ہندسوں پر مبنی ہوگا اور یہ ایک منفی عدد کو ظاہر کرے گا۔اس صورت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔یوں یہ عدد اساس آٹھ میں لکھا جائے گا۔ی
-اد رہے کہ ایسا کرتے وقت اعشاریہ اپنی جگہ برقرار[]
+Underfull \hbox (badness 10000) in paragraph at lines 373--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں حاصل جواب کا اساس-منفی-ایک کا تکملہ ل
+ے کر اس کے ساتھ نفی کا نشان لگائیں۔یہ اصل جواب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 1.‏7 اساس-دو کا اساس-سولہ میں تبادلہ ثن
-ائی عدد کو اساس سولہ میں لکھنے کی خاطر ثنائی عدد[]
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جواب: شکل 2.‏5 سے رجوع کریں۔ کا تکملہ-‏
+9 ہے۔ اس کا تکملہ-‏9 کو کے ساتھ جمع کرکے حاصل ہوتا ہے۔یہ عدد[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو اعشاریہ سے شروع کرتے ہوئے اعشاریہ کے د
-ونوں جانب چار چار ہندسوں کے گروہ میں لکھیں۔اگر[]
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جواب: شکل 2.‏6 سے رجوع کریں۔ کا تکملہ-‏
+9 ہے۔ تکملہ-‏9 کو کے ساتھ جمع کر کے حاصل ہوتا ہے۔یہ عدد پانچ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعشاریہ کے بائیں جانب آخر میں چار ہندسوں 
-کا گروہ پورا نہ ہو تو عدد کے بائیں جانب صفریں لگا کر[]
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مبنی ہے لہٰذا بائیں جانب ایک کو
+ عدد سے علیحدہ کر کے اسے اکائی تصور کرتے ہوئے بقایا عدد کے[]
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 چونکہ بائیں جانب آخری حاصل صفر ہے لہٰذا
+ جواب حاصل کرنے کے لئے اس کا تکملہ-‏1 لیکر اس[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 چار ہندسے پورا کریں۔اسی طرح اگر اعشاریہ ک
-ے دائیں جانب آخر میں چار ہندسے پورے نہ ہوں تو[]
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 2.‏7 مثبت اور منفی اعداد عام زندگی میں 
+مثبت اعداد لکھتے ہوئے ان کے ساتھ بائیں جانب جمع کی علامت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 عدد کے دائیں جانب صفر جوڑ کر چار ہندسے پو
-را کریں۔اب مساوات 1.‏11 کی مدد سے ان چار چار کے گروہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لگائی جاتی ہے یا پھر انہیں بغیر کسی علامت
+ کے لکھا جاتا ہے البتہ منفی اعداد لکھتے ہوئے ان کے ساتھ نفی کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جگہ لکھا گیا ہے اور کی جگہ لکھا گیا ہے۔یو
-ں یہ عدد اساس سولہ میں لکھا جائے گا۔ یہ سب کرتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی عدد کے مثبت یا منفی ہونے کو اس 
+عدد کا سائن 9 کہتے ہیں۔ یوں وہ اعداد جو مثبت یا منفی سائن رکھتے ہوں کو بمع-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 1.‏8 اساس-آٹھ اور اساس-سولہ سے اساس-دو 
-میں تبادلہ انہیں طریقوں کو الٹ استعمال کرتے ہوئے[]
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سائن-اعداد 10 کہتے ہیں اور جن اعداد کا کو
+ئی سائن نہ ہو ان کو بغیر-سائن-اعداد 11 کہتے ہیں۔اعداد کو ان کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--149
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس آٹھ اور اساس سولہ کے اعداد با آسانی 
-اساس-دو میں لکھے جا سکتے ہیں۔مساوات 1.‏16 میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سائن اور مقدار سے ظاہر کرنے کے طریقہ کو ب
+مع-سائن-مقدار کا نظام 12 کہتے ہیں۔ کمپیوٹر میں حسابی عمل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو انہیں دو علامتوں کی مدد سے ظاہر کیا جا
+تا ہے۔روایتی طور پر مثبت یعنی + کی علامت کو صفر یعنی سے اور نفی یعنی - کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 علامت کو ایک یعنی سے ظاہر کیا جاتا ہے۔یہ 
+علامت عدد کے بائیں جانب لکھی جاتی ہے۔شکل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 2.‏7 میں اس کی وضاحت کی گئی ہے۔ یہاں ایک 
+دلچسپ بات سامنے آتی ہے۔اگر ہم شکل میں اعداد کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بائیں جانب آخری ہندسے کو علامت سمجھیں تب 
+کا مطلب بنتا ہے لیکن اگر ہم کو چار ثنائی ہنسوں کا عدد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس صورتِ حال کو سمجھنا ضروری ہے کہ کیا 
+ثنائی اعداد میں بائیں جانب آخری مقام پر صفر یا ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس عدد کے علامت کو ظاہر کرتا ہے یا یہ عدد
+ کا حصہ ہے۔ اس کا فیصلہ ان اعداد کو استعمال کرنے والے پر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منحصر ہے۔کمپیوٹر استعمال کرتے وقت آپ خود 
+یہ فیصلہ کرتے ہیں کہ آیا آپ سائن رکھنے والے اعداد استعمال[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--427
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کریں گے یا بغیر سائن والے اعداد۔جدول 2.‏1
+ میں چار ثنائی ہندسوں پر مشتمل ممکنہ تمام اعداد دئے گئے ہیں۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل میں کل چار ثنائی ہندسے لکھائی کے لئ
+ے استعمال کئے گئے ہیں۔کمپیوٹر میں اعداد کو عموماً ایک بائٹ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی مدد سے لکھا جاتا ہے جس میں ہندسے ہوتے 
+ہیں۔ایک بائٹ استعمال کرتے ہوئے سائن رکھنے والے اعداد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں نچلے سات مقام، عدد کی مقدار لکھنے کے 
+لئے استعمال کئے جاتے ہیں جبکہ بائیں جانب آخری مقام[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں صفر یا ایک اس عدد کی مثبت یا منفی ہون
+ے کو ظاہر کرتا ہے۔مساوات 2.‏13 میں اس طرح کے چند[]
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس مساوات میں ایک دلچسپ بات سامنے آتی ہ
+ے۔اس طریقہ لکھائی میں صفر دو مختلف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو بمع-سائن-تکملہ-‏1 کے نظام یا بمع-سائن-
+تکملہ-‏2 کے نظام میں رکھا اور استعمال کیا جاتا ہے۔اگلے حصہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں انہی نظاموں پر غور ہو گا۔ 2.‏8 بمع-سا
+ئن-تکملہ کے نظام کمپیوٹر میں عددی الیکٹرانکس کی مدد سے اعداد کو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جمع یا منفی کیا جاتا ہے۔ دیکھا یہ گیا ہے 
+کہ یہ اعمال اس وقت زیادہ آسانی سے سرانجام دیئے جا سکتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں جب اساسی تکملہ یا اساس-منفی-ایک کا تک
+ملہ زیرِ استعمال لائے جائیں جیسا کہ کتاب کے حصہ 2.‏4 اور 2.‏5[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں دکھایا گیا ہے۔ اسی بناء پر کمپیوٹر کی
+ دنیا میں منفی اعداد کو اساسی تکملہ یا اساس-منفی-ایک کی تکملہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی صورت میں ہی لکھا جاتا ہے۔کمپیوٹر ثنائی
+ اعداد استعمال کرتا ہے لہٰذا اس میں منفی اعداد کو تکملہ-‏1[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 یا تکملہ-‏2 کی صورت میں لکھا جاتا ہے۔چار 
+ثنائی ہندسوں پر مبنی تمام ممکنہ اعداد کو بمع-سائن تکملہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--475
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی شکل میں جدول 2.‏2 میں دکھایا گیا ہے۔اس
+ی میں انہیں بمع-سائن مقدار کے طور بھی دکھایا گیا ہے۔[]
  []
 
 )
-Underfull \hbox (badness 3612) in paragraph at lines 157--177
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 مساوات 1.‏16 اور 1.‏17 کی آخری لکیروں م
-یں ثنائی اعداد کو دیکھتے ہوئے بہت جلد انسان اکتا جاتا ہے البتہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول 2.‏2 سے آپ دیکھ سکتے ہیں کہ کسی بھ
+ی مثبت عدد کو ثنائی ہندسوں میں ایک ہی طریقہ سے لکھا جاتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--177
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 انہیں مساوات میں جہاں ان اعداد کو گروہ کی
- شکل میں لکھا گیا ہے وہاں انہیں سمجھنا ممکن ہے۔ ایک[]
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے جبکہ کسی بھی منفی عدد کو تین طریقوں سے
+ لکھا جاتا ہے۔اس کا مطلب ہے کہ مثبت عدد کو ان تین طریقوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--177
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسے پر مبنی ثنائی عدد کو ثنائی ہندسہ یا
- بِٹ 11 کہتے ہیں۔ثنائی اعداد کو جب آٹھ ثنائی ہندسوں یعنی آٹھ بِٹ کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لکھ کر اس کے سائن کو صفر سے تبدیل کر کے ا
+یک کرنے سے یعنی بمع-سائن منفی عدد حاصل ہوتا ہے۔یوں کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--177
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 گروہ میں لکھا جائے تو اسے ایک ہشتمی ثنائی
- عدد یا ایک بائٹ 12 کہتے ہیں۔بائٹ کو عموماً دو چار چار ثنائی[]
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بمع-سائن عدد کی شکل میں لکھنے کی خاطر کو 
+بمع-سائن عدد کی شکل میں لکھیں یعنی اور اس میں سائن کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--177
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعداد کی گروہ میں لکھا جاتا ہے۔یوں مساوات
- 1.‏17 میں دو بائٹ ہیں۔اسی مساوات کو الٹ چلاتے ہوئے[]
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 صفر سے تبدیل کر کے ایک کر دیں یعنی ۔یہ کو
+ بمع-سائن عدد کے طور لکھنے کا طریقہ ہے۔ منفی عددکو بمع-سائن[]
  []
 
-[5] [6] (./answer.tex) [7
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ-ایک کی صورت میں لکھنے کی خاطرکو بمع
+-سائن ثنائی عدد کے طور لکھیں (یعنی اس عدد کو سادہ ثنائی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 طریقہ سے لکھیں)۔اس ثنائی عدد کا تکملہ-‏1 
+حاصل کرنے سےکی بمع-سائن تکملہ-‏1 شکل حاصل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہوگی۔یاد رہے کہ تکملہ-‏1 حاصل کرتے وقت ثن
+ائی عدد کے ہر ہندسے کو (بمع سائن کے) اُلٹ کرنا ہوگا۔یوں کو[]
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک عدد سمجھتے ہوئے اس کا تکملہ-‏1 لیں یع
+نی ۔یہیکو بمع-سائن تکملہ-‏1 میں ظاہر کرتا ہے۔ منفی عددکو بمع-سائن[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ-دو کی صورت میں لکھنے کی خاطر اسے ثن
+ائی عدد کے طور لکھ کر اس کا تکملہ-دو حاصل کریں۔مثلاً کو لکھیں[]
+ []
+
+[19] [20
 
 
 
-] [8
+] (./answer.tex) [21] [22
 
 
 ]
@@ -2688,25 +2610,39 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
 (./digitalCircuitsLatex.aux (./tex/digitalCircuitsPreface.aux)
-(./tex/prefaceFirstBook.aux) (./tex/binarySystem.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 237.
+(./tex/prefaceFirstBook.aux) (./tex/binarySystem.aux
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+) (./tex/basicMaths.aux
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 15.
+LaTeX Info: Redefining \ttfamily on input line 15.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
+))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 237.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 54272 strings out of 479819
- 1429565 string characters out of 11645846
- 14045145 words of memory out of 24000000
- 70348 multiletter control sequences out of 15000+600000
- 555833 words of font info for 147 fonts, out of 12000000 for 9000
+ 54359 strings out of 479819
+ 1431511 string characters out of 11645846
+ 14045713 words of memory out of 24000000
+ 70431 multiletter control sequences out of 15000+600000
+ 562014 words of font info for 170 fonts, out of 12000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,14n,136p,2645b,512s stack positions out of 5000i,500n,10000p,12000000b,80000s
+ 78i,17n,136p,2645b,794s stack positions out of 5000i,500n,10000p,12000000b,80000s
 
 Output written on digitalCircuitsLatex.pdf (16 pages).

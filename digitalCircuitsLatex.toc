@@ -3,4 +3,29 @@
 \contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{vii}%
 \contentsline {chapter}{\numberline {\arabicdigits {1}} ثنائی نظام}{\arabicdigits {1}}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}اعشاری نظامِ گنتی}{\arabicdigits {1}}%
-\contentsline {chapter}{جوابات}{\arabicdigits {7}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}ہشتمی نظام گنتی}{\arabicdigits {3}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}ثنائی نظامِ گنتی}{\arabicdigits {3}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}اعشاری نظام سے ثنائی نظام میں تبادلہ}{\arabicdigits {5}}%
+\selectlanguage *{english}
+\selectlanguage *{urdu}
+\selectlanguage *{english}
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {5}}اساس سولہ کا (سادس عشری) نظام گنتی}{\arabicdigits {7}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {6}}اساس دو کا اساس آٹھ میں تبادلہ}{\arabicdigits {8}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {7}}اساس دو کا اساس سولہ میں تبادلہ}{\arabicdigits {8}}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {8}} اساس آٹھ اور اساس سولہ سے اساس دو میں تبادلہ}{\arabicdigits {9}}%
+\contentsline {chapter}{\numberline {\arabicdigits {2}}بنیادی حساب}{\arabicdigits {11}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}ثنائی نظام میں اعداد منفی کرنا}{\arabicdigits {12}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}اساسی تکملہ یا تکملہ \tmspace +\medmuskip {.2222em}\(r\)\tmspace +\medmuskip {.2222em}}{\arabicdigits {12}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}اساس منفی ایک تکملہ یا تکملہ \tmspace +\medmuskip {.2222em}\((r-1)\)\tmspace +\medmuskip {.2222em}}{\arabicdigits {14}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}دو اعداد کی منفی بذریعہ اساسی تکملہ}{\arabicdigits {15}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}دو اعداد کی منفی بذریعہ اساس منفی ایک تکملہ}{\arabicdigits {17}}%
+\contentsline {chapter}{جوابات}{\arabicdigits {21}}%
