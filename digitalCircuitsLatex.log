@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.25)  29 MAR 2023 16:51
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.25)  2 APR 2023 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1698,9 +1698,9 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20233291011.tex)...disabled (restricted).
+runsystem(touch w18-test-202342593.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20233291011.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202342593.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -1772,12 +1772,49 @@ LaTeX Info: Redefining \rmfamily on input line 29.
 LaTeX Info: Redefining \sffamily on input line 29.
 LaTeX Info: Redefining \ttfamily on input line 29.
 ) (./tex/basicMaths.aux
-LaTeX Info: Redefining \rmfamily on input line 15.
-LaTeX Info: Redefining \sffamily on input line 15.
-LaTeX Info: Redefining \ttfamily on input line 15.
-LaTeX Info: Redefining \rmfamily on input line 31.
-LaTeX Info: Redefining \sffamily on input line 31.
-LaTeX Info: Redefining \ttfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
+) (./tex/booleanAlgebra.aux
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+LaTeX Info: Redefining \rmfamily on input line 47.
+LaTeX Info: Redefining \sffamily on input line 47.
+LaTeX Info: Redefining \ttfamily on input line 47.
+LaTeX Info: Redefining \rmfamily on input line 63.
+LaTeX Info: Redefining \sffamily on input line 63.
+LaTeX Info: Redefining \ttfamily on input line 63.
+LaTeX Info: Redefining \rmfamily on input line 81.
+LaTeX Info: Redefining \sffamily on input line 81.
+LaTeX Info: Redefining \ttfamily on input line 81.
+LaTeX Info: Redefining \rmfamily on input line 99.
+LaTeX Info: Redefining \sffamily on input line 99.
+LaTeX Info: Redefining \ttfamily on input line 99.
+LaTeX Info: Redefining \rmfamily on input line 118.
+LaTeX Info: Redefining \sffamily on input line 118.
+LaTeX Info: Redefining \ttfamily on input line 118.
+LaTeX Info: Redefining \rmfamily on input line 136.
+LaTeX Info: Redefining \sffamily on input line 136.
+LaTeX Info: Redefining \ttfamily on input line 136.
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+LaTeX Info: Redefining \rmfamily on input line 173.
+LaTeX Info: Redefining \sffamily on input line 173.
+LaTeX Info: Redefining \ttfamily on input line 173.
+LaTeX Info: Redefining \rmfamily on input line 193.
+LaTeX Info: Redefining \sffamily on input line 193.
+LaTeX Info: Redefining \ttfamily on input line 193.
+LaTeX Info: Redefining \rmfamily on input line 211.
+LaTeX Info: Redefining \sffamily on input line 211.
+LaTeX Info: Redefining \ttfamily on input line 211.
 ))
 \openout1 = `digitalCircuitsLatex.aux'.
 
@@ -1997,11 +2034,48 @@ LaTeX Info: Redefining \ttfamily on input line 23.
 LaTeX Info: Redefining \rmfamily on input line 27.
 LaTeX Info: Redefining \sffamily on input line 27.
 LaTeX Info: Redefining \ttfamily on input line 27.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 36.
+LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 40.
+LaTeX Info: Redefining \sffamily on input line 40.
+LaTeX Info: Redefining \ttfamily on input line 40.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
+LaTeX Info: Redefining \rmfamily on input line 49.
+LaTeX Info: Redefining \sffamily on input line 49.
+LaTeX Info: Redefining \ttfamily on input line 49.
+LaTeX Info: Redefining \rmfamily on input line 53.
+LaTeX Info: Redefining \sffamily on input line 53.
+LaTeX Info: Redefining \ttfamily on input line 53.
+LaTeX Info: Redefining \rmfamily on input line 57.
+LaTeX Info: Redefining \sffamily on input line 57.
+LaTeX Info: Redefining \ttfamily on input line 57.
+LaTeX Info: Redefining \rmfamily on input line 62.
+LaTeX Info: Redefining \sffamily on input line 62.
+LaTeX Info: Redefining \ttfamily on input line 62.
+LaTeX Info: Redefining \rmfamily on input line 66.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 66.
+LaTeX Info: Redefining \rmfamily on input line 71.
+LaTeX Info: Redefining \sffamily on input line 71.
+LaTeX Info: Redefining \ttfamily on input line 71.
+LaTeX Info: Redefining \rmfamily on input line 75.
+LaTeX Info: Redefining \sffamily on input line 75.
+LaTeX Info: Redefining \ttfamily on input line 75.
+ [3]
+LaTeX Info: Redefining \rmfamily on input line 81.
+LaTeX Info: Redefining \sffamily on input line 81.
+LaTeX Info: Redefining \ttfamily on input line 81.
+LaTeX Info: Redefining \rmfamily on input line 85.
+LaTeX Info: Redefining \sffamily on input line 85.
+LaTeX Info: Redefining \ttfamily on input line 85.
 )
 \tf@toc=\write6
 \openout6 = `digitalCircuitsLatex.toc'.
 
- [3]
+ [4]
 \openout2 = `./tex/basicMaths.aux'.
 
  (./tex/basicMaths.tex [10
@@ -2028,9 +2102,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 4--5
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 ثنائی نظام میں دو اعداد کا مجموعہ اعشاری
- نظام میں دو اعداد کے مجموعہ سے سمجھا جا سکتا ہے۔اعشاری[]
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[][]\TU/JameelNooriNastaleeq(1)/b/n/10 ثنائی نظام میں اعدادجموعہ اعشاری نظام می
+ں دو اعداد کے مجموعہ سے سمجھا جا سکتا ہے۔اعشاری نظام[]
  []
 
 
@@ -2256,306 +2330,835 @@ oriNastaleeq(1)/m/sl/10 لکھ کر، اس کے متمم $[] \OT1/zplm/m/n/10 = 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--367
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آخری ہندسے جمع کرتے ہوئے حاصل $\OT1/ppl/m
-/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہوا جس کو نظرانداز کرکے باقی 
-مجموعہ $\OT1/ppl/m/n/10 01110[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو نتیجہ ت
-سلیم[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 371--372
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس-منفی-ایک کے تکملہ کی مدد سے بھی دو ا
-عداد منفی کئے جا سکتے ہیں۔مندرجہ ذیل اقدام پر چلنے سے یوں[]
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس منفی ایک تکملہ کی مدد سے بھی $\OML/z
+plm/m/it/10 M \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 N$ \TU/JameelNooriNastalee
+q(1)/m/sl/10 حاصل کیا جا سکتا ہے۔ اس کا طریقہ کار درج ذیل ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--380
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 • دونوں اعداد میں ہندسوں کی تعداد برابر
- ہونی چاہیے لہٰذا کم ہندسوں پر مبنی عدد کے بائیں جانب صفریں لگا[]
+Underfull \hbox (badness 10000) in paragraph at lines 374--376
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 دونوں اعداد میں ہندسوں کی تعداد برابر ک
+رنے کی خاطر، کم ہندسوں والے عدد کی بائیں جانب (درکار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کر اس میں ہندسوں کی تعداد دوسرے عدد جتنا 
-کریں۔فرض کریں کہ یوں دونوں اعداد میں ہندسے ہو جاتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+[][]$\OML/zplm/m/it/10 M$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت $\OML/zpl
+m/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت سے زیادہ ہونے کی صورت 
+میں، آخری (بائیں) ہندسے جمع کرنے سے حاصل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔ • کے ساتھ کا اساس-منفی-ایک کا تکملہ 
-جمع کریں یعنی حاصل کریں۔ • اگر کی قیمت کی قیمت سے زیادہ ہو تب[]
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہو گا، جس کی بنا
+ یہ \TU/JameelNooriNastaleeq(1)/m/n/9 مجموعہ $\OML/zplm/m/it/10 n \OT1/zplm/m/n
+/10 + \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مشتمل ہو
+ گا اور اس کا بایاں ہندسہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/
+10 ہو گا۔اس[]
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 373--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جواب میں بائیں جانب 1 حاصل ہو گا اور یوں 
-جواب ہندسوں پر مبنی ہوگا۔اس صورت میں بائیں جانب[]
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بائیں ہندسے کو (یعنی حاصل $\OT1/ppl/m/n/1
+0 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو ) نظر انداز کرنے کی بجائے، مجموعہ س
+ے خارج کر کے، $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 وزن مختص 
+کریں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل 1 کو نظر انداز کرنے کی بجائے اس کو ب
-اقی عدد سے علیحدہ کر کے اس کا وزن اکائی تصور کریں اور پھر اسے بقایا[]
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 n$ \TU/JameelNoori
+Nastaleeq(1)/m/sl/10 ہندسوں کے باقی مجموعہ کے ساتھ جمع کر کے جواب حاصل کریں۔ اس
+ عمل کو واپسیں آخری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 • اگر کی قیمت کی قیمت سے کم ہو تب کا جواب
-ہندسوں پر مبنی ہوگا اور یہ ایک منفی عدد کو ظاہر کرے گا۔اس صورت[]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[][]$\OML/zplm/m/it/10 M$\TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت $\OML/zplm
+/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت سے کم ہونے کی صورت میں،
+ آخری (بائیں) ہندسے جمع کرنے سے حاصل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں حاصل جواب کا اساس-منفی-ایک کا تکملہ ل
-ے کر اس کے ساتھ نفی کا نشان لگائیں۔یہ اصل جواب[]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا \TU/AASameerSaga
+rNastaleeqBold(0)/m/n/10 نہیں \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا؛ \TU/Ja
+meelNooriNastaleeq(1)/m/n/9 مجموعہ \TU/JameelNooriNastaleeq(1)/m/sl/10 منفی عدد
+ کو ظاہر کرے گا، اور $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(1)/m/sl/10 
+ہندسوں پر مبنی ہو گا۔مجموعے کا اساس منفی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--384
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جواب: شکل 2.‏5 سے رجوع کریں۔ کا تکملہ-‏
-9 ہے۔ اس کا تکملہ-‏9 کو کے ساتھ جمع کرکے حاصل ہوتا ہے۔یہ عدد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--390
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جواب: شکل 2.‏6 سے رجوع کریں۔ کا تکملہ-‏
-9 ہے۔ تکملہ-‏9 کو کے ساتھ جمع کر کے حاصل ہوتا ہے۔یہ عدد پانچ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--390
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مبنی ہے لہٰذا بائیں جانب ایک کو
- عدد سے علیحدہ کر کے اسے اکائی تصور کرتے ہوئے بقایا عدد کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 387--389
+[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
+ عدد $\OT1/ppl/m/n/10 974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے بائیں $\OT1/p
+pl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 چسپاں کر کے اس میں ہندسوں کی ت
+عداد پوری کریں اور $\OT1/ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ک
+ے اساس منفی[]
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 چونکہ بائیں جانب آخری حاصل صفر ہے لہٰذا
- جواب حاصل کرنے کے لئے اس کا تکملہ-‏1 لیکر اس[]
+Underfull \hbox (badness 1057) in paragraph at lines 398--399
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس منفی ایک تکملہ $\OT1/ppl/m/n/10 9999
+ \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3121 \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 6
+878$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے بائیں منفی علامت منسلک کر کے جواب $
+\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 6878$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 2.‏7 مثبت اور منفی اعداد عام زندگی میں 
-مثبت اعداد لکھتے ہوئے ان کے ساتھ بائیں جانب جمع کی علامت[]
+Underfull \hbox (badness 10000) in paragraph at lines 403--405
+[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب \TU/JameelNooriNastaleeq(1)/m/sl/10 
+چھوٹے عدد $\OT1/ppl/m/n/10 974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 میں ہندسوں 
+کی تعداد پوری کر کے اس کے اساس منفی ایک تکملہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--416
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لگائی جاتی ہے یا پھر انہیں بغیر کسی علامت
- کے لکھا جاتا ہے البتہ منفی اعداد لکھتے ہوئے ان کے ساتھ نفی کی[]
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آخری (بائیں) ہندسے جمع کرتے ہوئے حاصل $\O
+T1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہوا جس کی بنا یہ مجمو
+عہ $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مشتمل ہے۔[
+]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی عدد کے مثبت یا منفی ہونے کو اس 
-عدد کا سائن 9 کہتے ہیں۔ یوں وہ اعداد جو مثبت یا منفی سائن رکھتے ہوں کو بمع-[]
+Underfull \hbox (badness 10000) in paragraph at lines 413--415
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہم اس حاصل $\OT1/ppl/m/n/10 1$ \TU/Jameel
+NooriNastaleeq(1)/m/sl/10 کو وزن $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1
+)/m/sl/10 مختص کر کے باقی $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(1)/m/sl/
+10 ہندسوں پر مبنی مجموعہ $\OT1/ppl/m/n/10 6877$ \TU/JameelNooriNastaleeq(1)/m/s
+l/10 کے ساتھ جمع کر کے جواب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سائن-اعداد 10 کہتے ہیں اور جن اعداد کا کو
-ئی سائن نہ ہو ان کو بغیر-سائن-اعداد 11 کہتے ہیں۔اعداد کو ان کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سائن اور مقدار سے ظاہر کرنے کے طریقہ کو ب
-مع-سائن-مقدار کا نظام 12 کہتے ہیں۔ کمپیوٹر میں حسابی عمل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو انہیں دو علامتوں کی مدد سے ظاہر کیا جا
-تا ہے۔روایتی طور پر مثبت یعنی + کی علامت کو صفر یعنی سے اور نفی یعنی - کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 علامت کو ایک یعنی سے ظاہر کیا جاتا ہے۔یہ 
-علامت عدد کے بائیں جانب لکھی جاتی ہے۔شکل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 2.‏7 میں اس کی وضاحت کی گئی ہے۔ یہاں ایک 
-دلچسپ بات سامنے آتی ہے۔اگر ہم شکل میں اعداد کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--423
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بائیں جانب آخری ہندسے کو علامت سمجھیں تب 
-کا مطلب بنتا ہے لیکن اگر ہم کو چار ثنائی ہنسوں کا عدد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--427
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس صورتِ حال کو سمجھنا ضروری ہے کہ کیا 
-ثنائی اعداد میں بائیں جانب آخری مقام پر صفر یا ایک[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--427
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس عدد کے علامت کو ظاہر کرتا ہے یا یہ عدد
- کا حصہ ہے۔ اس کا فیصلہ ان اعداد کو استعمال کرنے والے پر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--427
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منحصر ہے۔کمپیوٹر استعمال کرتے وقت آپ خود 
-یہ فیصلہ کرتے ہیں کہ آیا آپ سائن رکھنے والے اعداد استعمال[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--427
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کریں گے یا بغیر سائن والے اعداد۔جدول 2.‏1
- میں چار ثنائی ہندسوں پر مشتمل ممکنہ تمام اعداد دئے گئے ہیں۔[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل میں کل چار ثنائی ہندسے لکھائی کے لئ
-ے استعمال کئے گئے ہیں۔کمپیوٹر میں اعداد کو عموماً ایک بائٹ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی مدد سے لکھا جاتا ہے جس میں ہندسے ہوتے 
-ہیں۔ایک بائٹ استعمال کرتے ہوئے سائن رکھنے والے اعداد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں نچلے سات مقام، عدد کی مقدار لکھنے کے 
-لئے استعمال کئے جاتے ہیں جبکہ بائیں جانب آخری مقام[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں صفر یا ایک اس عدد کی مثبت یا منفی ہون
-ے کو ظاہر کرتا ہے۔مساوات 2.‏13 میں اس طرح کے چند[]
+Underfull \hbox (badness 1281) in paragraph at lines 437--439
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آخری حاصل $\OT1/ppl/m/n/10 1$ \TU/JameelN
+ooriNastaleeq(1)/m/sl/10 کو باقی عدد سے علیحدہ کر کے اسے $\OT1/ppl/m/n/10 1$ \T
+U/JameelNooriNastaleeq(1)/m/sl/10 کا وزن مختص کر کے (یعنی اس کو اکائی تصور کر ک
+ے)، دائیں چھ ہندسوں[]
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس مساوات میں ایک دلچسپ بات سامنے آتی ہ
-ے۔اس طریقہ لکھائی میں صفر دو مختلف[]
+Underfull \hbox (badness 2343) in paragraph at lines 456--458
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 چونکہ آخری حاصل صفر ہے، لہٰذا مجموعے کے م
+تمم $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 010011$ \TU/JameelNooriNastaleeq(1)/
+m/sl/10 کے ساتھ منفی کی علامت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو بمع-سائن-تکملہ-‏1 کے نظام یا بمع-سائن-
-تکملہ-‏2 کے نظام میں رکھا اور استعمال کیا جاتا ہے۔اگلے حصہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 روز مرہ زندگی میں مثبت اعداد لکھتے ہوئے ا
+نہیں بغیر کسی علامت کے، یا مثبت علامت $\OT1/zplm/m/n/10 (+)$ \TU/JameelNooriNas
+taleeq(1)/m/sl/10 کے ساتھ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں انہی نظاموں پر غور ہو گا۔ 2.‏8 بمع-سا
-ئن-تکملہ کے نظام کمپیوٹر میں عددی الیکٹرانکس کی مدد سے اعداد کو[]
+Underfull \hbox (badness 1867) in paragraph at lines 462--463
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لکھا جاتا ہے، البتہ منفی اعداد کے ساتھ من
+فی علامت $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/zplm/m/n/10 )$ \TU/JameelN
+ooriNastaleeq(1)/m/sl/10 ضرور لکھی جاتی ہے۔یوں درج ذیل اعداد درست لکھے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جمع یا منفی کیا جاتا ہے۔ دیکھا یہ گیا ہے 
-کہ یہ اعمال اس وقت زیادہ آسانی سے سرانجام دیئے جا سکتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 465--467
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی عدد کے مثبت یا منفی ہونے کو اس عد
+د کی علامت کہتے ہیں۔ یوں، وہ اعداد جو مثبت علامت $\OT1/zplm/m/n/10 (+)$ \TU/Jam
+eelNooriNastaleeq(1)/m/sl/10 یا منفی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں جب اساسی تکملہ یا اساس-منفی-ایک کا تک
-ملہ زیرِ استعمال لائے جائیں جیسا کہ کتاب کے حصہ 2.‏4 اور 2.‏5[]
+Underfull \hbox (badness 10000) in paragraph at lines 465--467
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 علامت $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10
+ ^^@\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(1)/m/sl/10 رکھتے ہوں علامت دار
+ اعداد کہلاتے ہیں، اور جن کی علامت نہ ہو بے علامت اعداد[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں دکھایا گیا ہے۔ اسی بناء پر کمپیوٹر کی
- دنیا میں منفی اعداد کو اساسی تکملہ یا اساس-منفی-ایک کی تکملہ[]
+Underfull \hbox (badness 1137) in paragraph at lines 468--469
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کمپیوٹر ثنائی اعداد ، $\OT1/ppl/m/n/10 
+0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OT1/ppl/m/n/10 1$\TU/JameelNooriNa
+staleeq(1)/m/sl/10 ، استعمال کرتا ہے، اور ہر معلومات کو انہیں سے ظاہر کرتا ہے۔ر
+وایتاً مثبت علامت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی صورت میں ہی لکھا جاتا ہے۔کمپیوٹر ثنائی
- اعداد استعمال کرتا ہے لہٰذا اس میں منفی اعداد کو تکملہ-‏1[]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+[]$\OT1/zplm/m/n/10 (+)$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو $\OT1/ppl/m/n/1
+0 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 (صفر ) اور نفی علامت $\OT1/zplm/m/n/10
+ (\OMS/zplm/m/n/10 ^^@\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ک
+و $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 (ایک) سے ظاہر کیا جات
+ا ہے۔علامت عدد کی بائیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 یا تکملہ-‏2 کی صورت میں لکھا جاتا ہے۔چار 
-ثنائی ہندسوں پر مبنی تمام ممکنہ اعداد کو بمع-سائن تکملہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جانب لکھی جاتی ہے۔ یوں $\OT1/zplm/m/n/10 
++\OT1/ppl/m/n/10 5[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو چار ثنائی ہندسوں س
+ے ظاہر کرتے ہوئے، بایاں ہندسہ مثبت علامت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--475
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی شکل میں جدول 2.‏2 میں دکھایا گیا ہے۔اس
-ی میں انہیں بمع-سائن مقدار کے طور بھی دکھایا گیا ہے۔[]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+[]$\OT1/zplm/m/n/10 (+)$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو جبکہ باقی تین ہ
+ندسے $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو ظاہر کریں گے۔ ا
+سی طرح $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5[]$ \TU/JameelNooriNastaleeq(1)/m/
+sl/10 کو آٹھ ثنائی ہندسوں سے ظاہر کرتے ہوئے، بایاں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک دلچسپ حقیقت پر غور کریں۔اگر ہم $\OT
+1/ppl/m/n/10 1101[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 میں بایاں ہندسہ علامت 
+تصور کریں تب یہ $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5[]$ \TU/JameelNooriNastal
+eeq(1)/m/sl/10 کو ظاہر[]
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 476--505
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 یہ جاننا ضروری ہے، آیا ثنائی اعداد کا ب
+ایاں ہندسہ علامت کو ظاہر کرتا ہے یا یہ عدد کا حصہ ہے؛ یہ فیصلہ[]
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 476--505
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعداد استعمال کرنے والے پر ہے۔کمپیوٹر است
+عمال کرتے وقت آپ فیصلہ کرتے ہیں کہ علامت دار یا بے علامت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--505
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 (غیر علامت دار) اعداد استعمال کریں گے۔ جد
+ول ٢.١[] میں چار ثنائی ہندسوں پر مشتمل علامت دار اعداد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--505
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دکھائے گئے ہیں۔ آپ دیکھ سکتے ہیں کہ صفر ک
+و دو مختلف طریقوں سے ظاہر کیا جا سکتا ہے، ان میں ایک مثبت[]
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس جدول میں چار ثنائی ہندسوں سے اعداد ل
+کھے گئے؛ کمپیوٹر میں اعداد، عموماً، ایک بائٹ استعمال[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کرتے ہوئے لکھا جاتا ہے۔ ایک بائٹ $\OT1/pp
+l/m/n/10 8$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی ہندسوں کو کہتے ہیں۔ علامت
+ دار اعداد کو بائٹ میں لکھتے ہوئے،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اتنا کچھ کہنے کے بعد آپ کو بتاتا چلوں ک
+ہ، کمپیوٹر میں منفی اعداد کو علامت دار قدر اظہار میں نہیں بلکہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 علامت دار و تکملہ $\OT1/ppl/m/n/10 1$ \TU
+/JameelNooriNastaleeq(1)/m/sl/10 یا علامت دار و تکملہ $\OT1/ppl/m/n/10 2$ \TU/J
+ameelNooriNastaleeq(1)/m/sl/10 نظام میں رکھا اور استعمال کیا جاتا ہے۔اگلے حصہ م
+یں ان[]
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کمپیوٹر میں عددی برقیات کی مدد سے اعداد ج
+مع یا منفی کیے جاتے ہیں۔ یہ اعمال اساسی تکملہ یا اساس منفی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک تکملہ (حصہ ٢.٤[] اور حصہ ٢.٥[] دیکھیں
+) استعمال کرتے ہوئے زیادہ خوش اسلوبی سے سرانجام دیے جاتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--552
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کمپیوٹر چونکہ ثنائی اعداد استعمال کرتا 
+ہے، لہٰذا اس میں منفی اعداد تکملہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(
+1)/m/sl/10 یا تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 میں
+ لکھے جاتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--552
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔جدول ٢.٢[] میں چار ثنائی ہندسی (چار ب
+ِٹ) علامت دار اعداد کی تکملہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/
+sl/10 اور تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 روپ پیش
+ کی گئی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 مثبت عدد $\OT1/zplm/m/n/10 +\OML/zplm/m
+/it/10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی علامت دار روپ میں علامتی بِٹ $
+\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 سے $\OT1/ppl/m/n/10 1$ \
+TU/JameelNooriNastaleeq(1)/m/sl/10 کرنے سے $\OMS/zplm/m/n/10 ^^@\OML/zplm/m/it/
+10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا علامت دار روپ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل ہو گا۔یوں $\OMS/zplm/m/n/10 ^^@\OT1/
+ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو علامت دار روپ میں لکھنے کی
+ خاطر $\OT1/zplm/m/n/10 +\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10
+ کو علامت دار روپ $\OT1/ppl/m/n/10 0101[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 
+میں[]
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 منفی عدد $\OMS/zplm/m/n/10 ^^@\OML/zplm
+/m/it/10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو علامت دار تکملہ ایک روپ میں 
+لکھنے کی خاطر $\OT1/zplm/m/n/10 +\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(
+1)/m/sl/10 کو علامت دار ثنائی عدد (یعنی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سادہ ثنائی روپ میں) لکھ کر اس کا تکملہ $\
+OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لیں۔یاد رہے کہ تکملہ $\OT
+1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل کرتے ہوئے ثنائی عدد کے
+ ہر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--558
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسہ (بمع علامتی بِٹ) کا متمم لینا ہو گا
+۔ یوں $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/
+10 کو علامت دار تکملہ ایک روپ میں لکھنے کی خاطر $\OT1/zplm/m/n/10 +\OT1/ppl/m/n
+/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو[]
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول 2.‏2 سے آپ دیکھ سکتے ہیں کہ کسی بھ
-ی مثبت عدد کو ثنائی ہندسوں میں ایک ہی طریقہ سے لکھا جاتا[]
+Underfull \hbox (badness 10000) in paragraph at lines 559--178
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 منفی عدد $\OMS/zplm/m/n/10 ^^@\OML/zplm
+/m/it/10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو علامت دار تکملہ دو روپ میں ل
+کھنے کی خاطر $\OT1/zplm/m/n/10 +\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(1
+)/m/sl/10 کو علامت دار ثنائی عدد (یعنی سادہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے جبکہ کسی بھی منفی عدد کو تین طریقوں سے
- لکھا جاتا ہے۔اس کا مطلب ہے کہ مثبت عدد کو ان تین طریقوں[]
+Underfull \hbox (badness 10000) in paragraph at lines 559--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی روپ میں) لکھ کر اس کا تکملہ $\OT1/p
+pl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لیں۔یاد رہے کہ تکملہ $\OT1/ppl
+/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل کرتے ہوئے ثنائی عدد کے ہر ہ
+ندسہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لکھ کر اس کے سائن کو صفر سے تبدیل کر کے ا
-یک کرنے سے یعنی بمع-سائن منفی عدد حاصل ہوتا ہے۔یوں کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 559--178
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 (بمع علامتی بِٹ) کا متمم لینا ہو گا۔ یوں 
+$\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو 
+علامت دار تکملہ دو روپ میں لکھنے کی خاطر $\OT1/zplm/m/n/10 +\OT1/ppl/m/n/10 5$ 
+\TU/JameelNooriNastaleeq(1)/m/sl/10 کو $\OT1/ppl/m/n/10 0101[]$ \TU/JameelNoori
+Nastaleeq(1)/m/sl/10 لکھ کر[]
+ []
+
+[22]
+\openout2 = `./tex/booleanAlgebra.aux'.
+
+ (./tex/booleanAlgebra.tex
+باب \arabicdigits{3}.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین الجبرا انگلستان کے ریاضی دان جارج 
+بوولی کے نام سے جانا جاتا ہے، جنہوں نے اس الجبرا کو دریافت کیا۔بوولین[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بمع-سائن عدد کی شکل میں لکھنے کی خاطر کو 
-بمع-سائن عدد کی شکل میں لکھیں یعنی اور اس میں سائن کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 الجبرا ذہنی سوچ یعنی منطق کو الجبرائی روپ
+ میں لکھنے کی صلاحیت رکھتی ہے۔اس لئے حیرانی کی بات نہیں کہ کمپیوٹر اسی کو[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 7.
+LaTeX Info: Redefining \sffamily on input line 7.
+LaTeX Info: Redefining \ttfamily on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس کے برعکس، بوولین الجبرا میں متغیرات کی
+ صرف دو ممکنہ قیمتیں ہیں۔ ان دو قیمتوں کو عموماً $\OT1/ppl/m/n/10 0$ \TU/Jameel
+NooriNastaleeq(1)/m/sl/10 (صفر) اور $\OT1/ppl/m/n/10 1$[]
+ []
+
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 26.
+
+Underfull \hbox (badness 4378) in paragraph at lines 27--28
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیر ہے، لہٰذا اس کی ممکنہ قیمتیں صرف $\
+OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OT1/ppl/m/n/10 1$ \
+TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔اسی طرح $\OML/zplm/m/it/10 Y$ \TU/Jameel
+NooriNastaleeq(1)/m/sl/10 بھی بوولین متغیر ہے، لہٰذا اس کی قیمت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 صفر سے تبدیل کر کے ایک کر دیں یعنی ۔یہ کو
- بمع-سائن عدد کے طور لکھنے کا طریقہ ہے۔ منفی عددکو بمع-سائن[]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بھی صرف $\OT1/ppl/m/n/10 0$ \TU/JameelNoo
+riNastaleeq(1)/m/sl/10 اور $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl
+/10 ہو سکتی ہے۔تابع متغیر $\OML/zplm/m/it/10 Z$\TU/JameelNooriNastaleeq(1)/m/sl
+/10 بھی بوولین متغیر ہے۔اس طرح اگرچہ اس کی قیمت $\OML/zplm/m/it/10 X$ \TU/Jamee
+lNooriNastaleeq(1)/m/sl/10 اور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ-ایک کی صورت میں لکھنے کی خاطرکو بمع
--سائن ثنائی عدد کے طور لکھیں (یعنی اس عدد کو سادہ ثنائی[]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]$\OML/zplm/m/it/10 Y$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی تابع ہے، اس کے ب
+اوجود $\OML/zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت صرف $\O
+T1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 یا $\OT1/ppl/m/n/10 1$ \TU
+/JameelNooriNastaleeq(1)/m/sl/10 ہی ہو سکتا ہے۔ متغیرات $\OML/zplm/m/it/10 X$ \
+TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNas
+taleeq(1)/m/sl/10 درج ذیل چار ممکنہ[]
+ []
+
+[23
+
+
+
+
+]
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--59
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 آئیں، جدول ٣.١[] میں پیش کیے گئے منطقی 
+تفاعل پر غور کرتے ہیں جس کی تمام ممکنہ قیمتیں اس جدول میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 طریقہ سے لکھیں)۔اس ثنائی عدد کا تکملہ-‏1 
-حاصل کرنے سےکی بمع-سائن تکملہ-‏1 شکل حاصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 42--59
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دی گئی ہیں۔ اس مثال میں تابع متغیر $\OML/
+zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت صرف اس وقت $\OT1/pp
+l/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہے جب $\OML/zplm/m/it/10 X$ \TU
+/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNasta
+leeq(1)/m/sl/10 دونوں کی قیمت $\OT1/ppl/m/n/10 1$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہوگی۔یاد رہے کہ تکملہ-‏1 حاصل کرتے وقت ثن
-ائی عدد کے ہر ہندسے کو (بمع سائن کے) اُلٹ کرنا ہوگا۔یوں کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اسی کی بنا پر جدول ٣.١[] میں پیش تفاعل (ا
+ور عمل) کو بوولین ضرب یا منطقی ضرب کہتے ہیں۔ بوولین ضرب کو آزاد[]
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک عدد سمجھتے ہوئے اس کا تکملہ-‏1 لیں یع
-نی ۔یہیکو بمع-سائن تکملہ-‏1 میں ظاہر کرتا ہے۔ منفی عددکو بمع-سائن[]
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیرات کے درمیان نقطہ ”$\OMS/zplm/m/n/10
+ ^^A$\TU/JameelNooriNastaleeq(1)/m/sl/10 “ سے یا آزاد متغیرات کو قریب قریب لکھن
+ے سے ظاہر کیا جاتا ہے۔یوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--178
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ-دو کی صورت میں لکھنے کی خاطر اسے ثن
-ائی عدد کے طور لکھ کر اس کا تکملہ-دو حاصل کریں۔مثلاً کو لکھیں[]
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منطقی ضرب کے تصور کو وسعت دے کر متعدد آزا
+د متغیرات کے لئے بیان کیا جا سکتا ہے۔ منطقی ضرب کی عمومی[]
  []
 
-[19] [20
+[24]
+LaTeX Info: Redefining \rmfamily on input line 82.
+LaTeX Info: Redefining \sffamily on input line 82.
+LaTeX Info: Redefining \ttfamily on input line 82.
+LaTeX Info: Redefining \rmfamily on input line 106.
+LaTeX Info: Redefining \sffamily on input line 106.
+LaTeX Info: Redefining \ttfamily on input line 106.
+LaTeX Info: Redefining \rmfamily on input line 121.
+LaTeX Info: Redefining \sffamily on input line 121.
+LaTeX Info: Redefining \ttfamily on input line 121.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--136
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دو آزاد متغیرات کے بوولین تفاعل کی ایک او
+ر مثال لیتے ہیں جس کو جدول ٣.٣[] میں پیش کیا گیا ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول ٣.٣[] اور جدول ٣.٤[] کے اولین تین 
+نتائج ایک جیسے ہیں۔اس مشابہت کی بنا جدول ٣.٣[] میں دیے گئے بوولین[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تفاعل کو بوولین جمع یا منطقی جمع کہتے ہیں
+ اور اس بوولین تفاعل کو جمع کے نشان ”$\OT1/zplm/m/n/10 +$\TU/JameelNooriNastale
+eq(1)/m/sl/10 “ سے ہی ظاہر کیا جاتا ہے۔یوں[]
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین جمع کے تصور کو وسعت دے کر متعدد 
+آزاد متغیرات کے لئے بیان کیا جا سکتا ہے۔ بوولین جمع کی عمومی[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 156.
+LaTeX Info: Redefining \sffamily on input line 156.
+LaTeX Info: Redefining \ttfamily on input line 156.
+LaTeX Info: Redefining \rmfamily on input line 175.
+LaTeX Info: Redefining \sffamily on input line 175.
+LaTeX Info: Redefining \ttfamily on input line 175.
+
+Underfull \hbox (badness 4193) in paragraph at lines 151--188
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 تین متغیر منطقی جمع تفاعل $\OML/zplm/m/
+it/10 Z \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 A \OT1/zplm/m/n/10 + \OML/zplm/m/i
+t/10 B \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl
+/10 جدول ٣.٥[] میں پیش کیا گیا ہے۔ یاد رہے کہ تین آزاد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--188
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیرات کے منطقی جمع کا الجبرائی جمع کے س
+اتھ کوئی تعلق نہیں۔یہاں جمع کی علامت بوولین جمع کو ظاہر کرتی ہے لہٰذا[]
+ []
+
+
+Underfull \hbox (badness 3884) in paragraph at lines 193--194
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس تفاعل کو بوولین نفی کہتے ہیں۔آپ دیکھ
+ سکتے ہیں کہ درحقیقت، تابع متغیر $\OML/zplm/m/it/10 Z$\TU/JameelNooriNastaleeq(
+1)/m/sl/10 ، آزاد متغیر کا متمم ہے۔یوں بوولین نفی[]
+ []
+
+[26]
+LaTeX Info: Redefining \rmfamily on input line 210.
+LaTeX Info: Redefining \sffamily on input line 210.
+LaTeX Info: Redefining \ttfamily on input line 210.
+LaTeX Info: Redefining \rmfamily on input line 225.
+LaTeX Info: Redefining \sffamily on input line 225.
+LaTeX Info: Redefining \ttfamily on input line 225.
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--244
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دو آزاد متغیرات کا ایسا بوولین تفاعل جدول
+ ٣.٧[] میں دکھایا گیا ہے، جس کا تابع متغیر اس صورت $\OT1/ppl/m/n/10 1$ \TU/Jame
+elNooriNastaleeq(1)/m/sl/10 ہے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--244
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جب صرف ایک آزاد متغیر $\OT1/ppl/m/n/10 1$
+ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو۔ یہ دو متغیر بوولین بلا شرکت جمع ہے۔ اس
+ تصور کو متعدد آزاد متغیرات[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین بلا شرکت جمع تفاعل کا نفی (یعنی مت
+مم) لینے سے بوولین ضد بلا شرکت جمع حاصل ہو گا، جو دو اور تین آزاد[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 276.
+LaTeX Info: Redefining \sffamily on input line 276.
+LaTeX Info: Redefining \ttfamily on input line 276.
+LaTeX Info: Redefining \rmfamily on input line 291.
+LaTeX Info: Redefining \sffamily on input line 291.
+LaTeX Info: Redefining \ttfamily on input line 291.
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--309
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول ٣.٧[] اور جدول ٣.٨[] میں تابع متغیر 
+نفی کرنے سے بالترتیب دو اور تین بوولین ضد بلا شرکت تفاعل[]
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جہاں ایک تار دوسری تار کے اوپر سے گزرتی
+ ہو اور دونوں آپس میں جڑی ہوں، وہاں جوڑ کے مقام پر نقطے کا نشان لگایا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جہاں تاریں آپس میں جڑی نہ ہوں وہاں انہی
+ں بغیر نقطے کے نشان سے ایک دوسری کے اوپر سے گزرتا دکھایا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 تیسری صورت بھی شکل میں دکھائی گئی ہے جہ
+اں غلط فہمی کا امکان نہیں پایا جاتا۔اس میں ایک تار کا سر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دوسری تار پر ختم ہو تا ہے۔ ایسی صورت میں 
+انہیں ایک تار تصور کیا جائے (یعنی یہ دونوں آپس میں جڑی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین الجبرا کے تین اہم ترین تفاعل پر حص
+ہ ٣.١[] میں غور کیا گیا۔یہ تفاعلات عددی برقیات میں[]
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 336--337
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کلیدی کردار ادا کرتے ہیں، جہاں انہیں عددی
+ ادوار کی مدد سے جامہ عمل پہنایا جاتا ہے۔یہ مخصوص عددی ادوار[]
+ []
+
+
+Underfull \hbox (badness 6758) in paragraph at lines 339--340
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منطقی (بوولین) ضرب تفاعل کو ضرب گیٹ سے حا
+صل کیا جاتا ہے، جو شکل 3.‏2 میں دکھایا گیا ہے۔ آزاد[]
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل 3.‏3 میں ضرب گیٹ کی کارکردگی ترسیم 
+کی گئی ہے۔آپ دیکھ سکتے ہیں کہ مخارج صرف اور صرف اُس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 صورت بلند ہوتا ہے جب ضرب گیٹ کے تمام مداخ
+ل بلند ہوں۔اس شکل میں مداخل کو کسی خاص[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ضرب گیٹ کو شکل 3.‏4 میں بطور عددی گیٹ د
+کھایا گیا ہے جہاں ایک داخلی پینا کو قابو پینا کا نام دیا گیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے جبکہ دوسرا مداخل کہلاتا ہے۔ضرب گیٹ کے 
+جدول سے واضح ہے کہ جب تک قابو پینا $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq
+(1)/m/sl/10 ہو، خارجی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پینا $\OT1/ppl/m/n/10 0$ \TU/JameelNooriN
+astaleeq(1)/m/sl/10 رہتا ہے۔اس صورت میں مداخل پر موجود مواد، خارجی پینا تک نہیں
+ پہنچ سکتا، یعنی اس پر $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 
+یا $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کرنے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کا مخارج پر کوئی اثر نہیں ہوتا؛ ہم کہتے ہ
+یں قابو پینا نے ضرب گیٹ کو معذور کر دیا ۔اس کے برعکس اگر قابو پینا $\OT1/ppl/m/
+n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو[]
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 343--344
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تب خارجی پینا پر وہی کچھ ہوگا جو مداخل پر
+ ہے؛ ہم کہتے ہیں ضرب گیٹ مجاز کر دیا گیا ہے۔قابو پینا پر ایک یا صفر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دینے سے داخلی اشارہ (مواد) کو خارجی پینا 
+تک پہنچنا ممکن یا ناممکن بنایا جا سکتا ہے۔یوں یہ ایک دروازے کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--352
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 3.‏3.‏2 جمع گیٹ منطقی جمع یعنی بوولین ج
+مع کے تفاعل کو جمع گیٹ 13 سے حاصل کیا جاتا ہے جسے شکل 3.‏6 میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پہنچنا ممکن بنایا جاتا ہے جبکہ اس پر ایک 
+دینے سے یہ ناممکن بنایا جاتا ہے۔ جمع گیٹ کی کارکردگی شکل 3.‏7[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 میں گراف کے شکل میں دکھائی گئی ہے۔آپ دیکھ
+ سکتے ہیں کہ جمع گیٹ کا مخارج اُس وقت بلند ہوتا ہے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 نفی تفاعل صرف ایک ہی آزاد اور ایک ہی تا
+بع متغیرہ کے لئے ممکن ہے۔اسی وجہ سے نفی گیٹ کا ایک ہی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 مداخل اور ایک ہی مخارج ہوتا ہے جبکہ ضرب گ
+یٹ اور جمع گیٹ دو یا دو سے زیادہ مداخل کے بھی ہو سکتے ہیں۔شکل[]
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 361--362
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 نفی گیٹ کی کارکردگی شکل 3.‏9 میں گراف ک
+ے شکل میں دکھائی گئی ہے۔آپ دیکھ سکتے ہیں کہ نفی گیٹ کا مخارج[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل 3.‏11 کے حصہ (ا) میں دو عدد ضرب گیٹ
+ جوڑے گئے ہیں۔ساتھ ہی اس دور کا بوولین جدول دیا گیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔آپ دیکھ سکتے ہیں کہ یہ دور تین داخلی ض
+رب گیٹ کا کردار ادا کر رہا ہے۔ یوں دو داخلی ضرب گیٹوں کی مدد سے زیادہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 مداخل کا ضرب گیٹ حاصل کیا جا سکتا ہے۔اسی 
+طرح شکل کے حصہ (ب) میں تین داخلی جمع گیٹ کا[]
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 366--368
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حصول دکھایا گیا ہے۔ شکل 3.‏12 اور شکل 3.‏
+13 میں ان گیٹوں پر مبنی ادوار کے چند مثالیں اور ان کو حل کرنا دکھایا[]
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل 3.‏12 میں سب سے اوپر دو جمع گیٹوں ک
+ی خارجی پیناوں کو اس کے سامنے ایک جمع گیٹ کی داخلی پیناوں سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لکیروں (تاروں) کے ذریعہ جوڑا گیا ہے۔اس طر
+ح کی لکیریں ایک خارجی پینا سے شروع اور ایک یا ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سے زیادہ داخلی پیناوں پر ختم ہوتی ہیں۔یوں
+ جڑے تار خارجی پینا پر موجود سگنل یعنییاکو سامنے گیٹ کے داخلی پینا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 یا پیناوں تک پہنچاتی ہیں۔اس طرح سب سے اوپ
+ر والی تار (لکیر) کا مطلب یہ ہوا کہ بائیں جانب جمع گیٹ کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کی مداخل بنی ہے۔ 3.‏3.‏4 نفی۔جمع گیٹ اور 
+نفی۔ضرب گیٹ شکل 3.‏14 (ا) میں تین داخلی نفی۔جمع گیٹ اور اس کا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین جدول دکھایا گیا ہے۔شکل (ب) میں تین
+ داخلی جمع گیٹ کے ساتھ نفی گیٹ جوڑا گیا ہے۔ان جڑواں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--375
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 گیٹوں کے دور کا بوولین جدول بھی یہی حاصل 
+ہوتا ہے گویا شکل کے دونوں حصے ایک ہی تفاعل کو ظاہر کرتے ہیں۔اسی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اسی طرح شکل 3.‏15 میں تین داخلی نفی۔ضرب
+ گیٹ دکھایا گیا ہے جسے نفی اور ضرب کے لفظ جوڑ کر نفی۔ضرب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--380
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 گیٹ 15 کا نام دیا گیا ہے۔ بالکل ضرب اور ج
+مع گیٹوں کی طرح یہ دو قسم کے گیٹ بھی دو، تین یا ان سے زیادہ مداخل والے ہو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی نفی۔جمع گیٹ کی مخارج صرف اُسی ص
+ورتہوتا ہے جب اس کے تمام مداخلہوں جبکہ کسی بھی نفی۔ضرب گیٹ کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل 3.‏16 میں باری باری نفی۔جمع گیٹ اور
+ نفی۔ضرب گیٹ کی مدد سے نفی گیٹ کا عمل حاصل کرنا دکھایا گیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔یوں نفی گیٹ کی جگہ نفی۔جمع گیٹ استعمال
+ کیا جا سکتا ہے یا پھر اس کی جگہ نفی۔ضرب گیٹ استعمال[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کیا جا سکتا ہے۔ اسی طرح شکل 3.‏17 میں نفی
+۔جمع گیٹ کی مدد سے جمع گیٹ اور ضرب گیٹ کا عمل حاصل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--386
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کیا گیا ہے جبکہ شکل 3.‏18 میں نفی۔ضرب گیٹ
+ استعمال کرتے ہوئے جمع گیٹ اور ضرب گیٹ کا عمل[]
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 389--390
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس شکل میں ضرب گیٹ بناتے وقت بائیں جانب
+ سب سے نیچے نفی۔جمع گیٹ کے دونوں مداخل آپس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس حصہ کے شروع میں دیکھا گیا کہ جمع، ضر
+ب اور نفی گیٹوں کی مدد سے نفی۔جمع گیٹ اور نفی۔ضرب گیٹ[]
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 391--392
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل کئے جا سکتے ہیں جبکہ اس حصہ کے آخر م
+یں نفی۔جمع گیٹوں اور نفی۔ضرب گیٹوں کی مدد سے نفی گیٹ،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 3.‏3.‏5 بلا شرکت جمع گیٹ اور نفی بلا شر
+کت جمع گیٹ بلا شرکت جمع تفاعل کو بلا شرکت جمع گیٹ 16 سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو نفی بلا شرکت جمع گیٹ 17 کی مدد سے حاصل
+ کیا جاتا ہے جس کی علامت شکل (ب) میں دکھائی گئی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--395
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔بلا شرکت جمع گیٹ کی مخارج کے ساتھ نفی 
+گیٹ منسلک کرنے سے بلا شرکت نفی۔جمع گیٹ حاصل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 تین مداخل والے بلا شرکت جمع گیٹ کا مخار
+ج حاصل کرتے وقت اس کے کسی دو مداخل کا بلا شرکت جمع[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کا بلا شرکت جمع ہے۔مساوات 3.‏19 میں تین م
+داخل والے بلا شرکت جمع گیٹ کا بوولین جدول دکھایا گیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔جیسے آپ اس جدول سے دیکھ سکتے ہیں، کسی 
+بھی بلا شرکت جمع گیٹ کا مخارج اُس صورت بلند ہوتا ہے[]
+ []
+
+[30]) [31] [32
 
 
 
-] (./answer.tex) [21] [22
+] (./answer.tex) [33] [34
 
 
 ]
@@ -2610,8 +3213,8 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
 (./digitalCircuitsLatex.aux (./tex/digitalCircuitsPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/binarySystem.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
@@ -2621,28 +3224,66 @@ LaTeX Info: Redefining \rmfamily on input line 29.
 LaTeX Info: Redefining \sffamily on input line 29.
 LaTeX Info: Redefining \ttfamily on input line 29.
 ) (./tex/basicMaths.aux
-LaTeX Info: Redefining \rmfamily on input line 15.
-LaTeX Info: Redefining \sffamily on input line 15.
-LaTeX Info: Redefining \ttfamily on input line 15.
-LaTeX Info: Redefining \rmfamily on input line 31.
-LaTeX Info: Redefining \sffamily on input line 31.
-LaTeX Info: Redefining \ttfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
+)
+(./tex/booleanAlgebra.aux
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+LaTeX Info: Redefining \rmfamily on input line 47.
+LaTeX Info: Redefining \sffamily on input line 47.
+LaTeX Info: Redefining \ttfamily on input line 47.
+LaTeX Info: Redefining \rmfamily on input line 63.
+LaTeX Info: Redefining \sffamily on input line 63.
+LaTeX Info: Redefining \ttfamily on input line 63.
+LaTeX Info: Redefining \rmfamily on input line 81.
+LaTeX Info: Redefining \sffamily on input line 81.
+LaTeX Info: Redefining \ttfamily on input line 81.
+LaTeX Info: Redefining \rmfamily on input line 99.
+LaTeX Info: Redefining \sffamily on input line 99.
+LaTeX Info: Redefining \ttfamily on input line 99.
+LaTeX Info: Redefining \rmfamily on input line 118.
+LaTeX Info: Redefining \sffamily on input line 118.
+LaTeX Info: Redefining \ttfamily on input line 118.
+LaTeX Info: Redefining \rmfamily on input line 136.
+LaTeX Info: Redefining \sffamily on input line 136.
+LaTeX Info: Redefining \ttfamily on input line 136.
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+LaTeX Info: Redefining \rmfamily on input line 173.
+LaTeX Info: Redefining \sffamily on input line 173.
+LaTeX Info: Redefining \ttfamily on input line 173.
+LaTeX Info: Redefining \rmfamily on input line 193.
+LaTeX Info: Redefining \sffamily on input line 193.
+LaTeX Info: Redefining \ttfamily on input line 193.
+LaTeX Info: Redefining \rmfamily on input line 211.
+LaTeX Info: Redefining \sffamily on input line 211.
+LaTeX Info: Redefining \ttfamily on input line 211.
 ))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 238.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 239.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 54359 strings out of 479819
- 1431511 string characters out of 11645846
- 14045713 words of memory out of 24000000
- 70431 multiletter control sequences out of 15000+600000
+ 54426 strings out of 479819
+ 1433093 string characters out of 11645846
+ 14046967 words of memory out of 24000000
+ 70491 multiletter control sequences out of 15000+600000
  562014 words of font info for 170 fonts, out of 12000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,17n,136p,2645b,794s stack positions out of 5000i,500n,10000p,12000000b,80000s
+ 78i,17n,136p,2645b,896s stack positions out of 5000i,500n,10000p,12000000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (16 pages).
+Output written on digitalCircuitsLatex.pdf (29 pages).

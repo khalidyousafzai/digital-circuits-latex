@@ -28,4 +28,64 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}دو اعداد کی منفی بذریعہ اساس منفی ایک تکملہ}{\arabicdigits {17}}%
-\contentsline {chapter}{جوابات}{\arabicdigits {21}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {6}}مثبت اور منفی اعداد}{\arabicdigits {19}}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {7}}علامت دار و تکملہ نظام}{\arabicdigits {21}}%
+\contentsline {chapter}{\numberline {\arabicdigits {3}}بوولین الجبرا}{\arabicdigits {23}}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {1}}بوولین الجبرا کے بنیادی تصورات}{\arabicdigits {23}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {1}}منطقی ضرب}{\arabicdigits {24}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {2}}منطقی جمع}{\arabicdigits {25}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {3}}منطقی نفی}{\arabicdigits {26}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {4}}منطقی بلا شرکت جمع}{\arabicdigits {27}}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {5}}منطقی ضد بلا شرکت جمع}{\arabicdigits {27}}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {2}}برقی تاروں میں جوڑ کی وضاحت}{\arabicdigits {28}}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {3}}عددی گیٹ}{\arabicdigits {28}}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {1}}ضرب گیٹ}{\arabicdigits {29}}%
+\contentsline {chapter}{جوابات}{\arabicdigits {33}}%

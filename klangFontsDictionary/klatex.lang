@@ -458,6 +458,8 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>خبر</keyword>
 <keyword>دودھ</keyword>
 <keyword>مفہوم</keyword>
+<keyword>گروہ</keyword>
+<keyword>گروہوں</keyword>
 
         </context>
 
@@ -664,6 +666,9 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>تاریخیں</keyword>
 <keyword>نسل</keyword>
 <keyword>نسلیں</keyword>
+<keyword>نظم</keyword>
+<keyword>انتظام</keyword>
+
 
         </context>
 
@@ -739,6 +744,8 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>چکر</keyword>
 	<keyword>قلمیہ</keyword>
 	<keyword>رکوع</keyword>
+	<keyword>قالب</keyword>
+	<keyword>قوالب</keyword>
 
         </context>
 
