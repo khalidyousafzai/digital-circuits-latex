@@ -1,0 +1,208 @@
+%=============================
+%gives pin tip's locations as (pax,pay), pins are pa,pb,...,pf, pup,pdown corresponding to p1,..,p6,pu,pd
+\newcommand{\kupinAnchors}{
+\def\pay{-\kpin}
+\def\pax{-\kulV-2*\kpsep}
+\def\pby{-\kpin}
+\def\pbx{-\kulV-1*\kpsep}
+\def\pcy{-\kpin}
+\def\pcx{-\kulV-0*\kpsep}
+\def\pdy{\kdimX+\kpin}
+\def\pdx{-\kulV-0*\kpsep}
+\def\pey{\kdimX+\kpin}
+\def\pex{-\kulV-1*\kpsep}
+\def\pfy{\kdimX+\kpin}
+\def\pfx{-\kulV-2*\kpsep}
+\def\pupy{\kdimX/2}
+\def\pupx{-\kpin-\kdimY}
+\def\pdowny{\kdimX/2}
+\def\pdownx{\kpin}
+\def\udimFFx{\kdimY}
+\def\udimFFy{\kdimX}
+}
+%====================================
+%=============================
+%draws general purpose FF's SKELETON ONLY
+%labels, pins, clock edge needs to be added separately
+%can be anchored with pin at specific coordinate(x,y) as explained down
+%%   \kSRFF[u1]{xshift}{yshift}   
+%   to anchor pin2 at location (x,y) use
+%	\kSRFF[u1]{x-\pbx}{y-\pby}
+%pin 1,2,3,4,5,6,u,d are in this context written \pba, ...\pbf,\pbup,\pbdown
+
+\newcommand{\kuFF}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pcu{pcu}			%clock edge, upper corner
+\def\pcm{pcm}			%clock edge middle corner
+\def\pcd{pcd}			%clock edge lower corner
+\def\pn{pn}			%pin 'ocirc'
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.50}
+\pgfmathsetmacro{\kdimX}{2*\kulH+0*\kpsep}
+\pgfmathsetmacro{\kdimY}{2*\kulV+2*\kpsep}		%two spaces between 3 pins
+\def\cdelX{0.15}
+\def\cdelY{0.15}
+%%\def\leftPins{0/R/R,2/S/S}
+%%\def\rightPins{0/{\overline{Q}}/QN,2/Q/Q}
+\draw[thick](\kshiftX,\kshiftY) rectangle ++(-\kdimY,\kdimX);
+\draw(\kshiftX,\kshiftY)coordinate(\kref-south-west);
+\draw(\kshiftX,\kshiftY+\kdimX)coordinate(\kref-south-east);
+\draw(\kshiftX-\kdimY,\kdimX+\kshiftY)coordinate(\kref-north-east);
+\draw(\kshiftX-\kdimY,\kshiftY)coordinate(\kref-north-west);
+\draw(\kshiftX,\kdimX/2+\kshiftY)coordinate(\kref-south);
+\draw(\kshiftX-\kdimY,\kdimX/2+\kshiftY)coordinate(\kref-north);
+\draw(\kshiftX-\kdimY/2,\kshiftY)coordinate(\kref-west);
+\draw(\kshiftX-\kdimY/2,\kdimX+\kshiftY)coordinate(\kref-east);
+\draw(\kshiftX-\kdimY/2,\kdimX/2+\kshiftY)coordinate(\kref-center);
+%%left pins
+\foreach \n/\m in {0/3,1/2,2/1}{\draw(\kshiftX-\kulV-\n*\kpsep,\kshiftY)
+coordinate(\kref\pb\m)+(0,\klshift)coordinate(\kref\pl\m)+(0,-\knshift)
+coordinate(\kref\pn\m)+(0,-\kpin)coordinate(\kref\p\m);}
+%%right pins
+\foreach \n/\m in {0/4,1/5,2/6}{\draw(\kshiftX-\kulV-\n*\kpsep,\kdimX+\kshiftY)
+coordinate(\kref\pb\m)+(0,-\klshift)coordinate(\kref\pl\m)+(0,\knshift)
+coordinate(\kref\pn\m)+(0,\kpin)coordinate(\kref\p\m);}
+%%up pin
+\foreach \n/\m in {0/u}{\draw(\kshiftX-\kdimY,+\kulH+\n*\kpsep+\kshiftY)
+coordinate(\kref\pb\m)+(\klshift,0)coordinate(\kref\pl\m)+(-\knshift,0)
+coordinate(\kref\pn\m)+(-\kpin,0)coordinate(\kref\p\m);}
+%%down pin
+\foreach \n/\m in {0/d}{\draw(\kshiftX,\kulH+\n*\kpsep+\kshiftY)
+coordinate(\kref\pb\m)+(-\klshift,0)coordinate(\kref\pl\m)+(\knshift,0)
+coordinate(\kref\pn\m)+(\kpin,0)coordinate(\kref\p\m);}
+%%clock edges left pin
+\foreach \n/\m in {0/3,1/2,2/1}{\draw(\kshiftX-\kulV-\n*\kpsep,\kshiftY)+(\cdelY,0)
+coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(\kref\pcu\m);}
+%%clock edges right pin
+\foreach \n/\m in {0/4,1/5,2/6}{\draw(\kshiftX-\kulV-\n*\kpsep,\kdimX+\kshiftY)
++(\cdelY,0)coordinate(\kref\pcd\m)+(0,-\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(\kref\pcu\m);}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%   to anchor pin2 at location (x,y) use
+%	\kgenSRFF[u1]{x-\pbx}{y-\pby}
+%pin 1,2,3,4,5,6,u,d are in this context written \pba, ...\pbf,\pbup,\pbdown
+
+\newcommand{\kuSRFF}[3][u0]{
+\kuFF[#1]{#2}{#3}
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\foreach \n in {1,2,3,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n /\lbl in {1/S,2/C,3/R,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kuDFF}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kuFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kuDFFud}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kuFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6,u,d}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kuJKFF}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kuFF[#1]{#2}{#3}
+\foreach \n in {1,2,3,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/J,3/K,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kuTFF}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kuFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\kuBuffer}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pn{pn}			%pin 'ocirc'
+\def\pin{pin}			%pin tip
+\def\pout{pout}			%pin tip
+\def\pu{u}			%pin tip
+\def\pd{d}			%pin tip
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.50}
+\pgfmathsetmacro{\kdimX}{2*\kulH+0*\kpsep}
+\pgfmathsetmacro{\kdimY}{\kdimX}		%two spaces between 3 pins
+\draw(\kshiftX,\kshiftY)coordinate(\kref\pin)--++(0,\kpin)coordinate(\kref\pb\pin);
+\draw(\kref\pb\pin)[thick]++(\kdimY/2,0)coordinate(aa)--++(-\kdimY,0)
+coordinate(bb)--++(\kdimY/2,\kdimX)coordinate(cc)coordinate(\kref\pb\pout)--++(\kdimY/2,-\kdimX);
+\draw(\kref\pb\pout)--++(0,\kpin)coordinate(\kref\pout);
+\draw($(bb)!0.5!(cc)$)coordinate(\kref\pb\pu)+(-0.07,0)coordinate(\kref\pn\pu)+(-\kpin,0)coordinate(\kref\pu);
+\draw($(aa)!0.5!(cc)$)coordinate(\kref\pb\pd)+(0.07,0)coordinate(\kref\pn\pd)+(\kpin,0)coordinate(\kref\pd);
+\draw(\kref\pb\pin)++(0,-0.07)coordinate(\kref\pn\pin);
+\draw(\kref\pb\pout)++(0,0.07)coordinate(\kref\pn\pout);
+}

@@ -1,0 +1,63 @@
+\begin{figure}
+\centering
+\begin{tikzpicture}
+ %the flipflop def can be inside the node
+\tikzset{flipflop SR/.style={flipflop, 
+flipflop def={width=0.6,pin spacing=0.4,font=\normalsize,t1={\,S},t3={\, R},t6={Q\,} ,t4={\ctikztextnot{Q}\,}}}}
+\tikzset{flipflop D/.style={flipflop, 
+flipflop def={width=0.6,pin spacing=0.4,font=\normalsize,t1={\,D},t2=C,c2=1,n4=1,t4={\ctikztextnot{Q}\,} ,t6={Q\,} ,}}}
+\node [flipflop D,label={north:u0}] (u0) {};
+\node [flipflop SR,flipflop def={n4=1,font=\normalsize},right=of u0,label={[label distance=1cm]90:uu}] (u1) {}; 
+\node [flipflop SR,flipflop def={n4=1,font=\normalsize},right=of u1,] (u2) {u2};
+\end{tikzpicture}
+\begin{tikzpicture}[node distance=2cm]
+\tikzset{dot/.style = {
+    shape  = circle,
+    draw   = black,
+    fill = black,
+    minimum size = 0.2cm}}
+\tikzset{squarenode/.style = {
+        shape  = rectangle,
+        draw   = black,
+        minimum height = 2cm,
+        minimum width  = 1cm}}
+\pgfmathsetmacro{\a}{1}
+\pgfmathsetmacro{\b}{2}
+\pgfmathsetmacro{\c}{3}
+\pgfmathsetmacro{\d}{4}
+\pgfmathsetmacro{\e}{5}
+\pgfmathsetmacro{\f}{6}
+\node[squarenode](u\a){u\a};
+\node[squarenode,right=of u\a](u\b){u\b};
+\coordinate (ua\a) at ($(u\a.north west)!0.25!(u\a.south west)$);
+\coordinate (ua\b) at ($(u\a.north west)!0.5!(u\a.south west)$);
+\coordinate (ua\c) at ($(u\a.north west)!0.75!(u\a.south west)$);
+\coordinate (ua\d) at ($(u\a.south east)!0.25!(u\a.north east)$);
+\coordinate (ua\e) at ($(u\a.south east)!0.5!(u\a.north east)$);
+\coordinate (ua\f) at ($(u\a.south east)!0.75!(u\a.north east)$);
+
+\coordinate (ub\a) at ($(u\b.north west)!0.25!(u\b.south west)$);
+\draw(ua\a)node[dot]{};
+\draw(ua\b)node[dot]{};
+\draw(ua\c)node[dot]{};
+\draw(ua\d)node[dot]{};
+
+\draw(ub\a)node[dot]{};
+\end{tikzpicture}
+\begin{circuitikz}
+\ctikzset{multipoles/thickness=3}
+\ctikzset{multipoles/dipchip/width=1,multipoles/dipchip/pin spacing=0.2}
+\draw (0,0) node[dipchip, num pins=10, hide numbers, no topmark, external pins width=0](C){Block};
+\node [right, font=\tiny] at (C.bpin 1) {RST};
+\node [right, font=\tiny] at (C.bpin 2) {IN1};
+\node [right, font=\tiny] at (C.bpin 4) {/IN2};
+\node [left, font=\tiny] at (C.bpin 8) {OUT};
+\draw (C.bpin 2) -- ++(-0.5,0) coordinate(extpin);
+\node [ocirc, anchor=0](notin2) at (C.bpin 4) {};
+\draw (notin2.180) -- (C.bpin 4 -| extpin);
+\draw (C.bpin 8) to[short,-o] ++(0.5,0);
+\draw (C.bpin 5) ++(0,0.1) -- ++(0.1,-0.1)node[right, font=\tiny]{CLK} -- ++(-0.1,-0.1);
+\end{circuitikz}
+
+\end{figure}
+

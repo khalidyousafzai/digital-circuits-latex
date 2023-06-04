@@ -1,0 +1,14 @@
+\begin{figure}
+\centering
+\begin{tikzpicture}
+ %the flipflop def can be inside the node
+\tikzset{flipflop SR/.style={flipflop, 
+flipflop def={width=0.6,pin spacing=0.4,font=\normalsize,t1={\,S},t3={\, R},t6={Q\,} ,t4={\ctikztextnot{Q}\,}}}}
+\tikzset{flipflop D/.style={flipflop, 
+flipflop def={width=0.6,pin spacing=0.4,font=\normalsize,t1={\,D},t2=C,c2=1,n4=1,t4={\ctikztextnot{Q}\,} ,t6={Q\,} ,}}}
+\node [flipflop D,label={north:u0}] (u0) {};
+\node [flipflop SR,flipflop def={n4=1,font=\normalsize},right=of u0,label={[label distance=1cm]90:uu}] (u1) {}; 
+\node [flipflop SR,flipflop def={n4=1,font=\normalsize},right=of u1,] (u2) {u2};
+\end{tikzpicture}
+\end{figure}
+

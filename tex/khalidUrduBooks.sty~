@@ -58,10 +58,11 @@
 \let\urdufontt\ttfamily                                                                                  %had to add this and the above line to get going after ubuntu upgrade
 \newfontfamily\urduTechTermsfont[Scale=1.0,Script=Arabic]{AA Sameer Sagar Nastaleeq Bold}
 
+\newfontfamily\myfont[Scale=1.0,Script=Arabic]{Jameel Noori Nastaleeq}  %added these two to write urdu in 
+\DeclareTextFontCommand{\texturdu}{\myfont}					%tikztiming diagrams
 
 
 %%\newfontfamily\AcaciasHand{AcaciasHand}
-\newfontfamily\Arial{arial}
 
 \setcounter{secnumdepth}{3} 
 %=====================================

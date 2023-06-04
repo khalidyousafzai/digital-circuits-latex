@@ -1,0 +1,408 @@
+\باب{دفتر}
+ایک پلٹ کار ایک ثنائی ہندسے   (بِٹ)  کی معلومات ذخیرہ کر سکتا ہے۔ آٹھ بِٹ معلومات ذخیرہ کرنے کے لئے  آٹھ پلٹ کار درکار ہوں گے۔\اصطلاح{دفتر}\فرہنگ{دفتر}\حاشیہب{register}\فرہنگ{register}    سے مراد   وہ  دور ہے جو معلومات  ذخیرہ، اور    ایک جگہ سے دوسری جگہ منتقل کر نے کی صلاحیت رکھتا ہو۔یوں، \عددی{n} بِٹ دفتر سے مراد  \عددی{n} پلٹ کار پر مبنی وہ  دور ہو گا،  جو \عددی{n} بِٹ   ذخیرہ اور  منتقل  کر سکے۔معلومات کے انتقال  کا انداز    (سلسلہ وار یا متوازی)   دور کے ترکیبی حصہ پر منحصر ہو گا۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kshYa}{2.5}
+\pgfmathsetmacro{\kshPa}{1.0}
+\pgfmathsetmacro{\kshPb}{0.75}
+\pgfmathsetmacro{\kshPc}{1.0}
+\pgfmathsetmacro{\kshPd}{0.5}
+\pgfmathsetmacro{\kshPe}{0.5}
+\kDFF[u0]{0}{0};
+\kDFF[u1]{0}{\kshYa};
+\kDFF[u2]{0}{2*\kshYa};
+\kDFF[u3]{0}{3*\kshYa};
+\draw(u0p6)node[right]{$B0$}  (u1p6)node[right]{$B1$} (u2p6)node[right]{$B2$} (u3p6)node[right]{$B3$};
+\draw(u0p1)--++(-\kshPa,0)node[left]{$A0$}  (u1p1)--++(-\kshPa,0)node[left]{$A1$} 
+(u2p1)--++(-\kshPa,0)node[left]{$A2$} (u3p1)--++(-\kshPa,0)node[left]{$A3$};
+\draw(u0p2)--++(-\kshPd,0)  (u1p2)--++(-\kshPd,0) (u2p2)--++(-\kshPd,0) (u3p2)--++(-\kshPd,0);
+\draw(u3p2)++(-\kshPd,0)--++(0,-3*\kshYa-2*\kshPd)node[below]{$C$}; 
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kshYa}{2.5}
+\pgfmathsetmacro{\kshPa}{1.0}
+\pgfmathsetmacro{\kshPb}{0.75}
+\pgfmathsetmacro{\kshPc}{1.0}
+\pgfmathsetmacro{\kshPd}{0.5}
+\pgfmathsetmacro{\kshPe}{0.5}
+\kDFFud[u0]{0}{0};
+\kDFFud[u1]{0}{\kshYa};
+\kDFFud[u2]{0}{2*\kshYa};
+\kDFFud[u3]{0}{3*\kshYa};
+\draw(u0p6)node[right]{$B0$}  (u1p6)node[right]{$B1$} (u2p6)node[right]{$B2$} (u3p6)node[right]{$B3$};
+\draw(u0p1)--++(-\kshPa,0)node[left]{$A0$}  (u1p1)--++(-\kshPa,0)node[left]{$A1$} 
+(u2p1)--++(-\kshPa,0)node[left]{$A2$} (u3p1)--++(-\kshPa,0)node[left]{$A3$};
+\draw(u0pd)--++(-\kshPb,0) (u1pd)--++(-\kshPb,0) (u2pd)--++(-\kshPb,0)   (u3pd)--++(-\kshPb,0);
+\draw(u0pu)--++(-\kshPc,0) (u1pu)--++(-\kshPc,0) (u2pu)--++(-\kshPc,0)   (u3pu)--++(-\kshPc,0);
+\draw(u3pd)++(-\kshPb,0)--++(0,-3*\kshYa-\kshPd)coordinate(blw)node[below right]{$\overline{\text{\RL{بیٹھ}}}$};
+\draw(u0pu)++(-\kshPc,0)--++(0,3*\kshYa+\kshPd)node[above]{$\overline{\text{\RL{اٹھ}}}$};
+\draw(u0p2)--++(-\kshPd,0)  (u1p2)--++(-\kshPd,0) (u2p2)--++(-\kshPd,0) (u3p2)--++(-\kshPd,0);
+\draw(u3p2)++(-\kshPd,0)--++(0,-3*\kshYa)coordinate(cc)--(cc|-blw)node[below]{$C$}; 
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{چار بِٹ دفتر۔}
+\label{شکل_دفتر_چار_بٹ_ڈی}
+\end{figure}
+  سادہ ترین چار بِٹ دفتر  شکل  \حوالہ{شکل_دفتر_چار_بٹ_ڈی}  میں پیش   ہے۔شکل-الف   میں مداخل \عددی{A} جبکہ مخارج \عددی{B} ہے۔ مداخل کے چار بِٹ \عددی{A_0}، \عددی{A_1}، \عددی{A_2}، اور \عددی{A_3}،جبکہ مخارج کے  چار بِٹ \عددی{B_0}، \عددی{B_1}، \عددی{B_2}، اور \عددی{B_3} ہیں ۔
+
+ساعت کے کنارہ چڑھائی پر  داخلی  چار بِٹ پلٹ کار  کو منتقل ہو جاتے ہیں۔ ہم کہتے ہیں دفتر میں    مواد   کا  اندراج ہو  گیا،  یا مواد دفتر میں درج ہو گیا،  یا  مواد  دفتر میں لکھ لیا  گیا۔ساعت کے اگلے کنارہ چڑھائی تک یہ چار بِٹ  معلومات دفتر میں محفوظ،  اور  مخارج پر دستیاب ہو گی۔
+
+شکل \حوالہ{شکل_دفتر_چار_بٹ_ڈی}-ب  میں    بلند اور پست  صلاحیت  کا  پلٹ کار استعمال کیا گیا۔یوں، ساعت کے کنارہ چڑھائی کا  انتظار کیے بغیر،  تمام خارجی بِٹ  زبردستی  بلند یا پست کیے جا سکتے ہیں۔  زبردستی  پست کرنے سے  دفتر   صاف ہو کر \عددی{0000_2}، جبکہ زبردستی بلند کرنے سے \عددی{1111_2} خارج کرتا ہے۔ 
+
+اس دور میں  پلٹ کار  کی تعداد \عددی{n}  کر کے  \عددی{n} بِٹ دفتر  تشکیل دیا جا سکتا ہے۔ ہر بِٹ کا متمم بھی دفتر کے مخارج سے دستیاب ہو گا۔ یوں \عددی{B_0}  کا متمم \عددی{\overline{B}_0} مطابقتی پلٹ کار کے \عددی{\overline{Q}} سے   دستیاب ہو گا۔ 
+
+
+\حصہ{سلسلہ وار دفتر}
+\جزوحصہ{دائیں انتقال   دفتر}
+شکل  \حوالہ{شکل_دفتر_دائیں_منتقل}  میں (سلسلہ وار)   \اصطلاح{ دائیں انتقال   دفتر}\فرہنگ{دفتر!دائیں انتقال}\حاشیہب{shift right register}\فرہنگ{register!shift right}    پیش ہے، جہاں (متواتر)    ایک پلٹ کار کا مخارج،  دوسرے کا  مداخل  ہے، اور  ثنائی مواد، \عددی{x}،  بائیں (جانب)  سے مہیا کیا  گیا ہے۔شکل میں زبردستی پست پن نہیں دکھایا  گیا   تا کہ اصل مضمون پر توجہ رہے،  تاہم تصور کریں  ساعت کے پہلے کنارہ چڑھائی سے قبل،   تمام پلٹ کار زبردستی  پست کیے  گئے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kshXa}{2.5}
+\pgfmathsetmacro{\kshPa}{1.00}
+\pgfmathsetmacro{\kshPb}{0.5}
+\kDFF[u0]{0}{0};
+\kDFF[u1]{-\kshXa}{0};
+\kDFF[u2]{-2*\kshXa}{0};
+\kDFF[u3]{-3*\kshXa}{0};
+\draw(u3p6)node[above]{$Q_3$}--(u2p1) (u2p6)node[above]{$Q_2$}--(u1p1) (u1p6)node[above]{$Q_1$}--(u0p1) (u0p6)node[above]{$Q_0$}  (u3p1)--++(-\kshPb,0)node[left]{$x$};
+\draw(u0p2)--++(0,-\kshPa)  (u1p2)--++(0,-\kshPa)  (u2p2)--++(0,-\kshPa)  (u3p2)--++(0,-\kshPa)coordinate(cc);
+\draw(u0p2)++(0,-\kshPa)--(cc)--++(-\kshPb,0)node[left]{$C$};
+\draw(u0-north-west)node[above]{$u_0$};
+\draw(u1-north-west)node[above]{$u_1$};
+\draw(u2-north-west)node[above]{$u_2$};
+\draw(u3-north-west)node[above]{$u_3$};
+\path(u1-south)++(0,-1);
+\end{tikzpicture}
+\caption{دائیں انتقال  دفتر}
+\label{شکل_دفتر_دائیں_منتقل}
+\end{figure}
+
+
+ساعت کے پہلے کنارہ چڑھائی پر \عددی{u_0}  کو \عددی{Q_1=0}، \عددی{u_1} کو \عددی{Q_2=0}،  \عددی{u_2} کو \عددی{Q_3=0}، اور  \عددی{u_4} کو \عددی{x=1} مواد     فراہم  ہے، جنہیں    پلٹ کار، ساعت کے کنارہ چڑھائی پر،   مخارج منتقل کرتے ہیں۔یوں پہلے کنارہ چڑھائی  گزرنے  کے بعد \عددی{Q_0=0}،    \عددی{Q_1=0}،  \عددی{Q_2=0}،   اور \عددی{Q_3=1} ہو گا۔یاد رہے، ساعت کے  کنارہ چڑھائی  کے دوران، پلٹ کار گزشتہ حال میں رہتا ہے، اور نیا  مواد کنارہ گزرنے کے بعد  مخارج  کو  پہنچتا ہے۔  آپ نے دیکھا، یہ دور،  مواد کی دائیں رخ  نقل مکانی کرتا ہے، جس کی وجہ سے اس  کو\موٹا{دائیں انتقال دفتر}  کہتے ہیں۔ 
+
+ساعت کے دوسرے کنارہ چڑھائی کے وقت،   \عددی{u_0}  کو \عددی{Q_1=0}، \عددی{u_1} کو \عددی{Q_2=0}،  \عددی{u_2} کو \عددی{Q_3=1}، اور  \عددی{u_4} کو \عددی{x} (جو \عددی{0} یا \عددی{1} ہو گا) مواد     فراہم  ہے، لہٰذا ساعت کا  دوسرا کنارہ چڑھائی گزرنے کے بعد    \عددی{Q_0=0}،    \عددی{Q_1=0}،  \عددی{Q_2=1}،   اور \عددی{Q_3=x} ہو گا۔
+
+دور کو سلسلہ وار فراہم   بائیں سے مواد، سلسلہ وار دائیں پلٹ کے مخارج \عددی{Q_0} سے اسی ترتیب میں حاصل کیا جا سکتا ہے۔
+
+\جزوحصہ{بائیں انتقال  دفتر}
+شکل  \حوالہ{شکل_دفتر_بائیں_منتقل}  میں (سلسلہ وار)  \اصطلاح{بائیں انتقال   دفتر}\فرہنگ{دفتر! بائیں انتقال}\حاشیہب{shift left register}\فرہنگ{register!shift left}    دکھایا گیا ہے، جو مواد کی بائیں  نقل مکانی  کرتا ہے۔اس کی بناوٹ بالکل  دائیں انتقال   دفتر کی طرح ہے۔فرق صرف اتنا ہے،    بائیں انتقال   دفتر میں دایاں     پلٹ کار کا مخارج  پڑوسی بایاں     پلٹ کار کا مداخل  ہے۔
+
+ساعت کے کنارہ چڑھائی پر دایاں پلٹ کار فراہم کردہ  مواد \عددی{x}  کی نقل حاصل کر کے \عددی{Q_0} پر خارج کرتا ہے۔  اگلے کنارہ پر یہ مواد \عددی{Q_1} کو منتقل ہو گا۔ آپ دیکھ سکتے ہیں کہ یہاں مواد دائیں سے فراہم کیا گیا ہے، جو دور میں سے  گزرتے ہوئے  بائیں منتقل ہو گا۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kshXa}{2.5}
+\pgfmathsetmacro{\kshPa}{1.0}
+\pgfmathsetmacro{\kshPb}{0.3}
+\pgfmathsetmacro{\kshPc}{0.3}
+\kuDFF[u0]{0*\kshXa}{0}
+\kuDFF[u1]{-1*\kshXa}{0}
+\kuDFF[u2]{-2*\kshXa}{0}
+\kuDFF[u3]{-3*\kshXa}{0}
+\path(u0p6)--(u1p4)coordinate[pos=0.5](aau);
+\path(u0p1)--(u1p3)coordinate[pos=0.5](aad);
+\draw(u0p6)--(aau)--(aad)--(u1p1);
+\path(u1p6)--(u2p4)coordinate[pos=0.5](aau);
+\path(u1p1)--(u2p3)coordinate[pos=0.5](aad);
+\draw(u1p6)--(aau)--(aad)--(u2p1);
+\path(u2p6)--(u3p4)coordinate[pos=0.5](aau);
+\path(u2p1)--(u3p3)coordinate[pos=0.5](aad);
+\draw(u2p6)--(aau)--(aad)--(u3p1);
+\draw(u0p1)--++(\kshPa,0)coordinate(rgtin);
+\kinright[j1]{rgtin}
+\draw(j1east)node[right]{$x$};
+\draw(u0p6)--++(0,\kshPb)node[above]{$Q_0$};
+\draw(u1p6)--++(0,\kshPb)node[above]{$Q_1$};
+\draw(u2p6)--++(0,\kshPb)node[above]{$Q_2$};
+\draw(u3p6)--++(0,\kshPb)node[above]{$Q_3$};
+\draw(u0p2)--++(0,-\kshPc);
+\draw(u1p2)--++(0,-\kshPc);
+\draw(u2p2)--++(0,-\kshPc);
+\draw(u3p2)--++(0,-\kshPc);
+\draw(u0p2)++(0,-\kshPc)--($(u3p2)+(0,-\kshPc)$)--++(-\kshPa,0)node[left]{$C$};
+\end{tikzpicture}
+\caption{بائیں  انتقال دفتر}
+\label{شکل_دفتر_بائیں_منتقل}
+\end{figure}
+
+
+\جزوحصہ{ دائیں  و بائیں انتقال    دفتر}
+شکل  \حوالہ{شکل_دفتر_بائیں_و_دائیں} میں   (سلسلہ وار) بائیں و دائیں  انتقال دفتر پیش ہے جو  مواد کی بائیں یا دائیں  نقل مکانی کی صلاحیت رکھتا ہے۔ مخارج \عددی{Q_2}   پلٹ کار کے مداخل \عددی{D} اور اس سے منسلک جمع گیٹ  اور (دو)  ضرب گیٹ  پر توجہ رکھیں۔  قابو اشارہ  \عددی{(\text{دائیں}/{\overline{\text{بائیں}}})} بلند ہونے کی صورت میں، دایاں ضرب گیٹ معذور جبکہ بایاں  مجاز ہو کر،     جمع گیٹ تک  \عددی{Q_3} پہنچاتے ہیں جو  \عددی{D} پر دستیاب،  اور   ساعت کے اگلے کنارہ چڑھائی پر پلٹ کار میں درج ہو کر بطور \عددی{Q_2} خارج ہو گا۔یوں مواد \عددی{Q_3} سے \عددی{Q_2} یعنی دائیں منتقل ہوا۔اس کے برعکس قابو اشارہ پست ہونے کی صورت میں، دایاں ضرب گیٹ مجاز  اور بایاں معذور ہو کر،   جمع گیٹ تک \عددی{Q_1}  پر موجود مواد    پہنچاتے ہیں، جو  آخر کار \عددی{Q_2}  پہنچتا  ہے، اور یوں مواد بائیں منتقل ہوتا ہے۔
+
+ بائیں ترین پلٹ کار کو بیرونی مواد  \عددی{y} جبکہ دائیں ترین کو \عددی{x} فراہم کیا گیا ہے۔ قابو اشارہ ان میں سے ایک منتخب کر تا ہے جو مطلوبہ سمت ( بائیں یا دائیں) منتقل ہو گا۔   
+
+بائیں نقل مکانی کے دوران \عددی{x} پر میسر مواد ساعت کے کنارہ چڑھائی پر \عددی{Q_0} پہنچتا ہے۔ اگلے کنارہ پر یہی مواد \عددی{Q_1}، اس سے اگلے پر \عددی{Q_2} اور آخر میں \عددی{Q_3} پہنچتا ہے۔ دائیں نقل مکانی کی صورت میں \عددی{y}  پر موجود مواد الٹ رخ \عددی{Q_3} سے \عددی{Q_0}  نقل مکانی کرتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepYa}{2.75}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\kuDFF[u0]{0}{0}
+\kuDFF[u1]{-1*\ksepYa}{0}
+\kuDFF[u2]{-2*\ksepYa}{0}
+\kuDFF[u3]{-3*\ksepYa}{0}
+\draw(u0p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u5){};
+\draw(u5.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u6){};
+\draw(u5.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u7){};
+\draw(u1p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u8){};
+\draw(u8.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u9){};
+\draw(u8.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u10){};
+\draw(u2p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u11){};
+\draw(u11.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u12){};
+\draw(u11.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u13){};
+\draw(u3p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u14){};
+\draw(u14.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u15){};
+\draw(u14.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u16){};
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\draw(u7.in 2)--++(\kpinA,0)coordinate(rgtin) (u6.in 1)node[below]{$Q_1$};
+\kinright[j2]{rgtin}
+\draw(j2east)node[right]{$x$};
+\draw(u10.in 2)node[below]{$Q_0$} (u9.in 1)node[below]{$Q_2$};
+\draw(u13.in 2)node[below]{$Q_1$} (u12.in 1)node[below]{$Q_3$};
+\draw(u16.in 2)node[below]{$Q_2$} (u15.in 1)--++(-\kpinA,0)coordinate(lft);
+\kinleft[j1]{lft}
+\draw(j1west)node[left]{$y$};
+\draw(u0p2)--(u3p2)--(u3p2 -|lft)node[left]{$C$};
+\draw(u16.in 1)--++(0,-3*\kpinA)node[not port,scale=1,anchor=out](u17){};
+\draw(u17.out)-|(u7.in 1);
+\draw(u10.in 1)coordinate(aa)--(aa |- u17.out);
+\draw(u13.in 1)coordinate(aa)--(aa |- u17.out);
+\draw(u6.in 2)--++(0,-1.5*\kpinA)-|coordinate(bb)(u15.in 2)  (bb)-|(u17.in)--++(-\kpinA,0)node[left]{$\text{دائیں}/{\overline{\text{بائیں}}}$};
+\draw(u9.in 2)coordinate(aa)--(aa |- bb);
+\draw(u12.in 2)coordinate(aa)--(aa |- bb);
+\end{tikzpicture}
+\caption{بائیں و دائیں انتقال دفتر}
+\label{شکل_دفتر_بائیں_و_دائیں}
+\end{figure}
+
+
+\حصہ{متوازی بھرائی  دفتر}
+بعض اوقات،  دفتر   میں بیک وقت مواد چڑھانے کی ضرورت پیش آتی ہے۔  شکل \حوالہ{شکل_دفتر_متوازی_انتقال_دفتر}  میں     \اصطلاح{دائیں  انتقال، متوازی بھرائی   دفتر}\فرہنگ{دفتر!متوازی بھرائی}\حاشیہب{parallel load, right shift register}\فرہنگ{register!parallel load}  پیش  ہے،  جس میں  متوازی  مواد بیک وقت  چڑھانا ممکن ہے۔یہ   مختصراً  \موٹا{متوازی دائیں  انتقال  دفتر}  کہلاتا ہے۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepYa}{2.75}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\pgfmathsetmacro{\kpinC}{2.00}
+\kuDFF[u0]{0}{0}
+\kuDFF[u1]{-1*\ksepYa}{0}
+\kuDFF[u2]{-2*\ksepYa}{0}
+\kuDFF[u3]{-3*\ksepYa}{0}
+\draw(u0p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u5){};
+\draw(u5.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u6){};
+\draw(u5.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u7){};
+\draw(u1p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u8){};
+\draw(u8.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u9){};
+\draw(u8.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u10){};
+\draw(u2p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u11){};
+\draw(u11.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u12){};
+\draw(u11.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u13){};
+\draw(u3p1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u14){};
+\draw(u14.in 1)--++(-\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u15){};
+\draw(u14.in 2)--++(\kpinB,0)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u16){};
+\kupinAnchors
+\kuBuffer[u17]{\pfx}{\kpinB+\pfy}
+\draw(u17pout)--++(0,\kpinA)node[above]{$D_0$};
+\kuBuffer[u18]{-1*\ksepYa+\pfx}{\kpinB+\pfy}
+\draw(u18pout)--++(0,\kpinA)node[above]{$D_1$};
+\kuBuffer[u19]{-2*\ksepYa+\pfx}{\kpinB+\pfy}
+\draw(u19pout)--++(0,\kpinA)node[above]{$D_2$};
+\kuBuffer[u20]{-3*\ksepYa+\pfx}{\kpinB+\pfy}
+\draw(u20pout)--++(0,\kpinA)node[above]{$D_3$};
+\draw(u0p6)++(0,0.25)--++(\kpinA,0)coordinate(kkt);
+\koutright[j0]{kkt}
+\draw(j0east)node[right]{\text{\RL{سلسلہ وار مخارج}}};
+\draw(u0p6)--++(0,\kpinB);
+\draw(u1p6)--++(0,\kpinB);
+\draw(u2p6)--++(0,\kpinB);
+\draw(u3p6)--++(0,\kpinB);
+\draw(u0p6)node[above left]{$Q_0$};
+\draw(u1p6)node[above left]{$Q_1$};
+\draw(u2p6)node[above left]{$Q_2$};
+\draw(u3p6)node[above left]{$Q_3$};
+\draw(u7.in 2)--++(0,-\kpinC)node[below]{$z_0$} (u6.in 1)node[below]{$Q_1$};
+\draw(u10.in 2)--++(0,-\kpinC)node[below]{$z_1$} (u9.in 1)node[below]{$Q_2$};
+\draw(u13.in 2)--++(0,-\kpinC)node[below]{$z_2$} (u12.in 1)node[below]{$Q_3$};
+\draw(u16.in 2)--++(0,-\kpinC)node[below]{$z_3$} (u15.in 1)--++(-\kpinA,0)coordinate(lft);
+\kinleft[j1]{lft}
+\draw(j1west)node[left]{$y$};
+\draw(u0p2)--(u3p2)--(u3p2 -|lft)node[left]{$C$};
+\draw(u16.in 1)--++(0,-3*\kpinA)node[not port,scale=1,anchor=out](u21){};
+\draw(u21.out)-|(u7.in 1);
+\draw(u10.in 1)coordinate(aa)--(aa |- u21.out);
+\draw(u13.in 1)coordinate(aa)--(aa |- u21.out);
+\draw(u6.in 2)--++(0,-1.5*\kpinA)-|coordinate(bb)(u15.in 2)  (bb)-|(u21.in)--++(-\kpinA,0)
+node[left]{$\overline{\text{متوازی بھرائی}}$};
+\draw(u9.in 2)coordinate(aa)--(aa |- bb);
+\draw(u12.in 2)coordinate(aa)--(aa |- bb);
+\draw(u17pbu)--(u17u);
+\draw(u17pnu)node[ocirc]{};
+\draw(u18pbu)--(u18u);
+\draw(u18pnu)node[ocirc]{};
+\draw(u19pbu)--(u19u);
+\draw(u19pnu)node[ocirc]{};
+\draw(u20pbu)--(u20u);
+\draw(u20pnu)node[ocirc]{};
+\draw(u17u)--++(0,1.5*\kpinA)coordinate(aa);
+\draw(u18u)--++(0,1.5*\kpinA);
+\draw(u19u)--++(0,1.5*\kpinA);
+\draw(u20u)--++(0,1.5*\kpinA)coordinate(bb);
+\draw(aa)--(bb)--++(-\kpinA,0)node[left]{$\overline{\text{\RL{متوازی خارج}}}$};
+%\draw(u20pbd)--(u20d);
+%\draw(u20pnd)node[ocirc]{};
+%\draw(u20pnpin)node[ocirc]{};
+%\draw(u20pnpout)node[ocirc]{};
+\end{tikzpicture}
+\caption{متوازی  دائیں انتقال   دفتر}
+\label{شکل_دفتر_متوازی_انتقال_دفتر}
+\end{figure}
+
+پلٹ کار کو جمع گیٹ  معلومات فراہم کرتا ہے جس کو دو ضرب  گیٹ   مواد فراہم کرتے ہیں۔ قابو اشارہ \عددی{\overline{\text{متوازی بھرائی}}} عام طور غیر فعال (بلند) رکھا جاتا ہے۔یوں  دایاں ضرب  گیٹ معذور  جبکہ بایاں گیٹ مجاز ہو کر، بائیں   پلٹ کار کا مخارج،  جمع گیٹ کے راستے  پلٹ کار کو فراہم کرتا ہے، جو ساعت کے اگلے کنارہ چڑھائی پر پلٹ کار میں درج ہو گا۔
+
+ مواد \عددی{z_0} تا \عددی{z_3} پلٹ کار  میں   چڑھانے کے لئے   \عددی{\overline{\text{متوازی بھرائی}}} پست کیا جاتا ہے۔ یوں پلٹ کار  کو مواد فراہم کرنے والا بایاں ضرب گیٹ معذور جبکہ دایاں  مجاز ہو گا۔ مجاز گیٹ متوازی مواد کو جمع گیٹ کے راستہ  پلٹ کار تک پہنچاتا ہے۔
+ 
+یوں پلٹ کار میں مواد سلسلہ وار \عددی{(y)} یا متوازی (\عددی{z_0} تا \عددی{z_3}) بھرا جا سکتا ہے۔
+ 
+شکل میں  پلٹ کار  کا مخارج، مجاز و معذور صلاحیت مستحکم کار سے منسلک کیا گیا ہے۔ قابو اشارہ  \عددی{\overline{\text{\RL{متوازی خارج}}}} پست کر کے پلٹ کار کا مواد \عددی{Q_0} تا \عددی{Q_3} بطور \عددی{D_0} تا \عددی{D_3} حاصل کیا جا سکتا ہے۔قابو اشارہ معذور (بلند) ہونے کی صورت میں مستحکم کار کا مخارج بلند   رکاوٹ حال میں ہو گا۔
+
+%???KKK
+\حصہ{عالمگیر دفتر}
+اب تک مختلف صلاحیت  کے  دفتر پر غور ہوا، جن  کی خوبیاں ایک  دور میں سموئی جا سکتی ہیں۔ایسا  عالمگیر دفتر  شکل  \حوالہ{شکل_دفتر_عالمگیر_انتقال_دفتر}  میں پیش  ہے۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepXa}{2.75}
+\pgfmathsetmacro{\ksepXb}{0.20}
+\pgfmathsetmacro{\ksepYa}{2.75}
+\pgfmathsetmacro{\ksepYb}{1.25}
+\pgfmathsetmacro{\ksepYc}{0.75}
+\pgfmathsetmacro{\ksepYd}{0.85}
+\pgfmathsetmacro{\ksepYe}{0.65}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\pgfmathsetmacro{\kpinC}{2.00}
+\kuDFF[u0]{0}{0}
+\kuDFF[u1]{-1*\ksepXa}{0}
+\kuDFF[u2]{-2*\ksepXa}{0}
+\kuDFF[u3]{-3*\ksepXa}{0}
+\kupinAnchors
+\kuBuffer[u17]{\pfx}{\kpinB+\pfy}
+\draw(u17pout)--++(0,\kpinA/3)node[above]{$D_0$};
+\kuBuffer[u18]{-1*\ksepXa+\pfx}{\kpinB+\pfy}
+\draw(u18pout)--++(0,\kpinA/3)node[above]{$D_1$};
+\kuBuffer[u19]{-2*\ksepXa+\pfx}{\kpinB+\pfy}
+\draw(u19pout)--++(0,\kpinA/3)node[above]{$D_2$};
+\kuBuffer[u20]{-3*\ksepXa+\pfx}{\kpinB+\pfy}
+\draw(u20pout)--++(0,\kpinA/3)node[above]{$D_3$};
+\draw(u17pbu)--++(-\kpin,0)--++(0,\ksepYe)coordinate(tt);
+\draw(u17pnu)node[ocirc]{};
+\draw(u18pbu)--++(-\kpin,0)--++(0,\ksepYe);
+\draw(u18pnu)node[ocirc]{};
+\draw(u19pbu)--++(-\kpin,0)--++(0,\ksepYe);
+\draw(u19pnu)node[ocirc]{};
+\draw(u20pbu)--++(-\kpin,0)--++(0,\ksepYe)coordinate(ttt);
+\draw(u20pnu)node[ocirc]{};
+\draw(u0p6)--++(0,\kpinB);
+\draw(u1p6)--++(0,\kpinB);
+\draw(u2p6)--++(0,\kpinB);
+\draw(u3p6)--++(0,\kpinB);
+\draw(u0p6)node[above left]{$Q_0$}++(0,0.25)coordinate(ka);
+\draw(u1p6)node[above left]{$Q_1$};
+\draw(u2p6)node[above left]{$Q_2$};
+\draw(u3p6)node[above right]{$Q_3$}++(0,0.25)coordinate(kb);
+\koutright[j0]{ka}
+\draw(j0east)node[right]{\text{\RL{دائیں خروج}}};
+\koutleft[j1]{kb}
+\draw(j1west)node[left]{\text{\RL{بائیں خروج}}};
+\kBOXanc
+\kupinAnchors
+\kmuxD[u5]{-0*\ksepXa-\spcx+\pax}{-\ksepYa}
+\kmuxD[u6]{-1*\ksepXa-\spcx+\pax}{-\ksepYa}
+\kmuxD[u7]{-2*\ksepXa-\spcx+\pax}{-\ksepYa}
+\kmuxD[u8]{-3*\ksepXa-\spcx+\pax}{-\ksepYa}
+\draw(u0pbd)--++(\kpin,0)--++(0,-\ksepYb)coordinate(ll);
+\draw(u0pnd)node[ocirc]{};
+\draw(u1pbd)--++(\kpin,0)--++(0,-\ksepYb);
+\draw(u1pnd)node[ocirc]{};
+\draw(u2pbd)--++(\kpin,0)--++(0,-\ksepYb);
+\draw(u2pnd)node[ocirc]{};
+\draw(u3pbd)--++(\kpin,0)--++(0,-\ksepYb)coordinate(rr);
+\draw(u3pnd)node[ocirc]{};
+\draw(rr)++(-\ksepXa-1,0)coordinate(lft);
+\draw(rr)--(ll)--++(0,-0.5)node[below]{$\overline{\text{بیٹھ}}$};
+\draw(u0p2)--(u3p2)--++(-1,0)node[left]{$C$};
+\draw(tt)--(ttt)--++(-0.75,0)node[above]{$\overline{\text{\RL{متوازی خارج}}}$};
+\draw(u0p1)--(u5dp2);
+\draw(u1p1)--(u6dp2);
+\draw(u2p1)--(u7dp2);
+\draw(u3p1)--(u8dp2);
+\draw(u5ap1)--++(0,\ksepYc)coordinate(aa);
+\draw(u5ap0)--++(-\ksepXb,0)--++(0,\ksepYd)coordinate(bb);
+\draw(u6ap1)--++(0,\ksepYc);
+\draw(u6ap0)--++(-\ksepXb,0)--++(0,\ksepYd);
+\draw(u7ap1)--++(0,\ksepYc);
+\draw(u7ap0)--++(-\ksepXb,0)--++(0,\ksepYd);
+\draw(u8ap1)--++(0,\ksepYc)coordinate(aaa);
+\draw(u8ap0)--++(-\ksepXb,0)--++(0,\ksepYd)coordinate(bbb);
+\draw(aa)--(aaa)--++(0,0.25)coordinate(abab)node[above, xshift=0.75ex]{$a_1$};
+\draw(bb)--(bbb)--(bbb |-abab)node[above,xshift=-0.75ex]{$a_0$};
+\draw(u5bp0)node[below]{$y$};
+\draw(u5bp1)node[below]{$Q_1$};
+\draw(u5bp2)node[below]{$z_0$};
+\draw(u5bp3)node[below]{$Q_0$};
+\draw(u6bp0)node[below]{$Q_0$};
+\draw(u6bp1)node[below]{$Q_2$};
+\draw(u6bp2)node[below]{$z_2$};
+\draw(u6bp3)node[below]{$Q_1$};
+\draw(u7bp0)node[below]{$Q_1$};
+\draw(u7bp1)node[below]{$Q_3$};
+\draw(u7bp2)node[below]{$z_2$};
+\draw(u7bp3)node[below]{$Q_2$};
+\draw(u8bp0)node[below]{$Q_2$};
+\draw(u8bp1)node[below]{$x$};
+\draw(u8bp2)node[below]{$z_3$};
+\draw(u8bp3)node[below]{$Q_3$};
+\end{tikzpicture}
+\caption{چار بِٹ عالمگیر  دائیں انتقال  دفتر}
+\label{شکل_دفتر_عالمگیر_انتقال_دفتر}
+\end{figure}
+
+
+بائیں انتقال  کے وقت \عددی{y}  مواد پر سلسلہ وار داخل 14 ہو کر آخر کار بائیں خروج سے سلالہ وار خارج 15 ہو جاتا ہے جبکہ دائیں جانب انتقال  کے وقت موادسے سلسلہ وار داخل ہوتا ہے اور آخر کار  دائیں خروج سے سلسلہ وار خارج ہو جاتا ہے۔
+	شکل میں چار یکساں حصے ہیں۔ان میں سے دائیں جانب حصہ پر غور کرتے ہیں۔بقایا حصے بھی بالکل اسی طرح کام کرتے ہیں۔ 
+
+
+	اس حصہ میں پلٹ کار کی داخلی طرف چار سے ایک منتخب کنندہ جوڑا گیا ہے۔پتہ کے دو بِٹ اوراس کے مداخل میں سے ایک کو چن کر خارجی پن پر خارج کرتا ہے۔منتخب ہونے والا مداخل جدول سے یوں حاصل ہو گا۔
+ 
+	آپ دیکھ سکتے ہیں کہ پتہکی صورتمنتخب ہو کر پلٹ کار کے مداخلپر مہیا ہو جائے گا اور اگلے کنارہ ساعت یہی مواد پلٹ کار کے خارجی پن پر خارج ہو جائے گا۔اس طرح دفتر اپنی حالت برقرار رکھے گا اور مواد کسی بھی جانب حرکت نہیں کرے گا۔
+	اسی طرح پتہہونے کی صورتپلٹ کار کو مہیا ہو جائے گا اور ساعت کے اگلے کنارہ یہی پلٹ کار کے مخارج پر نمودار ہو جائے گا۔چونکہمتوازی مہیا کردہ مواد ہے لہٰذا اس صورت متوازی مواد دفتر میں چڑھ جائے گا۔
+	پتہسےپلٹ کار کو مہیا ہو جائے گا۔یوں ساعت کے اگلے کنارے موجودہاگلےکے طور نمودار ہو جائے گا۔یعنی اس مرتبہ دفتر مواد کو دائیں جانب منتقل کرے گا۔
+	پتہ کو صورت سلسلہ واد مہیا کردہ موادمنتخب ہو گا اور ساعت کے اگلے کنارے پر پلٹ کار کی مخارجپہنچ جائے گا۔اس مرتبہ دفتر مواد کو بائیں جانب منتقل کر رہا ہے۔
+	اس تمام تجزیہ کو بقایا چار حصوں پر لاگو کر کے نتیجہ کو جدول کی شکل میں یوں لکھا جا سکتا ہے۔
+
+
+مشق:	انٹرنیٹ سےعالمگیر دفتر کے معلوماتی صفحات حاصل کریں ۔(ا) یہ کتنے بِٹ کا عالمگیر دفتر ہے۔ (ب) اسے استعمال کرتے ہوئے سولہ بِٹ عالم گیر دفتر حاصل کریں۔
+ 
+7.4 سلالہ وار ثنائی جمع کار
+	صفہ 258 پر شکل 6.25 میں سلسلہ وار ثنائی جمع کار دکھایا گیا ہے۔اسی کو استعمال کرتے ہوئے شکل 7.7 میں زیادہ بِٹ کا سلسلہ وار ثنائی جمع کار دکھایا گیا ہے۔
+	اس شکل میںبِٹ کے دو عدد متوازی لکھائی و پڑھائی کے صلاحیت والے دائیں انتقال  دفتر16 استعمال کئے گئے ہیں جنہیں دفتر-ا اور دفتر-ب کہا گیا ہے۔
+	مجموعہ حاصل کرنے سے قبل، یعنی ساعت کے پہلے کنارہ سے قبل، دفتر۔ا میں ثنائی عددجبکہ دفتر-ب میں ثنائی عددمتوازی طور منتقل کئے جاتے ہیں اور زبردستی پست اشارہ کو لمحاتی طور پست کر کے ڈی پلٹ کار کو پست کر دیا جاتا ہے تا کہ مکمل جمع کار کے داخلی حاصل کی قیمتہو۔شکل میں متوازی چڑھائی نہیں دکھائی گئی تا کہ اصل موضوع پر توجہ رہے۔
+	مکمل جمع کار ان دو ثنائی اعداد کے کم تر رتبہ والے بِٹ اور داخلی حاصل  کو جمع کر کے جمع  اور خارجی حاصل خارج کرتا ہے۔ساعت کے پہلے کنارے پرکو ڈی پلٹ کار محفوظ کر کے اسے مکمل جمع کار کو اگلے ثنائی بِٹ جمع کرتے وقت بطور داخلی حاصل فراہم کرتا ہے جبکہ دفتر-ا اور دفتر-ب اسے اگلے درجے کے بِٹ فراہم کرتے ہیں۔جمعکو اس شکل میں دفتر-ا کو سلسلہ وار مداخل کے طور مہیا کیا گیا ہے۔یوں جیسے جیسے اس دفتر سے ثنائی عدددائیں جانب خارج ہوتا ہے ویسے ویسے اس کی جگہ دو اعداد کا مجموعہ جگہ لیتا ہے۔ساعت کےکنارے گزرنے کے بعد دو ثنائی اعداد کا مجموعہ دفتر-ا میں محفوظ ہوتا ہے جہاں سے اسے متوازی پڑھا جا سکتا ہے جبکہ مجموعہ کا آخری حاصل مکمل جمع کار کے مخارجسے پڑھا جا سکتا ہے۔

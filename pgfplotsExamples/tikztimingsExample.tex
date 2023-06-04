@@ -1,0 +1,47 @@
+ \def\degr{${}^\circ$}
+\begin{otherlanguage}{english}
+\begin{tikztimingtable}
+  \texturdu{\RL{ساعت گھڑی}}  & H 2C N(A1) 8{2C} N(A5) 3{2C} G\\
+  \texturdu{ \RL{ ساعت کار} }& [C] 2{2C} N(A2) 8{2C} N(A6) 2{2C} C\\
+  Clock 128\,MHz 180\degr  & C 2{2C} N(A3) 8{2C} N(A7) 2{2C} G\\
+  Clock 128\,MHz 270\degr  & 3{2C} N(A4) 8{2C} N(A8) 2C C\\
+  Coarse Pulse             & 3L 16H 6L \\
+  Coarse Pulse - Delayed 1 & 4L N(B2) 16H N(B6) 5L \\
+  Coarse Pulse - Delayed 2 & 5L N(B3) 16H N(B7) 4L \\
+  Coarse Pulse - Delayed 3 & 6L 16H 3L \\
+  \\
+  Final Pulse Set          & 3L 16H N(B5) 6L \\
+  Final Pulse $\overline{\mbox{Reset}}$ & 6L N(B4) 16H 3L \\
+  Final Pulse              & 3L N(B1) 19H N(B8) 3L \\
+\extracode
+ % \tablerules
+  \begin{pgfonlayer}{background}
+    \foreach \n in {1,...,8}
+      \draw [help lines] (A\n) -- (B\n);
+  \end{pgfonlayer}
+\end{tikztimingtable}
+
+
+\begin{tikztimingtable}[%
+    timing/dslope=0.1,
+    timing/.style={x=5ex,y=2ex},
+    x=5ex,
+    timing/rowdist=3ex,
+    timing/name/.style={font=\sffamily\scriptsize}
+]
+CLK         & 18{c} \\
+FRAME      & 2u 6L H U \\
+AD[31::0]   & 2u 1D{addr} 1U{} 1D{$d_1$} D{$d_1 '$} D{$d_2$} 2D{$d_3$} U \\
+[3::0]{C/BE} & 2u 1D{0010} 6D{BE\#} U  \\
+{IRDY}       & UU 4L HLH \\
+{TRDY}       & UU HLH 3L H \\
+{DEVSEL}     & 2U 6L H\\
+\extracode
+\begin{pgfonlayer}{background}
+\begin{scope}[semitransparent ,semithick]
+\vertlines[darkgray,dotted]{0.5,1.5 ,...,8.0}
+\end{scope}
+\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.25)  5 APR 2023 14:34
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.2.25)  21 MAY 2023 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,46 @@ File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \arrowsize=\dimen281
-)))
+))) (/usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
+Package: tikz-timing 2017/12/20 v0.7f Digital Timing Diagrams using TikZ
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@layerbox@background=\box59
+\pgf@layerboxsaved@background=\box60
+)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks32
+)
+\tikztiming@numint=\count272
+\tikztiming@numfrac=\count273
+\tikztiming@xunit=\skip51
+\tikztiming@yunit=\skip52
+\tikztiming@debug=\count274
+\c@tikztiming@nrows=\count275
+\c@tikztimingrows=\count276
+\c@tikztimingtrans=\count277
+\c@tikztimingtranspos=\count278
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing-clockarrows.st
+y
+Package: tikz-timing-clockarrows 2017/12/20 v0.7f tikz-timing library for timin
+g clock arrows
+ (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks33
+\pgfopts@list@add@b@toks=\toks34
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing-counters.sty
+Package: tikz-timing-counters 2017/12/20 v0.7f tikz-timing library for counter 
+values
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.un
 its.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.po
@@ -571,29 +610,27 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count272
-\mult@box=\box59
+\c@tracingmulticols=\count279
+\mult@box=\box61
 \multicol@leftmargin=\dimen282
-\c@unbalance=\count273
-\c@collectmore=\count274
-\doublecol@number=\count275
-\multicoltolerance=\count276
-\multicolpretolerance=\count277
+\c@unbalance=\count280
+\c@collectmore=\count281
+\doublecol@number=\count282
+\multicoltolerance=\count283
+\multicolpretolerance=\count284
 \full@width=\dimen283
 \page@free=\dimen284
 \premulticols=\dimen285
 \postmulticols=\dimen286
-\multicolsep=\skip51
-\multicolbaselineskip=\skip52
-\partial@page=\box60
-\last@line=\box61
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box62
+\last@line=\box63
 \maxbalancingoverflow=\dimen287
-\mult@rightbox=\box62
-\mult@grightbox=\box63
-\mult@gfirstbox=\box64
-\mult@firstbox=\box65
-\@tempa=\box66
-\@tempa=\box67
+\mult@rightbox=\box64
+\mult@grightbox=\box65
+\mult@gfirstbox=\box66
+\mult@firstbox=\box67
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
@@ -629,19 +666,21 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box100
 \@tempa=\box101
 \@tempa=\box102
-\c@minrows=\count278
-\c@columnbadness=\count279
-\c@finalcolumnbadness=\count280
+\@tempa=\box103
+\@tempa=\box104
+\c@minrows=\count285
+\c@columnbadness=\count286
+\c@finalcolumnbadness=\count287
 \last@try=\dimen288
 \multicolovershoot=\dimen289
 \multicolundershoot=\dimen290
-\mult@nat@firstbox=\box103
-\colbreak@box=\box104
-\mc@col@check@num=\count281
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\mc@col@check@num=\count288
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks32
+\@enLab=\toks35
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
@@ -690,26 +729,26 @@ File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodepartlowerbox=\box105
-\pgfnodeparttwobox=\box106
-\pgfnodepartthreebox=\box107
-\pgfnodepartfourbox=\box108
-\pgfnodeparttwentybox=\box109
-\pgfnodepartnineteenbox=\box110
-\pgfnodeparteighteenbox=\box111
-\pgfnodepartseventeenbox=\box112
-\pgfnodepartsixteenbox=\box113
-\pgfnodepartfifteenbox=\box114
-\pgfnodepartfourteenbox=\box115
-\pgfnodepartthirteenbox=\box116
-\pgfnodeparttwelvebox=\box117
-\pgfnodepartelevenbox=\box118
-\pgfnodeparttenbox=\box119
-\pgfnodepartninebox=\box120
-\pgfnodeparteightbox=\box121
-\pgfnodepartsevenbox=\box122
-\pgfnodepartsixbox=\box123
-\pgfnodepartfivebox=\box124
+\pgfnodepartlowerbox=\box107
+\pgfnodeparttwobox=\box108
+\pgfnodepartthreebox=\box109
+\pgfnodepartfourbox=\box110
+\pgfnodeparttwentybox=\box111
+\pgfnodepartnineteenbox=\box112
+\pgfnodeparteighteenbox=\box113
+\pgfnodepartseventeenbox=\box114
+\pgfnodepartsixteenbox=\box115
+\pgfnodepartfifteenbox=\box116
+\pgfnodepartfourteenbox=\box117
+\pgfnodepartthirteenbox=\box118
+\pgfnodeparttwelvebox=\box119
+\pgfnodepartelevenbox=\box120
+\pgfnodeparttenbox=\box121
+\pgfnodepartninebox=\box122
+\pgfnodeparteightbox=\box123
+\pgfnodepartsevenbox=\box124
+\pgfnodepartsixbox=\box125
+\pgfnodepartfivebox=\box126
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarysnakes.code.tex
@@ -744,7 +783,7 @@ File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 zlibraryintersections.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
 s.code.tex
-\pgf@intersect@solutions=\count282
+\pgf@intersect@solutions=\count289
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
@@ -789,7 +828,7 @@ cuits/tikzlibrarycircuits.logic.US.code.tex
 cuits/tikzlibrarycircuits.logic.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/cir
 cuits/tikzlibrarycircuits.code.tex
-\tikz@lib@circ@count=\count283
+\tikz@lib@circ@count=\count290
 \tikzcircuitssizeunit=\dimen291
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflib
@@ -800,6 +839,10 @@ raryshapes.gates.logic.code.tex)))
 cuits/tikzlibrarycircuits.logic.IEC.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflib
 raryshapes.gates.logic.IEC.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
 Package: scrextend 2020/01/24 v3.29 KOMA-Script package (extend other classes w
 ith features of KOMA-Script classes)
@@ -828,33 +871,33 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count284
-\l__pdf_internal_box=\box125
-\g__pdf_backend_object_int=\count285
-\g__pdf_backend_annotation_int=\count286
+\g__graphics_track_int=\count291
+\l__pdf_internal_box=\box127
+\g__pdf_backend_object_int=\count292
+\g__pdf_backend_annotation_int=\count293
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count287
-\g__xparse_grabber_int=\count288
-\l__xparse_m_args_int=\count289
-\l__xparse_v_nesting_int=\count290
+\l__xparse_current_arg_int=\count294
+\g__xparse_grabber_int=\count295
+\l__xparse_m_args_int=\count296
+\l__xparse_v_nesting_int=\count297
 )
 Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count291
-\l__fontspec_language_int=\count292
-\l__fontspec_strnum_int=\count293
-\l__fontspec_tmp_int=\count294
-\l__fontspec_tmpa_int=\count295
-\l__fontspec_tmpb_int=\count296
-\l__fontspec_tmpc_int=\count297
-\l__fontspec_em_int=\count298
-\l__fontspec_emdef_int=\count299
-\l__fontspec_strong_int=\count300
-\l__fontspec_strongdef_int=\count301
+\l__fontspec_script_int=\count298
+\l__fontspec_language_int=\count299
+\l__fontspec_strnum_int=\count300
+\l__fontspec_tmp_int=\count301
+\l__fontspec_tmpa_int=\count302
+\l__fontspec_tmpb_int=\count303
+\l__fontspec_tmpc_int=\count304
+\l__fontspec_em_int=\count305
+\l__fontspec_emdef_int=\count306
+\l__fontspec_strong_int=\count307
+\l__fontspec_strongdef_int=\count308
 \l__fontspec_tmpa_dim=\dimen292
 \l__fontspec_tmpb_dim=\dimen293
 \l__fontspec_tmpc_dim=\dimen294
@@ -868,7 +911,7 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip53
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -876,7 +919,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks33
+\@emptytoks=\toks36
 \ex@=\dimen295
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -886,41 +929,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count302
+\inf@bad=\count309
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count303
-\leftroot@=\count304
+\uproot@=\count310
+\leftroot@=\count311
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count305
-\DOTSCASE@=\count306
+\classnum@=\count312
+\DOTSCASE@=\count313
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box126
-\strutbox@=\box127
+\Mathstrutbox@=\box128
+\strutbox@=\box129
 \big@size=\dimen297
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count307
-\c@MaxMatrixCols=\count308
+\macc@depth=\count314
+\c@MaxMatrixCols=\count315
 \dotsspace@=\muskip16
-\c@parentequation=\count309
-\dspbrk@lvl=\count310
-\tag@help=\toks34
-\row@=\count311
-\column@=\count312
-\maxfields@=\count313
-\andhelp@=\toks35
+\c@parentequation=\count316
+\dspbrk@lvl=\count317
+\tag@help=\toks37
+\row@=\count318
+\column@=\count319
+\maxfields@=\count320
+\andhelp@=\toks38
 \eqnshift@=\dimen298
 \alignsep@=\dimen299
 \tagshift@=\dimen300
 \tagwidth@=\dimen301
 \totwidth@=\dimen302
 \lineht@=\dimen303
-\@envbody=\toks36
-\multlinegap=\skip54
-\multlinetaggap=\skip55
-\mathdisplay@stack=\toks37
+\@envbody=\toks39
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -937,31 +980,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks38
-\thm@bodyfont=\toks39
-\thm@headfont=\toks40
-\thm@notefont=\toks41
-\thm@headpunct=\toks42
-\thm@preskip=\skip56
-\thm@postskip=\skip57
-\thm@headsep=\skip58
-\dth@everypar=\toks43
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip58
+\thm@postskip=\skip59
+\thm@headsep=\skip60
+\dth@everypar=\toks46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count314
-\calc@Bcount=\count315
+\calc@Acount=\count321
+\calc@Bcount=\count322
 \calc@Adimen=\dimen304
 \calc@Bdimen=\dimen305
-\calc@Askip=\skip59
-\calc@Bskip=\skip60
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count316
-\calc@Cskip=\skip61
+\calc@Ccount=\count323
+\calc@Cskip=\skip63
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
@@ -970,9 +1013,9 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count317
+\g_MT_multlinerow_int=\count324
 \l_MT_multwidth_dim=\dimen306
-\origjot=\skip62
+\origjot=\skip64
 \l_MT_shortvdotswithinadjustabove_dim=\dimen307
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen308
 \l_MT_above_intertext_sep=\dimen309
@@ -995,20 +1038,20 @@ LaTeX Info: Redefining \bm on input line 209.
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
-\linenopenalty=\count318
-\output=\toks44
-\linenoprevgraf=\count319
+\linenopenalty=\count325
+\output=\toks47
+\linenoprevgraf=\count326
 \linenumbersep=\dimen313
 \linenumberwidth=\dimen314
-\c@linenumber=\count320
-\c@pagewiselinenumber=\count321
-\c@LN@truepage=\count322
-\c@internallinenumber=\count323
-\c@internallinenumbers=\count324
+\c@linenumber=\count327
+\c@pagewiselinenumber=\count328
+\c@LN@truepage=\count329
+\c@internallinenumber=\count330
+\c@internallinenumbers=\count331
 \quotelinenumbersep=\dimen315
 \bframerule=\dimen316
 \bframesep=\dimen317
-\bframebox=\box128
+\bframebox=\box130
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
@@ -1030,12 +1073,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen325
 \cmidrulekern=\dimen326
 \defaultaddspace=\dimen327
-\@cmidla=\count325
-\@cmidlb=\count326
+\@cmidla=\count332
+\@cmidlb=\count333
 \@aboverulesep=\dimen328
 \@belowrulesep=\dimen329
-\@thisruleclass=\count327
-\@lastruleclass=\count328
+\@thisruleclass=\count334
+\@lastruleclass=\count335
 \@thisrulewidth=\dimen330
 )
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
@@ -1049,13 +1092,13 @@ Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count329
+\etb@tempcnta=\count336
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks45
+\FN@temptoken=\toks48
 \footnotemargin=\dimen331
-\c@pp@next@reset=\count330
+\c@pp@next@reset=\count337
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1071,31 +1114,31 @@ Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box129
+\l__siunitx_tmp_box=\box131
 \l__siunitx_tmp_dim=\dimen332
-\l__siunitx_tmp_int=\count331
-\l__siunitx_number_mantissa_length_int=\count332
-\l__siunitx_number_uncert_length_int=\count333
-\l__siunitx_round_int=\count334
-\l__siunitx_process_decimal_int=\count335
-\l__siunitx_process_uncertainty_int=\count336
-\l__siunitx_process_fixed_int=\count337
-\l__siunitx_process_integer_min_int=\count338
-\l__siunitx_process_precision_int=\count339
-\l__siunitx_group_min_int=\count340
-\l__siunitx_angle_marker_box=\box130
-\l__siunitx_angle_unit_box=\box131
+\l__siunitx_tmp_int=\count338
+\l__siunitx_number_mantissa_length_int=\count339
+\l__siunitx_number_uncert_length_int=\count340
+\l__siunitx_round_int=\count341
+\l__siunitx_process_decimal_int=\count342
+\l__siunitx_process_uncertainty_int=\count343
+\l__siunitx_process_fixed_int=\count344
+\l__siunitx_process_integer_min_int=\count345
+\l__siunitx_process_precision_int=\count346
+\l__siunitx_group_min_int=\count347
+\l__siunitx_angle_marker_box=\box132
+\l__siunitx_angle_unit_box=\box133
 \l__siunitx_angle_marker_dim=\dimen333
 \l__siunitx_angle_unit_dim=\dimen334
-\l__siunitx_unit_int=\count341
-\l__siunitx_unit_denominator_int=\count342
-\l__siunitx_unit_numerator_int=\count343
-\l__siunitx_unit_prefix_int=\count344
-\l__siunitx_unit_prefix_base_int=\count345
-\l__siunitx_unit_prefix_gram_int=\count346
-\l__siunitx_number_product_int=\count347
-\c__siunitx_one_fill_skip=\skip63
-\l__siunitx_table_unit_align_skip=\skip64
+\l__siunitx_unit_int=\count348
+\l__siunitx_unit_denominator_int=\count349
+\l__siunitx_unit_numerator_int=\count350
+\l__siunitx_unit_prefix_int=\count351
+\l__siunitx_unit_prefix_base_int=\count352
+\l__siunitx_unit_prefix_gram_int=\count353
+\l__siunitx_number_product_int=\count354
+\c__siunitx_one_fill_skip=\skip65
+\l__siunitx_table_unit_align_skip=\skip66
 \l__siunitx_table_exponent_dim=\dimen335
 \l__siunitx_table_integer_dim=\dimen336
 \l__siunitx_table_mantissa_dim=\dimen337
@@ -1105,12 +1148,12 @@ Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_fill_pre_dim=\dimen341
 \l__siunitx_table_fill_post_dim=\dimen342
 \l__siunitx_table_fill_mid_dim=\dimen343
-\l__siunitx_table_pre_box=\box132
-\l__siunitx_table_post_box=\box133
-\l__siunitx_table_mantissa_box=\box134
-\l__siunitx_table_result_box=\box135
-\l__siunitx_table_number_align_skip=\skip65
-\l__siunitx_table_text_align_skip=\skip66
+\l__siunitx_table_pre_box=\box134
+\l__siunitx_table_post_box=\box135
+\l__siunitx_table_mantissa_box=\box136
+\l__siunitx_table_result_box=\box137
+\l__siunitx_table_number_align_skip=\skip67
+\l__siunitx_table_text_align_skip=\skip68
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
@@ -1136,16 +1179,16 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
 (/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-xetex.def
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks46
+\pIIe@GRAPH=\toks49
 \@arclen=\dimen344
 \@arcrad=\dimen345
 \@tempdimd=\dimen346
 )
-\stm@phasebox=\box136
-\stm@phasedp=\skip67
-\stm@phaseht=\skip68
-\stm@phasetot=\skip69
-\stm@phasewd=\skip70
+\stm@phasebox=\box138
+\stm@phasedp=\skip69
+\stm@phaseht=\skip70
+\stm@phasetot=\skip71
+\stm@phasewd=\skip72
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
@@ -1153,21 +1196,21 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count348
-\g__chemgreek_tmpa_int=\count349
+\l__chemgreek_tmpa_int=\count355
+\g__chemgreek_tmpa_int=\count356
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count350
-\__mhchem_arrow_extPgfLength_skip=\skip71
-\mhchem@minispace@tmp=\skip72
-\mhchem@minibackspace@tmp=\skip73
-\mhchem@bondwidth=\skip74
-\mhchem@bondheight=\skip75
-\mhchem@smallbondwidth@tmpA=\skip76
-\mhchem@smallbondwidth@tmpB=\skip77
-\mhchem@smallbondwidth=\skip78
-\mhchem@bondtmp@minussidebearingleft=\skip79
-\mhchem@bondtmp@minussidebearingright=\skip80
-\l__mhchem_option_version_int=\count351
+\l__mhchem_ce_distanceFromLastComma_int=\count357
+\__mhchem_arrow_extPgfLength_skip=\skip73
+\mhchem@minispace@tmp=\skip74
+\mhchem@minibackspace@tmp=\skip75
+\mhchem@bondwidth=\skip76
+\mhchem@bondheight=\skip77
+\mhchem@smallbondwidth@tmpA=\skip78
+\mhchem@smallbondwidth@tmpB=\skip79
+\mhchem@smallbondwidth=\skip80
+\mhchem@bondtmp@minussidebearingleft=\skip81
+\mhchem@bondtmp@minussidebearingright=\skip82
+\l__mhchem_option_version_int=\count358
 \mhchem@option@minusmathsidebearingleft=\dimen347
 \mhchem@option@minusmathsidebearingright=\dimen348
 \mhchem@option@minustextsidebearingleft=\dimen349
@@ -1179,9 +1222,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count352
-\Gm@cntv=\count353
-\c@Gm@tempcnt=\count354
+\Gm@cnth=\count359
+\Gm@cntv=\count360
+\c@Gm@tempcnt=\count361
 \Gm@bindingoffset=\dimen351
 \Gm@wd@mp=\dimen352
 \Gm@odd@mp=\dimen353
@@ -1190,7 +1233,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen356
 \Gm@layouthoffset=\dimen357
 \Gm@layoutvoffset=\dimen358
-\Gm@dimlist=\toks47
+\Gm@dimlist=\toks50
 )
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -1210,13 +1253,13 @@ Package caption3 Info: TeX engine: e-TeX on input line 61.
 \caption@hangindent=\dimen365
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count355
-\c@continuedfloat=\count356
+\c@caption@flags=\count362
+\c@continuedfloat=\count363
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
-\c@subfigure=\count357
-\c@subtable=\count358
+\c@subfigure=\count364
+\c@subtable=\count365
 )
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2020/01/29 v1.47 Modern multilingual typesetting with XeLa
@@ -1230,10 +1273,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks48
-\XKV@tempa@toks=\toks49
+\XKV@toks=\toks51
+\XKV@tempa@toks=\toks52
 )
-\XKV@depth=\count359
+\XKV@depth=\count366
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
@@ -1308,18 +1351,18 @@ X
 ****************************************************
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/biditools.sty
 Package: biditools 2020-01-29 v1.10 Programming tools for bidi package
-\@bidi@envbody=\toks50
-\@bidi@emptytoks=\toks51
-\bidi@tempcountb=\count360
-\bidi@temptoksa=\toks52
-\bidi@temptoksb=\toks53
-\bidi@dummies=\count361
-\bidi@are@these@correct=\toks54
-\bidi@toks@lista=\toks55
-\bidi@toks@listb=\toks56
-\bidi@stack@length=\count362
-\bidi@empty@stack=\toks57
-\bidi@looprepeat@depth=\count363
+\@bidi@envbody=\toks53
+\@bidi@emptytoks=\toks54
+\bidi@tempcountb=\count367
+\bidi@temptoksa=\toks55
+\bidi@temptoksb=\toks56
+\bidi@dummies=\count368
+\bidi@are@these@correct=\toks57
+\bidi@toks@lista=\toks58
+\bidi@toks@listb=\toks59
+\bidi@stack@length=\count369
+\bidi@empty@stack=\toks60
+\bidi@looprepeat@depth=\count370
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
@@ -1343,7 +1386,7 @@ Package zref Info: New property: page on input line 765.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\c@abspage=\count364
+\c@abspage=\count371
 Package zref Info: New property: abspage on input line 66.
 )
 \@bidi@copyins@=\insert252
@@ -1351,14 +1394,14 @@ Package zref Info: New property: abspage on input line 66.
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2019/03/03 v1.3.7 bidi adaptations for `latex.ltx' f
 or XeTeX engine
-\bidi@n@everypar=\toks58
-\bidi@column@check@number=\count365
+\bidi@n@everypar=\toks61
+\bidi@column@check@number=\count372
 
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2017/08/09 v1.1 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count366
-\footdir@toks=\toks59
+\c@footdir@label=\count373
+\footdir@toks=\toks62
 )
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/book-xetex-bidi.def
 File: book-xetex-bidi.def 2017/06/09 v1.0 bidi adaptations for standard book cl
@@ -1427,7 +1470,7 @@ kage for XeTeX engine
 File: loadingorder-xetex-bidi.def 2017/12/29 v0.97 making sure that bidi is the
  last package loaded
 )
-\bidi@digits=\count367
+\bidi@digits=\count374
 \bidi@digits@charclass=\XeTeXcharclass2
 \bidi@sepmark@charclass=\XeTeXcharclass3
 )
@@ -1439,16 +1482,16 @@ d of Arabic abjad numerals
 Package: hijrical 2010/07/12 v0.2 Islamic calendar
 
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/cal-util.def
-\c@tmpA=\count368
-\c@tmpB=\count369
-\c@tmpC=\count370
-\c@tmpD=\count371
-\c@tmpE=\count372
-\c@tmpF=\count373
+\c@tmpA=\count375
+\c@tmpB=\count376
+\c@tmpC=\count377
+\c@tmpD=\count378
+\c@tmpE=\count379
+\c@tmpF=\count380
 )
-\c@Hijriday=\count374
-\c@Hijrimonth=\count375
-\c@Hijriyear=\count376
+\c@Hijriday=\count381
+\c@Hijrimonth=\count382
+\c@Hijriyear=\count383
 )
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -1633,6 +1676,31 @@ Package fontspec Info: Font family 'AASameerSagarNastaleeqBold(0)' created for
 (fontspec)             Sagar Nastaleeq Bold/OT:script=arab;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+
+Package fontspec Info: Could not resolve font "Jameel Noori Nastaleeq/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Jameel Noori Nastaleeq/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Jameel Noori Nastaleeq/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'JameelNooriNastaleeq(1)' created for font
+(fontspec)             'Jameel Noori Nastaleeq' with options
+(fontspec)             [Scale=1.0,Script=Arabic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.0]"Jameel
+(fontspec)             Noori Nastaleeq/OT:script=arab;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+LaTeX Info: Redefining \texturdu on input line 62.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
@@ -1646,10 +1714,10 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \@IEEEtrantmpdimenA=\dimen366
 \@IEEEtrantmpdimenB=\dimen367
 \@IEEEtrantmpdimenC=\dimen368
-\@IEEEtrantmpcountA=\count377
-\@IEEEtrantmpcountB=\count378
-\@IEEEtrantmpcountC=\count379
-\@IEEEtrantmptoksA=\toks60
+\@IEEEtrantmpcountA=\count384
+\@IEEEtrantmpcountB=\count385
+\@IEEEtrantmpcountC=\count386
+\@IEEEtrantmptoksA=\toks63
 \IEEEnormaljot=\dimen369
 \IEEEquantizedlength=\dimen370
 \IEEEquantizedlengthdiff=\dimen371
@@ -1662,29 +1730,29 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \IEEElabelindent=\dimen378
 \IEEEiednormlabelsep=\dimen379
 \IEEEiedmathlabelsep=\dimen380
-\IEEEiedtopsep=\skip81
-\c@IEEEsubequation=\count380
-\@IEEEeqnnumcols=\count381
-\@IEEEeqncolcnt=\count382
-\@IEEEsubeqnnumrollback=\count383
+\IEEEiedtopsep=\skip83
+\c@IEEEsubequation=\count387
+\@IEEEeqnnumcols=\count388
+\@IEEEeqncolcnt=\count389
+\@IEEEsubeqnnumrollback=\count390
 \IEEEPARstartletwidth=\dimen381
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip82
-\multirow@cntb=\count384
-\multirow@dima=\skip83
+\multirow@colwidth=\skip84
+\multirow@cntb=\count391
+\multirow@dima=\skip85
 \bigstrutjot=\dimen382
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count385
+\c@ifsymcnt=\count392
 )
 (/usr/share/texlive/texmf-dist/tex/generic/genmisc/longdiv.tex
-\gpten=\count386
+\gpten=\count393
 )
 (/usr/share/texlive/texmf-dist/tex/latex/polynom/polynom.sty
 Package: polynom 2017/07/17 0.19 (CH,HA)
-\pld@currstage=\count387
+\pld@currstage=\count394
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fi
 llbetween.code.tex
@@ -1704,21 +1772,21 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks61
-\verbatim@line=\toks62
+\every@verbatim=\toks64
+\verbatim@line=\toks65
 \verbatim@in@stream=\read3
 )
-\tab@position=\count388
-\tab@size=\count389
-\listing@line=\count390
+\tab@position=\count395
+\tab@size=\count396
+\listing@line=\count397
 )
 (/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202345874.tex)...disabled (restricted).
+runsystem(touch w18-test-2023521841.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202345874.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2023521841.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -1727,31 +1795,33 @@ runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 Package gnuplottex Warning: Shell escape not enabled.
 (gnuplottex)                You'll need to convert the graphs yourself..
 
-\c@fignum=\count391
+\c@fignum=\count398
 ) (/usr/share/texlive/texmf-dist/tex/latex/newfile/newfile.sty
 Package: newfile 2009/09/03 v1.0c Output and input files
-\c@streamvline=\count392
+\c@streamvline=\count399
 )
 \tempfile=\write5
 \openout5 = `answer.tex'.
 
 
 (./tex/myHarpoons.tex
-\argwd=\skip84
-\arght=\skip85
+\argwd=\skip86
+\arght=\skip87
 ) (./tex/myUrduCommands.tex
-\c@examplecounter=\count393
-\c@practicecounter=\count394
-\c@questioncounter=\count395
-\c@lawcounter=\count396
-\c@kthcounter=\count397
-\c@kcocounter=\count398
-\c@krucounter=\count399
-\c@kttcounter=\count400
+\c@examplecounter=\count400
+\c@practicecounter=\count401
+\c@questioncounter=\count402
+\c@lawcounter=\count403
+\c@kthcounter=\count404
+\c@kcocounter=\count405
+\c@krucounter=\count406
+\c@kttcounter=\count407
 ) (./tex/myUrduGreek.tex)
 (./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.tex)
 (./tex/myCircuitDimensionsAndMathematicalSymbols.tex)
-(./tex/myTikzCommandsCircuitAnalysis.tex) (./digitalCircuitsLatex.aux
+(./tex/myTikzCommandsCircuitAnalysis.tex) (./tex/myDigital.tex)
+(./tex/myDigitalUpFacing.tex) (./tex/myDigitalDownFacing.tex)
+(./digitalCircuitsLatex.aux
 
 Package fontspec Info: Could not resolve font "Jameel Noori Nastaleeq/BI" (it
 (fontspec)             probably doesn't exist).
@@ -1765,7 +1835,7 @@ Package fontspec Info: Could not resolve font "Jameel Noori Nastaleeq/I" (it
 (fontspec)             probably doesn't exist).
 
 
-Package fontspec Info: Font family 'JameelNooriNastaleeq(1)' created for font
+Package fontspec Info: Font family 'JameelNooriNastaleeq(2)' created for font
 (fontspec)             'Jameel Noori Nastaleeq' with options
 (fontspec)             [Ligatures=TeX,Scale=1.0,Script=Arabic].
 (fontspec)              
@@ -1778,17 +1848,16 @@ Package fontspec Info: Font family 'JameelNooriNastaleeq(1)' created for font
 "
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
-
-(./tex/digitalCircuitsPreface.aux) (./tex/prefaceFirstBook.aux)
-(./tex/binarySystem.aux
-LaTeX Info: Redefining \rmfamily on input line 21.
-LaTeX Info: Redefining \sffamily on input line 21.
-LaTeX Info: Redefining \ttfamily on input line 21.
-LaTeX Info: Redefining \rmfamily on input line 29.
-LaTeX Info: Redefining \sffamily on input line 29.
-LaTeX Info: Redefining \ttfamily on input line 29.
+ (./tex/digitalCircuitsPreface.aux)
+(./tex/prefaceFirstBook.aux) (./tex/binarySystem.aux
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+LaTeX Info: Redefining \rmfamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \ttfamily on input line 34.
 ) (./tex/basicMaths.aux
 LaTeX Info: Redefining \rmfamily on input line 16.
 LaTeX Info: Redefining \sffamily on input line 16.
@@ -1796,91 +1865,361 @@ LaTeX Info: Redefining \ttfamily on input line 16.
 LaTeX Info: Redefining \rmfamily on input line 32.
 LaTeX Info: Redefining \sffamily on input line 32.
 LaTeX Info: Redefining \ttfamily on input line 32.
-) (./tex/booleanAlgebra.aux
+)
+(./tex/booleanAlgebra.aux
 LaTeX Info: Redefining \rmfamily on input line 12.
 LaTeX Info: Redefining \sffamily on input line 12.
 LaTeX Info: Redefining \ttfamily on input line 12.
 LaTeX Info: Redefining \rmfamily on input line 28.
 LaTeX Info: Redefining \sffamily on input line 28.
 LaTeX Info: Redefining \ttfamily on input line 28.
-LaTeX Info: Redefining \rmfamily on input line 47.
-LaTeX Info: Redefining \sffamily on input line 47.
-LaTeX Info: Redefining \ttfamily on input line 47.
-LaTeX Info: Redefining \rmfamily on input line 63.
-LaTeX Info: Redefining \sffamily on input line 63.
-LaTeX Info: Redefining \ttfamily on input line 63.
-LaTeX Info: Redefining \rmfamily on input line 81.
-LaTeX Info: Redefining \sffamily on input line 81.
-LaTeX Info: Redefining \ttfamily on input line 81.
-LaTeX Info: Redefining \rmfamily on input line 99.
-LaTeX Info: Redefining \sffamily on input line 99.
-LaTeX Info: Redefining \ttfamily on input line 99.
-LaTeX Info: Redefining \rmfamily on input line 118.
-LaTeX Info: Redefining \sffamily on input line 118.
-LaTeX Info: Redefining \ttfamily on input line 118.
-LaTeX Info: Redefining \rmfamily on input line 136.
-LaTeX Info: Redefining \sffamily on input line 136.
-LaTeX Info: Redefining \ttfamily on input line 136.
+LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \sffamily on input line 48.
+LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 64.
+LaTeX Info: Redefining \sffamily on input line 64.
+LaTeX Info: Redefining \ttfamily on input line 64.
+LaTeX Info: Redefining \rmfamily on input line 83.
+LaTeX Info: Redefining \sffamily on input line 83.
+LaTeX Info: Redefining \ttfamily on input line 83.
+LaTeX Info: Redefining \rmfamily on input line 101.
+LaTeX Info: Redefining \sffamily on input line 101.
+LaTeX Info: Redefining \ttfamily on input line 101.
+LaTeX Info: Redefining \rmfamily on input line 119.
+LaTeX Info: Redefining \sffamily on input line 119.
+LaTeX Info: Redefining \ttfamily on input line 119.
+LaTeX Info: Redefining \rmfamily on input line 137.
+LaTeX Info: Redefining \sffamily on input line 137.
+LaTeX Info: Redefining \ttfamily on input line 137.
 LaTeX Info: Redefining \rmfamily on input line 155.
 LaTeX Info: Redefining \sffamily on input line 155.
 LaTeX Info: Redefining \ttfamily on input line 155.
 LaTeX Info: Redefining \rmfamily on input line 173.
 LaTeX Info: Redefining \sffamily on input line 173.
 LaTeX Info: Redefining \ttfamily on input line 173.
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
-LaTeX Info: Redefining \rmfamily on input line 245.
-LaTeX Info: Redefining \sffamily on input line 245.
-LaTeX Info: Redefining \ttfamily on input line 245.
-LaTeX Info: Redefining \rmfamily on input line 253.
-LaTeX Info: Redefining \sffamily on input line 253.
-LaTeX Info: Redefining \ttfamily on input line 253.
-LaTeX Info: Redefining \rmfamily on input line 269.
-LaTeX Info: Redefining \sffamily on input line 269.
-LaTeX Info: Redefining \ttfamily on input line 269.
-LaTeX Info: Redefining \rmfamily on input line 287.
-LaTeX Info: Redefining \sffamily on input line 287.
-LaTeX Info: Redefining \ttfamily on input line 287.
-LaTeX Info: Redefining \rmfamily on input line 312.
-LaTeX Info: Redefining \sffamily on input line 312.
-LaTeX Info: Redefining \ttfamily on input line 312.
-LaTeX Info: Redefining \rmfamily on input line 330.
-LaTeX Info: Redefining \sffamily on input line 330.
-LaTeX Info: Redefining \ttfamily on input line 330.
-LaTeX Info: Redefining \rmfamily on input line 346.
-LaTeX Info: Redefining \sffamily on input line 346.
-LaTeX Info: Redefining \ttfamily on input line 346.
-))
+LaTeX Info: Redefining \rmfamily on input line 193.
+LaTeX Info: Redefining \sffamily on input line 193.
+LaTeX Info: Redefining \ttfamily on input line 193.
+LaTeX Info: Redefining \rmfamily on input line 211.
+LaTeX Info: Redefining \sffamily on input line 211.
+LaTeX Info: Redefining \ttfamily on input line 211.
+LaTeX Info: Redefining \rmfamily on input line 248.
+LaTeX Info: Redefining \sffamily on input line 248.
+LaTeX Info: Redefining \ttfamily on input line 248.
+LaTeX Info: Redefining \rmfamily on input line 258.
+LaTeX Info: Redefining \sffamily on input line 258.
+LaTeX Info: Redefining \ttfamily on input line 258.
+LaTeX Info: Redefining \rmfamily on input line 274.
+LaTeX Info: Redefining \sffamily on input line 274.
+LaTeX Info: Redefining \ttfamily on input line 274.
+LaTeX Info: Redefining \rmfamily on input line 292.
+LaTeX Info: Redefining \sffamily on input line 292.
+LaTeX Info: Redefining \ttfamily on input line 292.
+LaTeX Info: Redefining \rmfamily on input line 315.
+LaTeX Info: Redefining \sffamily on input line 315.
+LaTeX Info: Redefining \ttfamily on input line 315.
+LaTeX Info: Redefining \rmfamily on input line 331.
+LaTeX Info: Redefining \sffamily on input line 331.
+LaTeX Info: Redefining \ttfamily on input line 331.
+LaTeX Info: Redefining \rmfamily on input line 349.
+LaTeX Info: Redefining \sffamily on input line 349.
+LaTeX Info: Redefining \ttfamily on input line 349.
+LaTeX Info: Redefining \rmfamily on input line 370.
+LaTeX Info: Redefining \sffamily on input line 370.
+LaTeX Info: Redefining \ttfamily on input line 370.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
+LaTeX Info: Redefining \rmfamily on input line 412.
+LaTeX Info: Redefining \sffamily on input line 412.
+LaTeX Info: Redefining \ttfamily on input line 412.
+LaTeX Info: Redefining \rmfamily on input line 428.
+LaTeX Info: Redefining \sffamily on input line 428.
+LaTeX Info: Redefining \ttfamily on input line 428.
+LaTeX Info: Redefining \rmfamily on input line 456.
+LaTeX Info: Redefining \sffamily on input line 456.
+LaTeX Info: Redefining \ttfamily on input line 456.
+LaTeX Info: Redefining \rmfamily on input line 472.
+LaTeX Info: Redefining \sffamily on input line 472.
+LaTeX Info: Redefining \ttfamily on input line 472.
+LaTeX Info: Redefining \rmfamily on input line 488.
+LaTeX Info: Redefining \sffamily on input line 488.
+LaTeX Info: Redefining \ttfamily on input line 488.
+LaTeX Info: Redefining \rmfamily on input line 504.
+LaTeX Info: Redefining \sffamily on input line 504.
+LaTeX Info: Redefining \ttfamily on input line 504.
+LaTeX Info: Redefining \rmfamily on input line 523.
+LaTeX Info: Redefining \sffamily on input line 523.
+LaTeX Info: Redefining \ttfamily on input line 523.
+LaTeX Info: Redefining \rmfamily on input line 539.
+LaTeX Info: Redefining \sffamily on input line 539.
+LaTeX Info: Redefining \ttfamily on input line 539.
+LaTeX Info: Redefining \rmfamily on input line 555.
+LaTeX Info: Redefining \sffamily on input line 555.
+LaTeX Info: Redefining \ttfamily on input line 555.
+LaTeX Info: Redefining \rmfamily on input line 571.
+LaTeX Info: Redefining \sffamily on input line 571.
+LaTeX Info: Redefining \ttfamily on input line 571.
+LaTeX Info: Redefining \rmfamily on input line 587.
+LaTeX Info: Redefining \sffamily on input line 587.
+LaTeX Info: Redefining \ttfamily on input line 587.
+LaTeX Info: Redefining \rmfamily on input line 606.
+LaTeX Info: Redefining \sffamily on input line 606.
+LaTeX Info: Redefining \ttfamily on input line 606.
+LaTeX Info: Redefining \rmfamily on input line 622.
+LaTeX Info: Redefining \sffamily on input line 622.
+LaTeX Info: Redefining \ttfamily on input line 622.
+LaTeX Info: Redefining \rmfamily on input line 638.
+LaTeX Info: Redefining \sffamily on input line 638.
+LaTeX Info: Redefining \ttfamily on input line 638.
+LaTeX Info: Redefining \rmfamily on input line 654.
+LaTeX Info: Redefining \sffamily on input line 654.
+LaTeX Info: Redefining \ttfamily on input line 654.
+LaTeX Info: Redefining \rmfamily on input line 670.
+LaTeX Info: Redefining \sffamily on input line 670.
+LaTeX Info: Redefining \ttfamily on input line 670.
+LaTeX Info: Redefining \rmfamily on input line 686.
+LaTeX Info: Redefining \sffamily on input line 686.
+LaTeX Info: Redefining \ttfamily on input line 686.
+LaTeX Info: Redefining \rmfamily on input line 702.
+LaTeX Info: Redefining \sffamily on input line 702.
+LaTeX Info: Redefining \ttfamily on input line 702.
+LaTeX Info: Redefining \rmfamily on input line 718.
+LaTeX Info: Redefining \sffamily on input line 718.
+LaTeX Info: Redefining \ttfamily on input line 718.
+LaTeX Info: Redefining \rmfamily on input line 734.
+LaTeX Info: Redefining \sffamily on input line 734.
+LaTeX Info: Redefining \ttfamily on input line 734.
+LaTeX Info: Redefining \rmfamily on input line 750.
+LaTeX Info: Redefining \sffamily on input line 750.
+LaTeX Info: Redefining \ttfamily on input line 750.
+LaTeX Info: Redefining \rmfamily on input line 766.
+LaTeX Info: Redefining \sffamily on input line 766.
+LaTeX Info: Redefining \ttfamily on input line 766.
+LaTeX Info: Redefining \rmfamily on input line 782.
+LaTeX Info: Redefining \sffamily on input line 782.
+LaTeX Info: Redefining \ttfamily on input line 782.
+LaTeX Info: Redefining \rmfamily on input line 798.
+LaTeX Info: Redefining \sffamily on input line 798.
+LaTeX Info: Redefining \ttfamily on input line 798.
+LaTeX Info: Redefining \rmfamily on input line 815.
+LaTeX Info: Redefining \sffamily on input line 815.
+LaTeX Info: Redefining \ttfamily on input line 815.
+LaTeX Info: Redefining \rmfamily on input line 831.
+LaTeX Info: Redefining \sffamily on input line 831.
+LaTeX Info: Redefining \ttfamily on input line 831.
+LaTeX Info: Redefining \rmfamily on input line 852.
+LaTeX Info: Redefining \sffamily on input line 852.
+LaTeX Info: Redefining \ttfamily on input line 852.
+LaTeX Info: Redefining \rmfamily on input line 868.
+LaTeX Info: Redefining \sffamily on input line 868.
+LaTeX Info: Redefining \ttfamily on input line 868.
+LaTeX Info: Redefining \rmfamily on input line 889.
+LaTeX Info: Redefining \sffamily on input line 889.
+LaTeX Info: Redefining \ttfamily on input line 889.
+LaTeX Info: Redefining \rmfamily on input line 905.
+LaTeX Info: Redefining \sffamily on input line 905.
+LaTeX Info: Redefining \ttfamily on input line 905.
+LaTeX Info: Redefining \rmfamily on input line 921.
+LaTeX Info: Redefining \sffamily on input line 921.
+LaTeX Info: Redefining \ttfamily on input line 921.
+LaTeX Info: Redefining \rmfamily on input line 937.
+LaTeX Info: Redefining \sffamily on input line 937.
+LaTeX Info: Redefining \ttfamily on input line 937.
+LaTeX Info: Redefining \rmfamily on input line 954.
+LaTeX Info: Redefining \sffamily on input line 954.
+LaTeX Info: Redefining \ttfamily on input line 954.
+LaTeX Info: Redefining \rmfamily on input line 974.
+LaTeX Info: Redefining \sffamily on input line 974.
+LaTeX Info: Redefining \ttfamily on input line 974.
+LaTeX Info: Redefining \rmfamily on input line 991.
+LaTeX Info: Redefining \sffamily on input line 991.
+LaTeX Info: Redefining \ttfamily on input line 991.
+LaTeX Info: Redefining \rmfamily on input line 1008.
+LaTeX Info: Redefining \sffamily on input line 1008.
+LaTeX Info: Redefining \ttfamily on input line 1008.
+LaTeX Info: Redefining \rmfamily on input line 1026.
+LaTeX Info: Redefining \sffamily on input line 1026.
+LaTeX Info: Redefining \ttfamily on input line 1026.
+LaTeX Info: Redefining \rmfamily on input line 1055.
+LaTeX Info: Redefining \sffamily on input line 1055.
+LaTeX Info: Redefining \ttfamily on input line 1055.
+LaTeX Info: Redefining \rmfamily on input line 1071.
+LaTeX Info: Redefining \sffamily on input line 1071.
+LaTeX Info: Redefining \ttfamily on input line 1071.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
+LaTeX Info: Redefining \rmfamily on input line 1118.
+LaTeX Info: Redefining \sffamily on input line 1118.
+LaTeX Info: Redefining \ttfamily on input line 1118.
+LaTeX Info: Redefining \rmfamily on input line 1142.
+LaTeX Info: Redefining \sffamily on input line 1142.
+LaTeX Info: Redefining \ttfamily on input line 1142.
+) (./tex/karnaughMaps.aux
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \ttfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 37.
+LaTeX Info: Redefining \sffamily on input line 37.
+LaTeX Info: Redefining \ttfamily on input line 37.
+LaTeX Info: Redefining \rmfamily on input line 55.
+LaTeX Info: Redefining \sffamily on input line 55.
+LaTeX Info: Redefining \ttfamily on input line 55.
+LaTeX Info: Redefining \rmfamily on input line 74.
+LaTeX Info: Redefining \sffamily on input line 74.
+LaTeX Info: Redefining \ttfamily on input line 74.
+LaTeX Info: Redefining \rmfamily on input line 104.
+LaTeX Info: Redefining \sffamily on input line 104.
+LaTeX Info: Redefining \ttfamily on input line 104.
+LaTeX Info: Redefining \rmfamily on input line 133.
+LaTeX Info: Redefining \sffamily on input line 133.
+LaTeX Info: Redefining \ttfamily on input line 133.
+LaTeX Info: Redefining \rmfamily on input line 152.
+LaTeX Info: Redefining \sffamily on input line 152.
+LaTeX Info: Redefining \ttfamily on input line 152.
+)
+(./tex/combinationalLogicAndcircuits.aux
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
+LaTeX Info: Redefining \rmfamily on input line 99.
+LaTeX Info: Redefining \sffamily on input line 99.
+LaTeX Info: Redefining \ttfamily on input line 99.
+LaTeX Info: Redefining \rmfamily on input line 120.
+LaTeX Info: Redefining \sffamily on input line 120.
+LaTeX Info: Redefining \ttfamily on input line 120.
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+LaTeX Info: Redefining \rmfamily on input line 171.
+LaTeX Info: Redefining \sffamily on input line 171.
+LaTeX Info: Redefining \ttfamily on input line 171.
+LaTeX Info: Redefining \rmfamily on input line 189.
+LaTeX Info: Redefining \sffamily on input line 189.
+LaTeX Info: Redefining \ttfamily on input line 189.
+LaTeX Info: Redefining \rmfamily on input line 213.
+LaTeX Info: Redefining \sffamily on input line 213.
+LaTeX Info: Redefining \ttfamily on input line 213.
+LaTeX Info: Redefining \rmfamily on input line 231.
+LaTeX Info: Redefining \sffamily on input line 231.
+LaTeX Info: Redefining \ttfamily on input line 231.
+LaTeX Info: Redefining \rmfamily on input line 257.
+LaTeX Info: Redefining \sffamily on input line 257.
+LaTeX Info: Redefining \ttfamily on input line 257.
+LaTeX Info: Redefining \rmfamily on input line 278.
+LaTeX Info: Redefining \sffamily on input line 278.
+LaTeX Info: Redefining \ttfamily on input line 278.
+LaTeX Info: Redefining \rmfamily on input line 299.
+LaTeX Info: Redefining \sffamily on input line 299.
+LaTeX Info: Redefining \ttfamily on input line 299.
+LaTeX Info: Redefining \rmfamily on input line 321.
+LaTeX Info: Redefining \sffamily on input line 321.
+LaTeX Info: Redefining \ttfamily on input line 321.
+LaTeX Info: Redefining \rmfamily on input line 339.
+LaTeX Info: Redefining \sffamily on input line 339.
+LaTeX Info: Redefining \ttfamily on input line 339.
+LaTeX Info: Redefining \rmfamily on input line 363.
+LaTeX Info: Redefining \sffamily on input line 363.
+LaTeX Info: Redefining \ttfamily on input line 363.
+LaTeX Info: Redefining \rmfamily on input line 383.
+LaTeX Info: Redefining \sffamily on input line 383.
+LaTeX Info: Redefining \ttfamily on input line 383.
+) (./tex/synchronusSequentialLogic.aux
+LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \sffamily on input line 48.
+LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 75.
+LaTeX Info: Redefining \sffamily on input line 75.
+LaTeX Info: Redefining \ttfamily on input line 75.
+LaTeX Info: Redefining \rmfamily on input line 91.
+LaTeX Info: Redefining \sffamily on input line 91.
+LaTeX Info: Redefining \ttfamily on input line 91.
+LaTeX Info: Redefining \rmfamily on input line 154.
+LaTeX Info: Redefining \sffamily on input line 154.
+LaTeX Info: Redefining \ttfamily on input line 154.
+LaTeX Info: Redefining \rmfamily on input line 184.
+LaTeX Info: Redefining \sffamily on input line 184.
+LaTeX Info: Redefining \ttfamily on input line 184.
+LaTeX Info: Redefining \rmfamily on input line 203.
+LaTeX Info: Redefining \sffamily on input line 203.
+LaTeX Info: Redefining \ttfamily on input line 203.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 264.
+LaTeX Info: Redefining \sffamily on input line 264.
+LaTeX Info: Redefining \ttfamily on input line 264.
+LaTeX Info: Redefining \rmfamily on input line 282.
+LaTeX Info: Redefining \sffamily on input line 282.
+LaTeX Info: Redefining \ttfamily on input line 282.
+LaTeX Info: Redefining \rmfamily on input line 300.
+LaTeX Info: Redefining \sffamily on input line 300.
+LaTeX Info: Redefining \ttfamily on input line 300.
+LaTeX Info: Redefining \rmfamily on input line 342.
+LaTeX Info: Redefining \sffamily on input line 342.
+LaTeX Info: Redefining \ttfamily on input line 342.
+LaTeX Info: Redefining \rmfamily on input line 358.
+LaTeX Info: Redefining \sffamily on input line 358.
+LaTeX Info: Redefining \ttfamily on input line 358.
+LaTeX Info: Redefining \rmfamily on input line 374.
+LaTeX Info: Redefining \sffamily on input line 374.
+LaTeX Info: Redefining \ttfamily on input line 374.
+LaTeX Info: Redefining \rmfamily on input line 396.
+LaTeX Info: Redefining \sffamily on input line 396.
+LaTeX Info: Redefining \ttfamily on input line 396.
+LaTeX Info: Redefining \rmfamily on input line 441.
+LaTeX Info: Redefining \sffamily on input line 441.
+LaTeX Info: Redefining \ttfamily on input line 441.
+LaTeX Info: Redefining \rmfamily on input line 467.
+LaTeX Info: Redefining \sffamily on input line 467.
+LaTeX Info: Redefining \ttfamily on input line 467.
+LaTeX Info: Redefining \rmfamily on input line 490.
+LaTeX Info: Redefining \sffamily on input line 490.
+LaTeX Info: Redefining \ttfamily on input line 490.
+LaTeX Info: Redefining \rmfamily on input line 506.
+LaTeX Info: Redefining \sffamily on input line 506.
+LaTeX Info: Redefining \ttfamily on input line 506.
+LaTeX Info: Redefining \rmfamily on input line 530.
+LaTeX Info: Redefining \sffamily on input line 530.
+LaTeX Info: Redefining \ttfamily on input line 530.
+LaTeX Info: Redefining \rmfamily on input line 546.
+LaTeX Info: Redefining \sffamily on input line 546.
+LaTeX Info: Redefining \ttfamily on input line 546.
+LaTeX Info: Redefining \rmfamily on input line 579.
+LaTeX Info: Redefining \sffamily on input line 579.
+LaTeX Info: Redefining \ttfamily on input line 579.
+LaTeX Info: Redefining \rmfamily on input line 600.
+LaTeX Info: Redefining \sffamily on input line 600.
+LaTeX Info: Redefining \ttfamily on input line 600.
+) (./tex/registers.aux))
 \openout1 = `digitalCircuitsLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-48.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+56.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
-LaTeX Font Info:    ... okay on input line 148.
-
-ABD: EveryShipout initializing macros
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
@@ -1893,7 +2232,7 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 148.
+Package chemgreek Info: Activating mapping `fontspec' on line 156.
 
 
 *geometry* driver: auto-detecting
@@ -1932,72 +2271,72 @@ Package chemgreek Info: Activating mapping `fontspec' on line 148.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box137
+\AtBeginShipoutBox=\box139
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-48.
+56.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-148.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-148.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-148.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 148.
+(Font)              scaled to size 10.42007pt on input line 156.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 148.
+(Font)              scaled to size 7.91925pt on input line 156.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 148.
+(Font)              scaled to size 6.25204pt on input line 156.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 148.
+(Font)              scaled to size 10.42007pt on input line 156.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 148.
+(Font)              scaled to size 7.91925pt on input line 156.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 148.
+(Font)              scaled to size 6.25204pt on input line 156.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-148.
+156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 14
-8.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 15
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 159.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 159.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 159.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 167.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 167.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 167.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 159.
+(Font)              scaled to size 12.50409pt on input line 167.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 159.
+(Font)              scaled to size 9.37807pt on input line 167.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 159.
+(Font)              scaled to size 7.29405pt on input line 167.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 159.
+(Font)              scaled to size 12.50409pt on input line 167.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 159.
+(Font)              scaled to size 9.37807pt on input line 167.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 159.
+(Font)              scaled to size 7.29405pt on input line 167.
 
 Package fontspec Info: Font family 'DejaVuSansMono(1)' created for font
 (fontspec)             'DejaVu Sans Mono' with options
@@ -2050,16 +2389,16 @@ Space,Script=Arabic].
 
 
 ]
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 161.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 169.
 
 
-LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(1)/b/n' undefined
-(Font)              using `TU/JameelNooriNastaleeq(1)/m/n' instead on input lin
-e 161.
+LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/b/n' undefined
+(Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
+e 169.
 
 (./digitalCircuitsLatex.toc
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 2.
 LaTeX Info: Redefining \rmfamily on input line 9.
 LaTeX Info: Redefining \sffamily on input line 9.
@@ -2085,24 +2424,24 @@ LaTeX Info: Redefining \ttfamily on input line 45.
 LaTeX Info: Redefining \rmfamily on input line 49.
 LaTeX Info: Redefining \sffamily on input line 49.
 LaTeX Info: Redefining \ttfamily on input line 49.
-LaTeX Info: Redefining \rmfamily on input line 53.
-LaTeX Info: Redefining \sffamily on input line 53.
-LaTeX Info: Redefining \ttfamily on input line 53.
-LaTeX Info: Redefining \rmfamily on input line 57.
-LaTeX Info: Redefining \sffamily on input line 57.
-LaTeX Info: Redefining \ttfamily on input line 57.
+LaTeX Info: Redefining \rmfamily on input line 54.
+LaTeX Info: Redefining \sffamily on input line 54.
+LaTeX Info: Redefining \ttfamily on input line 54.
+LaTeX Info: Redefining \rmfamily on input line 58.
+LaTeX Info: Redefining \sffamily on input line 58.
+LaTeX Info: Redefining \ttfamily on input line 58.
 LaTeX Info: Redefining \rmfamily on input line 62.
 LaTeX Info: Redefining \sffamily on input line 62.
 LaTeX Info: Redefining \ttfamily on input line 62.
 LaTeX Info: Redefining \rmfamily on input line 66.
 LaTeX Info: Redefining \sffamily on input line 66.
 LaTeX Info: Redefining \ttfamily on input line 66.
-LaTeX Info: Redefining \rmfamily on input line 71.
-LaTeX Info: Redefining \sffamily on input line 71.
-LaTeX Info: Redefining \ttfamily on input line 71.
-LaTeX Info: Redefining \rmfamily on input line 75.
-LaTeX Info: Redefining \sffamily on input line 75.
-LaTeX Info: Redefining \ttfamily on input line 75.
+LaTeX Info: Redefining \rmfamily on input line 70.
+LaTeX Info: Redefining \sffamily on input line 70.
+LaTeX Info: Redefining \ttfamily on input line 70.
+LaTeX Info: Redefining \rmfamily on input line 74.
+LaTeX Info: Redefining \sffamily on input line 74.
+LaTeX Info: Redefining \ttfamily on input line 74.
  [3]
 LaTeX Info: Redefining \rmfamily on input line 80.
 LaTeX Info: Redefining \sffamily on input line 80.
@@ -2131,14 +2470,301 @@ LaTeX Info: Redefining \ttfamily on input line 112.
 LaTeX Info: Redefining \rmfamily on input line 116.
 LaTeX Info: Redefining \sffamily on input line 116.
 LaTeX Info: Redefining \ttfamily on input line 116.
+LaTeX Info: Redefining \rmfamily on input line 120.
+LaTeX Info: Redefining \sffamily on input line 120.
+LaTeX Info: Redefining \ttfamily on input line 120.
+LaTeX Info: Redefining \rmfamily on input line 122.
+LaTeX Info: Redefining \sffamily on input line 122.
+LaTeX Info: Redefining \ttfamily on input line 122.
+LaTeX Info: Redefining \rmfamily on input line 127.
+LaTeX Info: Redefining \sffamily on input line 127.
+LaTeX Info: Redefining \ttfamily on input line 127.
+LaTeX Info: Redefining \rmfamily on input line 131.
+LaTeX Info: Redefining \sffamily on input line 131.
+LaTeX Info: Redefining \ttfamily on input line 131.
+LaTeX Info: Redefining \rmfamily on input line 138.
+LaTeX Info: Redefining \sffamily on input line 138.
+LaTeX Info: Redefining \ttfamily on input line 138.
+LaTeX Info: Redefining \rmfamily on input line 142.
+LaTeX Info: Redefining \sffamily on input line 142.
+LaTeX Info: Redefining \ttfamily on input line 142.
+LaTeX Info: Redefining \rmfamily on input line 146.
+LaTeX Info: Redefining \sffamily on input line 146.
+LaTeX Info: Redefining \ttfamily on input line 146.
+LaTeX Info: Redefining \rmfamily on input line 150.
+LaTeX Info: Redefining \sffamily on input line 150.
+LaTeX Info: Redefining \ttfamily on input line 150.
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+LaTeX Info: Redefining \rmfamily on input line 159.
+LaTeX Info: Redefining \sffamily on input line 159.
+LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 163.
+LaTeX Info: Redefining \sffamily on input line 163.
+LaTeX Info: Redefining \ttfamily on input line 163.
+LaTeX Info: Redefining \rmfamily on input line 167.
+LaTeX Info: Redefining \sffamily on input line 167.
+LaTeX Info: Redefining \ttfamily on input line 167.
+LaTeX Info: Redefining \rmfamily on input line 171.
+LaTeX Info: Redefining \sffamily on input line 171.
+LaTeX Info: Redefining \ttfamily on input line 171.
+LaTeX Info: Redefining \rmfamily on input line 176.
+LaTeX Info: Redefining \sffamily on input line 176.
+LaTeX Info: Redefining \ttfamily on input line 176.
+LaTeX Info: Redefining \rmfamily on input line 180.
+LaTeX Info: Redefining \sffamily on input line 180.
+LaTeX Info: Redefining \ttfamily on input line 180.
+LaTeX Info: Redefining \rmfamily on input line 184.
+LaTeX Info: Redefining \sffamily on input line 184.
+LaTeX Info: Redefining \ttfamily on input line 184.
+LaTeX Info: Redefining \rmfamily on input line 188.
+LaTeX Info: Redefining \sffamily on input line 188.
+LaTeX Info: Redefining \ttfamily on input line 188.
+LaTeX Info: Redefining \rmfamily on input line 192.
+LaTeX Info: Redefining \sffamily on input line 192.
+LaTeX Info: Redefining \ttfamily on input line 192.
+LaTeX Info: Redefining \rmfamily on input line 196.
+LaTeX Info: Redefining \sffamily on input line 196.
+LaTeX Info: Redefining \ttfamily on input line 196.
+LaTeX Info: Redefining \rmfamily on input line 200.
+LaTeX Info: Redefining \sffamily on input line 200.
+LaTeX Info: Redefining \ttfamily on input line 200.
+LaTeX Info: Redefining \rmfamily on input line 204.
+LaTeX Info: Redefining \sffamily on input line 204.
+LaTeX Info: Redefining \ttfamily on input line 204.
+LaTeX Info: Redefining \rmfamily on input line 208.
+LaTeX Info: Redefining \sffamily on input line 208.
+LaTeX Info: Redefining \ttfamily on input line 208.
+LaTeX Info: Redefining \rmfamily on input line 212.
+LaTeX Info: Redefining \sffamily on input line 212.
+LaTeX Info: Redefining \ttfamily on input line 212.
+LaTeX Info: Redefining \rmfamily on input line 216.
+LaTeX Info: Redefining \sffamily on input line 216.
+LaTeX Info: Redefining \ttfamily on input line 216.
+LaTeX Info: Redefining \rmfamily on input line 220.
+LaTeX Info: Redefining \sffamily on input line 220.
+LaTeX Info: Redefining \ttfamily on input line 220.
+LaTeX Info: Redefining \rmfamily on input line 224.
+LaTeX Info: Redefining \sffamily on input line 224.
+LaTeX Info: Redefining \ttfamily on input line 224.
+LaTeX Info: Redefining \rmfamily on input line 229.
+LaTeX Info: Redefining \sffamily on input line 229.
+LaTeX Info: Redefining \ttfamily on input line 229.
+LaTeX Info: Redefining \rmfamily on input line 233.
+LaTeX Info: Redefining \sffamily on input line 233.
+LaTeX Info: Redefining \ttfamily on input line 233.
+LaTeX Info: Redefining \rmfamily on input line 239.
+LaTeX Info: Redefining \sffamily on input line 239.
+LaTeX Info: Redefining \ttfamily on input line 239.
+LaTeX Info: Redefining \rmfamily on input line 243.
+LaTeX Info: Redefining \sffamily on input line 243.
+LaTeX Info: Redefining \ttfamily on input line 243.
+LaTeX Info: Redefining \rmfamily on input line 247.
+LaTeX Info: Redefining \sffamily on input line 247.
+LaTeX Info: Redefining \ttfamily on input line 247.
+LaTeX Info: Redefining \rmfamily on input line 251.
+LaTeX Info: Redefining \sffamily on input line 251.
+LaTeX Info: Redefining \ttfamily on input line 251.
+LaTeX Info: Redefining \rmfamily on input line 255.
+LaTeX Info: Redefining \sffamily on input line 255.
+LaTeX Info: Redefining \ttfamily on input line 255.
+LaTeX Info: Redefining \rmfamily on input line 259.
+LaTeX Info: Redefining \sffamily on input line 259.
+LaTeX Info: Redefining \ttfamily on input line 259.
+LaTeX Info: Redefining \rmfamily on input line 264.
+LaTeX Info: Redefining \sffamily on input line 264.
+LaTeX Info: Redefining \ttfamily on input line 264.
+LaTeX Info: Redefining \rmfamily on input line 268.
+LaTeX Info: Redefining \sffamily on input line 268.
+LaTeX Info: Redefining \ttfamily on input line 268.
+LaTeX Info: Redefining \rmfamily on input line 272.
+LaTeX Info: Redefining \sffamily on input line 272.
+LaTeX Info: Redefining \ttfamily on input line 272.
+LaTeX Info: Redefining \rmfamily on input line 276.
+LaTeX Info: Redefining \sffamily on input line 276.
+LaTeX Info: Redefining \ttfamily on input line 276.
+LaTeX Info: Redefining \rmfamily on input line 280.
+LaTeX Info: Redefining \sffamily on input line 280.
+LaTeX Info: Redefining \ttfamily on input line 280.
+LaTeX Info: Redefining \rmfamily on input line 286.
+LaTeX Info: Redefining \sffamily on input line 286.
+LaTeX Info: Redefining \ttfamily on input line 286.
+LaTeX Info: Redefining \rmfamily on input line 290.
+LaTeX Info: Redefining \sffamily on input line 290.
+LaTeX Info: Redefining \ttfamily on input line 290.
+LaTeX Info: Redefining \rmfamily on input line 295.
+LaTeX Info: Redefining \sffamily on input line 295.
+LaTeX Info: Redefining \ttfamily on input line 295.
+LaTeX Info: Redefining \rmfamily on input line 301.
+LaTeX Info: Redefining \sffamily on input line 301.
+LaTeX Info: Redefining \ttfamily on input line 301.
+LaTeX Info: Redefining \rmfamily on input line 307.
+LaTeX Info: Redefining \sffamily on input line 307.
+LaTeX Info: Redefining \ttfamily on input line 307.
+LaTeX Info: Redefining \rmfamily on input line 313.
+LaTeX Info: Redefining \sffamily on input line 313.
+LaTeX Info: Redefining \ttfamily on input line 313.
+LaTeX Info: Redefining \rmfamily on input line 319.
+LaTeX Info: Redefining \sffamily on input line 319.
+LaTeX Info: Redefining \ttfamily on input line 319.
+LaTeX Info: Redefining \rmfamily on input line 323.
+LaTeX Info: Redefining \sffamily on input line 323.
+LaTeX Info: Redefining \ttfamily on input line 323.
+LaTeX Info: Redefining \rmfamily on input line 328.
+LaTeX Info: Redefining \sffamily on input line 328.
+LaTeX Info: Redefining \ttfamily on input line 328.
+LaTeX Info: Redefining \rmfamily on input line 332.
+LaTeX Info: Redefining \sffamily on input line 332.
+LaTeX Info: Redefining \ttfamily on input line 332.
+LaTeX Info: Redefining \rmfamily on input line 338.
+LaTeX Info: Redefining \sffamily on input line 338.
+LaTeX Info: Redefining \ttfamily on input line 338.
+LaTeX Info: Redefining \rmfamily on input line 342.
+LaTeX Info: Redefining \sffamily on input line 342.
+LaTeX Info: Redefining \ttfamily on input line 342.
+
+
+LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(0)/b/n' undefined
+(Font)              using `TU/JameelNooriNastaleeq(0)/m/n' instead on input lin
+e 346.
+
+
+LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/m/sl' undefined
+(Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
+e 346.
+
+[4]
+LaTeX Info: Redefining \rmfamily on input line 350.
+LaTeX Info: Redefining \sffamily on input line 350.
+LaTeX Info: Redefining \ttfamily on input line 350.
+LaTeX Info: Redefining \rmfamily on input line 354.
+LaTeX Info: Redefining \sffamily on input line 354.
+LaTeX Info: Redefining \ttfamily on input line 354.
+LaTeX Info: Redefining \rmfamily on input line 361.
+LaTeX Info: Redefining \sffamily on input line 361.
+LaTeX Info: Redefining \ttfamily on input line 361.
+LaTeX Info: Redefining \rmfamily on input line 366.
+LaTeX Info: Redefining \sffamily on input line 366.
+LaTeX Info: Redefining \ttfamily on input line 366.
+LaTeX Info: Redefining \rmfamily on input line 371.
+LaTeX Info: Redefining \sffamily on input line 371.
+LaTeX Info: Redefining \ttfamily on input line 371.
+LaTeX Info: Redefining \rmfamily on input line 375.
+LaTeX Info: Redefining \sffamily on input line 375.
+LaTeX Info: Redefining \ttfamily on input line 375.
+LaTeX Info: Redefining \rmfamily on input line 379.
+LaTeX Info: Redefining \sffamily on input line 379.
+LaTeX Info: Redefining \ttfamily on input line 379.
+LaTeX Info: Redefining \rmfamily on input line 383.
+LaTeX Info: Redefining \sffamily on input line 383.
+LaTeX Info: Redefining \ttfamily on input line 383.
+LaTeX Info: Redefining \rmfamily on input line 387.
+LaTeX Info: Redefining \sffamily on input line 387.
+LaTeX Info: Redefining \ttfamily on input line 387.
+LaTeX Info: Redefining \rmfamily on input line 391.
+LaTeX Info: Redefining \sffamily on input line 391.
+LaTeX Info: Redefining \ttfamily on input line 391.
+LaTeX Info: Redefining \rmfamily on input line 396.
+LaTeX Info: Redefining \sffamily on input line 396.
+LaTeX Info: Redefining \ttfamily on input line 396.
+LaTeX Info: Redefining \rmfamily on input line 400.
+LaTeX Info: Redefining \sffamily on input line 400.
+LaTeX Info: Redefining \ttfamily on input line 400.
+LaTeX Info: Redefining \rmfamily on input line 406.
+LaTeX Info: Redefining \sffamily on input line 406.
+LaTeX Info: Redefining \ttfamily on input line 406.
+LaTeX Info: Redefining \rmfamily on input line 410.
+LaTeX Info: Redefining \sffamily on input line 410.
+LaTeX Info: Redefining \ttfamily on input line 410.
+LaTeX Info: Redefining \rmfamily on input line 416.
+LaTeX Info: Redefining \sffamily on input line 416.
+LaTeX Info: Redefining \ttfamily on input line 416.
+LaTeX Info: Redefining \rmfamily on input line 420.
+LaTeX Info: Redefining \sffamily on input line 420.
+LaTeX Info: Redefining \ttfamily on input line 420.
+LaTeX Info: Redefining \rmfamily on input line 428.
+LaTeX Info: Redefining \sffamily on input line 428.
+LaTeX Info: Redefining \ttfamily on input line 428.
+LaTeX Info: Redefining \rmfamily on input line 432.
+LaTeX Info: Redefining \sffamily on input line 432.
+LaTeX Info: Redefining \ttfamily on input line 432.
+LaTeX Info: Redefining \rmfamily on input line 436.
+LaTeX Info: Redefining \sffamily on input line 436.
+LaTeX Info: Redefining \ttfamily on input line 436.
+LaTeX Info: Redefining \rmfamily on input line 443.
+LaTeX Info: Redefining \sffamily on input line 443.
+LaTeX Info: Redefining \ttfamily on input line 443.
+LaTeX Info: Redefining \rmfamily on input line 451.
+LaTeX Info: Redefining \sffamily on input line 451.
+LaTeX Info: Redefining \ttfamily on input line 451.
+LaTeX Info: Redefining \rmfamily on input line 456.
+LaTeX Info: Redefining \sffamily on input line 456.
+LaTeX Info: Redefining \ttfamily on input line 456.
+LaTeX Info: Redefining \rmfamily on input line 461.
+LaTeX Info: Redefining \sffamily on input line 461.
+LaTeX Info: Redefining \ttfamily on input line 461.
+LaTeX Info: Redefining \rmfamily on input line 467.
+LaTeX Info: Redefining \sffamily on input line 467.
+LaTeX Info: Redefining \ttfamily on input line 467.
+LaTeX Info: Redefining \rmfamily on input line 471.
+LaTeX Info: Redefining \sffamily on input line 471.
+LaTeX Info: Redefining \ttfamily on input line 471.
+LaTeX Info: Redefining \rmfamily on input line 475.
+LaTeX Info: Redefining \sffamily on input line 475.
+LaTeX Info: Redefining \ttfamily on input line 475.
+LaTeX Info: Redefining \rmfamily on input line 481.
+LaTeX Info: Redefining \sffamily on input line 481.
+LaTeX Info: Redefining \ttfamily on input line 481.
+LaTeX Info: Redefining \rmfamily on input line 485.
+LaTeX Info: Redefining \sffamily on input line 485.
+LaTeX Info: Redefining \ttfamily on input line 485.
+LaTeX Info: Redefining \rmfamily on input line 489.
+LaTeX Info: Redefining \sffamily on input line 489.
+LaTeX Info: Redefining \ttfamily on input line 489.
+LaTeX Info: Redefining \rmfamily on input line 494.
+LaTeX Info: Redefining \sffamily on input line 494.
+LaTeX Info: Redefining \ttfamily on input line 494.
+LaTeX Info: Redefining \rmfamily on input line 503.
+LaTeX Info: Redefining \sffamily on input line 503.
+LaTeX Info: Redefining \ttfamily on input line 503.
+LaTeX Info: Redefining \rmfamily on input line 510.
+LaTeX Info: Redefining \sffamily on input line 510.
+LaTeX Info: Redefining \ttfamily on input line 510.
+LaTeX Info: Redefining \rmfamily on input line 514.
+LaTeX Info: Redefining \sffamily on input line 514.
+LaTeX Info: Redefining \ttfamily on input line 514.
+LaTeX Info: Redefining \rmfamily on input line 518.
+LaTeX Info: Redefining \sffamily on input line 518.
+LaTeX Info: Redefining \ttfamily on input line 518.
+LaTeX Info: Redefining \rmfamily on input line 523.
+LaTeX Info: Redefining \sffamily on input line 523.
+LaTeX Info: Redefining \ttfamily on input line 523.
+LaTeX Info: Redefining \rmfamily on input line 527.
+LaTeX Info: Redefining \sffamily on input line 527.
+LaTeX Info: Redefining \ttfamily on input line 527.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/sl' will be
+(Font)              scaled to size 10.0pt on input line 530.
+ [5]
+LaTeX Info: Redefining \rmfamily on input line 534.
+LaTeX Info: Redefining \sffamily on input line 534.
+LaTeX Info: Redefining \ttfamily on input line 534.
+LaTeX Info: Redefining \rmfamily on input line 538.
+LaTeX Info: Redefining \sffamily on input line 538.
+LaTeX Info: Redefining \ttfamily on input line 538.
 )
 \tf@toc=\write6
 \openout6 = `digitalCircuitsLatex.toc'.
 
- [4]
-\openout2 = `./tex/basicMaths.aux'.
+ [6]
+\openout2 = `./tex/registers.aux'.
 
- (./tex/basicMaths.tex [10
+ (./tex/registers.tex [160
+
+
+
+
+
 
 
 
@@ -2148,1252 +2774,448 @@ LaTeX Info: Redefining \ttfamily on input line 116.
 
 
 ]
-باب \arabicdigits{2}.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
+باب \arabicdigits{7}.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
 (Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
+LaTeX Font Info:    Font shape `TU/AASameerSagarNastaleeqBold(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 2.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 2.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 2.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 2.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ثنائی نظام میں حساب بالکل اسی طرح کیا جاتا
- ہے جس طرح اعشاری نظام میں۔چند مثالوں کے[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 آٹھ پلٹ کار درکار ہوں گے۔\TU/AASameerSaga
+rNastaleeqBold(0)/m/n/10 دفتر[][] \TU/JameelNooriNastaleeq(2)/m/sl/10 سے مراد و
+ہ دور ہے جو معلومات ذخیرہ، اور ایک جگہ سے دوسری جگہ منتقل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
-[][]\TU/JameelNooriNastaleeq(1)/b/n/10 ثنائی نظام میں اعدادجموعہ اعشاری نظام می
-ں دو اعداد کے مجموعہ سے سمجھا جا سکتا ہے۔اعشاری نظام[]
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کر نے کی صلاحیت رکھتا ہو۔یوں، $\OML/zplm/
+m/it/10 n$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ دفتر سے مراد $\OML/zplm/m/it
+/10 n$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ کار پر مبنی وہ دور ہو گا، جو $\O
+ML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ ذخیرہ اور منتقل کر[]
+
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 سادہ ترین چار بِٹ دفتر شکل ٧.١[] میں پی
+ش ہے۔شکل-الف میں مداخل $\OML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(2)/m/sl/1
+0 جبکہ مخارج $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 آپ نے دیکھا کہ حاصل$\OT1/zplm/m/n/10 (\OT1
-/ppl/m/n/10 1\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(1)/b/n/10 کو (بائیں) 
-زیادہ وزنی مقام پر منتقل کیا گیا۔یہی ثنائی جمع میں کیا جائے گا۔ ثنائی[]
- []
-
-[11]
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 101.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 101.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 108.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 108.
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 ی آخری مساوات میں صفر سے ایک اس صورت منفی 
-کیا دکھایا گیا ہے جب ادھار $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/b/n/
-10 لینا ممکن[]
- []
-
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 128.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 128.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 15.0049pt on input line 128.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 128.
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(1)/b/n/10 کسی بھی اساسی نظام میں، ہندسہ کو اساس ، $\
-OT1/zplm/m/n/10 (\OML/zplm/m/it/10 r\OT1/zplm/m/n/10 )$\TU/JameelNooriNastaleeq
-(1)/b/n/10 ، سے منفی کرنے سے ہندسے کا اساسی تکملہ (یا تکملہ $\OML/zplm/m/it/10 
-r$\TU/JameelNooriNastaleeq(1)/b/n/10 )[]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے کنارہ چڑھائی پر داخلی چار بِٹ پ
+لٹ کار کو منتقل ہو جاتے ہیں۔ ہم کہتے ہیں دفتر میں مواد کا اندراج[]
  []
 
 
-LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(1)/m/sl' undefined
-(Font)              using `TU/JameelNooriNastaleeq(1)/m/n' instead on input lin
-e 130.
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہو گیا، یا مواد دفتر میں درج ہو گیا، یا م
+واد دفتر میں لکھ لیا گیا۔ساعت کے اگلے کنارہ چڑھائی تک[]
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ٧.١[]-ب میں بلند اور پست صلاحیت کا 
+پلٹ کار استعمال کیا گیا۔یوں، ساعت کے کنارہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چڑھائی کا انتظار کیے بغیر، تمام خارجی بِٹ
+ زبردستی بلند یا پست کیے جا سکتے ہیں۔ زبردستی پست کرنے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دور میں پلٹ کار کی تعداد $\OML/zplm/
+m/it/10 n$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کر کے $\OML/zplm/m/it/10 n$ \TU/
+JameelNooriNastaleeq(2)/m/sl/10 بِٹ دفتر تشکیل دیا جا سکتا ہے۔ ہر بِٹ کا متمم ب
+ھی دفتر کے مخارج سے[]
+ []
+
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 64.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 64.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 65.
+LaTeX Info: Redefining \rmfamily on input line 66.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 66.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--89
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے، اور ثنائی مواد، $\OML/zplm/m/it/10 x$
+\TU/JameelNooriNastaleeq(2)/m/sl/10 ، بائیں (جانب) سے مہیا کیا گیا ہے۔شکل میں ز
+بردستی پست پن نہیں دکھایا گیا تا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--89
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کہ اصل مضمون پر توجہ رہے، تاہم تصور کریں 
+ساعت کے پہلے کنارہ چڑھائی سے قبل، تمام پلٹ کار زبردستی[]
+ []
+
+[161]
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(0)/m/sl' undefined
 (Font)              using `TU/JameelNooriNastaleeq(0)/m/n' instead on input lin
-e 130.
+e 89.
 
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 130.
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساسی تکملہ کے تصور کو ایک سے زائد ہندس
-وں پر مبنی عدد تک وسعت دیتے ہیں۔اساس $\OML/zplm/m/it/10 r$ \TU/JameelNooriNasta
-leeq(1)/m/sl/10 کے اعدادی[]
+[162]
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چڑھائی کے دوران، پلٹ کار گزشتہ حال میں رہ
+تا ہے، اور نیا مواد کنارہ گزرنے کے بعد مخارج کو پہنچتا ہے۔[]
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 158--159
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہر عدد $\OML/zplm/m/it/10 N$ \TU/Jameel
-NooriNastaleeq(1)/m/sl/10 کے اساسی تکملہ کا اساسی تکملہ وہی عدد $\OML/zplm/m/it
-/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا۔اس کا ثبوت کچھ یوں ہے: عددی $\
-OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا اساسی تکملہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دور کو سلسلہ وار فراہم بائیں سے مواد، س
+لسلہ وار دائیں پلٹ کے مخارج $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)
+/m/sl/10 سے اسی ترتیب میں حاصل کیا جا[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 98.
+LaTeX Info: Redefining \sffamily on input line 98.
+LaTeX Info: Redefining \ttfamily on input line 98.
+
+Underfull \hbox (badness 1960) in paragraph at lines 98--99
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ٧.٣[] میں (سلسلہ وار) \TU/AASameerSag
+arNastaleeqBold(0)/m/n/10 بائیں انتقال دفتر[][] \TU/JameelNooriNastaleeq(2)/m/s
+l/10 دکھایا گیا ہے، جو مواد کی بائیں نقل مکانی کرتا ہے۔اس کی بناوٹ بالکل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی نظام میں عدد $\OT1/ppl/m/n/10 10[
-]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے سب سے وزنی ہندسے کی قیمت $\OT1/ppl/m/
-n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گی، اور اس کی دائیں جانب $\OT1/p
-pl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 قیمت کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دائیں انتقال دفتر کی طرح ہے۔فرق صرف اتنا 
+ہے، بائیں انتقال دفتر میں دایاں پلٹ کار کا مخارج پڑوسی بایاں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے کنارہ چڑھائی پر دایاں پلٹ کار ف
+راہم کردہ مواد $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی نقل
+ حاصل کر کے $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر خارج
+ کرتا ہے۔[]
  []
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 177.
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس $\OML/zplm/m/it/10 r$ \TU/JameelNoor
-iNastaleeq(1)/m/sl/10 کے نظام میں، عدد $\OML/zplm/m/it/10 N$\TU/JameelNooriNast
-aleeq(1)/m/sl/10 کے اساس منفی ایک ($\OML/zplm/m/it/10 r \OMS/zplm/m/n/10 ^^@ \O
-T1/ppl/m/n/10 1$\TU/JameelNooriNastaleeq(1)/m/sl/10 ) تکملہ سے مراد $\OML/zplm/
-m/it/10 r[] \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1 \OMS/zplm/m/n/10 ^^@ \OML/zp
-lm/m/it/10 N$[]
+(Font)              scaled to size 10.0pt on input line 101.
+[163]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مخارج $\OML/zplm/m/it/10 Q[]$ \TU/JameelN
+ooriNastaleeq(2)/m/sl/10 پلٹ کار کے مداخل $\OML/zplm/m/it/10 D$ \TU/JameelNoori
+Nastaleeq(2)/m/sl/10 اور اس سے منسلک جمع گیٹ اور (دو) ضرب گیٹ پر توجہ رکھیں۔ قا
+بو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آپ دیکھ سکتے ہیں کہ ثنائی عدد $\OT1/ppl/m
-/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 (صفر) کا تکملہ $\OT1/ppl/m/n/10 1$
-\TU/JameelNooriNastaleeq(1)/m/sl/10 ، ثنائی عدد $\OT1/ppl/m/n/10 1$ \TU/JameelN
-ooriNastaleeq(1)/m/sl/10 (ایک) ہو گا ، اور اسی طرح $\OT1/ppl/m/n/10 1$ \TU/Jame
-elNooriNastaleeq(1)/m/sl/10 کا تکملہ $\OT1/ppl/m/n/10 1$\TU/JameelNooriNastalee
-q(1)/m/sl/10 ،[]
- []
-
-[14]
-LaTeX Font Info:    Font shape `TU/AASameerSagarNastaleeqBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 230.
-
-Underfull \hbox (badness 2913) in paragraph at lines 232--233
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ $\OT1/zplm/m/n/10 (\OML/zplm/m/it/1
-0 r \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 1\OT1/zplm/m/n/10 )$ \TU/JameelNooriNa
-staleeq(1)/m/sl/10 کے ساتھ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl
-/10 جمع کر کے تکملہ $\OML/zplm/m/it/10 r$\TU/JameelNooriNastaleeq(1)/m/sl/10 حا
-صل کیا جا سکتا ہے، یعنی عدد کے متمم کے ساتھ $\OT1/ppl/m/n/10 1$ \TU/JameelNoori
-Nastaleeq(1)/m/sl/10 جمع کر کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اشارہ $\OT1/zplm/m/n/10 ([]/[])$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 بلند ہونے کی صورت میں، دایاں ضرب گیٹ معذور جبکہ بای
+اں مجاز ہو کر، جمع گیٹ تک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNoori
-Nastaleeq(1)/m/sl/10 حاصل ہو گا۔اس طرح اساسی تکملہ کا حصول عموماً زیادہ آسان ثا
-بت ہوتا ہے۔ مساوات ٢.٦[] میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]$\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچاتے ہیں جو $\
+OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر دستیاب، اور ساعت کے 
+اگلے کنارہ چڑھائی پر پلٹ کار میں درج ہو کر بطور $\OML/zplm/m/it/10 Q[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 قلم و کاغذ کے ساتھ، $\OML/zplm/m/it/10 M$
- \TU/JameelNooriNastaleeq(1)/m/sl/10 سے $\OML/zplm/m/it/10 N$ \TU/JameelNooriNa
-staleeq(1)/m/sl/10 منفی کرنا چھوٹی جماعتوں میں سکھایا جاتا ہے۔برقیات میں تکملہ 
-کی مدد[]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خارج ہو گا۔یوں مواد $\OML/zplm/m/it/10 Q[
+]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے $\OML/zplm/m/it/10 Q[]$ \TU/JameelNoo
+riNastaleeq(2)/m/sl/10 یعنی دائیں منتقل ہوا۔اس کے برعکس قابو اشارہ پست ہونے کی 
+صورت میں،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سے دو اعداد منفی کیے جاتے ہیں، جہاں دونوں
- اعداد میں ہندسوں کی تعداد برابر ہونا لازم ہے ۔اساسی تکملہ کی مدد سے[]
+Underfull \hbox (badness 4205) in paragraph at lines 141--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دایاں ضرب گیٹ مجاز اور بایاں معذور ہو کر،
+ جمع گیٹ تک $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر موجو
+د مواد پہنچاتے ہیں، جو آخر کار $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq
+(2)/m/sl/10 پہنچتا ہے،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 دونوں اعداد میں ہندسوں کی تعداد برابر ک
-رنے کی خاطر، کم ہندسوں والے عدد کی بائیں جانب (درکار[]
+Underfull \hbox (badness 1540) in paragraph at lines 143--144
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بائیں ترین پلٹ کار کو بیرونی مواد $\OML
+/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ دائیں ترین کو $\OML/z
+plm/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 فراہم کیا گیا ہے۔ قابو اشارہ
+ ان میں سے ایک منتخب[]
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 244--246
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہو گا، جس کی بنا یہ \TU/JameelNooriN
-astaleeq(1)/m/n/9 مجموعہ $\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 + \OT1/ppl/m/n/1
-0 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مشتمل ہو گا اور اس کا بایاں 
-ہندسہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا۔اس بائیں[]
+Overfull \hbox (46.17012pt too wide) in paragraph at lines 149--189
+ [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
-[][]$\OML/zplm/m/it/10 M$\TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت $\OML/zplm
-/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت سے کم ہونے کی صورت میں،
- آخری (بائیں) ہندسے جمع کرنے سے حاصل $\OT1/ppl/m/n/10 1$[]
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 253--255
-[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
- یہاں بڑا عدد $\OT1/ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 چار ہن
-دسوں پر مبنی ہے، لہٰذا چھوٹا عدد $\OT1/ppl/m/n/10 0974$ \TU/JameelNooriNastalee
-q(1)/m/sl/10 لکھیں اور $\OML/zplm/m/it/10 n \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 
-4$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لیں۔یوں[]
- []
-
-
-Underfull \hbox (badness 2042) in paragraph at lines 253--255
-[]$\OT1/ppl/m/n/10 0974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا اساسی تکملہ $\O
-T1/ppl/m/n/10 10000 \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 0974 \OT1/zplm/m/n/10 
-= \OT1/ppl/m/n/10 9026$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا، جس کو $\OT1/
-ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے ساتھ جمع کرنے سے $\OT1/
-ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں کا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو نظر انداز کرتے ہوئے $\OT1/ppl/m/n/10 6
-878$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو جواب تسلیم کرتے ہیں۔(ہم درحقیقت آخر
-ی ہندسوں کی جمع سے پیدا حاصل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
-[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو رد کرتے ہیں۔ چونکہ
- یہ مجموعہ میں بائیں ترین مقام پر اترتا ہے لہٰذا مجموعہ کا بایاں ہندسہ رد کر کے
- جواب[]
- []
-
-[15]
-LaTeX Info: Redefining \rmfamily on input line 256.
-LaTeX Info: Redefining \sffamily on input line 256.
-LaTeX Info: Redefining \ttfamily on input line 256.
-
-Underfull \hbox (badness 1515) in paragraph at lines 291--294
-[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
- عدد $\OT1/ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے اساسی تکملہ 
-$\OT1/ppl/m/n/10 10000 \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 7852 \OT1/zplm/m/n/
-10 = \OT1/ppl/m/n/10 2148$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا $\OT1/ppl/m/n
-/10 0974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے ساتھ مجموعہ لیتے[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 295.
-LaTeX Info: Redefining \sffamily on input line 295.
-LaTeX Info: Redefining \ttfamily on input line 295.
-
-Underfull \hbox (badness 1430) in paragraph at lines 352--354
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بائیں آخری ہندسوں کو جمع کرتے ہوئے حاصل $
-\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا نہیں ہوا، لہٰذا اس 
-کا تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لینا ہوگا۔چونک
-ہ $[] \OT1/zplm/m/n/10 =$[]
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 355--357
-[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
- (ب) یہاں ایک عدد پانچ ہندسوں پر مشتمل ہے، لہٰذا دوسرے عدد میں بھی پانچ ہندسے[]
+Underfull \hbox (badness 10000) in paragraph at lines 145--192
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بائیں نقل مکانی کے دوران $\OML/zplm/m/i
+t/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر میسر مواد ساعت کے کنارہ چڑھائی پ
+ر $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچتا ہے۔ اگلے ک
+نارہ پر یہی مواد $\OML/zplm/m/it/10 Q[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 ،[]
 
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 355--357
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پورے کیے جائیں گے۔یوں $\OT1/ppl/m/n/10 10
-11$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو $\OT1/ppl/m/n/10 01011$ \TU/JameelNo
-oriNastaleeq(1)/m/sl/10 لکھ کر، اس کے متمم $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/
-10 10100$ \TU/JameelNooriNastaleeq(1)/m/sl/10 سے عدد کا اساسی تکملہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 145--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس سے اگلے پر $\OML/zplm/m/it/10 Q[]$ \TU
+/JameelNooriNastaleeq(2)/m/sl/10 اور آخر میں $\OML/zplm/m/it/10 Q[]$ \TU/Jameel
+NooriNastaleeq(2)/m/sl/10 پہنچتا ہے۔ دائیں نقل مکانی کی صورت میں $\OML/zplm/m/i
+t/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر موجود مواد الٹ رخ $\OML/zplm/m/i
+t/10 Q[]$[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 195.
+LaTeX Info: Redefining \sffamily on input line 195.
+LaTeX Info: Redefining \ttfamily on input line 195.
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 متوازی بھرائی دفتر[][] \TU/JameelNoo
+riNastaleeq(2)/m/sl/10 پیش ہے، جس میں متوازی مواد بیک وقت چڑھانا ممکن ہے۔یہ مخت
+صراً \TU/AASameerSagarNastaleeqBold(0)/m/n/10 متوازی دائیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس منفی ایک تکملہ کی مدد سے بھی $\OML/z
-plm/m/it/10 M \OMS/zplm/m/n/10 ^^@ \OML/zplm/m/it/10 N$ \TU/JameelNooriNastalee
-q(1)/m/sl/10 حاصل کیا جا سکتا ہے۔ اس کا طریقہ کار درج ذیل ہے[]
+Overfull \hbox (71.92459pt too wide) in paragraph at lines 200--273
+ [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--376
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 دونوں اعداد میں ہندسوں کی تعداد برابر ک
-رنے کی خاطر، کم ہندسوں والے عدد کی بائیں جانب (درکار[]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ کار کو جمع گیٹ معلومات فراہم کرتا ہ
+ے جس کو دو ضرب گیٹ مواد فراہم کرتے ہیں۔ قابو اشارہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-[][]$\OML/zplm/m/it/10 M$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت $\OML/zpl
-m/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت سے زیادہ ہونے کی صورت 
-میں، آخری (بائیں) ہندسے جمع کرنے سے حاصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 عام طور غیر فعال (بلند) رکھا جاتا ہے
+۔یوں دایاں ضرب گیٹ معذور جبکہ بایاں گیٹ مجاز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہو گا، جس کی بنا
- یہ \TU/JameelNooriNastaleeq(1)/m/n/9 مجموعہ $\OML/zplm/m/it/10 n \OT1/zplm/m/n
-/10 + \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مشتمل ہو
- گا اور اس کا بایاں ہندسہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/
-10 ہو گا۔اس[]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہو کر، بائیں پلٹ کار کا مخارج، جمع گیٹ کے
+ راستے پلٹ کار کو فراہم کرتا ہے، جو ساعت کے اگلے کنارہ چڑھائی پر[]
+ []
+
+[164]
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مواد $\OML/zplm/m/it/10 z[]$ \TU/Jameel
+NooriNastaleeq(2)/m/sl/10 تا $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(2
+)/m/sl/10 پلٹ کار میں چڑھانے کے لئے $[]$ پست کیا جاتا ہے۔ یوں پلٹ کار کو مواد ف
+راہم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بائیں ہندسے کو (یعنی حاصل $\OT1/ppl/m/n/1
-0 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو ) نظر انداز کرنے کی بجائے، مجموعہ س
-ے خارج کر کے، $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 وزن مختص 
-کریں[]
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے والا بایاں ضرب گیٹ معذور جبکہ دایاں 
+مجاز ہو گا۔ مجاز گیٹ متوازی مواد کو جمع گیٹ کے راستہ پلٹ کار تک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--380
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 n$ \TU/JameelNoori
-Nastaleeq(1)/m/sl/10 ہندسوں کے باقی مجموعہ کے ساتھ جمع کر کے جواب حاصل کریں۔ اس
- عمل کو واپسیں آخری[]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل میں پلٹ کار کا مخارج، مجاز و معذور 
+صلاحیت مستحکم کار سے منسلک کیا گیا ہے۔ قابو اشارہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-[][]$\OML/zplm/m/it/10 M$\TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت $\OML/zplm
-/m/it/10 N$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت سے کم ہونے کی صورت میں،
- آخری (بائیں) ہندسے جمع کرنے سے حاصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+[]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پست کر کے پلٹ کار کا مواد $\OML/zplm
+/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OML/zplm/m/it/10 Q[]$ \T
+U/JameelNooriNastaleeq(2)/m/sl/10 بطور $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriN
+astaleeq(2)/m/sl/10 تا $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/sl
+/10 حاصل کیا جا سکتا ہے۔قابو اشارہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا \TU/AASameerSaga
-rNastaleeqBold(0)/m/n/10 نہیں \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا؛ \TU/Ja
-meelNooriNastaleeq(1)/m/n/9 مجموعہ \TU/JameelNooriNastaleeq(1)/m/sl/10 منفی عدد
- کو ظاہر کرے گا، اور $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(1)/m/sl/10 
-ہندسوں پر مبنی ہو گا۔مجموعے کا اساس منفی[]
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اب تک مختلف صلاحیت کے دفتر پر غور ہوا، جن
+ کی خوبیاں ایک دور میں سموئی جا سکتی ہیں۔ایسا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
-[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب\TU/JameelNooriNastaleeq(1)/m/sl/10 :
- عدد $\OT1/ppl/m/n/10 974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے بائیں $\OT1/p
-pl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 چسپاں کر کے اس میں ہندسوں کی ت
-عداد پوری کریں اور $\OT1/ppl/m/n/10 7852$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ک
-ے اساس منفی[]
- []
-
-[17]
-Underfull \hbox (badness 1057) in paragraph at lines 398--399
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اساس منفی ایک تکملہ $\OT1/ppl/m/n/10 9999
- \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 3121 \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 6
-878$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے بائیں منفی علامت منسلک کر کے جواب $
-\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 6878$[]
+Overfull \hbox (20.41806pt too wide) in paragraph at lines 292--384
+ [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--405
-[][]\TU/JameelNooriNastaleeq(1)/m/n/9 جواب \TU/JameelNooriNastaleeq(1)/m/sl/10 
-چھوٹے عدد $\OT1/ppl/m/n/10 974$ \TU/JameelNooriNastaleeq(1)/m/sl/10 میں ہندسوں 
-کی تعداد پوری کر کے اس کے اساس منفی ایک تکملہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بائیں انتقال کے وقت $\OML/zplm/m/it/10 
+y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 مواد پر سلسلہ وار داخل 14 ہو کر آخر کار 
+بائیں خروج سے سلالہ وار خارج 15 ہو جاتا ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آخری (بائیں) ہندسے جمع کرتے ہوئے حاصل $\O
-T1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پیدا ہوا جس کی بنا یہ مجمو
-عہ $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسوں پر مشتمل ہے۔[
-]
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ دائیں جانب انتقال کے وقت موادسے سلسل
+ہ وار داخل ہوتا ہے اور آخر کار دائیں خروج سے سلسلہ وار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہم اس حاصل $\OT1/ppl/m/n/10 1$ \TU/Jameel
-NooriNastaleeq(1)/m/sl/10 کو وزن $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1
-)/m/sl/10 مختص کر کے باقی $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(1)/m/sl/
-10 ہندسوں پر مبنی مجموعہ $\OT1/ppl/m/n/10 6877$ \TU/JameelNooriNastaleeq(1)/m/s
-l/10 کے ساتھ جمع کر کے جواب[]
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خارج ہو جاتا ہے۔ شکل میں چار یکساں حصے ہی
+ں۔ان میں سے دائیں جانب حصہ پر غور کرتے ہیں۔بقایا حصے بھی[]
+ []
+
+[165] [166]
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خارجی پن پر خارج ہو جائے گا۔اس طرح دفتر ا
+پنی حالت برقرار رکھے گا اور مواد کسی بھی جانب حرکت[]
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 437--439
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آخری حاصل $\OT1/ppl/m/n/10 1$ \TU/JameelN
-ooriNastaleeq(1)/m/sl/10 کو باقی عدد سے علیحدہ کر کے اسے $\OT1/ppl/m/n/10 1$ \T
-U/JameelNooriNastaleeq(1)/m/sl/10 کا وزن مختص کر کے (یعنی اس کو اکائی تصور کر ک
-ے)، دائیں چھ ہندسوں[]
- []
-
-[18]
-Underfull \hbox (badness 2343) in paragraph at lines 456--458
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 چونکہ آخری حاصل صفر ہے، لہٰذا مجموعے کے م
-تمم $[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 010011$ \TU/JameelNooriNastaleeq(1)/
-m/sl/10 کے ساتھ منفی کی علامت[]
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نہیں کرے گا۔ اسی طرح پتہہونے کی صورتپلٹ ک
+ار کو مہیا ہو جائے گا اور ساعت کے اگلے کنارہ یہی پلٹ کار کے مخارج پر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 روز مرہ زندگی میں مثبت اعداد لکھتے ہوئے ا
-نہیں بغیر کسی علامت کے، یا مثبت علامت $\OT1/zplm/m/n/10 (+)$ \TU/JameelNooriNas
-taleeq(1)/m/sl/10 کے ساتھ[]
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نمودار ہو جائے گا۔چونکہمتوازی مہیا کردہ م
+واد ہے لہٰذا اس صورت متوازی مواد دفتر میں چڑھ جائے گا۔ پتہسےپلٹ[]
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 462--463
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 لکھا جاتا ہے، البتہ منفی اعداد کے ساتھ من
-فی علامت $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10 ^^@\OT1/zplm/m/n/10 )$ \TU/JameelN
-ooriNastaleeq(1)/m/sl/10 ضرور لکھی جاتی ہے۔یوں درج ذیل اعداد درست لکھے[]
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار کو مہیا ہو جائے گا۔یوں ساعت کے اگلے ک
+نارے موجودہاگلےکے طور نمودار ہو جائے گا۔یعنی اس مرتبہ دفتر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی عدد کے مثبت یا منفی ہونے کو اس عد
-د کی علامت کہتے ہیں۔ یوں، وہ اعداد جو مثبت علامت $\OT1/zplm/m/n/10 (+)$ \TU/Jam
-eelNooriNastaleeq(1)/m/sl/10 یا منفی[]
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مواد کو دائیں جانب منتقل کرے گا۔ پتہ کو ص
+ورت سلسلہ واد مہیا کردہ موادمنتخب ہو گا اور ساعت کے اگلے کنارے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 علامت $\OT1/zplm/m/n/10 (\OMS/zplm/m/n/10
- ^^@\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(1)/m/sl/10 رکھتے ہوں علامت دار
- اعداد کہلاتے ہیں، اور جن کی علامت نہ ہو بے علامت اعداد[]
+Underfull \hbox (badness 7907) in paragraph at lines 395--400
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پر پلٹ کار کی مخارجپہنچ جائے گا۔اس مرتبہ 
+دفتر مواد کو بائیں جانب منتقل کر رہا ہے۔ اس تمام تجزیہ کو[]
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 468--469
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کمپیوٹر ثنائی اعداد ، $\OT1/ppl/m/n/10 
-0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OT1/ppl/m/n/10 1$\TU/JameelNooriNa
-staleeq(1)/m/sl/10 ، استعمال کرتا ہے، اور ہر معلومات کو انہیں سے ظاہر کرتا ہے۔ر
-وایتاً مثبت علامت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
-[]$\OT1/zplm/m/n/10 (+)$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو $\OT1/ppl/m/n/1
-0 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 (صفر ) اور نفی علامت $\OT1/zplm/m/n/10
- (\OMS/zplm/m/n/10 ^^@\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ک
-و $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 (ایک) سے ظاہر کیا جات
-ا ہے۔علامت عدد کی بائیں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جانب لکھی جاتی ہے۔ یوں $\OT1/zplm/m/n/10 
-+\OT1/ppl/m/n/10 5[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو چار ثنائی ہندسوں س
-ے ظاہر کرتے ہوئے، بایاں ہندسہ مثبت علامت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 468--469
-[]$\OT1/zplm/m/n/10 (+)$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو جبکہ باقی تین ہ
-ندسے $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو ظاہر کریں گے۔ ا
-سی طرح $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5[]$ \TU/JameelNooriNastaleeq(1)/m/
-sl/10 کو آٹھ ثنائی ہندسوں سے ظاہر کرتے ہوئے، بایاں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک دلچسپ حقیقت پر غور کریں۔اگر ہم $\OT
-1/ppl/m/n/10 1101[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 میں بایاں ہندسہ علامت 
-تصور کریں تب یہ $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5[]$ \TU/JameelNooriNastal
-eeq(1)/m/sl/10 کو ظاہر[]
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 476--505
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 یہ جاننا ضروری ہے، آیا ثنائی اعداد کا ب
-ایاں ہندسہ علامت کو ظاہر کرتا ہے یا یہ عدد کا حصہ ہے؛ یہ فیصلہ[]
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 476--505
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اعداد استعمال کرنے والے پر ہے۔کمپیوٹر است
-عمال کرتے وقت آپ فیصلہ کرتے ہیں کہ علامت دار یا بے علامت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--505
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 (غیر علامت دار) اعداد استعمال کریں گے۔ جد
-ول ٢.١[] میں چار ثنائی ہندسوں پر مشتمل علامت دار اعداد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 476--505
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دکھائے گئے ہیں۔ آپ دیکھ سکتے ہیں کہ صفر ک
-و دو مختلف طریقوں سے ظاہر کیا جا سکتا ہے، ان میں ایک مثبت[]
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس جدول میں چار ثنائی ہندسوں سے اعداد ل
-کھے گئے؛ کمپیوٹر میں اعداد، عموماً، ایک بائٹ استعمال[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کرتے ہوئے لکھا جاتا ہے۔ ایک بائٹ $\OT1/pp
-l/m/n/10 8$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی ہندسوں کو کہتے ہیں۔ علامت
- دار اعداد کو بائٹ میں لکھتے ہوئے،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اتنا کچھ کہنے کے بعد آپ کو بتاتا چلوں ک
-ہ، کمپیوٹر میں منفی اعداد کو علامت دار قدر اظہار میں نہیں بلکہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 علامت دار و تکملہ $\OT1/ppl/m/n/10 1$ \TU
-/JameelNooriNastaleeq(1)/m/sl/10 یا علامت دار و تکملہ $\OT1/ppl/m/n/10 2$ \TU/J
-ameelNooriNastaleeq(1)/m/sl/10 نظام میں رکھا اور استعمال کیا جاتا ہے۔اگلے حصہ م
-یں ان[]
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کمپیوٹر میں عددی برقیات کی مدد سے اعداد ج
-مع یا منفی کیے جاتے ہیں۔ یہ اعمال اساسی تکملہ یا اساس منفی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--521
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ایک تکملہ (حصہ ٢.٤[] اور حصہ ٢.٥[] دیکھیں
-) استعمال کرتے ہوئے زیادہ خوش اسلوبی سے سرانجام دیے جاتے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--552
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کمپیوٹر چونکہ ثنائی اعداد استعمال کرتا 
-ہے، لہٰذا اس میں منفی اعداد تکملہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(
-1)/m/sl/10 یا تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 میں
- لکھے جاتے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 522--552
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔جدول ٢.٢[] میں چار ثنائی ہندسی (چار ب
-ِٹ) علامت دار اعداد کی تکملہ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/
-sl/10 اور تکملہ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 روپ پیش
- کی گئی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 مثبت عدد $\OT1/zplm/m/n/10 +\OML/zplm/m
-/it/10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی علامت دار روپ میں علامتی بِٹ $
-\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 سے $\OT1/ppl/m/n/10 1$ \
-TU/JameelNooriNastaleeq(1)/m/sl/10 کرنے سے $\OMS/zplm/m/n/10 ^^@\OML/zplm/m/it/
-10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا علامت دار روپ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 555--556
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل ہو گا۔یوں $\OMS/zplm/m/n/10 ^^@\OT1/
-ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو علامت دار روپ میں لکھنے کی
- خاطر $\OT1/zplm/m/n/10 +\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10
- کو علامت دار روپ $\OT1/ppl/m/n/10 0101[]$ \TU/JameelNooriNastaleeq(1)/m/sl/10 
-میں[]
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 منفی عدد $\OMS/zplm/m/n/10 ^^@\OML/zplm
-/m/it/10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو علامت دار تکملہ ایک روپ میں 
-لکھنے کی خاطر $\OT1/zplm/m/n/10 +\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(
-1)/m/sl/10 کو علامت دار ثنائی عدد (یعنی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سادہ ثنائی روپ میں) لکھ کر اس کا تکملہ $\
-OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لیں۔یاد رہے کہ تکملہ $\OT
-1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل کرتے ہوئے ثنائی عدد کے
- ہر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہندسہ (بمع علامتی بِٹ) کا متمم لینا ہو گا
-۔ یوں $\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/
-10 کو علامت دار تکملہ ایک روپ میں لکھنے کی خاطر $\OT1/zplm/m/n/10 +\OT1/ppl/m/n
-/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق: انٹرنیٹ سےعالمگیر دفتر کے معلوماتی
+ صفحات حاصل کریں ۔(ا) یہ کتنے بِٹ کا عالمگیر دفتر ہے۔[]
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 559--179
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 منفی عدد $\OMS/zplm/m/n/10 ^^@\OML/zplm
-/m/it/10 x$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو علامت دار تکملہ دو روپ میں ل
-کھنے کی خاطر $\OT1/zplm/m/n/10 +\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(1
-)/m/sl/10 کو علامت دار ثنائی عدد (یعنی سادہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 7.‏4 سلالہ وار ثنائی جمع کار صفہ 258 پر
+ شکل 6.‏25 میں سلسلہ وار ثنائی جمع کار دکھایا گیا ہے۔اسی کو استعمال کرتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--179
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ثنائی روپ میں) لکھ کر اس کا تکملہ $\OT1/p
-pl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 لیں۔یاد رہے کہ تکملہ $\OT1/ppl
-/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل کرتے ہوئے ثنائی عدد کے ہر ہ
-ندسہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوئے شکل 7.‏7 میں زیادہ بِٹ کا سلسلہ وار 
+ثنائی جمع کار دکھایا گیا ہے۔ اس شکل میںبِٹ کے دو عدد متوازی لکھائی و[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 559--179
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 (بمع علامتی بِٹ) کا متمم لینا ہو گا۔ یوں 
-$\OMS/zplm/m/n/10 ^^@\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو 
-علامت دار تکملہ دو روپ میں لکھنے کی خاطر $\OT1/zplm/m/n/10 +\OT1/ppl/m/n/10 5$ 
-\TU/JameelNooriNastaleeq(1)/m/sl/10 کو $\OT1/ppl/m/n/10 0101[]$ \TU/JameelNoori
-Nastaleeq(1)/m/sl/10 لکھ کر[]
+Underfull \hbox (badness 1436) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پڑھائی کے صلاحیت والے دائیں انتقال دفتر16
+ استعمال کئے گئے ہیں جنہیں دفتر-ا اور دفتر-ب کہا گیا ہے۔[]
  []
 
-[22]
-\openout2 = `./tex/booleanAlgebra.aux'.
 
- (./tex/booleanAlgebra.tex
-باب \arabicdigits{3}.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین الجبرا انگلستان کے ریاضی دان جارج 
-بوولی کے نام سے جانا جاتا ہے، جنہوں نے اس الجبرا کو دریافت کیا۔بوولین[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 الجبرا ذہنی سوچ یعنی منطق کو الجبرائی روپ
- میں لکھنے کی صلاحیت رکھتی ہے۔اس لئے حیرانی کی بات نہیں کہ کمپیوٹر اسی کو[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 7.
-LaTeX Info: Redefining \sffamily on input line 7.
-LaTeX Info: Redefining \ttfamily on input line 7.
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس کے برعکس، بوولین الجبرا میں متغیرات کی
- صرف دو ممکنہ قیمتیں ہیں۔ ان دو قیمتوں کو عموماً $\OT1/ppl/m/n/10 0$ \TU/Jameel
-NooriNastaleeq(1)/m/sl/10 (صفر) اور $\OT1/ppl/m/n/10 1$[]
- []
-
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 26.
-
-Underfull \hbox (badness 4378) in paragraph at lines 27--28
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیر ہے، لہٰذا اس کی ممکنہ قیمتیں صرف $\
-OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OT1/ppl/m/n/10 1$ \
-TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔اسی طرح $\OML/zplm/m/it/10 Y$ \TU/Jameel
-NooriNastaleeq(1)/m/sl/10 بھی بوولین متغیر ہے، لہٰذا اس کی قیمت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بھی صرف $\OT1/ppl/m/n/10 0$ \TU/JameelNoo
-riNastaleeq(1)/m/sl/10 اور $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl
-/10 ہو سکتی ہے۔تابع متغیر $\OML/zplm/m/it/10 Z$\TU/JameelNooriNastaleeq(1)/m/sl
-/10 بھی بوولین متغیر ہے۔اس طرح اگرچہ اس کی قیمت $\OML/zplm/m/it/10 X$ \TU/Jamee
-lNooriNastaleeq(1)/m/sl/10 اور[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-[]$\OML/zplm/m/it/10 Y$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی تابع ہے، اس کے ب
-اوجود $\OML/zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت صرف $\O
-T1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 یا $\OT1/ppl/m/n/10 1$ \TU
-/JameelNooriNastaleeq(1)/m/sl/10 ہی ہو سکتا ہے۔ متغیرات $\OML/zplm/m/it/10 X$ \
-TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNas
-taleeq(1)/m/sl/10 درج ذیل چار ممکنہ[]
- []
-
-[23
-
-
-
-
-]
-LaTeX Info: Redefining \rmfamily on input line 29.
-LaTeX Info: Redefining \sffamily on input line 29.
-LaTeX Info: Redefining \ttfamily on input line 29.
-LaTeX Info: Redefining \rmfamily on input line 45.
-LaTeX Info: Redefining \sffamily on input line 45.
-LaTeX Info: Redefining \ttfamily on input line 45.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--59
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 آئیں، جدول ٣.١[] میں پیش کیے گئے منطقی 
-تفاعل پر غور کرتے ہیں جس کی تمام ممکنہ قیمتیں اس جدول میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--59
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دی گئی ہیں۔ اس مثال میں تابع متغیر $\OML/
-zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کی قیمت صرف اس وقت $\OT1/pp
-l/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہے جب $\OML/zplm/m/it/10 X$ \TU
-/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNasta
-leeq(1)/m/sl/10 دونوں کی قیمت $\OT1/ppl/m/n/10 1$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اسی کی بنا پر جدول ٣.١[] میں پیش تفاعل (ا
-ور عمل) کو بوولین ضرب یا منطقی ضرب کہتے ہیں۔ بوولین ضرب کو آزاد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیرات کے درمیان نقطہ ”$\OMS/zplm/m/n/10
- ^^A$\TU/JameelNooriNastaleeq(1)/m/sl/10 “ سے یا آزاد متغیرات کو قریب قریب لکھن
-ے سے ظاہر کیا جاتا ہے۔یوں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منطقی ضرب کے تصور کو وسعت دے کر متعدد آزا
-د متغیرات کے لئے بیان کیا جا سکتا ہے۔ منطقی ضرب کی عمومی[]
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول ٣.٥[] کو مثال بناتے ہیں۔ اس طرح کے
- جدول میں آزاد متغیرات کی تمام ممکنات لکھنے (یعنی آزاد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیرات کے خانے پر کرنے) کی خاطر مداخل $\
-OML/zplm/m/it/10 XY$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو ثنائی عدد کے ہندسے 
-تصور کر کے، جدول کے[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 83.
-LaTeX Info: Redefining \sffamily on input line 83.
-LaTeX Info: Redefining \ttfamily on input line 83.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--100
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 سکتے ہیں کہ جدول کے تین مداخل کے خانوں می
-ں صفر $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 000\OT1/zplm/m/n/10 )$ \TU/JameelNoori
-Nastaleeq(1)/m/sl/10 تا سات $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 111\OT1/zplm/m/n
-/10 )$ \TU/JameelNooriNastaleeq(1)/m/sl/10 گنتی لکھی گئی ہے (جو تین[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 107.
-LaTeX Info: Redefining \sffamily on input line 107.
-LaTeX Info: Redefining \ttfamily on input line 107.
-LaTeX Info: Redefining \rmfamily on input line 122.
-LaTeX Info: Redefining \sffamily on input line 122.
-LaTeX Info: Redefining \ttfamily on input line 122.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--137
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دو آزاد متغیرات کے بوولین تفاعل کی ایک او
-ر مثال لیتے ہیں جس کو جدول ٣.٣[] میں پیش کیا گیا ہے۔[]
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول ٣.٣[] اور جدول ٣.٤[] کے اولین تین 
-نتائج ایک جیسے ہیں۔اس مشابہت کی بنا جدول ٣.٣[] میں دیے گئے بوولین[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تفاعل کو بوولین جمع یا منطقی جمع کہتے ہیں
- اور اس بوولین تفاعل کو جمع کے نشان ”$\OT1/zplm/m/n/10 +$\TU/JameelNooriNastale
-eq(1)/m/sl/10 “ سے ہی ظاہر کیا جاتا ہے۔یوں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین جمع کے تصور کو وسعت دے کر متعدد 
-آزاد متغیرات کے لئے بیان کیا جا سکتا ہے۔ بوولین جمع کی عمومی[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 157.
-LaTeX Info: Redefining \sffamily on input line 157.
-LaTeX Info: Redefining \ttfamily on input line 157.
-LaTeX Info: Redefining \rmfamily on input line 176.
-LaTeX Info: Redefining \sffamily on input line 176.
-LaTeX Info: Redefining \ttfamily on input line 176.
-
-Underfull \hbox (badness 4193) in paragraph at lines 152--189
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 تین متغیر منطقی جمع تفاعل $\OML/zplm/m/
-it/10 Z \OT1/zplm/m/n/10 = \OML/zplm/m/it/10 A \OT1/zplm/m/n/10 + \OML/zplm/m/i
-t/10 B \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl
-/10 جدول ٣.٥[] میں پیش کیا گیا ہے۔ یاد رہے کہ تین آزاد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--189
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیرات کے منطقی جمع کا الجبرائی جمع کے س
-اتھ کوئی تعلق نہیں۔یہاں جمع کی علامت بوولین جمع کو ظاہر کرتی ہے لہٰذا[]
- []
-
-
-Underfull \hbox (badness 3884) in paragraph at lines 194--195
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس تفاعل کو بوولین نفی کہتے ہیں۔آپ دیکھ
- سکتے ہیں کہ درحقیقت، تابع متغیر $\OML/zplm/m/it/10 Z$\TU/JameelNooriNastaleeq(
-1)/m/sl/10 ، آزاد متغیر کا متمم ہے۔یوں بوولین نفی[]
- []
-
-[26]
-LaTeX Info: Redefining \rmfamily on input line 211.
-LaTeX Info: Redefining \sffamily on input line 211.
-LaTeX Info: Redefining \ttfamily on input line 211.
-LaTeX Info: Redefining \rmfamily on input line 226.
-LaTeX Info: Redefining \sffamily on input line 226.
-LaTeX Info: Redefining \ttfamily on input line 226.
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--245
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دو آزاد متغیرات کا ایسا بوولین تفاعل جدول
- ٣.٧[] میں دکھایا گیا ہے، جس کا تابع متغیر اس صورت $\OT1/ppl/m/n/10 1$ \TU/Jame
-elNooriNastaleeq(1)/m/sl/10 ہے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--245
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جب صرف ایک آزاد متغیر $\OT1/ppl/m/n/10 1$
- \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو۔ یہ دو متغیر بوولین بلا شرکت جمع ہے۔ اس
- تصور کو متعدد آزاد متغیرات[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین بلا شرکت جمع تفاعل کا نفی (یعنی مت
-مم) لینے سے بوولین ضد بلا شرکت جمع حاصل ہو گا، جو دو اور تین آزاد[]
- []
-
-[27]
-LaTeX Info: Redefining \rmfamily on input line 275.
-LaTeX Info: Redefining \sffamily on input line 275.
-LaTeX Info: Redefining \ttfamily on input line 275.
-LaTeX Info: Redefining \rmfamily on input line 290.
-LaTeX Info: Redefining \sffamily on input line 290.
-LaTeX Info: Redefining \ttfamily on input line 290.
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--308
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 جدول ٣.٧[] اور جدول ٣.٨[] میں تابع متغیر 
-نفی کرنے سے بالترتیب دو اور تین بوولین ضد بلا شرکت تفاعل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جہاں ایک تار دوسری تار کے اوپر سے گزرتی
- ہو اور دونوں آپس میں جڑی ہوں، وہاں جوڑ کے مقام پر نقطے کا نشان لگایا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جہاں تاریں آپس میں جڑی نہ ہوں وہاں انہی
-ں بغیر نقطے کے نشان سے ایک دوسری کے اوپر سے گزرتا دکھایا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 تیسری صورت بھی شکل میں دکھائی گئی ہے جہ
-اں غلط فہمی کا امکان نہیں پایا جاتا۔اس میں ایک تار کا سر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دوسری تار پر ختم ہو تا ہے۔ ایسی صورت میں 
-انہیں ایک تار تصور کیا جائے (یعنی یہ دونوں آپس میں جڑی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بوولین الجبرا کے تین اہم ترین تفاعل پر حص
-ہ ٣.١[] میں غور کیا گیا۔یہ تفاعلات عددی برقیات میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کلیدی کردار ادا کرتے ہیں، جہاں انہیں عددی
- ادوار کی مدد سے جامہ پہنایا جاتا ہے۔یہ مخصوص عددی ادوار،[]
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منطقی (بوولین) ضرب تفاعل کو ضرب گیٹ سے حا
-صل کیا جاتا ہے، جو شکل ٣.١[] میں دکھایا گیا ہے۔[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 آزاد متغیرات، $\OML/zplm/m/it/10 X$ \TU/J
-ameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 Y$\TU/JameelNooriNastalee
-q(1)/m/sl/10 ، ضرب گیٹ کی بائیں جانب ہیں جبکہ تابع متغیر، $\OML/zplm/m/it/10 Z$
-\TU/JameelNooriNastaleeq(1)/m/sl/10 ، دائیں جانب ہے۔ آزاد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 متغیرات کو مداخل جبکہ تابع متغیر کو مخارج
- کہتے ہیں۔دو متغیر ضرب گیٹ (دو مداخل ضرب گیٹ) کے دو[]
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 374--375
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل ٣.٢[] میں دو مداخل ضرب گیٹ کی کارکر
-دگی ترسیم کی گئی ہے، جہاں $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/
-10 کو پست اور $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو بلند ل
-کیر سے ظاہر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کیا گیا ہے۔آپ دیکھ سکتے ہیں کہ مخارج صرف 
-اور صرف اُس صورت بلند ہوتا ہے جب ضرب گیٹ کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تمام مداخل بلند ہوں۔ ہم $\OT1/ppl/m/n/10 
-0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کو پست اور $\OT1/ppl/m/n/10 1$ \TU/Jamee
-lNooriNastaleeq(1)/m/sl/10 کو بلند بھی پکارتے ہیں۔ اس شکل میں مداخل کو کسی خاص 
-ترتیب[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ضرب گیٹ کو شکل ٣.٣[] میں بطور عددی گیٹ 
-یا عددی سوئچ دکھایا گیا ہے جہاں ایک داخلی پینا کو قابو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پینا کا نام دیا گیا ہے جبکہ دوسرے کو (اب 
-بھی) مداخل کہا گیا ہے۔ضرب گیٹ کے جدول سے واضح ہے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کہ جب تک قابو پینا $\OT1/ppl/m/n/10 0$ \T
-U/JameelNooriNastaleeq(1)/m/sl/10 ہو، خارجی پینا $\OT1/ppl/m/n/10 0$ \TU/Jameel
-NooriNastaleeq(1)/m/sl/10 رہتا ہے۔اس صورت میں مداخل پر موجود مواد، خارجی پینا[]
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 تک نہیں پہنچ سکتا، یعنی اس پر $\OT1/ppl/m
-/n/10 0$ \TU/JameelNooriNastaleeq(1)/m/sl/10 یا $\OT1/ppl/m/n/10 1$ \TU/JameelN
-ooriNastaleeq(1)/m/sl/10 کا مخارج پر کوئی اثر نہیں ہوتا؛ ہم کہتے ہیں قابو پینا 
-نے ضرب گیٹ کو معذور کر دیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ۔اس کے برعکس اگر قابو پینا $\OT1/ppl/m/n/
-10 1$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو تب خارجی پینا پر وہی کچھ ہوگا جو م
-داخل پر ہو گا؛ ہم کہتے ہیں ضرب گیٹ مجاز کر[]
- []
-
-
-Underfull \hbox (badness 6412) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دیا گیا ہے۔قابو پینا پر ایک یا صفر سے داخ
-لی اشارہ (مواد) کو خارجی پینا تک پہنچنا، ممکن یا ناممکن بنایا جا سکتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔یوں یہ ایک دروازے کی طرح کام کرتا ہے، 
-جس کی بنا پر یہ گیٹ کہلاتا ہے۔قابو پینا کو، معذور اور مجاز[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 بنانے والا پینا بھی کہتے ہیں۔شکل ٣.٤[] می
-ں ضرب گیٹ کی کارکردگی دکھائی گئی ہے۔آپ دیکھ سکتے ہیں کہ صرف[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--454
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منطقی جمع (بوولین جمع) تفاعل کو جمع گیٹ س
-ے حاصل کیا جاتا ہے۔ دو مداخل جمع گیٹ شکل ٣.٥[] میں دکھایا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جمع گیٹ کی کارکردگی شکل ٣.٦[] میں ترسیم
- کی گئی ہے۔آپ دیکھ سکتے ہیں، جمع گیٹ کا مخارج اُس صورت بلند ہوگا[]
- []
-
-[29] [30]
-Underfull \hbox (badness 4303) in paragraph at lines 460--490
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 نفی تفاعل کو نفی گیٹ سے حاصل کیا جاتا ہے،
- جس کی علامت شکل ٣.٧[] میں دکھائی گئی ہے، اور جو مواد کو[]
- []
-
-
-Underfull \hbox (badness 4229) in paragraph at lines 460--490
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 مخارج تک پہنچنے سے روک نہ پانے کے باوجود 
-(نفی) گیٹ کہلاتا ہے۔ اس کی کارکردگی شکل ٣.٨[] میں ترسیم کی گئی[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 503.
-LaTeX Info: Redefining \sffamily on input line 503.
-LaTeX Info: Redefining \ttfamily on input line 503.
-LaTeX Info: Redefining \rmfamily on input line 525.
-LaTeX Info: Redefining \sffamily on input line 525.
-LaTeX Info: Redefining \ttfamily on input line 525.
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--544
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ضرب گیٹ اور جمع گیٹ کے متعدد مداخل ہو سکت
-ے ہیں (تاہم، ان کا مخارج ایک ہو گا)۔ شکل ٣.٩[] میں تین مداخل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--544
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کا ضرب اور جمع گیٹ، اور ان کے جدول دکھائے
- گئے ہیں۔ ضرب گیٹ کا مخارج اس صورت بلند ہو گا جب تمام[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل ٣.١٠[] میں دو ضرب گیٹ یوں جوڑے گئے 
-ہیں کہ ایک کا مخارج دوسرے کے مداخل سے جڑا ہے۔ساتھ[]
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 546--547
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہی اس دور کا بوولین جدول دیا گیا ہے۔ پہلے
- جدول استعمال کیے بغیر اس دور کو سمجھنے کی کوشش کرتے ہیں۔ مخارج $\OML/zplm/m/it
-/10 Z$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس صورت بلند ہو گا جب دائیں گیٹ کے مداخل 
-$\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/1
-0 D$ \TU/JameelNooriNastaleeq(1)/m/sl/10 دونوں بلند ہوں لیکن $\OML/zplm/m/it/10
- D$ \TU/JameelNooriNastaleeq(1)/m/sl/10 بلند ہونے کے لئے ضروری[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے کہ بائیں گیٹ کے مداخل $\OML/zplm/m/it/
-10 A$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 B$ \TU/JameelN
-ooriNastaleeq(1)/m/sl/10 دونوں بلند ہوں۔ یوں $\OML/zplm/m/it/10 A$\TU/JameelNoo
-riNastaleeq(1)/m/sl/10 ، $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(1)/m/sl
-/10 اور $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl/10 بلند ہونے کی 
-صورت میں مخارج $\OML/zplm/m/it/10 Z$[]
- []
-
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 آئیں اب جدول کو سمجھتے ہیں۔ تین مداخل $
-\OML/zplm/m/it/10 ABC$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے خانوں کو تین ہندس
-وں کے ثنائی اعداد $\OT1/ppl/m/n/10 000$ \TU/JameelNooriNastaleeq(1)/m/sl/10 تا 
-$\OT1/ppl/m/n/10 111$ \TU/JameelNooriNastaleeq(1)/m/sl/10 سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پُر کریں۔ اس کے بعد بائیں ضرب گیٹ کے مخار
-ج $\OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے خانے پُر کریں۔ ی
-اد رہے کہ یہ صرف $\OML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور 
-$\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(1)/m/sl/10 پر[]
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 549--550
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 منحصر ہے اور صرف اس صورت بلند ہو گا جب یہ
- دونوں بلند ہوں، جو آخری دو صفوں میں ہو گا۔ اس کے بعد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 دائیں ضرب گیٹ کے مخارج $\OML/zplm/m/it/10
- Z$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے خانے پُر کریں۔ یہ صرف $\OML/zplm/m/i
-t/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 D$ \TU/Jamee
-lNooriNastaleeq(1)/m/sl/10 پر منحصر ہے، اور بلند صرف اس[]
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 551--552
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 ان نتائج کا جدول ٣.٩[] میں پیش تین مداخ
-ل ضرب گیٹ کے جدول کے ساتھ کریں۔آپ دیکھ سکتے ہیں کہ شکل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--552
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ٣.١٠[] میں دونوں ضرب گیٹ مل کر تین مداخل 
-ضرب گیٹ کا کردار ادا کرتے ہیں۔ یوں دو داخلی ضرب گیٹوں کی مدد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل ٣.١١[] میں دو مداخل جمع گیٹوں سے تی
-ن مداخل جمع گیٹ کا حصول دکھایا گیا ہے۔ یہاں $\OML/zplm/m/it/10 Z$ \TU/JameelNoo
-riNastaleeq(1)/m/sl/10 صرف اس[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--554
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 صورت پست ہو گا جب دائیں گیٹ کے دونوں مداخ
-ل، $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/i
-t/10 D$\TU/JameelNooriNastaleeq(1)/m/sl/10 ، پست ہوں لیکن $\OML/zplm/m/it/10 D$
- \TU/JameelNooriNastaleeq(1)/m/sl/10 صرف اس صورت[]
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 553--554
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 پست ہو سکتا ہے جب بائیں گیٹ کے مداخل، $\O
-ML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 B
-$\TU/JameelNooriNastaleeq(1)/m/sl/10 ، پست ہوں۔ یوں $\OML/zplm/m/it/10 Z$ \TU/J
-ameelNooriNastaleeq(1)/m/sl/10 صرف اس صورت پست ہو گا جب[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 557.
-LaTeX Info: Redefining \sffamily on input line 557.
-LaTeX Info: Redefining \ttfamily on input line 557.
-LaTeX Info: Redefining \rmfamily on input line 585.
-LaTeX Info: Redefining \sffamily on input line 585.
-LaTeX Info: Redefining \ttfamily on input line 585.
-
-Underfull \hbox (badness 10000) in paragraph at lines 639--640
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 جمع گیٹ اور ضرب گیٹ پر مبنی، شکل ٣.١٢[]
-میں دکھائے گئے ادوار کو مثال بنا کر، عددی ادوار حل کرنا سیکھتے[]
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 644--677
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 آئیں ا ب شکل ٣.١٢[]-ب حل ہیں۔ یہاں $\OM
-L/zplm/m/it/10 u\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OM
-L/zplm/m/it/10 u\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے مخارج
- بالترتیب $\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 B$ \TU/Jame
-elNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 C \OT1/zplm/m/n/10 + \OML/zp
-lm/m/it/10 D$ \TU/JameelNooriNastaleeq(1)/m/sl/10 دیں گے۔[]
- []
-
-[32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 678--679
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل ٣.١٣[]-الف میں $\OML/zplm/m/it/10 u
-\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا مخارج $\OML/zplm/m/it
-/10 u\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے مداخل اور $\OML/
-zplm/m/it/10 u\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے مداخل ک
-ے ساتھ جڑا ہے۔ گیٹ $\OML/zplm/m/it/10 u\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastal
-eeq(1)/m/sl/10 اور[]
- []
-
-
-Underfull \hbox (badness 3623) in paragraph at lines 678--679
-[]$\OML/zplm/m/it/10 u\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کے
- مخارج بالترتیب $\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 B$ \T
-U/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 C \OT1/zplm/m/n/10 + \
-OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہیں۔ گیٹ $\OML/zplm/m/i
-t/10 u\OT1/ppl/m/n/10 3$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا مخارج $\OT1/zpl
-m/m/n/10 (\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 B\OT1/zplm/m
-/n/10 )(\OML/zplm/m/it/10 C \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 D\OT1/zplm/m/n
-/10 )$ \TU/JameelNooriNastaleeq(1)/m/sl/10 اور $\OML/zplm/m/it/10 u\OT1/ppl/m/n
-/10 4$ \TU/JameelNooriNastaleeq(1)/m/sl/10 کا[]
- []
-
-
-Underfull \hbox (badness 5490) in paragraph at lines 684--685
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل ٣.١٤[]-الف میں تین مداخل ضرب گیٹ کا م
-خارج $\OML/zplm/m/it/10 ABC$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا، جو نفی 
-گیٹ کا مداخل ہے، لہٰذا نفی گیٹ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 گیا ہے، جسے ضرب متمم گیٹ (یا ضد ضرب گیٹ) 
-کہتے ہیں اور جو شکل-ب میں (تین مداخل کے لئے) دکھایا[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 697.
-LaTeX Info: Redefining \sffamily on input line 697.
-LaTeX Info: Redefining \ttfamily on input line 697.
-LaTeX Info: Redefining \rmfamily on input line 716.
-LaTeX Info: Redefining \sffamily on input line 716.
-LaTeX Info: Redefining \ttfamily on input line 716.
-LaTeX Info: Redefining \rmfamily on input line 749.
-LaTeX Info: Redefining \sffamily on input line 749.
-LaTeX Info: Redefining \ttfamily on input line 749.
-
-Underfull \hbox (badness 1342) in paragraph at lines 689--792
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ضرب گیٹ کے جدول کا متمم لینے سے ضرب متمم 
-گیٹ کا جدول حاصل ہو گا جو جدول ٣.١١[] میں پیش کیا گیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل ٣.١٥[]-الف میں تین مداخل جمع گیٹ کا
- مخارج $\OML/zplm/m/it/10 A \OT1/zplm/m/n/10 + \OML/zplm/m/it/10 B \OT1/zplm/m/
-n/10 + \OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(1)/m/sl/10 ہو گا، جو نفی گ
-یٹ کا مداخل ہے، لہٰذا نفی[]
- []
-
-[34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 804--806
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اسی طرح شکل 3.‏15 میں تین داخلی نفی۔ضرب
- گیٹ دکھایا گیا ہے جسے نفی اور ضرب کے لفظ جوڑ کر نفی۔ضرب[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 804--806
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 گیٹ 15 کا نام دیا گیا ہے۔ بالکل ضرب اور ج
-مع گیٹوں کی طرح یہ دو قسم کے گیٹ بھی دو، تین یا ان سے زیادہ مداخل والے ہو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 808--809
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 کسی بھی نفی۔جمع گیٹ کی مخارج صرف اُسی ص
-ورتہوتا ہے جب اس کے تمام مداخلہوں جبکہ کسی بھی نفی۔ضرب گیٹ کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 شکل 3.‏16 میں باری باری نفی۔جمع گیٹ اور
- نفی۔ضرب گیٹ کی مدد سے نفی گیٹ کا عمل حاصل کرنا دکھایا گیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔یوں نفی گیٹ کی جگہ نفی۔جمع گیٹ استعمال
- کیا جا سکتا ہے یا پھر اس کی جگہ نفی۔ضرب گیٹ استعمال[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کیا جا سکتا ہے۔ اسی طرح شکل 3.‏17 میں نفی
-۔جمع گیٹ کی مدد سے جمع گیٹ اور ضرب گیٹ کا عمل حاصل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کیا گیا ہے جبکہ شکل 3.‏18 میں نفی۔ضرب گیٹ
- استعمال کرتے ہوئے جمع گیٹ اور ضرب گیٹ کا عمل[]
- []
-
-
-Underfull \hbox (badness 4096) in paragraph at lines 815--816
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس شکل میں ضرب گیٹ بناتے وقت بائیں جانب
- سب سے نیچے نفی۔جمع گیٹ کے دونوں مداخل آپس[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مجموعہ حاصل کرنے سے قبل، یعنی ساعت کے پہل
+ے کنارہ سے قبل، دفتر۔ا میں ثنائی عددجبکہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--818
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 اس حصہ کے شروع میں دیکھا گیا کہ جمع، ضر
-ب اور نفی گیٹوں کی مدد سے نفی۔جمع گیٹ اور نفی۔ضرب گیٹ[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر-ب میں ثنائی عددمتوازی طور منتقل کئے 
+جاتے ہیں اور زبردستی پست اشارہ کو لمحاتی طور پست کر کے[]
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 817--818
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 حاصل کئے جا سکتے ہیں جبکہ اس حصہ کے آخر م
-یں نفی۔جمع گیٹوں اور نفی۔ضرب گیٹوں کی مدد سے نفی گیٹ،[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈی پلٹ کار کو پست کر دیا جاتا ہے تا کہ مک
+مل جمع کار کے داخلی حاصل کی قیمتہو۔شکل میں متوازی چڑھائی نہیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--821
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 3.‏3.‏5 بلا شرکت جمع گیٹ اور نفی بلا شر
-کت جمع گیٹ بلا شرکت جمع تفاعل کو بلا شرکت جمع گیٹ 16 سے[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دکھائی گئی تا کہ اصل موضوع پر توجہ رہے۔ م
+کمل جمع کار ان دو ثنائی اعداد کے کم تر رتبہ والے بِٹ اور داخلی حاصل کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--821
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کو نفی بلا شرکت جمع گیٹ 17 کی مدد سے حاصل
- کیا جاتا ہے جس کی علامت شکل (ب) میں دکھائی گئی[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جمع کر کے جمع اور خارجی حاصل خارج کرتا ہے
+۔ساعت کے پہلے کنارے پرکو ڈی پلٹ کار محفوظ کر کے اسے مکمل جمع[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 819--821
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔بلا شرکت جمع گیٹ کی مخارج کے ساتھ نفی 
-گیٹ منسلک کرنے سے بلا شرکت نفی۔جمع گیٹ حاصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار کو اگلے ثنائی بِٹ جمع کرتے وقت بطور د
+اخلی حاصل فراہم کرتا ہے جبکہ دفتر-ا اور دفتر-ب اسے اگلے درجے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
-[][]\TU/JameelNooriNastaleeq(1)/m/sl/10 تین مداخل والے بلا شرکت جمع گیٹ کا مخار
-ج حاصل کرتے وقت اس کے کسی دو مداخل کا بلا شرکت جمع[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے بِٹ فراہم کرتے ہیں۔جمعکو اس شکل میں دف
+تر-ا کو سلسلہ وار مداخل کے طور مہیا کیا گیا ہے۔یوں جیسے جیسے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 کا بلا شرکت جمع ہے۔مساوات 3.‏19 میں تین م
-داخل والے بلا شرکت جمع گیٹ کا بوولین جدول دکھایا گیا[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دفتر سے ثنائی عدددائیں جانب خارج ہوتا 
+ہے ویسے ویسے اس کی جگہ دو اعداد کا مجموعہ جگہ لیتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
-[]\TU/JameelNooriNastaleeq(1)/m/sl/10 ہے۔جیسے آپ اس جدول سے دیکھ سکتے ہیں، کسی 
-بھی بلا شرکت جمع گیٹ کا مخارج اُس صورت بلند ہوتا ہے[]
+Underfull \hbox (badness 10000) in paragraph at lines 404--192
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ساعت کےکنارے گزرنے کے بعد دو ثنائی اعد
+اد کا مجموعہ دفتر-ا میں محفوظ ہوتا ہے جہاں سے اسے[]
  []
 
-) [36] [37] [38
+[167] [168] (./answer.tex) [169
 
 
 
-] (./answer.tex) [39] [40
+] [170
 
 
 ]
@@ -3448,16 +3270,16 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 240.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 240.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
 (./digitalCircuitsLatex.aux (./tex/digitalCircuitsPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/binarySystem.aux
-LaTeX Info: Redefining \rmfamily on input line 21.
-LaTeX Info: Redefining \sffamily on input line 21.
-LaTeX Info: Redefining \ttfamily on input line 21.
-LaTeX Info: Redefining \rmfamily on input line 29.
-LaTeX Info: Redefining \sffamily on input line 29.
-LaTeX Info: Redefining \ttfamily on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+LaTeX Info: Redefining \rmfamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \ttfamily on input line 34.
 ) (./tex/basicMaths.aux
 LaTeX Info: Redefining \rmfamily on input line 16.
 LaTeX Info: Redefining \sffamily on input line 16.
@@ -3473,73 +3295,344 @@ LaTeX Info: Redefining \ttfamily on input line 12.
 LaTeX Info: Redefining \rmfamily on input line 28.
 LaTeX Info: Redefining \sffamily on input line 28.
 LaTeX Info: Redefining \ttfamily on input line 28.
-LaTeX Info: Redefining \rmfamily on input line 47.
-LaTeX Info: Redefining \sffamily on input line 47.
-LaTeX Info: Redefining \ttfamily on input line 47.
-LaTeX Info: Redefining \rmfamily on input line 63.
-LaTeX Info: Redefining \sffamily on input line 63.
-LaTeX Info: Redefining \ttfamily on input line 63.
-LaTeX Info: Redefining \rmfamily on input line 81.
-LaTeX Info: Redefining \sffamily on input line 81.
-LaTeX Info: Redefining \ttfamily on input line 81.
-LaTeX Info: Redefining \rmfamily on input line 99.
-LaTeX Info: Redefining \sffamily on input line 99.
-LaTeX Info: Redefining \ttfamily on input line 99.
-LaTeX Info: Redefining \rmfamily on input line 118.
-LaTeX Info: Redefining \sffamily on input line 118.
-LaTeX Info: Redefining \ttfamily on input line 118.
-LaTeX Info: Redefining \rmfamily on input line 136.
-LaTeX Info: Redefining \sffamily on input line 136.
-LaTeX Info: Redefining \ttfamily on input line 136.
+LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \sffamily on input line 48.
+LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 64.
+LaTeX Info: Redefining \sffamily on input line 64.
+LaTeX Info: Redefining \ttfamily on input line 64.
+LaTeX Info: Redefining \rmfamily on input line 83.
+LaTeX Info: Redefining \sffamily on input line 83.
+LaTeX Info: Redefining \ttfamily on input line 83.
+LaTeX Info: Redefining \rmfamily on input line 101.
+LaTeX Info: Redefining \sffamily on input line 101.
+LaTeX Info: Redefining \ttfamily on input line 101.
+LaTeX Info: Redefining \rmfamily on input line 119.
+LaTeX Info: Redefining \sffamily on input line 119.
+LaTeX Info: Redefining \ttfamily on input line 119.
+LaTeX Info: Redefining \rmfamily on input line 137.
+LaTeX Info: Redefining \sffamily on input line 137.
+LaTeX Info: Redefining \ttfamily on input line 137.
 LaTeX Info: Redefining \rmfamily on input line 155.
 LaTeX Info: Redefining \sffamily on input line 155.
 LaTeX Info: Redefining \ttfamily on input line 155.
 LaTeX Info: Redefining \rmfamily on input line 173.
 LaTeX Info: Redefining \sffamily on input line 173.
 LaTeX Info: Redefining \ttfamily on input line 173.
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
-LaTeX Info: Redefining \rmfamily on input line 245.
-LaTeX Info: Redefining \sffamily on input line 245.
-LaTeX Info: Redefining \ttfamily on input line 245.
-LaTeX Info: Redefining \rmfamily on input line 253.
-LaTeX Info: Redefining \sffamily on input line 253.
-LaTeX Info: Redefining \ttfamily on input line 253.
-LaTeX Info: Redefining \rmfamily on input line 269.
-LaTeX Info: Redefining \sffamily on input line 269.
-LaTeX Info: Redefining \ttfamily on input line 269.
-LaTeX Info: Redefining \rmfamily on input line 287.
-LaTeX Info: Redefining \sffamily on input line 287.
-LaTeX Info: Redefining \ttfamily on input line 287.
-LaTeX Info: Redefining \rmfamily on input line 312.
-LaTeX Info: Redefining \sffamily on input line 312.
-LaTeX Info: Redefining \ttfamily on input line 312.
-LaTeX Info: Redefining \rmfamily on input line 330.
-LaTeX Info: Redefining \sffamily on input line 330.
-LaTeX Info: Redefining \ttfamily on input line 330.
-LaTeX Info: Redefining \rmfamily on input line 346.
-LaTeX Info: Redefining \sffamily on input line 346.
-LaTeX Info: Redefining \ttfamily on input line 346.
-))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 240.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 240.
+LaTeX Info: Redefining \rmfamily on input line 193.
+LaTeX Info: Redefining \sffamily on input line 193.
+LaTeX Info: Redefining \ttfamily on input line 193.
+LaTeX Info: Redefining \rmfamily on input line 211.
+LaTeX Info: Redefining \sffamily on input line 211.
+LaTeX Info: Redefining \ttfamily on input line 211.
+LaTeX Info: Redefining \rmfamily on input line 248.
+LaTeX Info: Redefining \sffamily on input line 248.
+LaTeX Info: Redefining \ttfamily on input line 248.
+LaTeX Info: Redefining \rmfamily on input line 258.
+LaTeX Info: Redefining \sffamily on input line 258.
+LaTeX Info: Redefining \ttfamily on input line 258.
+LaTeX Info: Redefining \rmfamily on input line 274.
+LaTeX Info: Redefining \sffamily on input line 274.
+LaTeX Info: Redefining \ttfamily on input line 274.
+LaTeX Info: Redefining \rmfamily on input line 292.
+LaTeX Info: Redefining \sffamily on input line 292.
+LaTeX Info: Redefining \ttfamily on input line 292.
+LaTeX Info: Redefining \rmfamily on input line 315.
+LaTeX Info: Redefining \sffamily on input line 315.
+LaTeX Info: Redefining \ttfamily on input line 315.
+LaTeX Info: Redefining \rmfamily on input line 331.
+LaTeX Info: Redefining \sffamily on input line 331.
+LaTeX Info: Redefining \ttfamily on input line 331.
+LaTeX Info: Redefining \rmfamily on input line 349.
+LaTeX Info: Redefining \sffamily on input line 349.
+LaTeX Info: Redefining \ttfamily on input line 349.
+LaTeX Info: Redefining \rmfamily on input line 370.
+LaTeX Info: Redefining \sffamily on input line 370.
+LaTeX Info: Redefining \ttfamily on input line 370.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
+LaTeX Info: Redefining \rmfamily on input line 412.
+LaTeX Info: Redefining \sffamily on input line 412.
+LaTeX Info: Redefining \ttfamily on input line 412.
+LaTeX Info: Redefining \rmfamily on input line 428.
+LaTeX Info: Redefining \sffamily on input line 428.
+LaTeX Info: Redefining \ttfamily on input line 428.
+LaTeX Info: Redefining \rmfamily on input line 456.
+LaTeX Info: Redefining \sffamily on input line 456.
+LaTeX Info: Redefining \ttfamily on input line 456.
+LaTeX Info: Redefining \rmfamily on input line 472.
+LaTeX Info: Redefining \sffamily on input line 472.
+LaTeX Info: Redefining \ttfamily on input line 472.
+LaTeX Info: Redefining \rmfamily on input line 488.
+LaTeX Info: Redefining \sffamily on input line 488.
+LaTeX Info: Redefining \ttfamily on input line 488.
+LaTeX Info: Redefining \rmfamily on input line 504.
+LaTeX Info: Redefining \sffamily on input line 504.
+LaTeX Info: Redefining \ttfamily on input line 504.
+LaTeX Info: Redefining \rmfamily on input line 523.
+LaTeX Info: Redefining \sffamily on input line 523.
+LaTeX Info: Redefining \ttfamily on input line 523.
+LaTeX Info: Redefining \rmfamily on input line 539.
+LaTeX Info: Redefining \sffamily on input line 539.
+LaTeX Info: Redefining \ttfamily on input line 539.
+LaTeX Info: Redefining \rmfamily on input line 555.
+LaTeX Info: Redefining \sffamily on input line 555.
+LaTeX Info: Redefining \ttfamily on input line 555.
+LaTeX Info: Redefining \rmfamily on input line 571.
+LaTeX Info: Redefining \sffamily on input line 571.
+LaTeX Info: Redefining \ttfamily on input line 571.
+LaTeX Info: Redefining \rmfamily on input line 587.
+LaTeX Info: Redefining \sffamily on input line 587.
+LaTeX Info: Redefining \ttfamily on input line 587.
+LaTeX Info: Redefining \rmfamily on input line 606.
+LaTeX Info: Redefining \sffamily on input line 606.
+LaTeX Info: Redefining \ttfamily on input line 606.
+LaTeX Info: Redefining \rmfamily on input line 622.
+LaTeX Info: Redefining \sffamily on input line 622.
+LaTeX Info: Redefining \ttfamily on input line 622.
+LaTeX Info: Redefining \rmfamily on input line 638.
+LaTeX Info: Redefining \sffamily on input line 638.
+LaTeX Info: Redefining \ttfamily on input line 638.
+LaTeX Info: Redefining \rmfamily on input line 654.
+LaTeX Info: Redefining \sffamily on input line 654.
+LaTeX Info: Redefining \ttfamily on input line 654.
+LaTeX Info: Redefining \rmfamily on input line 670.
+LaTeX Info: Redefining \sffamily on input line 670.
+LaTeX Info: Redefining \ttfamily on input line 670.
+LaTeX Info: Redefining \rmfamily on input line 686.
+LaTeX Info: Redefining \sffamily on input line 686.
+LaTeX Info: Redefining \ttfamily on input line 686.
+LaTeX Info: Redefining \rmfamily on input line 702.
+LaTeX Info: Redefining \sffamily on input line 702.
+LaTeX Info: Redefining \ttfamily on input line 702.
+LaTeX Info: Redefining \rmfamily on input line 718.
+LaTeX Info: Redefining \sffamily on input line 718.
+LaTeX Info: Redefining \ttfamily on input line 718.
+LaTeX Info: Redefining \rmfamily on input line 734.
+LaTeX Info: Redefining \sffamily on input line 734.
+LaTeX Info: Redefining \ttfamily on input line 734.
+LaTeX Info: Redefining \rmfamily on input line 750.
+LaTeX Info: Redefining \sffamily on input line 750.
+LaTeX Info: Redefining \ttfamily on input line 750.
+LaTeX Info: Redefining \rmfamily on input line 766.
+LaTeX Info: Redefining \sffamily on input line 766.
+LaTeX Info: Redefining \ttfamily on input line 766.
+LaTeX Info: Redefining \rmfamily on input line 782.
+LaTeX Info: Redefining \sffamily on input line 782.
+LaTeX Info: Redefining \ttfamily on input line 782.
+LaTeX Info: Redefining \rmfamily on input line 798.
+LaTeX Info: Redefining \sffamily on input line 798.
+LaTeX Info: Redefining \ttfamily on input line 798.
+LaTeX Info: Redefining \rmfamily on input line 815.
+LaTeX Info: Redefining \sffamily on input line 815.
+LaTeX Info: Redefining \ttfamily on input line 815.
+LaTeX Info: Redefining \rmfamily on input line 831.
+LaTeX Info: Redefining \sffamily on input line 831.
+LaTeX Info: Redefining \ttfamily on input line 831.
+LaTeX Info: Redefining \rmfamily on input line 852.
+LaTeX Info: Redefining \sffamily on input line 852.
+LaTeX Info: Redefining \ttfamily on input line 852.
+LaTeX Info: Redefining \rmfamily on input line 868.
+LaTeX Info: Redefining \sffamily on input line 868.
+LaTeX Info: Redefining \ttfamily on input line 868.
+LaTeX Info: Redefining \rmfamily on input line 889.
+LaTeX Info: Redefining \sffamily on input line 889.
+LaTeX Info: Redefining \ttfamily on input line 889.
+LaTeX Info: Redefining \rmfamily on input line 905.
+LaTeX Info: Redefining \sffamily on input line 905.
+LaTeX Info: Redefining \ttfamily on input line 905.
+LaTeX Info: Redefining \rmfamily on input line 921.
+LaTeX Info: Redefining \sffamily on input line 921.
+LaTeX Info: Redefining \ttfamily on input line 921.
+LaTeX Info: Redefining \rmfamily on input line 937.
+LaTeX Info: Redefining \sffamily on input line 937.
+LaTeX Info: Redefining \ttfamily on input line 937.
+LaTeX Info: Redefining \rmfamily on input line 954.
+LaTeX Info: Redefining \sffamily on input line 954.
+LaTeX Info: Redefining \ttfamily on input line 954.
+LaTeX Info: Redefining \rmfamily on input line 974.
+LaTeX Info: Redefining \sffamily on input line 974.
+LaTeX Info: Redefining \ttfamily on input line 974.
+LaTeX Info: Redefining \rmfamily on input line 991.
+LaTeX Info: Redefining \sffamily on input line 991.
+LaTeX Info: Redefining \ttfamily on input line 991.
+LaTeX Info: Redefining \rmfamily on input line 1008.
+LaTeX Info: Redefining \sffamily on input line 1008.
+LaTeX Info: Redefining \ttfamily on input line 1008.
+LaTeX Info: Redefining \rmfamily on input line 1026.
+LaTeX Info: Redefining \sffamily on input line 1026.
+LaTeX Info: Redefining \ttfamily on input line 1026.
+LaTeX Info: Redefining \rmfamily on input line 1055.
+LaTeX Info: Redefining \sffamily on input line 1055.
+LaTeX Info: Redefining \ttfamily on input line 1055.
+LaTeX Info: Redefining \rmfamily on input line 1071.
+LaTeX Info: Redefining \sffamily on input line 1071.
+LaTeX Info: Redefining \ttfamily on input line 1071.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
+LaTeX Info: Redefining \rmfamily on input line 1118.
+LaTeX Info: Redefining \sffamily on input line 1118.
+LaTeX Info: Redefining \ttfamily on input line 1118.
+LaTeX Info: Redefining \rmfamily on input line 1142.
+LaTeX Info: Redefining \sffamily on input line 1142.
+LaTeX Info: Redefining \ttfamily on input line 1142.
+) (./tex/karnaughMaps.aux
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \ttfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 37.
+LaTeX Info: Redefining \sffamily on input line 37.
+LaTeX Info: Redefining \ttfamily on input line 37.
+LaTeX Info: Redefining \rmfamily on input line 55.
+LaTeX Info: Redefining \sffamily on input line 55.
+LaTeX Info: Redefining \ttfamily on input line 55.
+LaTeX Info: Redefining \rmfamily on input line 74.
+LaTeX Info: Redefining \sffamily on input line 74.
+LaTeX Info: Redefining \ttfamily on input line 74.
+LaTeX Info: Redefining \rmfamily on input line 104.
+LaTeX Info: Redefining \sffamily on input line 104.
+LaTeX Info: Redefining \ttfamily on input line 104.
+LaTeX Info: Redefining \rmfamily on input line 133.
+LaTeX Info: Redefining \sffamily on input line 133.
+LaTeX Info: Redefining \ttfamily on input line 133.
+LaTeX Info: Redefining \rmfamily on input line 152.
+LaTeX Info: Redefining \sffamily on input line 152.
+LaTeX Info: Redefining \ttfamily on input line 152.
+)
+(./tex/combinationalLogicAndcircuits.aux
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 45.
+LaTeX Info: Redefining \sffamily on input line 45.
+LaTeX Info: Redefining \ttfamily on input line 45.
+LaTeX Info: Redefining \rmfamily on input line 99.
+LaTeX Info: Redefining \sffamily on input line 99.
+LaTeX Info: Redefining \ttfamily on input line 99.
+LaTeX Info: Redefining \rmfamily on input line 120.
+LaTeX Info: Redefining \sffamily on input line 120.
+LaTeX Info: Redefining \ttfamily on input line 120.
+LaTeX Info: Redefining \rmfamily on input line 155.
+LaTeX Info: Redefining \sffamily on input line 155.
+LaTeX Info: Redefining \ttfamily on input line 155.
+LaTeX Info: Redefining \rmfamily on input line 171.
+LaTeX Info: Redefining \sffamily on input line 171.
+LaTeX Info: Redefining \ttfamily on input line 171.
+LaTeX Info: Redefining \rmfamily on input line 189.
+LaTeX Info: Redefining \sffamily on input line 189.
+LaTeX Info: Redefining \ttfamily on input line 189.
+LaTeX Info: Redefining \rmfamily on input line 213.
+LaTeX Info: Redefining \sffamily on input line 213.
+LaTeX Info: Redefining \ttfamily on input line 213.
+LaTeX Info: Redefining \rmfamily on input line 231.
+LaTeX Info: Redefining \sffamily on input line 231.
+LaTeX Info: Redefining \ttfamily on input line 231.
+LaTeX Info: Redefining \rmfamily on input line 257.
+LaTeX Info: Redefining \sffamily on input line 257.
+LaTeX Info: Redefining \ttfamily on input line 257.
+LaTeX Info: Redefining \rmfamily on input line 278.
+LaTeX Info: Redefining \sffamily on input line 278.
+LaTeX Info: Redefining \ttfamily on input line 278.
+LaTeX Info: Redefining \rmfamily on input line 299.
+LaTeX Info: Redefining \sffamily on input line 299.
+LaTeX Info: Redefining \ttfamily on input line 299.
+LaTeX Info: Redefining \rmfamily on input line 321.
+LaTeX Info: Redefining \sffamily on input line 321.
+LaTeX Info: Redefining \ttfamily on input line 321.
+LaTeX Info: Redefining \rmfamily on input line 339.
+LaTeX Info: Redefining \sffamily on input line 339.
+LaTeX Info: Redefining \ttfamily on input line 339.
+LaTeX Info: Redefining \rmfamily on input line 363.
+LaTeX Info: Redefining \sffamily on input line 363.
+LaTeX Info: Redefining \ttfamily on input line 363.
+LaTeX Info: Redefining \rmfamily on input line 383.
+LaTeX Info: Redefining \sffamily on input line 383.
+LaTeX Info: Redefining \ttfamily on input line 383.
+) (./tex/synchronusSequentialLogic.aux
+LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \sffamily on input line 48.
+LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 75.
+LaTeX Info: Redefining \sffamily on input line 75.
+LaTeX Info: Redefining \ttfamily on input line 75.
+LaTeX Info: Redefining \rmfamily on input line 91.
+LaTeX Info: Redefining \sffamily on input line 91.
+LaTeX Info: Redefining \ttfamily on input line 91.
+LaTeX Info: Redefining \rmfamily on input line 154.
+LaTeX Info: Redefining \sffamily on input line 154.
+LaTeX Info: Redefining \ttfamily on input line 154.
+LaTeX Info: Redefining \rmfamily on input line 184.
+LaTeX Info: Redefining \sffamily on input line 184.
+LaTeX Info: Redefining \ttfamily on input line 184.
+LaTeX Info: Redefining \rmfamily on input line 203.
+LaTeX Info: Redefining \sffamily on input line 203.
+LaTeX Info: Redefining \ttfamily on input line 203.
+LaTeX Info: Redefining \rmfamily on input line 238.
+LaTeX Info: Redefining \sffamily on input line 238.
+LaTeX Info: Redefining \ttfamily on input line 238.
+LaTeX Info: Redefining \rmfamily on input line 264.
+LaTeX Info: Redefining \sffamily on input line 264.
+LaTeX Info: Redefining \ttfamily on input line 264.
+LaTeX Info: Redefining \rmfamily on input line 282.
+LaTeX Info: Redefining \sffamily on input line 282.
+LaTeX Info: Redefining \ttfamily on input line 282.
+LaTeX Info: Redefining \rmfamily on input line 300.
+LaTeX Info: Redefining \sffamily on input line 300.
+LaTeX Info: Redefining \ttfamily on input line 300.
+LaTeX Info: Redefining \rmfamily on input line 342.
+LaTeX Info: Redefining \sffamily on input line 342.
+LaTeX Info: Redefining \ttfamily on input line 342.
+LaTeX Info: Redefining \rmfamily on input line 358.
+LaTeX Info: Redefining \sffamily on input line 358.
+LaTeX Info: Redefining \ttfamily on input line 358.
+LaTeX Info: Redefining \rmfamily on input line 374.
+LaTeX Info: Redefining \sffamily on input line 374.
+LaTeX Info: Redefining \ttfamily on input line 374.
+LaTeX Info: Redefining \rmfamily on input line 396.
+LaTeX Info: Redefining \sffamily on input line 396.
+LaTeX Info: Redefining \ttfamily on input line 396.
+LaTeX Info: Redefining \rmfamily on input line 441.
+LaTeX Info: Redefining \sffamily on input line 441.
+LaTeX Info: Redefining \ttfamily on input line 441.
+LaTeX Info: Redefining \rmfamily on input line 467.
+LaTeX Info: Redefining \sffamily on input line 467.
+LaTeX Info: Redefining \ttfamily on input line 467.
+LaTeX Info: Redefining \rmfamily on input line 490.
+LaTeX Info: Redefining \sffamily on input line 490.
+LaTeX Info: Redefining \ttfamily on input line 490.
+LaTeX Info: Redefining \rmfamily on input line 506.
+LaTeX Info: Redefining \sffamily on input line 506.
+LaTeX Info: Redefining \ttfamily on input line 506.
+LaTeX Info: Redefining \rmfamily on input line 530.
+LaTeX Info: Redefining \sffamily on input line 530.
+LaTeX Info: Redefining \ttfamily on input line 530.
+LaTeX Info: Redefining \rmfamily on input line 546.
+LaTeX Info: Redefining \sffamily on input line 546.
+LaTeX Info: Redefining \ttfamily on input line 546.
+LaTeX Info: Redefining \rmfamily on input line 579.
+LaTeX Info: Redefining \sffamily on input line 579.
+LaTeX Info: Redefining \ttfamily on input line 579.
+LaTeX Info: Redefining \rmfamily on input line 600.
+LaTeX Info: Redefining \sffamily on input line 600.
+LaTeX Info: Redefining \ttfamily on input line 600.
+) (./tex/registers.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 252.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
  ) 
 Here is how much of TeX's memory you used:
- 55487 strings out of 479819
- 1464141 string characters out of 11645846
- 14096127 words of memory out of 24000000
- 71529 multiletter control sequences out of 15000+600000
- 562014 words of font info for 170 fonts, out of 12000000 for 9000
+ 61924 strings out of 479819
+ 1582852 string characters out of 11645846
+ 14405108 words of memory out of 24000000
+ 77906 multiletter control sequences out of 15000+600000
+ 562017 words of font info for 172 fonts, out of 12000000 for 9000
  1348 hyphenation exceptions out of 8191
- 78i,17n,136p,2645b,1303s stack positions out of 5000i,500n,10000p,12000000b,80000s
+ 78i,12n,136p,2645b,1024s stack positions out of 5000i,500n,10000p,12000000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (35 pages).
+Output written on digitalCircuitsLatex.pdf (17 pages).

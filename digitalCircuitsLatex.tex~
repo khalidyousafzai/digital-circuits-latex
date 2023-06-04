@@ -11,6 +11,10 @@
 \usepackage{pgfplots}
 
 \usepackage{tikz-3dplot}
+\usepackage{tikz-timing}[2014/10/29]
+\usetikztiminglibrary[rising arrows]{clockarrows}
+\usetikztiminglibrary[]{counters}
+%\usetikztiminglibrary{advnodes}
 \pgfplotsset{compat=newest,}
 \usepgfplotslibrary{units}
 %\pgfplotsset{compat=1.9}
@@ -21,8 +25,8 @@
 
 
 %pathmorphing gives the ripples like look
-\usetikzlibrary{shapes,snakes,3d,shadings,fadings,intersections,calc,decorations.markings,decorations.pathreplacing,external,shapes.misc,decorations.pathmorphing,patterns}
-
+\usetikzlibrary{shapes,snakes,3d,shadings,fadings,intersections,calc,decorations.markings,
+decorations.pathreplacing,external,shapes.misc,decorations.pathmorphing,patterns,circuits.logic.US,circuits.logic.IEC, positioning}
 
 %\tikzexternalize[mode=list and make] %disable to generate figures
 %\tikzexternaldisable  %enables figures after this command. put this is the tex file
@@ -68,6 +72,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \usepackage{polynom}		%this writes pen and paper long division for polynomials
 \usepgfplotslibrary{fillbetween}
 \usepackage[]{gnuplottex}
+%\usepackage{xlop}		%excellent package;  automatically gives add, sub, mul, div. can be wrapped in align.
 %============================
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{newfile}                                                                  %writing answers to the end of the book
@@ -96,6 +101,9 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \input{./tex/myDeclareFunctions.tex}     %\sech, \csch, \arcsh, \arcs   hyperbolic and arc-secant etc
 \input{./tex/myCircuitDimensionsAndMathematicalSymbols.tex} % resistor sizes and Laplace, Fourier, Complex, Phasor, etc  symbols
 \input{./tex/myTikzCommandsCircuitAnalysis.tex}
+\input{./tex/myDigital.tex}
+\input{./tex/myDigitalUpFacing.tex}
+\input{./tex/myDigitalDownFacing.tex}
 
 
 
@@ -107,9 +115,10 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 %
 %\includeonly{./tex/prefaceFirstBook,./tex/physicsMeasurement}
 %
-%\includeonly{./tex/digitalCircuitsPreface,./tex/prefaceFirstBook,./tex/binarySystem,./tex/basicMaths}%
+%\includeonly{./tex/digitalCircuitsPreface,./tex/prefaceFirstBook,./tex/binarySystem,./tex/basicMaths,./tex/booleanAlgebra,./tex/karnaughMaps,./tex/combinationalLogicAndcircuits,./tex/synchronusSequentialLogic,./tex/registers}%
 %
-\includeonly{./tex/basicMaths,./tex/booleanAlgebra}%
+\includeonly{,./tex/booleanAlgebra}%
+%\includeonly{,./tex/registers}%
 
 
 \author{
@@ -177,6 +186,10 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \include{./tex/binarySystem}
 \include{./tex/basicMaths}
 \include{./tex/booleanAlgebra}
+\include{./tex/karnaughMaps}
+\include{./tex/combinationalLogicAndcircuits}
+\include{./tex/synchronusSequentialLogic}
+\include{./tex/registers}
 
 
 %\immediate\closeout\tempfileTerms
