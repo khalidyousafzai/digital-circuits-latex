@@ -68,7 +68,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
   math-degree=\textup{°}}   %with mathpazo this is needed else must not be here. now micro is smaller
 \DeclareSIUnit \var {var}    %used in electric circuits volt-ampere-reactive
 
-\input longdiv.tex		%this is a package but doesnot load with usepackage. it writes pen and paper long division
+%\input longdiv.tex		%this is a package but doesnot load with usepackage. it writes pen and paper long division
 \usepackage{polynom}		%this writes pen and paper long division for polynomials
 \usepgfplotslibrary{fillbetween}
 \usepackage[]{gnuplottex}
@@ -113,12 +113,13 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 
 
 %
-%\includeonly{./tex/prefaceFirstBook,./tex/physicsMeasurement}
+%\includeonly{./tex/prefaceFirstBook}
 %
 %\includeonly{./tex/digitalCircuitsPreface,./tex/prefaceFirstBook,./tex/binarySystem,./tex/basicMaths,./tex/booleanAlgebra,./tex/karnaughMaps,./tex/combinationalLogicAndcircuits,./tex/synchronusSequentialLogic,./tex/registers}%
+\includeonly{./tex/digitalCircuitsPreface,./tex/prefaceFirstBook,./tex/binarySystem,./tex/basicMaths,./tex/booleanAlgebra,./tex/karnaughMaps,./tex/combinationalLogicAndcircuits,./tex/synchronusSequentialLogic,./tex/registers}%
 %
-%\includeonly{,./tex/booleanAlgebra}%
-\includeonly{,./tex/registers}%
+%\includeonly{./tex/synchronusSequentialLogic}%
+%\includeonly{,./tex/registers}%
 
 
 \author{
@@ -138,8 +139,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 %\date{}                           %if absent gives date in arabic which is a rubbish
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
 %%might break bidi package as said on the internet
 \makeatletter
@@ -215,6 +215,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 
 \chapter*{جوابات}
 \addcontentsline{toc}{chapter}{جوابات}
+
 \immediate\closeout\tempfile
 \begin{multicols}{2}
 {\small
