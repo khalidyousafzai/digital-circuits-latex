@@ -3,6 +3,8 @@
 
 Place this file as follows
 khalid/.local/share/gtksourceview-3.0/styles/kUrduColours.xml
+in gedit/Prefrences/Font&Colors select /* UrduColours */
+if this doesnot work, then first add ~/.local/share/gtksourceview-4/styles/kUrduColours.xml   with the + button at the bottom of gedit/Preferences/Font&Colors menu
 
  This file is part of GtkSourceView
 

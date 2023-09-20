@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.17)  18 JUN 2023 14:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  20 SEP 2023 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-2023618845.tex)...disabled (restricted).
+runsystem(touch w18-test-2023920964.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2023618845.tex)...disabled (restricted).
+runsystem(rm -f w18-test-2023920964.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -2560,7 +2560,7 @@ LaTeX Info: Redefining \ttfamily on input line 600.
 LaTeX Info: Redefining \rmfamily on input line 608.
 LaTeX Info: Redefining \sffamily on input line 608.
 LaTeX Info: Redefining \ttfamily on input line 608.
-) (./tex/registers.aux))
+) (./tex/registers.aux) (./tex/counters.aux))
 \openout1 = `digitalCircuitsLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
@@ -2574,7 +2574,8 @@ LaTeX Font Info:    ... okay on input line 156.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 56.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 156.
@@ -10790,8 +10791,8 @@ elNooriNastaleeq(2)/m/sl/10 بلند ہونے کی صورت میں، دایاں 
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 []$\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچاتے ہیں جو $\
-OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر دستیاب، اور ساعت کے 
-اگلے کنارہ چڑھائی پر پلٹ کار میں درج ہو کر بطور $\OML/zplm/m/it/10 Q[]$[]
+OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر دستیاب اور ساعت کے ا
+گلے کنارہ چڑھائی پر پلٹ کار میں درج ہو کر بطور $\OML/zplm/m/it/10 Q[]$[]
  []
 
 
@@ -10903,10 +10904,14 @@ astaleeq(2)/m/sl/10 تا $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/s
 /10 حاصل کیا جا سکتا ہے۔قابو اشارہ[]
  []
 
+LaTeX Info: Redefining \rmfamily on input line 287.
+LaTeX Info: Redefining \sffamily on input line 287.
+LaTeX Info: Redefining \ttfamily on input line 287.
 
 Underfull \hbox (badness 10000) in paragraph at lines 287--288
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اب تک مختلف صلاحیت کے دفتر پر غور ہوا، جن
- کی خوبیاں ایک دور میں سموئی جا سکتی ہیں۔ایسا[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہم مختلف صلاحیت کے دفاتر پر غور کر چکے، ج
+ن کی خوبیاں ایک دور میں سموئی جا سکتی ہیں۔ایسا ایک \TU/AASameerSagarNastaleeqBo
+ld(0)/m/n/10 عالمگیر[]
  []
 
 
@@ -10914,145 +10919,630 @@ Overfull \hbox (20.41806pt too wide) in paragraph at lines 292--384
  [][][][][][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بائیں انتقال کے وقت $\OML/zplm/m/it/10 
-y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 مواد پر سلسلہ وار داخل 14 ہو کر آخر کار 
-بائیں خروج سے سلالہ وار خارج 15 ہو جاتا ہے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ دائیں جانب انتقال کے وقت موادسے سلسل
-ہ وار داخل ہوتا ہے اور آخر کار دائیں خروج سے سلسلہ وار[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--391
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خارج ہو جاتا ہے۔ شکل میں چار یکساں حصے ہی
-ں۔ان میں سے دائیں جانب حصہ پر غور کرتے ہیں۔بقایا حصے بھی[]
- []
-
+LaTeX Info: Redefining \rmfamily on input line 389.
+LaTeX Info: Redefining \sffamily on input line 389.
+LaTeX Info: Redefining \ttfamily on input line 389.
+LaTeX Info: Redefining \rmfamily on input line 389.
+LaTeX Info: Redefining \sffamily on input line 389.
+LaTeX Info: Redefining \ttfamily on input line 389.
+LaTeX Info: Redefining \rmfamily on input line 389.
+LaTeX Info: Redefining \sffamily on input line 389.
+LaTeX Info: Redefining \ttfamily on input line 389.
 [167] [168]
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خارجی پن پر خارج ہو جائے گا۔اس طرح دفتر ا
-پنی حالت برقرار رکھے گا اور مواد کسی بھی جانب حرکت[]
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ $\OT1/ppl/m/n/10 00[]$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 مواد $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2
+)/m/sl/10 منتخب کر کے پلٹ کار کے مداخل پر مہیا کرتا ہے جو اگلے کنارہ ساعت پر پل
+ٹ کار کے خارجی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نہیں کرے گا۔ اسی طرح پتہہونے کی صورتپلٹ ک
-ار کو مہیا ہو جائے گا اور ساعت کے اگلے کنارہ یہی پلٹ کار کے مخارج پر[]
+Underfull \hbox (badness 1622) in paragraph at lines 408--409
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ $\OT1/ppl/m/n/10 01[]$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 مواد $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(2
+)/m/sl/10 پلٹ کار کو مہیا کرے گا جو ساعت کے اگلے کنارہ پلٹ کار کے مخارج پر نمود
+ار ہو گا۔چونکہ $\OML/zplm/m/it/10 z[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 متوا
+زی[]
+ []
+
+[169]
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ $\OT1/ppl/m/n/10 10[]$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 پلٹ کار کو $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriNasta
+leeq(2)/m/sl/10 مہیا کرے گا۔یوں موجودہ $\OML/zplm/m/it/10 Q[]$ \TU/JameelNooriN
+astaleeq(2)/m/sl/10 ساعت کے اگلے کنارے پر بطور $\OML/zplm/m/it/10 Q[]$\TU/Jamee
+lNooriNastaleeq(2)/m/sl/10 نمودار ہو گا۔یعنی دفتر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نمودار ہو جائے گا۔چونکہمتوازی مہیا کردہ م
-واد ہے لہٰذا اس صورت متوازی مواد دفتر میں چڑھ جائے گا۔ پتہسےپلٹ[]
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ $\OT1/ppl/m/n/10 11[]$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 سلسلہ وار مہیا کردہ مواد $\OML/zplm/m/it/10 y$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 منتخب کرے گا جو ساعت کے اگلے کنارہ پر بطور $\OML/zp
+lm/m/it/10 Q[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 نمودار ہو گا۔یوں دفتر مواد[
+]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار کو مہیا ہو جائے گا۔یوں ساعت کے اگلے ک
-نارے موجودہاگلےکے طور نمودار ہو جائے گا۔یعنی اس مرتبہ دفتر[]
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق  ٧.١:  انٹرنیٹ سے عالمگیر دفتر $\OT
+1/ppl/m/n/10 74194$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے معلوماتی صفحات حاصل 
+کریں ۔(ا) یہ کتنے بِٹ کا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مواد کو دائیں جانب منتقل کرے گا۔ پتہ کو ص
-ورت سلسلہ واد مہیا کردہ موادمنتخب ہو گا اور ساعت کے اگلے کنارے[]
+Underfull \hbox (badness 3503) in paragraph at lines 435--436
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے پہلے کنارے سے قبل (یعنی مجموعہ 
+لینے سے قبل)، دفتر۔ا میں ثنائی عدد $\OML/zplm/m/it/10 y$\TU/JameelNooriNastalee
+q(2)/m/sl/10 ، دفتر-ب[]
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 395--400
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پر پلٹ کار کی مخارجپہنچ جائے گا۔اس مرتبہ 
-دفتر مواد کو بائیں جانب منتقل کر رہا ہے۔ اس تمام تجزیہ کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ثنائی عدد $\OML/zplm/m/it/10 z$ \TU/J
+ameelNooriNastaleeq(2)/m/sl/10 متوازی منتقل کئے جاتے ہیں اور زبردستی پست اشارہ 
+لمحاتی پست کر کے ڈی پلٹ کار پست[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق: انٹرنیٹ سےعالمگیر دفتر کے معلوماتی
- صفحات حاصل کریں ۔(ا) یہ کتنے بِٹ کا عالمگیر دفتر ہے۔[]
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 7.‏4 سلالہ وار ثنائی جمع کار صفہ 258 پر
- شکل 6.‏25 میں سلسلہ وار ثنائی جمع کار دکھایا گیا ہے۔اسی کو استعمال کرتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کیا جاتا ہے ( تا کہ مکمل جمع کار کا داخلی
+ حاصل $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو)۔شکل میں متواز
+ی چڑھائی نہیں دکھائی گئی تا کہ اصل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوئے شکل 7.‏7 میں زیادہ بِٹ کا سلسلہ وار 
-ثنائی جمع کار دکھایا گیا ہے۔ اس شکل میںبِٹ کے دو عدد متوازی لکھائی و[]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مکمل جمع کار ان دو ثنائی اعداد کے کم تر
+ رتبی بِٹ اور داخلی حاصل $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/1
+0 جمع کر کے جمع $\OML/zplm/m/it/10 s[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور
+ خارجی حاصل $\OML/zplm/m/it/10 c[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 خارج[]
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پڑھائی کے صلاحیت والے دائیں انتقال دفتر16
- استعمال کئے گئے ہیں جنہیں دفتر-ا اور دفتر-ب کہا گیا ہے۔[]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتا ہے۔ساعت کے پہلے کنارے پر $\OML/zplm/
+m/it/10 c[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو ڈی پلٹ کار محفوظ کر کے اگلے
+ ثنائی بِٹ کی جمع کے دوران مکمل جمع کار کو بطور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مجموعہ حاصل کرنے سے قبل، یعنی ساعت کے پہل
-ے کنارہ سے قبل، دفتر۔ا میں ثنائی عددجبکہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 داخلی حاصل فراہم کرتا ہے جبکہ دفتر-ا اور 
+دفتر-ب اگلے ثنائی بِٹ فراہم کرتے ہیں۔جمع $\OML/zplm/m/it/10 s[]$ \TU/JameelNoor
+iNastaleeq(2)/m/sl/10 شکل میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر-ب میں ثنائی عددمتوازی طور منتقل کئے 
-جاتے ہیں اور زبردستی پست اشارہ کو لمحاتی طور پست کر کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر-ا کو سلسلہ وار مداخل کے طور مہیا کیا
+ گیا ہے۔یوں جیسے جیسے دفتر ثنائی عدد $\OML/zplm/m/it/10 y$ \TU/JameelNooriNasta
+leeq(2)/m/sl/10 دائیں جانب خارج[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈی پلٹ کار کو پست کر دیا جاتا ہے تا کہ مک
-مل جمع کار کے داخلی حاصل کی قیمتہو۔شکل میں متوازی چڑھائی نہیں[]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتا ہے ویسے ویسے اس کی جگہ دو اعداد کا م
+جموعہ جگہ لیتا ہے۔ساعت کے $\OML/zplm/m/it/10 n$ \TU/JameelNooriNastaleeq(2)/m/s
+l/10 کنارے گزرنے کے بعد دو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دکھائی گئی تا کہ اصل موضوع پر توجہ رہے۔ م
-کمل جمع کار ان دو ثنائی اعداد کے کم تر رتبہ والے بِٹ اور داخلی حاصل کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ثنائی اعداد کا مجموعہ دفتر-ا میں محفوظ ہو
+ گا جہاں سے اسے متوازی پڑھا جا سکتا ہے جبکہ مجموعے کا آخری[]
+ []
+
+) [170] [171]
+\openout2 = `./tex/counters.aux'.
+
+ (./tex/counters.tex [172
+
+
+
+
+
+]
+باب \arabicdigits{8}.
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+
+Underfull \hbox (badness 4205) in paragraph at lines 2--3
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ثنائی گنت کار آپ دیکھ چکے ہیں۔گنت کار کا 
+بنیادی مقصد داخلی  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 برقی اشارے [][] \TU
+/JameelNooriNastaleeq(2)/m/sl/10 کی گنتی کرنا ہے۔برقی اشارہ اسے بطور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جمع کر کے جمع اور خارجی حاصل خارج کرتا ہے
-۔ساعت کے پہلے کنارے پرکو ڈی پلٹ کار محفوظ کر کے اسے مکمل جمع[]
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 وہ دفتر جس کے خارجی برقی اشارات ثنائی گ
+نتی کے تحت ترتیب وار حال تبدیل کرتے ہوں  \TU/AASameerSagarNastaleeqBold(0)/m/n/
+10 ثنائی گنت کار[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 11.
+LaTeX Info: Redefining \sffamily on input line 11.
+LaTeX Info: Redefining \ttfamily on input line 11.
+LaTeX Info: Redefining \rmfamily on input line 11.
+LaTeX Info: Redefining \sffamily on input line 11.
+LaTeX Info: Redefining \ttfamily on input line 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چار بِٹ ثنائی سیدھی گنتی $\OT1/ppl/m/n/10
+ 0000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 1111[]$ \TU/Ja
+meelNooriNastaleeq(2)/m/sl/10 ممکن ہے۔اسی طرح الٹی گنتی $\OT1/ppl/m/n/10 1111[]
+$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے شروع ہو کر $\OT1/ppl/m/n/10 0000[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار کو اگلے ثنائی بِٹ جمع کرتے وقت بطور د
-اخلی حاصل فراہم کرتا ہے جبکہ دفتر-ا اور دفتر-ب اسے اگلے درجے[]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پر ختم ہو گی۔دونوں صورتوں میں گنتی پوری ہ
+ونے کے بعد عموماً دوبارہ نئے سرے سے شروع کی جاتی ہے۔ شکل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے بِٹ فراہم کرتے ہیں۔جمعکو اس شکل میں دف
-تر-ا کو سلسلہ وار مداخل کے طور مہیا کیا گیا ہے۔یوں جیسے جیسے[]
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ثنائی گنت کار آپ پہلے بھی دیکھ چکے ہیں۔
+سیدھے گنت کار میں کو بلند یعنی غیر فعال رکھا جاتا ہے۔ایسا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دفتر سے ثنائی عدددائیں جانب خارج ہوتا 
-ہے ویسے ویسے اس کی جگہ دو اعداد کا مجموعہ جگہ لیتا[]
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے کی خاطر اس پرمہیا کیا جاتا ہے۔گنتی ش
+روع کرنے سے قبلکو ایک لمحہ کے لئے پست کر کے گنتیکر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--192
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ساعت کےکنارے گزرنے کے بعد دو ثنائی اعد
-اد کا مجموعہ دفتر-ا میں محفوظ ہوتا ہے جہاں سے اسے[]
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دی جاتی ہے۔اس کو گنتی کے دوران کسی بھی وق
+ت پست کر کے گنتی دوبارہ صفر سے شروع کرائی جا سکتی ہے۔[]
  []
 
-[169] [170] (./answer.tex) [171
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 الٹ گنت کار میںکو غیر فعال رکھا جاتا ہے ج
+بکہکو گنتی شروع کرنے سے پہلے لمحاتی طور فعال کر کے گنتیسے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شروع کرائی جاتی ہے۔اس کو گنتی کے دوران کس
+ے بھی وقت پست کر کے گنتی دوبارہسے شروع کرائی جا سکتی ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سیدھے گنت کار کو مثال لیتے ایک اہم صورتِ 
+حال پر غور کرتے ہیں۔شکل میں سب سے بائیں جانب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ، ساعت کے ہر کنارہِ چڑھائی پر حالت تبد
+یل کرتا ہے۔ساعت کے کنارہِ چڑھائی کے کچھ دیر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بعدحالت تبدیل کرتا ہے۔اس دورانیہ کو پلٹ ک
+ا دورانیہ ردِ عمل کہتے ہیں۔یوں اس سے اگلا پلٹ جس کوبطورِ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت فراہم ہوتا ہے کو حالت تبدیل کرنے کی 
+خبر اصل ساعت سے کچھ دیر بعد ملتی ہے۔اس پلٹ کو[]
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بھی مخارج تبدیل کرنے کے لئے پلٹ کا دورانی
+ہ ردِ عمل جتنا وقت درکار ہو گا۔یوں اس سے اگلا پلٹ جسے بطورِ ساعت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فراہم کیا گیا ہے کو حالت تبدیل کرنے کا اش
+ارہ، اصل ساعت سے دورانیہ ردِ عمل کے دگنے وقت کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 برابر تاخیر سے ملے گا۔ آپ دیکھ سکتے ہیں ک
+ہ اس دور میں تمام پلٹوں کے مخارج بیک وقت تبدیل نہیں ہوتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بلکہ مخارج کی تبدیلی بائیں پلٹ سے شروع ہو
+تی ہے اور بدستور دائیں جانب بڑھتی ہے۔مخارج کی تبدیلی اس دور[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں لہر کی طرح گزرتی ہے۔یوں اس طرح ادوار 
+کو لہر نما گنت کار 4 کہتے ہیں۔اس طرح موجودہ دور کو لہر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نما ثنائی گنت کار 5 کہیں گے۔ تیز رفتار یا
+ زیادہ پلٹوں پر مبنی لہر نما گنت کار کو یہ مسئلہ درپیش ہو سکتا ہے کہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کا دوسرا کنارہ پہنچنے کے با وجود تما
+م پلٹوں کی مخارج پہلی ساعت کے مطابق حالتیں اختیار نہ کر سکے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوں اور یوں ان گنت کار کی گنتی ایسی صورت 
+میں غلط ہو گی۔ معاصر گنت کار اس مسئلہ سے پاک ہیں۔آئیں ان پر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 غور کریں۔ 8.‏2 معاصر گنت کار معاصر گنت کا
+ر میں تمام پلٹوں کو ایک ہی ساعت مہیا کی جاتی ہے۔یوں تمام[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ نئی حالتیں بیک وقت اختیار کرتے ہیں۔اس
+ طرح ادوار میں ہر پلٹ کے مداخل پر ترکیبی دور لگا کر اسے[]
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اگلے ساعت کے کنارہ پر بلند یا پست ہونے کا
+ برقی اشارہ مہیا کیا جاتا ہے۔پلٹ اگلے ساعت کے کنارہ پر یہی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت اختیار کر لیتا ہے۔یہ فیصلہ کرنا کہ ا
+گلے ساعت پر پلٹ بلند کہ پست حالت اختیار کرے گا دور کے موجودہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت کو دیکھ کر کیا جاتا ہے۔اس طریقہ کار 
+کو چند مثالوں سے سمجھتے ہیں۔ 8.‏2.‏1 معاصر ثنائی گنت کار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--25
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین بِٹ معاصر ثنائی گنت کار کو شکل 8.‏3 م
+یں دکھایا گیا ہے۔پلٹ نمبر صفر کی مخارج کمتر رتبہ والا بِٹ ہے[]
+ []
+
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 8.‏2 میں بائیں جانب موجودہ حالتوں ک
+ے نام کے نیچے تین بِٹ ثنائی گنتی دی گئی ہے۔یہ ساعت کے ساتھ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تبدیل ہوتے پلٹوں کی مطلوبہ حالتیں ہیں۔ جد
+ول میں پہلی صف پر غور کریں۔موجودہ گنتی یا موجودہ حالہے۔ہم[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چاہتے ہیں کہ اگلا عددہو لہٰذا اگلی حالتوں
+ کے خانے میں ہملکھتے ہیں۔آخری صف میں موجودہ حالہے۔تین بِٹ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں یہیں تک گِنتی ممکن ہے۔گنتی کے آخر میں
+ پہنچ کر ہم دوبارہ شروع سے گنتی شروع کرتے ہیں۔لہٰذا اگلا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال ہو گا۔ اب کمتر رتبہ والے بِٹ پر غور ک
+رتے ہیں۔اس بِٹ کی موجودہ قیمت کو موجودہظاہر کرتا ہے جو کہہے جبکہ اس کے[]
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 28--30
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اگلے قیمت کو اگلاظاہر کرتا ہے جو کہہے۔ٹی 
+پلٹ استعمال کرتے ساعت کے کنارہ چڑھائی پر پلٹ کا حالسےکرنے کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خاطر پلٹ کی مخارج کو بلند کرنا ہو گا۔یہ م
+علومات نیچے دئے ٹی پلٹ کی خصوصیات کی جدول سے حاصل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چاہتے کہ یہ پلٹ اپنی حالت تبدیل کرے۔یوں ا
+س پلٹ کی مداخلکو پست رکھنا ہو گا۔اس طرح کے خانے[]
+ []
+
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ مساوات موجودہ حالتوں کی قیمتیں مدِ ن
+ظر رکھ کر لکھی گئی ہیں۔شکل 8.‏2 میں موجود مواد سے شکل 8.‏4 میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 8.‏3 میں تین پلٹ لگا کر ان کو مساوا
+ت 8.‏2 سے حاصل برقی اشارات بطور مداخل دئے گئے ہیں۔اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 طرح تین بِٹ معاصر ثنائی گنت کار 6حاصل کیا
+ گیا ہے۔ مساوات 8.‏2 بغیر حل کئے بھی شکل 8.‏2 میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دئے جدول سے حاصل کئے جا سکتے ہیں۔اس جدول 
+پر غور کرنے سے دیکھا جاتا ہے کہہر ساعت کے کنارے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تبدیل ہوتا ہے۔ پرمہیا کرنے سے ایسا کیا جا
+ سکتا ہے۔کو دیکھتے یہ بات سامنے آتی ہے کہ جب بھیکی قیمت ہو[]
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس سے اگلے ساعت کے کنارہکی قیمت تبدیل ہوت
+ی ہے۔یوں کو فراہم کرنے سے ایسا حاصل کیا جا سکتا ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پر غور کرنے سے دیکھا جاتا ہے کہ جب بھی او
+ر دونوں کی قیمتیںہوں، اس سے اگلی ساعت کے کنارہکی قیمت تبدیل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتی ہے۔یوںکو فراہم کیا جاتا ہے۔اگر زیادہ
+ بِٹ پر مبنی ثنائی گنتی پر غور کیا جائے تو دیکھا جاتا ہے کہ، کوئی بھی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مخارج، ساعت کے اگلے کنارے، اس وقت حالت تب
+دیل کرتا ہے جب اس سے کمتر تمام مخارج کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 8.‏2.‏2 ثنائی علامتی روپ کا معاصر اعشار
+ی گنت کار پچھلے حصہ میں تین بِٹ ثنائی گنت کار پر غور ہوا جوسےتک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گنتی کرنے کی صلاحیت رکھتا ہے۔اسی طرح چار 
+بِٹ پر مبنی دورسےتک ثنائی گنتی کر سکتا ہے۔اگر ایسے دور کو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سےتک گنتی کرنے پر پابند کیا جائے تو اس سے
+ ثنائی علامتی روپ کا اعشاری کنت کار 7 حاصل ہو گا۔اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حصہ میں ایسا ہی کرتے ہیں۔شکل 8.‏5 میں اس 
+دور کے حالتوں کا جدول دیا گیا ہے۔جدول میں مخارج 8 کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قطار کا اضافہ کیا گیا ہے۔مخارج صفر سے نو 
+تک گنتی پوری ہونے پر ساعت کے ایک دوری عرصہ9[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس شکل میںسےتک کے ترتیب استعمال نہیں ہو
+تے۔کارناف نقشوں کی مدد سے پلٹوں کے مداخلتااور مخارج کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مساواتوں کی سادہ شکل حاصل کرتے وقت انہیں 
+غیر ضروری حالتیں 10 تصور کیا جاتا ہے۔شکل 8.‏6[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان مساوات کی مدد سے حاصل دور شکل 8.‏7 م
+یں دکھایا گیا ہے جہاں دور میں گنتی شروع اور بند کرنے[]
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 70--71
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی اضافی صلاحیت بھی پیدا کی گئی ہے۔یہ صلا
+حیت تمام پلٹوں کے مداخل پر اضافی ضرب گیٹ نصب کرنے[]
+ []
+
+[175]
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان اضافی ضرب گیٹوں کو برقی اشارہ گِن مہ
+یا کیا گیا ہے۔یہ اشارہ بلند ہونے کی صورت میں دور گنتی کرتا ہے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اور اشارہ پست ہونے کی صورت میں دور گنتی ک
+رنا بند کر دیتا ہے۔ شکل 8.‏8 میں تین درجہ دور بنایا گیا ہے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دور کی کارکردگی کچھ یوں ہے۔گنتی شروع
+ کرنے سے قبل کو ایک لمحہ کے لئے پست کر کے گنتیکر دی جاتی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ساعت کے کنارہ چڑھائی پر اکائی عدد کی گ
+نتی بڑھتی ہے۔اکائی درجہ کا مخارج پست رہنے کی وجہ سے[]
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 79--80
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دہائی اور سینکڑا کی گنتی رکھی رہتی ہے۔گنت
+یتک پہنچتے ہی اکائی درجہ کا مخارج بلند ہو جاتا ہے۔یوں اگلے ساعت کے کنارہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پر اکائی درجہ کی گنتیسےہو جاتی ہے جبکہ دہ
+ائی درجہ کی گنتیسےہو جاتی ہے اور اسی وقت اکائی کا مخارج ایک مرتبہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پھر پست ہو جاتا ہے۔یوں اس سے اگلے ساعت کے
+ کنارہ صرف اکائی درجہ کی گنتی چالو رہتی ہے جبکہ دہائی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اور سینکڑا درجہ کی گنتی بند رہتی ہے۔اسی ط
+رحتک گنتی کے بعد اکائی درجہ اور دہائی درجہ دونوں کے مخارج بلند[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتے ہیں جس کی وجہ سے اگلے ساعت کے کنارہ 
+پر سینکڑا درجہ کی گنتی سے بڑھ کرہو جاتی ہے جبکہ اکائی اور دہائی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق: انٹرنیٹ سےاورکے معلوماتی صفحات حاص
+ل کریں۔انہیں استعمال کرتے ہوئے زیادہ بِٹ کے گنت کار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 8.‏3 دیگر گنت کار 8.‏3.‏1 متغیر گنت کار
+ چار بِٹ ثنائی گنت کارسےتک گنتی کرتا ہے۔اس میں متوازی دخول کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صلاحیت استعمال کرتے اسے دو اعداد کے مابین
+ گنتی کرنے پر مجبور کیا جا سکتا ہے۔ایسے گنت کار کو ہم متغیر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 لمبائی گنت کار11 کہیں گے۔جس عدد سے گنتی ش
+روع کرنی ہو اس عدد کو متوازی فراہم کیا جاتا ہے۔جس[]
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 83--87
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عدد تک گنتی درکار ہو، اس عدد تک گنتی پہنچ
+نے پر دور کو مجبور کیا جاتا ہے کہ وہ دوبارہ متوازی فراہم کردہ عدد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 داخل کر کے گنتی از سرے نو شروع کرے۔ چار ب
+ِٹ معاصر ثنائی گنت کار کو مثال بناتے اسےسےتک گنتی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے والا دور بناتے ہیں۔شکل 8.‏9 میں ایسا
+ دور دکھایا گیا ہے۔شکل میں نکتہ دار مستطیل میں مساوات[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 8.‏2 سے حاصل درکار مداخل کا دور دکھایا گی
+ا ہے۔دور میں ہر پلٹ کی داخلی طرف دو ضرب گیٹ اور ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دور میں گنتی کے شروع کا عدد متوازی د
+اخل کیا جاتا ہے۔اس عدد کوسے ظاہر کیا گیا ہے اور اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت ہے۔گنتی کا آخری عددہے۔اس عدد کو ن
+کتہ دار دائرے میں بند ترکیبی دور پہچان کر اپنی مخارج[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست کرتا ہے اور یوں ساعت کے اگلے کنارے، م
+توازی طور دور میں داخل ہو جاتا ہے۔اس طرح یہ گنت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 8.‏3.‏2 چھلا نما گنت کار بِٹ چھلا نما گ
+نت کار12مخارج میں ایک ہی بلند بِٹ گھماتا ہے۔اس کے باقی تمام[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ پست رہتے ہیں۔ایک ہی بلند بِٹ کو ساعت 
+کے کنارے ایک پلٹ سے دوسرے پلٹ منتقل کیا جاتا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 8.‏3.‏3 دورانیہ پید اکار بعض اوقات ہمیں
+ مقررہ دورانیہ کے لئے بلند یا پست اشارہ درکار ہوتا ہے۔تین بِٹ کا معاصر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ثنائی الٹ گنت کار استعمال کرتے ہوئے ایک ا
+یسے ہی دور کو تشکیل دیتے ہیں۔اس دور کو ہم دورانیہ پیدا کار13 کہیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گے۔ تین بِٹ کا الٹ گنت کارتاکی گنتی دہرات
+ا رہتا ہے۔شکل 8.‏11 میں متوازی لکھے جانے کی صلاحیت رکھنے والے[]
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 95--98
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین بِٹ کے الٹ گنت کار کو استعمال کیا گیا
+ ہے جو اس وقت گنتی کرتا ہے جب اس کا مداخل گن بلند ہو۔اسے[]
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 95--98
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین بِٹ بطور درکار دورانیہ کے فراہم کئے ج
+اتے ہیں۔متوازی لکھ کا مداخل لمحاتی طور بلند کرنے سے یہ تین بِٹ گنت کار[]
+ []
+
+[176]) [177] [178
 
 
 
 
-] [172
+] (./answer.tex) [179] [180
 
 
 ]
@@ -11792,18 +12282,18 @@ LaTeX Info: Redefining \ttfamily on input line 600.
 LaTeX Info: Redefining \rmfamily on input line 608.
 LaTeX Info: Redefining \sffamily on input line 608.
 LaTeX Info: Redefining \ttfamily on input line 608.
-) (./tex/registers.aux))
+) (./tex/registers.aux) (./tex/counters.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 68784 strings out of 476191
- 1791469 string characters out of 5812072
- 2802429 words of memory out of 5000000
- 88365 multiletter control sequences out of 15000+600000
+ 68831 strings out of 476191
+ 1792647 string characters out of 9562072
+ 2804523 words of memory out of 7000000
+ 88405 multiletter control sequences out of 15000+600000
  499147 words of font info for 188 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,18n,118p,2641b,1516s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (182 pages).
+Output written on digitalCircuitsLatex.pdf (190 pages).

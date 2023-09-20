@@ -544,5 +544,8 @@
 \contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {2}}بائیں انتقال دفتر}{\arabicdigits {165}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {3}} دائیں و بائیں انتقال دفتر}{\arabicdigits {166}}{}%
 \contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {2}}متوازی بھرائی دفتر}{\arabicdigits {166}}{}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}عالمگیر دفتر}{\arabicdigits {167}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {171}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}عالمگیر انتقال دفتر}{\arabicdigits {167}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {170}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {8}} گنت کار}{\arabicdigits {173}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}ثنائی گنت کار}{\arabicdigits {173}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {179}}{}%
