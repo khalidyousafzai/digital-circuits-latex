@@ -548,4 +548,6 @@
 \contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {170}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {8}} گنت کار}{\arabicdigits {173}}{}%
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}ثنائی گنت کار}{\arabicdigits {173}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}معاصر گنت کار}{\arabicdigits {174}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {1}}معاصر ثنائی گنت کار}{\arabicdigits {175}}{}%
 \contentsline {chapter}{جوابات}{\arabicdigits {179}}{}%
