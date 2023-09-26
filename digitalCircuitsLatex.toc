@@ -578,4 +578,10 @@
 \contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دورانیہ پیدا کار}{\arabicdigits {180}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {9}} حافظہ}{\arabicdigits {183}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}عارضی حافظہ}{\arabicdigits {184}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {191}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}} پختہ حافظہ}{\arabicdigits {187}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {188}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {193}}{}%
