@@ -585,5 +585,9 @@
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}} پختہ حافظہ}{\arabicdigits {187}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {189}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\(4\times 4\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\(8\times 4\)\: حافظہ کا حصول}{\arabicdigits {189}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین عددحافظہ کے سلسلہ وار جوڑنے سے ایک عددحافظہ کا حصول}{\arabicdigits {190}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {193}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\(16\times 8\)\: حافظے سلسلہ وار جوڑ کر ایک \:\(48\times 8\)\: حافظے کا حصول}{\arabicdigits {190}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {191}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {191}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {192}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {195}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {199}}{}%
