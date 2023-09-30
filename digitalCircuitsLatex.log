@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  28 SEP 2023 14:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  30 SEP 2023 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-2023928899.tex)...disabled (restricted).
+runsystem(touch w18-test-20239301047.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2023928899.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20239301047.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -2592,15 +2592,15 @@ LaTeX Info: Redefining \rmfamily on input line 127.
 LaTeX Info: Redefining \sffamily on input line 127.
 LaTeX Info: Redefining \ttfamily on input line 127.
 ) (./tex/memory.aux
-LaTeX Info: Redefining \rmfamily on input line 45.
-LaTeX Info: Redefining \sffamily on input line 45.
-LaTeX Info: Redefining \ttfamily on input line 45.
-LaTeX Info: Redefining \rmfamily on input line 53.
-LaTeX Info: Redefining \sffamily on input line 53.
-LaTeX Info: Redefining \ttfamily on input line 53.
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+LaTeX Info: Redefining \rmfamily on input line 54.
+LaTeX Info: Redefining \sffamily on input line 54.
+LaTeX Info: Redefining \ttfamily on input line 54.
 )
-No file ./tex/programmableLogicDevices.aux.
-)
+(./tex/programmableLogicDevices.aux)
+(./tex/asynchronousCombinationalCircuits.aux))
 \openout1 = `digitalCircuitsLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
@@ -2614,7 +2614,8 @@ LaTeX Font Info:    ... okay on input line 156.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 56.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 156.
@@ -2795,751 +2796,149 @@ LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/b/n' undefined
 (Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
 e 169.
 
-(./digitalCircuitsLatex.toc
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 2.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5.
-LaTeX Info: Redefining \rmfamily on input line 9.
-LaTeX Info: Redefining \sffamily on input line 9.
-LaTeX Info: Redefining \ttfamily on input line 9.
-LaTeX Info: Redefining \rmfamily on input line 10.
-LaTeX Info: Redefining \sffamily on input line 10.
-LaTeX Info: Redefining \ttfamily on input line 10.
-LaTeX Info: Redefining \rmfamily on input line 11.
-LaTeX Info: Redefining \sffamily on input line 11.
-LaTeX Info: Redefining \ttfamily on input line 11.
-LaTeX Info: Redefining \rmfamily on input line 12.
-LaTeX Info: Redefining \sffamily on input line 12.
-LaTeX Info: Redefining \ttfamily on input line 12.
-LaTeX Info: Redefining \rmfamily on input line 23.
-LaTeX Info: Redefining \sffamily on input line 23.
-LaTeX Info: Redefining \ttfamily on input line 23.
-LaTeX Info: Redefining \rmfamily on input line 25.
-LaTeX Info: Redefining \sffamily on input line 25.
-LaTeX Info: Redefining \ttfamily on input line 25.
-LaTeX Info: Redefining \rmfamily on input line 27.
-LaTeX Info: Redefining \sffamily on input line 27.
-LaTeX Info: Redefining \ttfamily on input line 27.
-LaTeX Info: Redefining \rmfamily on input line 29.
-LaTeX Info: Redefining \sffamily on input line 29.
-LaTeX Info: Redefining \ttfamily on input line 29.
-LaTeX Info: Redefining \rmfamily on input line 36.
-LaTeX Info: Redefining \sffamily on input line 36.
-LaTeX Info: Redefining \ttfamily on input line 36.
-LaTeX Info: Redefining \rmfamily on input line 38.
-LaTeX Info: Redefining \sffamily on input line 38.
-LaTeX Info: Redefining \ttfamily on input line 38.
-LaTeX Info: Redefining \rmfamily on input line 40.
-LaTeX Info: Redefining \sffamily on input line 40.
-LaTeX Info: Redefining \ttfamily on input line 40.
-LaTeX Info: Redefining \rmfamily on input line 42.
-LaTeX Info: Redefining \sffamily on input line 42.
-LaTeX Info: Redefining \ttfamily on input line 42.
-LaTeX Info: Redefining \rmfamily on input line 45.
-LaTeX Info: Redefining \sffamily on input line 45.
-LaTeX Info: Redefining \ttfamily on input line 45.
-LaTeX Info: Redefining \rmfamily on input line 47.
-LaTeX Info: Redefining \sffamily on input line 47.
-LaTeX Info: Redefining \ttfamily on input line 47.
-LaTeX Info: Redefining \rmfamily on input line 49.
-LaTeX Info: Redefining \sffamily on input line 49.
-LaTeX Info: Redefining \ttfamily on input line 49.
-LaTeX Info: Redefining \rmfamily on input line 51.
-LaTeX Info: Redefining \sffamily on input line 51.
-LaTeX Info: Redefining \ttfamily on input line 51.
-LaTeX Info: Redefining \rmfamily on input line 54.
-LaTeX Info: Redefining \sffamily on input line 54.
-LaTeX Info: Redefining \ttfamily on input line 54.
-LaTeX Info: Redefining \rmfamily on input line 56.
-LaTeX Info: Redefining \sffamily on input line 56.
-LaTeX Info: Redefining \ttfamily on input line 56.
-LaTeX Info: Redefining \rmfamily on input line 58.
-LaTeX Info: Redefining \sffamily on input line 58.
-LaTeX Info: Redefining \ttfamily on input line 58.
-LaTeX Info: Redefining \rmfamily on input line 60.
-LaTeX Info: Redefining \sffamily on input line 60.
-LaTeX Info: Redefining \ttfamily on input line 60.
-LaTeX Info: Redefining \rmfamily on input line 62.
-LaTeX Info: Redefining \sffamily on input line 62.
-LaTeX Info: Redefining \ttfamily on input line 62.
-LaTeX Info: Redefining \rmfamily on input line 64.
-LaTeX Info: Redefining \sffamily on input line 64.
-LaTeX Info: Redefining \ttfamily on input line 64.
-LaTeX Info: Redefining \rmfamily on input line 66.
-LaTeX Info: Redefining \sffamily on input line 66.
-LaTeX Info: Redefining \ttfamily on input line 66.
-LaTeX Info: Redefining \rmfamily on input line 68.
-LaTeX Info: Redefining \sffamily on input line 68.
-LaTeX Info: Redefining \ttfamily on input line 68.
-LaTeX Info: Redefining \rmfamily on input line 70.
-LaTeX Info: Redefining \sffamily on input line 70.
-LaTeX Info: Redefining \ttfamily on input line 70.
-LaTeX Info: Redefining \rmfamily on input line 72.
-LaTeX Info: Redefining \sffamily on input line 72.
-LaTeX Info: Redefining \ttfamily on input line 72.
-LaTeX Info: Redefining \rmfamily on input line 74.
-LaTeX Info: Redefining \sffamily on input line 74.
-LaTeX Info: Redefining \ttfamily on input line 74.
-LaTeX Info: Redefining \rmfamily on input line 76.
-LaTeX Info: Redefining \sffamily on input line 76.
-LaTeX Info: Redefining \ttfamily on input line 76.
- [3]
-LaTeX Info: Redefining \rmfamily on input line 80.
-LaTeX Info: Redefining \sffamily on input line 80.
-LaTeX Info: Redefining \ttfamily on input line 80.
-LaTeX Info: Redefining \rmfamily on input line 82.
-LaTeX Info: Redefining \sffamily on input line 82.
-LaTeX Info: Redefining \ttfamily on input line 82.
-LaTeX Info: Redefining \rmfamily on input line 84.
-LaTeX Info: Redefining \sffamily on input line 84.
-LaTeX Info: Redefining \ttfamily on input line 84.
-LaTeX Info: Redefining \rmfamily on input line 86.
-LaTeX Info: Redefining \sffamily on input line 86.
-LaTeX Info: Redefining \ttfamily on input line 86.
-LaTeX Info: Redefining \rmfamily on input line 92.
-LaTeX Info: Redefining \sffamily on input line 92.
-LaTeX Info: Redefining \ttfamily on input line 92.
-LaTeX Info: Redefining \rmfamily on input line 93.
-LaTeX Info: Redefining \sffamily on input line 93.
-LaTeX Info: Redefining \ttfamily on input line 93.
-LaTeX Info: Redefining \rmfamily on input line 94.
-LaTeX Info: Redefining \sffamily on input line 94.
-LaTeX Info: Redefining \ttfamily on input line 94.
-LaTeX Info: Redefining \rmfamily on input line 95.
-LaTeX Info: Redefining \sffamily on input line 95.
-LaTeX Info: Redefining \ttfamily on input line 95.
-LaTeX Info: Redefining \rmfamily on input line 99.
-LaTeX Info: Redefining \sffamily on input line 99.
-LaTeX Info: Redefining \ttfamily on input line 99.
-LaTeX Info: Redefining \rmfamily on input line 101.
-LaTeX Info: Redefining \sffamily on input line 101.
-LaTeX Info: Redefining \ttfamily on input line 101.
-LaTeX Info: Redefining \rmfamily on input line 103.
-LaTeX Info: Redefining \sffamily on input line 103.
-LaTeX Info: Redefining \ttfamily on input line 103.
-LaTeX Info: Redefining \rmfamily on input line 105.
-LaTeX Info: Redefining \sffamily on input line 105.
-LaTeX Info: Redefining \ttfamily on input line 105.
-LaTeX Info: Redefining \rmfamily on input line 108.
-LaTeX Info: Redefining \sffamily on input line 108.
-LaTeX Info: Redefining \ttfamily on input line 108.
-LaTeX Info: Redefining \rmfamily on input line 110.
-LaTeX Info: Redefining \sffamily on input line 110.
-LaTeX Info: Redefining \ttfamily on input line 110.
-LaTeX Info: Redefining \rmfamily on input line 112.
-LaTeX Info: Redefining \sffamily on input line 112.
-LaTeX Info: Redefining \ttfamily on input line 112.
-LaTeX Info: Redefining \rmfamily on input line 114.
-LaTeX Info: Redefining \sffamily on input line 114.
-LaTeX Info: Redefining \ttfamily on input line 114.
-LaTeX Info: Redefining \rmfamily on input line 116.
-LaTeX Info: Redefining \sffamily on input line 116.
-LaTeX Info: Redefining \ttfamily on input line 116.
-LaTeX Info: Redefining \rmfamily on input line 118.
-LaTeX Info: Redefining \sffamily on input line 118.
-LaTeX Info: Redefining \ttfamily on input line 118.
-LaTeX Info: Redefining \rmfamily on input line 120.
-LaTeX Info: Redefining \sffamily on input line 120.
-LaTeX Info: Redefining \ttfamily on input line 120.
-LaTeX Info: Redefining \rmfamily on input line 121.
-LaTeX Info: Redefining \sffamily on input line 121.
-LaTeX Info: Redefining \ttfamily on input line 121.
-LaTeX Info: Redefining \rmfamily on input line 122.
-LaTeX Info: Redefining \sffamily on input line 122.
-LaTeX Info: Redefining \ttfamily on input line 122.
-LaTeX Info: Redefining \rmfamily on input line 123.
-LaTeX Info: Redefining \sffamily on input line 123.
-LaTeX Info: Redefining \ttfamily on input line 123.
-LaTeX Info: Redefining \rmfamily on input line 127.
-LaTeX Info: Redefining \sffamily on input line 127.
-LaTeX Info: Redefining \ttfamily on input line 127.
-LaTeX Info: Redefining \rmfamily on input line 129.
-LaTeX Info: Redefining \sffamily on input line 129.
-LaTeX Info: Redefining \ttfamily on input line 129.
-LaTeX Info: Redefining \rmfamily on input line 131.
-LaTeX Info: Redefining \sffamily on input line 131.
-LaTeX Info: Redefining \ttfamily on input line 131.
-LaTeX Info: Redefining \rmfamily on input line 133.
-LaTeX Info: Redefining \sffamily on input line 133.
-LaTeX Info: Redefining \ttfamily on input line 133.
-LaTeX Info: Redefining \rmfamily on input line 138.
-LaTeX Info: Redefining \sffamily on input line 138.
-LaTeX Info: Redefining \ttfamily on input line 138.
-LaTeX Info: Redefining \rmfamily on input line 140.
-LaTeX Info: Redefining \sffamily on input line 140.
-LaTeX Info: Redefining \ttfamily on input line 140.
-LaTeX Info: Redefining \rmfamily on input line 142.
-LaTeX Info: Redefining \sffamily on input line 142.
-LaTeX Info: Redefining \ttfamily on input line 142.
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-LaTeX Info: Redefining \rmfamily on input line 146.
-LaTeX Info: Redefining \sffamily on input line 146.
-LaTeX Info: Redefining \ttfamily on input line 146.
-LaTeX Info: Redefining \rmfamily on input line 148.
-LaTeX Info: Redefining \sffamily on input line 148.
-LaTeX Info: Redefining \ttfamily on input line 148.
-LaTeX Info: Redefining \rmfamily on input line 150.
-LaTeX Info: Redefining \sffamily on input line 150.
-LaTeX Info: Redefining \ttfamily on input line 150.
-LaTeX Info: Redefining \rmfamily on input line 152.
-LaTeX Info: Redefining \sffamily on input line 152.
-LaTeX Info: Redefining \ttfamily on input line 152.
-LaTeX Info: Redefining \rmfamily on input line 155.
-LaTeX Info: Redefining \sffamily on input line 155.
-LaTeX Info: Redefining \ttfamily on input line 155.
-LaTeX Info: Redefining \rmfamily on input line 157.
-LaTeX Info: Redefining \sffamily on input line 157.
-LaTeX Info: Redefining \ttfamily on input line 157.
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 163.
-LaTeX Info: Redefining \sffamily on input line 163.
-LaTeX Info: Redefining \ttfamily on input line 163.
-LaTeX Info: Redefining \rmfamily on input line 165.
-LaTeX Info: Redefining \sffamily on input line 165.
-LaTeX Info: Redefining \ttfamily on input line 165.
-LaTeX Info: Redefining \rmfamily on input line 167.
-LaTeX Info: Redefining \sffamily on input line 167.
-LaTeX Info: Redefining \ttfamily on input line 167.
-LaTeX Info: Redefining \rmfamily on input line 169.
-LaTeX Info: Redefining \sffamily on input line 169.
-LaTeX Info: Redefining \ttfamily on input line 169.
-LaTeX Info: Redefining \rmfamily on input line 171.
-LaTeX Info: Redefining \sffamily on input line 171.
-LaTeX Info: Redefining \ttfamily on input line 171.
-LaTeX Info: Redefining \rmfamily on input line 173.
-LaTeX Info: Redefining \sffamily on input line 173.
-LaTeX Info: Redefining \ttfamily on input line 173.
-LaTeX Info: Redefining \rmfamily on input line 176.
-LaTeX Info: Redefining \sffamily on input line 176.
-LaTeX Info: Redefining \ttfamily on input line 176.
-LaTeX Info: Redefining \rmfamily on input line 178.
-LaTeX Info: Redefining \sffamily on input line 178.
-LaTeX Info: Redefining \ttfamily on input line 178.
-LaTeX Info: Redefining \rmfamily on input line 180.
-LaTeX Info: Redefining \sffamily on input line 180.
-LaTeX Info: Redefining \ttfamily on input line 180.
-LaTeX Info: Redefining \rmfamily on input line 182.
-LaTeX Info: Redefining \sffamily on input line 182.
-LaTeX Info: Redefining \ttfamily on input line 182.
-LaTeX Info: Redefining \rmfamily on input line 184.
-LaTeX Info: Redefining \sffamily on input line 184.
-LaTeX Info: Redefining \ttfamily on input line 184.
-LaTeX Info: Redefining \rmfamily on input line 186.
-LaTeX Info: Redefining \sffamily on input line 186.
-LaTeX Info: Redefining \ttfamily on input line 186.
-LaTeX Info: Redefining \rmfamily on input line 188.
-LaTeX Info: Redefining \sffamily on input line 188.
-LaTeX Info: Redefining \ttfamily on input line 188.
-LaTeX Info: Redefining \rmfamily on input line 190.
-LaTeX Info: Redefining \sffamily on input line 190.
-LaTeX Info: Redefining \ttfamily on input line 190.
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
-LaTeX Info: Redefining \rmfamily on input line 194.
-LaTeX Info: Redefining \sffamily on input line 194.
-LaTeX Info: Redefining \ttfamily on input line 194.
-LaTeX Info: Redefining \rmfamily on input line 196.
-LaTeX Info: Redefining \sffamily on input line 196.
-LaTeX Info: Redefining \ttfamily on input line 196.
-LaTeX Info: Redefining \rmfamily on input line 198.
-LaTeX Info: Redefining \sffamily on input line 198.
-LaTeX Info: Redefining \ttfamily on input line 198.
-LaTeX Info: Redefining \rmfamily on input line 200.
-LaTeX Info: Redefining \sffamily on input line 200.
-LaTeX Info: Redefining \ttfamily on input line 200.
-LaTeX Info: Redefining \rmfamily on input line 202.
-LaTeX Info: Redefining \sffamily on input line 202.
-LaTeX Info: Redefining \ttfamily on input line 202.
-LaTeX Info: Redefining \rmfamily on input line 204.
-LaTeX Info: Redefining \sffamily on input line 204.
-LaTeX Info: Redefining \ttfamily on input line 204.
-LaTeX Info: Redefining \rmfamily on input line 206.
-LaTeX Info: Redefining \sffamily on input line 206.
-LaTeX Info: Redefining \ttfamily on input line 206.
-LaTeX Info: Redefining \rmfamily on input line 208.
-LaTeX Info: Redefining \sffamily on input line 208.
-LaTeX Info: Redefining \ttfamily on input line 208.
-LaTeX Info: Redefining \rmfamily on input line 210.
-LaTeX Info: Redefining \sffamily on input line 210.
-LaTeX Info: Redefining \ttfamily on input line 210.
-LaTeX Info: Redefining \rmfamily on input line 212.
-LaTeX Info: Redefining \sffamily on input line 212.
-LaTeX Info: Redefining \ttfamily on input line 212.
-LaTeX Info: Redefining \rmfamily on input line 214.
-LaTeX Info: Redefining \sffamily on input line 214.
-LaTeX Info: Redefining \ttfamily on input line 214.
-LaTeX Info: Redefining \rmfamily on input line 216.
-LaTeX Info: Redefining \sffamily on input line 216.
-LaTeX Info: Redefining \ttfamily on input line 216.
-LaTeX Info: Redefining \rmfamily on input line 218.
-LaTeX Info: Redefining \sffamily on input line 218.
-LaTeX Info: Redefining \ttfamily on input line 218.
-LaTeX Info: Redefining \rmfamily on input line 220.
-LaTeX Info: Redefining \sffamily on input line 220.
-LaTeX Info: Redefining \ttfamily on input line 220.
-LaTeX Info: Redefining \rmfamily on input line 222.
-LaTeX Info: Redefining \sffamily on input line 222.
-LaTeX Info: Redefining \ttfamily on input line 222.
-LaTeX Info: Redefining \rmfamily on input line 224.
-LaTeX Info: Redefining \sffamily on input line 224.
-LaTeX Info: Redefining \ttfamily on input line 224.
-LaTeX Info: Redefining \rmfamily on input line 226.
-LaTeX Info: Redefining \sffamily on input line 226.
-LaTeX Info: Redefining \ttfamily on input line 226.
-LaTeX Info: Redefining \rmfamily on input line 229.
-LaTeX Info: Redefining \sffamily on input line 229.
-LaTeX Info: Redefining \ttfamily on input line 229.
-LaTeX Info: Redefining \rmfamily on input line 231.
-LaTeX Info: Redefining \sffamily on input line 231.
-LaTeX Info: Redefining \ttfamily on input line 231.
-LaTeX Info: Redefining \rmfamily on input line 233.
-LaTeX Info: Redefining \sffamily on input line 233.
-LaTeX Info: Redefining \ttfamily on input line 233.
-LaTeX Info: Redefining \rmfamily on input line 235.
-LaTeX Info: Redefining \sffamily on input line 235.
-LaTeX Info: Redefining \ttfamily on input line 235.
-LaTeX Info: Redefining \rmfamily on input line 239.
-LaTeX Info: Redefining \sffamily on input line 239.
-LaTeX Info: Redefining \ttfamily on input line 239.
-LaTeX Info: Redefining \rmfamily on input line 241.
-LaTeX Info: Redefining \sffamily on input line 241.
-LaTeX Info: Redefining \ttfamily on input line 241.
-LaTeX Info: Redefining \rmfamily on input line 243.
-LaTeX Info: Redefining \sffamily on input line 243.
-LaTeX Info: Redefining \ttfamily on input line 243.
-LaTeX Info: Redefining \rmfamily on input line 245.
-LaTeX Info: Redefining \sffamily on input line 245.
-LaTeX Info: Redefining \ttfamily on input line 245.
-LaTeX Info: Redefining \rmfamily on input line 247.
-LaTeX Info: Redefining \sffamily on input line 247.
-LaTeX Info: Redefining \ttfamily on input line 247.
-LaTeX Info: Redefining \rmfamily on input line 249.
-LaTeX Info: Redefining \sffamily on input line 249.
-LaTeX Info: Redefining \ttfamily on input line 249.
-LaTeX Info: Redefining \rmfamily on input line 251.
-LaTeX Info: Redefining \sffamily on input line 251.
-LaTeX Info: Redefining \ttfamily on input line 251.
-LaTeX Info: Redefining \rmfamily on input line 253.
-LaTeX Info: Redefining \sffamily on input line 253.
-LaTeX Info: Redefining \ttfamily on input line 253.
-LaTeX Info: Redefining \rmfamily on input line 255.
-LaTeX Info: Redefining \sffamily on input line 255.
-LaTeX Info: Redefining \ttfamily on input line 255.
-LaTeX Info: Redefining \rmfamily on input line 257.
-LaTeX Info: Redefining \sffamily on input line 257.
-LaTeX Info: Redefining \ttfamily on input line 257.
-LaTeX Info: Redefining \rmfamily on input line 259.
-LaTeX Info: Redefining \sffamily on input line 259.
-LaTeX Info: Redefining \ttfamily on input line 259.
-LaTeX Info: Redefining \rmfamily on input line 261.
-LaTeX Info: Redefining \sffamily on input line 261.
-LaTeX Info: Redefining \ttfamily on input line 261.
-LaTeX Info: Redefining \rmfamily on input line 264.
-LaTeX Info: Redefining \sffamily on input line 264.
-LaTeX Info: Redefining \ttfamily on input line 264.
-LaTeX Info: Redefining \rmfamily on input line 266.
-LaTeX Info: Redefining \sffamily on input line 266.
-LaTeX Info: Redefining \ttfamily on input line 266.
-LaTeX Info: Redefining \rmfamily on input line 268.
-LaTeX Info: Redefining \sffamily on input line 268.
-LaTeX Info: Redefining \ttfamily on input line 268.
-LaTeX Info: Redefining \rmfamily on input line 270.
-LaTeX Info: Redefining \sffamily on input line 270.
-LaTeX Info: Redefining \ttfamily on input line 270.
-LaTeX Info: Redefining \rmfamily on input line 272.
-LaTeX Info: Redefining \sffamily on input line 272.
-LaTeX Info: Redefining \ttfamily on input line 272.
-LaTeX Info: Redefining \rmfamily on input line 274.
-LaTeX Info: Redefining \sffamily on input line 274.
-LaTeX Info: Redefining \ttfamily on input line 274.
-LaTeX Info: Redefining \rmfamily on input line 276.
-LaTeX Info: Redefining \sffamily on input line 276.
-LaTeX Info: Redefining \ttfamily on input line 276.
-LaTeX Info: Redefining \rmfamily on input line 278.
-LaTeX Info: Redefining \sffamily on input line 278.
-LaTeX Info: Redefining \ttfamily on input line 278.
-LaTeX Info: Redefining \rmfamily on input line 280.
-LaTeX Info: Redefining \sffamily on input line 280.
-LaTeX Info: Redefining \ttfamily on input line 280.
-LaTeX Info: Redefining \rmfamily on input line 282.
-LaTeX Info: Redefining \sffamily on input line 282.
-LaTeX Info: Redefining \ttfamily on input line 282.
-LaTeX Info: Redefining \rmfamily on input line 286.
-LaTeX Info: Redefining \sffamily on input line 286.
-LaTeX Info: Redefining \ttfamily on input line 286.
-LaTeX Info: Redefining \rmfamily on input line 288.
-LaTeX Info: Redefining \sffamily on input line 288.
-LaTeX Info: Redefining \ttfamily on input line 288.
-LaTeX Info: Redefining \rmfamily on input line 290.
-LaTeX Info: Redefining \sffamily on input line 290.
-LaTeX Info: Redefining \ttfamily on input line 290.
-LaTeX Info: Redefining \rmfamily on input line 292.
-LaTeX Info: Redefining \sffamily on input line 292.
-LaTeX Info: Redefining \ttfamily on input line 292.
-LaTeX Info: Redefining \rmfamily on input line 295.
-LaTeX Info: Redefining \sffamily on input line 295.
-LaTeX Info: Redefining \ttfamily on input line 295.
-LaTeX Info: Redefining \rmfamily on input line 297.
-LaTeX Info: Redefining \sffamily on input line 297.
-LaTeX Info: Redefining \ttfamily on input line 297.
-LaTeX Info: Redefining \rmfamily on input line 301.
-LaTeX Info: Redefining \sffamily on input line 301.
-LaTeX Info: Redefining \ttfamily on input line 301.
-LaTeX Info: Redefining \rmfamily on input line 303.
-LaTeX Info: Redefining \sffamily on input line 303.
-LaTeX Info: Redefining \ttfamily on input line 303.
-LaTeX Info: Redefining \rmfamily on input line 307.
-LaTeX Info: Redefining \sffamily on input line 307.
-LaTeX Info: Redefining \ttfamily on input line 307.
-LaTeX Info: Redefining \rmfamily on input line 309.
-LaTeX Info: Redefining \sffamily on input line 309.
-LaTeX Info: Redefining \ttfamily on input line 309.
-LaTeX Info: Redefining \rmfamily on input line 313.
-LaTeX Info: Redefining \sffamily on input line 313.
-LaTeX Info: Redefining \ttfamily on input line 313.
-LaTeX Info: Redefining \rmfamily on input line 315.
-LaTeX Info: Redefining \sffamily on input line 315.
-LaTeX Info: Redefining \ttfamily on input line 315.
-LaTeX Info: Redefining \rmfamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \ttfamily on input line 319.
-LaTeX Info: Redefining \rmfamily on input line 321.
-LaTeX Info: Redefining \sffamily on input line 321.
-LaTeX Info: Redefining \ttfamily on input line 321.
-LaTeX Info: Redefining \rmfamily on input line 323.
-LaTeX Info: Redefining \sffamily on input line 323.
-LaTeX Info: Redefining \ttfamily on input line 323.
-LaTeX Info: Redefining \rmfamily on input line 325.
-LaTeX Info: Redefining \sffamily on input line 325.
-LaTeX Info: Redefining \ttfamily on input line 325.
-LaTeX Info: Redefining \rmfamily on input line 328.
-LaTeX Info: Redefining \sffamily on input line 328.
-LaTeX Info: Redefining \ttfamily on input line 328.
-LaTeX Info: Redefining \rmfamily on input line 330.
-LaTeX Info: Redefining \sffamily on input line 330.
-LaTeX Info: Redefining \ttfamily on input line 330.
-LaTeX Info: Redefining \rmfamily on input line 332.
-LaTeX Info: Redefining \sffamily on input line 332.
-LaTeX Info: Redefining \ttfamily on input line 332.
-LaTeX Info: Redefining \rmfamily on input line 333.
-LaTeX Info: Redefining \sffamily on input line 333.
-LaTeX Info: Redefining \ttfamily on input line 333.
-LaTeX Info: Redefining \rmfamily on input line 338.
-LaTeX Info: Redefining \sffamily on input line 338.
-LaTeX Info: Redefining \ttfamily on input line 338.
-LaTeX Info: Redefining \rmfamily on input line 340.
-LaTeX Info: Redefining \sffamily on input line 340.
-LaTeX Info: Redefining \ttfamily on input line 340.
-LaTeX Info: Redefining \rmfamily on input line 342.
-LaTeX Info: Redefining \sffamily on input line 342.
-LaTeX Info: Redefining \ttfamily on input line 342.
-LaTeX Info: Redefining \rmfamily on input line 344.
-LaTeX Info: Redefining \sffamily on input line 344.
-LaTeX Info: Redefining \ttfamily on input line 344.
-
-
-LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/m/sl' undefined
-(Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 346.
-
-[4]
-LaTeX Info: Redefining \rmfamily on input line 350.
-LaTeX Info: Redefining \sffamily on input line 350.
-LaTeX Info: Redefining \ttfamily on input line 350.
-LaTeX Info: Redefining \rmfamily on input line 352.
-LaTeX Info: Redefining \sffamily on input line 352.
-LaTeX Info: Redefining \ttfamily on input line 352.
-LaTeX Info: Redefining \rmfamily on input line 354.
-LaTeX Info: Redefining \sffamily on input line 354.
-LaTeX Info: Redefining \ttfamily on input line 354.
-LaTeX Info: Redefining \rmfamily on input line 356.
-LaTeX Info: Redefining \sffamily on input line 356.
-LaTeX Info: Redefining \ttfamily on input line 356.
-LaTeX Info: Redefining \rmfamily on input line 360.
-LaTeX Info: Redefining \sffamily on input line 360.
-LaTeX Info: Redefining \ttfamily on input line 360.
-LaTeX Info: Redefining \rmfamily on input line 362.
-LaTeX Info: Redefining \sffamily on input line 362.
-LaTeX Info: Redefining \ttfamily on input line 362.
-LaTeX Info: Redefining \rmfamily on input line 366.
-LaTeX Info: Redefining \sffamily on input line 366.
-LaTeX Info: Redefining \ttfamily on input line 366.
-LaTeX Info: Redefining \rmfamily on input line 368.
-LaTeX Info: Redefining \sffamily on input line 368.
-LaTeX Info: Redefining \ttfamily on input line 368.
-LaTeX Info: Redefining \rmfamily on input line 371.
-LaTeX Info: Redefining \sffamily on input line 371.
-LaTeX Info: Redefining \ttfamily on input line 371.
-LaTeX Info: Redefining \rmfamily on input line 373.
-LaTeX Info: Redefining \sffamily on input line 373.
-LaTeX Info: Redefining \ttfamily on input line 373.
-LaTeX Info: Redefining \rmfamily on input line 375.
-LaTeX Info: Redefining \sffamily on input line 375.
-LaTeX Info: Redefining \ttfamily on input line 375.
-LaTeX Info: Redefining \rmfamily on input line 377.
-LaTeX Info: Redefining \sffamily on input line 377.
-LaTeX Info: Redefining \ttfamily on input line 377.
-LaTeX Info: Redefining \rmfamily on input line 379.
-LaTeX Info: Redefining \sffamily on input line 379.
-LaTeX Info: Redefining \ttfamily on input line 379.
-LaTeX Info: Redefining \rmfamily on input line 381.
-LaTeX Info: Redefining \sffamily on input line 381.
-LaTeX Info: Redefining \ttfamily on input line 381.
-LaTeX Info: Redefining \rmfamily on input line 383.
-LaTeX Info: Redefining \sffamily on input line 383.
-LaTeX Info: Redefining \ttfamily on input line 383.
-LaTeX Info: Redefining \rmfamily on input line 385.
-LaTeX Info: Redefining \sffamily on input line 385.
-LaTeX Info: Redefining \ttfamily on input line 385.
-LaTeX Info: Redefining \rmfamily on input line 387.
-LaTeX Info: Redefining \sffamily on input line 387.
-LaTeX Info: Redefining \ttfamily on input line 387.
-LaTeX Info: Redefining \rmfamily on input line 389.
-LaTeX Info: Redefining \sffamily on input line 389.
-LaTeX Info: Redefining \ttfamily on input line 389.
-LaTeX Info: Redefining \rmfamily on input line 392.
-LaTeX Info: Redefining \sffamily on input line 392.
-LaTeX Info: Redefining \ttfamily on input line 392.
-LaTeX Info: Redefining \rmfamily on input line 394.
-LaTeX Info: Redefining \sffamily on input line 394.
-LaTeX Info: Redefining \ttfamily on input line 394.
-LaTeX Info: Redefining \rmfamily on input line 396.
-LaTeX Info: Redefining \sffamily on input line 396.
-LaTeX Info: Redefining \ttfamily on input line 396.
-LaTeX Info: Redefining \rmfamily on input line 398.
-LaTeX Info: Redefining \sffamily on input line 398.
-LaTeX Info: Redefining \ttfamily on input line 398.
-LaTeX Info: Redefining \rmfamily on input line 400.
-LaTeX Info: Redefining \sffamily on input line 400.
-LaTeX Info: Redefining \ttfamily on input line 400.
-LaTeX Info: Redefining \rmfamily on input line 402.
-LaTeX Info: Redefining \sffamily on input line 402.
-LaTeX Info: Redefining \ttfamily on input line 402.
-LaTeX Info: Redefining \rmfamily on input line 406.
-LaTeX Info: Redefining \sffamily on input line 406.
-LaTeX Info: Redefining \ttfamily on input line 406.
-LaTeX Info: Redefining \rmfamily on input line 408.
-LaTeX Info: Redefining \sffamily on input line 408.
-LaTeX Info: Redefining \ttfamily on input line 408.
-LaTeX Info: Redefining \rmfamily on input line 410.
-LaTeX Info: Redefining \sffamily on input line 410.
-LaTeX Info: Redefining \ttfamily on input line 410.
-LaTeX Info: Redefining \rmfamily on input line 412.
-LaTeX Info: Redefining \sffamily on input line 412.
-LaTeX Info: Redefining \ttfamily on input line 412.
-LaTeX Info: Redefining \rmfamily on input line 415.
-LaTeX Info: Redefining \sffamily on input line 415.
-LaTeX Info: Redefining \ttfamily on input line 415.
-LaTeX Info: Redefining \rmfamily on input line 417.
-LaTeX Info: Redefining \sffamily on input line 417.
-LaTeX Info: Redefining \ttfamily on input line 417.
-LaTeX Info: Redefining \rmfamily on input line 420.
-LaTeX Info: Redefining \sffamily on input line 420.
-LaTeX Info: Redefining \ttfamily on input line 420.
-LaTeX Info: Redefining \rmfamily on input line 422.
-LaTeX Info: Redefining \sffamily on input line 422.
-LaTeX Info: Redefining \ttfamily on input line 422.
-LaTeX Info: Redefining \rmfamily on input line 428.
-LaTeX Info: Redefining \sffamily on input line 428.
-LaTeX Info: Redefining \ttfamily on input line 428.
-LaTeX Info: Redefining \rmfamily on input line 430.
-LaTeX Info: Redefining \sffamily on input line 430.
-LaTeX Info: Redefining \ttfamily on input line 430.
-LaTeX Info: Redefining \rmfamily on input line 432.
-LaTeX Info: Redefining \sffamily on input line 432.
-LaTeX Info: Redefining \ttfamily on input line 432.
-LaTeX Info: Redefining \rmfamily on input line 434.
-LaTeX Info: Redefining \sffamily on input line 434.
-LaTeX Info: Redefining \ttfamily on input line 434.
-LaTeX Info: Redefining \rmfamily on input line 436.
-LaTeX Info: Redefining \sffamily on input line 436.
-LaTeX Info: Redefining \ttfamily on input line 436.
-LaTeX Info: Redefining \rmfamily on input line 438.
-LaTeX Info: Redefining \sffamily on input line 438.
-LaTeX Info: Redefining \ttfamily on input line 438.
-LaTeX Info: Redefining \rmfamily on input line 443.
-LaTeX Info: Redefining \sffamily on input line 443.
-LaTeX Info: Redefining \ttfamily on input line 443.
-LaTeX Info: Redefining \rmfamily on input line 445.
-LaTeX Info: Redefining \sffamily on input line 445.
-LaTeX Info: Redefining \ttfamily on input line 445.
-LaTeX Info: Redefining \rmfamily on input line 451.
-LaTeX Info: Redefining \sffamily on input line 451.
-LaTeX Info: Redefining \ttfamily on input line 451.
-LaTeX Info: Redefining \rmfamily on input line 453.
-LaTeX Info: Redefining \sffamily on input line 453.
-LaTeX Info: Redefining \ttfamily on input line 453.
-LaTeX Info: Redefining \rmfamily on input line 456.
-LaTeX Info: Redefining \sffamily on input line 456.
-LaTeX Info: Redefining \ttfamily on input line 456.
-LaTeX Info: Redefining \rmfamily on input line 458.
-LaTeX Info: Redefining \sffamily on input line 458.
-LaTeX Info: Redefining \ttfamily on input line 458.
-LaTeX Info: Redefining \rmfamily on input line 461.
-LaTeX Info: Redefining \sffamily on input line 461.
-LaTeX Info: Redefining \ttfamily on input line 461.
-LaTeX Info: Redefining \rmfamily on input line 463.
-LaTeX Info: Redefining \sffamily on input line 463.
-LaTeX Info: Redefining \ttfamily on input line 463.
-LaTeX Info: Redefining \rmfamily on input line 467.
-LaTeX Info: Redefining \sffamily on input line 467.
-LaTeX Info: Redefining \ttfamily on input line 467.
-LaTeX Info: Redefining \rmfamily on input line 469.
-LaTeX Info: Redefining \sffamily on input line 469.
-LaTeX Info: Redefining \ttfamily on input line 469.
-LaTeX Info: Redefining \rmfamily on input line 471.
-LaTeX Info: Redefining \sffamily on input line 471.
-LaTeX Info: Redefining \ttfamily on input line 471.
-LaTeX Info: Redefining \rmfamily on input line 473.
-LaTeX Info: Redefining \sffamily on input line 473.
-LaTeX Info: Redefining \ttfamily on input line 473.
-LaTeX Info: Redefining \rmfamily on input line 475.
-LaTeX Info: Redefining \sffamily on input line 475.
-LaTeX Info: Redefining \ttfamily on input line 475.
-LaTeX Info: Redefining \rmfamily on input line 477.
-LaTeX Info: Redefining \sffamily on input line 477.
-LaTeX Info: Redefining \ttfamily on input line 477.
-LaTeX Info: Redefining \rmfamily on input line 481.
-LaTeX Info: Redefining \sffamily on input line 481.
-LaTeX Info: Redefining \ttfamily on input line 481.
-LaTeX Info: Redefining \rmfamily on input line 483.
-LaTeX Info: Redefining \sffamily on input line 483.
-LaTeX Info: Redefining \ttfamily on input line 483.
-LaTeX Info: Redefining \rmfamily on input line 485.
-LaTeX Info: Redefining \sffamily on input line 485.
-LaTeX Info: Redefining \ttfamily on input line 485.
-LaTeX Info: Redefining \rmfamily on input line 487.
-LaTeX Info: Redefining \sffamily on input line 487.
-LaTeX Info: Redefining \ttfamily on input line 487.
-LaTeX Info: Redefining \rmfamily on input line 489.
-LaTeX Info: Redefining \sffamily on input line 489.
-LaTeX Info: Redefining \ttfamily on input line 489.
-LaTeX Info: Redefining \rmfamily on input line 491.
-LaTeX Info: Redefining \sffamily on input line 491.
-LaTeX Info: Redefining \ttfamily on input line 491.
-LaTeX Info: Redefining \rmfamily on input line 494.
-LaTeX Info: Redefining \sffamily on input line 494.
-LaTeX Info: Redefining \ttfamily on input line 494.
-LaTeX Info: Redefining \rmfamily on input line 496.
-LaTeX Info: Redefining \sffamily on input line 496.
-LaTeX Info: Redefining \ttfamily on input line 496.
-LaTeX Info: Redefining \rmfamily on input line 503.
-LaTeX Info: Redefining \sffamily on input line 503.
-LaTeX Info: Redefining \ttfamily on input line 503.
-LaTeX Info: Redefining \rmfamily on input line 505.
-LaTeX Info: Redefining \sffamily on input line 505.
-LaTeX Info: Redefining \ttfamily on input line 505.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 508.
- [5]
-LaTeX Info: Redefining \rmfamily on input line 510.
-LaTeX Info: Redefining \sffamily on input line 510.
-LaTeX Info: Redefining \ttfamily on input line 510.
-LaTeX Info: Redefining \rmfamily on input line 512.
-LaTeX Info: Redefining \sffamily on input line 512.
-LaTeX Info: Redefining \ttfamily on input line 512.
-LaTeX Info: Redefining \rmfamily on input line 514.
-LaTeX Info: Redefining \sffamily on input line 514.
-LaTeX Info: Redefining \ttfamily on input line 514.
-LaTeX Info: Redefining \rmfamily on input line 516.
-LaTeX Info: Redefining \sffamily on input line 516.
-LaTeX Info: Redefining \ttfamily on input line 516.
-LaTeX Info: Redefining \rmfamily on input line 518.
-LaTeX Info: Redefining \sffamily on input line 518.
-LaTeX Info: Redefining \ttfamily on input line 518.
-LaTeX Info: Redefining \rmfamily on input line 520.
-LaTeX Info: Redefining \sffamily on input line 520.
-LaTeX Info: Redefining \ttfamily on input line 520.
-LaTeX Info: Redefining \rmfamily on input line 523.
-LaTeX Info: Redefining \sffamily on input line 523.
-LaTeX Info: Redefining \ttfamily on input line 523.
-LaTeX Info: Redefining \rmfamily on input line 525.
-LaTeX Info: Redefining \sffamily on input line 525.
-LaTeX Info: Redefining \ttfamily on input line 525.
-LaTeX Info: Redefining \rmfamily on input line 527.
-LaTeX Info: Redefining \sffamily on input line 527.
-LaTeX Info: Redefining \ttfamily on input line 527.
-LaTeX Info: Redefining \rmfamily on input line 529.
-LaTeX Info: Redefining \sffamily on input line 529.
-LaTeX Info: Redefining \ttfamily on input line 529.
-LaTeX Info: Redefining \rmfamily on input line 534.
-LaTeX Info: Redefining \sffamily on input line 534.
-LaTeX Info: Redefining \ttfamily on input line 534.
-LaTeX Info: Redefining \rmfamily on input line 536.
-LaTeX Info: Redefining \sffamily on input line 536.
-LaTeX Info: Redefining \ttfamily on input line 536.
-LaTeX Info: Redefining \rmfamily on input line 538.
-LaTeX Info: Redefining \sffamily on input line 538.
-LaTeX Info: Redefining \ttfamily on input line 538.
-LaTeX Info: Redefining \rmfamily on input line 540.
-LaTeX Info: Redefining \sffamily on input line 540.
-LaTeX Info: Redefining \ttfamily on input line 540.
-LaTeX Info: Redefining \rmfamily on input line 553.
-LaTeX Info: Redefining \sffamily on input line 553.
-LaTeX Info: Redefining \ttfamily on input line 553.
-LaTeX Info: Redefining \rmfamily on input line 555.
-LaTeX Info: Redefining \sffamily on input line 555.
-LaTeX Info: Redefining \ttfamily on input line 555.
-LaTeX Info: Redefining \rmfamily on input line 558.
-LaTeX Info: Redefining \sffamily on input line 558.
-LaTeX Info: Redefining \ttfamily on input line 558.
-LaTeX Info: Redefining \rmfamily on input line 560.
-LaTeX Info: Redefining \sffamily on input line 560.
-LaTeX Info: Redefining \ttfamily on input line 560.
-LaTeX Info: Redefining \rmfamily on input line 562.
-LaTeX Info: Redefining \sffamily on input line 562.
-LaTeX Info: Redefining \ttfamily on input line 562.
-LaTeX Info: Redefining \rmfamily on input line 564.
-LaTeX Info: Redefining \sffamily on input line 564.
-LaTeX Info: Redefining \ttfamily on input line 564.
-LaTeX Info: Redefining \rmfamily on input line 570.
-LaTeX Info: Redefining \sffamily on input line 570.
-LaTeX Info: Redefining \ttfamily on input line 570.
-LaTeX Info: Redefining \rmfamily on input line 572.
-LaTeX Info: Redefining \sffamily on input line 572.
-LaTeX Info: Redefining \ttfamily on input line 572.
-LaTeX Info: Redefining \rmfamily on input line 574.
-LaTeX Info: Redefining \sffamily on input line 574.
-LaTeX Info: Redefining \ttfamily on input line 574.
-LaTeX Info: Redefining \rmfamily on input line 576.
-LaTeX Info: Redefining \sffamily on input line 576.
-LaTeX Info: Redefining \ttfamily on input line 576.
-LaTeX Info: Redefining \rmfamily on input line 582.
-LaTeX Info: Redefining \sffamily on input line 582.
-LaTeX Info: Redefining \ttfamily on input line 582.
-LaTeX Info: Redefining \rmfamily on input line 584.
-LaTeX Info: Redefining \sffamily on input line 584.
-LaTeX Info: Redefining \ttfamily on input line 584.
-)
+(./digitalCircuitsLatex.toc)
 \tf@toc=\write6
 \openout6 = `digitalCircuitsLatex.toc'.
 
- [6]
-\openout2 = `./tex/programmableLogicDevices.aux'.
+ [3]
+\openout2 = `./tex/asynchronousCombinationalCircuits.aux'.
 
- (./tex/programmableLogicDevices.tex [194
+ (./tex/asynchronousCombinationalCircuits.tex
+باب \arabicdigits{11}.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 20.74pt on input line 1.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 وسیع عددی ادوار عموماً معاصر ادوار کے طرز 
+پر بنائے جاتے ہیں۔ایسے ادوار کے اگلی حالتیں مکمل طور ان کے موجودہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 حالتوں سے متعین کئے جا سکتے ہیں۔حالات صرف 
+ساعت کے کنارہ تبدیل ہوتے ہیں اور بقایا تمام وقت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کے لئے غیر متغیر تصور کئے جا سکتے ہیں۔ایسے
+ ادوار بناتے وقت اس بات کو یقینی بنایا جاتا ہے کہ ساعت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کسی بھی لمحہ تبدیل ہو سکتے ہیں۔اس سے حالتِ
+ دوڑ اور دیگر مسائل کھڑے ہوتے ہیں جن پر اس باب میں غور[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کیا جائے گا۔ غیر معاصر ادوار کی اپنی ایک ا
+ہمیت ہے۔یہ ساعت کے کنارہ کا انتظار کئے بغیر اشارہ پر ردِ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 عمل کر سکتے ہیں۔عموماً کسی بھی عددی دور می
+ں کچھ حصہ معاصر اور کچھ غیر معاصر ہوتا ہے۔ شکل 11.‏1 میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 ایک نہایت سادہ دور دکھایا گیا ہے۔سرسری نظر
+ سے یوں محسوس ہوتا ہے کہ اس شکل میں ضرب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 گیٹ کی مخارج کبھی بلند نہیں ہو سکتی۔غور کر
+نے سے ثابت ہوتا ہے کہ مسئلہ اتنا سادہ نہیں۔ جب بھی مداخلحالت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تبدیل کرتا ہے اس کے کچھ لمحہ بعد، نفی گیٹ 
+کا مخارج حالت تبدیل کرتا ہے۔یہ تاخیر 1 نفی گیٹ کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 دورانیہ ردِ عمل کی وجہ سے ہوتی ہے۔شکل میں 
+اورکے خط بناتے وقت اس تاخیر کو دکھایا گیا ہے۔اگر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 ضرب گیٹ کا دورانیہ ردِ عمل صفر ہوتا تب ضرب
+ گیٹ کا مخارج ان دو مداخل کے مطابق حالت اختیار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کرتا۔اس کوسے دکھایا گیا ہے۔چونکہ ضرب گیٹ ک
+و بھی ردِ عمل کے لئے کچھ دیر درکار ہوتا ہے لہٰذا ضرب گیٹ کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 مخارج کچھ دیر کے بعد نظر آئے گی جیسا شکل م
+یں دکھایا گیا ہے۔ آپ دیکھ سکتے ہیں کہ ضرب گیٹ کی مخارج[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 غیر مطلوبہ طور پر، نفی گیٹ کے دورانیہ ردِ 
+عمل کے برابر وقت کے لئے، بلند ہو گئی ہے۔اس طرح غیر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 مطلوبہ، نہایت کم دورانیہ کے، حالت کی تبدیل
+ی کو برقی لرزش 2 کہتے ہیں۔چونکہ برقی لرزش مثبت یا منفی ہو سکتی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 ہے لہٰذا موجودہ لرزش کو مثبت برقی لرزش کہی
+ں گے۔ برقی لرزش کی وجہ سے ادوار عبوری حالت 3 اختیار کرتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[][]\TU/JameelNooriNastaleeq(2)/m/n/10 آپ نے دیکھا کہ برقی لرزش، اشارہکے ضرب گی
+ٹ تک پہنچنے میں تاخیر کی وجہ سے پیدا ہوئی۔اشارات[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 میں تاخیر کی ایک اور مثال دیکھتے ہیں۔ برقی
+ تار میں برقی دباؤ کی رفتار تقریباً خلاء میں روشنی کے رفتار کے4[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 برابر ہوتی ہے۔یوں ایک نینو سیکنڈ () میں بر
+قی دباؤ تقریباًمیٹر یعنی سنٹی میٹر فاصلہ طے کرتا ہے۔آئیے دیکھتے ہیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کہ اگر پچھلی مثال کو تبدیل کر کے اس میں نف
+ی گیٹ کی جگہ سینٹی میٹر برقی تار لگائی جائے اور ضرب گیٹ کی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جگہ بلا شرکت جمع گیٹ نصب کیا جئے تو دور کا
+ ردِ عمل کیسا ہوگا۔اس مثال کو شکل11.‏2 میں دکھایا گیا[]
+ []
+
+[199
+
 
 
 
@@ -3557,319 +2956,1411 @@ LaTeX Info: Redefining \ttfamily on input line 584.
 
 
 ]
-باب \arabicdigits{10}.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پختہ حافظہ، قابلِ تشکیل ترکیبی منطقی ادوا
-ر 1 کی پہلی قسم ہے۔بِٹ پتہ کے پختہ حافظہ میں تمام ممکنہارکانِ[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[][]\TU/JameelNooriNastaleeq(2)/m/n/10 اشارہگیٹ کے ایک داخلی پن پر مہیا کیا گیا
+ ہے جبکہ اسی اشارہ کوسنٹی میٹر لمبی برقی تار کی مدد سے دوسرے داخلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ضرب موجود ہوتے ہیں جنہیں جمع گیٹوں سے جوڑ
- کر درکار تفاعل حاصل کیا جاتا ہے۔پختہ حافظہ میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 پن پر بطور مہیا کیا گیا ہے۔شکل میں لمبے تا
+ر کو بل کھاتے لکیر سے دکھایا گیا ہے۔یوں اشارہ،گیٹ کے پن[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ضرب گیٹوں کے داخلی برقی جوڑ مقررہ جبکہ جم
-ع گیٹوں کے داخلی برقی جوڑ قابلِ تشکیل ہوتے ہیں۔ پختہ حافظہ کا[]
+Underfull \hbox (badness 2229) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تک تاخیر سے پہنچتا ہے۔اشارہبلند یا پست ہون
+ے کے ایک نینو سیکنڈ بعد اشارہبلند یا پست ہوتا ہے۔اگر گیٹ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دورانیہ رسائی 2، ترکیبی ادوار کے دورانیہ 
-ردِ عمل سے کئی گنا زیادہ ہوتا ہے۔یوں حافظہ کا بطور قابلِ تشکیل ترکیبی[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کے دورانیہ ردِ عمل کو نظر انداز کیا جائے ت
+و گیٹ کی مخارجہوگی اور اگر گیٹ کے دورانیہ ردِ عمل کو بھی مدِ نظر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 منطقی ادوار کے استعمال میں آہستا آہستا کم
-ی آ رہی ہے اور اس کی جگہ ایسے مربوط ادوار کا استعمال بڑھ رہا ہے جو خاص اسی[]
+Underfull \hbox (badness 3219) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 رکھا جائے تو اس کی مخارجہوگی۔خارجی اشارہ م
+یں دو بلند برقی لرزشیں دیکھنے کو آتی ہیں۔ان برقی لرزشوں کے دورانیہ،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مقصد سے بنائے گئے ہوں۔اس حصہ میں انہیں اد
-وار پر بحث ہو گا۔ قابلِ تشکیل ترکیبی منطقی ادوار میں پہلے[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 برقی تار میں اشارہ کے تاخیر کے برابر ہے۔یو
+ں اشارات کی راہ میں مختلف تاخیرات، معلومات کو ایک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ضرب گیٹوں کی ایک صف اور اس کے بعد، جمع گی
-ٹوں کی ایک صف ہوتی ہے جن کی مدد سے درکار تفاعل کو[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 لمحہ برقرار رکھنے کی صلاحیت رکھتی ہیں۔یوں 
+مائل تاخیرات کا کردار، حافظہ کی طرح کا ہے۔ آپ نے دیکھا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مجموعہ ارکانِ ضرب کی صورت میں حاصل کیا جا
-تا ہے۔ایسے قابلِ تشکیل ترکیبی منطقی ادوار کی پہلی قسم[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کہ مختلف طرز کے تاخیرات کی وجہ سے دور میں 
+برقی لرزشیں پیدا ہوتی ہیں۔اگر واپسیں اشارہ تاخیر سے پہنچ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ضرب گیٹوں کے صف میں داخلی برقی جوڑ مق
-ررہ ہوتے ہیں جبکہ دوسری صف کے جمع گیٹوں کے داخلی[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کر مخارج تبدیل کرے، تو دورانِ تاخیر مخارج 
+اور تاخیر کے بعد کا مخارج مختلف ہوں گے اور یوں یہ ایک غیر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 برقی جوڑ قابلِ تشکیل ہوتے ہیں۔پختہ حافظہ 
-بھی اسی قسم میں شمار ہوتا ہے۔ایسے ادوار کو قابلِ تشکیل جمع، ترکیبی[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 متوازن حالت کی صورت ہو گی۔ گیٹوں اور برقی 
+تاروں میں نا قابلِ معلوم تاخیرات کی وجہ سے جب بھی ایک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 منطقی ادوار کہتے ہیں۔ قابلِ تشکیل ترکیبی 
-منطقی ادوار کی دوسری قسم میں پہلی صف کے ضرب گیٹوں کے داخلی برقی جوڑ،[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 سے زیادہ اشارات بیک وقت تبدیل ہوں، یہ دریا
+فت کرنا تقریباً ناممکن ہو جاتا ہے کہ ان کے اثرات کیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قابلِ تشکیل ہوتے ہیں جبکہ دوسری صف کے جمع
- گیٹوں کے داخلی برقی جوڑ مقررہ ہوتے ہیں۔انہیں قابلِ تشکیل[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 مرتب ہوں گے۔یوں عموماً غیر معاصر ادوار بنا
+تے وقت اس بات کو یقینی بنایا جاتا ہے کہ کسی بھی وقت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ضرب، ترکیبی منطقی ادوار 3 کہتے ہیں۔انہیں 
-مخلوط ادوار کے پروگرامر کی مدد سے تشکیل دیا جاتا ہے۔ تیسری اور سب[]
+Underfull \hbox (badness 1173) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 صرف ایک ہی اشارہ تبدیل ہو۔مزید یہ کہ کسی ب
+ھی دو اشارت کے تبدیلی کے درمیان اتنا وقفہ دیا جاتا ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے لچک دار، قابلِ تشکیل ترکیبی منطقی ادوا
-ر کی قسم میں پہلے صف کے ضرب گیٹوں کے داخلی جوڑ اور دوسرے[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تو بغیر ساعت والے پلٹ پائے جائیں اور یا پھ
+ر ان میں ایک یا ایک سے زیادہ مخارج کو بطور واپسیں اشارات[]
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 2--7
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صف کے جمع گیٹوں کے داخلی جوڑ تمام کے تمام
- قابلِ تشکیل ہوتے ہیں۔انہیں قابلِ تشکیل ضرب- جمع ترکیبی منطقی[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 استعمال کیا گیا ہو۔جیسے اُوپر دیکھا گیا، و
+اپسیں اشارات ایک لمحہ کے لئے،مختلف تاخیرات کی بنا پر،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 10.‏1.‏1 قابلِ تشکیل ضرب ترکیبی منطقی ا
-دوار قابلِ تشکیل ضرب جوڑ کے ترکیبی منطقی ادوار کی عمومی ساخت[]
+Underfull \hbox (badness 10000) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 میں بغیر پلٹ والے ادوار پر غور کیا جائے گا
+۔پلٹ والے دور پر اگلے حصہ میں غور کیا جائے گا۔ 11.‏1.‏1 عبوری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 10.‏1 میں دکھائی گئی ہے جہاں دور کے چ
-ار مداخل اور تین مخارج ہیں۔ان ادوار میں عموماً کئی مخارج[]
+Underfull \hbox (badness 6141) in paragraph at lines 14--23
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جدول غیر معاصر ترتیبی ادوار پر غور ان کے ع
+بوری جدول 7 کی مدد سے کیا جاتا ہے۔اس طریقہ کو شکل 11.‏3[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دکھائے دور کے تین یکساں حصے ہیں۔ہر حصہ 
-میں دس داخلی تین ضرب گیٹ ہیں جو ایک جمع گیٹ کو جاتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[][]\TU/JameelNooriNastaleeq(2)/m/n/10 مساوات حاصل کرتے وقت واپسیں اشارات کو با
+لکل عام مداخل کی طرح سمجھا جاتا ہے۔یوں اس دور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔ضرب گیٹ کے مداخل قابلِ تشکیل ہیں جبکہ
- جمع گیٹ کے مداخل مقررہ ہیں۔دور کے کُل چار مداخل[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[][]\TU/JameelNooriNastaleeq(2)/m/n/10 جدول 11.‏1: دور کا بوولین جدول اس جدول س
+ے عبوری جدول کا حصول شکل 11.‏4 میں دکھایا گیا ہے۔ جدول[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں جنہیں وسطی ادوار سے گزار کر ان اشارت 
-کے تکملہ 5 بھی حاصل کر کے ضرب گیٹوں کو مہیا کئے گئے ہیں۔اس[]
+Underfull \hbox (badness 4217) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 11.‏1 میں متغیرہ حالتوں 8اورکی معلومات کو 
+پہلے علیحدہ علیحدہ کارناف نقشہ 9 کی طرز پر لکھا گیا ہے۔بوولین[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دور میں داخلی کُلجمع گیٹ ہیں۔یوں اس میں ی
-عنیفیوز ہیں۔ عام دستیاب ادوار، زیادہ مداخل اور مخارج رکھتے ہیں،[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جدول کی بجائے ان کا یوں لکھنا عبوری جدول ل
+کھنے میں آسانی پیدا کرتا ہے۔کارناف نقشہ میں جدول کے بائیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثلاً ان کے سولہ مداخل، آٹھ مخارج اور آٹھ
- یکساں اندرونی حصے ہو سکتے ہیں جن میں ہر حصہ آٹھ ضرب اور ایک جمع[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جانب قطار میں اندرونی مداخل، یعنی،کی قیمتی
+ں لکھی جاتی ہیں جبکہ جدول کی پہلی صف کے اوپر صف کی شکل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کیا جا سکتا ہے۔ آئیں اس دور کو استعمال کر
-تے مندرجہ ذیل تفاعل حاصل کرتے ہیں جنہیں ارکانِ ضرب کی[]
- []
-
-[195]
-Underfull \hbox (badness 3199) in paragraph at lines 24--25
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان مساواتوں میں کوئی بھی ضربی رکن تین س
-ے زیادہ مداخل پر مشتمل نہیں۔یوں اس قابلِ تشکیل ترکیبی منطقی دور کو یہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 میں بیرونی مداخل،یعنی، کی قیمت لکھی جاتی ہ
+ے۔عبوری جدول حاصل کرنے کے لئے متغیرہ حالاتاورکو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جمع ترکیبی منطقی ادوار ان ادوار میں بھی پ
-ہلے صف ضرب گیٹوں اور دوسری صف جمع گیٹوں کی ہوتی ہے البتہ ان میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 ساتھ ساتھ، کر کے، لکھا جاتا ہے۔شکل میں متغ
+یرہ حالتوں کے آخری صفوں کے دائیں قطاروں میںکی قیمت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 10.‏3 میں قابلِ تشکیل ضرب-جمع، ترکی
-بی منطقی دور دکھایا گیا ہے۔جیسے آپ دیکھ سکتے ہیں اس دور میں[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جبکہکی قیمتہے۔یوں عبوری جدول میں ان دو قیم
+توں کو ساتھ ساتھ، یعنی، کر کے لکھا گیا ہے۔شکل میں نکتہ دار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تمام ضرب گیٹوں کے داخلی جوڑ قابلِ تشکیل ہ
-یں اور اسی طرح اس کے تمام جمع گیٹوں کے داخلی جوڑ قابلِ تشکیل[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 لکیروں سے اس عمل کو دکھایا گیا ہے۔عبوری جد
+ول میں جہاں بھی جدول کے اندر متغیرہ حالت کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔اس دور میں آٹھ داخلی چہ ضرب گیٹ اور چ
-ہ داخلی تین جمع گیٹ ہیں۔یوں اس میں کُل جوڑہیں۔[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 قیمت اور اسی صف میں بائیں جانبکی قیمت یکسا
+ں ہوں، وہاں جدول میںکی قیمت کو دائرہ میں بند کر دیا گیا ہے۔دائرہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل میں صلیبی نشانات سے سالم جوڑ دکھائے گ
-ئے ہیں۔یوں اسے استعمال کرتے تین تفاعل حاصل کئے گئے[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 میں بند متغیرہ حالت متوازن حالت ہے جبکہ بق
+ایا حالتیں غیر متوازن یعنی عبوری ہیں۔ شکل 11.‏5[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔ایسا کرتے چار ضرب گیٹ اور تینوں جمع گ
-یٹ کی ضرورت پڑی ہے جبکہ دو ضرب گیٹ زیرِ استعمال نہیں[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 پر نظر رکھتے ہوئے عبوری جدول کے استعمال پر
+ غور کرتے ہیں۔اس کے کی صف اورکی قطار میں واقعہ خانے کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہاں دکھلایا قابلِ تشکیل ایڈ-جمع، ترکیب
-ی منطقی دور صرف سمجھانے کی خاطر تھا۔حقیقی ادوار میں کئی گنا زیادہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 ابتدائی خانہ10 کہہ کر ظاہر کیا گیا ہے۔اس خ
+انے میںاورکی صورت میں کی قیمت درج ہے۔تصور کریں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مداخل،مخارج اور گیٹ ہوں گے۔ثنائی تفاعل کی
- سادہ ترین شکل حاصل کر کے اسے مخلوط دور میں ڈالا جاتا[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کہ ابتدائی خانہ، دور کی ابتدائی حالت کو ظا
+ہر کرتا ہے۔ عبوری جدول میں جس خانے میںاور اسی خانے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہی منقطع ہونے والے فیوز کی معلومات فراہم 
-کرتا ہے۔فیوز مخلوط ادوار کے پروگرامر 6 کی مدد سے منقطع کئے جاتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کی صف میںکی قیمتیں یکساں ہوں وہاں دور متوا
+زن حالت میں ہوتا ہے۔عبوری جدول میں ایسے تمام خانوں کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔ 10.‏2 قابلِ تشکیل ترتیبی ادوار جیسا 
-اس باب کے شروع میں ذکر ہوا، وسیع پیمانے کے مخلوط ادوار 7 ترتیبی[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 اندراج گول دائروں میں بند کئے جاتے ہیں۔ اب
+ اگر رکھتے ہوئے بیرونی مداخلکی قیمتسے کر دی جائے تو عبوری جدول کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بناوٹ رکھتے ہیں۔قابلِ تشکیل ترکیبی ادوار 
-کے ساتھ پلٹ منسلک کر کے قابلِ تشکیل ترتیبی ادوار حاصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 برقرار رکھے گا۔یوں دور تاخیر کے بعد عبوری 
+جدول کےکی قطار اور کی صف میں دئے خانے تک پہنچ جائے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کئے جاتے ہیں۔اس طرح کے کئی یکساں حصے ایک 
-ہی مخلوط دور پر بنا کر مخلوط قابلِ تشکیل ترتیبی ادوار 8 بنائے[]
+Underfull \hbox (badness 5607) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 گا۔اس خانے میںاوردونوں کی قیمتیںہیں۔یہ ایک
+ متوازن حالت کو ظاہر کرتا ہے اور اسی لئے دائرہ میں بند دکھایا[]
  []
 
 
-Underfull \hbox (badness 4242) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتے ہیں۔ایسے ادوار میں تمام انفرادی حصوں
- کے مابین، قابلِ تشکیل ترکیبی ادوار کی طرح، برقی جوڑوں کا جال بچایا[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 گیا ہے۔شکل میں اس پورے مرحلہ کو پہلا قدم ل
+کھ کر ظاہر کیا گیا ہے۔پہلے قدم کو ظاہر کرنے والا[]
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتا ہے۔یوں بیرونی مداخل کے ساتھ ساتھ کسی
- بھی حصہ کا مخارج بطورِ مداخل استعمال کیا جا سکتا ہے۔ انتہائی[]
+Underfull \hbox (badness 8056) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تیر کا نشان، غیر متوازن خانہ سے گزر کر متو
+ازن خانے پر اختتام پذیر ہوا ہے۔ آپ نے دیکھا کہ متوازن حالت سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 وسیع پیمانے کے مخلوط ادوار 9 کی بناوٹ، صف
- در صف گیٹوں پر مبنی ہوتی ہے۔ایسے جدید مخلوط ادوار میں گیٹوں[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 شروع کرتے،کی قیمت تبدیل کرنے سے دور کچھ لم
+حات کے لئے غیر متوازن حالت اختیار کر گیا۔یہ صورت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی تعداد اربوں10 میں گنی جاتی ہے۔ انتہائی
- وسیع پیمانے کے مخلوط ادوار کا ذکر کرتے مُور11 کی پیشن گوئی کا ذکر کرنا لازم[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 زیادہ دیر برقرار نہیں رہی۔تاروں میں تاخیر 
+کے بعد، واپسیں اشارات تبدیل ہوئے اور دور ایک مرتبہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جنہوں نے سن 1965 میں پیشن گوئی کی کہ م
-خلوط ادوار میں گیٹوں کی تعداد ہر دو سالوں میں دگنی ہو گی۔یہ پیشن[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 دوبارہ متوازن حالت اختیار کر گیا۔عموماً اد
+وار کا عمل اسی طرح ہوتا ہے۔ اسی طرحرکھتے ہوئے اگرکی قیمتسےکی جائے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گوئی جسے مُور کا قانون 12 کہتے ہیں اب تک 
-درست ثابت ہوتا آ رہا ہے۔ انتہائی وسیع پیمانے کے مخلوط ادوار تشکیل[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تو عبوری جدول کے مطابق دور کی قطار اورکے خ
+انے میں درج حالت یعنیاختیار کرے گا۔ایک مرتبہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دینے کی خاطر، صارف درکار تفاعل میں گیٹوں 
-کے آپس میں جوڑ، مخلوط دور تیار کرنے والے صنعت کار کو[]
+Underfull \hbox (badness 1024) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 پھراورمختلف ہیں اور دور اس سے نکلنے کی کوش
+ش کرے گا۔برقی تاروں میں تاخیر کے بعد کے نئے قیمتوں کی خبرکی مقام[]
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فراہم کرتا ہے جو اس معلومات سے مخلوط دور 
-بناتے وقت اس میں درکار جوڑ بنا دیتا ہے۔کبھی کبار صنعت کار[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تک پہنچ جائے گی اورکی قیمت بھیہو جائے گی۔ی
+وں دور،کی قطار اور کی صف میں درج،بند دائرہ میں دکھائے متوازن[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صارف کے ضرورت کے مطابق مخلوط دور تیار کرت
-ا ہے۔ایسے تیار کئے جانے والے ادوار کو خصوصی استعمال کے مخلوط[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 حال، یعنی، اختیار کر لے گا۔اسی سلسلہ کو چل
+اتے ہوئے بار بار کی قیمت تبدیل کرنے سے دور ،، اورمتوازن حالت اختیار کرتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ادوار 13 کہتے ہیں۔ اس سلسلہ کی آخری قسم ج
-ائے استعمال پر تشکیل کے قابل گیٹوں کے صف 14 ہے جو دراصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 ہے۔کے بعد یہی ترتیب بار بار دہرائی جاتی ہے
+۔شکل میں تیر والے لکیروں سے یہ تمام مراحل دکھائے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 انتہائی وسیع پیمانے کے مخلوط ادوار کی وہ 
-قسم ہے جنہیں استعمال کرنے والا ازخود تشکیل دے سکتا ہے۔یہ بار بار تشکیل[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 گئے ہیں۔ کسی بھی دور کے متوازن حالت اور غی
+ر متوازن حالتیں لکھتے وقت اس دور کے حالت کوکی بجائےلکھا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دئے جانے کی صلاحیت رکھتے ہیں۔ ان ادوار می
-ں گیٹ، پلٹ، شناخت کار، عارضی حافظہ اور اس قسم کے دیگر[]
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جاتا ہے۔ اس طرح موجودہ دور کے متوازن حالتی
+ں ،،اورہیں جبکہ اس کے غیر متوازن حالتیں ،،اورہیں۔ عبوری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--46
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ادوار پائے جاتے ہیں۔جائے استعمال پر تشکیل
- کے قابل گیٹوں کے صف استعمال کرنے کی خاطر کمپیوٹر کا بھرپور[]
+Underfull \hbox (badness 1888) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جدول کے ہر صف میں عموماً کم از کم ایک متوا
+زن حالت ضرور پایا جاتا ہے۔ایسا نہ ہونے کی صورت میں دور[]
  []
 
-[196])
-Underfull \hbox (badness 10000) in paragraph at lines 47--195
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق: انٹرنیٹ سےمخلوط دور کے معلوماتی صف
-حات حاصل کریں۔(ا) اس میں کتنے یکساں حصے ہیں۔ (ب) کیا[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 اس صف میں پہنچ کر غیر متوازن صورت اختیار ک
+رے گا۔ عبوری جدول حاصل کرنے کے طریقہ کو یہاں[]
  []
 
-[197] [198
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 بیان کرتے ہیں۔ • تمام واپسیں اشارت اور واپ
+سیں دائروں کا تعین کریں • کسی بھی ترتیب سے واپسیں دائروں کے مخارج[]
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کو ،،وغیرہ جبکہ اسی ترتیب سے ان کے واپسیں 
+اشارات کو، ،وغیرہ سے شناخت کریں۔ • ان تمام مخارج کے بوولین[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تفاعل کو بیرونی اور اندرونی مداخل کی صورت 
+میں حاصل کریں۔ • ان تفاعل کے کارناف نقشے بنائیں۔ •[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 تمام کارناف نقشوں کو ایک عبوری جدول میں یک
+جا کریں۔جدول کے خانوں میں لکھیں جبکہ جدول کے بائیں[]
+ []
+
+
+Underfull \hbox (badness 4805) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جانب ہر صف میں اسی ترتیب سے لکھیں۔ • جہاںا
+ور اسی صف میںکی قیمت یکساں ہو، وہاںکو دائرہ میں بند کر دیں۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 جدول کے حصول کے بعد بیرونی مداخل تبدیل کر 
+کے دور کے عبوری حالتوں پر غور کیا جاسکتا ہے۔ 11.‏1.‏2 جدولِ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 بہاو شکل 11.‏4 میں عبوری جدول لکھتے وقت خا
+نوں میں دور کی حالتیں بوولین طرز پر لکھے گئے۔دو مخارج[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 کی صورت میں یہاں چار ممکنہ حالتیں ہیں یعنی
+ ،،اور۔ان چار حالتوں کو نام بھی دئے جا سکتے ہیں۔مثلاً جب[]
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 دورحال میں ہو تو کہا جائے کہ دور حالمیں ہے
+۔اسی طرحکو حال،کو حالاورکو حالکہا جا سکتا ہے۔ایسا کرنے سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 عبوری جدول سے حاصل جدول کو جدولِ بہاو 11 ک
+ہتے ہیں۔شکل 11.‏6 میں ایسا ہوا دکھایا گیا ہے۔ شکل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--53
+[]\TU/JameelNooriNastaleeq(2)/m/n/10 متوازن حالت جبکہ دوسری صف میں صرفمتوازن حا
+لت ہیں۔ ایسے جدول جن کے صفوں میں صرف ایک ہی[]
+ []
+
+
+LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/m/sl' undefined
+(Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
+e 53.
+
+[200]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/sl' will be
+(Font)              scaled to size 10.0pt on input line 53.
+ [201]
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏7 میں ایک ایسا جدولِ بہاو دکھای
+ا گیا ہے جس کے صفوں میں ایک سے زیادہ متوازن حالت پائے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتے ہیں۔مثلاً پہلی صف میں،اورمتوازن حالت
+ ہیں۔ایسے جدول کو غیر اولین جدولِ بہاو کہتے ہیں۔ جدولِ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بہاو سے دور حاصل کرنے کی خاطر پہلے عبوری 
+جدول حاصل کرتے ہیں۔جدول کے دو صف سے ظاہر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے کہ دور کے دو ممکنہ حالتیں ہیں۔دو ممکنہ
+ صورتوں کو ایک بِٹ کے عدد سے ظاہر کیا جا سکتا ہے۔یوں حالتکو اور[]
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 65--66
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس جدولِ بہاو کے استعمال پر شکل 11.‏9 ک
+ی مدد سے غور کرتے ہیں۔تصور کریں کہ بیرونی مداخلکی قیمتہے،یعنی، اور دور حالمیں[]
+
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔اگرکو تبدیل کئے بغیرکی قیمتکر دی جائے،
+یعنیکر دیا جائے، تو عبوری جدول کے مطابق دور عبوری طور پر غیر متوازن[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالاختیار کرتے ہوئے آخر کار متوازن حالاخت
+یار کر لے گا۔اب اگرکی قیمترکھتے ہوئےکی قیمت بھیکر دی جائے،یعنیکر دیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جائے، تو دور حالمیں ہی رہے گا۔اس اختتامی 
+خانہ کو شکل میں پہلا اختتامی خانہ کہا گیا ہے۔شکل میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ابتدائی خانہ سے پہلی اختتامی خانہ تک پہنچ
+نے کا عمل تین تیر والے لکیروں سے دکھایا گیا ہے جہاں پہلا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تیر متوازن حالسے عبوری حالکا حصول جبکہ دو
+سرا تیر یہاں سے متوازن حالکا حصول دکھلاتا ہے۔تیسرا تیر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دیکھتے ہیں کہ اگر ابتدائی خانہ سے شروع 
+کرتے وقت بجائےبرقرار رکھتے اور تبدیل کرنے کے ہمکی قیمتہی رکھتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوئےکی قیمتکرتے ہیں، یعنیکرتے ہیں۔ایسے کر
+تے جدولِ بہاو کے مطابق نظام حالہی برقرار رکھے گا۔اب اگرکی قیمت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بھیکر دی جائے۔یعنیکر دیا جائے، تو نظام کا
+ اختتامی حالہی رہے گا۔اس اختتامی خانے کو شکل میں دوسرا اختتامی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خانہ کہا گیا ہے۔ آپ نے دیکھا کہ اختتامی ح
+ال، بیرونی مداخل کے تبدیلی کے ترتیب پر منحصر ہے۔اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال میں ابتدائی بیرونی مداخلجبکہ اختتامی
+ بیرونی مداخلہیں۔بھولئے گا نہیں کہ ایسے ادوار کے صحیح استعمال میں ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے زیادہ بیرونی مداخل بیک وقت تبدیل نہیں 
+کئے جا سکتے۔یوںسے ابتدا کرتے ہوئے ہم سیدھاپر نہیں جا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سکتے۔ایسا کرنے سے، ناقابلِ معلوم تاخیرات 
+کی بنا پر، اختتامی حالت دریافت کرنا ناممکن ہوتا ہے۔ 11.‏1.‏3[]
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالتِ دوڑ حالتِ دوڑ 13 کا تذکرہ ایس-آر پل
+ٹ پر تبصرے کے وقت آیا تھا۔اس حصہ میں اس پر تفصیلاً[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گفتگو ہو گی۔حالتِ دوڑ اس صورت کو کہتے ہیں
+ جب کسی بیرونی اشارہ کے تبدیل ہونے سے دور کے ایک سے زیادہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالتیں تبدیل ہوں۔تاخیرات کی وجہ سے ایسی ص
+ورت میں حالتوں کی تبدیلی مکمل طور پر جاننا ناممکن[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہو جاتا ہے۔مثلاً دو حالتوں والے دور کی مو
+جودہ متوازن حالتہے۔بیرونی مداخل کی تبدیلی سے اس کے دونوں حالتیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تبدیل ہوتے ہیں اور آخر کار یہمتوازن حالت 
+اختیار کر لیتا ہے۔اگر پہلی واپسیں راہ میں تاخیر دوسری واپسیں راہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے تاخیر سے کم ہو تو دور متوازن حالت سے ع
+بوری حالت اور آخر کار متوازن حالاختیار کرے گا جبکہ اگر دوسری[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 راہ میں تاخیر پہلی راہ سے کم ہو تب حالسے 
+عبوری حالاور پھرہو گا۔لہٰذا آپ نے دیکھا کہ جس ترتیب سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالتیں تبدیل ہوتے ہیں اسے جاننا ممکن نہیں
+14۔ اگر عبوری حالتوں کے تبدیلی کی ترتیب حتمی حالت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متعین کرنے میں کردار ادا کرے اور یہ ممکن 
+ہو کہ دور دو مختلف حتمی متوازن حالت اختیار کر سکے، اس صورت[]
+ []
+
+[202]
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بحرانی دوڑ کی ایک مثال شکل 11.‏10 میں د
+کھائی گئی ہے۔یہاں حالت کو مکمل حالت کے طور یعنیلکھتے ہوئے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دور تین ممکنہ حالتوں یعنی،اور میں سے کسی 
+بھی حالت تک پہلے پہنچ سکتا ہے۔شکل میں یہ تینوں عبوری[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت پہلے صف میں دکھائے گئے ہیں۔اگر دورکے
+ عبوری حالت تک پہلے پہنچے تو یہ یہاں سے ہوتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوئے حتمی متوازن حالاختیار کر لے گا اور ی
+ہیں رہے گا۔اس حالت کو دوسری صف میں دائرہ میں بند دکھایا گیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔اگر دونوں واپسیں راہ میں مائل تاخیرات 
+بالکل برابر ہوں تو دورعبوری حالت میں پہلے پہنچے گا اور یہاں سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتے ہوئے حتمی متوازن حالاختیار کر لے گا 
+اور یہیں رہے گا۔اس حتمی متوازن حالت کو تیسری صف میں دائرہ میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 رواں ہو گا لیکن آخری صف ازخود عبوری حالہے
+۔یوں دور عبوری حالسے بھی گزر کر آخر کار تیسرے صف کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حتمی متوازن حالتک پہنچے گا۔اس مثال میں دو
+ حتمی حالتیں ممکن ہیں۔یہ دریافت کرنا ناممکن ہے کہ دور ان میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے کس حتمی حالت تک پہنچتا ہے۔اس شکل میں ب
+ائیں جانب کی قطار خالی اس لئے رکھی گئی ہے کہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہم صرفسے کی جانب جاتے دور پر غور کر رہے ہ
+یں۔اس صورت میں ان خانوں کے اندراج کی ہمیں ضرورت نہیں۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏11 میں بحرانی دوڑ کی دوسری مثال د
+کھائی گئی ہے جہاں تین ممکنہ حتمی حالتیں پائے جاتے ہیں۔اگر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مکمل متوازن حالسے ابتدا کرتے ہوئے بیرونی 
+مداخلکی قیمتکر دی جائے تو یہ دور حتمی حالکی طرف دوڑ لگائے گا۔بالکل اُوپر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال کی طرح، تین ممکنہ عبوری صورتیں ہیں۔ا
+یک عبوری صورتہے جہاں سے یہ دوسری صف میں دکھائے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حتمی متوازن حالتک پہنچتا ہے۔دوسری عبوری ص
+ورتہے جہاں سے یہ تیسری صف کے حتمی متوازن حالپہنچتا ہے اور[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تیسری عبوری صورتہے جہاں سے یہ آخری صف میں
+ دکھائے حتمی متوازن حالت تک پہنچتا ہے۔اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال میں تین ممکنہ حتمی متوازن حالتیں ہیں
+۔یہ جاننا ناممکن ہے کہ ان میں سے دور کس حالت کو اختیار[]
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 83--88
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک ممکنہ عبوری حال ہے جہاں سے دور دوسر
+ی صف کے ایک اور عبوری حالاور یہاں سے تیسری صف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جہاں سے یہ تیسری صف کے عبوری حالسے ہوتے ہ
+وئے آخر کار آخری صف کے حتمی متوازن حالتک پہنچتا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ تیسری ممکنہ عبوری حالہے جہاں سے یہ ہو
+تے ہوئے آخری صف کے حتمی متوازن حالتک پہنچ جاتا ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس مثال میں اگرچہ تین مختلف ممکنات موجود 
+ہیں لیکن حتمی متوازن حالت سب کا ایک ہی ہے۔یوں یہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 غیر بحرانی دوڑ ہے۔ اگر دور مخصوص اور منفر
+د عبوری حالتوں سے گزر کر حتمی متوازن صورت اختیار کرتا ہو تو اسے پھیرا 17[]
+ []
+
+[203]
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان اشکال پر غور کریں۔ان میں دوڑ کی حالت
+ نہیں پائی جاتی چونکہ ایک وقت میں صرف ایک مخارج[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت تبدیل کرتا ہے البتہ حتمی حالت تک پہن
+چنے کی خاطر دور کو مخصوص اور منفرد عبوری حالتوں سے گزرنا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتا ہے۔ شکل کے حصہ الف میں دورسے عبوری ح
+الت اور پھرسے حتمی حالتپہنچتا ہے۔اسی طرح حصہ با[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 11.‏1.‏4 توازن اور ارتعاش ایسے دور جو پ
+ھیرے لگاتے ہوئے کسی بھی حتمی متوازن حالت تک نہ پہنچ پائے کو غیر متوازن[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دور 18 کہتے ہیں۔شکل 11.‏14 میں اس کی مثال
+ دکھائی گئی ہے۔اگر بیرونی مداخل کوکیا جائے تو دور ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری حالت سے دوسری عبوری حالت منتقل ہوتا
+ رہتا ہے مگر کسی متوازن حالت تک نہیں پہنچ پاتا۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس طرح کے ادوار بطور مرتعش 19 استعمال کئے
+ جاتے ہیں۔بطور مرتعش استعمال ہونے والے ادوار کے علاوہ[]
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 97--102
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 11.‏2 حالتِ دوڑ سے پاک ثنائی علامتوں کا
+ تقرر حالتِ دوڑ کی صورت اس وقت پیدا ہوتی ہے جب ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے زیادہ مخارج بیک وقت حالت تبدیل کرنے کی
+ کوشش کریں۔بحرانی دوڑ کی صورت میں ادوار قابلِ استعمال[]
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کو استعمال کرتے وقت ان کے مداخل پر یہ شرط
+ لاگو کی جاتی ہے کہ کسی بھی وقت صرف ایک مداخل حالت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تبدیل کر سکتا ہے لہٰذا ایک سے زیادہ مداخل
+ کی تبدیلی کی فقر اس حصہ کو پڑھتے ہوئے نہ کریں۔ جن ادوار میں[]
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک وقت پر صرف ایک مخارج حالت تبدیل کرنے 
+کی کوشش کرے، ایسے ادوار حالتِ دوڑ سے دوچار نہیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 درج حالتوں کو ثنائی علامتیں تعین کی جاتی 
+ہیں۔اگر ایسے حالتیں جن کے مابین، عبوری جدول میں، تبادلہ پایا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جائے کو ہمسایہ ثنائی علامتیں تعین کی جائی
+ں تو دور بحرانی دوڑ سے دو چار نہیں ہوگا۔دو ثنائی اعداد کو اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صورت ہمسایہ اعداد کہا جاتا ہے جب ان میں ص
+رف ایک ہندسہ مختلف ہو۔یوںاورہمسایہ اعداد 20[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں چونکہ ان اعداد میں صرف ایک بِٹ مختلف 
+ہے۔اسی طرحاورآپس میں ہمسایہ ہیں جبکہاورآپس میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس شکل میں کُل چار صف ہیں۔یوں دو بِٹ مت
+غیرہ حالت 21 سے اس کے چار ممکنہ حالت بیان[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کئے جا سکتے ہیں۔ہم حالکے لئے، حالت کے لئے
+،حالتکے لئےاور حالتکے لئےکی متغیرہ حالتیں منتخب کرتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔ایسا کرنے سے دیکھتے ہیں کہ کیا نتائج 
+رو نما ہوتے ہیں۔ اس شکل کی پہلی صف میں اگرکی قیمتسےکی جائے تو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالسے تبدیل ہو کرہو جائے گا۔ہم دیکھتے ہیں
+ کہ متغیرہ حالاتکی قیمتسےہو جائے گی۔یوں متغیرہ حالت کی صرف[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک بِٹ تبدیل ہوتی ہے اور یوں اس صورت میں
+ حالتِ دوڑ پیدا نہیں ہوتا۔اب دیکھتے ہیں کہ اگر شکل کی پہلی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صف میںکی قیمتسے کی جائے تو حالسے تبدیل ہو
+ کرہو جائے گا۔یوں ہم دیکھتے ہیں کہ متغیرہ حالاتکی قیمتسےہونے کی کوشش[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرے گی جس سے حالتِ دوڑ پیدا ہوتا ہے۔یوں ہ
+م دیکھتے ہیں کہ دو بِٹ کی متغیرہ حالت کے تقرر سے حالتِ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دوڑ سے بچھنا ممکن نہیں۔ایسی صورت میں دو س
+ے زیادہ بِٹ پر مبنی متغیرہ حالت استعمال کر کے دیکھا جاتا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے کہ آیا حالتِ دوڑ سے چٹکارا ممکن ہے۔ کب
+ھی کبھار ایسا ممکن ہوتا ہے کہ چار صف کی عبوری جدول میں دو بِٹ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متغیرہ حالت اس طرح تقرر کئے جائیں کہ حالت
+ِ دوڑ پیدا نہ ہو۔شکل کے حصہ با میں متغیرہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت کی ترتیب بدل کر ایسا کرنے کی کوشش کی
+ گئی ہے جہاں آپ دیکھ سکتے ہیں کہ پہلی صف سے شروع کرتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالسے حالتقرری سے کی قیمتسے ہوتی ہے جبکہ 
+حالسے حالتقرری سے کی قیمتسےہوتی ہے۔دونوں صورتوں میں چونکہ متغیرہ[]
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت کی صرف ایک بِٹ تبدیل ہوتی ہے لہٰذا پ
+ہلی صف میں حالتِ دوڑ کا کوئی امکان نہیں۔البتہ دوسری[]
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صف کو دیکھتے ہوئے اگر مداخل کی قیمتسےکی ج
+ائے تو حالسے تبدیل ہو کرہو جائے گا اور اس شکل میں متغیرہ حالتکی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قیمتسےہو جائے گی۔اس صورت متغیرہ حالت کے د
+و بِٹ بیک وقت تبدیل ہوتے ہیں جو کہ حالتِ دوڑ پیدا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتا ہے۔ ان دو صورتوں سے ظاہر ہے کہ موجود
+ہ مسئلہ میں دو بِٹ کے متغیرہ حالت کی تقرری سے حالتِ دوڑ سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نجات حاصل کرنا ممکن نہیں۔ایسی صورت میں حا
+لتِ دوڑ سے پاک متغیرہ حالت کے لئے ہم ایک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بلند بِٹ تقرری 22 کا طریقہ استعمال کریں گ
+ے۔یہ طریقہ استعمال میں نہایت آسان ہے۔آئیے اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ رکھا گیا ہے۔مزید یہ کہ ہر حالت کے متغ
+یرہ حالت کی تقرری یوں کی گئی ہے کہ اس میں صرف[]
+ []
+
+[204]
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏16 میں جدول کی پہلی صف میں اگر 
+مداخل کی قیمتسےکی جائے تو دور حالسے حالمنتقل ہوتا ہے۔یوں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صورت سے یوں بچا جا سکتا ہے کہ جدول میں ای
+ک نیا عبوری حال،، شامل کیا جائے اور اس عبوری[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت کو استعمال کرتے، حالسے عبوری حالکے ذ
+ریعہ حالتک پہنچا جائے۔عبوری حالکا متغیرہ حالت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یوں مقرر کیا جاتا ہے کہ یہ حالاور حالدونو
+ں کا ہمسایہ عدد ہو۔ایسا عدد ہے۔یوں حالکا متغیرہ حالمقرر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کیا جاتا ہے اور جدول کو تبدیل کر کےکی قطا
+ر کے حالکی صف میںکو تبدیل کر کےلکھ لیا جات ہے جبکہ اسی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس شکل کی پہلی صف میں مداخل کی سےتبدیلی
+ سے مشین حالسے عبوری حالاختیار کرتے ہوئے آخر کار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حتمی متوازن حالتک پہنچتا ہے۔شکل میں نکتہ 
+دار تیر کی لکیروں سے یہ عمل دکھایا گیا ہے۔آپ دیکھ سکتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں کہ اس پورے عمل میں کسی ایک قدم پر متغ
+یرہ حالت کا صرف ایک بِٹ تبدیل ہوتا ہے اور یوں یہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالتِ دوڑ سے پاک ہے۔شکل میںکے صف میں بقای
+ا خانے خالی رکھے گئے ہیں۔ان میں سے کچھ خانے زیرِ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 استعمال آئیں گے اور کچھ نہیں۔زیرِ استعمال
+ نہ آنے والے خانے خالی رکھے جاتے ہیں۔ان کی قیمت غیر ضروری 23[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں آپ دیکھ سکتے ہیں کہ ایسا کرنے سے مشین
+ حالسے حالمنتقل ہونا چاہتا ہے۔متغیرہ حالت کو دیکھتے ہوئے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ بات واضح ہے کہ یہسے تبدیل ہو کرہونا چا
+ہتا ہے۔البتہ ایسا کرنے سے حالتِ دوڑ پیدا ہوتا ہے جسے ہم بالکل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پچھلی صورت کی طرح حل کریں گے۔ اس صورت سے 
+یوں بچا جا سکتا ہے کہ جدول میں ایک نیا عبوری[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال،، شامل کیا جائے اور اس عبوری حالت کو 
+استعمال کرتے، حالسے عبوری حالکے ذریعہ حالتک[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچا جائے۔عبوری حالکا متغیرہ حالت یوں مق
+رر کیا جاتا ہے کہ یہ حالاور حالدونوں کا ہمسایہ عدد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہو۔ایسا عدد ہے۔یوں حالکا متغیرہ حالمقرر ک
+یا جاتا ہے اور جدول کو تبدیل کر کےکی قطار کے حالکی صف میںکو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تبدیل کر کےلکھ لیا جاتا ہے جبکہ اسی قطار 
+میں حالکی صف میںلکھا جاتا ہے۔ایسا کرنے سے جدول تبدیل ہو کر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہی طریقہ کار تمام خانوں کے لئے دہرایا 
+جاتا ہے۔ایسا کرنے سے شکل 11.‏19 حاصل ہوتا ہے۔طلبہ سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گزارش کی جاتی ہے کہ وہ اس جدول کو از خود 
+حاصل کریں۔تسلی کر لیں کہ اس جدول میں کسی بھی حالت سے[]
+ []
+
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [205]
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 11.‏3 پلٹوں کا عبوری جدول کی مدد سے تجز
+یہ عبوری جدول کے استعمال سے اس حصہ میں پلٹوں والے ادوار کا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تجزیہ کیا جائے گا۔چند مثالوں کے بعد حصہ 1
+1.‏3.‏3 میں اس طریقہ کار کا قدم با قدم طریقہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دیا جائے گا۔ 11.‏3.‏1 ایس آر پلٹ عبوری جد
+ول کے استعمال سے سب سے پہلے ایس-آر پلٹ پر غور کرتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔شکل 11.‏20 میں اُوپر جانب ایس-آر پلٹ 
+دکھایا گیا ہے۔اسی کے نیچے اسے واپسیں دور 24 کی طرح دکھایا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل میں متغیرہ حالکو بطور واپسیں اشارہا
+ستعمال کیا گیا ہے۔یوں دور میں متغیرہ حال، اندرونی مداخل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ اور دو بیرونی مداخل ہیں۔انہیں استعما
+ل کرتے، شکل میں دکھائی، عبوری جدول حاصل کی گئی ہے۔آئیے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس جدول سے ظاہر ہے کہ نفی۔جمع گیٹ پر مب
+نی ایس-آر پلٹ کا صحیح استعمال تب ممکن ہے جب اس کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دونوں مداخل کسی صورت اکٹھے بلند نہ ہوں چو
+نکہ ایسا ہونے سے پلٹ کے مخارجاوردونوں پست ہو جاتے ہیں[]
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 133--134
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ کسی بھی پلٹ کے مخارج کا ہر صورت آپس 
+میں متضاد رہنا ضروری ہے۔اس شرط کو یوں بیان کیا جا سکتا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏21 کو دیکھتے آگے پڑھیں۔عبوری جد
+ول میںکی قطار میں متوازن حالکی صف میں پایا جاتا ہے جہاں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متغیرہ حالیعنی پست ہے۔اگر کیا جئے تو عبور
+ی جدول کے مطابق متغیرہ حالت پست ہی رہے گا۔اس عمل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کو شکل کے حصہ الف میں نکتہ دار تیر سے دکھ
+ایا گیا ہے۔ اسی طرح کی صورت میں پلٹ کا متوازن بلند[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالت کی صف میں پایا جاتا ہے۔اگرکیا جائے ت
+و عبوری جدول کے مطابق پلٹ بلند حالت میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہی رہتا ہے جیسے شکل کے حصہ با میں دکھایا 
+گیا ہے۔یہ دونوں اعمال پلٹ کے بوولین جدول سے بھی وضح ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اب دیکھتے ہیں کہسےکرنے سے کیا صورت پیدا ہ
+وتی ہے۔پہلے تو یاد دہانی کراتے چلیں کہ اس طرح کے ادوار کو بنیادی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 طریقِ کار 25 کے طرز پر چلایا جاتا ہے جہاں
+ ایک سے زیادہ بیرونی مداخل تبدیل کرنے کی اجازت نہیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتی۔بہرحال پھر بھی دیکھتے ہیں کہ ایسا کر
+نے سے کیا مسائل کھڑے ہوتے ہیں۔ کرنے سے پہلے تو بوولین جدول[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے مطابقاوردونوں پست ہوتے ہیں۔اس طرح یہ آ
+پس میں متضاد حالت میں نہیں ہوتے جبکہ کسی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بھی پلٹ کے لئے یہ لازم ہے کہ اس کے دونوں 
+مخارج ہر وقت متضاد حالت میں ہوں۔دوسری بات یہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کہ عبوری جدول کو دیکھتے ہوئے اگرپہلے پست 
+حالت اختیار کر لے تو حتمی حالہو گا جبکہ اگر پہلے پست ہو پائے تب حتمی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--142
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالہو گا۔چونکہ یہ قبل از وقت معلوم کرنا ن
+اممکن ہے کہ ان میں پہلے کون پست حالت اختیار کرے گا لہٰذا یہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 11.‏3.‏2 ساعت کے کنارے چلتا ڈی پلٹ شکل 
+11.‏22 میں ساعت کے کنارہ چلتا ڈی پلٹ دکھایا گیا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ڈی پلٹ میں اندرونی واپسیں دور پایا جات
+ا ہے جس کے اندرونی متغیرہ حالاتاورہیں26۔یوں اس کے واپسیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اشاراتاورہیں۔شکل میں دور کو دوبارہ واپسیں
+ دور کی طرز پر بنایا گیا ہے تا کہ واپسیں اشارات اورکی پہچان آسان[]
+ []
+
+[206]
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏23 میں ان مساوات سے حاصلاورکے ب
+وولین جدول کو کارناف نقشہ کی طرح لکھ کر عبوری جدول[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 تصور کریں کہ جس لمحہ پلٹ کو برقی طاقت م
+ہیا کر کے زندہ کیا جاتا ہے اس لمحہ ساعت،یعنی، اور بیرونی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مداخل، یعنی،دونوں پست ہیں۔اس صورت عبوری ج
+دول کے مطابق دورکی قطار میں ہوگا۔اس قطار میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین خانے عبوری متغیرہ حالت کو ظاہر کرتے ہ
+یں۔یہ تین خانے،اورہیں۔ان تینوں خانوں میں عبوری[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالہے۔چوتھا خانہ،یعنی، متوازن حالت کو ظاہ
+ر کرتا ہے اور اس میں متوازن حالہے۔یوں اگر برقی طاقت کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فراہمی کے لمحہ تاخیرات ایسے ہوں کہ دور ان
+ تین عبوری خانوں میں کسی ایک میں داخل ہوتا ہے تو یہاں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے جلد وہ کی صف پہنچ کر متوازن حالت اختیا
+ر کر لے گا۔اگر زندہ ہوتے ہی دور سیدھاخانہ میں داخل ہو تب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ یہی رہے گا۔ اس کے برعکس برقی طاقت مہیا
+ کرنے کے لمحہ اگراورہوں تو عبوری جدول کے مطابق دوریاکے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متوازن حالت تک پہنچ کر یہی رہے گا جبکہاور
+کی صورت میں دور یامیں ہو گا۔ پست ساعت کی صورت میں[]
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متغیرہ حالاتکی قیمترہتی ہے۔عبوری جدول میں
+اورکی دو قطاریں اس بات کو ظاہر کرتی ہیں جہاں تمامکی قیمتیںہیں۔ہم[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جانتے ہیں کہ ایس-آر پلٹ کی دونوں مداخل بل
+ند ہونے کی صورت میں پلٹ اپنی حالت برقرار رکھتا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔یوں شکل 11.‏22 میں اس صورت میں خارجی پ
+لٹ اپنی حالت برقرار رکھے گا۔ پست ساعت،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یعنی، اور پست،یعنی،کی صورت میں متوازن متغ
+یرہ حالت حاصل کرنے کی خاطر ہم عبوری جدول کےکی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قطار میں دیکھتے ہیں جہاں ہمیں مکمل حالبطو
+ر متوازن حالت ملتا ہے۔جدول کے اس خانے میں لکھ کر اسے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 واضح کیا گیا ہے۔یہاںہونے کی وجہ سے خارجی 
+پلٹ اپنی حالت برقرار رکھے گا۔ پست ساعت اور بلندکی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صورت میںکی قطار میں متوازن حالپایا جاتا ہ
+ے جہاںہی ہے اور یوں خارجی پلٹ اپنی حالت برقرار رکھے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گا۔جدول کے اس خانے میں لکھ کر اسے واضح کی
+ا گیا ہے۔ تصور کریں کہ دور کے متوازن حال،یعنی خانہ،میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتے ہوئے بیرونی مداخلبلند ہوتا ہے۔بیرونی
+ مداخلجس لمحہ سےہوتا ہے اس لمحہ کو ساعت کا کنارہ چڑھائی 27[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کہتے ہیں۔ یوںکی صورت میں ساعت کے کنارہ چڑ
+ھائی آنے سے دور خانہکی صف میں رہتے ہوئے،سےکی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قطار میں داخل ہو کر عبوری صورتاختیار کرتا
+ ہے۔اس عبوری حالت کو خانہ کہا گیا ہے۔یہاں سے یہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جلد حتمی متوازن حالتک پہنچتا ہے۔اس خانہ ک
+وکہا گیا ہےحال میں متغیرہ حالت ہیں۔خارجی پلٹکی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خانہتک تیر والے لکیر سے دکھایا گیا ہے۔اس 
+پورے کا نچوڑ یہ ہے کہ کی صورت میں ساعت کے کنارہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چڑھائی پر ہو جائے گا یعنی ڈی پلٹ پست حالت
+ اختیار کر لیتا ہے۔ اس پورے عمل پر دوبارہ غور کریں۔ساعت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے کنارہ چڑھائی آتے ہی دور عبوری حالاور پ
+ھر متوازن حالاختیار کرتا ہے۔ان دونوں حالت میںہی رہتے ہیں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اور یوں عبوری حالت سے گزرتے ہوئے کسی قسم 
+کی لرزش پیدا نہیں ہوتی۔آپ نیچے پڑھتے ہوئے ہر قدم پر تسلی کر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 لیں کہ کسی بھی عبوری حالت سے گزرتے وقتکی 
+قیمت وہی ہوتی ہے جو اس قدم کے حتمی حالت میں گی۔یوں ایسے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 لمحات پر لرزش سے کسی قسم کی غیر یقینی صور
+ت پیدا نہیں ہوتی۔ اسی طرح مکمل حالمیں موجود دور، ساعت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے کنارہ چڑھائی آتے، عبوری حالسے ہوتے ہوئ
+ے متوازن حالاختیار کرے گا۔اس قدم کو شکل میں خانہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے خانہکے راستے خانہتک تیر والے لکیر سے د
+کھایا گیا ہے۔یہ قدم بلند بیرونی مداخل یعنیکی صورت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ساعت کے کنارہ چڑھائی پر ہونے کا عمل ہ
+ے جس سے داخلی پلٹ بلند ہو جائے گا اور یوں ڈی پلٹ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کاہو جائے گا۔ ساعت کے کنارہ اترائی کے عمل
+ کو نکتہ دار تیر والے لکیروں سے دکھایا گیا ہے۔انہیں آپ خود[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سمجھ سکتے ہیں۔یہ دونوں لکیریں اس بات کو و
+اضح کرتی ہیں کہ ساعت کے کنارہ اترائی پر عبوری حالت اور حتمی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متوازن حالت دونوں میں ہوتا ہے۔ہونے کی صور
+ت میں بیرونی پلٹ اپنی حالت برقرار رکھتا ہے اور یوں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے کنارہ اترائی پر ڈی پلٹ کے حال میں
+ کسی قسم کی تبدیلی رو نما نہیں ہوتی۔ ایک آخری بات اس[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ کے حوالہ سے کرتے ہیں۔شکل 11.‏22 میں ا
+شارہکوپیدا کرنے والے نفی۔ضرب گیٹ کو داخلی اشارہ کے طور[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مہیا کیا گیا ہے۔اس بات سے حتمی یقین کرایا
+ جاتا ہے کہاورکسی صورت اکٹھے پست نہیں ہو سکتے۔یاد رہے کہ ایسا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہونے سے بیرونی پلٹ کے دونوں مخارج بلند ہو
+ جائیں گے جو کہ ناقابلِ قبول صورت ہو گی۔یوں عبوری جدول[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میںاورکے خانے کوئی معنی نہیں رکھتے۔ان خان
+وں کولکھ کر واضح کیا گیا ہے۔ 11.‏3.‏3 ایس-آر پلٹوں والے غیر معاصر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ادوار کا قدم با قدم تجزیہ اُوپر دئے مثالو
+ں میں استعمال کئے طریقہ کار کو یہاں بیان کرتے ہیں۔پلٹ کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اپنے واپسیں اشارات کو نظر انداز کرتے ہیں۔
+ • تمام پلٹوں کے مخارج کوسے ظاہر کریں اور اسی طرح ان میں سے جو[]
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 واپسیں اشارات کے طور استعمال کئے گئے ہوں 
+انہیںسے ظاہر کریں جہاںہے۔ • تمام پلٹوں کے اورمداخل کے مساوات[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حاصل کریں۔ • نفی۔جمع گیٹ پر مبنی ایس-آر پ
+لٹوں کے لئے تسلی کر لیں کہ ہے جبکہ نفی۔ضرب گیٹوں پر مبنی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایس-آر پلٹوں کے لئےہونا ضروری ہے۔ایسا نہ 
+ہونے کی صورت میں پلٹ غلط نتائج دے سکتا ہے۔ • اورکو دیکھتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوئے تمام پلٹوں کےحاصل کریں۔ • ہرکو کارنا
+ف نقشہ کے طرز پر بیان کریں۔ان نقشوں کے بائیں جانب قطار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں واپسیں اشاراتجبکہ نقشوں کے اُوپر صف م
+یں بیرونی مداخللکھیں جہاںسے مرادجبکہسے مرادہے۔ • ان تمام[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--175
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نقشوں کو عبوری جدول میں یکجا کریں۔نقشوں ک
+ے خانوں میںلکھیں، جہاں سے مرادہے۔ • وہ خانے جن میںہے، متوازن[]
+ []
+
+[207]) [208] (./answer.tex) [209
 
 
 
 
-] (./answer.tex) [199] [200
+] [210
 
 
 ]
@@ -4641,25 +5132,26 @@ LaTeX Info: Redefining \rmfamily on input line 127.
 LaTeX Info: Redefining \sffamily on input line 127.
 LaTeX Info: Redefining \ttfamily on input line 127.
 ) (./tex/memory.aux
-LaTeX Info: Redefining \rmfamily on input line 45.
-LaTeX Info: Redefining \sffamily on input line 45.
-LaTeX Info: Redefining \ttfamily on input line 45.
-LaTeX Info: Redefining \rmfamily on input line 53.
-LaTeX Info: Redefining \sffamily on input line 53.
-LaTeX Info: Redefining \ttfamily on input line 53.
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+LaTeX Info: Redefining \rmfamily on input line 54.
+LaTeX Info: Redefining \sffamily on input line 54.
+LaTeX Info: Redefining \ttfamily on input line 54.
 )
-(./tex/programmableLogicDevices.aux))
+(./tex/programmableLogicDevices.aux)
+(./tex/asynchronousCombinationalCircuits.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 60717 strings out of 476191
- 1643879 string characters out of 9562072
- 2468214 words of memory out of 7000000
- 80328 multiletter control sequences out of 15000+600000
- 489920 words of font info for 138 fonts, out of 8000000 for 9000
+ 60706 strings out of 476191
+ 1644333 string characters out of 9562072
+ 2475929 words of memory out of 7000000
+ 80318 multiletter control sequences out of 15000+600000
+ 479762 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,9n,118p,2641b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,9n,118p,2641b,1063s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (13 pages).
+Output written on digitalCircuitsLatex.pdf (15 pages).
