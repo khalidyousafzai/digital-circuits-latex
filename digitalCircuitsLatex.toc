@@ -1,6 +1,6 @@
 \selectlanguage *{urdu}
-\contentsline {chapter}{دیباچہ}{vii}{}%
-\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{ix}{}%
+\contentsline {chapter}{دیباچہ}{ix}{}%
+\contentsline {chapter}{میری پہلی کتاب کا دیباچہ}{xi}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {1}} ثنائی نظام}{\arabicdigits {1}}{}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}اعشاری نظامِ گنتی}{\arabicdigits {1}}{}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}ہشتمی نظام گنتی}{\arabicdigits {3}}{}%
@@ -438,12 +438,12 @@
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}ساعت}{\arabicdigits {127}}{}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {4}}متمم ضرب گیٹ ایس آر پلٹ کار}{\arabicdigits {128}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {1}}غیر فعال مداخل پلٹ کار، حال برقرار رکھتا ہے}{\arabicdigits {128}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {2}}مداخل \:\(S\)\: فعال کرنے سے پلٹ کار بلند حال اختیار کرتا ہے}{\arabicdigits {130}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {1}}غیر فعال مداخل پلٹ کار، حال برقرار رکھتا ہے}{\arabicdigits {129}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {2}}مداخل \:\(S\)\: فعال کرنے سے پلٹ کار بلند حال اختیار کرتا ہے}{\arabicdigits {129}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {3}}مداخل \:\(\overline {R}\)\: فعال کرنے سے پلٹ کار پست حال اختیار کرتا ہے}{\arabicdigits {130}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {4}}حال دوڑ}{\arabicdigits {131}}{}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}زیادہ مداخل پلٹ کار}{\arabicdigits {131}}{}%
@@ -589,9 +589,12 @@
 \contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {191}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {191}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {192}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {195}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {1}}قابل تشکیل ضرب ترکیبی منطقی ادوار}{\arabicdigits {196}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {2}}قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}{\arabicdigits {196}}{}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} قابل تشکیل ترتیبی ادوار}{\arabicdigits {197}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {11}} غیر معاصر ترتیبی ادوار }{\arabicdigits {199}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {209}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {10}} غیر معاصر ترتیبی ادوار }{\arabicdigits {195}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} تجزیہ}{\arabicdigits {197}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {197}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {2}} حالت دوڑ}{\arabicdigits {200}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {207}}{}%
