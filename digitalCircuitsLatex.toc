@@ -590,11 +590,12 @@
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {191}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {192}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {10}} غیر معاصر ترتیبی ادوار }{\arabicdigits {195}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} تجزیہ}{\arabicdigits {197}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {197}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} تجزیہ}{\arabicdigits {197}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {197}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {2}} حالت دوڑ}{\arabicdigits {200}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {199}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {200}}{}%
 \contentsline {chapter}{جوابات}{\arabicdigits {207}}{}%
