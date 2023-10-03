@@ -23,4 +23,12 @@
 \indexentry{table!flow}{\arabicdigits {199}}
 \indexentry{جدول!بہاو کا}{\arabicdigits {199}}
 \indexentry{flow table!primitive}{\arabicdigits {199}}
-\indexentry{اوّلی بہاو کا جدول}{\arabicdigits {199}}
+\indexentry{بہاو کا جدول!اوّلی}{\arabicdigits {199}}
+\indexentry{بہاو کا جدول!غیر اوّلی}{\arabicdigits {200}}
+\indexentry{flow table!non primitive}{\arabicdigits {200}}
+\indexentry{race condition}{\arabicdigits {200}}
+\indexentry{حالت دوڑ}{\arabicdigits {200}}
+\indexentry{race!critical}{\arabicdigits {201}}
+\indexentry{دوڑ!بحرانی}{\arabicdigits {201}}
+\indexentry{race!non-critical}{\arabicdigits {201}}
+\indexentry{دوڑ!غیر بحرانی}{\arabicdigits {201}}
