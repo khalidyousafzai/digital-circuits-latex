@@ -598,4 +598,9 @@
 \selectlanguage *{urdu}
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {199}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {200}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {207}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {4}}توازن اور ارتعاش }{\arabicdigits {202}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {202}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {204}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {204}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {2}}ایس-آر پلٹوں والے غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {207}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {209}}{}%
