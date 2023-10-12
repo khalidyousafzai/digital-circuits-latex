@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  5 OCT 2023 14:25
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  12 OCT 2023 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-2023105865.tex)...disabled (restricted).
+runsystem(touch w18-test-20231012654.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-2023105865.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231012654.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -3815,7 +3815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ کی غیر موجودگی کے باوجود اس کو ترتی
 بی دور اس لئے کہیں گے کہ خارجی اشارے $\OML/zplm/m/it/10 A$ \TU/JameelNooriNasta
 leeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ب
-طور واپسیں[]
+طور باز رسی[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 47.
@@ -3826,9 +3826,9 @@ LaTeX Info: Redefining \sffamily on input line 62.
 LaTeX Info: Redefining \ttfamily on input line 62.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--64
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مساوات حاصل کرتے وقت واپسیں اشاروں کو عام
- مداخل تصور کریں۔یوں $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 
-کو بیرونی مداخل جبکہ $\OML/zplm/m/it/10 a$[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مساوات حاصل کرتے وقت باز رسی اشاروں کو عا
+م مداخل تصور کریں۔یوں $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10
+ کو بیرونی مداخل جبکہ $\OML/zplm/m/it/10 a$[]
  []
 
 
@@ -3937,7 +3937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا۔یہ صورت زیادہ دیر برقرار نہیں رہی۔تار
-وں میں تاخیر کے بعد واپسیں اشارے تبدیل ہوئے اور دور دوبارہ[]
+وں میں تاخیر کے بعد باز رسی اشارے تبدیل ہوئے اور دور دوبارہ[]
  []
 
 
@@ -3957,10 +3957,10 @@ LaTeX Info: Redefining \sffamily on input line 86.
 LaTeX Info: Redefining \ttfamily on input line 86.
 
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کسی بھی ترتیب سے واپسیں دائروں کے مخارج
- کی شناخت $\OML/zplm/m/it/10 A$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zplm
-/m/it/10 B$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zplm/m/it/10 C$\TU/Jamee
-lNooriNastaleeq(2)/m/sl/10 ، وغیرہ جبکہ اسی ترتیب سے ان کے[]
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کسی بھی ترتیب سے باز رسی دائروں کے مخار
+ج کی شناخت $\OML/zplm/m/it/10 A$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zpl
+m/m/it/10 B$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zplm/m/it/10 C$\TU/Jame
+elNooriNastaleeq(2)/m/sl/10 ، وغیرہ جبکہ اسی ترتیب سے ان کے باز[]
  []
 
 
@@ -4142,24 +4142,24 @@ lNooriNastaleeq(2)/m/sl/10 ہے اور بیرونی مداخل تبدیلی کر
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال اختیار کر تا ہے۔ پہلی واپسیں راہ کی ت
-اخیر دوسری واپسیں راہ کی تاخیر سے کم ہو نے کی صورت میں دور مستحکم[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال اختیار کر تا ہے۔ پہلی باز رسی راہ کی 
+تاخیر دوسری باز رسی راہ کی تاخیر سے کم ہو نے کی صورت میں دور مستحکم حال[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال $\OT1/ppl/m/n/10 00$ \TU/JameelNooriN
-astaleeq(2)/m/sl/10 سے عبوری حال $\OT1/ppl/m/n/10 10$ \TU/JameelNooriNastaleeq(
-2)/m/sl/10 اور آخر کار مستحکم حال $\OT1/ppl/m/n/10 11$ \TU/JameelNooriNastaleeq
-(2)/m/sl/10 اختیار کرے گا جبکہ دوسری راہ کی تاخیر پہلی راہ کی[]
+[]$\OT1/ppl/m/n/10 00$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے عبوری حال $\OT1/p
+pl/m/n/10 10$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور آخر کار مستحکم حال $\OT1/
+ppl/m/n/10 11$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اختیار کرے گا جبکہ دوسری راہ
+ کی تاخیر پہلی راہ کی تاخیر[]
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 123--124
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تاخیر سے کم ہو نے کی صورت میں دور عبوری ح
-ال $\OT1/ppl/m/n/10 01$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے گزر کر مستحکم حا
-ل $\OT1/ppl/m/n/10 11$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تک پہنچے گا۔آپ نے دی
-کھا[]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے کم ہو نے کی صورت میں دور عبوری حال $\O
+T1/ppl/m/n/10 01$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے گزر کر مستحکم حال $\OT
+1/ppl/m/n/10 11$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تک پہنچے گا۔آپ نے دیکھا کہ
+[]
  []
 
 [200]
@@ -4192,81 +4192,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال $\OT1/ppl/m/n/10 000$ \TU/JameelNoori
-Nastaleeq(2)/m/sl/10 سے آغاز کر کے بیرونی مداخل $\OT1/ppl/m/n/10 0$ \TU/JameelN
-ooriNastaleeq(2)/m/sl/10 سے $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/s
-l/10 کرنے سے دور اختتامی حال کی جانب دوڑ لگائے گا۔نا معلوم[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال کو \TU/AASameerSagarNastaleeqBold(0)/
+m/n/10 مکمل حال  $\OML/zplm/m/it/10 y[]y[]x$ \TU/JameelNooriNastaleeq(2)/m/sl/1
+0 لکھتے ہوئے حال $\OT1/ppl/m/n/10 000$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے آ
+غاز کر کے بیرونی مداخل $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 
+سے $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے سے دور اختتامی[
+]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تاخیر کی بنا پر ہم نہیں جانتے دور تین ممک
-نہ حال $\OT1/ppl/m/n/10 011$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n
-/10 111$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، اور $\OT1/ppl/m/n/10 101$ \TU/Jam
-eelNooriNastaleeq(2)/m/sl/10 میں سے کس حال کو پہلے پہنچے گا۔[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال کی جانب دوڑ لگائے گا۔نا معلوم تاخیر ک
+ی بنا پر ہم نہیں جانتے دور تین ممکنہ حال $\OT1/ppl/m/n/10 011$\TU/JameelNooriNa
+staleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10 111$\TU/JameelNooriNastaleeq(2)/m/sl/10 ،
+ اور $\OT1/ppl/m/n/10 101$[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ تینوں عبوری حال پہلی صف میں دکھائے گئے
- ہیں۔ عبوری حال $\OT1/ppl/m/n/10 011$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہلے 
-پہنچنے کی صورت میں دور[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں سے کس حال کو پہلے پہنچے گا۔ یہ تینوں 
+عبوری حال پہلی صف میں دکھائے گئے ہیں۔ عبوری حال[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہاں سے ہوتے ہوئے اختتامی مستحکم حال $\OT
-1/ppl/m/n/10 011$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اختیار کر ے گا، جس کو دوس
-ری صف میں دائرے میں بند دکھایا[]
+[]$\OT1/ppl/m/n/10 011$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہلے پہنچنے کی صورت
+ میں دور یہاں سے ہوتے ہوئے اختتامی مستحکم حال $\OT1/ppl/m/n/10 011$ \TU/JameelN
+ooriNastaleeq(2)/m/sl/10 اختیار کر ے گا، جس کو دوسری[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا ہے۔اگر دونوں واپسیں راہ میں مائل تاخی
-ر برابر ہوں ، دور عبوری حال $\OT1/ppl/m/n/10 111$ \TU/JameelNooriNastaleeq(2)/m
-/sl/10 پہلے پہنچے گا اور یہاں سے ہوتے ہوئے[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صف میں دائرے میں بند دکھایا گیا ہے۔اگر دو
+نوں باز رسی راہ میں مائل تاخیر برابر ہوں ، دور عبوری حال $\OT1/ppl/m/n/10 111$[
+]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں دور عبوری حال $\OT1/ppl/m/n/10 101$ \
-TU/JameelNooriNastaleeq(2)/m/sl/10 پہلے پہنچتا ہے جہاں سے یہ آخری صف کی جانب رو
-اں ہو گا ، لیکن آخری[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پہلے پہنچے گا اور یہاں سے ہوتے ہوئے اختتا
+می مستحکم حال $\OT1/ppl/m/n/10 111$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اختیار 
+کر ے گا، جس کو تیسری صف میں دائرہ میں[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صف ازخود عبوری حال ہے لہٰذا دور اس عبوری 
-حال سے بھی گزر کر آخر کار تیسری صف کے اختتامی مستحکم[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بند دکھایا گیا ہے۔تیسری صورت میں دور عبور
+ی حال $\OT1/ppl/m/n/10 101$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہلے پہنچتا ہے 
+جہاں سے یہ آخری صف[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال $\OT1/ppl/m/n/10 111$ \TU/JameelNoori
-Nastaleeq(2)/m/sl/10 پہنچے گا۔اس مثال میں دو اختتامی حال ممکن ہیں۔یہ دریافت کرن
-ا ناممکن ہے کہ دور ان میں سے کس[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی جانب رواں ہو گا ، لیکن آخری صف ازخود ع
+بوری حال ہے لہٰذا دور اس عبوری حال سے بھی گزر کر آخر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار تیسری صف کے اختتامی مستحکم حال $\OT1/
+ppl/m/n/10 111$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچے گا۔اس مثال میں دو اخت
+تامی حال ممکن ہیں۔یہ دریافت کرنا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏11  میں بحرانی دوڑ کی دوسری مثا
-ل دکھائی گئی ہے جہاں تین اختتامی حال ممکن ہیں۔ مستحکم حال $\OT1/ppl/m/n/10 000$
-[]
- []
-
-
-Underfull \hbox (badness 7451) in paragraph at lines 131--132
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے آغاز کرتے ہوئے بیرونی مداخل $\OML/zplm
-/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت $\OT1/ppl/m/n/10 1$ \TU
-/JameelNooriNastaleeq(2)/m/sl/10 کر نے سے دور اختتامی حال کی طرف دوڑ لگائے گا۔ب
-الکل اُوپر مثال[]
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏11  میں \TU/AASameerSagarNastal
+eeqBold(0)/m/n/10 بحرانی دوڑ  \TU/JameelNooriNastaleeq(2)/m/sl/10 کی دوسری مثال
+ دکھائی گئی ہے جہاں تین اختتامی حال ممکن ہیں۔  \TU/AASameerSagarNastaleeqBold(0
+)/m/n/10 مکمل مستحکم حال[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی طرح،تین ممکنہ عبوری حال ہیں۔ایک عبوری 
-حال $\OT1/ppl/m/n/10 011$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جہاں سے یہ دوس
-ری صف میں[]
+[]$\OT1/ppl/m/n/10 000$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے آغاز کرتے ہوئے ب
+یرونی مداخل $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت $
+\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کر نے سے دور اختتامی حال
+ کی طرف دوڑ لگائے گا۔بالکل اُوپر[]
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 131--132
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال کی طرح،تین ممکنہ عبوری حال ہیں۔ایک ع
+بوری حال $\OT1/ppl/m/n/10 011$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جہاں سے ی
+ہ دوسری صف میں[]
  []
 
 
@@ -4613,8 +4622,8 @@ eeq(2)/m/sl/10 سے عبوری حال $\OML/zplm/m/it/10 e$ \TU/JameelNooriNasta
 
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کار اختتامی مستحکم حال $\OML/zplm/m/it/10
- b$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچتا ہے۔یہ عمل نکتہ دار تیر دار لکیرو
-ں سے ظاہر کیا گیا ہے۔ اس پورے[]
+ b$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچتا ہے۔اس عمل کو نقطہ دار تیر دار لک
+یروں سے ظاہر کیا گیا ہے۔ اس پورے[]
  []
 
 
@@ -4692,404 +4701,326 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--175
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری جدول کے استعمال سے اس حصہ میں پلٹوں
- والے ادوار کا تجزیہ کیا جائے گا۔چند مثالوں کے بعد[]
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری جدول استعمال کر کے سے اس حصے میں پل
+ٹ کا تجزیہ کیا جائے گا۔چند مثالوں کے بعد حصہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری جدول کے استعمال سے سب سے پہلے ایس-آ
-ر پلٹ پر غور کرتے ہیں۔شکل 11.‏20 میں اُوپر جانب[]
+Underfull \hbox (badness 5119) in paragraph at lines 181--182
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری جدول استعمال کر کے سب سے پہلے ایس آ
+ر پلٹ پر غور کرتے ہیں۔شکل 11.‏20  میں اُوپر ایس آر پلٹ اور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایس-آر پلٹ دکھایا گیا ہے۔اسی کے نیچے اسے 
-واپسیں دور 4 کی طرح دکھایا گیا ہے جہاں واپسیں اشارہ کی پہچان[]
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال کے متغیر $\OML/zplm/m/it/10 Q$ \TU/
+JameelNooriNastaleeq(2)/m/sl/10 کو بطور باز رسی اشارہ $\OML/zplm/m/it/10 q$ \TU
+/JameelNooriNastaleeq(2)/m/sl/10 استعمال کیا گیا ہے۔یوں حال کا متغیر $\OML/zplm
+/m/it/10 Q$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، اندرونی مداخل $\OML/zplm/m/it/
+10 q$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل میں متغیرہ حالکو بطور واپسیں اشارہا
-ستعمال کیا گیا ہے۔یوں دور میں متغیرہ حال، اندرونی مداخل[]
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ بیرونی مداخل $\OML/zplm/m/it/10 S$ \
+TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 R$ \TU/JameelNooriNas
+taleeq(2)/m/sl/10 ہیں۔انہیں استعمال کرتے ہوئے عبوری جدول حاصل کی گئی ہے (شکل 11
+.‏20[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ اور دو بیرونی مداخل ہیں۔انہیں استعما
-ل کرتے، شکل میں دکھائی، عبوری جدول حاصل کی گئی ہے۔آئیے[]
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دیکھیں)۔آئیے اس پلٹ کا تجزیہ اس کے عبوری 
+جدول کی مدد سے کریں۔پلٹ کا جدول صداقت[]
  []
 
 [204]
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس جدول سے ظاہر ہے کہ نفی۔جمع گیٹ پر مب
-نی ایس-آر پلٹ کا صحیح استعمال تب ممکن ہے جب اس کے[]
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدول سے ظاہر ہے کہ جمع متمم گیٹ پر مبنی ا
+یس آر پلٹ استعمال کرتے ہوئے دونوں مداخل بیکوقت بلند کرنے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دونوں مداخل کسی صورت اکٹھے بلند نہ ہوں چو
-نکہ ایسا ہونے سے پلٹ کے مخارجاوردونوں پست ہو جاتے ہیں[]
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی اجازت نہیں۔ دونوں مداخل بیکوقت بلند کر
+نے سے پلٹ کے مخارج $\OML/zplm/m/it/10 Q$ \TU/JameelNooriNastaleeq(2)/m/sl/10 او
+ر $[]$ بیکوقت پست ہوں گے[]
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 190--191
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ کسی بھی پلٹ کے مخارج کا ہر صورت آپس 
-میں متضاد رہنا ضروری ہے۔اس شرط کو یوں بیان کیا جا سکتا[]
+Underfull \hbox (badness 2237) in paragraph at lines 203--204
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدول کے مطابق $\OML/zplm/m/it/10 SR \OT1/
+zplm/m/n/10 = \OT1/ppl/m/n/10 00$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے سے پ
+لٹ بلند حال میں رہے گا، جیسا شکل-ب میں دکھایا گیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏21 کو دیکھتے آگے پڑھیں۔عبوری جد
-ول میںکی قطار میں متوازن حالکی صف میں پایا جاتا ہے جہاں[]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ادوار کو  \TU/AASameerSagarNastaleeqBold(
+0)/m/n/10 بنیادی طریق کار \TU/JameelNooriNastaleeq(2)/m/sl/10 کے تحت چلایا جاتا
+ ہے جہاں ایک سے زیادہ بیرونی مداخل تبدیل کرنے کی اجازت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 متغیرہ حالیعنی پست ہے۔اگر کیا جئے تو عبور
-ی جدول کے مطابق حال کا متغیر پست ہی رہے گا۔اس عمل[]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نہیں۔بہرحال پھر بھی دیکھتے ہیں کہ ایسا کر
+نے سے کیا مسائل کھڑے ہوتے ہیں۔بوولین جدول کے مطابق[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کو شکل کے حصہ الف میں نکتہ دار تیر سے دکھ
-ایا گیا ہے۔ اسی طرح کی صورت میں پلٹ کا متوازن بلند[]
+Underfull \hbox (badness 4927) in paragraph at lines 205--206
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اختیار کر لے تو اختتامی حال $\OT1/ppl/m/n
+/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو گا جبکہ اگر $\OML/zplm/m/it/10 R$
+ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہلے پست ہو تب اختتامی حال $\OT1/ppl/m/n/1
+0 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو گا۔چونکہ قبل از وقت یہ جاننا[]
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال کی صف میں پایا جاتا ہے۔اگرکیا جائے تو
- عبوری جدول کے مطابق پلٹ بلند حال میں ہی رہتا ہے[]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ممکن نہیں کہ $\OML/zplm/m/it/10 S$ \TU/Ja
+meelNooriNastaleeq(2)/m/sl/10 یا $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq
+(2)/m/sl/10 پہلے پست ہو گا لہٰذا اختتامی حال جاننا ممکن نہیں۔ دور کا یوں استعما
+ل غیر یقینی صورت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جیسے شکل کے حصہ با میں دکھایا گیا ہے۔یہ د
-ونوں اعمال پلٹ کے بوولین جدول سے بھی وضح ہے۔ اب دیکھتے[]
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[][][]\TU/JameelNooriNastaleeq(2)/m/n/8 اس کتاب میں ضرب متمم گیٹ پر مبنی ایس آر
+ پلٹ کے مداخل عموماً $[]$ اور $[]$ لکھے گئے ہیں۔ یہاں $\OML/zplm/m/it/8 S$ \TU/
+JameelNooriNastaleeq(2)/m/n/8 اور $\OML/zplm/m/it/8 R$ \TU/JameelNooriNastaleeq
+(2)/m/n/8 لکھا گیا ہے۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں کہسےکرنے سے کیا صورت پیدا ہوتی ہے۔پہل
-ے تو یاد دہانی کراتے چلیں کہ اس طرح کے ادوار کو بنیادی طریقِ کار 5[]
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏22  ڈی پلٹ دکھایا گیا ہے جو ساعت 
+کے کنارہ پر چلتا ہے۔ڈی پلٹ میں اندرونی باز رسی دور پایا جاتا ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے طرز پر چلایا جاتا ہے جہاں ایک سے زیادہ
- بیرونی مداخل تبدیل کرنے کی اجازت نہیں ہوتی۔بہرحال[]
- []
-
-
-Underfull \hbox (badness 3657) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پھر بھی دیکھتے ہیں کہ ایسا کرنے سے کیا مس
-ائل کھڑے ہوتے ہیں۔ کرنے سے پہلے تو بوولین جدول کے مطابقاوردونوں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست ہوتے ہیں۔اس طرح یہ آپس میں متضاد حال 
-میں نہیں ہوتے جبکہ کسی بھی پلٹ کے لئے یہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 لازم ہے کہ اس کے دونوں مخارج ہر وقت متضاد
- حال میں ہوں۔دوسری بات یہ کہ عبوری جدول کو دیکھتے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوئے اگرپہلے پست حال اختیار کر لے تو اختت
-امی حالہو گا جبکہ اگر پہلے پست ہو پائے تب اختتامی حالہو گا۔چونکہ یہ قبل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 از وقت معلوم کرنا ناممکن ہے کہ ان میں پہل
-ے کون پست حال اختیار کرے گا لہٰذا یہ جاننا ناممکن ہے کہ اختتامی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 11.‏3.‏2 ساعت کے کنارے چلتا ڈی پلٹ شکل 
-11.‏22 میں ساعت کے کنارہ چلتا ڈی پلٹ دکھایا گیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ڈی پلٹ میں اندرونی واپسیں دور پایا جات
-ا ہے جس کے اندرونی حال کے متغیراتاورہیں6۔یوں اس کے واپسیں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اشاراتاورہیں۔شکل میں دور کو دوبارہ واپسیں
- دور کی طرز پر بنایا گیا ہے تا کہ واپسیں اشارات اورکی پہچان آسان[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏23 میں ان مساوات سے حاصلاورکے ب
-وولین جدول کو کارناف نقشہ کی طرح لکھ کر عبوری جدول[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 تصور کریں کہ جس لمحہ پلٹ کو برقی طاقت م
-ہیا کر کے زندہ کیا جاتا ہے اس لمحہ ساعت،یعنی، اور بیرونی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مداخل، یعنی،دونوں پست ہیں۔اس صورت عبوری ج
-دول کے مطابق دورکی قطار میں ہوگا۔اس قطار میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین خانے عبوری حال کا متغیر کو ظاہر کرتے 
-ہیں۔یہ تین خانے،اورہیں۔ان تینوں خانوں میں عبوری[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالہے۔چوتھا خانہ،یعنی، متوازن حال کو ظاہر
- کرتا ہے اور اس میں متوازن حالہے۔یوں اگر برقی طاقت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے فراہمی کے لمحہ تاخیرات ایسے ہوں کہ دور
- ان تین عبوری خانوں میں کسی ایک میں داخل ہوتا ہے تو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہاں سے جلد وہ کی صف پہنچ کر مستحکم حال ا
-ختیار کر لے گا۔اگر زندہ ہوتے ہی دور سیدھاخانہ میں داخل ہو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تب یہ یہی رہے گا۔ اس کے برعکس برقی طاقت م
-ہیا کرنے کے لمحہ اگراورہوں تو عبوری جدول کے مطابق[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دوریاکے مستحکم حال تک پہنچ کر یہی رہے گا 
-جبکہاورکی صورت میں دور یامیں ہو گا۔ پست ساعت کی صورت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں حال کے متغیراتکی قیمترہتی ہے۔عبوری جد
-ول میںاورکی دو قطاریں اس بات کو ظاہر کرتی ہیں جہاں تمامکی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قیمتیںہیں۔ہم جانتے ہیں کہ ایس-آر پلٹ کی د
-ونوں مداخل بلند ہونے کی صورت میں پلٹ اپنی حال برقرار[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 رکھتا ہے۔یوں شکل 11.‏22 میں اس صورت میں خ
-ارجی پلٹ اپنی حال برقرار رکھے گا۔ پست ساعت،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یعنی، اور پست،یعنی،کی صورت میں متوازن حال
- کا متغیر حاصل کرنے کی خاطر ہم عبوری جدول کےکی قطار[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں دیکھتے ہیں جہاں ہمیں مکمل حالبطور مست
-حکم حال ملتا ہے۔جدول کے اس خانے میں لکھ کر اسے واضح کیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قطار میں متوازن حالپایا جاتا ہے جہاںہی ہے
- اور یوں خارجی پلٹ اپنی حال برقرار رکھے گا۔جدول کے اس[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خانے میں لکھ کر اسے واضح کیا گیا ہے۔ تصور
- کریں کہ دور کے متوازن حال،یعنی خانہ،میں ہوتے ہوئے بیرونی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ساعت کے کنارہ چڑھائی آنے سے دور خانہک
-ی صف میں رہتے ہوئے،سےکی قطار میں داخل ہو کر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچتا ہے۔اس خانہ کوکہا گیا ہےحال میں حال
- کا متغیر ہیں۔خارجی پلٹکی صورت میں پست حال[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اختیار کر لے گا اور یوںہو جائے گا۔اس قدم 
-کو شکل میں خانہ سے خانہکے راستے خانہتک تیر والے لکیر سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دکھایا گیا ہے۔اس پورے کا نچوڑ یہ ہے کہ کی
- صورت میں ساعت کے کنارہ چڑھائی پر ہو جائے گا یعنی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈی پلٹ پست حال اختیار کر لیتا ہے۔ اس پورے
- عمل پر دوبارہ غور کریں۔ساعت کے کنارہ چڑھائی آتے ہی دور[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری حالاور پھر متوازن حالاختیار کرتا ہے
-۔ان دونوں حال میںہی رہتے ہیں اور یوں عبوری حال سے گزرتے ہوئے کسی[]
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قسم کی لرزش پیدا نہیں ہوتی۔آپ نیچے پڑھتے 
-ہوئے ہر قدم پر تسلی کر لیں کہ کسی بھی عبوری حال سے گزرتے وقتکی قیمت[]
- []
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 وہی ہوتی ہے جو اس قدم کے اختتامی حال میں 
-گی۔یوں ایسے لمحات پر لرزش سے کسی قسم کی غیر یقینی صورت پیدا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نہیں ہوتی۔ اسی طرح مکمل حالمیں موجود دور،
- ساعت کے کنارہ چڑھائی آتے، عبوری حالسے ہوتے ہوئے متوازن[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حالاختیار کرے گا۔اس قدم کو شکل میں خانہ س
-ے خانہکے راستے خانہتک تیر والے لکیر سے دکھایا گیا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے داخلی پلٹ بلند ہو جائے گا اور یوں ڈی پ
-لٹ کاہو جائے گا۔ ساعت کے کنارہ اترائی کے عمل کو نکتہ دار تیر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 والے لکیروں سے دکھایا گیا ہے۔انہیں آپ خود
- سمجھ سکتے ہیں۔یہ دونوں لکیریں اس بات کو واضح کرتی ہیں کہ[]
- []
-
-
-Underfull \hbox (badness 5548) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے کنارہ اترائی پر عبوری حال اور اخت
-تامی مستحکم حال دونوں میں ہوتا ہے۔ہونے کی صورت میں بیرونی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پلٹ اپنی حال برقرار رکھتا ہے اور یوں ساعت
- کے کنارہ اترائی پر ڈی پلٹ کے حال میں کسی قسم کی تبدیلی رو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نما نہیں ہوتی۔ ایک آخری بات اس پلٹ کے حوا
-لہ سے کرتے ہیں۔شکل 11.‏22 میں اشارہکوپیدا کرنے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 والے نفی۔ضرب گیٹ کو داخلی اشارہ کے طور مہ
-یا کیا گیا ہے۔اس بات سے اختتامی یقین کرایا جاتا ہے کہاورکسی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صورت اکٹھے پست نہیں ہو سکتے۔یاد رہے کہ ای
-سا ہونے سے بیرونی پلٹ کے دونوں مخارج بلند ہو جائیں گے جو کہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--223
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ناقابلِ قبول صورت ہو گی۔یوں عبوری جدول می
-ںاورکے خانے کوئی معنی نہیں رکھتے۔ان خانوں کولکھ کر واضح کیا گیا[]
- []
-
-[205]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [206]
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اُوپر دیے مثالوں میں استعمال کئے طریقہ کا
-ر کو یہاں بیان کرتے ہیں۔پلٹ کے اپنے واپسیں اشارات کو نظر[]
+ [205]
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دور میں $\OML/zplm/m/it/10 S$ \TU/Ja
+meelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastalee
+q(2)/m/sl/10 حال کے متغیرات ، $\OML/zplm/m/it/10 s$ \TU/JameelNooriNastaleeq(2)
+/m/sl/10 اور $\OML/zplm/m/it/10 r$ \TU/JameelNooriNastaleeq(2)/m/sl/10 باز رسی 
+اشارات ، جبکہ $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\O
+ML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بیرونی مداخل[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 223.
+LaTeX Info: Redefining \sffamily on input line 223.
+LaTeX Info: Redefining \ttfamily on input line 223.
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان مساوات سے حاصل $\OML/zplm/m/it/10 S$
+ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 R$ \TU/JameelNooriN
+astaleeq(2)/m/sl/10 کے بوولین جدول کو کارناف نقشوں کی طرز پر لکھ کر شکل 11.‏23 
+ میں دکھایا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 انداز کرتے ہیں۔ • تمام پلٹوں کے مخارج کوس
-ے ظاہر کریں اور اسی طرح ان میں سے جو واپسیں اشارات کے طور استعمال[]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا عبوری جدول حاصل کیا گیا۔\TU/AASameerS
+agarNastaleeqBold(0)/m/n/10 مکمل حال [][][] []$\OML/zplm/m/it/10 srCD$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 کی صورت میں لکھتے ہوئے اس جدول پر غور کرتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کئے گئے ہوں انہیںسے ظاہر کریں جہاںہے۔ • ت
-مام پلٹوں کے اورمداخل کے مساوات حاصل کریں۔ • نفی۔جمع گیٹ[]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 فرض کریں جس لمحے پلٹ کو برقی طاقت مہیا 
+کر کے زندہ کیا جاتا ہے اس لمحے ساعت، $\OML/zplm/m/it/10 C$\TU/JameelNooriNastal
+eeq(2)/m/sl/10 ، اور بیرونی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پر مبنی ایس-آر پلٹوں کے لئے تسلی کر لیں ک
-ہ ہے جبکہ نفی۔ضرب گیٹوں پر مبنی ایس-آر پلٹوں کے لئےہونا ضروری[]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین خانے $\OT1/ppl/m/n/10 0000$\TU/Jameel
+NooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10 0100$\TU/JameelNooriNastaleeq(2)/m
+/sl/10 ، اور $\OT1/ppl/m/n/10 1000$ \TU/JameelNooriNastaleeq(2)/m/sl/10 عبوری ح
+ال کے متغیر ظاہر کرتے ہیں۔ ان خانوں میں عبوری حال[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ایسا نہ ہونے کی صورت میں پلٹ غلط نتائج
- دے سکتا ہے۔ • اورکو دیکھتے ہوئے تمام پلٹوں کےحاصل[]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست ساعت کی صورت میں حال کے متغیر $\OML
+/zplm/m/it/10 SR$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت $\OT1/ppl/m/n/10 
+11$ \TU/JameelNooriNastaleeq(2)/m/sl/10 رہتی ہے۔عبوری جدول میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کریں۔ • ہرکو کارناف نقشہ کے طرز پر بیان ک
-ریں۔ان نقشوں کے بائیں جانب قطار میں واپسیں اشاراتجبکہ نقشوں کے[]
+Underfull \hbox (badness 3826) in paragraph at lines 230--231
+[]$\OML/zplm/m/it/10 CD \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 00$ \TU/JameelNooriN
+astaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 CD \OT1/zplm/m/n/10 = \OT1/ppl/m/n/1
+0 01$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی دو قطاریں اس حقیقت کو ظاہر کرتی ہی
+ں جہاں تمام $\OML/zplm/m/it/10 SR$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت 
+$\OT1/ppl/m/n/10 11$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اُوپر صف میں بیرونی مداخللکھیں جہاںسے مرا
-دجبکہسے مرادہے۔ • ان تمام نقشوں کو عبوری جدول میں یکجا[]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ہم جانتے ہیں ایس آر پلٹ کے دونوں مداخل
+ بلند ہونے کی صورت میں پلٹ اپنا حال برقرار رکھتی[]
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 225--233
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کریں۔نقشوں کے خانوں میںلکھیں، جہاں سے مرا
-دہے۔ • وہ خانے جن میںہے، مستحکم حال کو ظاہر کرتے ہیں۔انہیں دائرہ[]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست ساعت، $\OML/zplm/m/it/10 C \OT1/zpl
+m/m/n/10 = \OT1/ppl/m/n/10 0$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، اور پست $\OM
+L/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی صورت میں مستحکم حال کا
+ متغیر $\OML/zplm/m/it/10 SR$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حاصل کرنے کی[
+]
  []
 
-) [207] [208
+
+Underfull \hbox (badness 1342) in paragraph at lines 232--233
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مستحکم حال ملتا ہے۔جدول کے اس خانے میں $\
+OML/zplm/m/it/10 a$ \TU/JameelNooriNastaleeq(2)/m/sl/10 لکھ کر اسے اجاگر کیا گی
+ا ہے۔یہاں $\OML/zplm/m/it/10 SR \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 11$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 کی[]
+ []
+
+[206]
+Underfull \hbox (badness 2582) in paragraph at lines 234--235
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست ساعت اور بلند $\OML/zplm/m/it/10 D$
+ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی صورت میں $\OML/zplm/m/it/10 CD \OT1/zpl
+m/m/n/10 = \OT1/ppl/m/n/10 01$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قطار میں 
+مستحکم حال $\OT1/ppl/m/n/10 1101$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پایا جاتا
+ ہے[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 236.
+LaTeX Info: Redefining \sffamily on input line 236.
+LaTeX Info: Redefining \ttfamily on input line 236.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 فرض کریں دور مستحکم حال $\OT1/ppl/m/n/1
+0 1100$\TU/JameelNooriNastaleeq(2)/m/sl/10 ،یعنی خانہ $\OML/zplm/m/it/10 a$ \TU
+/JameelNooriNastaleeq(2)/m/sl/10 ،میں ہے جب بیرونی مداخل $\OML/zplm/m/it/10 C$ 
+\TU/JameelNooriNastaleeq(2)/m/sl/10 بلند ہوتا ہے۔بیرونی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی قطار میں داخل ہو کر عبوری حال $\OT1/pp
+l/m/n/10 1110$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اختیار کرتا ہے۔اس عبوری حال 
+کو خانہ $\OML/zplm/m/it/10 e$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کہا گیا ہے،[]
+
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 236--237
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جہاں سے دور جلد اختتامی مستحکم حال $\OT1/
+ppl/m/n/10 1010$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پہنچے گا جس کو خانہ $\OML/
+zplm/m/it/10 m$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ظاہر کرتا ہے۔ حال $\OT1/ppl
+/m/n/10 1010$ \TU/JameelNooriNastaleeq(2)/m/sl/10 میں حال کا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس پورے عمل پر دوبارہ غور کرتے ہیں۔ساعت
+ کے کنارہ چڑھائی آتے ہی دور عبوری حال $\OT1/ppl/m/n/10 1110$ \TU/JameelNooriNas
+taleeq(2)/m/sl/10 سے گزر کر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 وہی ہو گی جو اس قدم کے اختتامی حال میں ہو
+ گی۔یوں ان لمحات پر لرزش سے کسی قسم کی غیر یقینی صورت پیدا[]
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 240--241
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تیر دار لکیر ظاہر کرتی ہے۔یہ قدم بلند بیر
+ونی مداخل $\OML/zplm/m/it/10 D \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 1$ \TU/Jameel
+NooriNastaleeq(2)/m/sl/10 اور ساعت کے کنارہ چڑھائی پر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے  \TU/AASameerSagarNastaleeqBold
+(0)/m/n/10 کنارہ اترائی  \TU/JameelNooriNastaleeq(2)/m/sl/10 پر ہونے والے عمل ک
+و نقطہ دار تیر دار لکیروں سے ظاہر کیا گیا ہے۔انہیں آپ خود[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سمجھ سکتے ہیں۔یہ دونوں لکیریں یہ حقیقت وا
+ضح کرتی ہیں کہ ساعت کے کنارہ اترائی پر عبوری حال اور اختتامی[]
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 242--243
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مستحکم حال دونوں میں $\OML/zplm/m/it/10 S
+R \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 11$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو
+ گا لہٰذا بیرونی پلٹ اپنا حال برقرار رکھے گی اور یوں ساعت کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کو $\OML/zplm/m/it/10 S$ \TU/JameelNooriN
+astaleeq(2)/m/sl/10 بطور داخلی اشارہ مہیا کیا گیا ہے، جس کی بدولت $\OML/zplm/m/
+it/10 S$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 R$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 کسی صورت بیکوقت پست نہیں ہو سکتے۔یاد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 رہے کہ $\OML/zplm/m/it/10 S$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 R$ \TU/JameelNooriNastaleeq(2)/m
+/sl/10 دونوں بیکوقت پست ہونے سے بیرونی پلٹ کے دونوں مخارج بلند ہو جائیں گے جو ک
+ہ ناقابل[]
+ []
+
+[207]
+Underfull \hbox (badness 4531) in paragraph at lines 251--253
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 تمام پلٹوں کے مخارج کو $\OML/zplm/m/it/
+10 Y[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 سے ظاہر کریں جہاں $\OML/zplm/m/it/10
+ i \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 0, 1, 2, []$\TU/JameelNooriNastaleeq(2)/m
+/sl/10 ہے۔ مخارج سے حاصل باز رسی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہر $\OML/zplm/m/it/10 Y[]$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 کو کارناف نقشے کے طرز پر لکھیں۔ان نقشوں کی بائیں جانب ق
+طار میں باز رسی اشارات $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/1
+0 جبکہ نقشوں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے اُوپر صف میں بیرونی مداخل $\OML/zplm/m
+/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 لکھیں جہاں $\OML/zplm/m/it/10 y$ 
+\TU/JameelNooriNastaleeq(2)/m/sl/10 سے مراد $[] \OML/zplm/m/it/10 y[]y[]y[]y[]$
+ \TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ $\OML/zplm/m/it/10 x$ \TU/JameelNoori
+Nastaleeq(2)/m/sl/10 سے مراد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان نقشوں کو عبوری جدول میں یکجا کریں۔ ا
+ن نقشوں کے خانوں میں $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 
+لکھیں، جہاں $\OML/zplm/m/it/10 Y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے مراد[]
+
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 263--264
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 وہ خانے جن میں $\OML/zplm/m/it/10 Y \OT
+1/zplm/m/n/10 = \OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو، مس
+تحکم حال ظاہر کرتے ہیں۔انہیں دائرہ میں بند کریں۔یوں عبوری[]
+ []
+
+) [208] (./answer.tex) [209
 
 
 
 
-] (./answer.tex) [209] [210
+] [210
 
 
 ]
@@ -5882,12 +5813,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 60832 strings out of 476191
- 1646458 string characters out of 9562072
- 2472260 words of memory out of 7000000
- 80431 multiletter control sequences out of 15000+600000
+ 60840 strings out of 476191
+ 1646572 string characters out of 9562072
+ 2469302 words of memory out of 7000000
+ 80439 multiletter control sequences out of 15000+600000
  495644 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,14n,118p,2641b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,15n,118p,2641b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on digitalCircuitsLatex.pdf (24 pages).

@@ -5,7 +5,7 @@
 \indexentry{state!transition}{\arabicdigits {196}}
 \indexentry{عبوری حال }{\arabicdigits {196}}
 \indexentry{feedback signal}{\arabicdigits {196}}
-\indexentry{واپسیں اشارہ}{\arabicdigits {196}}
+\indexentry{باز رسی اشارہ}{\arabicdigits {196}}
 \indexentry{unstable condition}{\arabicdigits {196}}
 \indexentry{حالت!نا پائیدار}{\arabicdigits {196}}
 \indexentry{fundamental mode}{\arabicdigits {196}}
@@ -13,7 +13,7 @@
 \indexentry{asynchronous!combinational circuit}{\arabicdigits {197}}
 \indexentry{ترتیبی دور!غیر معاصر}{\arabicdigits {197}}
 \indexentry{feedback signal}{\arabicdigits {197}}
-\indexentry{واپسیں اشارہ}{\arabicdigits {197}}
+\indexentry{باز رسی اشارہ}{\arabicdigits {197}}
 \indexentry{transition table}{\arabicdigits {197}}
 \indexentry{عبوری جدول}{\arabicdigits {197}}
 \indexentry{state variables}{\arabicdigits {197}}
@@ -44,3 +44,7 @@
 \indexentry{ایک بلند بِٹ تقرری}{\arabicdigits {203}}
 \indexentry{don't care}{\arabicdigits {204}}
 \indexentry{غیر ضروری}{\arabicdigits {204}}
+\indexentry{state!complete}{\arabicdigits {206}}
+\indexentry{حال!مکمل}{\arabicdigits {206}}
+\indexentry{edge!rising}{\arabicdigits {207}}
+\indexentry{کنارہ!چڑھائی}{\arabicdigits {207}}

@@ -602,5 +602,6 @@
 \contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {202}}{}%
 \contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {204}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {204}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {2}}ایس-آر پلٹوں والے غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {207}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {206}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {208}}{}%
 \contentsline {chapter}{جوابات}{\arabicdigits {209}}{}%
