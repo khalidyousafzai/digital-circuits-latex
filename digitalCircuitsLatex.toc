@@ -343,7 +343,7 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {5}}غیر دلچسپ حال}{\arabicdigits {87}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {5}}ترکیبی منطق اور ترتیبی ادوار}{\arabicdigits {89}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {5}}ترکیبی منطق اور ترکیبی ادوار}{\arabicdigits {89}}{}%
 \contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {1}}ثنائی جمع کار اور ثنائی منفی کار}{\arabicdigits {89}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {1}}نصف جمع کار}{\arabicdigits {90}}{}%
 \bgroup 
@@ -589,19 +589,28 @@
 \contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {191}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {191}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {192}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {10}} غیر معاصر ترتیبی ادوار }{\arabicdigits {195}}{}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} تجزیہ}{\arabicdigits {197}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {197}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {195}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {1}}قابل تشکیل ضرب ترکیبی منطقی ادوار}{\arabicdigits {196}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {2}}قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}{\arabicdigits {196}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} قابل تشکیل ترتیبی ادوار}{\arabicdigits {197}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {11}} غیر معاصر ترتیبی ادوار }{\arabicdigits {199}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {1}} تجزیہ}{\arabicdigits {201}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {201}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {199}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {200}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {1}.\arabicdigits {4}}توازن اور ارتعاش }{\arabicdigits {202}}{}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {202}}{}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {204}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {204}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {206}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {208}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {209}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {203}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {204}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {4}}توازن اور ارتعاش }{\arabicdigits {206}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {206}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {208}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {208}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {210}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {212}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {12}}سوالات}{\arabicdigits {213}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {chapter}{جوابات}{\arabicdigits {221}}{}%
