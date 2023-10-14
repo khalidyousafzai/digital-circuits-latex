@@ -1,0 +1,84 @@
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.75}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\kuTFFud[u0]{0}{0}
+\kuTFFud[u1]{-1*\ksepX}{0}
+\kuTFFud[u2]{-2*\ksepX}{0}
+\kuTFFud[u3]{-3*\ksepX}{0}
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\draw(u0p4)--++(0,2*\kpin)--++(-0.65*\ksepX,0)|-(u1p2);
+\draw(u1p4)--++(0,2*\kpin)--++(-0.65*\ksepX,0)|-(u2p2);
+\draw(u2p4)--++(0,2*\kpin)--++(-0.65*\ksepX,0)|-(u3p2);
+\draw(u0p2)--++(2*\kpinA,0)coordinate(clkL);
+\kinright[j1]{clkL};
+\draw(j1east)node[right]{$C$};
+\draw(u3pd)--++(0,-3*\kpinA)-|coordinate(krstN)(u0pd);
+\kinright[j2]{krstN};
+\draw(j2south)node[below,xshift=0.5*\kpinA]{$\overline{\text{\RL{زبردستی پست}}}$};
+\draw(u0pd)--(u0pd |-krstN);
+\draw(u1pd)--(u1pd |-krstN);
+\draw(u2pd)--(u2pd |-krstN);
+\draw(u0pu)--++(0,-2.25*\kpinA)coordinate(ksetN)--(ksetN-| u3pu)coordinate(kHigh);
+\kinleft[j3]{kHigh};
+\draw(j3west)node[left]{$1$};
+\draw(u1pu)--(u1pu|-kHigh);
+\draw(u2pu)--(u2pu|-kHigh);
+\draw(u3pu)--(u3pu|-kHigh);
+\draw(u0p1)|-(ksetN);
+\draw(u1p1)--(u1p1|-kHigh);
+\draw(u2p1)--(u2p1|-kHigh);
+\draw(u3p1)--(u3p1|-kHigh);
+\draw(u0-south-east)node[shift={(1*\kpinA,1*\kpinA)}]{(ا)};
+\end{tikzpicture}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.75}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\kuTFFud[u0]{0}{0}
+\kuTFFud[u1]{-1*\ksepX}{0}
+\kuTFFud[u2]{-2*\ksepX}{0}
+\kuTFFud[u3]{-3*\ksepX}{0}
+\draw(u0p6)--++(0,1*\kpinA)node[above]{$Q_0$};
+\draw(u1p6)--++(0,1*\kpinA)node[above]{$Q_1$};
+\draw(u2p6)--++(0,1*\kpinA)node[above]{$Q_2$};
+\draw(u3p6)--++(0,1*\kpinA)node[above]{$Q_3$};
+\draw(u1p6)--++(0,0.5*\kpin)--++(0.65*\ksepX,0)|-(u0p2);
+\draw(u2p6)--++(0,0.5*\kpin)--++(0.65*\ksepX,0)|-(u1p2);
+\draw(u3p6)--++(0,0.5*\kpin)--++(0.65*\ksepX,0)|-(u2p2);
+\draw(u3p2)--++(-2*\kpinA,0)coordinate(clkL);
+\kinleft[j1]{clkL};
+\draw(j1west)node[left]{$C$};
+\draw(u3pd)--++(0,-2.25*\kpinA)-|coordinate(krstN)(u0pd);
+\kinright[j2]{krstN};
+\draw(j2east)node[right]{$1$};
+\draw(u1pd)--(u1pd |-krstN);
+\draw(u2pd)--(u2pd |-krstN);
+\draw(u3pd)--(u3pd |-krstN)coordinate(kkk);
+\draw(u3p1)|-(kkk);
+\draw(u2p1)|-(kkk);
+\draw(u1p1)|-(kkk);
+\draw(u0p1)|-(kkk);
+\draw(u0pu)--++(0,-3*\kpinA)coordinate(ksetN)--(ksetN-| u3pu)coordinate(kHigh);
+\kinleft[j3]{kHigh};
+\draw(j3south)node[below,xshift=-0.5*\kpinA]{$\overline{\text{\RL{زبردستی بلند}}}$};
+\draw(u1pu)--(u1pu|-kHigh);
+\draw(u2pu)--(u2pu|-kHigh);
+\draw(u3pu)--(u3pu|-kHigh);
+\draw(u0-south-east)node[shift={(1*\kpinA,1*\kpinA)}]{(ب)};
+\end{tikzpicture}
+\end{subfigure}
+\caption{سیدھا اور الٹا گنت کار}
+\label{شکل_گنت_کار_سیدھا_الٹا}
+\end{figure}
+

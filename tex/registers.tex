@@ -370,7 +370,7 @@ node[left]{$\overline{\text{متوازی بھرائی}}$};
 \draw(u5bp3)node[below]{$Q_0$};
 \draw(u6bp0)node[below]{$Q_0$};
 \draw(u6bp1)node[below]{$Q_2$};
-\draw(u6bp2)node[below]{$z_2$};
+\draw(u6bp2)node[below]{$z_1$};
 \draw(u6bp3)node[below]{$Q_1$};
 \draw(u7bp0)node[below]{$Q_1$};
 \draw(u7bp1)node[below]{$Q_3$};
@@ -429,10 +429,44 @@ node[left]{$\overline{\text{متوازی بھرائی}}$};
 
  
  \حصہ{ سلسلہ وار ثنائی جمع کار}
-صفحہ \حوالہصفحہ{شکل_ترتیبی_ثنائی_سلسلہ_وار_جمع_کار} پر شکل \حوالہ{شکل_ترتیبی_ثنائی_سلسلہ_وار_جمع_کار} میں سلسلہ وار ثنائی جمع کار پیش ہے جس کو استعمال کرکے شکل\حوالہء{ 7.7 } میں پیش متعدد بِٹ کا سلسلہ وار ثنائی جمع کار حاصل کیا گیا ۔
-یہاں دو عدد \عددی{n} بِٹ متوازی دائیں انتقال دفتر (ا اور ب) مستعمل ہیں۔
+صفحہ \حوالہصفحہ{شکل_ترتیبی_ثنائی_سلسلہ_وار_جمع_کار} پر شکل \حوالہ{شکل_ترتیبی_ثنائی_سلسلہ_وار_جمع_کار} میں سلسلہ وار ثنائی جمع کار پیش ہے جس کو استعمال کرکے شکل  \حوالہ{شکل_دفتر_متعدد_ہندسی_جمع_کار}  میں پیش متعدد بِٹ  سلسلہ وار ثنائی جمع کار حاصل کیا گیا ۔ یہاں  \عددی{n} بِٹ متوازی دائیں انتقال دفتر (ا اور ب) مستعمل ہیں۔
 	
- ساعت کے پہلے کنارے سے قبل (یعنی مجموعہ لینے سے قبل)، دفتر۔ا میں ثنائی عدد \عددی{y}، دفتر-ب میں ثنائی عدد \عددی{z} متوازی منتقل کئے جاتے ہیں اور زبردستی پست اشارہ لمحاتی پست کر کے ڈی پلٹ کار پست کیا جاتا ہے ( تا کہ مکمل جمع کار کا داخلی حاصل \عددی{0} ہو)۔شکل میں متوازی چڑھائی نہیں دکھائی گئی تا کہ اصل موضوع پر توجہ رہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro\cdelX{0.15}
+\pgfmathsetmacro\cdelY{0.15}
+\pgfmathsetmacro\kshiftX{5}
+\pgfmathsetmacro\kshiftY{2}
+\pgfmathsetmacro{\kpin}{0.50}
+\pgfmathsetmacro{\kpsep}{0.60}			%pin to pin distance
+\pgfmathsetmacro{\kulV}{0.50}			%edge clearance
+\pgfmathsetmacro{\kdimXa}{2*\kulV+2*\kpsep}
+\pgfmathsetmacro{\kdimYa}{2*\kulV+1*\kpsep}		%one spaces between 2 pins
+\pgfmathsetmacro{\kdimXb}{2*\kulV+0*\kpsep}
+\pgfmathsetmacro{\kdimYb}{2*\kulV+2*\kpsep}		%two spaces between 3 pins
+\draw[thick] (0,0) rectangle ++(\kdimXa,\kdimYa)node[pos=0.5]{دفتر-ا};
+\draw[thick] (0,-\kshiftY) rectangle ++(\kdimXa,\kdimYa)node[pos=0.5]{دفتر-ب};
+\draw[thick] (\kshiftX,0) rectangle ++(\kdimXb,\kdimYb) node[pos=0.5]{جمع کار};
+\draw[thick] (\kshiftX,-\kshiftY+\kdimYa) rectangle ++(\kdimXb,-\kdimYb)node[pos=0.5,below]{پلٹ};
+\draw[] (\kshiftX+0.5*\kdimXb,-\kshiftY+\kdimYa-\kdimYb)--++(0,-\kulV)--++(-\kpin,0)node[left]{$\overline{\text{\RL{زبردستی پست}}}$};
+\draw[thick] (\kshiftX+0.5*\kdimXb,-\kshiftY+\kdimYa-\kdimYb)++(0,-0.05)node[ocirc, fill=none]{};
+\draw[thin](\kdimXa,2/3*\kdimYa)--++(\kpin,0)|- (\kshiftX,1*\kulV+2*\kpsep)node[above left]{$y$};
+\draw(\kdimXa,-\kshiftY+2/3*\kdimYa)--++(2*\kpin,0)|- (\kshiftX,\kdimYb/2)node[above left]{$z$};
+\draw(\kshiftX,-\kshiftY+\kdimYa-\kulV)node[right]{$Q$}--++(-1*\kpin,0)node[rotate=90, above right]{حاصل} |-(\kshiftX,\kulV);
+\draw(\kshiftX+\kdimXb,-\kshiftY+\kdimYa-\kulV)node[left]{$D$}--++(1*\kpin,0) |-(\kshiftX+\kdimXb,\kulV)node[left]{$c$}node[above right]{$C$};
+\draw(0,\kulV+1*\kpsep)--++(-1*\kpin,0)--++(0,2.5*\kpsep)--++(2*\pin+\kshiftX+\kdimXb+\kpin,0) |-(\kshiftX+\kdimXb,1*\kulV+2*\kpsep)node[left]{$s$}node[above right]{$S$};
+\draw[thick] (0,\kulV-\cdelY)--++(\cdelX,\cdelY)--++(-\cdelX,\cdelY);
+\draw[thick] (0,-\kshiftY+\kulV-\cdelY)--++(\cdelX,\cdelY)--++(-\cdelX,\cdelY);
+\draw[thick] (\kshiftX+\kdimXb,-\kshiftY+\kdimYa-0.5*\kdimYb-\cdelY)--++(-\cdelX,\cdelY)--++(\cdelX,\cdelY);
+\draw(\kshiftX+\kdimXb,-\kshiftY+\kdimYa-0.5*\kdimYb)--++(\kpin,0)--++(0,-\kdimYb/2-2*\kpin)coordinate(kL);
+\draw(0,\kulV)--++(-\kpin,0)--++(0,-\kshiftY)coordinate(ck)--++(\kpin,0);
+\draw(ck)|-(kL) (ck)node[circ]{}--++(-\kpin,0)node[left]{ساعت};
+\end{tikzpicture}
+\caption{متعدد بِٹ سلسلہ وار ثنائی جمع کار}
+\label{شکل_دفتر_متعدد_ہندسی_جمع_کار}
+\end{figure}
+ ساعت کے پہلے کنارے سے قبل (یعنی مجموعہ لینے سے قبل)، دفتر۔ا میں ثنائی عدد \عددی{y}، دفتر-ب میں ثنائی عدد \عددی{z} متوازی منتقل کیے جاتے ہیں اور زبردستی پست اشارہ لمحاتی پست کر کے ڈی پلٹ کار پست کیا جاتا ہے ( تا کہ مکمل جمع کار کا داخلی حاصل \عددی{0} ہو)۔شکل میں متوازی چڑھائی نہیں دکھائی گئی تا کہ اصل موضوع پر توجہ رہے۔
 
 مکمل جمع کار ان دو ثنائی اعداد کے کم تر رتبی بِٹ اور داخلی حاصل \عددی{0} جمع کر کے جمع \عددی{s_0} اور خارجی حاصل \عددی{c_1} خارج کرتا ہے۔ساعت کے پہلے کنارے پر \عددی{c_1} کو ڈی پلٹ کار محفوظ کر کے اگلے ثنائی بِٹ کی جمع کے دوران مکمل جمع کار کو بطور داخلی حاصل فراہم کرتا ہے جبکہ دفتر-ا اور دفتر-ب اگلے ثنائی بِٹ فراہم کرتے ہیں۔جمع \عددی{s_0} شکل میں دفتر-ا کو سلسلہ وار مداخل کے طور مہیا کیا گیا ہے۔یوں جیسے جیسے دفتر ثنائی عدد \عددی{y} دائیں جانب خارج کرتا ہے ویسے ویسے اس کی جگہ دو اعداد کا مجموعہ جگہ لیتا ہے۔ساعت کے \عددی{n} کنارے گزرنے کے بعد دو ثنائی اعداد کا مجموعہ دفتر-ا میں محفوظ ہو گا جہاں سے اسے متوازی پڑھا جا سکتا ہے جبکہ مجموعے کا آخری حاصل مکمل جمع کار کے مخارج \عددی{c} سے پڑھا جا سکتا ہے۔
 

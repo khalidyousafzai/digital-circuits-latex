@@ -280,7 +280,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {12}}مجموعہ ارکان ضرب اور ضرب ارکان جمع کے مابین تبادلہ}{\arabicdigits {64}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {12}}مجموعہ ارکان ضرب اور ضرب بعد از جمع کے مابین تبادلہ}{\arabicdigits {64}}{}%
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {13}}ضرب و جمع دور سے متمم ضرب و متمم ضرب دور کا حصول}{\arabicdigits {65}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -333,7 +333,7 @@
 \selectlanguage *{urdu}
 \contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {3}}چار متغیر تفاعل}{\arabicdigits {83}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {4}}سادہ مساوات سے تفاعل کے ارکان ضرب کا حصول}{\arabicdigits {85}}{}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {4}}ضرب ارکان جمع کے روپ میں سادہ مساوات}{\arabicdigits {85}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {4}} ضرب بعد از جمع کی شکل میں سادہ مساوات}{\arabicdigits {85}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -548,11 +548,7 @@
 \contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {170}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {8}} گنت کار}{\arabicdigits {173}}{}%
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}ثنائی گنت کار}{\arabicdigits {173}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}معاصر گنت کار}{\arabicdigits {174}}{}%
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}معاصر گنت کار}{\arabicdigits {175}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {1}}معاصر ثنائی گنت کار}{\arabicdigits {175}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -563,6 +559,10 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {2}}ثنائی علامتی روپ معاصر اعشاری گنت کار}{\arabicdigits {177}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}دیگر گنت کار}{\arabicdigits {179}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}متغیر لمبائی گنت کار}{\arabicdigits {179}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {2}}بے ترتیب گنت کار}{\arabicdigits {179}}{}%
@@ -570,12 +570,12 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {3}} چھلا گنت کار}{\arabicdigits {180}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {3}} چھلا گنت کار}{\arabicdigits {180}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دورانیہ پیدا کار}{\arabicdigits {180}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دورانیہ پیدا کار}{\arabicdigits {181}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {9}} حافظہ}{\arabicdigits {183}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}عارضی حافظہ}{\arabicdigits {184}}{}%
 \bgroup 
@@ -613,4 +613,4 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {223}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {225}}{}%
