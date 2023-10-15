@@ -29,7 +29,7 @@
 %   to anchor pin2 at location (x,y) use
 %	\kSRFF[u1]{x-\pbx}{y-\pby}
 %pin 1,2,3,4,5,6,u,d are in this context written \pba, ...\pbf,\pbup,\pbdown
-
+% can place text at say "kref-north-east" where north-east is as viewed from the base of the FF
 \newcommand{\kuFF}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
@@ -189,6 +189,23 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 \foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
 \foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
 \foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kuTFFd}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kuFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6,d}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,d}{\draw(\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%

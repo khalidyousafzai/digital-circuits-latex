@@ -112,8 +112,43 @@
 \اصطلاح{معاصر گنت کار } میں تمام پلٹ کو ایک ہی ساعت مہیا کی جاتی ہے لہٰذا تمام پلٹ بیکوقت نیا حال اختیار کرتے ہیں۔ان ادوار میں ہر پلٹ کے مداخل پر ترکیبی دور نصب کر کے ، اسے اگلی ساعت کے کنارے پر ، بلند یا پست ہونے کا اشارہ مہیا کیا جاتا ہے۔پلٹ اگلی ساعت کے کنارے پر اس اشارے کے مطابق حال اختیار کرتا ہے۔یہ فیصلہ کہ اگلی ساعت پر پلٹ بلند یا پست حال اختیار کرے گا ، دور کے موجودہ حال کو دیکھ کر کیا جاتا ہے۔اس طریقہ کار کو چند مثالوں سے سمجھتے ہیں۔
 
 \جزوحصہ{معاصر ثنائی گنت کار}
-\اصطلاح{تین بِٹ معاصر ثنائی گنت کار }\فرہنگ{گنت کار!تین بِٹ، معاصر}\حاشیہب{three bit synchronous counter}\فرہنگ{counter!synchronous, three bit} شکل \حوالہء{ 8.3 } میں پیش ہے۔ مخارج \عددی{Q_0} کمتر رتبی بِٹ جبکہ \عددی{Q_2} بلند تر رتبی بِٹ ہے۔اس دور کی بناوٹ سیکھتے ہیں۔
+\اصطلاح{تین بِٹ معاصر ثنائی گنت کار }\فرہنگ{گنت کار!تین بِٹ، معاصر}\حاشیہب{three bit synchronous counter}\فرہنگ{counter!synchronous, three bit} شکل  \حوالہ{شکل_گنت_کار_معاصر_ثنائی_گنتکار}  میں پیش ہے۔ مخارج \عددی{Q_0} کمتر رتبی بِٹ جبکہ \عددی{Q_2} بلند تر رتبی بِٹ ہے۔اس دور کی بناوٹ سیکھتے ہیں۔
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{3}
+\pgfmathsetmacro{\ksepY}{1.5}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\kuTFFd[u0]{0}{0}
+\kuTFFd[u1]{-1*\ksepX}{0}
+\kuTFFd[u2]{-2*\ksepX}{0}
+\draw(u0p6)--++(0,\kpinA)node[above]{$Q_0$};
+\draw(u1p6)--++(0,\kpinA)node[above]{$Q_1$};
+\draw(u2p6)--++(0,\kpinA)node[above]{$Q_2$};
+\draw(-2.25*\ksepX,-\ksepY)node[and port, number inputs=2,scale=1,rotate=180,anchor=out](u3){};
+\draw(u2p1)|-(u3.out);
+\draw(u1p1)|-(u3.in 1);
+\draw(u1p6)--++(-1.5*\kpinA,0)|-(u3.in 2);
+\draw(u0p6)--++(-1.5*\kpinA,0)|-(u1p1 |-u3.in 1);
+\draw(u0p1)--++(0,-0.35*\ksepY)coordinate(dd);
+\kindown[j1]{dd};
+\draw(j1south)node[below]{$1$};
+\draw(u2p2)--++(0,-1*\kpinA)--++(2*\ksepX+2*\kpinA,0)coordinate(kclk);
+\kinright[j2]{kclk};
+\draw(j2east)node[right]{$C$};
+\draw(u1p2)|-(kclk);
+\draw(u0p2)|-(kclk);
+\draw(u2pd)--++(0,-3*\kpin)--++(2*\ksepX,0)coordinate(krst);
+\kinright[j3]{krst};
+\draw(j3east)node[right]{$\overline{\text{\RL{زبردستی پست}}}$};
+\draw(u0pd)|-(krst);
+\draw(u1pd)|-(krst);
+\end{tikzpicture}
+\caption{معاصر ثنائی گنت کار}
+\label{شکل_گنت_کار_معاصر_ثنائی_گنتکار}
+\end{figure}
 
 
 جدول \حوالہ{جدول_گنت_کار_تین_بِٹ_معاصر} میں \موٹا{ موجودہ حال } کی قطار میں تین بِٹ ثنائی گنتی لکھی گئی ہے جو کسی بھی لمحے پلٹ کا موجودہ حال پیش کرتی ہے۔موجودہ حال استعمال کرتے ہوئے باقی جدول حاصل ہو گا۔ جدول کی پہلی صف پر غور کریں جہاں موجودہ گنتی یا موجودہ حال \عددی{000_2} ہے۔ہم چاہتے ہیں کہ اگلا عدد \عددی{001_2} ہو ، لہٰذا \موٹا{ اگلے حال }کی پہلی صف میں ہم \عددی{001_2} لکھتے ہیں۔آخری صف میں موجودہ حال \عددی{111_2} ہے۔تین بِٹ استعمال کرتے ہوئے یہیں تک گنتی ممکن ہے۔اس آخری گنتی تک پہنچ کر ہم دوبارہ \عددی{000_2} سے گنتی شروع کرتے ہی، لہٰذا آخری صف میں اگلا حال \عددی{000_2} ہو گا۔یوں موجودہ حال کی دوسری صف در حقیقت اگلے حال کی پہلی صف ہو گی۔اسی طرح موجودہ حال کی تیسری صف اگلے حال کی دوسری صف ہو گی، اور موجودہ حال کی پہلی صف اگلے حال کی آخری صف ہو گی۔
@@ -169,9 +204,67 @@ T_1&=\overline{Q}_2\overline{Q_1} Q_0+\overline{Q}_2 Q_1 Q_0+Q_2\overline{Q_1} Q
 T_2&=\overline{Q}_2 Q_1 Q_0+Q_2Q_1Q_0
 \end{aligned}
 \end{gather}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-2*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(2*\kxstep,0)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-2*\kystep)+(-\kmv,\kmv)$);
+\end{tikzpicture}\quad\quad 
+\(T_2=Q_1Q_0\)
+\caption*{} 					%gives space between subfigures
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-2*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{},1/{1},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{1},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(\kxstep,0)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-2*\kystep)+(-\kmv,\kmv)$);
+\end{tikzpicture}\quad\quad
+\(T_1=Q_0\)
+\caption*{} 					%gives space between subfigures
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-2*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{1},1/{1},2/{1},3/{1}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{1},1/{1},2/{1},3/{1}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(0,0)+(\kmv,-\kmv)$) rectangle ($(4*\kxstep,-2*\kystep)+(-\kmv,\kmv)$);
+\end{tikzpicture}\quad\quad
+\(T_0=1\)
+\end{subfigure}
+\caption{تین بِٹ معاصر گنت کار کی سادہ مساواتیں}
+\label{شکل_گنت_کار_تین_بٹ_معاصر_کی_سادہ}
+\end{figure}
 
-
-یہ مساوات موجودہ حال کی قیمتیں مدِ نظر رکھ کر لکھی گئی ہیں۔جدول \حوالہ{جدول_گنت_کار_تین_بِٹ_معاصر} میں موجود مواد سے شکل \حوالہء{8.4 } میں پیش کارناف نقشوں کی مدد سے درج ذیل سادہ مساواتیں حاصل کی گئی ہیں ۔
+یہ مساوات موجودہ حال کی قیمتیں مدِ نظر رکھ کر لکھی گئی ہیں۔جدول \حوالہ{جدول_گنت_کار_تین_بِٹ_معاصر} میں موجود مواد سے شکل  \حوالہ{شکل_گنت_کار_تین_بٹ_معاصر_کی_سادہ}   میں پیش کارناف نقشوں کی مدد سے درج ذیل سادہ مساواتیں حاصل کی گئی ہیں ۔
 \begin{gather}
 \begin{aligned}\label{مساوات_گنت_کار_تین_ثنائی}
 T_0&=1\\
@@ -180,7 +273,7 @@ T_2&=Q_1Q_0
 \end{aligned}
 \end{gather}
 
-شکل \حوالہء{ 8.3 } میں تین پلٹوں کو مساوات \حوالہ{مساوات_گنت_کار_تین_ثنائی} سے حاصل برقی اشارات بطور مداخل فراہم کر کے \اصطلاح{ تین بِٹ معاصر ثنائی گنت کار }\فرہنگ{گنت کار!معاصر، تین بِٹ ثنائی}\حاشیہب{three bit synchronous binary counter}\فرہنگ{counter!synchronous, three bit binary}حاصل کیا گیا ہے۔
+شکل  \حوالہ{شکل_گنت_کار_معاصر_ثنائی_گنتکار} میں تین پلٹوں کو مساوات \حوالہ{مساوات_گنت_کار_تین_ثنائی} سے حاصل برقی اشارات بطور مداخل فراہم کر کے \اصطلاح{ تین بِٹ معاصر ثنائی گنت کار }\فرہنگ{گنت کار!معاصر، تین بِٹ ثنائی}\حاشیہب{three bit synchronous binary counter}\فرہنگ{counter!synchronous, three bit binary}حاصل کیا گیا ہے۔
 
  جدول \حوالہ{جدول_گنت_کار_تین_بِٹ_معاصر} دیکھ کر بھی مساوات \حوالہ{مساوات_گنت_کار_تین_ثنائی} حاصل کیے جا سکتے ہیں۔ اس جدول پر غور کرنے سے دیکھا جا سکتا ہے کہ \عددی{Q_0} ہر ساعت کے کنارے پر تبدیل ہوتا ہے۔ \عددی{T_0} پر \عددی{1} مہیا کرنے سے یہی حاصل ہو گا (جو مساوات \حوالہ{مساوات_گنت_کار_تین_ثنائی} کا پہلا جزو ہے)۔ جدول میں جب بھی \عددی{Q_0} کی قیمت \عددی{1} ہو ، اگلی ساعت کے کنارے پر \عددی{Q_1} کی قیمت تبدیل ہوتی ہے، جو \عددی{T_1} کو \عددی{Q_0} فراہم کرنے سے حاصل ہو گا (یہ درج بالا مساوات کا دوسرا جزو ہے)۔ اسی طرح جدول میں جب بھی \عددی{Q_0} اور \عددی{Q_1} کی قیمتیں بیکوقت \عددی{1} ہوں، اگلی ساعت کے کنارے پر \عددی{Q_2} کی قیمت تبدیل ہوتی ہے۔یوں \عددی{T_2} کو \عددی{Q_1Q_0} فراہم کرنا ہو گا (درج بالا مساوات کا تیسرا جزو)۔ متعدد بِٹ ثنائی گنتی پر غور کرنے سے دیکھا جا سکتا ہے کہ کوئی بھی مخارج، ساعت کے اگلے کنارے، تب حال تبدیل کرتا ہے جب اس سے کمتر تمام مخارج کی قیمتیں بیکوقت \عددی{1} ہوں۔یوں \اصطلاح{ چار بِٹ معاصر ثنائی گنت کار }\فرہنگ{گنت کار!ثنائی، معاصر، چار بِٹ}\حاشیہب{four bit synchronous binary counter}\فرہنگ{counter!synchronous, binary, four bit} کے لئے درج ذیل ہو گا۔
 \begin{gather}
@@ -192,13 +285,13 @@ T_3&=Q_2Q_1Q_0
 \end{aligned}
 \end{gather}
 
-\جزوحصہ{ثنائی علامتی روپ معاصر اعشاری گنت کار}
-گزشتہ حصے میں تین بِٹ ثنائی گنت کار پر غور کیا گیا، جو \عددی{000_2} تا \عددی{111_8} گنتی کرنے کی صلاحیت رکھتا ہے۔چار بِٹ ثنائی گنت کار \عددی{0000_2} تا \عددی{1111_2} ثنائی گنتی کر سکتا ہے۔چار بِٹ ثنائی گنت کار کے دور کو \عددی{0000_2} تا \عددی{1001_2} گنتی کرنے کا پابند بنانے سے \اصطلاح{ثنائی علامتی روپ اعشاری گنت کار}\فرہنگ{گنت کار!اعشاری، ثنائی علامتی روپ}\حاشیہب{BCD decimal counter}\فرہنگ{counter!decimal, BCD} حاصل ہو گا، جس پر اس حصہ میں غور کیا جائے گا۔
+\جزوحصہ{ثنائی  مرموز اعشاری  معاصر گنت کار}
+گزشتہ حصے میں تین بِٹ ثنائی گنت کار پر غور کیا گیا، جو \عددی{000_2} تا \عددی{111_8} گنتی کرنے کی صلاحیت رکھتا ہے۔چار بِٹ ثنائی گنت کار \عددی{0000_2} تا \عددی{1111_2} ثنائی گنتی کر سکتا ہے۔چار بِٹ ثنائی گنت کار  کو \عددی{0000_2} تا \عددی{1001_2} گنتی کرنے کا پابند بنانے سے \اصطلاح{ثنائی  مرموز اعشاری گنت کار}\فرہنگ{گنت کار!ثنائی مرموز اعشاری}\حاشیہب{BCD decimal counter}\فرہنگ{counter!decimal, BCD} حاصل ہو گا، جس پر اس حصہ میں غور کیا جائے گا۔
 
-جدول \حوالہ{جدول_گنت_کار_ثنائی_اعشاری} میں ثنائی علامتی روپ اعشاری گنت کار کے حال پیش ہیں۔جدول میں \موٹا{ مخارج } \عددی{y} کی قطار کا اضافہ کیا گیا ہے۔مخارج \عددی{y } صفر سے نو تک گنتی پوری ہونے پر ساعت کے ایک\اصطلاح{ دوری عرصہ }\فرہنگ{دوری عرصہ}\حاشیہب{time period}\فرہنگ{time period} کے لئے بلند ہوتا ہے۔ہم آگے دیکھیں گے کہ \عددی{y} استعمال کرتے ہوئے متعدد اعشاری ہندسوں کے گنت کار تخلیق دیے جاتے ہیں۔
+جدول \حوالہ{جدول_گنت_کار_ثنائی_اعشاری} میں ثنائی  مرموز  اعشاری گنت کار کے حال پیش ہیں۔جدول میں \موٹا{ مخارج } \عددی{y} کی قطار کا اضافہ کیا گیا ہے۔مخارج \عددی{y } صفر سے نو تک گنتی پوری ہونے پر ساعت کے ایک\اصطلاح{ دوری عرصہ }\فرہنگ{دوری عرصہ}\حاشیہب{time period}\فرہنگ{time period} کے لئے بلند ہوتا ہے۔ہم آگے دیکھیں گے کہ \عددی{y} استعمال کرتے ہوئے متعدد اعشاری ہندسوں کے گنت کار تخلیق دیے جاتے ہیں۔
 
 \begin{table}
-\caption{ثنائی علامتی روپ اعشاری گنت کار کے حال}
+\caption{ثنائی  مرموز  اعشاری گنت کار کے حال}
 \label{جدول_گنت_کار_ثنائی_اعشاری}
 \centering
 \begin{otherlanguage}{english}
@@ -226,8 +319,118 @@ Q_3&Q_2&Q_1&Q_0&Q_3&Q_2&Q_1&Q_0&y&T_3&T_2&T_1&T_0\\
 
 
 
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_3Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{1},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{d},1/{d},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(2*\kxstep,-\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-3*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(1*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-1.5*\kmv,\kmv)$);
+\draw(2*\kxstep,-4.5*\kystep)node[below]{\(T_3=Q_3Q_0+Q_2Q_1Q_0\)};
+\end{tikzpicture}
+\caption*{} 					%gives space between subfigures
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_3Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{d},1/{d},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(2*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-\kmv,\kmv)$);
+%\draw[gray,dashed] ($(1*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-1.5*\kmv,\kmv)$);
+\draw(2*\kxstep,-4.5*\kystep)node[below]{\(T_2=Q_1Q_0\)};
+\end{tikzpicture}
+\caption*{} 					%gives space between subfigures
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_3Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{},1/{1},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{1},2/{1},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{d},1/{d},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(1*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-2*\kystep)+(-\kmv,\kmv)$);
+%\draw[gray,dashed] ($(1*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-1.5*\kmv,\kmv)$);
+\draw(2*\kxstep,-4.5*\kystep)node[below]{\(T_1=\overline{Q}_3Q_0\)};
+\end{tikzpicture}
+\caption*{} 					%gives space between subfigures
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_3Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{1},1/{1},2/{1},3/{1}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{1},1/{1},2/{1},3/{1}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{1},1/{1},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{d},1/{d},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(0*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(4*\kxstep,-4*\kystep)+(-\kmv,\kmv)$);
+%\draw[gray,dashed] ($(1*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-1.5*\kmv,\kmv)$);
+\draw(2*\kxstep,-4.5*\kystep)node[below]{\(T_0=1\)};
+\end{tikzpicture}
+\caption*{} 					%gives space between subfigures
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:1.5*\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_3Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{},2/{},3/{}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{},1/{1},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{d},1/{d},2/{d},3/{d}}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(1*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-\kmv,\kmv)$);
+%\draw[gray,dashed] ($(1*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-1.5*\kmv,\kmv)$);
+\draw(2*\kxstep,-4.5*\kystep)node[below]{\(y=Q_3Q_0\)};
+\end{tikzpicture}
+\caption*{} 					%gives space between subfigures
+\end{subfigure}
+\caption{کارناف نقشوں سے گنت کار کی مساوات کا حصول}
+\label{شکل_گنت_کار_کارناف_سے_گنتکار_سادہ_مساوات}
+\end{figure}
 
-اس جدول میں \عددی{1010_2} تا \عددی{1111_2} ترتیب استعمال نہیں ہوتے، لہٰذا کارناف نقشوں کی مدد سے پلٹوں کے مداخل \عددی{T_0} تا \عددی{T_3} اور مخارج \عددی{y} کی سادہ مساوات حاصل کرتے وقت انہیں \اصطلاح{ غیر ضروری حال }تصور کیا جاتا ہے۔شکل \حوالہء{ 8.6 } میں درج ذیل سادہ مساوات حاصل کرنا دکھایا گیا ہے۔
+اس جدول میں \عددی{1010_2} تا \عددی{1111_2} ترتیب استعمال نہیں ہوتے، لہٰذا کارناف نقشوں کی مدد سے پلٹوں کے مداخل \عددی{T_0} تا \عددی{T_3} اور مخارج \عددی{y} کی سادہ مساوات حاصل کرتے وقت انہیں \اصطلاح{ غیر ضروری حال }تصور کیا جاتا ہے۔شکل  \حوالہ{شکل_گنت_کار_کارناف_سے_گنتکار_سادہ_مساوات} میں درج ذیل سادہ مساوات حاصل کرنا دکھایا گیا ہے۔
 \begin{gather}
 \begin{aligned}
 T_0&=1\\
@@ -238,9 +441,60 @@ y&=Q_3Q_0
 \end{aligned}
 \end{gather}
 
-ان مساوات سے حاصل دور شکل\حوالہء{ 8.7 } میں پیش ہے ، جہاں تمام پلٹ کے مداخل پر اضافی ضرب گیٹ نصب کر کے گنتی شروع اور روکنے کی اضافی صلاحیت بھی پیدا کی گئی ہے۔ ان اضافی ضرب گیٹوں کو برقی اشارہ \موٹا{ گِن} مہیا کیا گیا ہے۔یہ اشارہ بلند ہونے کی صورت میں دور گنتی کرتا ہے اور اشارہ پست ہونے کی صورت میں گنتی روکتا ہے۔
+ان مساوات سے حاصل دور شکل \حوالہ{شکل_گنت_کار_ثنائی_مرموز_معاصر_اعشاری}  میں پیش ہے ، جہاں تمام پلٹ کے مداخل پر اضافی ضرب گیٹ نصب کر کے گنتی شروع اور روکنے کی اضافی صلاحیت بھی پیدا کی گئی ہے۔ ان اضافی ضرب گیٹوں کو برقی اشارہ \موٹا{ گِن} مہیا کیا گیا ہے۔یہ اشارہ بلند ہونے کی صورت میں دور گنتی کرتا ہے اور اشارہ پست ہونے کی صورت میں گنتی روکتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\ksepY}{1.5}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{0.4}
+\kuTFFd[u0]{0}{0}
+\kuTFFd[u1]{-1*\ksepX}{0}
+\kuTFFd[u2]{-2*\ksepX}{0}
+\kuTFFd[u3]{-3*\ksepX}{0}
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\draw(u0p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u4){};
+\draw(u1p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u5){};
+\draw(u2p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u6){};
+\draw(u3p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u7){};
+\draw(u7.in 1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u8){};
+\draw(u8.in 1)--++(-\kpinA,0)node[and port,scale=1,rotate=90,anchor=out,number inputs=2](u9){};
+\draw(u8.in 2)--++(\kpinA,0)node[and port,scale=1,rotate=90,anchor=out,number inputs=3](u10){};
+\draw(u9.in 1)node[below]{$Q_3$};
+\draw(u9.in 2)node[below]{$Q_0$};
+\draw(u10.in 1)node[below,xshift=-0.5ex]{$Q_2$};
+\draw(u10.in 2)node[below]{$Q_1$};
+\draw(u10.in 3)node[below,xshift=0.5ex]{$Q_0$};
+\draw(u6.in 1)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u11){};
+\draw(u11.in 1)|-(u11.in 1 |- u10.in 2)node[below]{$Q_1$};
+\draw(u11.in 2)|-(u11.in 2 |- u10.in 2)node[below]{$Q_0$};
+\draw(u5.in 1)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u12){};
+\draw(u12.in 1)|-(u12.in 1 |- u10.in 2)node[below]{$\overline{Q}_3$};
+\draw(u12.in 2)|-(u12.in 2 |- u10.in 2)node[below]{$Q_0$};
+\draw(u4.in 1)|-(u4.in 1 |- u10.in 2)node[below]{$1$};
+\draw($(u3p6)+(-1*\ksepX,0)$)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u13){};
+\draw(u13.out)node[above]{$y$};
+\draw(u13.in 1)--(u13.in 1 |- u9.in 1)node[below]{$Q_3$};
+\draw(u13.in 2)--(u13.in 2 |- u9.in 1)node[below]{$Q_0$};
+\draw(u7.in 2)--(u4.in 2)coordinate(kcnt);
+\kindown[j1]{kcnt};
+\draw(j1south)node[left,rotate=90]{گِن};
+\draw(u3p2)--(u0p2)--++(1*\kpinA,0)coordinate(kclk)--(kclk |- kcnt)coordinate(kclkin);
+\kindown[j2]{kclkin};
+\draw(j2south)node[left,rotate=90]{ساعت};
+\draw(u0pd)--++(0,-2.5*\kpinA)coordinate(krst)-|(u3pd);
+\kindown[j3]{krst};
+\draw(j3east)node[below,rotate=90]{$\overline{\text{\RL{زبردستی پست}}}$};
+\end{tikzpicture}
+\caption{ثنائی مرموز اعشاری  معاصر  گنت کار}
+\label{شکل_گنت_کار_ثنائی_مرموز_معاصر_اعشاری}
+\end{figure}
 
-شکل \حوالہء{8.8 } میں تین درجی دور بنایا گیا ہے جو \عددی{000_{10}} تا \عددی{999_{10}} گنتی کرتا ہے۔اسے بنانے کی خاطر تین عدد \اصطلاح{ثنائی علامتی روپ اعشاری گنت کار } استعمال کیے گئے۔اسی طرح مزید درجات جوڑ کر درکار ہندسوں کا گنت کار بنایا جاتا ہے۔ 
+شکل \حوالہء{8.8 } میں تین درجی دور بنایا گیا ہے جو \عددی{000_{10}} تا \عددی{999_{10}} گنتی کرتا ہے۔اسے بنانے کی خاطر تین عدد \اصطلاح{ثنائی  مرموز  اعشاری گنت کار } استعمال کیے گئے۔اسی طرح مزید درجات جوڑ کر درکار ہندسوں کا گنت کار بنایا جاتا ہے۔ 
 
 
 اس دور کی کارکردگی کچھ یوں ہے۔گنتی شروع کرنے سے قبل \عددی{\overline{\text{\RL{زبردستی پست}}}} کو لمحاتی پست کر کے گنتی \عددی{000_{10}} کر دی جاتی ہے۔ساعت کے کنارہ چڑھائی پر اکائی ہندسے کی گنتی بتدریج بڑھتی ہے؛ اکائی درجے کا مخارج \عددی{y} پست رہتا ہے جو دہائی اور سینکڑا کی گنتی روک کر رکھتا ہے۔گنتی \عددی{009_{10}} تک پہنچتے ہی اکائی درجہ کا مخارج \عددی{y} ایک دوری عرصہ کے لئے بلند ہو گا۔یوں اگلے ساعت کے کنارہ چڑھائی پر اکائی درجہ کا ہندسہ \عددی{9_{10}}سے \عددی{0_{10}} ہو جائے گا، جبکہ دہائی درجے کا ہندسہ \عددی{0_{10}} سے بڑھ کر \عددی{1_{10}} ہو جائے گا اور اسی وقت اکائی کا مخارج \عددی{y} واپس پست حال اختیار کرے گا۔یوں اس سے اگلے ساعت کے کنارے پر صرف اکائی درجہ کی گنتی چالو رہتی ہے جبکہ دہائی اور سینکڑا کی گنتی رکی رہتی ہے۔اسی طرح \عددی{099_{10}} کے بعد اکائی اور دہائی درجات کے مخارج \عددی{y} بلند ہوتے ہیں جس کی وجہ سے اگلے ساعت کے کنارہ چڑھائی پر سینکڑا \عددی{0_{10}} سے بڑھ کر \عددی{1_{10}} ہو جائے گا جبکہ اکائی اور دہائی درجات \عددی{9_{10}} سے \عددی{0_{10}} ہو جائیں گے اور ساتھ ہی ان کے مخارج \عددی{y} دوبارہ پست ہو جائیں گے۔

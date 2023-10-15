@@ -855,7 +855,7 @@ C&S&R&Q_{n+1}&\overline{Q}_{n+1}\\
 \draw(bb)--(cc) (aa)--(dd);
 \draw(u5.in 2)node[nand port,scale=1,number inputs=2,anchor=out](u7){};
 \draw(u6.in 2)node[nand port,scale=1,number inputs=2,anchor=out](u8){};
-\draw($(u7.in 1)!0.5!(u8.in 2)$) node[not port,scale=1,anchor=in](u9){};
+\draw($(u7.in 1)!0.5!(u8.in 2)$) node[not port,scale=0.8,anchor=in](u9){};
 \draw(u3.in 1)--(u4.in 2)coordinate[pos=0.5](cc) (cc)--(u9.out);
 \draw(u7.in 2)--++(-\kpin,0)node[left]{$R$};
 \draw(u8.in 1)--++(-\kpin,0)node[left]{$S$};
@@ -1531,7 +1531,7 @@ $\small Q_2Q_1Q_0$&[timing/counter/new={char=c, base=2,digits=3,max value=7, wra
 \draw(u7.out)--(u7.out-|rgt)node[right]{$y$}node[below right,shift={(-2ex,-1ex)}]
 {$\overline{x+\overline{Q}_0+\overline{Q}_1}$};
 \end{tikzpicture}
-\caption{ترتیبی دور کی بطور مثال}
+\caption{ترتیبی دور بطور مثال}
 \label{شکل_ترتیبی_بطور_مثال}
 \end{figure}
  شکل \حوالہ{شکل_ترتیبی_بطور_مثال} مثال بنا کر آگے بڑھتے ہیں، جہاں کنارہ چڑھائی پر عمل کار ڈی پلٹ کار مستعمل ہیں۔ موجودہ مداخل \عددی{x(n)} جبکہ موجودہ مخارج \عددی{Q_0(n)} اور \عددی{Q_1(n)} ہیں۔ان تینوں کو مداخل تصور کر کے \عددی{D_0} کی ترکیبی مساوات لکھتے ہیں۔ضرب گیٹ \عددی{u4} کا مخارج \عددی{xQ_0} اور \عددی{u5} کا \عددی{x\overline{Q}_1} ہے، جو متمم جمع \عددی{u3} کے مداخل ہیں، لہٰذا (بالائی پلٹ کار کا مداخل) \عددی{D_0} جو \عددی{u3} کا مخارج ہے، ان کے منطقی جمع کا متمم ہو گا۔

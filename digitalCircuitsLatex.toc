@@ -558,24 +558,24 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {2}}ثنائی علامتی روپ معاصر اعشاری گنت کار}{\arabicdigits {177}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {2}}ثنائی مرموز اعشاری معاصر گنت کار}{\arabicdigits {178}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}دیگر گنت کار}{\arabicdigits {179}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}متغیر لمبائی گنت کار}{\arabicdigits {179}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {2}}بے ترتیب گنت کار}{\arabicdigits {179}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}دیگر گنت کار}{\arabicdigits {182}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}متغیر لمبائی گنت کار}{\arabicdigits {182}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {3}} چھلا گنت کار}{\arabicdigits {180}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {2}}بے ترتیب گنت کار}{\arabicdigits {183}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {3}} چھلا گنت کار}{\arabicdigits {183}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دورانیہ پیدا کار}{\arabicdigits {181}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دورانیہ پیدا کار}{\arabicdigits {184}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {9}} حافظہ}{\arabicdigits {183}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}عارضی حافظہ}{\arabicdigits {184}}{}%
 \bgroup 
@@ -613,4 +613,4 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {225}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {227}}{}%
