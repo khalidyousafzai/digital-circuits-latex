@@ -310,6 +310,59 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 \foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kTFFu}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6,u}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kTFFd}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6,d}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,d}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kTFFud}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kFF[#1]{#2}{#3}
+\foreach \n in {1,2,4,6,u,d}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 \newcommand{\kBuffer}[3][u0]{
 \def\kref{#1}

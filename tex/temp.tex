@@ -11,7 +11,7 @@
 \draw(u0p6)--++(0,\kpinA)node[above]{$Q_0$};
 \draw(u1p6)--++(0,\kpinA)node[above]{$Q_1$};
 \draw(u2p6)--++(0,\kpinA)node[above]{$Q_2$};
-\draw(-2.25*\ksepX,-\ksepY)node[and port, number inputs=2,scale=1,rotate=180,anchor=out](u3){};
+\draw(-2.25*\ksepX,-\ksepY)node[and port, number inputs=2,scale=0.9,rotate=180,anchor=out](u3){};
 \draw(u2p1)|-(u3.out);
 \draw(u1p1)|-(u3.in 1);
 \draw(u1p6)--++(-1.5*\kpinA,0)|-(u3.in 2);
@@ -217,26 +217,26 @@
 \draw(u1p6)node[above]{$Q_1$};
 \draw(u2p6)node[above]{$Q_2$};
 \draw(u3p6)node[above]{$Q_3$};
-\draw(u0p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u4){};
-\draw(u1p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u5){};
-\draw(u2p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u6){};
-\draw(u3p1)--++(0,-2*\kpinA)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u7){};
-\draw(u7.in 1)node[or port,scale=1,number inputs=2,rotate=90,anchor=out](u8){};
-\draw(u8.in 1)--++(-\kpinA,0)node[and port,scale=1,rotate=90,anchor=out,number inputs=2](u9){};
-\draw(u8.in 2)--++(\kpinA,0)node[and port,scale=1,rotate=90,anchor=out,number inputs=3](u10){};
+\draw(u0p1)--++(0,-2*\kpinA)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u4){};
+\draw(u1p1)--++(0,-2*\kpinA)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u5){};
+\draw(u2p1)--++(0,-2*\kpinA)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u6){};
+\draw(u3p1)--++(0,-2*\kpinA)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u7){};
+\draw(u7.in 1)node[or port,scale=0.9,number inputs=2,rotate=90,anchor=out](u8){};
+\draw(u8.in 1)--++(-\kpinA,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u9){};
+\draw(u8.in 2)--++(\kpinA,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=3](u10){};
 \draw(u9.in 1)node[below]{$Q_3$};
 \draw(u9.in 2)node[below]{$Q_0$};
 \draw(u10.in 1)node[below,xshift=-0.5ex]{$Q_2$};
 \draw(u10.in 2)node[below]{$Q_1$};
 \draw(u10.in 3)node[below,xshift=0.5ex]{$Q_0$};
-\draw(u6.in 1)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u11){};
+\draw(u6.in 1)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u11){};
 \draw(u11.in 1)|-(u11.in 1 |- u10.in 2)node[below]{$Q_1$};
 \draw(u11.in 2)|-(u11.in 2 |- u10.in 2)node[below]{$Q_0$};
-\draw(u5.in 1)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u12){};
+\draw(u5.in 1)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u12){};
 \draw(u12.in 1)|-(u12.in 1 |- u10.in 2)node[below]{$\overline{Q}_3$};
 \draw(u12.in 2)|-(u12.in 2 |- u10.in 2)node[below]{$Q_0$};
 \draw(u4.in 1)|-(u4.in 1 |- u10.in 2)node[below]{$1$};
-\draw($(u3p6)+(-1*\ksepX,0)$)node[and port,scale=1,number inputs=2,rotate=90,anchor=out](u13){};
+\draw($(u3p6)+(-1*\ksepX,0)$)node[and port,scale=0.9,number inputs=2,rotate=90,anchor=out](u13){};
 \draw(u13.out)node[above]{$y$};
 \draw(u13.in 1)--(u13.in 1 |- u9.in 1)node[below]{$Q_3$};
 \draw(u13.in 2)--(u13.in 2 |- u9.in 1)node[below]{$Q_0$};
@@ -253,4 +253,175 @@
 \end{figure}
 
 %=======================
+%fig 8.6
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{3.25}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2.5*\kul+0*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\draw[thick](\kul+0.5*\kpsep-1*\kmv,0)--++(\kmv,\kmv)--++(\kmv,-\kmv);
+\foreach \x/\a in {0/{Q_3},1/{Q_2},2/{Q_1},3/{Q_0}}{\draw(\kul+\x*\kpsep,\kydim)node[below]{$\a$}--++(0,\kpin);}
+\draw[thick](-\ksepX,0) rectangle ++(\kxdim,\kydim);
+\draw[thick](\kul+0.5*\kpsep-1*\kmv-\ksepX,0)--++(\kmv,\kmv)--++(\kmv,-\kmv);
+\foreach \x/\a in {0/{Q_3},1/{Q_2},2/{Q_1},3/{Q_0}}{\draw(\kul+\x*\kpsep-\ksepX,\kydim)node[below]{$\a$}--++(0,\kpin);}
+\draw[thick](-2*\ksepX,0) rectangle ++(\kxdim,\kydim);
+\draw[thick](\kul+0.5*\kpsep-1*\kmv-2*\ksepX,0)--++(\kmv,\kmv)--++(\kmv,-\kmv);
+\foreach \x/\a in {0/{Q_3},1/{Q_2},2/{Q_1},3/{Q_0}}{\draw(\kul+\x*\kpsep-2*\ksepX,\kydim)node[below]{$\a$}--++(0,\kpin);}
+\draw(\kul+1.5*\kpsep,\kydim+\kpin)node[above]{اکائی};
+\draw(\kul+1.5*\kpsep-\ksepX,\kydim+\kpin)node[above]{دہائی};
+\draw(\kul+1.5*\kpsep-2*\ksepX,\kydim+\kpin)node[above]{سینکڑا};
+\draw(-2*\ksepX+\kxdim,0.5*\kul)coordinate(kna)--++(0.5*\kpin,0)--++(0,-1.5*\kpin)--++(2*\ksepX+0*\kxdim+\kpin,0)coordinate(krst)node[right]{$\overline{\text{\RL{زبردستی پست}}}$};
+\draw(-\ksepX+\kxdim,0.5*\kul)coordinate(knb)--++(0.5*\kpin,0)coordinate(aa)--(aa |- krst);
+\draw(\kxdim,0.5*\kul)coordinate(knc)--++(0.5*\kpin,0)coordinate(bb)--(bb |- krst);
+\draw(kna)++(\knshift,0)node[ocirc]{};
+\draw(knb)++(\knshift,0)node[ocirc]{};
+\draw(knc)++(\knshift,0)node[ocirc]{};
+\draw(-2*\ksepX+\kul+0.5*\kpsep,0)--++(0,-2*\kpin)--++(2*\ksepX+\kxdim,0)coordinate(kclk)node[right]{ساعت};
+\draw(-1*\ksepX+\kul+0.5*\kpsep,0)--++(0,-2*\kpin)coordinate(kkbb)--(kkbb |- kclk);
+\draw(\kul+0.5*\kpsep,0)--++(0,-2*\kpin)coordinate(kkcc)--(kkcc |- kclk);
+\draw(-2*\ksepX+\kul+2.5*\kpin,0)node[above]{گِن}--++(0,-2.5*\kpin)node[and port,scale=0.9,number inputs=2,anchor=out,rotate=90](u1){};
+\draw(-\ksepX,0.5*\kydim)node[right]{$y$}--++(-0.5*\kpin,0) |-(u1.in 2);
+\draw(u1.in 1)--++(0,-\kpin)coordinate(kua);
+\draw(0,0.5*\kydim)node[right]{$y$}--++(-0.5*\kpin,0)coordinate(kct) |-(kua);
+\draw(-1*\ksepX+\kul+2.5*\kpin,0)node[above]{گِن} --++ (0,-0.5*\kpin)coordinate(aaa)--(aaa -| kct);
+\draw(\kul+2.5*\kpin,0)node[above]{گِن} --++(0,-3*\kpin)node[below]{1};
+\draw(-2*\ksepX,0.5*\kydim)node[right]{$y$}--++(-0.5*\kpin,0);
+\end{tikzpicture}
+\end{figure}
+%==========================================
+\begin{tikzpicture}[
+ fulladder/.style={draw, minimum height=1.5cm, minimum width=2.25cm,thick,
+ label={[anchor=west]left:$c_\text{خ}$},
+ label={[anchor=south]below:$s$},
+ label={[anchor=east]right:$c_\text{د}$},
+ label={[anchor=north]65:$z\vphantom{y}$},
+ label={[anchor=north]115:$y\vphantom{z}$},
+ }]
+ \end{tikzpicture}
+ %=========================
+ %=======================
+%fig 8.7
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2.5*\kul+0*\kpsep}
+\kuTFF[u0]{0}{0}
+\kuTFF[u1]{-1*\ksepX}{0}
+\kuTFF[u2]{-2*\ksepX}{0}
+\kuTFF[u3]{-3*\ksepX}{0}
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\draw(u0p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u4){};
+\draw(u4.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u5){};
+\draw(u4.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u6){};
+\draw(u1p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u7){};
+\draw(u7.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u8){};
+\draw(u7.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u9){};
+\draw(u2p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u10){};
+\draw(u10.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u11){};
+\draw(u10.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u12){};
+\draw(u3p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u13){};
+\draw(u13.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u14){};
+\draw(u13.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u15){};
+\draw(u5.in 2)++(6*\kpin,-6*\kpin)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u16){};
+\draw(u16.out)--++(0,1.5*\kpin)coordinate(knot)--++(-\kpin,0)node[not port,scale=0.9,rotate=180,anchor=in](u17){};
+\draw(u16.in 2)--++(1*\kpin,0)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u18){};
+\draw(u16.in 1)--++(-1*\kpin,0)node[nand port,scale=0.9,rotate=90,anchor=out,number inputs=2](u19){};
+\draw(u18.in 2)node[below,xshift=0.5ex]{$Q_0$};
+\draw(u18.in 1)node[below]{$Q_1$};
+\draw(u19.in 2)node[below]{$Q_2$};
+\draw(u19.in 1)node[below,xshift=-0.5ex]{$Q_3$};
+\draw(u5.in 2)--(u5.in 2 |- u19.in 1)node[below]{$\substack{A_0\\  0}$};
+\draw(u8.in 2)--(u8.in 2 |- u19.in 1)node[below]{$\substack{A_1\\  1}$};
+\draw(u11.in 2)--(u11.in 2 |- u19.in 1)node[below]{$\substack{A_2\\  1}$};
+\draw(u14.in 2)--(u14.in 2 |- u19.in 1)node[below]{$\substack{A_3\\  0}$};
+\draw(u14.in 1) |-(u17.out);
+\draw(u5.in 1)--(u5.in 1 |- u17.out);
+\draw(u8.in 1)--(u8.in 1 |- u17.out);
+\draw(u11.in 1)--(u11.in 1 |- u17.out);
+\draw(u15.in 1)--++(0,-\kpin)coordinate(knota)-|(knot);
+\draw(u6.in 1)--(u6.in 1 |- knota);
+\draw(u9.in 1)--(u9.in 1 |- knota);
+\draw(u12.in 1)--(u12.in 1 |- knota);
+\draw(u12.in 2)--(u12.in 2 |- u16.out)node[and port,scale=0.9,anchor=out,rotate=90,number inputs=2](u20){};
+\draw(u20.in 1)node[below]{$Q_1$};
+\draw(u20.in 2)node[below]{$Q_0$};
+\draw(u15.in 2)--(u15.in 2 |- u16.out)node[and port,scale=0.9,anchor=out,rotate=90,number inputs=3](u21){};
+\draw(u21.in 1)node[below,xshift=-0.75ex]{$Q_2$};
+\draw(u21.in 2)node[below]{$Q_1$};
+\draw(u21.in 3)node[below,xshift=0.75ex]{$Q_0$};
+\draw(u6.in 2)--(u6.in 2 |- u21.in 1)node[below]{$1$};
+\draw(u9.in 2)--(u9.in 2 |- u21.in 1)node[below]{$Q_0$};
+\draw(u3p2)--(u0p2)--++(4*\kpin,0)node[right]{ساعت};
+\end{tikzpicture}
+\end{figure}
+%==========================================
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\kpin}{0.4}
+\kTFFd[u0]{0}{0}
+\kTFFd[u1]{-1*\ksepX}{0}
+\kTFFd[u2]{-2*\ksepX}{0}
+\kTFFu[u3]{-3*\ksepX}{0}
+\draw(u3p6)--(u2p1)   (u2p6)--(u1p1)  (u1p6)--(u0p1);
+\draw(u0p6)--++(\kpin,0)--++(0,4*\kpin)-|(u3p1);
+\draw(u0pd)--(u3pd)--++(-6*\kpin,0)coordinate(bb)coordinate[pos=0.8](aa)node[left]{$\overline{\text{\RL{بلند ایک بِٹ}}}$};
+\draw(aa)|-(u3pu);
+\draw(u0p2)--++(0,-5.5*\kpin)coordinate(cc)--(cc -|bb)node[left]{ساعت};
+\draw(u1p2)--(u1p2 |- cc);
+\draw(u2p2)--(u2p2 |- cc);
+\draw(u3p2)--(u3p2 |- cc);
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\end{tikzpicture}
+\end{figure}
+%==========================================
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\draw(0,\kul-\kmv)--++(\kmv,\kmv)--++(-\kmv,\kmv);
+\foreach \x/\a in {0/{},2/{d_0},3/{d_1},4/{d_2}}{\draw(0,\kul+\x*\kpsep)node[right]{$\a$}--++(-\kpin,0);}
+\draw(\kxdim+\kpin,\kul+3*\kpsep)node[or port,number inputs=3,scale=1,anchor=in 2](u1){};
+\draw(u1.in 1)--++(-\kpin,0)node[left]{$Q_2$};
+\draw(u1.in 2)--++(-\kpin,0)node[left]{$Q_1$};
+\draw(u1.in 3)--++(-\kpin,0)node[left]{$Q_0$};
+\draw(u1.out)--++(\kpin,0)node[right]{دھڑکن};
+\draw(u1.out)--++(0,3*\kpin)-|(0.5*\kxdim,\kydim)node[below]{گِن};
+\draw(-\kpin,\kul)coordinate(kclk)node[left]{ساعت};
+\draw(-\kpin,\kul+3*\kpsep)node[above,rotate=90]{\text{\RL{درکار دورانیہ}}};
+\draw(0.5*\kxdim,0)--++(0,-\kpin)coordinate(aa)--(aa -|kclk)node[left]{\text{\RL{متوازی لکھ}}};
+\end{tikzpicture}
+\end{figure}
 

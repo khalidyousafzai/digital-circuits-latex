@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  15 OCT 2023 15:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  16 OCT 2023 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231015918.tex)...disabled (restricted).
+runsystem(touch w18-test-20231016921.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231015918.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231016921.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -1845,7 +1845,7 @@ Package: newfile 2009/09/03 v1.0c Output and input files
 ) (./tex/myUrduGreek.tex)
 (./tex/myEMTvectors.tex) (./tex/myDeclareFunctions.tex)
 (./tex/myCircuitDimensionsAndMathematicalSymbols.tex)
-(./tex/myTikzCommandsCircuitAnalysis.tex) (./tex/myDigital.tex)
+(./tex/myTikzCommandsCircuitAnalysis.tex) (./tex/myDigitalUpRight.tex)
 (./tex/myDigitalUpFacing.tex) (./tex/myDigitalDownFacing.tex)
 \@indexfile=\write6
 \openout6 = `digitalCircuitsLatex.idx'.
@@ -2584,18 +2584,18 @@ LaTeX Info: Redefining \ttfamily on input line 87.
 LaTeX Info: Redefining \rmfamily on input line 95.
 LaTeX Info: Redefining \sffamily on input line 95.
 LaTeX Info: Redefining \ttfamily on input line 95.
-LaTeX Info: Redefining \rmfamily on input line 111.
-LaTeX Info: Redefining \sffamily on input line 111.
-LaTeX Info: Redefining \ttfamily on input line 111.
-LaTeX Info: Redefining \rmfamily on input line 119.
-LaTeX Info: Redefining \sffamily on input line 119.
-LaTeX Info: Redefining \ttfamily on input line 119.
-LaTeX Info: Redefining \rmfamily on input line 134.
-LaTeX Info: Redefining \sffamily on input line 134.
-LaTeX Info: Redefining \ttfamily on input line 134.
-LaTeX Info: Redefining \rmfamily on input line 142.
-LaTeX Info: Redefining \sffamily on input line 142.
-LaTeX Info: Redefining \ttfamily on input line 142.
+LaTeX Info: Redefining \rmfamily on input line 115.
+LaTeX Info: Redefining \sffamily on input line 115.
+LaTeX Info: Redefining \ttfamily on input line 115.
+LaTeX Info: Redefining \rmfamily on input line 123.
+LaTeX Info: Redefining \sffamily on input line 123.
+LaTeX Info: Redefining \ttfamily on input line 123.
+LaTeX Info: Redefining \rmfamily on input line 137.
+LaTeX Info: Redefining \sffamily on input line 137.
+LaTeX Info: Redefining \ttfamily on input line 137.
+LaTeX Info: Redefining \rmfamily on input line 145.
+LaTeX Info: Redefining \sffamily on input line 145.
+LaTeX Info: Redefining \ttfamily on input line 145.
 ) (./tex/memory.aux
 LaTeX Info: Redefining \rmfamily on input line 45.
 LaTeX Info: Redefining \sffamily on input line 45.
@@ -3540,12 +3540,12 @@ LaTeX Info: Redefining \ttfamily on input line 569.
 LaTeX Info: Redefining \rmfamily on input line 571.
 LaTeX Info: Redefining \sffamily on input line 571.
 LaTeX Info: Redefining \ttfamily on input line 571.
-LaTeX Info: Redefining \rmfamily on input line 575.
-LaTeX Info: Redefining \sffamily on input line 575.
-LaTeX Info: Redefining \ttfamily on input line 575.
-LaTeX Info: Redefining \rmfamily on input line 577.
-LaTeX Info: Redefining \sffamily on input line 577.
-LaTeX Info: Redefining \ttfamily on input line 577.
+LaTeX Info: Redefining \rmfamily on input line 574.
+LaTeX Info: Redefining \sffamily on input line 574.
+LaTeX Info: Redefining \ttfamily on input line 574.
+LaTeX Info: Redefining \rmfamily on input line 576.
+LaTeX Info: Redefining \sffamily on input line 576.
+LaTeX Info: Redefining \ttfamily on input line 576.
 LaTeX Info: Redefining \rmfamily on input line 582.
 LaTeX Info: Redefining \sffamily on input line 582.
 LaTeX Info: Redefining \ttfamily on input line 582.
@@ -4067,27 +4067,52 @@ taleeqBold(0)/m/n/10 گِن[]
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ٨.‏٦[] میں تین درجی دور بنایا گیا ہ
+ے جو $\OT1/ppl/m/n/10 000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m
+/n/10 999[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 گنتی کرتا ہے۔اسے بنانے کی خاطر
+ تین عدد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بنایا جاتا ہے۔ اکائیوں کی گنتی $\OT1/ppl/
+m/n/10 9[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو پہنچنے پر اکائی گنت کار بلند
+ $\OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 خارج کرتا ہے جو دہائ
+ی گنت کار کے \TU/AASameerSagarNastaleeqBold(0)/m/n/10 گِن \TU/JameelNooriNastal
+eeq(2)/m/sl/10 مداخل کو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فراہم کیا گیا ہے۔یوں ساعت کے اگلے کنارے پ
+ر دہائی کی گنتی میں $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا 
+اضافہ ہو گا۔ اسی طرح $\OT1/ppl/m/n/10 99[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10
+ کو[]
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 544--545
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دور کی کارکردگی کچھ یوں ہے۔گنتی شروع
  کرنے سے قبل $[]$ کو لمحاتی پست کر کے گنتی $\OT1/ppl/m/n/10 000[]$ \TU/JameelNo
 oriNastaleeq(2)/m/sl/10 کر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دی جاتی ہے۔ساعت کے کنارہ چڑھائی پر اکائی 
 ہندسے کی گنتی بتدریج بڑھتی ہے؛ اکائی درجے کا مخارج $\OML/zplm/m/it/10 y$ \TU/Ja
 meelNooriNastaleeq(2)/m/sl/10 پست[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گا۔یوں اس سے اگلے ساعت کے کنارے پر صرف اک
 ائی درجہ کی گنتی چالو رہتی ہے جبکہ دہائی اور سینکڑا کی گنتی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--501
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رکی رہتی ہے۔اسی طرح $\OT1/ppl/m/n/10 099[
 ]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے بعد اکائی اور دہائی درجات کے مخارج $\
 OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بلند ہوتے ہیں جس کی وجہ
@@ -4095,18 +4120,18 @@ OML/zplm/m/it/10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بلند ہوتے ہیں
  []
 
 [180] [181]
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق  ٨.١:  انٹرنیٹ سے $\OT1/ppl/m/n/10 
 7493$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OT1/ppl/m/n/10 4516$ \TU/Jameel
 NooriNastaleeq(2)/m/sl/10 کے معلوماتی صفحات حاصل کریں۔انہیں استعمال کرتے ہوئے[]
 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 509.
-LaTeX Info: Redefining \sffamily on input line 509.
-LaTeX Info: Redefining \ttfamily on input line 509.
+LaTeX Info: Redefining \rmfamily on input line 553.
+LaTeX Info: Redefining \sffamily on input line 553.
+LaTeX Info: Redefining \ttfamily on input line 553.
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 چار بِٹ ثنائی گنت کار $\OT1/ppl/m/n/10 00
 00[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 1111[]$ \TU/Jamee
 lNooriNastaleeq(2)/m/sl/10 گنتی کرتا ہے۔ متوازی دخول استعمال کرکے اس کو دو اعدا
@@ -4114,157 +4139,179 @@ lNooriNastaleeq(2)/m/sl/10 گنتی کرتا ہے۔ متوازی دخول است
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 509--510
+Underfull \hbox (badness 7397) in paragraph at lines 553--554
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے پر مجبور کیا جا سکتا ہے۔ایسے گنت کار
  کو ہم \TU/AASameerSagarNastaleeqBold(0)/m/n/10 متغیر لمبائی گنت کار[][][] []\T
 U/JameelNooriNastaleeq(2)/m/sl/10 کہیں گے۔جس عدد سے گنتی کا آغاز کرنا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہو وہ عدد دور کو متوازی فراہم کیا جاتا ہے
  اور جہاں گنتی کا اختتام کرنا ہو وہاں پہنچ کر دور کو مجبور کیا جاتا ہے کہ وہ دو
 بارہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس دور میں ابتدائی عدد ، جس کو $\OML/zp
-lm/m/it/10 A$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے ظاہر کیا گیا ہے اور جس کی 
-قیمت $\OT1/ppl/m/n/10 0110[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے، متوازی دا
-خل کیا[]
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 چار بِٹ معاصر ثنائی گنت کار مثال بناتے 
+ہوئے $\OT1/ppl/m/n/10 0110[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے $\OT1/ppl/
+m/n/10 1100[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تک گنتی کرنے والا گنت کار بن
+اتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتا ہے۔ اختتامی عدد $\OT1/ppl/m/n/10 110
-0[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جس کو نقطہ دار دائرے میں بند ترکیبی
- دور پہچان کر اپنا مخارج پست کرتا[]
+Underfull \hbox (badness 7468) in paragraph at lines 555--556
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں، جو شکل ٨.‏٧[] میں پیش ہے۔ نقطہ دار م
+ستطیل میں مساوات ٨.‏٢[] سے حاصل دور دکھایا گیا ہے، البتہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--514
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جس کی بدولت ساعت کے اگلے کنارے پر $\OT
-1/ppl/m/n/10 0110[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 دور میں متوازی داخل ہو
- گا۔اس طرح یہ گنت کار[]
+Overfull \hbox (5.55156pt too wide) in paragraph at lines 560--621
+ [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 داخل کیا جاتا ہے۔ اختتامی عدد $\OT1/ppl/m
+/n/10 1100[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ ایک ضرب متمم اور دو جمع گ
+یٹ پر مشتمل دور اختتامی عدد کو پہچان[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کر نفی گیٹ کا مداخل پست کرتا ہے اور یوں س
+اعت کے اگلے کنارے پر $\OT1/ppl/m/n/10 0110[]$ \TU/JameelNooriNastaleeq(2)/m/sl/
+10 دور میں متوازی داخل ہو گا۔اس[]
+ []
+
+[182] [183]
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 معاصر ثنائی گنت کار پر بحث کے دوران جدول 
 ٨.‏١[] پیش کیا گیا ۔ اس جدول کے \TU/AASameerSagarNastaleeqBold(0)/m/n/10 موجودہ
  حال \TU/JameelNooriNastaleeq(2)/m/sl/10 خانوں میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 []$\OT1/ppl/m/n/10 000[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10
  001[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10 011[]$\TU/JameelN
 ooriNastaleeq(2)/m/sl/10 ، وغیرہ پُر کر کے باقی جدول حاصل کیا گیا۔ یوں حاصل گنت
  کار $\OT1/ppl/m/n/10 000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے بتدریج[]
  []
 
-[182]
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ضروری نہیں کہ گنت کار عام فہم گنتی ک
 ی ترتیب میں ہی گننے۔  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 موجودہ حال \TU/J
 ameelNooriNastaleeq(2)/m/sl/10 صفوں میں کوئی بھی ترتیب لکھی جا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+Underfull \hbox (badness 10000) in paragraph at lines 633--634
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 سکتی ہے۔ فقط اتنا خیال رکھنا ضروری ہے کہ 
 ہر صف میں منفرد عدد لکھا جائے۔ باقی جدول ان اندراج کے مطابق[]
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 521--522
+Underfull \hbox (badness 7433) in paragraph at lines 633--634
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پورا کرنے سے ایسا گنت کار حاصل ہو گا جو \
 TU/AASameerSagarNastaleeqBold(0)/m/n/10 موجودہ حال \TU/JameelNooriNastaleeq(2)/
 m/sl/10 صفوں میں لکھے گئے اعداد کے مطابق گنتی کرے گا۔ ہم اس کو[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 529.
-LaTeX Info: Redefining \sffamily on input line 529.
-LaTeX Info: Redefining \ttfamily on input line 529.
-LaTeX Info: Redefining \rmfamily on input line 545.
-LaTeX Info: Redefining \sffamily on input line 545.
-LaTeX Info: Redefining \ttfamily on input line 545.
+LaTeX Info: Redefining \rmfamily on input line 641.
+LaTeX Info: Redefining \sffamily on input line 641.
+LaTeX Info: Redefining \ttfamily on input line 641.
+LaTeX Info: Redefining \rmfamily on input line 657.
+LaTeX Info: Redefining \sffamily on input line 657.
+LaTeX Info: Redefining \ttfamily on input line 657.
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--547
+Underfull \hbox (badness 10000) in paragraph at lines 635--659
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشق  ٨.٢: []ایسا \TU/AASameerSagarNasta
 leeqBold(0)/m/n/10 بے ترتیب گنت کار  \TU/JameelNooriNastaleeq(2)/m/sl/10 تخلیق 
 دیں جو جدول ٨.‏٤[] میں پیش اعداد کی ترتیب کے مطابق گنتا ہو۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--547
+Underfull \hbox (badness 10000) in paragraph at lines 635--659
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ گنت کار $\OT1/ppl/m/n/10 101[]$ \TU/Ja
 meelNooriNastaleeq(2)/m/sl/10 سے آغاز کرے گا۔ پہلی ساعت پر $\OT1/ppl/m/n/10 011
 []$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور دوسری ساعت پر $\OT1/ppl/m/n/10 110[
 ]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 دے گا اور $\OT1/ppl/m/n/10 001[]$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 551.
-LaTeX Info: Redefining \sffamily on input line 551.
-LaTeX Info: Redefining \ttfamily on input line 551.
-LaTeX Info: Redefining \rmfamily on input line 556.
-LaTeX Info: Redefining \sffamily on input line 556.
-LaTeX Info: Redefining \ttfamily on input line 556.
-LaTeX Info: Redefining \rmfamily on input line 569.
-LaTeX Info: Redefining \sffamily on input line 569.
-LaTeX Info: Redefining \ttfamily on input line 569.
-LaTeX Info: Redefining \rmfamily on input line 574.
-LaTeX Info: Redefining \sffamily on input line 574.
-LaTeX Info: Redefining \ttfamily on input line 574.
+LaTeX Info: Redefining \rmfamily on input line 663.
+LaTeX Info: Redefining \sffamily on input line 663.
+LaTeX Info: Redefining \ttfamily on input line 663.
+LaTeX Info: Redefining \rmfamily on input line 695.
+LaTeX Info: Redefining \sffamily on input line 695.
+LaTeX Info: Redefining \ttfamily on input line 695.
+LaTeX Info: Redefining \rmfamily on input line 708.
+LaTeX Info: Redefining \sffamily on input line 708.
+LaTeX Info: Redefining \ttfamily on input line 708.
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
+Underfull \hbox (badness 10000) in paragraph at lines 663--710
+[]$\OML/zplm/m/it/10 n$ \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بِٹ چھلا گنت ک
+ار[][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے مخارج میں ایک ہی بلند بِٹ گھو
+متا ہے؛ باقی تمام بِٹ پست رہتے ہیں۔ایک ہی بلند[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--710
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ کو ساعت کے کنارے پر ایک پلٹ سے دوسرے 
+پلٹ منتقل کیا جاتا ہے۔شکل ٨.‏٨[] میں چار بِٹ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--710
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کا مواد $\OML/zplm/m/it/10 Q[]$ \TU/Jamee
+lNooriNastaleeq(2)/m/sl/10 منتقل ہو گا۔ یوں اب $\OML/zplm/m/it/10 Q[]$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 بلند جبکہ باقی بِٹ پست ہوں گے۔ باب کے آخر میں آپ سے
+ گزارش کی[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [184]
+LaTeX Info: Redefining \rmfamily on input line 713.
+LaTeX Info: Redefining \sffamily on input line 713.
+LaTeX Info: Redefining \ttfamily on input line 713.
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--742
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بعض اوقات ہمیں مقررہ دورانیہ کا بلند یا پ
 ست اشارہ درکار ہوتا ہے۔تین بِٹ کا معاصر ثنائی الٹ گنت کار استعمال[]
  []
 
-[183]
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین بِٹ الٹ گنت کار $\OT1/ppl/m/n/10 11
-1[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 000[]$ \TU/JameelN
-ooriNastaleeq(2)/m/sl/10 دہراتا ہے۔شکل 8.‏11  میں متوازی دخول صلاحیت رکھنے والا
- تین بِٹ الٹ[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار استعمال کیا گیا ہے جو اس دوران گنتی ک
+رے گا جب مداخل \TU/AASameerSagarNastaleeqBold(0)/m/n/10 گِن \TU/JameelNooriNast
+aleeq(2)/m/sl/10 بلند ہو۔اس دور کو تین بِٹ بطور درکار دورانیہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گنت کار استعمال کیا گیا ہے جو اس دوران گن
-تی کرتا ہے جب مداخل \TU/AASameerSagarNastaleeqBold(0)/m/n/10 گن \TU/JameelNoori
-Nastaleeq(2)/m/sl/10 بلند ہو۔اس دور کو تین بِٹ بطور درکار[]
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فراہم کیے جاتے ہیں، جو \TU/AASameerSagarN
+astaleeqBold(0)/m/n/10 متوازی لکھ  \TU/JameelNooriNastaleeq(2)/m/sl/10 مداخل لم
+حاتی بلند کرنے سے گنت کار میں لکھے جاتے ہیں۔جب تک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دورانیہ کے فراہم کیے جاتے ہیں۔\TU/AASamee
-rSagarNastaleeqBold(0)/m/n/10 متوازی لکھ  \TU/JameelNooriNastaleeq(2)/m/sl/10 م
-داخل لمحاتی بلند کرنے سے یہ تین بِٹ گنت کار میں لکھے[]
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گنت کار کے تینوں خارجی بِٹ پست نہ ہوں جمع
+ گیٹ بلند رہتا ہے لہٰذا گنت کار الٹ گنتی جاری رکھے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتے ہیں۔جب تک گنت کار کے تینوں خارجی بِٹ
- پست نہ ہوں جمع گیٹ بلند رہتا ہے اور یوں گنت کار[]
+Underfull \hbox (badness 10000) in paragraph at lines 743--744
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گا۔جیسے ہی گنت کار $\OT1/ppl/m/n/10 000[]
+$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو پہنچتا ہے ، جمع گیٹ کا مخارج پست ہو جا
+تا ہے اور یوں گنت کار گنتی روک دے گا۔ یوں[]
  []
 
-
-Underfull \hbox (badness 4181) in paragraph at lines 576--577
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 الٹ گنتی جاری رکھتا ہے۔جیسے ہی گنت کار $\
-OT1/ppl/m/n/10 000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو پہنچتا ہے ، جمع گی
-ٹ کا مخارج پست ہو جاتا ہے اور یوں گنت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کار گنتی روک دیتا ہے۔ اس طرح تین بِٹ میں 
-پیش دورانیہ کے برابر دورانیے کے لئے جمع گیٹ کا مخارج یعنی[]
- []
-
-) [184] [226
+[185]) [186] (./answer.tex) [231
 
 
 
@@ -4274,7 +4321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 576--577
 
 
 
-] (./answer.tex) [227] [228
+] [232
 
 
 ]
@@ -5033,18 +5080,18 @@ LaTeX Info: Redefining \ttfamily on input line 87.
 LaTeX Info: Redefining \rmfamily on input line 95.
 LaTeX Info: Redefining \sffamily on input line 95.
 LaTeX Info: Redefining \ttfamily on input line 95.
-LaTeX Info: Redefining \rmfamily on input line 111.
-LaTeX Info: Redefining \sffamily on input line 111.
-LaTeX Info: Redefining \ttfamily on input line 111.
-LaTeX Info: Redefining \rmfamily on input line 119.
-LaTeX Info: Redefining \sffamily on input line 119.
-LaTeX Info: Redefining \ttfamily on input line 119.
-LaTeX Info: Redefining \rmfamily on input line 134.
-LaTeX Info: Redefining \sffamily on input line 134.
-LaTeX Info: Redefining \ttfamily on input line 134.
-LaTeX Info: Redefining \rmfamily on input line 142.
-LaTeX Info: Redefining \sffamily on input line 142.
-LaTeX Info: Redefining \ttfamily on input line 142.
+LaTeX Info: Redefining \rmfamily on input line 115.
+LaTeX Info: Redefining \sffamily on input line 115.
+LaTeX Info: Redefining \ttfamily on input line 115.
+LaTeX Info: Redefining \rmfamily on input line 123.
+LaTeX Info: Redefining \sffamily on input line 123.
+LaTeX Info: Redefining \ttfamily on input line 123.
+LaTeX Info: Redefining \rmfamily on input line 137.
+LaTeX Info: Redefining \sffamily on input line 137.
+LaTeX Info: Redefining \ttfamily on input line 137.
+LaTeX Info: Redefining \rmfamily on input line 145.
+LaTeX Info: Redefining \sffamily on input line 145.
+LaTeX Info: Redefining \ttfamily on input line 145.
 ) (./tex/memory.aux
 LaTeX Info: Redefining \rmfamily on input line 45.
 LaTeX Info: Redefining \sffamily on input line 45.
@@ -5074,12 +5121,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 63110 strings out of 476191
- 1686189 string characters out of 9562072
- 2559482 words of memory out of 7000000
- 82694 multiletter control sequences out of 15000+600000
+ 63325 strings out of 476191
+ 1689741 string characters out of 9562072
+ 2560282 words of memory out of 7000000
+ 82909 multiletter control sequences out of 15000+600000
  495660 words of font info for 164 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,14n,118p,2644b,1112s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (23 pages).
+Output written on digitalCircuitsLatex.pdf (24 pages).

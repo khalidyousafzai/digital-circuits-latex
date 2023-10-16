@@ -445,11 +445,11 @@ s&=x\oplus (y\oplus z)\\
 \node[fulladder, left=1cm of u1] (u2) {\text{\RL{جمع کار}}};
 %
 \draw[stealth-] (u0.65) --++(90:\kpina) coordinate(knota);
-\draw (knota)node[not port,scale=1,rotate=-90,anchor=out](u4){} (u4.in)node[above]{$z_0$};
+\draw (knota)node[not port,scale=0.8,rotate=-90,anchor=out](u4){} (u4.in)node[above]{$z_0$};
 \draw[stealth-] (u1.65) --++(90:\kpina)coordinate(knotb);
-\draw (knotb)node[not port,scale=1,rotate=-90,anchor=out](u5){} (u5.in)node[above]{$z_1$};
+\draw (knotb)node[not port,scale=0.8,rotate=-90,anchor=out](u5){} (u5.in)node[above]{$z_1$};
 \draw[stealth-] (u2.65) --++(90:\kpina)coordinate(knotc);
-\draw (knotc)node[not port,scale=1,rotate=-90,anchor=out](u6){} (u6.in)node[above]{$z_2$};
+\draw (knotc)node[not port,scale=0.8,rotate=-90,anchor=out](u6){} (u6.in)node[above]{$z_2$};
 \draw[stealth-] (u0.115) --($(u4.in)!(u0.115)!(u5.in)$) node[above]{$y_0$};
 \draw[stealth-] (u1.115) --($(u4.in)!(u1.115)!(u5.in)$) node[above]{$y_1$};
 \draw[stealth-] (u2.115) --($(u4.in)!(u2.115)!(u5.in)$) node[above]{$y_2$};

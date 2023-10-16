@@ -494,8 +494,52 @@ y&=Q_3Q_0
 \label{شکل_گنت_کار_ثنائی_مرموز_معاصر_اعشاری}
 \end{figure}
 
-شکل \حوالہء{8.8 } میں تین درجی دور بنایا گیا ہے جو \عددی{000_{10}} تا \عددی{999_{10}} گنتی کرتا ہے۔اسے بنانے کی خاطر تین عدد \اصطلاح{ثنائی  مرموز  اعشاری گنت کار } استعمال کیے گئے۔اسی طرح مزید درجات جوڑ کر درکار ہندسوں کا گنت کار بنایا جاتا ہے۔ 
+شکل  \حوالہ{شکل_گنت_کار_معاصر_ہزار}  میں تین درجی دور بنایا گیا ہے جو \عددی{000_{10}} تا \عددی{999_{10}} گنتی کرتا ہے۔اسے بنانے کی خاطر  تین عدد \اصطلاح{ثنائی  مرموز  اعشاری گنت کار }  (شکل \حوالہ{شکل_گنت_کار_ثنائی_مرموز_معاصر_اعشاری})  استعمال کیے گئے۔اسی طرح مزید درجات جوڑ کر درکار ہندسوں کا گنت کار بنایا جاتا ہے۔   اکائیوں کی  گنتی  \عددی{9_{10}}  کو پہنچنے  پر  اکائی گنت کار  بلند \عددی{y} خارج کرتا ہے جو دہائی گنت کار کے\موٹا{  گِن}  مداخل کو فراہم کیا گیا ہے۔یوں ساعت کے اگلے کنارے پر دہائی کی گنتی میں \عددی{1} کا اضافہ ہو گا۔ اسی طرح \عددی{99_{10}} کو پہنچنے پر سینکڑا گنت کار کا \موٹا{گِن} مداخل بلند ہو گا اور اگلے کنارہ ساعت پر سینکڑا  کی گنتی میں \عددی{1} کا اضافہ ہو گا۔
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{3.25}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2.5*\kul+0*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\draw[thick](\kul+0.5*\kpsep-1*\kmv,0)--++(\kmv,\kmv)--++(\kmv,-\kmv);
+\foreach \x/\a in {0/{Q_3},1/{Q_2},2/{Q_1},3/{Q_0}}{\draw(\kul+\x*\kpsep,\kydim)node[below]{$\a$}--++(0,\kpin);}
+\draw[thick](-\ksepX,0) rectangle ++(\kxdim,\kydim);
+\draw[thick](\kul+0.5*\kpsep-1*\kmv-\ksepX,0)--++(\kmv,\kmv)--++(\kmv,-\kmv);
+\foreach \x/\a in {0/{Q_3},1/{Q_2},2/{Q_1},3/{Q_0}}{\draw(\kul+\x*\kpsep-\ksepX,\kydim)node[below]{$\a$}--++(0,\kpin);}
+\draw[thick](-2*\ksepX,0) rectangle ++(\kxdim,\kydim);
+\draw[thick](\kul+0.5*\kpsep-1*\kmv-2*\ksepX,0)--++(\kmv,\kmv)--++(\kmv,-\kmv);
+\foreach \x/\a in {0/{Q_3},1/{Q_2},2/{Q_1},3/{Q_0}}{\draw(\kul+\x*\kpsep-2*\ksepX,\kydim)node[below]{$\a$}--++(0,\kpin);}
+\draw(\kul+1.5*\kpsep,\kydim+\kpin)node[above]{اکائی};
+\draw(\kul+1.5*\kpsep-\ksepX,\kydim+\kpin)node[above]{دہائی};
+\draw(\kul+1.5*\kpsep-2*\ksepX,\kydim+\kpin)node[above]{سینکڑا};
+\draw(-2*\ksepX+\kxdim,0.5*\kul)coordinate(kna)--++(0.5*\kpin,0)--++(0,-1.5*\kpin)--++(2*\ksepX+0*\kxdim+\kpin,0)coordinate(krst)node[right]{$\overline{\text{\RL{زبردستی پست}}}$};
+\draw(-\ksepX+\kxdim,0.5*\kul)coordinate(knb)--++(0.5*\kpin,0)coordinate(aa)--(aa |- krst);
+\draw(\kxdim,0.5*\kul)coordinate(knc)--++(0.5*\kpin,0)coordinate(bb)--(bb |- krst);
+\draw(kna)++(\knshift,0)node[ocirc]{};
+\draw(knb)++(\knshift,0)node[ocirc]{};
+\draw(knc)++(\knshift,0)node[ocirc]{};
+\draw(-2*\ksepX+\kul+0.5*\kpsep,0)--++(0,-2*\kpin)--++(2*\ksepX+\kxdim,0)coordinate(kclk)node[right]{ساعت};
+\draw(-1*\ksepX+\kul+0.5*\kpsep,0)--++(0,-2*\kpin)coordinate(kkbb)--(kkbb |- kclk);
+\draw(\kul+0.5*\kpsep,0)--++(0,-2*\kpin)coordinate(kkcc)--(kkcc |- kclk);
+\draw(-2*\ksepX+\kul+2.5*\kpin,0)node[above]{گِن}--++(0,-2.5*\kpin)node[and port,scale=1,number inputs=2,anchor=out,rotate=90](u1){};
+\draw(-\ksepX,0.5*\kydim)node[right]{$y$}--++(-0.5*\kpin,0) |-(u1.in 2);
+\draw(u1.in 1)--++(0,-\kpin)coordinate(kua);
+\draw(0,0.5*\kydim)node[right]{$y$}--++(-0.5*\kpin,0)coordinate(kct) |-(kua);
+\draw(-1*\ksepX+\kul+2.5*\kpin,0)node[above]{گِن} --++ (0,-0.5*\kpin)coordinate(aaa)--(aaa -| kct);
+\draw(\kul+2.5*\kpin,0)node[above]{گِن} --++(0,-3*\kpin)node[below]{1};
+\draw(-2*\ksepX,0.5*\kydim)node[right]{$y$}--++(-0.5*\kpin,0);
+\end{tikzpicture}
+\caption{\عددی{000_{10}} تا \عددی{999_{10}} معاصر گنت کار۔}
+\label{شکل_گنت_کار_معاصر_ہزار}
+\end{figure}
 
 اس دور کی کارکردگی کچھ یوں ہے۔گنتی شروع کرنے سے قبل \عددی{\overline{\text{\RL{زبردستی پست}}}} کو لمحاتی پست کر کے گنتی \عددی{000_{10}} کر دی جاتی ہے۔ساعت کے کنارہ چڑھائی پر اکائی ہندسے کی گنتی بتدریج بڑھتی ہے؛ اکائی درجے کا مخارج \عددی{y} پست رہتا ہے جو دہائی اور سینکڑا کی گنتی روک کر رکھتا ہے۔گنتی \عددی{009_{10}} تک پہنچتے ہی اکائی درجہ کا مخارج \عددی{y} ایک دوری عرصہ کے لئے بلند ہو گا۔یوں اگلے ساعت کے کنارہ چڑھائی پر اکائی درجہ کا ہندسہ \عددی{9_{10}}سے \عددی{0_{10}} ہو جائے گا، جبکہ دہائی درجے کا ہندسہ \عددی{0_{10}} سے بڑھ کر \عددی{1_{10}} ہو جائے گا اور اسی وقت اکائی کا مخارج \عددی{y} واپس پست حال اختیار کرے گا۔یوں اس سے اگلے ساعت کے کنارے پر صرف اکائی درجہ کی گنتی چالو رہتی ہے جبکہ دہائی اور سینکڑا کی گنتی رکی رہتی ہے۔اسی طرح \عددی{099_{10}} کے بعد اکائی اور دہائی درجات کے مخارج \عددی{y} بلند ہوتے ہیں جس کی وجہ سے اگلے ساعت کے کنارہ چڑھائی پر سینکڑا \عددی{0_{10}} سے بڑھ کر \عددی{1_{10}} ہو جائے گا جبکہ اکائی اور دہائی درجات \عددی{9_{10}} سے \عددی{0_{10}} ہو جائیں گے اور ساتھ ہی ان کے مخارج \عددی{y} دوبارہ پست ہو جائیں گے۔
 
@@ -508,9 +552,77 @@ y&=Q_3Q_0
 \جزوحصہ{متغیر لمبائی گنت کار}
 چار بِٹ ثنائی گنت کار \عددی{0000_2} تا \عددی{1111_2} گنتی کرتا ہے۔ متوازی دخول استعمال کرکے اس کو دو اعداد کے بیچ گنتی کرنے پر مجبور کیا جا سکتا ہے۔ایسے گنت کار کو ہم \اصطلاح{متغیر لمبائی گنت کار}\فرہنگ{گنت کار!متغیر لمبائی}\حاشیہب{variable length counter}\فرہنگ{counter!variable length}کہیں گے۔جس عدد سے گنتی کا آغاز کرنا ہو وہ عدد دور کو متوازی فراہم کیا جاتا ہے اور جہاں گنتی کا اختتام کرنا ہو وہاں پہنچ کر دور کو مجبور کیا جاتا ہے کہ وہ دوبارہ متوازی فراہم کردہ عدد داخل کر کے گنتی از سرے نو شروع کرے۔
 
-چار بِٹ معاصر ثنائی گنت کار مثال بناتے ہوئے \عددی{0110_2} سے \عددی{1100_2} تک گنتی کرنے والا گنت کار بناتے ہیں، جو شکل \حوالہء{8.9 }میں پیش ہے۔ نقطہ دار مستطیل میں مساوات \حوالہ{مساوات_گنت_کار_تین_ثنائی} سے حاصل دور دکھایا گیا ہے جس میں ہر پلٹ کے ساتھ اضافی دو ضرب گیٹ اور ایک جمع گیٹ جوڑ کر متوازی دخول کی صلاحیت پیدا کی گئی ہے۔
+چار بِٹ معاصر ثنائی گنت کار مثال بناتے ہوئے \عددی{0110_2} سے \عددی{1100_2} تک گنتی کرنے والا گنت کار بناتے ہیں، جو شکل  \حوالہ{شکل_گنت_کار_دو_ثنائی_کے_مابین_گنت_کار} میں پیش ہے۔ نقطہ دار مستطیل میں مساوات \حوالہ{مساوات_گنت_کار_تین_ثنائی} سے حاصل دور دکھایا گیا ہے، البتہ یہاں   ہر پلٹ کے ساتھ اضافی دو ضرب گیٹ اور ایک جمع گیٹ جوڑ کر متوازی دخول کی صلاحیت پیدا کی گئی ہے۔                                                                                      
 
-اس دور میں ابتدائی عدد ، جس کو \عددی{A} سے ظاہر کیا گیا ہے اور جس کی قیمت \عددی{0110_2} ہے، متوازی داخل کیا جاتا ہے۔ اختتامی عدد \عددی{1100_2} ہے جس کو نقطہ دار دائرے میں بند ترکیبی دور پہچان کر اپنا مخارج پست کرتا ہے جس کی بدولت ساعت کے اگلے کنارے پر \عددی{0110_2} دور میں متوازی داخل ہو گا۔اس طرح یہ گنت کار \عددی{0110_2} سے لے کر \عددی{1100_2} تک گنتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2.5*\kul+0*\kpsep}
+\kuTFF[u0]{0}{0}
+\kuTFF[u1]{-1*\ksepX}{0}
+\kuTFF[u2]{-2*\ksepX}{0}
+\kuTFF[u3]{-3*\ksepX}{0}
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\draw(u0p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u4){};
+\draw(u4.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u5){};
+\draw(u4.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u6){};
+\draw(u1p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u7){};
+\draw(u7.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u8){};
+\draw(u7.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u9){};
+\draw(u2p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u10){};
+\draw(u10.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u11){};
+\draw(u10.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u12){};
+\draw(u3p1)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u13){};
+\draw(u13.in 2)--++(1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u14){};
+\draw(u13.in 1)--++(-1*\kpin,0)node[and port,scale=0.9,rotate=90,anchor=out,number inputs=2](u15){};
+\draw(u5.in 2)++(6*\kpin,-6*\kpin)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u16){};
+\draw(u16.out)--++(0,1.5*\kpin)coordinate(knot)--++(-\kpin,0)node[not port,scale=0.9,rotate=180,anchor=in](u17){};
+\draw(u16.in 2)--++(1*\kpin,0)node[or port,scale=0.9,rotate=90,anchor=out,number inputs=2](u18){};
+\draw(u16.in 1)--++(-1*\kpin,0)node[nand port,scale=0.9,rotate=90,anchor=out,number inputs=2](u19){};
+\draw(u18.in 2)node[below,xshift=0.5ex]{$Q_0$};
+\draw(u18.in 1)node[below]{$Q_1$};
+\draw(u19.in 2)node[below]{$Q_2$};
+\draw(u19.in 1)node[below,xshift=-0.5ex]{$Q_3$};
+\draw(u5.in 2)--(u5.in 2 |- u19.in 1)node[below]{$\substack{A_0\\  0}$};
+\draw(u8.in 2)--(u8.in 2 |- u19.in 1)node[below]{$\substack{A_1\\  1}$};
+\draw(u11.in 2)--(u11.in 2 |- u19.in 1)node[below]{$\substack{A_2\\  1}$};
+\draw(u14.in 2)--(u14.in 2 |- u19.in 1)node[below]{$\substack{A_3\\  0}$};
+\draw(u14.in 1) |-(u17.out);
+\draw(u5.in 1)--(u5.in 1 |- u17.out);
+\draw(u8.in 1)--(u8.in 1 |- u17.out);
+\draw(u11.in 1)--(u11.in 1 |- u17.out);
+\draw(u15.in 1)--++(0,-\kpin)coordinate(knota)-|(knot);
+\draw(u6.in 1)--(u6.in 1 |- knota);
+\draw(u9.in 1)--(u9.in 1 |- knota);
+\draw(u12.in 1)--(u12.in 1 |- knota);
+\draw(u12.in 2)--(u12.in 2 |- u16.out)node[and port,scale=0.9,anchor=out,rotate=90,number inputs=2](u20){};
+\draw(u20.in 1)node[below]{$Q_1$};
+\draw(u20.in 2)node[below]{$Q_0$};
+\draw(u15.in 2)--(u15.in 2 |- u16.out)node[and port,scale=0.9,anchor=out,rotate=90,number inputs=3](u21){};
+\draw(u21.in 1)node[below,xshift=-0.75ex]{$Q_2$};
+\draw(u21.in 2)node[below]{$Q_1$};
+\draw(u21.in 3)node[below,xshift=0.75ex]{$Q_0$};
+\draw(u6.in 2)--(u6.in 2 |- u21.in 1)coordinate(rectA)node[below]{$1$};
+\draw(u9.in 2)--(u9.in 2 |- u21.in 1)node[below]{$Q_0$};
+\draw(u3p2)--(u0p2)--++(4*\kpin,0)node[right]{ساعت};
+\draw[gray,dashed] (u21.out)++(-3*\kpin,0) rectangle ($(rectA)+(\kpin,-2*\kpin)$);
+\end{tikzpicture}
+\caption{دو ثنائی اعداد  ، \عددی{0110_2}  اور \عددی{1100_2} ، کے  بیچ گنتی کرنے والا  معاصر گنت کار}
+\label{شکل_گنت_کار_دو_ثنائی_کے_مابین_گنت_کار}
+\end{figure}
+
+اس دور میں ابتدائی عدد ، جس کو \عددی{A_3A_2A_1A_0} سے ظاہر کیا گیا ہے اور جس کی قیمت \عددی{0110_2} ہے، متوازی داخل کیا جاتا ہے۔ اختتامی عدد \عددی{1100_2} ہے۔ ایک ضرب متمم اور دو جمع گیٹ پر مشتمل دور  اختتامی عدد کو پہچان کر نفی گیٹ کا مداخل پست کرتا ہے اور یوں     ساعت کے اگلے کنارے پر \عددی{0110_2} دور میں متوازی داخل ہو گا۔اس طرح  گنت کار \عددی{0110_2}   اور  \عددی{1100_2}  کے بیچ گنتی کرتا ہے۔
 
 دور میں \عددی{0110_2}پہلی مرتبہ داخل کرنے کا طریقہ نہیں دکھایا گیا۔
 
@@ -548,7 +660,34 @@ Q_2&Q_1&Q_0\\
 \انتہا{مشق}
 
 \جزوحصہ{ چھلا گنت کار}
-\عددی{n} \اصطلاح{بِٹ چھلا گنت کار}\فرہنگ{گنت کار!چھلا}\حاشیہب{ring counter}\فرہنگ{counter!ring} کے مخارج میں ایک ہی بلند بِٹ گھومتا ہے؛ باقی تمام بِٹ پست رہتے ہیں۔ایک ہی بلند بِٹ کو ساعت کے کنارے پر ایک پلٹ سے دوسرے پلٹ منتقل کیا جاتا ہے۔شکل \حوالہء{8.10 } میں چار بِٹ چھلا گنت کار پیش ہے، جبکہ جدول \حوالہ{جدول_گنت_کار_چھلا} میں اس کی گنتی پیش کی گئی ہے۔
+\عددی{n} \اصطلاح{بِٹ چھلا گنت کار}\فرہنگ{گنت کار!چھلا}\حاشیہب{ring counter}\فرہنگ{counter!ring} کے مخارج میں ایک ہی بلند بِٹ گھومتا ہے؛ باقی تمام بِٹ پست رہتے ہیں۔ایک ہی بلند بِٹ کو ساعت کے کنارے پر ایک پلٹ سے دوسرے پلٹ منتقل کیا جاتا ہے۔شکل   \حوالہ{شکل_گنت_کار_چھلا}  میں چار بِٹ چھلا گنت کار پیش ہے، جبکہ جدول \حوالہ{جدول_گنت_کار_چھلا} میں اس کی گنتی پیش کی گئی ہے۔ آغاز  میں \عددی{\overline{\text{\RL{ایک بِٹ بلند}}}}  اشارہ لمحاتی  پست کر کے \عددی{Q_3} بلند جبکہ \عددی{Q_0}، \عددی{Q_1}، اور \عددی{Q_2} پست کیے جاتے ہیں۔ ساعت کے پہلے کنارے پر  \عددی{Q_3} کا مواد \عددی{Q_2} منتقل ہو گا۔ یوں اب \عددی{Q_2} بلند جبکہ باقی بِٹ پست ہوں گے۔ باب کے آخر میں آپ سے گزارش کی جائے گی کہ ایسا  چھلا گنت کار تخلیق دیں جو بلند بِٹ کو مخالف رخ (\عددی{Q_0} سے \عددی{Q_1} جانب)  گھماتا ہو۔
+%
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\kpin}{0.4}
+\kTFFd[u0]{0}{0}
+\kTFFd[u1]{-1*\ksepX}{0}
+\kTFFd[u2]{-2*\ksepX}{0}
+\kTFFu[u3]{-3*\ksepX}{0}
+\draw(u3p6)--(u2p1)   (u2p6)--(u1p1)  (u1p6)--(u0p1);
+\draw(u0p6)--++(\kpin,0)--++(0,4*\kpin)-|(u3p1);
+\draw(u0pd)--(u3pd)--++(-6*\kpin,0)coordinate(bb)coordinate[pos=0.8](aa)node[left]{$\overline{\text{\RL{ایک بِٹ بلند}}}$};
+\draw(aa)|-(u3pu);
+\draw(u0p2)--++(0,-5.5*\kpin)coordinate(cc)--(cc -|bb)node[left]{ساعت};
+\draw(u1p2)--(u1p2 |- cc);
+\draw(u2p2)--(u2p2 |- cc);
+\draw(u3p2)--(u3p2 |- cc);
+\draw(u0p6)node[above]{$Q_0$};
+\draw(u1p6)node[above]{$Q_1$};
+\draw(u2p6)node[above]{$Q_2$};
+\draw(u3p6)node[above]{$Q_3$};
+\end{tikzpicture}
+\caption{چھلا گنت کار}
+\label{شکل_گنت_کار_چھلا}
+\end{figure}
+%
 \begin{table}
 \caption{چار بِٹ چھلا گنت کار}
 \label{جدول_گنت_کار_چھلا}
@@ -560,18 +699,46 @@ Q_2&Q_1&Q_0\\
 \midrule
 Q_3&Q_2&Q_1&Q_0\\
 \midrule
-0&0&0&1\\
-0&0&1&0\\
-0&1&0&0\\
 1&0&0&0\\
+0&1&0&0\\
+0&0&1&0\\
+0&0&0&1\\
 \bottomrule
 \end{tabular}
 \end{otherlanguage}
 \end{table}
 
 
-\جزوحصہ{دورانیہ پیدا کار}
-بعض اوقات ہمیں مقررہ دورانیہ کا بلند یا پست اشارہ درکار ہوتا ہے۔تین بِٹ کا معاصر ثنائی الٹ گنت کار استعمال کرتے ہوئے ایسا دور تشکیل دیتے ہیں۔اس دور کو ہم \اصطلاح{ دورانیہ پیدا کار }\فرہنگ{دورانیہ پیدا کار}\حاشیہب{pulse generator}\فرہنگ{pulse generator} کہیں گے۔ 
+\جزوحصہ{دھڑکن  پیدا کار}
+بعض اوقات ہمیں مقررہ دورانیہ کا بلند یا پست اشارہ درکار ہوتا ہے۔تین بِٹ کا معاصر ثنائی الٹ گنت کار استعمال کرتے ہوئے ایسا دور تشکیل دیتے ہیں۔اس دور کو ہم \اصطلاح{ دھڑکن  پیدا کار }\فرہنگ{دھڑکن پیدا کار}\حاشیہب{pulse generator}\فرہنگ{pulse generator} کہیں گے۔ 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\draw(0,\kul-\kmv)--++(\kmv,\kmv)--++(-\kmv,\kmv);
+\foreach \x/\a in {0/{},2/{d_0},3/{d_1},4/{d_2}}{\draw(0,\kul+\x*\kpsep)node[right]{$\a$}--++(-\kpin,0);}
+\draw(\kxdim+\kpin,\kul+3*\kpsep)node[or port,number inputs=3,scale=1,anchor=in 2](u1){};
+\draw(u1.in 1)--++(-\kpin,0)node[left]{$Q_2$};
+\draw(u1.in 2)--++(-\kpin,0)node[left]{$Q_1$};
+\draw(u1.in 3)--++(-\kpin,0)node[left]{$Q_0$};
+\draw(u1.out)--++(\kpin,0)node[right]{دھڑکن};
+\draw(u1.out)--++(0,3*\kpin)-|(0.5*\kxdim,\kydim)node[below]{گِن};
+\draw(-\kpin,\kul)coordinate(kclk)node[left]{ساعت};
+\draw(-\kpin,\kul+3*\kpsep)node[above,rotate=90]{\text{\RL{درکار دورانیہ}}};
+\draw(0.5*\kxdim,0)--++(0,-\kpin)coordinate(aa)--(aa -|kclk)node[left]{\text{\RL{متوازی لکھ}}};
+\end{tikzpicture}
+\caption{دھڑکن پیدا کار}
+\label{شکل_گنت_کار_دھڑکن}
+\end{figure}
 
-تین بِٹ الٹ گنت کار \عددی{111_2} تا \عددی{000_2} دہراتا ہے۔شکل \حوالہء{8.11 } میں متوازی دخول صلاحیت رکھنے والا تین بِٹ الٹ گنت کار استعمال کیا گیا ہے جو اس دوران گنتی کرتا ہے جب مداخل \موٹا{گن} بلند ہو۔اس دور کو تین بِٹ بطور درکار دورانیہ کے فراہم کیے جاتے ہیں۔\موٹا{متوازی لکھ } مداخل لمحاتی بلند کرنے سے یہ تین بِٹ گنت کار میں لکھے جاتے ہیں۔جب تک گنت کار کے تینوں خارجی بِٹ پست نہ ہوں جمع گیٹ بلند رہتا ہے اور یوں گنت کار الٹ گنتی جاری رکھتا ہے۔جیسے ہی گنت کار \عددی{000_2} کو پہنچتا ہے ، جمع گیٹ کا مخارج پست ہو جاتا ہے اور یوں گنت کار گنتی روک دیتا ہے۔ اس طرح تین بِٹ میں پیش دورانیہ کے برابر دورانیے کے لئے جمع گیٹ کا مخارج یعنی \موٹا{دورانیہ } بلند رہتا ہے۔
+تین بِٹ الٹ گنت کار \عددی{111_2} تا \عددی{000_2} دہراتا ہے۔شکل   \حوالہ{شکل_گنت_کار_دھڑکن}  میں متوازی دخول صلاحیت رکھنے والا تین بِٹ الٹ گنت کار استعمال کیا گیا ہے جو اس دوران گنتی کرے گا جب مداخل \موٹا{گِن} بلند ہو۔اس دور کو تین بِٹ بطور درکار دورانیہ  فراہم کیے جاتے ہیں، جو \موٹا{متوازی لکھ } مداخل لمحاتی بلند کرنے سے گنت کار میں لکھے جاتے ہیں۔جب تک گنت کار کے تینوں خارجی بِٹ پست نہ ہوں جمع گیٹ بلند رہتا ہے  لہٰذا  گنت کار الٹ گنتی جاری رکھے گا۔جیسے ہی گنت کار \عددی{000_2} کو پہنچتا ہے ، جمع گیٹ کا مخارج پست ہو جاتا ہے اور یوں گنت کار گنتی روک دے گا۔  یوں تین بِٹ میں پیش درکار  دورانیہ   کے لئے مخارج  \موٹا{دھڑکن} بلند رہتا ہے۔
 
