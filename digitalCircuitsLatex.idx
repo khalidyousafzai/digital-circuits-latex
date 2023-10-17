@@ -1,31 +1,54 @@
-\indexentry{signal!electrical}{\arabicdigits {173}}
-\indexentry{اشارہ!برقی}{\arabicdigits {173}}
-\indexentry{counter!four bit binary, down}{\arabicdigits {173}}
-\indexentry{گنت کار!چار بٹ ثنائی، الٹ}{\arabicdigits {173}}
-\indexentry{counter!four bit binary, up}{\arabicdigits {173}}
-\indexentry{گنت کار!چار بٹ ثنائی سیدھا}{\arabicdigits {173}}
-\indexentry{counter!binary}{\arabicdigits {173}}
-\indexentry{گنت کار!ثنائی}{\arabicdigits {173}}
-\indexentry{propagation time}{\arabicdigits {174}}
-\indexentry{دورانیہ!رد عمل}{\arabicdigits {174}}
-\indexentry{counter!binary, ripple}{\arabicdigits {175}}
-\indexentry{گنت کار!لہریا، ثنائی}{\arabicdigits {175}}
-\indexentry{counter!ripple}{\arabicdigits {175}}
-\indexentry{گنت کار!لہریا}{\arabicdigits {175}}
-\indexentry{counter!synchronous, three bit}{\arabicdigits {175}}
-\indexentry{گنت کار!تین بِٹ، معاصر}{\arabicdigits {175}}
-\indexentry{counter!synchronous, three bit binary}{\arabicdigits {178}}
-\indexentry{گنت کار!معاصر، تین بِٹ ثنائی}{\arabicdigits {178}}
-\indexentry{counter!synchronous, binary, four bit}{\arabicdigits {178}}
-\indexentry{گنت کار!ثنائی، معاصر، چار بِٹ}{\arabicdigits {178}}
-\indexentry{counter!decimal, BCD}{\arabicdigits {178}}
-\indexentry{گنت کار!ثنائی مرموز اعشاری}{\arabicdigits {178}}
-\indexentry{time period}{\arabicdigits {178}}
-\indexentry{دوری عرصہ}{\arabicdigits {178}}
-\indexentry{counter!variable length}{\arabicdigits {182}}
-\indexentry{گنت کار!متغیر لمبائی}{\arabicdigits {182}}
-\indexentry{گنت کار!بے ترتیب}{\arabicdigits {184}}
-\indexentry{counter!ring}{\arabicdigits {185}}
-\indexentry{گنت کار!چھلا}{\arabicdigits {185}}
-\indexentry{pulse generator}{\arabicdigits {185}}
-\indexentry{دھڑکن پیدا کار}{\arabicdigits {185}}
+\indexentry{bit}{\arabicdigits {189}}
+\indexentry{بِٹ}{\arabicdigits {189}}
+\indexentry{ثنائی ہندسہ}{\arabicdigits {189}}
+\indexentry{memory}{\arabicdigits {189}}
+\indexentry{حافظہ}{\arabicdigits {189}}
+\indexentry{word}{\arabicdigits {189}}
+\indexentry{لفظ}{\arabicdigits {189}}
+\indexentry{byte}{\arabicdigits {189}}
+\indexentry{بائٹ}{\arabicdigits {189}}
+\indexentry{ہشتمی عدد}{\arabicdigits {189}}
+\indexentry{write}{\arabicdigits {189}}
+\indexentry{لکھنا}{\arabicdigits {189}}
+\indexentry{read}{\arabicdigits {189}}
+\indexentry{پڑھنا}{\arabicdigits {189}}
+\indexentry{memory!RAM}{\arabicdigits {189}}
+\indexentry{حافظہ!عارضی}{\arabicdigits {189}}
+\indexentry{حافظہ!دورانیہ رسائی}{\arabicdigits {189}}
+\indexentry{access time}{\arabicdigits {189}}
+\indexentry{دورانیہ رسائی}{\arabicdigits {189}}
+\indexentry{memory!ROM}{\arabicdigits {190}}
+\indexentry{حافظہ!پختہ}{\arabicdigits {190}}
+\indexentry{OTP}{\arabicdigits {190}}
+\indexentry{پختہ حافظہ!ایک مرتبہ قابل لکھائی}{\arabicdigits {190}}
+\indexentry{ROM!EEROM}{\arabicdigits {190}}
+\indexentry{پختہ حافظہ!برق مٹتا}{\arabicdigits {190}}
+\indexentry{ROM!UV erasable}{\arabicdigits {190}}
+\indexentry{پختہ حافظہ!شعاع مٹتا}{\arabicdigits {190}}
+\indexentry{memory!unit}{\arabicdigits {191}}
+\indexentry{حافظہ!اکائی}{\arabicdigits {191}}
+\indexentry{memory!binary cell}{\arabicdigits {191}}
+\indexentry{عارضی حافظہ!اکائی}{\arabicdigits {191}}
+\indexentry{state!high impedance}{\arabicdigits {193}}
+\indexentry{حال!بلند رکاوٹی}{\arabicdigits {193}}
+\indexentry{IC, integrated circuit}{\arabicdigits {195}}
+\indexentry{مخلوط دور}{\arabicdigits {195}}
+\indexentry{fuse}{\arabicdigits {196}}
+\indexentry{فتیلہ}{\arabicdigits {196}}
+\indexentry{switch}{\arabicdigits {197}}
+\indexentry{سوئچ}{\arabicdigits {197}}
+\indexentry{IC!programmer}{\arabicdigits {197}}
+\indexentry{مخلوط دور!برنامہ نویس}{\arabicdigits {197}}
+\indexentry{مائکروپراسیسر}{\arabicdigits {200}}
+\indexentry{microprocessor}{\arabicdigits {200}}
+\indexentry{خرد عامل کار}{\arabicdigits {200}}
+\indexentry{commands}{\arabicdigits {200}}
+\indexentry{احکامات}{\arabicdigits {200}}
+\indexentry{instruction}{\arabicdigits {200}}
+\indexentry{ہدایت}{\arabicdigits {200}}
+\indexentry{assembly language}{\arabicdigits {200}}
+\indexentry{مادری زبان}{\arabicdigits {200}}
+\indexentry{memory!access time}{\arabicdigits {200}}
+\indexentry{حافظہ!دورانیہ رسائی}{\arabicdigits {200}}
+\indexentry{configure}{\arabicdigits {201}}
+\indexentry{تشکیل}{\arabicdigits {201}}

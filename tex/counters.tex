@@ -688,25 +688,48 @@ Q_2&Q_1&Q_0\\
 \label{شکل_گنت_کار_چھلا}
 \end{figure}
 %
+ چار بِٹ  چھلا گنت کار  میں چار  متغیرات    پائے جاتے ہیں جن کی  سولہ منفرد ترتیب  (\عددی{0000_2} تا \عددی{1111_2}) ممکن ہیں۔جدول  \حوالہ{جدول_گنت_کار_چھلا} میں صرف وہ   صورتیں دکھائی گئی ہیں جو حقیقتاً پائی جاتی ہیں. باقی صورتیں (مثلاً \عددی{1011} یا \عددی{0101}) \اصطلاح{ غیر  دلچسپ } ہیں جنہیں کارناف نقشوں میں \عددی{d} درج کیا جائے گا۔  شکل \حوالہ{شکل_گنت_کار_چار_بِٹ_کارناف} میں مداخل \عددی{T_3} کے لئے  جدول سے کارناف نقشہ پُر کیا گیا ہے، جہاں سے \عددی{T_3=Q_0} حاصل کیا گیا ہے۔ چھلا گنت کار میں آپ دیکھ سکتے ہیں کہ بائیں ترین پلٹ کا مداخل \عددی{T_3}، دائیں ترین پلٹ کے مخارج \عددی{Q_0} سے حاصل کیا گیا ہے۔
 \begin{table}
 \caption{چار بِٹ چھلا گنت کار}
 \label{جدول_گنت_کار_چھلا}
 \centering
 \begin{otherlanguage}{english}
-\begin{tabular}{CCCC}
+\begin{tabular}{CCCC|CCCC|CCCC}
 \toprule
-\multicolumn{4}{c}{\text{\RL{موجودہ حال}}}\\
+\multicolumn{4}{c}{\text{\RL{موجودہ حال}}}&\multicolumn{4}{|c|}{\text{\RL{اگلا حال}}}&
+\multicolumn{4}{|c|}{\text{\RL{مداخل }}}\\
 \midrule
-Q_3&Q_2&Q_1&Q_0\\
+Q_3&Q_2&Q_1&Q_0&Q_3&Q_2&Q_1&Q_0&T_3&T_2&T_1&T_0\\
 \midrule
-1&0&0&0\\
-0&1&0&0\\
-0&0&1&0\\
-0&0&0&1\\
+1&0&0&0&0&1&0&0&0&1&0&0\\
+0&1&0&0&0&0&1&0&0&0&1&0\\
+0&0&1&0&0&0&0&1&0&0&0&1\\
+0&0&0&1&1&0&0&0&1&0&0&0\\
 \bottomrule
 \end{tabular}
 \end{otherlanguage}
 \end{table}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$Q_1Q_0$}node[pos=0.75,below left]{$Q_3Q_2$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/{d},1/{1},2/d,3/0}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{0},1/{d},2/d,3/d}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{d},1/{d},2/d,3/d}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/{0},1/{d},2/d,3/d}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(1*\kxstep,0)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-\kmv,\kmv)$);
+\end{tikzpicture}\quad\quad
+\(T_3=Q_0\)
+\caption{چھلا گنت کار کے مداخل \عددی{T_3} کا حصول۔}
+\label{شکل_گنت_کار_چار_بِٹ_کارناف}
+\end{figure}
 
 
 \جزوحصہ{دھڑکن  پیدا کار}

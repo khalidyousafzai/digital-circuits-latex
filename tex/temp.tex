@@ -424,4 +424,274 @@
 \draw(0.5*\kxdim,0)--++(0,-\kpin)coordinate(aa)--(aa -|kclk)node[left]{\text{\RL{متوازی لکھ}}};
 \end{tikzpicture}
 \end{figure}
+%==========================
+%fig 9.1
+\begin{figure}
+\centering
+\begin{subfigure}{0.65\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{2.5}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\kFF[u0]{0}{0}
+\draw(u0pl1)node[]{$S$} (u0pl3)node[]{$R$} (u0pl6)node[]{$Q$};
+\foreach \x in {1,3,6}{\draw(u0pb\x)--(u0p\x);}
+\draw(u0p6)--++(1*\kpin,0)node[and port,scale=1,number inputs=3,anchor=in 2](u1){};
+\draw(u1.out)node[right]{مخارج};
+\draw(u0p1)--++(0,0.75*\kpin)node[and port,scale=1,number inputs=3,anchor=out](u2){};
+\draw(u0p3)--++(0,-0.75*\kpin)node[and port,scale=1,number inputs=3,anchor=out](u3){};
+\draw(u3.in 2)--++(-0.5*\kpin,0)node[not port,scale=0.8,anchor=out](u4){};
+\draw(u3.in 3)--++(0,-3*\kpin)--++(-0.5*\kpin,0)node[not port,scale=0.8,anchor=out](u5){};
+\draw(u5.in)--++(-\kpin,0)coordinate(lftend)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(u3.in 3)--(u2.in 3);
+\draw(u3.in 1)--++(-\kpin,0)|-coordinate(aa)(u2.in 1);
+\draw(aa)--++(0,1.5*\kpin)coordinate(bb)-|(u1.in 1);
+\draw(bb)--(bb-| lftend)node[left]{منتخب};
+\draw(u4.in)|-(u2.in 2);
+\draw(u4.in)--(u4.in -| lftend)node[left]{مداخل};
+\draw(u5.in)--++(0,-2.5*\kpin)-|(u1.in 3);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.20\textwidth}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=1.0cm, minimum width=1.0cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+ \pgfmathsetmacro{\kpin}{0.4}
+ \node[kmemUnit](u0){};
+\draw(u0.0)--++(\kpin,0)node[right]{مخارج};
+\draw(u0.90)--++(0,\kpin)node[above]{منتخب};
+\draw(u0.180)--++(-\kpin,0)node[left]{مداخل};
+\draw(u0.-90)--++(0,-\kpin)node[below]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+ \end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}
+%====================
+%fig 9.2
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=1.0cm, minimum width=1.0cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+ \pgfmathsetmacro{\kpin}{0.4}
+ \node[kmemUnit](u0){};
+\node[kmemUnit,left=1cm of u0](u1){};
+\node[kmemUnit,left=1cm of u1](u2){};
+\node[kmemUnit,left=1cm of u2](u3){};
+\draw(u0.90)--++(0,\kpin)coordinate(aa)--(aa -| u3.180)--++(-2*\kpin,0)node[left]{منتخب};
+\draw(u1.90)--(u1.90 |- aa);
+\draw(u2.90)--(u2.90 |- aa);
+\draw(u3.90)--(u3.90 |- aa);
+\draw(u0.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u3.180)--++(-2*\kpin,0)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(u1.-90)--(u1.-90 |- bb);
+\draw(u2.-90)--(u2.-90 |- bb);
+\draw(u3.-90)--(u3.-90 |- bb);
+\draw(u0.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z0$};
+\draw(u1.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z1$};
+\draw(u2.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z2$};
+\draw(u3.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z3$};
+\draw(u0.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D0$};
+\draw(u1.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D1$};
+\draw(u2.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D2$};
+\draw(u3.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[above]{$D3$};
+ \end{tikzpicture}
+\caption{}
+\end{figure}
+%===================
+%fig 9.3
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+ \pgfmathsetmacro{\kpin}{0.4}
+   \pgfmathsetmacro{\ksepX}{1.5}
+  \pgfmathsetmacro{\ksepY}{1.5}
+ \node[kmemUnit](u0){};
+\node[kmemUnit,left=\ksepX of u0](u1){};
+\node[kmemUnit,left=\ksepX of u1](u2){};
+\node[kmemUnit,left=\ksepX of u2](u3){};
+\draw(u0.90)--++(0,\kpin)coordinate(aa)--(aa -| u3.180)--++(-3*\kpin,0)coordinate(ktop)node[left]{\RL{منتخب لفظ 0}};
+\draw(u1.90)--(u1.90 |- aa);
+\draw(u2.90)--(u2.90 |- aa);
+\draw(u3.90)--(u3.90 |- aa);
+\draw(u0.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u3.180)--++(-2*\kpin,0)coordinate(kwr);
+\draw(u1.-90)--(u1.-90 |- bb);
+\draw(u2.-90)--(u2.-90 |- bb);
+\draw(u3.-90)--(u3.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u0](u10){};
+\node[kmemUnit,left=\ksepX of u10](u11){};
+\node[kmemUnit,left=\ksepX of u11](u12){};
+\node[kmemUnit,left=\ksepX of u12](u13){};
+\draw(u10.90)--++(0,\kpin)coordinate(aa)--(aa -| u13.180)--++(-3*\kpin,0)node[left]{\RL{منتخب لفظ 1}};
+\draw(u11.90)--(u11.90 |- aa);
+\draw(u12.90)--(u12.90 |- aa);
+\draw(u13.90)--(u13.90 |- aa);
+\draw(u10.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u13.180)--++(-2*\kpin,0);
+\draw(u11.-90)--(u11.-90 |- bb);
+\draw(u12.-90)--(u12.-90 |- bb);
+\draw(u13.-90)--(u13.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u10](u20){};
+\node[kmemUnit,left=\ksepX of u20](u21){};
+\node[kmemUnit,left=\ksepX of u21](u22){};
+\node[kmemUnit,left=\ksepX of u22](u23){};
+\draw(u20.90)--++(0,\kpin)coordinate(aa)--(aa -| u23.180)--++(-3*\kpin,0)node[left]{\RL{منتخب لفظ 2}};
+\draw(u21.90)--(u21.90 |- aa);
+\draw(u22.90)--(u22.90 |- aa);
+\draw(u23.90)--(u23.90 |- aa);
+\draw(u20.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u23.180)--++(-2*\kpin,0);
+\draw(u21.-90)--(u21.-90 |- bb);
+\draw(u22.-90)--(u22.-90 |- bb);
+\draw(u23.-90)--(u23.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u20](u30){};
+\node[kmemUnit,left=\ksepX of u30](u31){};
+\node[kmemUnit,left=\ksepX of u31](u32){};
+\node[kmemUnit,left=\ksepX of u32](u33){};
+\draw(u30.90)--++(0,\kpin)coordinate(aa)--(aa -| u33.180)--++(-3*\kpin,0)node[left]{\RL{منتخب لفظ 3}};
+\draw(u31.90)--(u31.90 |- aa);
+\draw(u32.90)--(u32.90 |- aa);
+\draw(u33.90)--(u33.90 |- aa);
+\draw(u30.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u33.180)--++(-3*\kpin,0)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(u31.-90)--(u31.-90 |- bb);
+\draw(u32.-90)--(u32.-90 |- bb);
+\draw(u33.-90)--(u33.-90 |- bb);
+\draw(kwr)--(kwr |- bb);
+\draw(u30.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z0$};
+\draw(u0.180)--(u0.180 -| kbotA)  (u10.180)--(u10.180 -| kbotA)  (u20.180)--(u20.180 -| kbotA);
+\draw(u31.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z1$};
+\draw(u1.180)--(u1.180 -| kbotA)  (u11.180)--(u11.180 -| kbotA)  (u21.180)--(u21.180 -| kbotA);
+\draw(u32.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z2$};
+\draw(u2.180)--(u2.180 -| kbotA) (u12.180)--(u12.180 -| kbotA) (u22.180)--(u22.180 -| kbotA);
+\draw(u33.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z3$};
+\draw(u3.180)--(u3.180 -| kbotA)   (u13.180)--(u13.180 -| kbotA)  (u23.180)--(u23.180 -| kbotA);
+\draw(u30.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u100){};
+\draw(u100.in 3)|-(u20.0) (u100.in 2)|-(u10.0) (u100.in 1)|-(u0.0);
+\draw(u100.out)node[below]{$D0$};
+\draw(u31.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u200){};
+\draw(u200.in 3)|-(u21.0) (u200.in 2)|-(u11.0) (u200.in 1)|-(u1.0);
+\draw(u200.out)node[below]{$D1$};
+\draw(u32.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u300){};
+\draw(u300.in 3)|-(u22.0) (u300.in 2)|-(u12.0) (u300.in 1)|-(u2.0);
+\draw(u300.out)node[below]{$D2$};
+\draw(u33.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u400){};
+\draw(u400.in 3)|-(u23.0) (u400.in 2)|-(u13.0) (u400.in 1)|-(u3.0);
+\draw(u400.out)node[below]{$D3$};
+ \end{tikzpicture}
+\caption{}
+\end{figure}
+%===================
+%fig 9.4
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+ \pgfmathsetmacro{\kpin}{0.4}
+   \pgfmathsetmacro{\ksepX}{1.5}
+  \pgfmathsetmacro{\ksepY}{1.5}
+ \node[kmemUnit](u0){};
+\node[kmemUnit,left=\ksepX of u0](u1){};
+\node[kmemUnit,left=\ksepX of u1](u2){};
+\node[kmemUnit,left=\ksepX of u2](u3){};
+\draw(u0.90)--++(0,\kpin)coordinate(aa)--(aa -| u3.180)--++(-3*\kpin,0)coordinate(ktop)coordinate(wordA);
+\draw(u1.90)--(u1.90 |- aa);
+\draw(u2.90)--(u2.90 |- aa);
+\draw(u3.90)--(u3.90 |- aa);
+\draw(u0.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u3.180)--++(-2*\kpin,0)coordinate(kwr);
+\draw(u1.-90)--(u1.-90 |- bb);
+\draw(u2.-90)--(u2.-90 |- bb);
+\draw(u3.-90)--(u3.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u0](u10){};
+\node[kmemUnit,left=\ksepX of u10](u11){};
+\node[kmemUnit,left=\ksepX of u11](u12){};
+\node[kmemUnit,left=\ksepX of u12](u13){};
+\draw(u10.90)--++(0,\kpin)coordinate(aa)--(aa -| u13.180)--++(-3*\kpin,0)coordinate(wordB);
+\draw(u11.90)--(u11.90 |- aa);
+\draw(u12.90)--(u12.90 |- aa);
+\draw(u13.90)--(u13.90 |- aa);
+\draw(u10.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u13.180)--++(-2*\kpin,0);
+\draw(u11.-90)--(u11.-90 |- bb);
+\draw(u12.-90)--(u12.-90 |- bb);
+\draw(u13.-90)--(u13.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u10](u20){};
+\node[kmemUnit,left=\ksepX of u20](u21){};
+\node[kmemUnit,left=\ksepX of u21](u22){};
+\node[kmemUnit,left=\ksepX of u22](u23){};
+\draw(u20.90)--++(0,\kpin)coordinate(aa)--(aa -| u23.180)--++(-3*\kpin,0)coordinate(wordC);
+\draw(u21.90)--(u21.90 |- aa);
+\draw(u22.90)--(u22.90 |- aa);
+\draw(u23.90)--(u23.90 |- aa);
+\draw(u20.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u23.180)--++(-2*\kpin,0);
+\draw(u21.-90)--(u21.-90 |- bb);
+\draw(u22.-90)--(u22.-90 |- bb);
+\draw(u23.-90)--(u23.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u20](u30){};
+\node[kmemUnit,left=\ksepX of u30](u31){};
+\node[kmemUnit,left=\ksepX of u31](u32){};
+\node[kmemUnit,left=\ksepX of u32](u33){};
+\draw(u30.90)--++(0,\kpin)coordinate(aa)--(aa -| u33.180)--++(-3*\kpin,0)coordinate(wordD);
+\draw(u31.90)--(u31.90 |- aa);
+\draw(u32.90)--(u32.90 |- aa);
+\draw(u33.90)--(u33.90 |- aa);
+\draw(u30.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u33.180)--++(-3*\kpin,0)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(u31.-90)--(u31.-90 |- bb);
+\draw(u32.-90)--(u32.-90 |- bb);
+\draw(u33.-90)--(u33.-90 |- bb);
+\draw(kwr)--(kwr |- bb);
+\draw(u30.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z0$};
+\draw(u0.180)--(u0.180 -| kbotA)  (u10.180)--(u10.180 -| kbotA)  (u20.180)--(u20.180 -| kbotA);
+\draw(u31.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z1$};
+\draw(u1.180)--(u1.180 -| kbotA)  (u11.180)--(u11.180 -| kbotA)  (u21.180)--(u21.180 -| kbotA);
+\draw(u32.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z2$};
+\draw(u2.180)--(u2.180 -| kbotA) (u12.180)--(u12.180 -| kbotA) (u22.180)--(u22.180 -| kbotA);
+\draw(u33.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z3$};
+\draw(u3.180)--(u3.180 -| kbotA)   (u13.180)--(u13.180 -| kbotA)  (u23.180)--(u23.180 -| kbotA);
+\kBusORdown[u100]{0.5}{-6*\ksepY}
+\draw(u100out)--++(0,-\kpin)node[below]{$D0$};
+\draw(u100in)|-(u0.0)  (u100in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u10.0)--(u10.0 -| u100in)   (u20.0)--(u20.0 -| u100in)   (u30.0)--(u30.0 -| u100in);
+\kBusORdown[u200]{-\ksepX+0.5-0.75}{-6*\ksepY}
+\draw(u200out)--++(0,-\kpin)node[below]{$D1$};
+\draw(u200in)|-(u1.0)  (u200in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u11.0)--(u11.0 -| u200in)   (u21.0)--(u21.0 -| u200in)   (u31.0)--(u31.0 -| u200in);
+\kBusORdown[u300]{-2*\ksepX+0.5-2*0.75}{-6*\ksepY}
+\draw(u300out)--++(0,-\kpin)node[below]{$D2$};
+\draw(u300in)|-(u2.0)  (u300in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u12.0)--(u12.0 -| u300in)   (u22.0)--(u22.0 -| u300in)   (u32.0)--(u32.0 -| u300in);
+\kBusORdown[u400]{-3*\ksepX+0.5-3*0.75}{-6*\ksepY}
+\draw(u400out)--++(0,-\kpin)node[below]{$D3$};
+\draw(u400in)|-(u3.0)  (u400in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u13.0)--(u13.0 -| u400in)   (u23.0)--(u23.0 -| u400in)   (u33.0)--(u33.0 -| u400in);
+\draw[thick]($(wordB)!0.5!(wordC)+(-2*\kpin,-2*\kpin)$)coordinate(kA) rectangle ++(-4*\kpin,5*\kpin)coordinate(kB);
+\draw[thin](kA)++(0,1*\kpin)node[left]{$y0$}--++(0.5*\kpin,0)|-(wordD);
+\draw[thin](kA)++(0,2*\kpin)node[left]{$y1$}--++(1*\kpin,0)|-(wordC);
+\draw[thin](kA)++(0,3*\kpin)node[left]{$y2$}--++(1*\kpin,0)|-(wordB);
+\draw[thin](kA)++(0,4*\kpin)node[left]{$y3$}--++(0.5*\kpin,0)|-(wordA);
+\draw(kA)++(-4*\kpin,\kpin)node[right]{$e$}--++(-\kpin,0)node[left]{مجاز};
+\draw(kA)++(-4*\kpin,3*\kpin)node[right]{$a0$}--++(-\kpin,0)node[left]{$A0$};
+\draw(kA)++(-4*\kpin,4*\kpin)node[right]{$a1$}--++(-\kpin,0)node[left]{$A1$};
+\draw($(kA)!0.5!(kB)$)node[rotate=90]{\RL{شناخت کار}};
+ \end{tikzpicture}
+\caption{}
+\end{figure}
+
 

@@ -39,6 +39,7 @@ tu={\normalsize$c_{\text{د}}$}}}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %=============================
+%for FlipFlops
 %gives pin tip's locations as (pax,pay), pins are pa,pb,...,pf, pup,pdown corresponding to p1,..,p6,pu,pd
 \newcommand{\kpinAnchors}{
 \def\pax{-\kpin}
@@ -762,4 +763,33 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 \foreach \n in{2}{\draw(\kref\d\pb\n)--(\kref\d\p\n);}
 }
 %================================
-
+%%%%%%%%%%%%%%%%%%%%%%%%
+% OR gate  skeleton for use with  input BUS. Input can be accessed with say u0in and output with u0out
+%\kBusOR[u1]{Xlocation}{Ylocation}
+\newcommand{\kBusOR}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\kin{in}
+\def\kout{out}
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pn{pn}			%pin 'ocirc'
+\pgfmathsetmacro{\kxdim}{1}
+\pgfmathsetmacro{\kydim}{1}
+\draw[thick] (\kshiftX,\kshiftY) to [out=45,in=-45]coordinate[pos=0.5](\kref\kin) ++(0,\kydim) to [out=0,in=130] ++(\kxdim,-0.5*\kydim)coordinate(\kref\kout) to [out=-130,in=0]++(-\kxdim,-0.5*\kydim);}
+%%%%%%%%%%%%%%%%%%
+\newcommand{\kBusORdown}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\kin{in}
+\def\kout{out}
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pn{pn}			%pin 'ocirc'
+\pgfmathsetmacro{\kxdim}{1}
+\pgfmathsetmacro{\kydim}{1}
+\draw[thick] (\kshiftX,\kshiftY) to [out=-45,in=-180+45]coordinate[pos=0.5](\kref\kin) ++(\kydim,0) to [out=-90,in=130-90] ++(-0.5*\kydim,-\kxdim)coordinate(\kref\kout) to [out=-130-90,in=-90]++(-0.5*\kydim,\kxdim);}
