@@ -130,7 +130,7 @@
 \label{شکل_حافظہ_ایک_لفظ}
 \end{figure}
 
-اس طرح کے کئی الفاظ جوڑ کر متعدد لفظ حافظہ حاصل کیا جا سکتا ہے۔شکل  \حوالہ{شکل_حافظہ_چار_لفظ}  میں چار الفاظ جوڑ کر چار لفظ حافظہ تخلیق دیا گیا ہے۔
+
 
 \begin{figure}
 \centering
@@ -217,7 +217,10 @@
 \caption{چار لفظ  عارضی حافظہ}
 \label{شکل_حافظہ_چار_لفظ}
 \end{figure}
-متعدد لفظ حافظہ کی تمام اکائیوں کا "منتخب "اشارہ عام صورت میں پست رہتا ہے۔یوں حافظہ کے کسی بھی لفظ تک رسائی ممکن نہیں ہو گی۔حافظہ میں مواد لکھنے کی خاطر مواد \عددی{Z} داخلی راستے فراہم کر کے \عددی{\overline{\text{لکھ}}/\text{پڑھ}} پست رکھ کر مطلوبہ مقام کا "منتخب " اشارہ بلند کیا جاتا ہے۔یوں مواد مطلوبہ لفظ کے مقام پر لکھا جاتا ہے۔ فرض کریں ہم اعشاری تین \عددی{(3_{10})} کے ثنائی علامتی روپ \عددی{0011_2} کو حافظہ کے لفظ \عددی{2} کے مقام پر لکھنا چاہتے ہیں۔ہم مداخل پر \عددی{0011_2} مہیا کر کے \عددی{\overline{\text{لکھ}}/\text{پڑھ}} پست رکھ کر لفظ \عددی{2} کے "منتخب" اشارے کو بلند کریں گے۔ایسا کرنے سے شکل  \حوالہ{شکل_حافظہ_چار_لفظ}  میں لفظ \عددی{2} پر \عددی{0011_2} لکھا جائے گا۔یاد رہے کہ اس دوران باقی" منتخب " اشارے پست رہیں گے۔اسی لفظ کو پڑھنے کے لئے ہم \عددی{\overline{\text{لکھ}}/\text{پڑھ}} بلند رکھ کر لفظ \عددی{2} کا "منتخب" بلند کریں گے۔ایسا کرنے سے مخارج \عددی{D} پر \عددی{0011_2} خارج ہو گا جہاں سے اسے پڑھا جا سکتا ہے۔
+
+اس طرح کے کئی الفاظ جوڑ کر متعدد لفظ حافظہ حاصل کیا جا سکتا ہے۔شکل  \حوالہ{شکل_حافظہ_چار_لفظ}  میں چار الفاظ جوڑ کر چار لفظ حافظہ تخلیق دیا گیا ہے۔
+
+متعدد لفظ حافظہ کی تمام اکائیوں کا "منتخب "اشارہ عام صورت  پست رہتا ہے۔یوں حافظہ کے کسی بھی لفظ تک رسائی ممکن نہیں ہو گی۔حافظہ میں مواد لکھنے کی خاطر مواد \عددی{Z} داخلی راستے فراہم کر کے \عددی{\overline{\text{لکھ}}/\text{پڑھ}} پست رکھ کر مطلوبہ مقام کا "منتخب " اشارہ بلند کیا جاتا ہے۔یوں مواد مطلوبہ  مقام پر لکھا جاتا ہے۔ فرض کریں ہم اعشاری تین \عددی{(3_{10})} کے ثنائی مرموز اعشاری  \عددی{0011_2} کو حافظہ کے لفظ \عددی{2} کے مقام پر لکھنا چاہتے ہیں۔ہم مداخل پر \عددی{0011_2} مہیا کر کے \عددی{\overline{\text{لکھ}}/\text{پڑھ}} پست رکھ کر "منتخب لفظ 2" اشارہ  بلند کریں گے۔ایسا کرنے سے شکل  \حوالہ{شکل_حافظہ_چار_لفظ}  میں لفظ \عددی{2} پر \عددی{0011_2} لکھا جائے گا۔یاد رہے کہ اس دوران باقی" منتخب " اشارے پست رہیں گے۔اسی لفظ کو پڑھنے کے لئے ہم \عددی{\overline{\text{لکھ}}/\text{پڑھ}} بلند رکھ کر لفظ \عددی{2} کا "منتخب" بلند کریں گے۔ایسا کرنے سے مخارج \عددی{D} پر \عددی{0011_2} خارج ہو گا جہاں سے اسے پڑھا جا سکتا ہے۔
 
 \begin{figure}
 \centering
@@ -226,6 +229,7 @@
  label={[anchor=west]center:اکائی},
  }]
  \pgfmathsetmacro{\kpin}{0.4}
+  \pgfmathsetmacro{\kpinA}{0.2}
    \pgfmathsetmacro{\ksepX}{1.5}
   \pgfmathsetmacro{\ksepY}{1.5}
  \node[kmemUnit](u0){};
@@ -280,27 +284,27 @@
 \draw(u32.-90)--(u32.-90 |- bb);
 \draw(u33.-90)--(u33.-90 |- bb);
 \draw(kwr)--(kwr |- bb);
-\draw(u30.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z0$};
+\draw(u30.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z0$};
 \draw(u0.180)--(u0.180 -| kbotA)  (u10.180)--(u10.180 -| kbotA)  (u20.180)--(u20.180 -| kbotA);
-\draw(u31.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z1$};
+\draw(u31.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z1$};
 \draw(u1.180)--(u1.180 -| kbotA)  (u11.180)--(u11.180 -| kbotA)  (u21.180)--(u21.180 -| kbotA);
-\draw(u32.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z2$};
+\draw(u32.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z2$};
 \draw(u2.180)--(u2.180 -| kbotA) (u12.180)--(u12.180 -| kbotA) (u22.180)--(u22.180 -| kbotA);
-\draw(u33.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z3$};
+\draw(u33.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z3$};
 \draw(u3.180)--(u3.180 -| kbotA)   (u13.180)--(u13.180 -| kbotA)  (u23.180)--(u23.180 -| kbotA);
-\kBusORdown[u100]{0.5}{-6*\ksepY}
+\kBusORdown[u100]{\kpinA}{-6*\ksepY}
 \draw(u100out)--++(0,-\kpin)node[below]{$D0$};
 \draw(u100in)|-(u0.0)  (u100in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u10.0)--(u10.0 -| u100in)   (u20.0)--(u20.0 -| u100in)   (u30.0)--(u30.0 -| u100in);
-\kBusORdown[u200]{-\ksepX+0.5-0.75}{-6*\ksepY}
+\kBusORdown[u200]{-\ksepX+\kpinA-0.75}{-6*\ksepY}
 \draw(u200out)--++(0,-\kpin)node[below]{$D1$};
 \draw(u200in)|-(u1.0)  (u200in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u11.0)--(u11.0 -| u200in)   (u21.0)--(u21.0 -| u200in)   (u31.0)--(u31.0 -| u200in);
-\kBusORdown[u300]{-2*\ksepX+0.5-2*0.75}{-6*\ksepY}
+\kBusORdown[u300]{-2*\ksepX+\kpinA-2*0.75}{-6*\ksepY}
 \draw(u300out)--++(0,-\kpin)node[below]{$D2$};
 \draw(u300in)|-(u2.0)  (u300in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u12.0)--(u12.0 -| u300in)   (u22.0)--(u22.0 -| u300in)   (u32.0)--(u32.0 -| u300in);
-\kBusORdown[u400]{-3*\ksepX+0.5-3*0.75}{-6*\ksepY}
+\kBusORdown[u400]{-3*\ksepX+\kpinA-3*0.75}{-6*\ksepY}
 \draw(u400out)--++(0,-\kpin)node[below]{$D3$};
 \draw(u400in)|-(u3.0)  (u400in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u13.0)--(u13.0 -| u400in)   (u23.0)--(u23.0 -| u400in)   (u33.0)--(u33.0 -| u400in);
@@ -318,8 +322,7 @@
 \label{شکل_حافظہ_بہتر}
 \end{figure}
 
-
-حقیقی حافظہ میں الفاظ تک رسائی \موٹا{ پتہ } کے ذریعے کی جاتی ہے۔چار لفظ حافظہ میں الفاظ تک رسائی ، دو بِٹ پتہ استعمال کرتے ہوئے دو سے چار شناخت کار کی مدد سے ممکن ہے۔شکل   \حوالہ{شکل_حافظہ_بہتر}  میں یہ عمل پیش کیا گیا ہے۔
+حقیقی حافظہ میں الفاظ تک رسائی \موٹا{ پتہ } کے ذریعے کی جاتی ہے۔چار لفظ حافظہ میں الفاظ تک رسائی ، دو بِٹ پتہ استعمال کرتے ہوئے دو سے چار شناخت کار کی مدد سے ممکن ہے۔شکل   \حوالہ{شکل_حافظہ_بہتر}  میں یہ عمل پیش کیا گیا ہے جہاں \عددی{A0}، اور \عددی{A1} پتہ بِٹ ہیں۔پتہ کو دیکھ کر شناخت کار   مطلوبہ مخارج بلند کر کے لفظ کا مقام  منتخب کرتا ہے۔
 
 عارضی حافظہ کا استعمال جدول \حوالہ{جدول_حافظہ_عارضی_استعمال} میں دکھایا گیا ہے۔ \موٹا{مجاز } پست ہونے کی صورت میں حافظہ \اصطلاح{بلند رکاوٹی حال }\فرہنگ{حال!بلند رکاوٹی}\حاشیہب{high impedance state}\فرہنگ{state!high impedance} اختیار کر کے بیرونی ادوار سے مکمل منقطع ہو گا۔
 \begin{table}
@@ -346,19 +349,198 @@
 \end{table}
 
 
-شکل \حوالہء{ 9.4 } میں چار بِٹ جمع گیٹ کی ایک نئی علامت استعمال کی گئی ہے ۔گیٹ کا ایک مداخل دکھایا گیا ہے جس پر چھوٹی ترچھی لکیر کے ساتھ \عددی{4} لکھ کر اس بات کی وضاحت کی گئی ہے کہ دراصل یہ چار داخلی جمع گیٹ ہے۔اس طرح کی علامت میں گیٹ کے مداخل علیحدہ علیحدہ نہیں دکھائے جاتے بلکہ تمام مداخل ایک داخلی تار سے ظاہر کیے جاتے ہیں۔یوں دور کا نقشہ کاغذ پر کھینچتے ہوئے ہوئے تاروں کے ہجوم سے نجات حاصل ہوتی ہے اور دور صاف ستھرا نظر آتا ہے۔یاد رہے کہ ایسا صرف دور صاف ستھرا نظر آنے کے لئے کیا جاتا ہے۔یوں حافظہ کے گزشتہ دو اشکال ایک ہی دور بنانے کے دو طریقے ہیں۔
+شکل  \حوالہ{شکل_حافظہ_بہتر}  میں چار بِٹ جمع گیٹ کی ایک نئی علامت استعمال کی گئی ہے ۔گیٹ کا ایک مداخل دکھایا گیا ہے جس پر چھوٹی ترچھی لکیر کے ساتھ \عددی{4} لکھ کر اس بات کی وضاحت کی گئی ہے کہ دراصل یہ چار داخلی جمع گیٹ ہے۔اس طرح کی علامت میں گیٹ کے مداخل علیحدہ علیحدہ نہیں دکھائے جاتے بلکہ تمام مداخل ایک داخلی تار سے ظاہر کیے جاتے ہیں۔یوں دور کا نقشہ کاغذ پر کھینچتے ہوئے ہوئے تاروں کے ہجوم سے نجات حاصل ہوتی ہے اور دور صاف ستھرا نظر آتا ہے۔یاد رہے کہ ایسا صرف دور صاف ستھرا نظر آنے کے لئے کیا جاتا ہے۔یوں حافظہ کے گزشتہ دو اشکال ایک ہی دور بنانے کے دو طریقے ہیں۔
 
 اسی طرز پر متعدد لفظ حافظے کی علامت بھی بنائی جاتی ہے۔دس بِٹ پتہ سے \عددی{2^{10}=1024_{10}} یعنی تقریباً ایک ہزار مقامات تک رسائی ممکن ہے۔کمپیوٹر کی دنیا میں کلو (ہزار) سے مراد \عددی{1024_{10}}لیا جاتا ہے۔یوں دو کلو سے مراد \عددی{2048_{10}} ہو گا۔
 
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+ \pgfmathsetmacro{\kpin}{0.4}
+  \pgfmathsetmacro{\kpinA}{0.2}
+   \pgfmathsetmacro{\ksepX}{1.5}
+  \pgfmathsetmacro{\ksepY}{1.5}
+ \node[kmemUnit](u0){};
+\node[kmemUnit,left=\ksepX of u0](u1){};
+\node[kmemUnit,left=\ksepX of u1](u2){};
+\node[kmemUnit,left=\ksepX of u2](u3){};
+\draw(u0.90)--++(0,\kpin)coordinate(aa)--(aa -| u3.180)--++(-3*\kpin,0)coordinate(ktop)coordinate(wordA);
+\draw(u1.90)--(u1.90 |- aa);
+\draw(u2.90)--(u2.90 |- aa);
+\draw(u3.90)--(u3.90 |- aa);
+\draw(u0.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u3.180)--++(-2*\kpin,0)coordinate(kwr);
+\draw(u1.-90)--(u1.-90 |- bb);
+\draw(u2.-90)--(u2.-90 |- bb);
+\draw(u3.-90)--(u3.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u0](u10){};
+\node[kmemUnit,left=\ksepX of u10](u11){};
+\node[kmemUnit,left=\ksepX of u11](u12){};
+\node[kmemUnit,left=\ksepX of u12](u13){};
+\draw(u10.90)--++(0,\kpin)coordinate(aa)--(aa -| u13.180)--++(-3*\kpin,0)coordinate(wordB);
+\draw(u11.90)--(u11.90 |- aa);
+\draw(u12.90)--(u12.90 |- aa);
+\draw(u13.90)--(u13.90 |- aa);
+\draw(u10.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u13.180)--++(-2*\kpin,0);
+\draw(u11.-90)--(u11.-90 |- bb);
+\draw(u12.-90)--(u12.-90 |- bb);
+\draw(u13.-90)--(u13.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u10](u20){};
+\node[kmemUnit,left=\ksepX of u20](u21){};
+\node[kmemUnit,left=\ksepX of u21](u22){};
+\node[kmemUnit,left=\ksepX of u22](u23){};
+\draw(u20.90)--++(0,\kpin)coordinate(aa)--(aa -| u23.180)--++(-3*\kpin,0)coordinate(wordC);
+\draw(u21.90)--(u21.90 |- aa);
+\draw(u22.90)--(u22.90 |- aa);
+\draw(u23.90)--(u23.90 |- aa);
+\draw(u20.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u23.180)--++(-2*\kpin,0);
+\draw(u21.-90)--(u21.-90 |- bb);
+\draw(u22.-90)--(u22.-90 |- bb);
+\draw(u23.-90)--(u23.-90 |- bb);
+%
+\node[kmemUnit,below=\ksepY of u20](u30){};
+\node[kmemUnit,left=\ksepX of u30](u31){};
+\node[kmemUnit,left=\ksepX of u31](u32){};
+\node[kmemUnit,left=\ksepX of u32](u33){};
+\draw(u30.90)--++(0,\kpin)coordinate(aa)--(aa -| u33.180)--++(-3*\kpin,0)coordinate(wordD);
+\draw(u31.90)--(u31.90 |- aa);
+\draw(u32.90)--(u32.90 |- aa);
+\draw(u33.90)--(u33.90 |- aa);
+\draw(u30.-90)--++(0,-\kpin)coordinate(bb)--(bb -| u33.180)--++(-6*\kpin,0)coordinate(rdWr)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(u31.-90)--(u31.-90 |- bb);
+\draw(u32.-90)--(u32.-90 |- bb);
+\draw(u33.-90)--(u33.-90 |- bb);
+\draw(kwr)--(kwr |- bb);
+\kBusORdown[u100]{\kpinA}{-5.75*\ksepY}
+%\draw(u100out)--++(0,-\kpin)node[below]{$D0$};
+\draw(u100in)|-(u0.0)  (u100in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u10.0)--(u10.0 -| u100in)   (u20.0)--(u20.0 -| u100in)   (u30.0)--(u30.0 -| u100in);
+\kBusORdown[u200]{-\ksepX+\kpinA-0.75}{-5.75*\ksepY}
+%\draw(u200out)--++(0,-\kpin)node[below]{$D1$};
+\draw(u200in)|-(u1.0)  (u200in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u11.0)--(u11.0 -| u200in)   (u21.0)--(u21.0 -| u200in)   (u31.0)--(u31.0 -| u200in);
+\kBusORdown[u300]{-2*\ksepX+\kpinA-2*0.75}{-5.75*\ksepY}
+%\draw(u300out)--++(0,-\kpin)node[below]{$D2$};
+\draw(u300in)|-(u2.0)  (u300in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u12.0)--(u12.0 -| u300in)   (u22.0)--(u22.0 -| u300in)   (u32.0)--(u32.0 -| u300in);
+\kBusORdown[u400]{-3*\ksepX+\kpinA-3*0.75}{-5.75*\ksepY}
+%\draw(u400out)--++(0,-\kpin)node[below]{$D3$};
+\draw(u400in)|-(u3.0)  (u400in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
+\draw(u13.0)--(u13.0 -| u400in)   (u23.0)--(u23.0 -| u400in)   (u33.0)--(u33.0 -| u400in);
+\draw[thick]($(wordB)!0.5!(wordC)+(-2*\kpin,-2*\kpin)$)coordinate(kA) rectangle ++(-4*\kpin,5*\kpin)coordinate(kB);
+\draw[thin](kA)++(0,1*\kpin)node[left]{$y0$}--++(0.5*\kpin,0)|-(wordD);
+\draw[thin](kA)++(0,2*\kpin)node[left]{$y1$}--++(1*\kpin,0)|-(wordC);
+\draw[thin](kA)++(0,3*\kpin)node[left]{$y2$}--++(1*\kpin,0)|-(wordB);
+\draw[thin](kA)++(0,4*\kpin)node[left]{$y3$}--++(0.5*\kpin,0)|-(wordA);
+\draw(kA)++(-4*\kpin,\kpin)node[right]{$e$}--++(-\kpin,0)coordinate[pos=0.5](enbl)node[left]{مجاز};
+\draw(kA)++(-4*\kpin,3*\kpin)node[right]{$a0$}--++(-\kpin,0)node[left]{$A0$};
+\draw(kA)++(-4*\kpin,4*\kpin)node[right]{$a1$}--++(-\kpin,0)node[left]{$A1$};
+\draw($(kA)!0.5!(kB)$)node[rotate=90]{\RL{شناخت کار}};
+\draw(u100out)--++(0,-\kpin)coordinate(kdA);
+\draw(u200out)--++(0,-\kpin)coordinate(kdB);
+\draw(u300out)--++(0,-\kpin)coordinate(kdC);
+\draw(u400out)--++(0,-\kpin)coordinate[pos=0.5](hZ)coordinate(kdD);
+\kdBufferK[u101]{kdA}
+\kdBufferK[u201]{kdB}
+\kdBufferK[u301]{kdC}
+\kdBufferK[u401]{kdD}
+\draw(u101pout)--++(0,-\kpin)coordinate[pos=0.15](zzA)node[below]{D0};
+\draw(u201pout)--++(0,-\kpin)coordinate[pos=0.15](zzB)node[below]{D1};
+\draw(u301pout)--++(0,-\kpin)coordinate[pos=0.15](zzC)node[below]{D2};
+\draw(u401pout)--++(0,-\kpin)coordinate[pos=0.15](zzD)node[below]{D3};
+\draw(hZ)++(-\ksepX,0)node[and port,scale=1,number inputs=2,anchor=out](u500){};
+\draw(u500.in 1)--(u500.in 1 |- rdWr);
+\draw(u500.in 2)-| (enbl);
+\draw(u101pbd)--++(-2*\kpin,0)|-(u500.out);
+\draw(u201pbd)--++(-2*\kpin,0)coordinate(enB)--(enB |-  u500.out);
+\draw(u301pbd)--++(-2*\kpin,0)coordinate(enC)--(enC |-  u500.out);
+\draw(u401pbd)--++(-2*\kpin,0)coordinate(enD)--(enD |-  u500.out);
+\draw(u0.180)--++(-\kpinA,0)|-(zzA);
+\draw(u10.180)--++(-\kpinA,0)  (u20.180)--++(-\kpinA,0)  (u30.180)--++(-\kpinA,0);
+\draw(u1.180)--++(-\kpinA,0)|-(zzB);
+\draw(u11.180)--++(-\kpinA,0)  (u21.180)--++(-\kpinA,0)  (u31.180)--++(-\kpinA,0);
+\draw(u2.180)--++(-\kpinA,0)|-(zzC);
+\draw(u12.180)--++(-\kpinA,0)  (u22.180)--++(-\kpinA,0)  (u32.180)--++(-\kpinA,0);
+\draw(u3.180)--++(-\kpinA,0)|-(zzD);
+\draw(u13.180)--++(-\kpinA,0)  (u23.180)--++(-\kpinA,0)  (u33.180)--++(-\kpinA,0);
+ \end{tikzpicture}
+ \caption{مشترک داخلی و خارجی راہ کا چار لفظ عارضی حافظہ}
+ \label{شکل_حافظہ_مشترک_داخلی_خارجی}
+\end{figure}
 
-شکل \حوالہء{9.6 } میں \اصطلاح{ مستحکم کار } کے استعمال پر غور کریں۔\موٹا{ مجاز } اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} دونوں بلند ہونے کی صورت میں حافظہ میں ذخیرہ مواد \عددی{D} پر خارج ہو گا جبکہ مجاز بلند اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} پست ہو نے کی صورت میں \عددی{D} پر مہیا مواد حافظہ میں لکھا جائے گا۔یوں \عددی{D} بطور مداخل و مخارج کام کرتا ہے۔
 
-جدید عارضی حافظوں میں کثیر تعداد کے الفاظ ذخیرہ کرنے کی گنجائش ہوتی ہے۔شکل\حوالہء{ 9.7 }-ا میں چار لفظ حافظے کے \اصطلاح{ مخلوط دور }\فرہنگ{مخلوط دور}\حاشیہب{integrated circuit, IC}\فرہنگ{IC, integrated circuit} کی علامت دکھائی گئی ہے جہاں لفظ کے چار داخلی و خارجی بِٹوں کو \عددی{D} کی بجائے \عددی{I/O} کہا گیا ہے۔
+شکل  \حوالہ{شکل_حافظہ_مشترک_داخلی_خارجی}  میں \اصطلاح{ مستحکم کار } کے استعمال پر غور کریں۔\موٹا{ مجاز } اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} دونوں بلند ہونے کی صورت میں حافظہ میں ذخیرہ مواد \عددی{D} پر خارج ہو گا جبکہ مجاز بلند اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} پست ہو نے کی صورت میں \عددی{D} پر مہیا مواد حافظہ میں لکھا جائے گا۔یوں \عددی{D} بطور مداخل و مخارج کام کرتا ہے۔ شکل \حوالہ{شکل_حافظہ_بہتر} میں مداخل \عددی{Z} کے لئے چار  اور مخارج \عددی{D} کے لئے چار پنیوں کی ضرورت تھی۔یہاں شکل  \حوالہ{شکل_حافظہ_مشترک_داخلی_خارجی}  میں صرف چار پنیوں کی ضرورت ہو گی۔
 
-شکل-ب میں مجاز کی جگہ \عددی{\overline{\text{\RL{مجاز}}}} استعمال کیا گیا ہے ، جو شکل -ا کے مجاز مداخل پر نفی گیٹ نصب کرنے سے حاصل ہو گا؛ مزید \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} کو مختصراً \عددی{\overline{\text{\RL{لکھ}}}} پکار کر پنیا پر گول دائرہ ڈال کر اس کا پست فعال پن ظاہر کیا گیا ہے۔یوں \عددی{\overline{\text{\RL{لکھ}}}} پست ہو نے کی صورت میں \موٹا{ حافظے میں }مواد لکھا اور بلند صورت میں \موٹا{حافظے سے } مواد پڑھا جاتا ہے۔
+جدید عارضی حافظوں میں کثیر تعداد کے الفاظ ذخیرہ کرنے کی گنجائش ہوتی ہے۔شکل \حوالہ{شکل_حافظہ_عارضی_حافظوں_کے_مخلوط_ادوار}-ا میں چار لفظ حافظے کے \اصطلاح{ مخلوط دور }\فرہنگ{مخلوط دور}\حاشیہب{integrated circuit, IC}\فرہنگ{IC, integrated circuit} کی علامت دکھائی گئی ہے جہاں لفظ کے چار   داخلی و خارجی بِٹوں کو \عددی{D} کی بجائے \عددی{I/O} کہا گیا ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{3.25}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\foreach \x in {0,1}{\draw(0,\kul+3*\kpsep+\x*\kpsep)node[right]{$A\x$}--++(-\kpin,0);}
+\foreach \x in {0,1,2,3} {\draw(\kxdim,\kul+1*\kpsep+\x*\kpsep)node[left]{$I\!/\!O\x$}--++(\kpin,0);}
+\foreach \x/\a in  {0/{$\overline{\text{\RL{لکھ}}}/{\text{\RL{پڑھ}}}$},1/{مجاز}}{\draw(0,\kul+\x*\kpsep)node[right]{\a}--++(-\kpin,0);}
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{3.25}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\foreach \x in {0,1}{\draw(0,\kul+3*\kpsep+\x*\kpsep)node[right]{$A\x$}--++(-\kpin,0);}
+\foreach \x in {0,1,2,3} {\draw(\kxdim,\kul+1*\kpsep+\x*\kpsep)node[left]{$I\!/\!O\x$}--++(\kpin,0);}
+\foreach \x/\a in  {0/{لکھ},1/{مجاز}}{\draw(0,\kul+\x*\kpsep)node[right]{$\overline{\text{\RL{\a}}}$}--++(-\kpin,0);}
+\foreach \x in {0,1}{\draw(0,\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{3.25}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+15*\kpsep}
+\draw[thick](0,0) rectangle ++(\kxdim,\kydim);
+\foreach \x in {0,1,...,11}{\draw(0,\kul+4*\kpsep+\x*\kpsep)node[right]{$A\x$}--++(-\kpin,0);}
+\foreach \x in {0,1,...,7} {\draw(\kxdim,\kul+6*\kpsep+\x*\kpsep)node[left]{$I\!/\!O\x$}--++(\kpin,0);}
+\foreach \x/\a in {0/{بیدار},1/{لکھ},2/{مجاز}}{\draw(0,\kul+\x*\kpsep)node[right]{$\overline{\text{\RL{\a}}}$}--++(-\kpin,0);}
+\foreach \x in {0,1,2}{\draw(0,\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
+\draw(0.5*\kxdim,\kul+4*\kpsep)node[]{$4, KB$}node[below,yshift=-0.5ex]{\RL{عارضی حافظہ}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{عارضی حافظوں کے مخلوط ادوار}
+\label{شکل_حافظہ_عارضی_حافظوں_کے_مخلوط_ادوار}
+\end{figure}
+شکل-ب میں مجاز کی جگہ \عددی{\overline{\text{\RL{مجاز}}}} استعمال کیا گیا ہے ، جو شکل -ا کے مجاز مداخل پر نفی گیٹ نصب کرنے سے حاصل ہو گا؛ مزید \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} کو مختصراً \عددی{\overline{\text{\RL{لکھ}}}} پکار کر اور  پنیا پر گول دائرہ ڈال کر اس کا پست فعال پن ظاہر کیا گیا ہے۔یوں \عددی{\overline{\text{\RL{لکھ}}}} پست ہو نے کی صورت میں \موٹا{ حافظے میں }مواد لکھا اور بلند صورت میں \موٹا{حافظے سے } مواد پڑھا جاتا ہے۔
 
 شکل - ج میں بارہ بِٹ پتہ ، ایک بائٹ لفظ عارضی حافظے کی علامت دکھائی گئی ہے۔بارہ بِٹ پتہ \عددی{2^{12}=4096_{10}} بائٹ تک رسائی ممکن بناتا ہے لہٰذا یہ چار کلو بائٹ عارضی حافظہ کی علامت ہے۔اس مخلوط دور میں \عددی{\overline{\text{\RL{بیدار}}}} مداخل کا اضافہ کیا گیا ہے جو \موٹا{پست فعال }ہے۔اس پر اب بات کرتے ہیں۔
-
 
  مخلوط دور میں متعدد گیٹ پائے جاتے ہیں اور جدید برقیاتی آلات کئی مخلوط ادوار پر مشتمل ہوتے ہیں۔یہ سب برقی طاقت سے چلتے ہیں۔ہم کہتے ہیں برقی طاقت انہیں \اصطلاح{ بیدار } رکھتی ہے۔برقیاتی آلات عموماً بیٹری سے برقی طاقت حاصل کرتے ہیں۔ درکار برقی طاقت کم کرنے سے بیٹری زیادہ دیر کارآمد رہتی ہے۔
  

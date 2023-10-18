@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  17 OCT 2023 17:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  18 OCT 2023 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202310171036.tex)...disabled (restricted).
+runsystem(touch w18-test-202310181044.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202310171036.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202310181044.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -3843,274 +3843,284 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 133--134
+Underfull \hbox (badness 7273) in paragraph at lines 221--222
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس طرح کے کئی الفاظ جوڑ کر متعدد لفظ حا
 فظہ حاصل کیا جا سکتا ہے۔شکل ٩.‏٣[] میں چار الفاظ جوڑ کر چار لفظ[]
  []
 
-[191]
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 متعدد لفظ حافظہ کی تمام اکائیوں کا ”منت
-خب ”اشارہ عام صورت میں پست رہتا ہے۔یوں حافظہ کے کسی بھی[]
+[191] [192]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 رسائی ممکن نہیں ہو گی۔حافظہ میں مواد لکھن
+ے کی خاطر مواد $\OML/zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(2)/m/sl/10 داخلی 
+راستے فراہم کر کے $[]\OT1/zplm/m/n/10 /[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 
+پست رکھ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 لفظ تک رسائی ممکن نہیں ہو گی۔حافظہ میں مو
-اد لکھنے کی خاطر مواد $\OML/zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(2)/m/sl/10
- داخلی راستے فراہم کر کے $[]\OT1/zplm/m/n/10 /[]$[]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کر مطلوبہ مقام کا ”منتخب ” اشارہ بلند کیا
+ جاتا ہے۔یوں مواد مطلوبہ مقام پر لکھا جاتا ہے۔ فرض کریں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست رکھ کر مطلوبہ مقام کا ”منتخب ” اشارہ 
-بلند کیا جاتا ہے۔یوں مواد مطلوبہ لفظ کے مقام پر لکھا جاتا[]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہم اعشاری تین $\OT1/zplm/m/n/10 (\OT1/ppl
+/m/n/10 3[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے ثنائی مرم
+وز اعشاری $\OT1/ppl/m/n/10 0011[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو حافظہ
+ کے لفظ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے مقام پر لکھن
+ا چاہتے ہیں۔ہم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ فرض کریں ہم اعشاری تین $\OT1/zplm/m/n
-/10 (\OT1/ppl/m/n/10 3[]\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastaleeq(2)/m/sl/10
- کے ثنائی علامتی روپ $\OT1/ppl/m/n/10 0011[]$ \TU/JameelNooriNastaleeq(2)/m/sl/
-10 کو حافظہ کے لفظ $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے م
-قام پر لکھنا[]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مداخل پر $\OT1/ppl/m/n/10 0011[]$ \TU/Jam
+eelNooriNastaleeq(2)/m/sl/10 مہیا کر کے $[]\OT1/zplm/m/n/10 /[]$ \TU/JameelNoor
+iNastaleeq(2)/m/sl/10 پست رکھ کر ”منتخب لفظ 2” اشارہ بلند کریں گے۔ایسا کرنے سے 
+شکل ٩.‏٣[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چاہتے ہیں۔ہم مداخل پر $\OT1/ppl/m/n/10 00
-11[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 مہیا کر کے $[]\OT1/zplm/m/n/10 /[]$ \
-TU/JameelNooriNastaleeq(2)/m/sl/10 پست رکھ کر لفظ $\OT1/ppl/m/n/10 2$ \TU/Jamee
-lNooriNastaleeq(2)/m/sl/10 کے ”منتخب” اشارے کو بلند کریں[]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں لفظ $\OT1/ppl/m/n/10 2$ \TU/JameelNoo
+riNastaleeq(2)/m/sl/10 پر $\OT1/ppl/m/n/10 0011[]$ \TU/JameelNooriNastaleeq(2)/
+m/sl/10 لکھا جائے گا۔یاد رہے کہ اس دوران باقی” منتخب ” اشارے پست رہیں گے۔اسی لف
+ظ کو پڑھنے کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گے۔ایسا کرنے سے شکل ٩.‏٣[] میں لفظ $\OT1/
-ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر $\OT1/ppl/m/n/10 0011[]$ \
-TU/JameelNooriNastaleeq(2)/m/sl/10 لکھا جائے گا۔یاد رہے کہ اس دوران باقی” منتخب
- ” اشارے[]
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 220--221
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پست رہیں گے۔اسی لفظ کو پڑھنے کے لئے ہم $[
-]\OT1/zplm/m/n/10 /[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بلند رکھ کر لفظ $\OT
-1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا ”منتخب” بلند کریں گے۔ایس
-ا کرنے سے مخارج $\OML/zplm/m/it/10 D$[]
- []
-
-
-Underfull \vbox (badness 1005) has occurred while \output is active []
-
- [192]
-Overfull \hbox (38.24582pt too wide) in paragraph at lines 227--317
+Overfull \hbox (29.7099pt too wide) in paragraph at lines 230--321
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حقیقی حافظہ میں الفاظ تک رسائی  \TU/AAS
 ameerSagarNastaleeqBold(0)/m/n/10 پتہ  \TU/JameelNooriNastaleeq(2)/m/sl/10 کے ذ
 ریعے کی جاتی ہے۔چار لفظ حافظہ میں الفاظ تک رسائی ، دو بِٹ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ استعمال کرتے ہوئے دو سے چار شناخت کار
  کی مدد سے ممکن ہے۔شکل ٩.‏٤[] میں یہ عمل پیش کیا گیا[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 324.
-LaTeX Info: Redefining \sffamily on input line 324.
-LaTeX Info: Redefining \ttfamily on input line 324.
-LaTeX Info: Redefining \rmfamily on input line 329.
-LaTeX Info: Redefining \sffamily on input line 329.
-LaTeX Info: Redefining \ttfamily on input line 329.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 332.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 332.
-LaTeX Info: Redefining \rmfamily on input line 345.
-LaTeX Info: Redefining \sffamily on input line 345.
-LaTeX Info: Redefining \ttfamily on input line 345.
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل  9.‏4  میں چار بِٹ جمع گیٹ کی ایک ن
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جہاں $\OML/zplm/m/it/10 A\OT1/ppl/m/n/
+10 0$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، اور $\OML/zplm/m/it/10 A\OT1/ppl/m/n
+/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ بِٹ ہیں۔پتہ کو دیکھ کر شناخت کار
+ مطلوبہ مخارج بلند کر کے لفظ کا مقام منتخب کرتا[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 327.
+LaTeX Info: Redefining \sffamily on input line 327.
+LaTeX Info: Redefining \ttfamily on input line 327.
+LaTeX Info: Redefining \rmfamily on input line 332.
+LaTeX Info: Redefining \sffamily on input line 332.
+LaTeX Info: Redefining \ttfamily on input line 332.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 7.6pt on input line 335.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 335.
+LaTeX Info: Redefining \rmfamily on input line 348.
+LaTeX Info: Redefining \sffamily on input line 348.
+LaTeX Info: Redefining \ttfamily on input line 348.
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ٩.‏٤[] میں چار بِٹ جمع گیٹ کی ایک ن
 ئی علامت استعمال کی گئی ہے ۔گیٹ کا ایک مداخل دکھایا گیا ہے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جس پر چھوٹی ترچھی لکیر کے ساتھ $\OT1/ppl/
 m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 لکھ کر اس بات کی وضاحت کی گئی ہے 
 کہ دراصل یہ چار داخلی جمع گیٹ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔اس طرح کی علامت میں گیٹ کے مداخل علیحد
 ہ علیحدہ نہیں دکھائے جاتے بلکہ تمام مداخل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک داخلی تار سے ظاہر کیے جاتے ہیں۔یوں دو
 ر کا نقشہ کاغذ پر کھینچتے ہوئے ہوئے تاروں کے ہجوم سے نجات حاصل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتی ہے اور دور صاف ستھرا نظر آتا ہے۔یاد 
 رہے کہ ایسا صرف دور صاف ستھرا نظر آنے کے لئے کیا جاتا[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+[193] [194]
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک ہزار مقامات تک رسائی ممکن ہے۔کمپیوٹر 
 کی دنیا میں کلو (ہزار) سے مراد $\OT1/ppl/m/n/10 1024[]$\TU/JameelNooriNastaleeq
 (2)/m/sl/10 لیا جاتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Overfull \hbox (29.7099pt too wide) in paragraph at lines 361--471
+ [][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ذخیرہ مواد $\OML/zplm/m/it/10 D$ \TU/Jame
 elNooriNastaleeq(2)/m/sl/10 پر خارج ہو گا جبکہ مجاز بلند اور $[]\OT1/zplm/m/n/1
 0 /[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پست ہو نے کی صورت میں $\OML/zplm/m/i
 t/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر مہیا مواد حافظہ[]
  []
 
-[193] [194]
-LaTeX Info: Redefining \rmfamily on input line 356.
-LaTeX Info: Redefining \sffamily on input line 356.
-LaTeX Info: Redefining \ttfamily on input line 356.
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں لکھا جائے گا۔یوں $\OML/zplm/m/it/10 D
+$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بطور مداخل و مخارج کام کرتا ہے۔ شکل ٩.‏٤[
+] میں مداخل $\OML/zplm/m/it/10 Z$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے لئے چا
+ر اور مخارج[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 478.
+LaTeX Info: Redefining \sffamily on input line 478.
+LaTeX Info: Redefining \ttfamily on input line 478.
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--542
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدید عارضی حافظوں میں کثیر تعداد کے الف
-اظ ذخیرہ کرنے کی گنجائش ہوتی ہے۔شکل 9.‏7 -ا میں چار لفظ[]
+اظ ذخیرہ کرنے کی گنجائش ہوتی ہے۔شکل ٩.‏٦[]-ا میں چار لفظ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے حاصل ہو گا؛ مزید $[]\OT1/zplm/m/n/10 /
-[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو مختصراً $[]$ پکار کر پنیا پر گول دائ
-رہ ڈال کر اس کا پست فعال پن ظاہر کیا گیا[]
+Underfull \hbox (badness 10000) in paragraph at lines 478--542
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا ہے۔ شکل-ب میں مجاز کی جگہ $[]$ استعما
+ل کیا گیا ہے ، جو شکل -ا کے مجاز مداخل پر نفی گیٹ[]
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 358--359
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔یوں $[]$ پست ہو نے کی صورت میں  \TU/AA
-SameerSagarNastaleeqBold(0)/m/n/10 حافظے میں \TU/JameelNooriNastaleeq(2)/m/sl/1
-0 مواد لکھا اور بلند صورت میں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 حافظے سے
-  \TU/JameelNooriNastaleeq(2)/m/sl/10 مواد پڑھا جاتا[]
+Underfull \hbox (badness 4765) in paragraph at lines 478--542
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 نصب کرنے سے حاصل ہو گا؛ مزید $[]\OT1/zplm
+/m/n/10 /[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو مختصراً $[]$ پکار کر پنیا پ
+ر گول دائرہ ڈال کر اس کا پست فعال پن ظاہر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
+Underfull \hbox (badness 10000) in paragraph at lines 478--542
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کیا گیا ہے۔یوں $[]$ پست ہو نے کی صورت میں
+  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 حافظے میں \TU/JameelNooriNastaleeq(2
+)/m/sl/10 مواد لکھا اور بلند صورت میں \TU/AASameerSagarNastaleeqBold(0)/m/n/10 
+حافظے سے  \TU/JameelNooriNastaleeq(2)/m/sl/10 مواد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 543--544
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل - ج میں بارہ بِٹ پتہ ، ایک بائٹ لفظ
  عارضی حافظے کی علامت دکھائی گئی ہے۔بارہ بِٹ پتہ[]
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 363--364
+Underfull \hbox (badness 4967) in paragraph at lines 546--547
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مخلوط دور میں متعدد گیٹ پائے جاتے ہیں ا
 ور جدید برقیاتی آلات کئی مخلوط ادوار پر مشتمل ہوتے ہیں۔یہ سب برقی[]
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 363--364
+Underfull \hbox (badness 5908) in paragraph at lines 546--547
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 طاقت سے چلتے ہیں۔ہم کہتے ہیں برقی طاقت ان
 ہیں  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بیدار  \TU/JameelNooriNastaleeq(2
 )/m/sl/10 رکھتی ہے۔برقیاتی آلات عموماً بیٹری سے برقی طاقت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برقیاتی آلات میں مختلف مخلوط ادوار کی ض
 رورت مختلف لمحات پر ہو گی۔ان لمحات کے علاوہ انہیں بیدار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظے کی مثال لیتے ہوئے ہم جانتے ہیں کہ ب
 رقی طاقت نہ ملنے پر ان میں مواد محفوظ نہیں رہتا ، البتہ یہ ممکن[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے کہ عارضی حافظے کو صرف اتنی برقی طاقت م
 ہیا کی جائے کہ یہ صرف مواد محفوظ رکھنے کے قابل ہو ، یعنی اسے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 نڈھال سی کیفیت میں ڈالا جا سکتا ہے۔عارضی 
 حافظے کے مخلوط دور میں $[]$ مداخل اس مقصد کے لئے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مہیا کیا گیا ہے۔جس لمحے پر مخلوط دور کی ض
 رورت ہو، $[]$ پست (فعال) کر کے اسے جگایا جاتا ہے اور استعمال[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے بعد فوراً دوبارہ نڈھال کر دیا جاتا ہے۔
 نڈھال صورت میں مخلوط دور بیرونی دنیا سے، دو طرفہ مستحکم کار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کی مدد سے، مکمل طور پر منقطع رہتا ہے اور 
 اس میں نہ کچھ لکھا جا سکتا ہے اور نہ ہی اس سے کچھ پڑھا جا سکتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔نڈھال حال میں حافظہ کمتر برقی توانائی 
 صرف کرتا ہے۔عام طور شناخت کار کی مدد سے بیدار کیے[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+[195] [196] [197]
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 چار لفظ حافظے کی تصوراتی تصویر شکل 9.‏8
   میں دکھائی گئی ہے جہاں دو بِٹ پتہ اور چار بِٹ مواد ثنائی روپ میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 لکھے گئے ہیں۔شکل میں ایک کلو بائٹ حافظے ک
 ی تصوراتی تصویر بھی پیش ہے جہاں مواد کو ثنائی جبکہ پتہ کو اعشاری[]
  []
 
-[195]
-Underfull \hbox (badness 4621) in paragraph at lines 378--379
+
+Underfull \hbox (badness 4621) in paragraph at lines 561--562
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 عارضی حافظے کی طرح پختہ حافظہ بھی مختلف
  لمبائی کے الفاظ پر مشتمل ہو گا۔لفظوں تک رسائی پتہ کے ذریعہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 563--564
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بائٹ لمبائی چار لفظ پختہ حافظے کی اندرو
 نی ساخت شکل 9.‏9  میں دکھائی گئی ہے جس کی بہتر صورت شکل[]
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 380--381
+Underfull \hbox (badness 3000) in paragraph at lines 563--564
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 9.‏10  پیش کرتی ہے ، جہاں چار داخلی جمع گ
 یٹ کی صاف شکل استعمال کی گئی ہے۔دو سے چار شناخت کار، پتہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 9.‏9  میں بالکل نیا غیر استعمال شدہ
  پختہ حافظہ دکھایا گیا ہے۔پتہ $\OT1/ppl/m/n/10 00[]$ \TU/JameelNooriNastaleeq(2
 )/m/sl/10 کی صورت میں دو سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 چار شناخت کار $\OML/zplm/m/it/10 y[]$ \TU
 /JameelNooriNastaleeq(2)/m/sl/10 بلند کر کے لفظ $\OT1/ppl/m/n/10 0$ \TU/JameelN
 ooriNastaleeq(2)/m/sl/10 چنے گا۔ تمام جمع گیٹ بلند ہوں گے اور $\OML/zplm/m/it/1
@@ -4119,7 +4129,7 @@ meelNooriNastaleeq(2)/m/sl/10 خارج ہو گا۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 567--568
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ $\OT1/ppl/m/n/10 01[]$ \TU/JameelNoor
 iNastaleeq(2)/m/sl/10 لفظ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/
 10 چنے گا اور $\OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر $\OT
@@ -4128,14 +4138,14 @@ iNastaleeq(2)/m/sl/10 لفظ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/s
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 آپ نے دیکھا کہ بلند $\OML/zplm/m/it/10 
 y[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی صورت میں تمام جمع گیٹ کو یہی بلند ا
 شارہ ملتا ہے اور یوں تمام جمع گیٹ کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مخارج بلند ہو ں گے۔جمع گیٹ سے $\OML/zplm/
 m/it/10 y[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا جوڑ منقطع کرنے سے $\OML/zpl
 m/m/it/10 y[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 جمع گیٹ تک نہیں پہنچے گا۔شکل
@@ -4143,7 +4153,7 @@ m/m/it/10 y[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 جمع گیٹ تک نہیں �
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 چار جمع گیٹ $\OML/zplm/m/it/10 y[]$ \TU/J
 ameelNooriNastaleeq(2)/m/sl/10 سے منقطع ہیں لہٰذا $\OML/zplm/m/it/10 y[]$ \TU/J
 ameelNooriNastaleeq(2)/m/sl/10 بلند کر کے لفظ $\OT1/ppl/m/n/10 0$ \TU/JameelNoo
@@ -4152,29 +4162,29 @@ riNastaleeq(2)/m/sl/10 پڑھنے سے $\OML/zplm/m/it/10 D$ \TU/JameelNooriNast
 ملتا ہے۔یہاں ایک[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 389.
-LaTeX Info: Redefining \sffamily on input line 389.
-LaTeX Info: Redefining \ttfamily on input line 389.
+LaTeX Info: Redefining \rmfamily on input line 572.
+LaTeX Info: Redefining \sffamily on input line 572.
+LaTeX Info: Redefining \ttfamily on input line 572.
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ میں لکھا مواد شکل 9.‏8  کی طرح جد
 ول میں لکھا جاتا ہے۔اس جدول میں باری باری ایک لفظ کو[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+[198]
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل  9.‏11  میں جمع گیٹوں کے مداخل اور 
 دو سے چار شناخت کار کے مخارج کے بیچ جوڑ گول دائروں سے ظاہر کیے گئے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 579--580
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔حافظہ میں لکھا گیا مواد بھی شکل  9.‏1
 2  میں پیش کیا گیا ہے۔ان اشکال میں غیر تباہ شدہ جوڑ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اب تک چار لفظ حافظہ پر بات کی گئی جس کی
  وجہ سے $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 داخلی جمع گیٹ ا
 ستعمال کیے گئے۔ایک لفظ $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(2)/m/sl/10 
@@ -4182,76 +4192,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--399
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گے۔ آپ دیکھ سکتے ہیں کہ $\OML/zplm/m/it/1
 0 n$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ پتے کے حافظے میں $\OT1/ppl/m/n/10 
 2[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 لفظ ہوں گے لہٰذا ایسے حافظے میں $\OT1/
 ppl/m/n/10 2[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 داخلی جمع گیٹ[]
  []
 
-[196]
-LaTeX Info: Redefining \rmfamily on input line 400.
-LaTeX Info: Redefining \sffamily on input line 400.
-LaTeX Info: Redefining \ttfamily on input line 400.
+LaTeX Info: Redefining \rmfamily on input line 583.
+LaTeX Info: Redefining \sffamily on input line 583.
+LaTeX Info: Redefining \ttfamily on input line 583.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 [][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 شعاع مٹتا پختہ حافظہ  \TU/JameelNo
 oriNastaleeq(2)/m/sl/10 میں بار بار لکھائی ممکن ہے۔ان میں جوڑ، برقی فتیلہ سے نہ
 یں بنائے جاتے بلکہ ان جوڑ کو ایک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
 []\TU/AASameerSagarNastaleeqBold(0)/m/n/10 سوئچ [][][] []\TU/JameelNooriNastale
 eq(2)/m/sl/10 تصور کریں جنہیں مخصوص طریقے سے برقی طاقت کے ذریعہ منقطع کیا جا تا
  ہے۔منقطع جوڑوں کو دوبارہ جوڑنے کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 585--586
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدید \TU/AASameerSagarNastaleeqBold(0)/
 m/n/10 برق مٹتا پختہ حافظوں  \TU/JameelNooriNastaleeq(2)/m/sl/10 میں بار بار لک
 ھائی ممکن ہے۔ان حافظوں میں لکھائی برقی دباو سے کی جاتی ہے اور اسے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 404.
-LaTeX Info: Redefining \sffamily on input line 404.
-LaTeX Info: Redefining \ttfamily on input line 404.
+LaTeX Info: Redefining \rmfamily on input line 587.
+LaTeX Info: Redefining \sffamily on input line 587.
+LaTeX Info: Redefining \ttfamily on input line 587.
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عارضی حافظوں ( کے مخلوط ادوار ) کے قابو م
 داخل عموماً $[]$، $[]$اور $[]\OT1/zplm/m/n/10 /[]$ \TU/JameelNooriNastaleeq(2)/
 m/sl/10 جبکہ پختہ حافظوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے $[]$ اور $[]$ ہوں گے۔اس حصے میں ہم تصو
 ر کرتے ہیں کہ حافظوں کے قابو اشارات صرف $[]$ اور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 []$[]\OT1/zplm/m/n/10 /[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں جنہیں استعما
 ل کرتے ہوئے ایک سے زیادہ حافظے آپس میں جوڑنا دکھایا جائے گا۔حقیقت میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عموماً $[]$ کے علاوہ تمام حافظوں کے ایک ج
 یسے قابو مداخل ایک ساتھ جوڑے جاتے ہیں۔یوں تمام[]
  []
 
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 410.
+(Font)              scaled to size 12.0pt on input line 593.
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کبھی کبھار درکار استعداد کا حافظہ میسر نہ
 یں ہو گا۔ایسی صورت میں ایک سے زیادہ حافظے اکٹھے جوڑ کر درکار بائٹ[]
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 411--412
+Underfull \hbox (badness 3029) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ذخیرہ کرنا ممکن بنایا جاتا ہے۔شکل 9.‏13 -
 ا میں $\OT1/ppl/m/n/10 4 \OMS/zplm/m/n/10 ^^B \OT1/ppl/m/n/10 4$ \TU/JameelNoor
 iNastaleeq(2)/m/sl/10 کے دو حافظے جوڑ کر دگنی استعداد کا $\OT1/ppl/m/n/10 8 \OM
@@ -4260,13 +4269,13 @@ S/zplm/m/n/10 ^^B \OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حاف�
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حاصل کیا گیا۔چھوٹے حافظوں کو حافظہ-‏0 اور
  حافظہ-‏1 کہا گیا ہے۔ شکل-ا میں ایک جیسے پتہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ ساتھ ساتھ جوڑے گئے ہیں یعنی حافظہ-‏0 
 کا $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏1 کے $\OM
 L/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے جوڑا گیا ہے، اور حاف
@@ -4274,14 +4283,14 @@ L/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے جوڑا گیا ہ�
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏1 کے $\OML/zplm/m/it/10 A[]$ \TU/J
 ameelNooriNastaleeq(2)/m/sl/10 سے جوڑا گیا ہے۔اسی طرح ایک جیسے مواد بِٹ ساتھ سا
 تھ جوڑے گئے ہیں یعنی حافظہ-‏0[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے $\OML/zplm/m/it/10 D[]$\TU/JameelNoori
 Nastaleeq(2)/m/sl/10 ، $\OML/zplm/m/it/10 D[]$\TU/JameelNooriNastaleeq(2)/m/sl/
 10 ، $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm
@@ -4293,28 +4302,28 @@ leeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏0 کا $[]$ مداخل (جسے $[]$کہا گیا ہ
 ے) سیدھا $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے ساتھ مل
 ایا گیا ہے جبکہ حافظہ-[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
+[199]
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 9.‏14 -ا میں تین پتہ بِٹ کی تمام تر
 تیب دی گئی ہیں۔ (شکل 9.‏13 کو دیکھتے ہوئے آگے پڑھیں۔) پست $\OML/zplm/m/it/10 A[
 ]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
+Underfull \hbox (badness 10000) in paragraph at lines 598--599
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔اسی طرح بلند $\OML/zplm/m/it/10 A[]$ \
 TU/JameelNooriNastaleeq(2)/m/sl/10 سے $[]$ بلند اور $[]$ پست ہو گا جس سے حافظہ-
 ‏0 نڈھال اور حافظہ-‏1[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یوں پست $\OML/zplm/m/it/10 A[]$ \TU/Jam
 eelNooriNastaleeq(2)/m/sl/10 کی صورت میں پتہ کے باقی دو بِٹ $\OML/zplm/m/it/10 
 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 A[]$ \TU/Jameel
@@ -4322,14 +4331,14 @@ NooriNastaleeq(2)/m/sl/10 حافظہ-‏0 کے مختلف مقامات تک رس
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ممکن بنائیں گے۔ پتہ $\OT1/ppl/m/n/10 000[
 ]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏0 کے صفرویں مقام اور پتہ $\OT1/pp
 l/m/n/10 011[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏0 کے تیسرے مقام[]
  []
 
-[197]
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اسی طرح بلند $\OML/zplm/m/it/10 A[]$ \T
 U/JameelNooriNastaleeq(2)/m/sl/10 کی صورت میں پتہ کے باقی دو بِٹ $\OML/zplm/m/i
 t/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 A[]$ \TU/J
@@ -4337,27 +4346,27 @@ ameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏1کے مختلف مقامات تک[
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رسائی ممکن بنائیں گے۔ پتہ $\OT1/ppl/m/n/1
 0 000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏1کے صفرویں اور پتہ $\OT1/pp
 l/m/n/10 011[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏1کے تیسرے مقام[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 گزشتہ دو نثر پاروں کا خلاصہ درج ذیل ہے۔
  دو عدد چار لفظ حافظے مل کر ایک عدد آٹھ لفظ حافظے کے طور پر کام[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتے ہیں۔الفاظ کی لمبائی جوں کی توں چار ب
 ِٹ رہتی ہے۔اس طرح پتہ $\OT1/ppl/m/n/10 000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/
 10 کل حافظے کے صفرویں مقام تک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رسائی دیتا ہے، پتہ $\OT1/ppl/m/n/10 011[]
 $ \TU/JameelNooriNastaleeq(2)/m/sl/10 کل حافظے کے تیسرے، پتہ $\OT1/ppl/m/n/10 1
 00[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کل حافظہ کے چوتھے اور پتہ $\OT1/ppl/m
@@ -4365,31 +4374,31 @@ $ \TU/JameelNooriNastaleeq(2)/m/sl/10 کل حافظے کے تیسرے، پتہ $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مقام تک رسائی دیتا ہے ۔ یوں دو عدد حافظے 
 جوڑ کر ایک عدد حافظہ حاصل کیا جا سکتا ہے اور ان کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 اندرونی ساخت پر ہر وقت غور کرنے کی ضرورت 
 نہیں۔شکل  9.‏13 -ب میں اس حقیقت کو مدِ نظر رکھتے ہوئے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 طرح شکل 9.‏14 -ب میں تین بِٹ پتہ کی نسبت 
 سے دونوں حافظوں کے مقامات دکھائے گئے ہیں۔اس[]
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 424--425
+Underfull \hbox (badness 3482) in paragraph at lines 607--608
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے آخری لفظ کے اگلے مقام پر حافظہ۔1 کا صف
 رواں لفظ پایا جاتا ہے۔یوں پتہ کے لحاظ سے ان دو حافظوں کو سلسلہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مذکورہ بالا میں $\OT1/ppl/m/n/10 4 \OMS
 /zplm/m/n/10 ^^B \OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 استعداد
  کے حافظے استعمال کیے گئے جنہیں دو پتہ بِٹ $\OML/zplm/m/it/10 A[]$ \TU/JameelNo
@@ -4398,72 +4407,72 @@ oriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 استعمال کر کے بیدار حافظے کے مختلف مقامات
  تک رسائی حاصل کی جاتی ہے جبکہ اگلا پتہ بِٹ $\OML/zplm/m/it/10 A[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 استعمال کر کے ان حافظوں کو پتہ کے لحاظ سے
  مختلف مقامات پر رکھا گیا۔یہی طریقہ کار زیادہ استعداد کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظوں کے ساتھ بھی استعمال کیا جا سکتا ہے
 ۔یوں دو عدد دس بِٹ پتہ کے حافظے جوڑتے وقت $\OML/zplm/m/it/10 A[]$ \TU/JameelNoo
 riNastaleeq(2)/m/sl/10 تا $\OML/zplm/m/it/10 A[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 9.‏15-ا میں پست مخارج شناخت کار استعم
 ال کر کے تین $\OT1/ppl/m/n/10 16 \OMS/zplm/m/n/10 ^^B \OT1/ppl/m/n/10 8$ \TU/Ja
 meelNooriNastaleeq(2)/m/sl/10 حافظے (حافظہ-‏0، حافظہ-‏1،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ-‏2) سلسلہ وار جوڑے گئے ہیں۔تین حافظ
 وں کے ایک جیسے پتہ بِٹ ساتھ ساتھ جوڑے گئے ہیں۔ یوں تینوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے $\OML/zplm/m/it/10 A[]$ \TU/JameelNoor
 iNastaleeq(2)/m/sl/10 ایک ساتھ جڑے ہیں، وغیرہ۔ اسی طرح ایک جیسے مواد بِٹ ساتھ س
 اتھ جوڑے گئے ہیں، لہٰذا تینوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []$\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ایک ساتھ جڑے ہیں،
  وغیرہ۔ تاہم ان کے $[]$ مداخل علیحدہ علیحدہ رکھے گئے ہیں تا کہ کسی ایک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--430
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 وقت پر صرف ایک حافظے کا $[]$ فعال ( پست )
  کر کے $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OML/zpl
 m/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے ذریعہ اس ایک حافظے کے سول
 ہ[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جیسا آپ جانتے ہیں، شناخت کار کے مداخل ک
 ی ہر ترتیب ایک منفرد مخارج چنتی ہے۔شکل-ب میں[]
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 434--435
+Underfull \hbox (badness 1028) in paragraph at lines 617--618
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 شناخت کار کا جدول دیا گیا ہے جس میں دائیں
  جانب ایک اضافی قطار بنائی گئی ہے۔آئیں اس جدول پر غور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتے ہیں۔پست $\OML/zplm/m/it/10 A[]$ \TU/
 JameelNooriNastaleeq(2)/m/sl/10 اور پست $\OML/zplm/m/it/10 A[]$ \TU/JameelNoori
 Nastaleeq(2)/m/sl/10 کی صورت میں $[]$ پست ہو گا جو حافظہ۔0 کے $[]$ کے ساتھ جڑا[
@@ -4471,13 +4480,13 @@ Nastaleeq(2)/m/sl/10 کی صورت میں $[]$ پست ہو گا جو حافظہ�
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 434--435
+Underfull \hbox (badness 1997) in paragraph at lines 617--618
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جو حافظہ۔0 کے سولہ مقامات تک رسائی ممکن ب
 ناتا ہے۔حافظہ-‏0 کے تمام مقامات تک رسائی کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 لئے یوں پتہ بِٹ $\OML/zplm/m/it/10 A[]A[]
 A[]A[]A[]A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت $\OT1/ppl/m/n/10 0000
 00[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 001111[]$ \TU/Jam
@@ -4485,13 +4494,13 @@ eelNooriNastaleeq(2)/m/sl/10 ہو گی۔جدول کی دائیں قطار میں
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حدود درج ہیں اور شکل-ج میں نچلے سولہ خانے
  ان مقامات کو ظاہر کرتے ہیں۔حافظہ۔0 کا آخری مقام کل[]
  []
 
-[198]
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بلند $\OML/zplm/m/it/10 A[]$ \TU/Jameel
 NooriNastaleeq(2)/m/sl/10 اور پست $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastal
 eeq(2)/m/sl/10 کی صورت میں $[]$ پست ہو گا جو $[]$ سے جڑا ہے۔یوں $\OML/zplm/m/it
@@ -4499,14 +4508,14 @@ eeq(2)/m/sl/10 کی صورت میں $[]$ پست ہو گا جو $[]$ سے جڑا 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ۔1 کی شناخت کر کے اسے بیدار کرتا ہے۔
  $\OML/zplm/m/it/10 A[]A[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 01$ \TU/JameelNoo
 riNastaleeq(2)/m/sl/10 رکھتے ہوئے باقی چار پتہ بِٹ آزادانہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 طور پر بلند یا پست کیے جا سکتے ہیں یعنی $
 \OML/zplm/m/it/10 A[]A[]A[]A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت $\O
 T1/ppl/m/n/10 0000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 1
@@ -4514,13 +4523,13 @@ T1/ppl/m/n/10 0000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ۔1 کے سولہ مقامات تک رسائی دیتا ہے۔ح
 افظہ -‏1 کے مختلف مقامات تک رسائی کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 لئے $\OML/zplm/m/it/10 A[]A[]A[]A[]A[]A[]
 $ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی قیمت $\OT1/ppl/m/n/10 010000[]$ \TU/Ja
 meelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 011111[]$ \TU/JameelNooriNast
@@ -4528,27 +4537,27 @@ aleeq(2)/m/sl/10 ہو گی۔جدول کی دائیں قطار میں یہ حدو
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔شکل-ج میں نیچے سے سولہ خانے چھوڑ کر ا
 گلے سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔جیسا پہلے ذکر کیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا، حافظہ۔0 کا آخری مقام کل حافظہ کے مقا
 م $\OT1/ppl/m/n/10 001111[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر پایا جاتا ہ
 ے جبکہ حافظہ۔1 کا صفرواں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مقام اس سے اگلے مقام یعنی $\OT1/ppl/m/n/1
 0 010000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر پایا جاتا ہے۔شکل-ج سے ظاہر ہ
 ے جہاں حافظہ۔0 کا اختتام ہے وہیں[]
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 438--439
+Underfull \hbox (badness 4024) in paragraph at lines 621--622
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظے کی شناخت نہیں کرتے لہٰذا باقی چار پ
 تہ بِٹ کی قیمتیں $\OT1/ppl/m/n/10 0000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ت
 ا $\OT1/ppl/m/n/10 1111[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے سے کسی بھی 
@@ -4556,7 +4565,7 @@ Underfull \hbox (badness 4024) in paragraph at lines 438--439
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بھی مقام تک رسائی نہیں ہو گی۔ یوں پتہ $\O
 T1/ppl/m/n/10 100000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10
  101111[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظے کے کسی بھی مقام تک رسائی ن
@@ -4564,13 +4573,13 @@ T1/ppl/m/n/10 100000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دیں گے لہٰذا اس خطے میں نہ مواد لکھا جا س
 کتا ہے اور نہ ہی اس خطے سے مواد پڑھا جا سکتا ہے۔ جدول کی دائیں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بلند $\OML/zplm/m/it/10 A[]$ \TU/Jameel
 NooriNastaleeq(2)/m/sl/10 اور بلند $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNasta
 leeq(2)/m/sl/10 پست $[]$ دے کر حافظہ۔3 کو بیدار کرتا ہے۔ $\OML/zplm/m/it/10 A[]
@@ -4579,14 +4588,14 @@ A[] \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 11$ \TU/JameelNooriNastaleeq(2)/m/sl/10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 چار پتہ بِٹ کی قیمتیں $\OT1/ppl/m/n/10 00
 00[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 1111[]$ \TU/Jamee
 lNooriNastaleeq(2)/m/sl/10 کرنے حافظہ-‏3 کے سولہ مقامات تک رسائی ہو گی۔یوں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 []$\OML/zplm/m/it/10 A[]A[]A[]A[]A[]A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی
  قیمت $\OT1/ppl/m/n/10 110000[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/p
 pl/m/n/10 111111[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے سے حافظہ۔3 کے سولہ
@@ -4594,13 +4603,13 @@ pl/m/n/10 111111[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کرنے سے حافظہ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 623--624
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رسائی ہو گی۔ جدول کی دائیں قطار میں یہ حد
 ود درج ہیں۔شکل-ج میں بالائی سولہ خانے ان مقامات کو ظاہر[]
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 442--443
+Underfull \hbox (badness 1721) in paragraph at lines 625--626
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 نے سولہ سولہ لفظ کے تین حافظے استعمال کرت
 ے ہوئے اڑتالیس $\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 16 \OMS/zplm/m/n/10 ^^B \OT1/
 ppl/m/n/10 3 \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 48\OT1/zplm/m/n/10 )$ \TU/Jamee
@@ -4608,7 +4617,7 @@ lNooriNastaleeq(2)/m/sl/10 مقامات استعمال کیے جبکہ سولہ[
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 442--443
+Underfull \hbox (badness 4429) in paragraph at lines 625--626
 []$\OT1/zplm/m/n/10 (\OT1/ppl/m/n/10 64 \OMS/zplm/m/n/10 ^^@ \OT1/ppl/m/n/10 48
  \OT1/zplm/m/n/10 = \OT1/ppl/m/n/10 16\OT1/zplm/m/n/10 )$ \TU/JameelNooriNastal
 eeq(2)/m/sl/10 مقامات (\TU/AASameerSagarNastaleeqBold(0)/m/n/10 خالی مقامات\TU/
@@ -4616,8 +4625,8 @@ JameelNooriNastaleeq(2)/m/sl/10 ) کا استعمال نہیں کیا گیا۔ا
 و سلسلہ[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
+[201]
+Underfull \hbox (badness 10000) in paragraph at lines 630--632
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بیک وقت بیدار ہوتے ہیں اور پتہ کے دو بِٹ 
 $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it
 /10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 دونوں حافظوں کے چار مقام تک رسائی 
@@ -4625,27 +4634,26 @@ $\OML/zplm/m/it/10 A[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 447--449
+Underfull \hbox (badness 2027) in paragraph at lines 630--632
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک بائٹ تصور کیا جا سکتا ہے۔اس طرح آپس م
 یں متوازی جڑے دو حافظوں کو $\OT1/ppl/m/n/10 4 \OMS/zplm/m/n/10 ^^B \OT1/ppl/m/n
 /10 8$ \TU/JameelNooriNastaleeq(2)/m/sl/10 استعداد کا ایک[]
  []
 
-[199]
-LaTeX Info: Redefining \rmfamily on input line 451.
-LaTeX Info: Redefining \sffamily on input line 451.
-LaTeX Info: Redefining \ttfamily on input line 451.
-LaTeX Info: Redefining \rmfamily on input line 451.
-LaTeX Info: Redefining \sffamily on input line 451.
-LaTeX Info: Redefining \ttfamily on input line 451.
-LaTeX Info: Redefining \rmfamily on input line 451.
-LaTeX Info: Redefining \sffamily on input line 451.
-LaTeX Info: Redefining \ttfamily on input line 451.
-LaTeX Info: Redefining \rmfamily on input line 451.
-LaTeX Info: Redefining \sffamily on input line 451.
-LaTeX Info: Redefining \ttfamily on input line 451.
+LaTeX Info: Redefining \rmfamily on input line 634.
+LaTeX Info: Redefining \sffamily on input line 634.
+LaTeX Info: Redefining \ttfamily on input line 634.
+LaTeX Info: Redefining \rmfamily on input line 634.
+LaTeX Info: Redefining \sffamily on input line 634.
+LaTeX Info: Redefining \ttfamily on input line 634.
+LaTeX Info: Redefining \rmfamily on input line 634.
+LaTeX Info: Redefining \sffamily on input line 634.
+LaTeX Info: Redefining \ttfamily on input line 634.
+LaTeX Info: Redefining \rmfamily on input line 634.
+LaTeX Info: Redefining \sffamily on input line 634.
+LaTeX Info: Redefining \ttfamily on input line 634.
 
-Underfull \hbox (badness 1231) in paragraph at lines 451--452
+Underfull \hbox (badness 1231) in paragraph at lines 634--635
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ عموماً \TU/AASameerSagarNastaleeqBo
 ld(0)/m/n/10 خرد عامل کار[][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 ( \TU/AAS
 ameerSagarNastaleeqBold(0)/m/n/10 مائکروپراسیسر []\TU/JameelNooriNastaleeq(2)/m
@@ -4654,149 +4662,150 @@ ameerSagarNastaleeqBold(0)/m/n/10 مائکروپراسیسر []\TU/JameelNooriNa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 [][][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 پر چلتا ہے۔ان احکامات کو تبدیل ک
 ر کے مائکروپراسیسر سے مختلف کام لیے جا سکتے ہیں۔ یہ احکامات (پہلے سے)[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پختہ حافظے میں لکھے جاتے ہے جہاں سے مائکر
 وپراسیسر انہیں پڑھ کر ان کی تعمیل کرتا ہے۔مائکروپراسیسر کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ساتھ عموماً عارضی حافظہ منسلک کیا جاتا ہے
  جہاں یہ عارضی مواد لکھ کر ذخیرہ کر سکتا ہے اور جہاں سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ مواد پڑھ سکتا ہے۔ مختلف صنعت کاروں کے 
 تخلیق کردہ خرد عامل کار کے اپنے اپنے مخصوص احکامات ہوں گے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جنہیں یہ سمجھ سکتا ہے اور جن پر یہ عمل کر
  سکتا ہے۔کسی بھی مائکروپراسیسر کے تمام احکامات کو اس مائکروپراسیسر[]
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 454--455
+Underfull \hbox (badness 2073) in paragraph at lines 637--638
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 خرد عامل کار بیرونی جڑے مخلوط ادوار کے 
 ساتھ گفتگو بذریعہ پتہ ، مواد اور قابو اشارات کرتا ہے۔شکل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 9.‏17 -ا میں خرد عامل کار بیرونی جڑے عارض
 ی حافظہ سے گفتگو کر رہا ہے۔اس گفتگو کا مقصد[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ میں مواد لکھنا ہے۔گفتگو کا آغاز اس 
 وقت ہوتا ہے جب خرد عامل کار درکار عارضی حافظے کا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پتہ خارج کرتا ہے۔اس پتے کی چند ہندسے عارض
 ی حافظہ کی اور باقی حافظہ میں لکھنے کے مقام کی نشاندہی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتے ہیں۔شناخت کار چند ہی لمحوں میں پتے (
 کی چند ثنائی ہندسوں) سے درکار عارضی حافظے کے مخلوط دور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کی شناخت کر کے اسے بیدار کرتا ہے۔اس عمل ک
 و حافظے کا قابو مداخل ”پست ” کرنا ظاہر کرتا ہے۔خرد[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عامل کار خارجی قابو اشارہ $[]\OT1/zplm/m/
 n/10 /[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پست کر کے حافظہ کو خبر دار کرتا ہ
 ے کہ خرد عامل کار حافظہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 میں مواد لکھنا چاہتا ہے اور ساتھ ہی اس مو
 اد کو خارج کرتا ہے۔ اس مواد کو  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 درست م
 واد  \TU/JameelNooriNastaleeq(2)/m/sl/10 لکھ کر ظاہر کیا گیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔حافظہ اس مواد کو $[]\OT1/zplm/m/n/10 /
 []$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اشارے کے کنارہ چڑھائی پر مطلوبہ مقام پر
  (جس کی نشاندہی باقی پتہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ کرتے ہیں) محفوظ کرتا ہے۔خرد عامل کار 
 کسی بھی ایسے عمل کے دوران پتہ برقرار رکھتا ہے۔ پتے کی تبدیلی کو دو[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 456.
-LaTeX Info: Redefining \sffamily on input line 456.
-LaTeX Info: Redefining \ttfamily on input line 456.
+[202]
+LaTeX Info: Redefining \rmfamily on input line 639.
+LaTeX Info: Redefining \sffamily on input line 639.
+LaTeX Info: Redefining \ttfamily on input line 639.
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 9.‏17-ب میں خرد عامل کار حافظہ سے م
 واد پڑھنا چاہتا ہے۔اس گفتگو میں خرد[]
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 456--457
+Underfull \hbox (badness 1924) in paragraph at lines 639--640
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عامل کار $[]\OT1/zplm/m/n/10 /[]$ \TU/Jam
 eelNooriNastaleeq(2)/m/sl/10 بلند رکھ کر پتہ خارج کرتا ہے۔ اس پتے کی چند ہندسے 
 عارضی حافظہ کی اور باقی حافظہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 سے مواد پڑھنے کے مقام کی نشاندہی کرتے ہیں
 ۔شناخت کار چند ہی لمحوں میں (پتے کے چند ہندسوں سے) حافظے کی[]
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 456--457
+Underfull \hbox (badness 7151) in paragraph at lines 639--640
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہی اس کوشش میں لگ جاتا ہے کہ درکار مقام س
 ے مواد حاصل کر کے خرد عامل کار کے حوالے کرے۔ایسا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 639--640
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مواد حاصل کر کے خارج کرتا ہے۔اس مواد کو ”
 درست مواد ” کہا گیا ہے۔خرد عامل کار اس مواد کو پڑھ کر اگلا[]
  []
 
-[200]
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 اس کتاب کے حصہ ٥.‏٤[] میں شناخت کار کے سا
 تھ ایک جمع گیٹ استعمال کر کے تفاعل کا حصول دکھایا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
+Underfull \hbox (badness 10000) in paragraph at lines 646--647
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہر تفاعل کو مجموعہ ارکان ضرب کے روپ میں ل
 کھ کر اسے شناخت کار کے مطلوبہ مخارج اور ایک جمع[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 465.
-LaTeX Info: Redefining \sffamily on input line 465.
-LaTeX Info: Redefining \ttfamily on input line 465.
+LaTeX Info: Redefining \rmfamily on input line 648.
+LaTeX Info: Redefining \sffamily on input line 648.
+LaTeX Info: Redefining \ttfamily on input line 648.
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
 [][]$\OML/zplm/m/it/10 m$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ لفظ پختہ حافظ
 ہ میں شناخت کار اور $\OML/zplm/m/it/10 m$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ج
 مع گیٹ موجود ہوتے ہیں لہٰذا اس کو $\OML/zplm/m/it/10 m$ \TU/JameelNooriNastalee
@@ -4804,7 +4813,7 @@ q(2)/m/sl/10 تفاعل کے حصول[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے لئے  \TU/AASameerSagarNastaleeqBold(0)
 /m/n/10 تشکیل [][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 دیا جا سکتا ہے۔ یوں 
 شکل 9.‏12  کو درج ذیل آٹھ تفاعل (اگرچہ $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriN
@@ -4812,15 +4821,15 @@ astaleeq(2)/m/sl/10 تفاعل $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(
 /sl/10 دہراتا ہے)[]
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 479--193
+[203])
+Underfull \hbox (badness 10000) in paragraph at lines 662--193
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ان تفاعل کو ایک مختلف نقطہ نظر سے دیکھت
 ے ہیں۔کمتر دو بِٹ $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ا
 ور $\OML/zplm/m/it/10 D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو ایک ساتھ $\OM
 L/zplm/m/it/10 D[]D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 دیکھیں تو[]
  []
 
-[201] (./answer.tex) [233
+[204] (./answer.tex) [235
 
 
 
@@ -4829,7 +4838,7 @@ L/zplm/m/it/10 D[]D[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 دیکھیں تو[]
 
 
 
-] [234
+] [236
 
 
 ]
@@ -5633,12 +5642,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 61989 strings out of 476191
- 1667672 string characters out of 9562072
- 2484924 words of memory out of 7000000
- 81573 multiletter control sequences out of 15000+600000
+ 62506 strings out of 476191
+ 1676986 string characters out of 9562072
+ 2512991 words of memory out of 7000000
+ 82090 multiletter control sequences out of 15000+600000
  500256 words of font info for 178 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,16n,118p,2641b,1112s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (23 pages).
+Output written on digitalCircuitsLatex.pdf (26 pages).

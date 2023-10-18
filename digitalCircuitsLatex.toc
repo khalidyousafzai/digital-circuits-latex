@@ -582,13 +582,13 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}} پختہ حافظہ}{\arabicdigits {196}}{}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {197}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\(4\times 4\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\(8\times 4\)\: حافظہ کا حصول}{\arabicdigits {197}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\(16\times 8\)\: حافظے سلسلہ وار جوڑ کر ایک \:\(48\times 8\)\: حافظے کا حصول}{\arabicdigits {198}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {199}}{}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {200}}{}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {201}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}} پختہ حافظہ}{\arabicdigits {198}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {199}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\(4\times 4\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\(8\times 4\)\: حافظہ کا حصول}{\arabicdigits {199}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\(16\times 8\)\: حافظے سلسلہ وار جوڑ کر ایک \:\(48\times 8\)\: حافظے کا حصول}{\arabicdigits {200}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {202}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {202}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {203}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {197}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {1}}قابل تشکیل ضرب ترکیبی منطقی ادوار}{\arabicdigits {198}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {2}}قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}{\arabicdigits {198}}{}%
@@ -613,4 +613,4 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {233}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {235}}{}%
