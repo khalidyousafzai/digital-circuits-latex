@@ -831,3 +831,343 @@
 \draw(0.5*\kxdim,\kul+4*\kpsep)node[]{$4, KB$}node[below,yshift=-0.5ex]{\RL{عارضی حافظہ}};
 \end{tikzpicture}
 \end{figure}
+%==================
+% fig 9.8
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kystep}{0.5}
+\pgfmathsetmacro{\kxstep}{2}
+\draw[](0,0)--++(0,4*\kystep) (0,6*\kystep)--++(0,4*\kystep)  (\kxstep,0)--++(0,4*\kystep)  (\kxstep,6*\kystep)--++(0,4*\kystep);
+\draw[dashed](0,4*\kystep)--++(0,2*\kystep)  (\kxstep,4*\kystep)--++(0,2*\kystep);
+\foreach \x in {0,1,2,3,4,6,7,8,9,10}{\draw(0,\x*\kystep)--++(\kxstep,0);}
+\foreach \x/\a in {0/{1011\,1101},1/{0000\,1010},2/{1110\,1001},3/{1011\,0001}}{\draw(0.5*\kxstep,0.5*\kystep+\x*\kystep)node[]{$\a$};}
+\foreach \x/\a in {6/{1000\,1101},7/{0011\,1010},8/{0010\,1001},9/{1000\,0001}}{\draw(0.5*\kxstep,0.5*\kystep+\x*\kystep)node[]{$\a$};}
+\draw(0.5*\kxstep,5*\kystep)node[]{$\vdots$};
+\draw(0,5*\kystep)node[left,xshift=-1ex]{$\vdots$};
+\foreach \x/\a in {0/0,1/1,2/2,3/3,6/1020,7/1021,8/1022,9/1023}{\draw(0,0.5*\kystep+\x*\kystep)node[left,xshift=-1ex]{$\a$};}
+\end{tikzpicture}
+\end{subfigure}\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kystep}{0.5}
+\pgfmathsetmacro{\kxstep}{1.25}
+\draw[](0,0)--++(0,4*\kystep)  (\kxstep,0)--++(0,4*\kystep);
+\foreach \x in {0,1,2,3,4}{\draw(0,\x*\kystep)--++(\kxstep,0);}
+\foreach \x/\a in {0/{0110},1/{0000},2/{1101},3/{1001}}{\draw(0.5*\kxstep,0.5*\kystep+\x*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/00,1/01,2/10,3/11}{\draw(0,0.5*\kystep+\x*\kystep)node[left,xshift=-1ex]{$\a$};}
+\draw(0,4*\kystep)node[above left,xshift=-1ex]{پتہ};
+\draw(0.5*\kxstep,4*\kystep)node[above]{مواد};
+\end{tikzpicture}
+\end{subfigure}
+\end{figure}
+%========================
+%fig 9.9
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+\pgfmathsetmacro{\ksepX}{1.00}
+\pgfmathsetmacro{\ksepY}{1.25}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+3*\kpsep}
+\draw(-0*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u0){} (u0.out)node[below]{$D0$};
+\draw(-1*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u1){}(u1.out)node[below]{$D1$};
+\draw(-2*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u2){}(u2.out)node[below]{$D2$};
+\draw(-3*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u3){}(u3.out)node[below]{$D3$};
+\draw(-4*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u4){}(u4.out)node[below]{$D4$};
+\draw(-5*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u5){}(u5.out)node[below]{$D5$};
+\draw(-6*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u6){}(u6.out)node[below]{$D6$};
+\draw(-7*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u7){}(u7.out)node[below]{$D7$};
+\draw[thick](-8*\ksepX,\ksepY) rectangle ++(-\kxdim,\kydim);
+\draw(-8*\ksepX,\ksepY+\kul)node[left]{$y0$}coordinate(y0)--(y0 -| u0.in 1)--++(\kpinA,0)coordinate(kr)
+node[right]{\RL{لفظ 0}};
+\draw(-8*\ksepX,\ksepY+\kul+\kpsep)node[left]{$y1$}coordinate(y1)--(y1 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+2*\kpsep)node[left]{$y2$}coordinate(y2)--(y2 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+3*\kpsep)node[left]{$y3$}coordinate(y3)--(y3 -| kr)node[right]{\RL{لفظ 3}};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+2*\kpsep)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+3*\kpsep)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
+\draw(-8*\ksepX,\ksepY)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
+\draw(u0.in 1)--(u0.in 1 |- y0)   (u0.in 2)--(u0.in 2 |- y1)  (u0.in 3)--(u0.in 3 |- y2)  (u0.in 4)--(u0.in 4 |- y3);
+\draw(u1.in 1)--(u1.in 1 |- y0)   (u1.in 2)--(u1.in 2 |- y1)  (u1.in 3)--(u1.in 3 |- y2)  (u1.in 4)--(u1.in 4 |- y3);
+\draw(u2.in 1)--(u2.in 1 |- y0)   (u2.in 2)--(u2.in 2 |- y1)  (u2.in 3)--(u2.in 3 |- y2)  (u2.in 4)--(u2.in 4 |- y3);
+\draw(u3.in 1)--(u3.in 1 |- y0)   (u3.in 2)--(u3.in 2 |- y1)  (u3.in 3)--(u3.in 3 |- y2)  (u3.in 4)--(u3.in 4 |- y3);
+\draw(u4.in 1)--(u4.in 1 |- y0)   (u4.in 2)--(u4.in 2 |- y1)  (u4.in 3)--(u4.in 3 |- y2)  (u4.in 4)--(u4.in 4 |- y3);
+\draw(u5.in 1)--(u5.in 1 |- y0)   (u5.in 2)--(u5.in 2 |- y1)  (u5.in 3)--(u5.in 3 |- y2)  (u5.in 4)--(u5.in 4 |- y3);
+\draw(u6.in 1)--(u6.in 1 |- y0)   (u6.in 2)--(u6.in 2 |- y1)  (u6.in 3)--(u6.in 3 |- y2)  (u6.in 4)--(u6.in 4 |- y3);
+\draw(u7.in 1)--(u7.in 1 |- y0)   (u7.in 2)--(u7.in 2 |- y1)  (u7.in 3)--(u7.in 3 |- y2)  (u7.in 4)--(u7.in 4 |- y3);
+\end{tikzpicture}
+\end{figure}
+%======================
+%fig 9.10
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{0.5}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+3*\kpsep}
+\kBusORdown[uu0]{-0*\ksepX}{0}
+\kBusORdown[uu1]{-1*\ksepX}{0}
+\kBusORdown[uu2]{-2*\ksepX}{0}
+\kBusORdown[uu3]{-3*\ksepX}{0}
+\kBusORdown[uu4]{-4*\ksepX}{0}
+\kBusORdown[uu5]{-5*\ksepX}{0}
+\kBusORdown[uu6]{-6*\ksepX}{0}
+\kBusORdown[uu7]{-7*\ksepX}{0}
+\draw(uu0out)--++(0,-\kpinA)node[below]{$D0$};
+\draw(uu1out)--++(0,-\kpinA)node[below]{$D1$};
+\draw(uu2out)--++(0,-\kpinA)node[below]{$D2$};
+\draw(uu3out)--++(0,-\kpinA)node[below]{$D3$};
+\draw(uu4out)--++(0,-\kpinA)node[below]{$D4$};
+\draw(uu5out)--++(0,-\kpinA)node[below]{$D5$};
+\draw(uu6out)--++(0,-\kpinA)node[below]{$D6$};
+\draw(uu7out)--++(0,-\kpinA)node[below]{$D7$};
+\draw[thick](-7*\ksepX-\kpin,\ksepY)coordinate(aa) rectangle ++(-\kxdim,\kydim)coordinate(tt);
+\draw[thin](aa)++(0,\kul+0*\kpin)node[left]{$y0$}coordinate(bb)--(bb -| uu0in)--++(\kpinA,0)coordinate(krt)node[right]{};
+\draw(aa)++(0,\kul+1*\kpin)node[left]{$y1$}coordinate(cc)--(cc -| krt);
+\draw(aa)++(0,\kul+2*\kpin)node[left]{$y2$}coordinate(dd)--(dd -| krt);
+\draw(aa)++(0,\kul+3*\kpin)node[left]{$y3$}coordinate(ee)--(ee -| krt);
+\draw(aa)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
+\draw(uu0in)--(uu0in |- tt);
+\draw(uu1in)--(uu1in |- tt);
+\draw(uu2in)--(uu2in |- tt);
+\draw(uu3in)--(uu3in |- tt);
+\draw(uu4in)--(uu4in |- tt);
+\draw(uu5in)--(uu5in |- tt);
+\draw(uu6in)--(uu6in |- tt);
+\draw(uu7in)--(uu7in |- tt);
+\draw(uu0in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu1in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu2in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu3in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu4in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu5in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu6in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu7in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw[thin](aa)++(-\kxdim,\kul+0*\kpin)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
+\draw[thin](aa)++(-\kxdim,\kul+2*\kpin)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
+\draw[thin](aa)++(-\kxdim,\kul+3*\kpin)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\end{tikzpicture}
+\end{figure}
+%=================
+
+%fig 9.11
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+\pgfmathsetmacro{\ksepX}{1.00}
+\pgfmathsetmacro{\ksepY}{1.25}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+3*\kpsep}
+\draw(-0*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u0){} (u0.out)node[below]{$D0$};
+\draw(-1*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u1){}(u1.out)node[below]{$D1$};
+\draw(-2*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u2){}(u2.out)node[below]{$D2$};
+\draw(-3*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u3){}(u3.out)node[below]{$D3$};
+\draw(-4*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u4){}(u4.out)node[below]{$D4$};
+\draw(-5*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u5){}(u5.out)node[below]{$D5$};
+\draw(-6*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u6){}(u6.out)node[below]{$D6$};
+\draw(-7*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u7){}(u7.out)node[below]{$D7$};
+\draw[thick](-8*\ksepX,\ksepY) rectangle ++(-\kxdim,\kydim);
+\draw(-8*\ksepX,\ksepY+\kul)node[left]{$y0$}coordinate(y0)--(y0 -| u0.in 1)--++(\kpinA,0)coordinate(kr)
+node[right]{\RL{لفظ 0}};
+\draw(-8*\ksepX,\ksepY+\kul+\kpsep)node[left]{$y1$}coordinate(y1)--(y1 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+2*\kpsep)node[left]{$y2$}coordinate(y2)--(y2 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+3*\kpsep)node[left]{$y3$}coordinate(y3)--(y3 -| kr)node[right]{\RL{لفظ 3}};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+2*\kpsep)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+3*\kpsep)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
+\draw(-8*\ksepX,\ksepY)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
+\draw(u0.in 1)--++(0,0.5*\kpin)   (u0.in 2)--(u0.in 2 |- y1)  (u0.in 3)--(u0.in 3 |- y2)  (u0.in 4)--(u0.in 4 |- y3);
+\draw(u1.in 1)--++(0,0.5*\kpin)    (u1.in 2)--(u1.in 2 |- y1)  (u1.in 3)--(u1.in 3 |- y2)  (u1.in 4)--(u1.in 4 |- y3);
+\draw(u2.in 1)--++(0,0.5*\kpin)    (u2.in 2)--(u2.in 2 |- y1)  (u2.in 3)--(u2.in 3 |- y2)  (u2.in 4)--(u2.in 4 |- y3);
+\draw(u3.in 1)--++(0,0.5*\kpin)    (u3.in 2)--(u3.in 2 |- y1)  (u3.in 3)--(u3.in 3 |- y2)  (u3.in 4)--(u3.in 4 |- y3);
+\draw(u4.in 1)--(u4.in 1 |- y0)   (u4.in 2)--(u4.in 2 |- y1)  (u4.in 3)--(u4.in 3 |- y2)  (u4.in 4)--(u4.in 4 |- y3);
+\draw(u5.in 1)--(u5.in 1 |- y0)   (u5.in 2)--(u5.in 2 |- y1)  (u5.in 3)--(u5.in 3 |- y2)  (u5.in 4)--(u5.in 4 |- y3);
+\draw(u6.in 1)--(u6.in 1 |- y0)   (u6.in 2)--(u6.in 2 |- y1)  (u6.in 3)--(u6.in 3 |- y2)  (u6.in 4)--(u6.in 4 |- y3);
+\draw(u7.in 1)--(u7.in 1 |- y0)   (u7.in 2)--(u7.in 2 |- y1)  (u7.in 3)--(u7.in 3 |- y2)  (u7.in 4)--(u7.in 4 |- y3);
+\end{tikzpicture}
+\end{figure}
+%======================
+%fig 9.12
+\begin{figure}
+\centering
+\begin{tikzpicture}[
+ kmemUnit/.style={draw, minimum height=0.75cm, minimum width=0.75cm,thick,
+ label={[anchor=west]center:اکائی},
+ }]
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{0.5}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+3*\kpsep}
+\kBusORdown[uu0]{-0*\ksepX}{0}
+\kBusORdown[uu1]{-1*\ksepX}{0}
+\kBusORdown[uu2]{-2*\ksepX}{0}
+\kBusORdown[uu3]{-3*\ksepX}{0}
+\kBusORdown[uu4]{-4*\ksepX}{0}
+\kBusORdown[uu5]{-5*\ksepX}{0}
+\kBusORdown[uu6]{-6*\ksepX}{0}
+\kBusORdown[uu7]{-7*\ksepX}{0}
+\draw(uu0out)--++(0,-\kpinA)node[below]{$D0$};
+\draw(uu1out)--++(0,-\kpinA)node[below]{$D1$};
+\draw(uu2out)--++(0,-\kpinA)node[below]{$D2$};
+\draw(uu3out)--++(0,-\kpinA)node[below]{$D3$};
+\draw(uu4out)--++(0,-\kpinA)node[below]{$D4$};
+\draw(uu5out)--++(0,-\kpinA)node[below]{$D5$};
+\draw(uu6out)--++(0,-\kpinA)node[below]{$D6$};
+\draw(uu7out)--++(0,-\kpinA)node[below]{$D7$};
+\draw[thick](-7*\ksepX-\kpin,\ksepY)coordinate(aa) rectangle ++(-\kxdim,\kydim)coordinate(tt);
+\draw[thin](aa)++(0,\kul+0*\kpin)node[left]{$y0$}coordinate(bb)--(bb -| uu0in)--++(\kpinA,0)coordinate(krt)node[right]{};
+\draw(aa)++(0,\kul+1*\kpin)node[left]{$y1$}coordinate(cc)--(cc -| krt);
+\draw(aa)++(0,\kul+2*\kpin)node[left]{$y2$}coordinate(dd)--(dd -| krt);
+\draw(aa)++(0,\kul+3*\kpin)node[left]{$y3$}coordinate(ee)--(ee -| krt);
+\draw(aa)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
+\draw(uu0in)--(uu0in |- tt);
+\draw(uu1in)--(uu1in |- tt);
+\draw(uu2in)--(uu2in |- tt);
+\draw(uu3in)--(uu3in |- tt);
+\draw(uu4in)--(uu4in |- tt);
+\draw(uu5in)--(uu5in |- tt);
+\draw(uu6in)--(uu6in |- tt);
+\draw(uu7in)--(uu7in |- tt);
+\draw(uu0in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu1in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu2in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu3in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu4in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu5in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu6in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw(uu7in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
+\draw[thin](aa)++(-\kxdim,\kul+0*\kpin)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
+\draw[thin](aa)++(-\kxdim,\kul+2*\kpin)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
+\draw[thin](aa)++(-\kxdim,\kul+3*\kpin)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\path(uu0in)--(uu0in |- cc)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu0in)--(uu0in |- dd)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu1in)--(uu1in |- bb)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu2in)--(uu2in |- cc)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu2in)--(uu2in |- ee)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu3in)--(uu3in |- dd)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu3in)--(uu3in |- ee)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu4in)--(uu4in |- bb)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu5in)--(uu5in |- bb)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu5in)--(uu5in |- cc)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu5in)--(uu5in |- dd)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu6in)--(uu6in |- cc)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu6in)--(uu6in |- dd)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu7in)--(uu7in |- bb)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\path(uu7in)--(uu7in |- ee)coordinate(aaaa);
+\draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+\end{tikzpicture}
+\end{figure}
+%=================
+%fig 9.13
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{4}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+2*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\draw[thick](0,0) rectangle++(\kxdim,\kydim);
+\draw[thick](0,\ksepY) rectangle++(\kxdim,\kydim);
+\draw(0.5*\kxdim,\kydim)node[above]{\text{\RL{\عددی{4\times 4}  حافظہ 0}}};
+\draw(0.5*\kxdim,\ksepY+\kydim)node[above]{\text{\RL{\عددی{4\times 4}  حافظہ 1}}};
+\draw(0,\ksepY)++(\kxdim,\kul+1*\kpsep)coordinate(aa)node[left]{$I\!/\!O 0$}--++(5*\kpin,0)node[right]{$D0$};
+\draw(0,\ksepY)++(\kxdim,\kul+2*\kpsep)coordinate(bb)node[left]{$I\!/\!O 1$}--++(5*\kpin,0)node[right]{$D1$};
+\draw(0,\ksepY)++(\kxdim,\kul+3*\kpsep)coordinate(cc)node[left]{$I\!/\!O 2$}--++(5*\kpin,0)node[right]{$D2$};
+\draw(0,\ksepY)++(\kxdim,\kul+4*\kpsep)coordinate(dd)node[left]{$I\!/\!O 3$}--++(5*\kpin,0)node[right]{$D3$};
+\draw(\kxdim,\kul+4*\kpsep)node[left]{$I\!/\!O 3$}--++(\kpin,0)coordinate(ee)--(ee |- dd);
+\draw(\kxdim,\kul+3*\kpsep)node[left]{$I\!/\!O 2$}--++(2*\kpin,0)coordinate(ff)--(ff |- cc);
+\draw(\kxdim,\kul+2*\kpsep)node[left]{$I\!/\!O 1$}--++(3*\kpin,0)coordinate(gg)--(gg |- bb);
+\draw(\kxdim,\kul+1*\kpsep)node[left]{$I\!/\!O 0$}--++(4*\kpin,0)coordinate(hh)--(hh |- aa);
+\draw(0,\ksepY+\kul)node[right]{$\overline{\text{\RL{بیدار1}}}$}--++(-4*\kpin,0)node[not port,scale=1,anchor=out](u0){};
+\draw(0,\ksepY+\kul)++(-0.05,0)node[ocirc]{};
+\draw(u0.in)--++(-\kpin,0)coordinate(klft)node[left]{$A2$};
+\draw(0,\kul)node[right]{$\overline{\text{\RL{بیدار0}}}$}-|(u0.in);
+\draw(0,\kul)++(-0.05,0)node[ocirc]{};
+\draw(0,\kul+\kpin)coordinate(rd)--(rd -| klft)node[left]{$\overline{\text{لکھ}}/\text{پرھ}$};
+\draw(0,\kul+\kpin)node[right]{$\overline{\text{لکھ}}$}++(-0.05,0)node[ocirc]{};
+\draw(0,\kul+3*\kpin)node[right]{$a0$}coordinate(ka0)--(ka0 -| klft)node[left]{$A0$};
+\draw(0,\kul+4*\kpin)node[right]{$a1$}coordinate(ka1)--(ka1 -| klft)node[left]{$A1$};
+\draw(0,\ksepY+\kul+1*\kpin)node[right]{$\overline{\text{لکھ}}$}--++(-\kpin,0)coordinate(kka)--(kka |- rd);
+\draw(0,\ksepY+\kul+1*\kpin)++(-0.05,0)node[ocirc]{};
+\draw(0,\ksepY+\kul+3*\kpin)node[right]{$a0$}--++(-2*\kpin,0)coordinate(kka0)--(kka0|- ka0);
+\draw(0,\ksepY+\kul+4*\kpin)node[right]{$a1$}--++(-3*\kpin,0)coordinate(kka1)--(kka1|- ka1);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{4}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+2*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\draw[thick](0,0) rectangle++(\kxdim,\kydim);
+\draw(0.5*\kxdim,\kydim)node[above]{\text{\RL{\عددی{8\times 4}  حافظہ}}};
+\foreach \x/\a/\b in {0/a0/A0,1/a1/A1,2/a2/A2}{\draw(0,\kul+2*\kpsep+\x*\kpsep)node[right]{$\a$}--++(-\kpin,0)node[left]{$\b$};}
+\foreach \x/\a/\b in {0/{I/O0}/D0,1/{I/O1}/D1,2/{I/O2}/D2,3/{I/O3}/D3}{\draw(\kxdim,\kul+\kpin+\x*\kpsep)node[left]{$\a$}--++(\kpin,0)node[right]{$\b$};}
+\draw(0,\kul)node[right]{$\overline{\text{لکھ}}$}--++(-\kpin,0)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(0,\kul)++(-0.05,0)node[ocirc]{};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}

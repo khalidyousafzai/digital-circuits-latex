@@ -237,7 +237,7 @@ coordinate(bb)--++(-\kdimY/2,-\kdimX)coordinate(cc)coordinate(\kref\pb\pout)--++
 \draw(\kref\pb\pout)++(0,-0.07)coordinate(\kref\pn\pout);
 }
 %%%%%%%%%%%%%%%%%%
-\newcommand{\kBusORdown}[3][u0]{
+\newcommand{\kBusORdown}[3][u0]{{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -247,8 +247,8 @@ coordinate(bb)--++(-\kdimY/2,-\kdimX)coordinate(cc)coordinate(\kref\pb\pout)--++
 \def\pb{pb}			%pin base
 \def\pl{pl}			%pin label
 \def\pn{pn}			%pin 'ocirc'
-\pgfmathsetmacro{\kxdim}{1}
-\pgfmathsetmacro{\kydim}{1}
-\draw[thick] (\kshiftX,\kshiftY) to [out=-45,in=-180+45]coordinate[pos=0.5](\kref\kin) ++(\kydim,0) to [out=-90,in=130-90] ++(-0.5*\kydim,-\kxdim)coordinate(\kref\kout) to [out=-130-90,in=-90]++(-0.5*\kydim,\kxdim);}
+\def\kxdim{1}
+\def\kydim{1}
+\draw[thick] (\kshiftX,\kshiftY) to [out=-45,in=-180+45]coordinate[pos=0.5](\kref\kin) ++(\kydim,0) to [out=-90,in=130-90] ++(-0.5*\kydim,-\kxdim)coordinate(\kref\kout) to [out=-130-90,in=-90]++(-0.5*\kydim,\kxdim);}}
 %======================
 
