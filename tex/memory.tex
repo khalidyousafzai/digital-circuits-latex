@@ -117,14 +117,14 @@
 \draw(u1.-90)--(u1.-90 |- bb);
 \draw(u2.-90)--(u2.-90 |- bb);
 \draw(u3.-90)--(u3.-90 |- bb);
-\draw(u0.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z0$};
-\draw(u1.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z1$};
-\draw(u2.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z2$};
-\draw(u3.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z3$};
-\draw(u0.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D0$};
-\draw(u1.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D1$};
-\draw(u2.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D2$};
-\draw(u3.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D3$};
+\draw(u0.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z_0$};
+\draw(u1.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z_1$};
+\draw(u2.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z_2$};
+\draw(u3.180)--++(-\kpin,0)--++(0,3.5*\kpin)node[above]{$Z_3$};
+\draw(u0.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D_0$};
+\draw(u1.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D_1$};
+\draw(u2.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D_2$};
+\draw(u3.0)--++(\kpin,0)--++(0,-3.5*\kpin)node[below]{$D_3$};
  \end{tikzpicture}
 \caption{ایک لفظ حافظہ}
 \label{شکل_حافظہ_ایک_لفظ}
@@ -193,26 +193,26 @@
 \draw(u32.-90)--(u32.-90 |- bb);
 \draw(u33.-90)--(u33.-90 |- bb);
 \draw(kwr)--(kwr |- bb);
-\draw(u30.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z0$};
+\draw(u30.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_0$};
 \draw(u0.180)--(u0.180 -| kbotA)  (u10.180)--(u10.180 -| kbotA)  (u20.180)--(u20.180 -| kbotA);
-\draw(u31.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z1$};
+\draw(u31.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_1$};
 \draw(u1.180)--(u1.180 -| kbotA)  (u11.180)--(u11.180 -| kbotA)  (u21.180)--(u21.180 -| kbotA);
-\draw(u32.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z2$};
+\draw(u32.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_2$};
 \draw(u2.180)--(u2.180 -| kbotA) (u12.180)--(u12.180 -| kbotA) (u22.180)--(u22.180 -| kbotA);
-\draw(u33.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z3$};
+\draw(u33.180)--++(-\kpin,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_3$};
 \draw(u3.180)--(u3.180 -| kbotA)   (u13.180)--(u13.180 -| kbotA)  (u23.180)--(u23.180 -| kbotA);
 \draw(u30.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u100){};
 \draw(u100.in 3)|-(u20.0) (u100.in 2)|-(u10.0) (u100.in 1)|-(u0.0);
-\draw(u100.out)node[below]{$D0$};
+\draw(u100.out)node[below]{$D_0$};
 \draw(u31.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u200){};
 \draw(u200.in 3)|-(u21.0) (u200.in 2)|-(u11.0) (u200.in 1)|-(u1.0);
-\draw(u200.out)node[below]{$D1$};
+\draw(u200.out)node[below]{$D_1$};
 \draw(u32.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u300){};
 \draw(u300.in 3)|-(u22.0) (u300.in 2)|-(u12.0) (u300.in 1)|-(u2.0);
-\draw(u300.out)node[below]{$D2$};
+\draw(u300.out)node[below]{$D_2$};
 \draw(u33.0)--++(0.5*\kpin,0)--++(0,-3*\kpin)node[or port,scale=0.8,number inputs=4,rotate=-90,anchor=in 4](u400){};
 \draw(u400.in 3)|-(u23.0) (u400.in 2)|-(u13.0) (u400.in 1)|-(u3.0);
-\draw(u400.out)node[below]{$D3$};
+\draw(u400.out)node[below]{$D_3$};
  \end{tikzpicture}
 \caption{چار لفظ  عارضی حافظہ}
 \label{شکل_حافظہ_چار_لفظ}
@@ -284,45 +284,45 @@
 \draw(u32.-90)--(u32.-90 |- bb);
 \draw(u33.-90)--(u33.-90 |- bb);
 \draw(kwr)--(kwr |- bb);
-\draw(u30.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z0$};
+\draw(u30.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_0$};
 \draw(u0.180)--(u0.180 -| kbotA)  (u10.180)--(u10.180 -| kbotA)  (u20.180)--(u20.180 -| kbotA);
-\draw(u31.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z1$};
+\draw(u31.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_1$};
 \draw(u1.180)--(u1.180 -| kbotA)  (u11.180)--(u11.180 -| kbotA)  (u21.180)--(u21.180 -| kbotA);
-\draw(u32.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z2$};
+\draw(u32.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_2$};
 \draw(u2.180)--(u2.180 -| kbotA) (u12.180)--(u12.180 -| kbotA) (u22.180)--(u22.180 -| kbotA);
-\draw(u33.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z3$};
+\draw(u33.180)--++(-\kpinA,0)coordinate(kbotA)--(kbotA |- ktop)--++(0,\kpin)node[above]{$Z_3$};
 \draw(u3.180)--(u3.180 -| kbotA)   (u13.180)--(u13.180 -| kbotA)  (u23.180)--(u23.180 -| kbotA);
 \kBusORdown[u100]{\kpinA}{-6*\ksepY}
-\draw(u100out)--++(0,-\kpin)node[below]{$D0$};
+\draw(u100out)--++(0,-\kpin)node[below]{$D_0$};
 \draw(u100in)|-(u0.0)  (u100in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u10.0)--(u10.0 -| u100in)   (u20.0)--(u20.0 -| u100in)   (u30.0)--(u30.0 -| u100in);
 \kBusORdown[u200]{-\ksepX+\kpinA-0.75}{-6*\ksepY}
-\draw(u200out)--++(0,-\kpin)node[below]{$D1$};
+\draw(u200out)--++(0,-\kpin)node[below]{$D_1$};
 \draw(u200in)|-(u1.0)  (u200in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u11.0)--(u11.0 -| u200in)   (u21.0)--(u21.0 -| u200in)   (u31.0)--(u31.0 -| u200in);
 \kBusORdown[u300]{-2*\ksepX+\kpinA-2*0.75}{-6*\ksepY}
-\draw(u300out)--++(0,-\kpin)node[below]{$D2$};
+\draw(u300out)--++(0,-\kpin)node[below]{$D_2$};
 \draw(u300in)|-(u2.0)  (u300in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u12.0)--(u12.0 -| u300in)   (u22.0)--(u22.0 -| u300in)   (u32.0)--(u32.0 -| u300in);
 \kBusORdown[u400]{-3*\ksepX+\kpinA-3*0.75}{-6*\ksepY}
-\draw(u400out)--++(0,-\kpin)node[below]{$D3$};
+\draw(u400out)--++(0,-\kpin)node[below]{$D_3$};
 \draw(u400in)|-(u3.0)  (u400in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u13.0)--(u13.0 -| u400in)   (u23.0)--(u23.0 -| u400in)   (u33.0)--(u33.0 -| u400in);
 \draw[thick]($(wordB)!0.5!(wordC)+(-2*\kpin,-2*\kpin)$)coordinate(kA) rectangle ++(-4*\kpin,5*\kpin)coordinate(kB);
-\draw[thin](kA)++(0,1*\kpin)node[left]{$y0$}--++(0.5*\kpin,0)|-(wordD);
-\draw[thin](kA)++(0,2*\kpin)node[left]{$y1$}--++(1*\kpin,0)|-(wordC);
-\draw[thin](kA)++(0,3*\kpin)node[left]{$y2$}--++(1*\kpin,0)|-(wordB);
-\draw[thin](kA)++(0,4*\kpin)node[left]{$y3$}--++(0.5*\kpin,0)|-(wordA);
+\draw[thin](kA)++(0,1*\kpin)node[left]{$y_0$}--++(0.5*\kpin,0)|-(wordD);
+\draw[thin](kA)++(0,2*\kpin)node[left]{$y_1$}--++(1*\kpin,0)|-(wordC);
+\draw[thin](kA)++(0,3*\kpin)node[left]{$y_2$}--++(1*\kpin,0)|-(wordB);
+\draw[thin](kA)++(0,4*\kpin)node[left]{$y_3$}--++(0.5*\kpin,0)|-(wordA);
 \draw(kA)++(-4*\kpin,\kpin)node[right]{$e$}--++(-\kpin,0)node[left]{مجاز};
-\draw(kA)++(-4*\kpin,3*\kpin)node[right]{$a0$}--++(-\kpin,0)node[left]{$A0$};
-\draw(kA)++(-4*\kpin,4*\kpin)node[right]{$a1$}--++(-\kpin,0)node[left]{$A1$};
+\draw(kA)++(-4*\kpin,3*\kpin)node[right]{$a_0$}--++(-\kpin,0)node[left]{$A_0$};
+\draw(kA)++(-4*\kpin,4*\kpin)node[right]{$a_1$}--++(-\kpin,0)node[left]{$A_1$};
 \draw($(kA)!0.5!(kB)$)node[rotate=90]{\RL{شناخت کار}};
  \end{tikzpicture}
 \caption{چار لفظ عارضی حافظہ کا بہتر خاکہ}
 \label{شکل_حافظہ_بہتر}
 \end{figure}
 
-حقیقی حافظہ میں الفاظ تک رسائی \موٹا{ پتہ } کے ذریعے کی جاتی ہے۔چار لفظ حافظہ میں الفاظ تک رسائی ، دو بِٹ پتہ استعمال کرتے ہوئے دو سے چار شناخت کار کی مدد سے ممکن ہے۔شکل   \حوالہ{شکل_حافظہ_بہتر}  میں یہ عمل پیش کیا گیا ہے جہاں \عددی{A0}، اور \عددی{A1} پتہ بِٹ ہیں۔پتہ کو دیکھ کر شناخت کار   مطلوبہ مخارج بلند کر کے لفظ کا مقام  منتخب کرتا ہے۔
+حقیقی حافظہ میں الفاظ تک رسائی \موٹا{ پتہ } کے ذریعے کی جاتی ہے۔چار لفظ حافظہ میں الفاظ تک رسائی ، دو بِٹ پتہ استعمال کرتے ہوئے دو سے چار شناخت کار کی مدد سے ممکن ہے۔شکل   \حوالہ{شکل_حافظہ_بہتر}  میں یہ عمل پیش کیا گیا ہے جہاں \عددی{A_0}، اور \عددی{A_1} پتہ بِٹ ہیں۔پتہ کو دیکھ کر شناخت کار   مطلوبہ مخارج بلند کر کے لفظ کا مقام  منتخب کرتا ہے۔
 
 عارضی حافظہ کا استعمال جدول \حوالہ{جدول_حافظہ_عارضی_استعمال} میں دکھایا گیا ہے۔ \موٹا{مجاز } پست ہونے کی صورت میں حافظہ \اصطلاح{بلند رکاوٹی حال }\فرہنگ{حال!بلند رکاوٹی}\حاشیہب{high impedance state}\فرہنگ{state!high impedance} اختیار کر کے بیرونی ادوار سے مکمل منقطع ہو گا۔
 \begin{table}
@@ -416,29 +416,29 @@
 \draw(u33.-90)--(u33.-90 |- bb);
 \draw(kwr)--(kwr |- bb);
 \kBusORdown[u100]{\kpinA}{-5.75*\ksepY}
-%\draw(u100out)--++(0,-\kpin)node[below]{$D0$};
+%\draw(u100out)--++(0,-\kpin)node[below]{$D_0$};
 \draw(u100in)|-(u0.0)  (u100in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u10.0)--(u10.0 -| u100in)   (u20.0)--(u20.0 -| u100in)   (u30.0)--(u30.0 -| u100in);
 \kBusORdown[u200]{-\ksepX+\kpinA-0.75}{-5.75*\ksepY}
-%\draw(u200out)--++(0,-\kpin)node[below]{$D1$};
+%\draw(u200out)--++(0,-\kpin)node[below]{$D_1$};
 \draw(u200in)|-(u1.0)  (u200in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u11.0)--(u11.0 -| u200in)   (u21.0)--(u21.0 -| u200in)   (u31.0)--(u31.0 -| u200in);
 \kBusORdown[u300]{-2*\ksepX+\kpinA-2*0.75}{-5.75*\ksepY}
-%\draw(u300out)--++(0,-\kpin)node[below]{$D2$};
+%\draw(u300out)--++(0,-\kpin)node[below]{$D_2$};
 \draw(u300in)|-(u2.0)  (u300in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u12.0)--(u12.0 -| u300in)   (u22.0)--(u22.0 -| u300in)   (u32.0)--(u32.0 -| u300in);
 \kBusORdown[u400]{-3*\ksepX+\kpinA-3*0.75}{-5.75*\ksepY}
-%\draw(u400out)--++(0,-\kpin)node[below]{$D3$};
+%\draw(u400out)--++(0,-\kpin)node[below]{$D_3$};
 \draw(u400in)|-(u3.0)  (u400in)++(-0.5*\kpin,\kpin)--++(\kpin,\kpin)node[right]{$4$};
 \draw(u13.0)--(u13.0 -| u400in)   (u23.0)--(u23.0 -| u400in)   (u33.0)--(u33.0 -| u400in);
 \draw[thick]($(wordB)!0.5!(wordC)+(-2*\kpin,-2*\kpin)$)coordinate(kA) rectangle ++(-4*\kpin,5*\kpin)coordinate(kB);
-\draw[thin](kA)++(0,1*\kpin)node[left]{$y0$}--++(0.5*\kpin,0)|-(wordD);
-\draw[thin](kA)++(0,2*\kpin)node[left]{$y1$}--++(1*\kpin,0)|-(wordC);
-\draw[thin](kA)++(0,3*\kpin)node[left]{$y2$}--++(1*\kpin,0)|-(wordB);
-\draw[thin](kA)++(0,4*\kpin)node[left]{$y3$}--++(0.5*\kpin,0)|-(wordA);
+\draw[thin](kA)++(0,1*\kpin)node[left]{$y_0$}--++(0.5*\kpin,0)|-(wordD);
+\draw[thin](kA)++(0,2*\kpin)node[left]{$y_1$}--++(1*\kpin,0)|-(wordC);
+\draw[thin](kA)++(0,3*\kpin)node[left]{$y_2$}--++(1*\kpin,0)|-(wordB);
+\draw[thin](kA)++(0,4*\kpin)node[left]{$y_3$}--++(0.5*\kpin,0)|-(wordA);
 \draw(kA)++(-4*\kpin,\kpin)node[right]{$e$}--++(-\kpin,0)coordinate[pos=0.5](enbl)node[left]{مجاز};
-\draw(kA)++(-4*\kpin,3*\kpin)node[right]{$a0$}--++(-\kpin,0)node[left]{$A0$};
-\draw(kA)++(-4*\kpin,4*\kpin)node[right]{$a1$}--++(-\kpin,0)node[left]{$A1$};
+\draw(kA)++(-4*\kpin,3*\kpin)node[right]{$a_0$}--++(-\kpin,0)node[left]{$A_0$};
+\draw(kA)++(-4*\kpin,4*\kpin)node[right]{$a_1$}--++(-\kpin,0)node[left]{$A_1$};
 \draw($(kA)!0.5!(kB)$)node[rotate=90]{\RL{شناخت کار}};
 \draw(u100out)--++(0,-\kpin)coordinate(kdA);
 \draw(u200out)--++(0,-\kpin)coordinate(kdB);
@@ -448,10 +448,10 @@
 \kdBufferK[u201]{kdB}
 \kdBufferK[u301]{kdC}
 \kdBufferK[u401]{kdD}
-\draw(u101pout)--++(0,-\kpin)coordinate[pos=0.15](zzA)node[below]{D0};
-\draw(u201pout)--++(0,-\kpin)coordinate[pos=0.15](zzB)node[below]{D1};
-\draw(u301pout)--++(0,-\kpin)coordinate[pos=0.15](zzC)node[below]{D2};
-\draw(u401pout)--++(0,-\kpin)coordinate[pos=0.15](zzD)node[below]{D3};
+\draw(u101pout)--++(0,-\kpin)coordinate[pos=0.15](zzA)node[below]{$D_0$};
+\draw(u201pout)--++(0,-\kpin)coordinate[pos=0.15](zzB)node[below]{$D_1$};
+\draw(u301pout)--++(0,-\kpin)coordinate[pos=0.15](zzC)node[below]{$D_2$};
+\draw(u401pout)--++(0,-\kpin)coordinate[pos=0.15](zzD)node[below]{$D_3$};
 \draw(hZ)++(-\ksepX,0)node[and port,scale=1,number inputs=2,anchor=out](u500){};
 \draw(u500.in 1)--(u500.in 1 |- rdWr);
 \draw(u500.in 2)-| (enbl);
@@ -475,7 +475,7 @@
 
 شکل  \حوالہ{شکل_حافظہ_مشترک_داخلی_خارجی}  میں \اصطلاح{ مستحکم کار } کے استعمال پر غور کریں۔\موٹا{ مجاز } اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} دونوں بلند ہونے کی صورت میں حافظہ میں ذخیرہ مواد \عددی{D} پر خارج ہو گا جبکہ مجاز بلند اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} پست ہو نے کی صورت میں \عددی{D} پر مہیا مواد حافظہ میں لکھا جائے گا۔یوں \عددی{D} بطور مداخل و مخارج کام کرتا ہے۔ شکل \حوالہ{شکل_حافظہ_بہتر} میں مداخل \عددی{Z} کے لئے چار  اور مخارج \عددی{D} کے لئے چار پنیوں کی ضرورت تھی۔یہاں شکل  \حوالہ{شکل_حافظہ_مشترک_داخلی_خارجی}  میں صرف چار پنیوں کی ضرورت ہو گی۔
 
-جدید عارضی حافظوں میں کثیر تعداد کے الفاظ ذخیرہ کرنے کی گنجائش ہوتی ہے۔شکل \حوالہ{شکل_حافظہ_عارضی_حافظوں_کے_مخلوط_ادوار}-ا میں چار لفظ حافظے کے \اصطلاح{ مخلوط دور }\فرہنگ{مخلوط دور}\حاشیہب{integrated circuit, IC}\فرہنگ{IC, integrated circuit} کی علامت دکھائی گئی ہے جہاں لفظ کے چار   داخلی و خارجی بِٹوں کو \عددی{D} کی بجائے \عددی{I/O} کہا گیا ہے۔
+جدید عارضی حافظوں میں کثیر تعداد کے الفاظ ذخیرہ کرنے کی گنجائش ہوتی ہے۔شکل \حوالہ{شکل_حافظہ_عارضی_حافظوں_کے_مخلوط_ادوار}-ا میں چار لفظ حافظے کے \اصطلاح{ مخلوط دور }\فرہنگ{مخلوط دور}\حاشیہب{integrated circuit, IC}\فرہنگ{IC, integrated circuit} کی علامت دکھائی گئی ہے جہاں لفظ کے چار   داخلی و خارجی بِٹوں کو \عددی{D} کی بجائے \عددی{I\!/\!O} کہا گیا ہے۔
 \begin{figure}
 \centering
 \begin{subfigure}[b]{0.3\textwidth}
@@ -490,7 +490,7 @@
 \pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
 \pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
 \draw[thick](0,0) rectangle ++(\kxdim,\kydim);
-\foreach \x in {0,1}{\draw(0,\kul+3*\kpsep+\x*\kpsep)node[right]{$A\x$}--++(-\kpin,0);}
+\foreach \x in {0,1}{\draw(0,\kul+3*\kpsep+\x*\kpsep)node[right]{$A_\x$}--++(-\kpin,0);}
 \foreach \x in {0,1,2,3} {\draw(\kxdim,\kul+1*\kpsep+\x*\kpsep)node[left]{$I\!/\!O\x$}--++(\kpin,0);}
 \foreach \x/\a in  {0/{$\overline{\text{\RL{لکھ}}}/{\text{\RL{پڑھ}}}$},1/{مجاز}}{\draw(0,\kul+\x*\kpsep)node[right]{\a}--++(-\kpin,0);}
 \end{tikzpicture}
@@ -508,7 +508,7 @@
 \pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
 \pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
 \draw[thick](0,0) rectangle ++(\kxdim,\kydim);
-\foreach \x in {0,1}{\draw(0,\kul+3*\kpsep+\x*\kpsep)node[right]{$A\x$}--++(-\kpin,0);}
+\foreach \x in {0,1}{\draw(0,\kul+3*\kpsep+\x*\kpsep)node[right]{$A_\x$}--++(-\kpin,0);}
 \foreach \x in {0,1,2,3} {\draw(\kxdim,\kul+1*\kpsep+\x*\kpsep)node[left]{$I\!/\!O\x$}--++(\kpin,0);}
 \foreach \x/\a in  {0/{لکھ},1/{مجاز}}{\draw(0,\kul+\x*\kpsep)node[right]{$\overline{\text{\RL{\a}}}$}--++(-\kpin,0);}
 \foreach \x in {0,1}{\draw(0,\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
@@ -527,7 +527,7 @@
 \pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
 \pgfmathsetmacro{\kydim}{2*\kul+15*\kpsep}
 \draw[thick](0,0) rectangle ++(\kxdim,\kydim);
-\foreach \x in {0,1,...,11}{\draw(0,\kul+4*\kpsep+\x*\kpsep)node[right]{$A\x$}--++(-\kpin,0);}
+\foreach \x in {0,1,...,11}{\draw(0,\kul+4*\kpsep+\x*\kpsep)node[right]{$A_\x$}--++(-\kpin,0);}
 \foreach \x in {0,1,...,7} {\draw(\kxdim,\kul+6*\kpsep+\x*\kpsep)node[left]{$I\!/\!O\x$}--++(\kpin,0);}
 \foreach \x/\a in {0/{بیدار},1/{لکھ},2/{مجاز}}{\draw(0,\kul+\x*\kpsep)node[right]{$\overline{\text{\RL{\a}}}$}--++(-\kpin,0);}
 \foreach \x in {0,1,2}{\draw(0,\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
@@ -540,7 +540,7 @@
 \end{figure}
 شکل-ب میں مجاز کی جگہ \عددی{\overline{\text{\RL{مجاز}}}} استعمال کیا گیا ہے ، جو شکل -ا کے مجاز مداخل پر نفی گیٹ نصب کرنے سے حاصل ہو گا؛ مزید \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} کو مختصراً \عددی{\overline{\text{\RL{لکھ}}}} پکار کر اور  پنیا پر گول دائرہ ڈال کر اس کا \اصطلاح{ پست فعال پن }\فرہنگ{پست فعال پن}\حاشیہب{active low}\فرہنگ{active low} ظاہر کیا گیا ہے۔یوں \عددی{\overline{\text{\RL{لکھ}}}} پست ہو نے کی صورت میں \موٹا{ حافظے میں }مواد لکھا اور بلند صورت میں \موٹا{حافظے سے } مواد پڑھا جاتا ہے۔
 
-شکل - ج میں بارہ بِٹ پتہ ، ایک بائٹ لفظ عارضی حافظے کی علامت دکھائی گئی ہے۔بارہ بِٹ پتہ \عددی{2^{12}=4096_{10}} بائٹ تک رسائی ممکن بناتا ہے لہٰذا یہ چار کلو بائٹ عارضی حافظہ کی علامت ہے۔اس مخلوط دور میں \عددی{\overline{\text{\RL{بیدار}}}} مداخل کا اضافہ کیا گیا ہے جو \موٹا{پست فعال }ہے۔اس پر اب بات کرتے ہیں۔
+شکل - ج میں بارہ بِٹ پتہ ، ایک بائٹ لفظ عارضی حافظے کی علامت دکھائی گئی ہے۔بارہ بِٹ پتہ \عددی{2^{12}=4096_{10}} بائٹ تک رسائی ممکن بناتا ہے لہٰذا یہ چار کلو بائٹ عارضی حافظہ کی علامت ہے۔اس مخلوط دور میں \عددی{\overline{\text{\RL{بیدار}}}} مداخل \فرہنگ{بیدار}\حاشیہب{CS, chip select}\فرہنگ{CS, chip select} کا اضافہ کیا گیا ہے جو \موٹا{پست فعال }ہے۔اس پر اب بات کرتے ہیں۔
 
  مخلوط دور میں متعدد گیٹ پائے جاتے ہیں اور جدید برقیاتی آلات کئی مخلوط ادوار پر مشتمل ہوتے ہیں۔یہ سب برقی طاقت سے چلتے ہیں۔ہم کہتے ہیں برقی طاقت انہیں \اصطلاح{ بیدار } رکھتی ہے۔برقیاتی آلات عموماً بیٹری سے برقی طاقت حاصل کرتے ہیں۔ درکار برقی طاقت کم کرنے سے بیٹری زیادہ دیر کارآمد رہتی ہے۔
  
@@ -611,22 +611,22 @@
 \pgfmathsetmacro{\kmv}{0.15}
 \pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
 \pgfmathsetmacro{\kydim}{2*\kul+3*\kpsep}
-\draw(-0*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u0){} (u0.out)node[below]{$D0$};
-\draw(-1*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u1){}(u1.out)node[below]{$D1$};
-\draw(-2*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u2){}(u2.out)node[below]{$D2$};
-\draw(-3*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u3){}(u3.out)node[below]{$D3$};
-\draw(-4*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u4){}(u4.out)node[below]{$D4$};
-\draw(-5*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u5){}(u5.out)node[below]{$D5$};
-\draw(-6*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u6){}(u6.out)node[below]{$D6$};
-\draw(-7*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u7){}(u7.out)node[below]{$D7$};
+\draw(-0*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u0){} (u0.out)node[below]{$D_0$};
+\draw(-1*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u1){}(u1.out)node[below]{$D_1$};
+\draw(-2*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u2){}(u2.out)node[below]{$D_2$};
+\draw(-3*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u3){}(u3.out)node[below]{$D_3$};
+\draw(-4*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u4){}(u4.out)node[below]{$D_4$};
+\draw(-5*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u5){}(u5.out)node[below]{$D_5$};
+\draw(-6*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u6){}(u6.out)node[below]{$D_6$};
+\draw(-7*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u7){}(u7.out)node[below]{$D_7$};
 \draw[thick](-8*\ksepX,\ksepY) rectangle ++(-\kxdim,\kydim);
-\draw(-8*\ksepX,\ksepY+\kul)node[left]{$y0$}coordinate(y0)--(y0 -| u0.in 1)--++(\kpinA,0)coordinate(kr)
+\draw(-8*\ksepX,\ksepY+\kul)node[left]{$y_0$}coordinate(y0)--(y0 -| u0.in 1)--++(\kpinA,0)coordinate(kr)
 node[right]{\RL{لفظ 0}};
-\draw(-8*\ksepX,\ksepY+\kul+\kpsep)node[left]{$y1$}coordinate(y1)--(y1 -| kr);
-\draw(-8*\ksepX,\ksepY+\kul+2*\kpsep)node[left]{$y2$}coordinate(y2)--(y2 -| kr);
-\draw(-8*\ksepX,\ksepY+\kul+3*\kpsep)node[left]{$y3$}coordinate(y3)--(y3 -| kr)node[right]{\RL{لفظ 3}};
-\draw(-8*\ksepX-\kxdim,\ksepY+\kul+2*\kpsep)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
-\draw(-8*\ksepX-\kxdim,\ksepY+\kul+3*\kpsep)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\draw(-8*\ksepX,\ksepY+\kul+\kpsep)node[left]{$y_1$}coordinate(y1)--(y1 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+2*\kpsep)node[left]{$y_2$}coordinate(y2)--(y2 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+3*\kpsep)node[left]{$y_3$}coordinate(y3)--(y3 -| kr)node[right]{\RL{لفظ 3}};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+2*\kpsep)node[right]{$a_0$}--++(-\kpinA,0)node[left]{$A_0$};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+3*\kpsep)node[right]{$a_1$}--++(-\kpinA,0)node[left]{$A_1$};
 \draw(-8*\ksepX-\kxdim,\ksepY+\kul)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
 \draw(-8*\ksepX,\ksepY)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
 \draw(u0.in 1)--(u0.in 1 |- y0)   (u0.in 2)--(u0.in 2 |- y1)  (u0.in 3)--(u0.in 3 |- y2)  (u0.in 4)--(u0.in 4 |- y3);
@@ -664,19 +664,19 @@ node[right]{\RL{لفظ 0}};
 \kBusORdown[uu5]{-5*\ksepX}{0}
 \kBusORdown[uu6]{-6*\ksepX}{0}
 \kBusORdown[uu7]{-7*\ksepX}{0}
-\draw(uu0out)--++(0,-\kpinA)node[below]{$D0$};
-\draw(uu1out)--++(0,-\kpinA)node[below]{$D1$};
-\draw(uu2out)--++(0,-\kpinA)node[below]{$D2$};
-\draw(uu3out)--++(0,-\kpinA)node[below]{$D3$};
-\draw(uu4out)--++(0,-\kpinA)node[below]{$D4$};
-\draw(uu5out)--++(0,-\kpinA)node[below]{$D5$};
-\draw(uu6out)--++(0,-\kpinA)node[below]{$D6$};
-\draw(uu7out)--++(0,-\kpinA)node[below]{$D7$};
+\draw(uu0out)--++(0,-\kpinA)node[below]{$D_0$};
+\draw(uu1out)--++(0,-\kpinA)node[below]{$D_1$};
+\draw(uu2out)--++(0,-\kpinA)node[below]{$D_2$};
+\draw(uu3out)--++(0,-\kpinA)node[below]{$D_3$};
+\draw(uu4out)--++(0,-\kpinA)node[below]{$D_4$};
+\draw(uu5out)--++(0,-\kpinA)node[below]{$D_5$};
+\draw(uu6out)--++(0,-\kpinA)node[below]{$D_6$};
+\draw(uu7out)--++(0,-\kpinA)node[below]{$D_7$};
 \draw[thick](-7*\ksepX-\kpin,\ksepY)coordinate(aa) rectangle ++(-\kxdim,\kydim)coordinate(tt);
-\draw[thin](aa)++(0,\kul+0*\kpin)node[left]{$y0$}coordinate(bb)--(bb -| uu0in)--++(\kpinA,0)coordinate(krt)node[right]{};
-\draw(aa)++(0,\kul+1*\kpin)node[left]{$y1$}coordinate(cc)--(cc -| krt);
-\draw(aa)++(0,\kul+2*\kpin)node[left]{$y2$}coordinate(dd)--(dd -| krt);
-\draw(aa)++(0,\kul+3*\kpin)node[left]{$y3$}coordinate(ee)--(ee -| krt);
+\draw[thin](aa)++(0,\kul+0*\kpin)node[left]{$y_0$}coordinate(bb)--(bb -| uu0in)--++(\kpinA,0)coordinate(krt)node[right]{};
+\draw(aa)++(0,\kul+1*\kpin)node[left]{$y_1$}coordinate(cc)--(cc -| krt);
+\draw(aa)++(0,\kul+2*\kpin)node[left]{$y_2$}coordinate(dd)--(dd -| krt);
+\draw(aa)++(0,\kul+3*\kpin)node[left]{$y_3$}coordinate(ee)--(ee -| krt);
 \draw(aa)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
 \draw(uu0in)--(uu0in |- tt);
 \draw(uu1in)--(uu1in |- tt);
@@ -695,8 +695,8 @@ node[right]{\RL{لفظ 0}};
 \draw(uu6in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
 \draw(uu7in)++(-0.5*\kmv,\kpin)--++(\kmv,\kmv)node[right]{$4$}; 
 \draw[thin](aa)++(-\kxdim,\kul+0*\kpin)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
-\draw[thin](aa)++(-\kxdim,\kul+2*\kpin)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
-\draw[thin](aa)++(-\kxdim,\kul+3*\kpin)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\draw[thin](aa)++(-\kxdim,\kul+2*\kpin)node[right]{$a_0$}--++(-\kpinA,0)node[left]{$A_0$};
+\draw[thin](aa)++(-\kxdim,\kul+3*\kpin)node[right]{$a_1$}--++(-\kpinA,0)node[left]{$A_1$};
 \end{tikzpicture}
 \caption{چار بائٹ پختہ حافظہ کی اندرونی ساخت}
 \label{شکل_حافظہ_پختہ_بہتر_صورت}
@@ -721,22 +721,22 @@ node[right]{\RL{لفظ 0}};
 \pgfmathsetmacro{\kmv}{0.15}
 \pgfmathsetmacro{\kxdim}{2*\kul+1*\kpsep}
 \pgfmathsetmacro{\kydim}{2*\kul+3*\kpsep}
-\draw(-0*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u0){} (u0.out)node[below]{$D0$};
-\draw(-1*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u1){}(u1.out)node[below]{$D1$};
-\draw(-2*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u2){}(u2.out)node[below]{$D2$};
-\draw(-3*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u3){}(u3.out)node[below]{$D3$};
-\draw(-4*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u4){}(u4.out)node[below]{$D4$};
-\draw(-5*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u5){}(u5.out)node[below]{$D5$};
-\draw(-6*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u6){}(u6.out)node[below]{$D6$};
-\draw(-7*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u7){}(u7.out)node[below]{$D7$};
+\draw(-0*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u0){} (u0.out)node[below]{$D_0$};
+\draw(-1*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u1){}(u1.out)node[below]{$D_1$};
+\draw(-2*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u2){}(u2.out)node[below]{$D_2$};
+\draw(-3*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u3){}(u3.out)node[below]{$D_3$};
+\draw(-4*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u4){}(u4.out)node[below]{$D_4$};
+\draw(-5*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u5){}(u5.out)node[below]{$D_5$};
+\draw(-6*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u6){}(u6.out)node[below]{$D_6$};
+\draw(-7*\ksepX,0)node[or port,number inputs=4,scale=0.8,rotate=-90](u7){}(u7.out)node[below]{$D_7$};
 \draw[thick](-8*\ksepX,\ksepY) rectangle ++(-\kxdim,\kydim);
-\draw(-8*\ksepX,\ksepY+\kul)node[left]{$y0$}coordinate(y0)--(y0 -| u0.in 1)--++(\kpinA,0)coordinate(kr)
+\draw(-8*\ksepX,\ksepY+\kul)node[left]{$y_0$}coordinate(y0)--(y0 -| u0.in 1)--++(\kpinA,0)coordinate(kr)
 node[right]{\RL{لفظ 0}};
-\draw(-8*\ksepX,\ksepY+\kul+\kpsep)node[left]{$y1$}coordinate(y1)--(y1 -| kr);
-\draw(-8*\ksepX,\ksepY+\kul+2*\kpsep)node[left]{$y2$}coordinate(y2)--(y2 -| kr);
-\draw(-8*\ksepX,\ksepY+\kul+3*\kpsep)node[left]{$y3$}coordinate(y3)--(y3 -| kr)node[right]{\RL{لفظ 3}};
-\draw(-8*\ksepX-\kxdim,\ksepY+\kul+2*\kpsep)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
-\draw(-8*\ksepX-\kxdim,\ksepY+\kul+3*\kpsep)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\draw(-8*\ksepX,\ksepY+\kul+\kpsep)node[left]{$y_1$}coordinate(y1)--(y1 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+2*\kpsep)node[left]{$y_2$}coordinate(y2)--(y2 -| kr);
+\draw(-8*\ksepX,\ksepY+\kul+3*\kpsep)node[left]{$y_3$}coordinate(y3)--(y3 -| kr)node[right]{\RL{لفظ 3}};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+2*\kpsep)node[right]{$a_0$}--++(-\kpinA,0)node[left]{$A_0$};
+\draw(-8*\ksepX-\kxdim,\ksepY+\kul+3*\kpsep)node[right]{$a_1$}--++(-\kpinA,0)node[left]{$A_1$};
 \draw(-8*\ksepX-\kxdim,\ksepY+\kul)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
 \draw(-8*\ksepX,\ksepY)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
 \draw(u0.in 1)--++(0,0.5*\kpin)   (u0.in 2)--(u0.in 2 |- y1)  (u0.in 3)--(u0.in 3 |- y2)  (u0.in 4)--(u0.in 4 |- y3);
@@ -782,19 +782,19 @@ node[right]{\RL{لفظ 0}};
 \kBusORdown[uu5]{-5*\ksepX}{0}
 \kBusORdown[uu6]{-6*\ksepX}{0}
 \kBusORdown[uu7]{-7*\ksepX}{0}
-\draw(uu0out)--++(0,-\kpinA)node[below]{$D0$};
-\draw(uu1out)--++(0,-\kpinA)node[below]{$D1$};
-\draw(uu2out)--++(0,-\kpinA)node[below]{$D2$};
-\draw(uu3out)--++(0,-\kpinA)node[below]{$D3$};
-\draw(uu4out)--++(0,-\kpinA)node[below]{$D4$};
-\draw(uu5out)--++(0,-\kpinA)node[below]{$D5$};
-\draw(uu6out)--++(0,-\kpinA)node[below]{$D6$};
-\draw(uu7out)--++(0,-\kpinA)node[below]{$D7$};
+\draw(uu0out)--++(0,-\kpinA)node[below]{$D_0$};
+\draw(uu1out)--++(0,-\kpinA)node[below]{$D_1$};
+\draw(uu2out)--++(0,-\kpinA)node[below]{$D_2$};
+\draw(uu3out)--++(0,-\kpinA)node[below]{$D_3$};
+\draw(uu4out)--++(0,-\kpinA)node[below]{$D_4$};
+\draw(uu5out)--++(0,-\kpinA)node[below]{$D_5$};
+\draw(uu6out)--++(0,-\kpinA)node[below]{$D_6$};
+\draw(uu7out)--++(0,-\kpinA)node[below]{$D_7$};
 \draw[thick](-7*\ksepX-\kpin,\ksepY)coordinate(aa) rectangle ++(-\kxdim,\kydim)coordinate(tt);
-\draw[thin](aa)++(0,\kul+0*\kpin)node[left]{$y0$}coordinate(bb)--(bb -| uu0in)--++(\kpinA,0)coordinate(krt)node[right]{};
-\draw(aa)++(0,\kul+1*\kpin)node[left]{$y1$}coordinate(cc)--(cc -| krt);
-\draw(aa)++(0,\kul+2*\kpin)node[left]{$y2$}coordinate(dd)--(dd -| krt);
-\draw(aa)++(0,\kul+3*\kpin)node[left]{$y3$}coordinate(ee)--(ee -| krt);
+\draw[thin](aa)++(0,\kul+0*\kpin)node[left]{$y_0$}coordinate(bb)--(bb -| uu0in)--++(\kpinA,0)coordinate(krt)node[right]{};
+\draw(aa)++(0,\kul+1*\kpin)node[left]{$y_1$}coordinate(cc)--(cc -| krt);
+\draw(aa)++(0,\kul+2*\kpin)node[left]{$y_2$}coordinate(dd)--(dd -| krt);
+\draw(aa)++(0,\kul+3*\kpin)node[left]{$y_3$}coordinate(ee)--(ee -| krt);
 \draw(aa)++(-0.5*\kxdim,\kydim)node[above]{\RL{شناخت کار}};
 \draw(uu0in)--(uu0in |- tt);
 \draw(uu1in)--(uu1in |- tt);
@@ -805,8 +805,8 @@ node[right]{\RL{لفظ 0}};
 \draw(uu6in)--(uu6in |- tt);
 \draw(uu7in)--(uu7in |- tt);
 \draw[thin](aa)++(-\kxdim,\kul+0*\kpin)node[right]{$e$}--++(-\kpinA,0)node[left]{مجاز};
-\draw[thin](aa)++(-\kxdim,\kul+2*\kpin)node[right]{$a0$}--++(-\kpinA,0)node[left]{$A0$};
-\draw[thin](aa)++(-\kxdim,\kul+3*\kpin)node[right]{$a1$}--++(-\kpinA,0)node[left]{$A1$};
+\draw[thin](aa)++(-\kxdim,\kul+2*\kpin)node[right]{$a_0$}--++(-\kpinA,0)node[left]{$A_0$};
+\draw[thin](aa)++(-\kxdim,\kul+3*\kpin)node[right]{$a_1$}--++(-\kpinA,0)node[left]{$A_1$};
 \path(uu0in)--(uu0in |- cc)coordinate(aaaa);
 \draw(aaaa)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv)  (aaaa)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
 \path(uu0in)--(uu0in |- dd)coordinate(aaaa);
@@ -847,10 +847,10 @@ node[right]{\RL{لفظ 0}};
 \toprule
 \text{\RL{پتہ}}&\text{\RL{مواد}}\\
 \midrule
-00&10110010\\
-01&01100101\\
-10&01101001\\
-11&10001100\\
+00&1011\,0010\\
+01&0110\,0101\\
+10&0110\,1001\\
+11&1000\,1100\\
 \bottomrule
 \end{tabular}
 \end{otherlanguage}
@@ -874,7 +874,7 @@ node[right]{\RL{لفظ 0}};
 عارضی حافظوں ( کے مخلوط ادوار ) کے قابو مداخل عموماً \عددی{\overline{\text{\RL{بیدار}}}}، \عددی{\overline{\text{\RL{مجاز}}}}اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} جبکہ پختہ حافظوں کے \عددی{\overline{\text{\RL{بیدار}}}} اور \عددی{\overline{\text{\RL{مجاز}}}} ہوں گے۔اس حصے میں ہم تصور کرتے ہیں کہ حافظوں کے قابو اشارات صرف \عددی{\overline{\text{\RL{بیدار}}}} اور \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} ہیں جنہیں استعمال کرتے ہوئے ایک سے زیادہ حافظے آپس میں جوڑنا دکھایا جائے گا۔حقیقت میں عموماً \عددی{\overline{\text{\RL{بیدار}}}} کے علاوہ تمام حافظوں کے ایک جیسے قابو مداخل ایک ساتھ جوڑے جاتے ہیں۔یوں تمام حافظوں کے \عددی{\overline{\text{\RL{مجاز}}}} مداخل اکٹھے جوڑے جائیں گے اور اسی طرح تمام کے \عددی{\overline{\text{\RL{لکھ}}}/\text{\RL{پڑھ}}} ایک ساتھ جوڑے جائیں گے۔
 
 \جزوحصہ{دو عدد \عددی{4\times 4} حافظے سلسلہ وار جوڑ کر ایک عدد \عددی{8\times 4} حافظہ کا حصول}
-کبھی کبھار درکار استعداد کا حافظہ میسر نہیں ہو گا۔ایسی صورت میں ایک سے زیادہ حافظے اکٹھے جوڑ کر درکار بائٹ ذخیرہ کرنا ممکن بنایا جاتا ہے۔شکل \حوالہ{شکل_حافظہ_بڑے_حافظہ_کا_حصول}-ا میں \عددی{4\times 4} کے دو حافظے جوڑ کر دگنی استعداد کا \عددی{8\times 4} حافظہ  (شکل-ب)حاصل کیا گیا۔چھوٹے حافظوں کو حافظہ 0 اور حافظہ 1 کہا گیا ہے۔ شکل-ا میں ایک جیسے پتہ بِٹ ساتھ ساتھ جوڑے گئے ہیں یعنی حافظہ 0 کا \عددی{A_0} حافظہ 1 کے \عددی{A_0} سے جوڑا گیا ہے، اور حافظہ 0 کا \عددی{A_1} حافظہ 1 کے \عددی{A_1} سے جوڑا گیا ہے۔اسی طرح ایک جیسے مواد بِٹ ساتھ ساتھ جوڑے گئے ہیں یعنی حافظہ 0 کے \عددی{D_0}، \عددی{D_1}، \عددی{D_2} اور \عددی{D_3} بالترتیب حافظہ 1 کے \عددی{D_0}، \عددی{D_1}، \عددی{D_2} اور \عددی{D_3} سے جوڑے گئے ہیں۔البتہ حافظہ 0 کا \عددی{\overline{\text{\RL{بیدار}}}} مداخل (جسے \عددی{\overline{\text{\RL{بیدار0}}}}کہا گیا ہے) سیدھا \عددی{A_2} کے ساتھ ملایا گیا ہے جبکہ حافظہ 1 کا \عددی{\overline{\text{\RL{بیدار}}}} مداخل (جسے \عددی{\overline{\text{\RL{بیدار1}}}} کہا گیا ہے) نفی گیٹ کے ذریعہ \عددی{A_2} سے جوڑا گیا ہے۔
+کبھی کبھار درکار استعداد کا حافظہ میسر نہیں ہو گا۔ایسی صورت میں ایک سے زیادہ حافظے اکٹھے جوڑ کر درکار بائٹ ذخیرہ کرنا ممکن بنایا جاتا ہے۔شکل \حوالہ{شکل_حافظہ_بڑے_حافظہ_کا_حصول}-ا میں \عددی{4\times 4} کے دو حافظے جوڑ کر دگنی استعداد کا \عددی{8\times 4} حافظہ  (شکل-ب)حاصل کیا گیا۔چھوٹے حافظوں کو حافظہ 0 اور حافظہ 1 کہا گیا ہے۔ شکل-ا میں ایک جیسے پتہ بِٹ ساتھ ساتھ جوڑے گئے ہیں یعنی حافظہ 0 کا \عددی{A_0} حافظہ 1 کے \عددی{A_0} سے جوڑا گیا ہے، اور حافظہ 0 کا \عددی{A_1} حافظہ 1 کے \عددی{A_1} سے جوڑا گیا ہے۔اسی طرح ایک جیسے مواد بِٹ ساتھ ساتھ جوڑے گئے ہیں یعنی حافظہ 0 کے \عددی{D_0}، \عددی{D_1}، \عددی{D_2} اور \عددی{D_3} بالترتیب حافظہ 1 کے \عددی{D_0}، \عددی{D_1}، \عددی{D_2} اور \عددی{D_3} سے جوڑے گئے ہیں۔البتہ حافظہ 0 کا \عددی{\overline{\text{\RL{بیدار}}}} مداخل (جسے \عددی{\overline{\text{\RL{بیدار0}}}}کہا گیا ہے) سیدھا \عددی{A_2} کے ساتھ ملایا گیا ہے جبکہ حافظہ 1 کا \عددی{\overline{\text{\RL{بیدار}}}} مداخل (جسے \عددی{\overline{\text{\RL{بیدار1}}}} کہا گیا ہے) نفی گیٹ کے ذریعہ \عددی{A_2} سے جوڑا گیا ہے۔ حافظہ 0، حافظہ 1 ، اور نفی گیٹ  کو  ہم ایک بڑا حافظہ تصور کر سکتے ہیں جس کی علامت شکل-ب میں پیش ہے۔
 
 \begin{figure}
 \centering
@@ -894,27 +894,27 @@ node[right]{\RL{لفظ 0}};
 \draw[thick](0,\ksepY) rectangle++(\kxdim,\kydim);
 \draw(0.5*\kxdim,\kydim)node[above]{\text{\RL{\عددی{4\times 4}  حافظہ 0}}};
 \draw(0.5*\kxdim,\ksepY+\kydim)node[above]{\text{\RL{\عددی{4\times 4}  حافظہ 1}}};
-\draw(0,\ksepY)++(\kxdim,\kul+1*\kpsep)coordinate(aa)node[left]{$I\!/\!O 0$}--++(5*\kpin,0)node[right]{$D0$};
-\draw(0,\ksepY)++(\kxdim,\kul+2*\kpsep)coordinate(bb)node[left]{$I\!/\!O 1$}--++(5*\kpin,0)node[right]{$D1$};
-\draw(0,\ksepY)++(\kxdim,\kul+3*\kpsep)coordinate(cc)node[left]{$I\!/\!O 2$}--++(5*\kpin,0)node[right]{$D2$};
-\draw(0,\ksepY)++(\kxdim,\kul+4*\kpsep)coordinate(dd)node[left]{$I\!/\!O 3$}--++(5*\kpin,0)node[right]{$D3$};
-\draw(\kxdim,\kul+4*\kpsep)node[left]{$I\!/\!O 3$}--++(\kpin,0)coordinate(ee)--(ee |- dd);
-\draw(\kxdim,\kul+3*\kpsep)node[left]{$I\!/\!O 2$}--++(2*\kpin,0)coordinate(ff)--(ff |- cc);
-\draw(\kxdim,\kul+2*\kpsep)node[left]{$I\!/\!O 1$}--++(3*\kpin,0)coordinate(gg)--(gg |- bb);
-\draw(\kxdim,\kul+1*\kpsep)node[left]{$I\!/\!O 0$}--++(4*\kpin,0)coordinate(hh)--(hh |- aa);
+\draw(0,\ksepY)++(\kxdim,\kul+1*\kpsep)coordinate(aa)node[left]{$I\!/\!O_0$}--++(5*\kpin,0)node[right]{$D_0$};
+\draw(0,\ksepY)++(\kxdim,\kul+2*\kpsep)coordinate(bb)node[left]{$I\!/\!O_1$}--++(5*\kpin,0)node[right]{$D_1$};
+\draw(0,\ksepY)++(\kxdim,\kul+3*\kpsep)coordinate(cc)node[left]{$I\!/\!O_2$}--++(5*\kpin,0)node[right]{$D_2$};
+\draw(0,\ksepY)++(\kxdim,\kul+4*\kpsep)coordinate(dd)node[left]{$I\!/\!O_3$}--++(5*\kpin,0)node[right]{$D_3$};
+\draw(\kxdim,\kul+4*\kpsep)node[left]{$I\!/\!O_3$}--++(\kpin,0)coordinate(ee)--(ee |- dd);
+\draw(\kxdim,\kul+3*\kpsep)node[left]{$I\!/\!O_2$}--++(2*\kpin,0)coordinate(ff)--(ff |- cc);
+\draw(\kxdim,\kul+2*\kpsep)node[left]{$I\!/\!O_1$}--++(3*\kpin,0)coordinate(gg)--(gg |- bb);
+\draw(\kxdim,\kul+1*\kpsep)node[left]{$I\!/\!O_0$}--++(4*\kpin,0)coordinate(hh)--(hh |- aa);
 \draw(0,\ksepY+\kul)node[right]{$\overline{\text{\RL{بیدار1}}}$}--++(-4*\kpin,0)node[not port,scale=1,anchor=out](u0){};
 \draw(0,\ksepY+\kul)++(-0.05,0)node[ocirc]{};
-\draw(u0.in)--++(-\kpin,0)coordinate(klft)node[left]{$A2$};
+\draw(u0.in)--++(-\kpin,0)coordinate(klft)node[left]{$A_2$};
 \draw(0,\kul)node[right]{$\overline{\text{\RL{بیدار0}}}$}-|(u0.in);
 \draw(0,\kul)++(-0.05,0)node[ocirc]{};
 \draw(0,\kul+\kpin)coordinate(rd)--(rd -| klft)node[left]{$\overline{\text{لکھ}}/\text{پرھ}$};
 \draw(0,\kul+\kpin)node[right]{$\overline{\text{لکھ}}$}++(-0.05,0)node[ocirc]{};
-\draw(0,\kul+3*\kpin)node[right]{$A0$}coordinate(ka0)--(ka0 -| klft)node[left]{$A0$};
-\draw(0,\kul+4*\kpin)node[right]{$A1$}coordinate(ka1)--(ka1 -| klft)node[left]{$A1$};
+\draw(0,\kul+3*\kpin)node[right]{$A_0$}coordinate(ka0)--(ka0 -| klft)node[left]{$A_0$};
+\draw(0,\kul+4*\kpin)node[right]{$A_1$}coordinate(ka1)--(ka1 -| klft)node[left]{$A_1$};
 \draw(0,\ksepY+\kul+1*\kpin)node[right]{$\overline{\text{لکھ}}$}--++(-\kpin,0)coordinate(kka)--(kka |- rd);
 \draw(0,\ksepY+\kul+1*\kpin)++(-0.05,0)node[ocirc]{};
-\draw(0,\ksepY+\kul+3*\kpin)node[right]{$A0$}--++(-2*\kpin,0)coordinate(kka0)--(kka0|- ka0);
-\draw(0,\ksepY+\kul+4*\kpin)node[right]{$A1$}--++(-3*\kpin,0)coordinate(kka1)--(kka1|- ka1);
+\draw(0,\ksepY+\kul+3*\kpin)node[right]{$A_0$}--++(-2*\kpin,0)coordinate(kka0)--(kka0|- ka0);
+\draw(0,\ksepY+\kul+4*\kpin)node[right]{$A_1$}--++(-3*\kpin,0)coordinate(kka1)--(kka1|- ka1);
 \end{tikzpicture}
 \caption{}
 \end{subfigure}
@@ -932,8 +932,8 @@ node[right]{\RL{لفظ 0}};
 \pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
 \draw[thick](0,0) rectangle++(\kxdim,\kydim);
 \draw(0.5*\kxdim,\kydim)node[above]{\text{\RL{\عددی{8\times 4}  حافظہ}}};
-\foreach \x/\a/\b in {0/A0/A0,1/A1/A1,2/A2/A2}{\draw(0,\kul+2*\kpsep+\x*\kpsep)node[right]{$\a$}--++(-\kpin,0)node[left]{$\b$};}
-\foreach \x/\a/\b in {0/{I/O0}/D0,1/{I/O1}/D1,2/{I/O2}/D2,3/{I/O3}/D3}{\draw(\kxdim,\kul+\kpin+\x*\kpsep)node[left]{$\a$}--++(\kpin,0)node[right]{$\b$};}
+\foreach \x/\a/\b in {0/{A_0}/{A_0},1/{A_1}/{A_1},2/{A_2}/{A_2}}{\draw(0,\kul+2*\kpsep+\x*\kpsep)node[right]{$\a$}--++(-\kpin,0)node[left]{$\b$};}
+\foreach \x/\a/\b in {0/{I\!/\!O_0}/D_0,1/{I\!/\!O_1}/D_1,2/{I\!/\!O_2}/D_2,3/{I\!/\!O_3}/D_3}{\draw(\kxdim,\kul+\kpin+\x*\kpsep)node[left]{$\a$}--++(\kpin,0)node[right]{$\b$};}
 \draw(0,\kul)node[right]{$\overline{\text{لکھ}}$}--++(-\kpin,0)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
 \draw(0,\kul)++(-0.05,0)node[ocirc]{};
 \end{tikzpicture}
@@ -944,39 +944,180 @@ node[right]{\RL{لفظ 0}};
 \end{figure}
 
 
-شکل \حوالہء{9.14 }-ا میں تین پتہ بِٹ کی تمام ترتیب دی گئی ہیں۔ (شکل \حوالہء{9.13} کو دیکھتے ہوئے آگے پڑھیں۔) پست \عددی{A_2} سے مراد پست \عددی{\overline{\text{\RL{بیدار0}}}} اور بلند \عددی{\overline{\text{\RL{بیدار1}}}} ہوگا جس سے حافظہ 0 جاگ اٹھتا ہے اور حافظہ 1 نڈھال رہتا ہے۔اسی طرح بلند \عددی{A_2} سے \عددی{\overline{\text{\RL{بیدار0}}}} بلند اور \عددی{\overline{\text{\RL{بیدار1}}}} پست ہو گا جس سے حافظہ 0 نڈھال اور حافظہ 1 جاگ اٹھے گا ۔
+شکل  \حوالہ{شکل_حافظہ_کل_میں_چھوٹے_کا_مقام}-ا میں تین پتہ بِٹ کی تمام  ترتیب دی گئی ہیں۔ (شکل \حوالہ{شکل_حافظہ_پختہ_لکھا_مواد}  دیکھتے ہوئے آگے پڑھیں۔) پست \عددی{A_2} سے مراد پست \عددی{\overline{\text{\RL{بیدار0}}}} اور بلند \عددی{\overline{\text{\RL{بیدار1}}}} ہوگا جس سے حافظہ 0 جاگ اٹھتا ہے اور حافظہ 1 نڈھال رہتا ہے۔اسی طرح بلند \عددی{A_2} سے \عددی{\overline{\text{\RL{بیدار0}}}} بلند اور \عددی{\overline{\text{\RL{بیدار1}}}} پست ہو گا جس سے حافظہ 0 نڈھال اور حافظہ 1 جاگ اٹھے گا ۔
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kystep}{0.5}
+\pgfmathsetmacro{\kxstep}{1}
+\foreach \x/\a in {0/1,1/1,2/1,3/1,4/0,5/0,6/0,7/0,8/{A_2}}{\draw(0,\x*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/1,1/1,2/0,3/0,4/1,5/1,6/0,7/0,8/{A_1}}{\draw(\kxstep,\x*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/1,1/0,2/1,3/0,4/1,5/0,6/1,7/0,8/{A_0}}{\draw(2*\kxstep,\x*\kystep)node[]{$\a$};}
+\draw(-0.5*\kxstep,7.5*\kystep)--++(3*\kxstep,0);
+\draw[dashed](0,5.5*\kystep) circle (0.5 and 1.9*\kystep);
+\draw[](-0.5,5.5*\kystep) to [out=180,in=-45]++(-2,0.25)node[above]{\RL{حافظہ \عددی{0} بیدار ہے}};
+\draw[dashed](0,1.5*\kystep) circle (0.5 and 1.9*\kystep);
+\draw[](-0.5,1.5*\kystep) to [out=180,in=45]++(-2,-0.25)node[below]{\RL{حافظہ \عددی{1} بیدار ہے}};
+\draw[dashed](0.75*\kxstep,6.5*\kystep) rectangle ++(1.5*\kxstep,0.9*\kystep);
+\draw[] (0.75*\kxstep,6.5*\kystep) ++(1.5*\kxstep,0.45*\kystep) to [out=0,in=-150]++(2,0.25)node[right]{\RL{حافظہ \عددی{0} کا مقام \عددی{0}}};
+\draw[dashed](0.75*\kxstep,2.5*\kystep) rectangle ++(1.5*\kxstep,0.9*\kystep);
+\draw[] (0.75*\kxstep,2.5*\kystep) ++(1.5*\kxstep,0.45*\kystep) to [out=0,in=-150]++(2,0.25)node[right]{\RL{حافظہ \عددی{1} کا مقام \عددی{0}}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kystep}{0.5}
+\pgfmathsetmacro{\kxstep}{1.25}
+\pgfmathsetmacro{\ksepX}{4}
+\pgfmathsetmacro{\ksepY}{0.25}
+\draw[](0,0)--++(0,8*\kystep)  (\kxstep,0)--++(0,8*\kystep);
+\foreach \x in {0,1,...,8}{\draw(0,\x*\kystep)--++(\kxstep,0);}
+\foreach \x in {0,1,...,7}{\draw(0.5*\kxstep,0.5*\kystep+\x*\kystep)node[]{\RL{مقام \, \x}};}
+\draw(0.5*\kxstep,0)node[below]{$8\times 4$};
+\draw[](-\ksepX,-\ksepY)--++(0,4*\kystep)  (-\ksepX+\kxstep,-\ksepY)--++(0,4*\kystep);
+\foreach \x in {0,1,...,4}{\draw(-\ksepX,-\ksepY+\x*\kystep)--++(\kxstep,0);}
+\foreach \x in {0,1,...,3}{\draw(-\ksepX+0.5*\kxstep,-\ksepY+0.5*\kystep+\x*\kystep)node[]{\RL{مقام \, \x}};}
+\draw[](-\ksepX,\ksepY+4*\kystep)--++(0,4*\kystep)  (-\ksepX+\kxstep,\ksepY+4*\kystep)--++(0,4*\kystep);
+\foreach \x in {0,1,...,4}{\draw(-\ksepX,\ksepY+\x*\kystep+4*\kystep)--++(\kxstep,0);}
+\foreach \x in {0,1,...,3}{\draw(-\ksepX+0.5*\kxstep,\ksepY+0.5*\kystep+\x*\kystep+4*\kystep)node[]{\RL{مقام \, \x}};}
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt}](0,0.1)--++(0,4*\kystep-0.2);
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt}](0,4*\kystep+0.1)--(0,8*\kystep-0.1);
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt,mirror}](-\ksepX+\kxstep,-\ksepY+0.1)--++(0,4*\kystep-0.2);
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt,mirror}](-\ksepX+\kxstep,4*\kystep+\ksepY+0.1)--++(0,4*\kystep-0.2);
+\draw[-stealth] (-\ksepX+\kxstep+0.5,-\ksepY+2*\kystep) to [out=0,in=180] (-0.5,2*\kystep);
+\draw[-stealth] (-\ksepX+\kxstep+0.5,\ksepY+6*\kystep) to [out=0,in=180] (-0.5,6*\kystep);
+\draw(-\ksepX,-\ksepY+2*\kystep)node[left]{\RL{\عددی{4\times 4} حافظہ 0}};
+\draw(-\ksepX,\ksepY+6*\kystep)node[left]{\RL{\عددی{4\times 4} حافظہ 1}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{کل حافظہ میں چھوٹے حافظوں کا مقام}
+\label{شکل_حافظہ_کل_میں_چھوٹے_کا_مقام}
+\end{figure}
 
 یوں پست \عددی{A_2} کی صورت میں پتہ کے باقی دو بِٹ \عددی{A_0} اور \عددی{A_1} حافظہ 0 کے مختلف مقامات تک رسائی ممکن بنائیں گے۔ پتہ \عددی{000_2} حافظہ 0 کے صفرویں مقام اور پتہ \عددی{011_2} حافظہ 0 کے تیسرے مقام تک رسائی دیتا ہے۔
 
+اسی طرح بلند \عددی{A_2} کی صورت میں پتہ کے باقی دو بِٹ \عددی{A_0} اور \عددی{A_1} حافظہ 1کے مختلف مقامات تک رسائی ممکن بنائیں گے۔ پتہ \عددی{000_2} حافظہ 1 کے صفرویں اور پتہ \عددی{011_2} حافظہ 1کے تیسرے مقام تک رسائی دیتا ہے۔
 
 
-اسی طرح بلند \عددی{A_2} کی صورت میں پتہ کے باقی دو بِٹ \عددی{A_0} اور \عددی{A_1} حافظہ 1کے مختلف مقامات تک رسائی ممکن بنائیں گے۔ پتہ \عددی{000_2} حافظہ 1کے صفرویں اور پتہ \عددی{011_2} حافظہ 1کے تیسرے مقام تک رسائی دیتا ہے۔
-
-
-گزشتہ دو نثر پاروں کا خلاصہ درج ذیل ہے۔ دو عدد چار لفظ حافظے مل کر ایک عدد آٹھ لفظ حافظے کے طور پر کام کرتے ہیں۔الفاظ کی لمبائی جوں کی توں چار بِٹ رہتی ہے۔اس طرح پتہ \عددی{000_2} کل حافظے کے صفرویں مقام تک رسائی دیتا ہے، پتہ \عددی{011_2} کل حافظے کے تیسرے، پتہ \عددی{100_2} کل حافظہ کے چوتھے اور پتہ \عددی{111_2} ساتویں مقام تک رسائی دیتا ہے ۔ یوں دو عدد حافظے جوڑ کر ایک عدد حافظہ حاصل کیا جا سکتا ہے اور ان کی اندرونی ساخت پر ہر وقت غور کرنے کی ضرورت نہیں۔شکل \حوالہء{ 9.13 }-ب میں اس حقیقت کو مدِ نظر رکھتے ہوئے ان دو حافظوں بمع نفی گیٹ کو بطور ایک \عددی{8\times 4} حافظہ دکھایا گیا ہے جس کے تین پتہ بِٹ اور چار مواد بِٹ ہیں۔اسی طرح شکل \حوالہء{9.14 }-ب میں تین بِٹ پتہ کی نسبت سے دونوں حافظوں کے مقامات دکھائے گئے ہیں۔اس شکل سے واضح ہے کہ دو چھوٹے حافظوں کو پتہ کے لحاظ سے علیحدہ علیحدہ مقامات پر رکھا گیا ہے اور حافظہ۔0 کے آخری لفظ کے اگلے مقام پر حافظہ۔1 کا صفرواں لفظ پایا جاتا ہے۔یوں پتہ کے لحاظ سے ان دو حافظوں کو سلسلہ وار قریب رکھا گیا ہے۔ دو یا دو سے زیادہ حافظے جوڑتے وقت اس طرح کی تصوراتی شکل ذہن میں بنایا کریں۔
+گزشتہ دو نثر پاروں کا خلاصہ درج ذیل ہے۔  چار لفظ  کے دو حافظے مل کر  آٹھ لفظ   حافظہ کے طور پر کام کرتے ہیں۔الفاظ کی لمبائی جوں کی توں چار بِٹ رہتی ہے۔اس طرح پتہ \عددی{000_2} کل حافظے کے صفرویں مقام تک رسائی دیتا ہے، پتہ \عددی{011_2} کل حافظے کے تیسرے، پتہ \عددی{100_2} کل حافظہ کے چوتھے اور پتہ \عددی{111_2} ساتویں مقام تک رسائی دیتا ہے ۔ یوں دو عدد حافظے جوڑ کر ایک عدد حافظہ حاصل کیا جا سکتا ہے اور ان کی اندرونی ساخت پر ہر وقت غور کرنے کی ضرورت نہیں۔شکل  \حوالہ{شکل_حافظہ_پختہ_لکھا_مواد}-ب میں اس حقیقت کو مدِ نظر رکھتے ہوئے ان دو حافظوں بمع نفی گیٹ کو بطور ایک \عددی{8\times 4} حافظہ دکھایا گیا ہے جس کے تین پتہ بِٹ اور چار مواد بِٹ ہیں۔اسی طرح شکل  \حوالہ{شکل_حافظہ_کل_میں_چھوٹے_کا_مقام}-ب میں تین بِٹ پتہ کی نسبت سے دونوں حافظوں کے مقامات دکھائے گئے ہیں۔اس شکل سے واضح ہے کہ دو چھوٹے حافظوں کو پتہ کے لحاظ سے علیحدہ علیحدہ مقامات پر رکھا گیا ہے اور حافظہ 0 کے آخری لفظ کے اگلے مقام پر حافظہ 1 کا صفرواں لفظ پایا جاتا ہے۔یوں پتہ کے لحاظ سے ان دو حافظوں کو سلسلہ وار قریب رکھا گیا ہے۔ دو یا دو سے زیادہ حافظے جوڑتے وقت اس طرح کی تصوراتی شکل ذہن میں بنایا کریں۔
 	
 مذکورہ بالا میں \عددی{4\times 4} استعداد کے حافظے استعمال کیے گئے جنہیں دو پتہ بِٹ \عددی{A_0} اور \عددی{A_1} درکار تھے۔ان دو بِٹ کو استعمال کر کے بیدار حافظے کے مختلف مقامات تک رسائی حاصل کی جاتی ہے جبکہ اگلا پتہ بِٹ \عددی{A_2} استعمال کر کے ان حافظوں کو پتہ کے لحاظ سے مختلف مقامات پر رکھا گیا۔یہی طریقہ کار زیادہ استعداد کے حافظوں کے ساتھ بھی استعمال کیا جا سکتا ہے۔یوں دو عدد دس بِٹ پتہ کے حافظے جوڑتے وقت \عددی{A_0} تا \عددی{A_9} بیدار حافظہ کے مختلف مقامات تک رسائی دیں گے جبکہ \عددی{A_{10}} انہیں جداگانہ بیدار کرے گا۔ 
 
 \جزوحصہ{ تین \عددی{16\times 8} حافظے سلسلہ وار جوڑ کر ایک \عددی{48\times 8} حافظے کا حصول}
-شکل \حوالہء{9.15}-ا میں پست مخارج شناخت کار استعمال کر کے تین \عددی{ 16\times 8} حافظے (حافظہ 0، حافظہ 1، حافظہ 2) سلسلہ وار جوڑے گئے ہیں۔تین حافظوں کے ایک جیسے پتہ بِٹ ساتھ ساتھ جوڑے گئے ہیں۔ یوں تینوں کے \عددی{A_0} ایک ساتھ جڑے ہیں، وغیرہ۔ اسی طرح ایک جیسے مواد بِٹ ساتھ ساتھ جوڑے گئے ہیں، لہٰذا تینوں \عددی{D_0} ایک ساتھ جڑے ہیں، وغیرہ۔ تاہم ان کے \عددی{\overline{\text{\RL{بیدار}}}} مداخل علیحدہ علیحدہ رکھے گئے ہیں تا کہ کسی ایک وقت پر صرف ایک حافظے کا \عددی{\overline{\text{\RL{بیدار}}}} فعال ( پست ) کر کے \عددی{A_0} تا \عددی{A_3} کے ذریعہ اس ایک حافظے کے سولہ مقامات تک رسائی حاصل کی جا سکے۔
+شکل  \حوالہ{شکل_حافظہ_تین_سلسلہ_وار} میں پست مخارج شناخت کار استعمال کر کے تین \عددی{ 16\times 8} حافظے (حافظہ 0، حافظہ 1، حافظہ 2) سلسلہ وار جوڑے گئے ہیں۔تین حافظوں کے ایک جیسے پتہ بِٹ ساتھ ساتھ جوڑے گئے ہیں۔ یوں تینوں کے \عددی{A_0} ایک ساتھ جڑے ہیں، وغیرہ۔ اسی طرح ایک جیسے مواد بِٹ ساتھ ساتھ جوڑے گئے ہیں، لہٰذا تینوں \عددی{D_0} ایک ساتھ جڑے ہیں، وغیرہ۔ تاہم ان کے \عددی{\overline{\text{\RL{بیدار}}}} مداخل علیحدہ علیحدہ رکھے گئے ہیں تا کہ کسی ایک وقت پر صرف ایک حافظے کا \عددی{\overline{\text{\RL{بیدار}}}} فعال ( پست ) کر کے \عددی{A_0} تا \عددی{A_3} کے ذریعہ اس ایک حافظے کے سولہ مقامات تک رسائی حاصل کی جا سکے۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+2*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+7*\kpsep}
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{\kydim+0.75}
+\draw[thick](0,0) rectangle++(\kxdim,\kydim);
+\draw[thick](0,\ksepY) rectangle++(\kxdim,\kydim);
+\draw[thick](0,2*\ksepY) rectangle++(\kxdim,\kydim);
+\draw(0.5*\kxdim,\kydim)node[above]{\text{\RL{حافظہ 0}}};
+\draw(0.5*\kxdim,\ksepY+\kydim)node[above]{\text{\RL{حافظہ 1}}};
+\draw(0.5*\kxdim,2*\ksepY+\kydim)node[above]{\text{\RL{حافظہ 2}}};
+\foreach \x in {0,1,...,7}{\draw(\kxdim,2*\ksepY+\kul+\x*\kpsep)node[left]{$I\!/\!O_\x$}--++(\kpin+3.5*\kpin+\kpin,0)node[right]{$D_\x$};}
+\foreach \x in {0,1,...,7}{\draw(\kxdim,\kul+\x*\kpsep)node[left]{$I\!/\!O_\x$}--++(\kpin+3.5*\kpin-\x*0.5*\kpin,0)--++(0,2*\ksepY);}
+\foreach \x in {0,1,...,7}{\draw(\kxdim,\ksepY+\kul+\x*\kpsep)node[left]{$I\!/\!O_\x$}--++(\kpin+3.5*\kpin-\x*0.5*\kpin,0);}
+\foreach \x in {0,1,2,3}{\draw(0,2*\ksepY+\kul+3*\kpsep+\x*\kpsep)node[right]{$A_\x$}--++(-3*\kxdim-\kpin,0)node[left]{$A_\x$};}
+\foreach \x in {0,1,2,3}{\draw(0,0*\ksepY+\kul+3*\kpsep+\x*\kpsep)node[right]{$A_\x$}--++(-\kpin-2*\kpin+0.5*\x*\kpin,0)--++(0,2*\ksepY);}
+\foreach \x in {0,1,2,3}{\draw(0,1*\ksepY+\kul+3*\kpsep+\x*\kpsep)node[right]{$A_\x$}--++(-\kpin-2*\kpin+0.5*\x*\kpin,0);}
+\draw[thick](-3*\kxdim,2*\ksepY+\kydim-1*\kpsep) rectangle ++(\kxdim,2*\kul+3*\kpsep)coordinate(kDecoder);
+\draw(kDecoder)++(-0.5*\kxdim,0)node[above]{\RL{شناخت کار}};
+\foreach \x/\a in {0/4,1/5}{\draw(-3*\kxdim,2*\ksepY+\kydim-1*\kpsep+\kul+\kpsep+\x*\kpsep)node[right]{$a_\x$}--++(-\kpin,0)node[left]{$A_\a$};}
+\draw(-3*\kxdim+\kxdim,2*\ksepY+\kydim-1*\kpsep+\kul+0*\kpsep)node[left]{$\overline{y_0}$}--++(\kpin,0)|-(0,\kul)node[right]{$\overline{\text{\RL{بیدار0}}}$}; 
+\draw(-3*\kxdim+\kxdim,2*\ksepY+\kydim-1*\kpsep+\kul+1*\kpsep)node[left]{$\overline{y_1}$}--++(\kpin+0.5*\kpin,0)|-(0,\ksepY+\kul)node[right]{$\overline{\text{\RL{بیدار1}}}$}; 
+\draw(-3*\kxdim+\kxdim,2*\ksepY+\kydim-1*\kpsep+\kul+3*\kpsep)node[left]{$\overline{y_3}$}--++(\kpin+\kpin,0)|-(0,2*\ksepY+\kul)node[right]{$\overline{\text{\RL{بیدار3}}}$}; 
+\draw(-3*\kxdim+\kxdim,2*\ksepY+\kydim-1*\kpsep+\kul+2*\kpsep)node[left]{$\overline{y_2}$}--++(0.5*\kpin,0);
+\foreach \x in {0,1,2,3}{\draw(-3*\kxdim+\kxdim,2*\ksepY+\kydim-1*\kpsep+\kul+\x*\kpsep)++(0.05,0)node[ocirc]{};}
+\draw(0,2*\ksepY+\kul+1*\kpsep)node[right]{$\overline{\text{لکھ}}$}--++(-3*\kxdim-\kpin,0)coordinate[pos=0.4](rdWr)node[left]{$\overline{\text{لکھ}}/\text{پڑھ}$};
+\draw(rdWr)|-(0,\kul+\kpsep)node[right]{$\overline{\text{لکھ}}$};
+\draw(0,\ksepY+\kul+\kpsep)coordinate(kkL)node[right]{$\overline{\text{لکھ}}$}--(kkL -| rdWr);
+\foreach \x in {0,1}{\draw(0,\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
+\foreach \x in {0,1}{\draw(0,\ksepY+\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
+\foreach \x in {0,1}{\draw(0,2*\ksepY+\kul+\x*\kpsep)++(-0.05,0)node[ocirc]{};}
+\end{tikzpicture}
+\caption{حافظے جوڑنے کا عمومی طریقہ}
+\label{شکل_حافظہ_تین_سلسلہ_وار}
+\end{figure}
 
  شناخت کار کو پتہ بِٹ \عددی{A_4} اور \عددی{A_5} بطور مداخل فراہم کیے گئے جبکہ اس کے مخارج \عددی{\overline{y_0}}، \عددی{\overline{y_1}}، \عددی{\overline{y_2}}، اور \عددی{\overline{y_3}} ہیں، جو مطلوبہ حافظے کی شناخت کرتے ہیں۔\اصطلاح{شناخت کار } کا نام یہیں سے نکلا ہے۔
 
+\begin{table}
+\caption{جدول برائے شکل \حوالہ{شکل_حافظہ_تین_سلسلہ_وار}}
+\label{جدول_حافظہ_تین_سلسلہ_وار}
+\centering
+\begin{otherlanguage}{english}
+\begin{tabular}{CC|CCCC|C}
+\toprule
+A_5&A_4&\overline{y_3}&\overline{y_2}&\overline{y_1}&\overline{y_0}& A_5A_4A_3A_2A_1A_0\\
+\midrule
+0&0&1&1&1&0& 000000-001111\\
+0&1&1&1&0&1& 010000-011111\\
+1&0&1&0&1&1& 100000-101111\\
+1&1&0&1&1&1& 110000-111111\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{table}
+جیسا آپ جانتے ہیں، شناخت کار کے مداخل کی ہر ترتیب ایک منفرد مخارج چنتی ہے۔جدول \حوالہ{جدول_حافظہ_تین_سلسلہ_وار}  شناخت کار کے مخارج دیتا ہے۔اس جدول میں دائیں جانب ایک اضافی قطار بنائی گئی ہے۔آئیں اس جدول پر غور کرتے ہیں۔پست \عددی{A_4} اور پست \عددی{A_5} کی صورت میں \عددی{\overline{y_0}} پست ہو گا جو حافظہ 0 کے \عددی{\overline{\text{\RL{بیدار0}}}} کے ساتھ جڑا ہے۔یوں \عددی{A_5A_4=00}حافظہ 0 کی شناخت کر کے اسے بیدار کرتا ہے۔ \عددی{A_5A_4=00} رکھتے ہوئے باقی چار پتہ بِٹ آزادانہ طور پر بلند یا پست کیے جا سکتے ہیں یعنی \عددی{A_3A_2A_1A_0} کی قیمت \عددی{0000_2} تا \عددی{1111_2} ہو سکتی ہے ، جو حافظہ 0 کے سولہ مقامات تک رسائی ممکن بناتا ہے۔حافظہ 0 کے تمام مقامات تک رسائی کے لئے یوں پتہ بِٹ \عددی{A_5A_4A_3A_2A_1A_0} کی قیمت \عددی{000000_2} تا \عددی{001111_2} ہو گی۔جدول کی دائیں قطار میں یہ حدود درج ہیں اور شکل \حوالہ{شکل_حافظہ_پتہ_فضا}  میں نچلے سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔حافظہ 0 کا آخری مقام کل حافظہ کے مقام \عددی{001111_2} پر پایا جاتا ہے۔
 
-جیسا آپ جانتے ہیں، شناخت کار کے مداخل کی ہر ترتیب ایک منفرد مخارج چنتی ہے۔شکل-ب میں شناخت کار کا جدول دیا گیا ہے جس میں دائیں جانب ایک اضافی قطار بنائی گئی ہے۔آئیں اس جدول پر غور کرتے ہیں۔پست \عددی{A_4} اور پست \عددی{A_5} کی صورت میں \عددی{\overline{y_0}} پست ہو گا جو حافظہ۔0 کے \عددی{\overline{\text{\RL{بیدار0}}}} کے ساتھ جڑا ہے۔یوں \عددی{A_5A_4=00}حافظہ۔0 کی شناخت کر کے اسے بیدار کرتا ہے۔ \عددی{A_5A_4=00} رکھتے ہوئے باقی چار پتہ بِٹ آزادانہ طور پر بلند یا پست کیے جا سکتے ہیں یعنی \عددی{A_3A_2A_1A_0} کی قیمت \عددی{0000_2} تا \عددی{1111_2} ہو سکتی ہے ، جو حافظہ۔0 کے سولہ مقامات تک رسائی ممکن بناتا ہے۔حافظہ 0 کے تمام مقامات تک رسائی کے لئے یوں پتہ بِٹ \عددی{A_5A_4A_3A_2A_1A_0} کی قیمت \عددی{000000_2} تا \عددی{001111_2} ہو گی۔جدول کی دائیں قطار میں یہ حدود درج ہیں اور شکل-ج میں نچلے سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔حافظہ۔0 کا آخری مقام کل حافظہ کے مقام \عددی{001111_2} پر پایا جاتا ہے۔
+بلند \عددی{A_4} اور پست \عددی{A_5} کی صورت میں \عددی{\overline{y_1}} پست ہو گا جو \عددی{\overline{\text{\RL{بیدار1}}}} سے جڑا ہے۔یوں \عددی{A_5A_4=01} حافظہ 1 کی شناخت کر کے اسے بیدار کرتا ہے۔ \عددی{A_5A_4=01} رکھتے ہوئے باقی چار پتہ بِٹ آزادانہ طور پر بلند یا پست کیے جا سکتے ہیں یعنی \عددی{A_3A_2A_1A_0} کی قیمت \عددی{0000_2} تا \عددی{1111_2} ہو سکتی ہے، جو حافظہ 1 کے سولہ مقامات تک رسائی دیتا ہے۔حافظہ 1 کے مختلف مقامات تک رسائی کے لئے \عددی{A_5A_4A_3A_2A_1A_0} کی قیمت \عددی{010000_2} تا \عددی{011111_2} ہو گی۔جدول کی دائیں قطار میں یہ حدود درج ہیں۔شکل \حوالہ{شکل_حافظہ_پتہ_فضا} میں نیچے سے سولہ خانے چھوڑ کر اگلے سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔جیسا پہلے ذکر کیا گیا، حافظہ 0 کا آخری مقام کل حافظہ کے مقام \عددی{001111_2} پر پایا جاتا ہے جبکہ حافظہ 1 کا صفرواں مقام اس سے اگلے مقام یعنی \عددی{010000_2} پر پایا جاتا ہے۔شکل \حوالہ{شکل_حافظہ_پتہ_فضا} سے ظاہر ہے جہاں حافظہ 0 کا اختتام ہے وہیں سے حافظہ 1 کی شروعات ہوتی ہے۔
 
-بلند \عددی{A_4} اور پست \عددی{A_5} کی صورت میں \عددی{\overline{y_1}} پست ہو گا جو \عددی{\overline{\text{\RL{بیدار1}}}} سے جڑا ہے۔یوں \عددی{A_5A_4=01} حافظہ۔1 کی شناخت کر کے اسے بیدار کرتا ہے۔ \عددی{A_5A_4=01} رکھتے ہوئے باقی چار پتہ بِٹ آزادانہ طور پر بلند یا پست کیے جا سکتے ہیں یعنی \عددی{A_3A_2A_1A_0} کی قیمت \عددی{0000_2} تا \عددی{1111_2} ہو سکتی ہے، جو حافظہ۔1 کے سولہ مقامات تک رسائی دیتا ہے۔حافظہ -1 کے مختلف مقامات تک رسائی کے لئے \عددی{A_5A_4A_3A_2A_1A_0} کی قیمت \عددی{010000_2} تا \عددی{011111_2} ہو گی۔جدول کی دائیں قطار میں یہ حدود درج ہیں۔شکل-ج میں نیچے سے سولہ خانے چھوڑ کر اگلے سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔جیسا پہلے ذکر کیا گیا، حافظہ۔0 کا آخری مقام کل حافظہ کے مقام \عددی{001111_2} پر پایا جاتا ہے جبکہ حافظہ۔1 کا صفرواں مقام اس سے اگلے مقام یعنی \عددی{010000_2} پر پایا جاتا ہے۔شکل-ج سے ظاہر ہے جہاں حافظہ۔0 کا اختتام ہے وہیں سے حافظہ۔1 کی شروعات ہوتی ہے۔
+پست \عددی{A_4} اور بلند \عددی{A_5} پست \عددی{\overline{y_2}} دے گا جو کہ کسی بھی حافظے کے ساتھ نہیں جڑا۔ یوں \عددی{A_5A_4=10} کسی بھی حافظے کی شناخت نہیں کرتے لہٰذا باقی چار پتہ بِٹ کی قیمتیں \عددی{0000_2} تا \عددی{1111_2} کرنے سے کسی بھی حافظے کی کسی بھی مقام تک رسائی نہیں ہو گی۔ یوں پتہ \عددی{100000_2} تا \عددی{101111_2} حافظے کے کسی بھی مقام تک رسائی نہیں دیں گے لہٰذا اس خطے میں نہ مواد لکھا جا سکتا ہے اور نہ ہی اس خطے سے مواد پڑھا جا سکتا ہے۔ جدول کی دائیں قطار میں یہ حدود درج ہیں۔ شکل \حوالہ{شکل_حافظہ_پتہ_فضا}  میں انہیں \موٹا{غیر مستعمل مقامات} لکھ کر ظاہر کیا گیا ہے۔
 
-پست \عددی{A_4} اور بلند \عددی{A_5} پست \عددی{\overline{y_2}} دے گا جو کہ کسی بھی حافظے کے ساتھ نہیں جڑا۔ یوں \عددی{A_5A_4=10} کسی بھی حافظے کی شناخت نہیں کرتے لہٰذا باقی چار پتہ بِٹ کی قیمتیں \عددی{0000_2} تا \عددی{1111_2} کرنے سے کسی بھی حافظے کی کسی بھی مقام تک رسائی نہیں ہو گی۔ یوں پتہ \عددی{100000_2} تا \عددی{101111_2} حافظے کے کسی بھی مقام تک رسائی نہیں دیں گے لہٰذا اس خطے میں نہ مواد لکھا جا سکتا ہے اور نہ ہی اس خطے سے مواد پڑھا جا سکتا ہے۔ جدول کی دائیں قطار میں یہ حدود درج ہیں۔ شکل-ج میں ان مقامات کو \موٹا{ خالی مقامات }ظاہر کیا گیا ہے۔
+بلند \عددی{A_4} اور بلند \عددی{A_5} پست \عددی{\overline{y_3}} دے کر حافظہ 3 کو بیدار کرتا ہے۔ \عددی{A_5A_4=11} رکھتے ہوئے باقی چار پتہ بِٹ کی قیمتیں \عددی{0000_2} تا \عددی{1111_2} کرنے حافظہ 3 کے سولہ مقامات تک رسائی ہو گی۔یوں \عددی{A_5A_4A_3A_2A_1A_0} کی قیمت \عددی{110000_2} تا \عددی{111111_2} کرنے سے حافظہ 3 کے سولہ مقامات تک رسائی ہو گی۔ جدول کی دائیں قطار میں یہ حدود درج ہیں۔شکل \حوالہ{شکل_حافظہ_پتہ_فضا}  میں بالائی سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔  آپ دیکھ سکتے ہیں کہ جہاں خالی مقامات کا اختتام ہوتا ہے وہیں سے حافظہ 3 شروع ہوتا ہے۔
 
-بلند \عددی{A_4} اور بلند \عددی{A_5} پست \عددی{\overline{y_3}} دے کر حافظہ۔3 کو بیدار کرتا ہے۔ \عددی{A_5A_4=11} رکھتے ہوئے باقی چار پتہ بِٹ کی قیمتیں \عددی{0000_2} تا \عددی{1111_2} کرنے حافظہ 3 کے سولہ مقامات تک رسائی ہو گی۔یوں \عددی{A_5A_4A_3A_2A_1A_0} کی قیمت \عددی{110000_2} تا \عددی{111111_2} کرنے سے حافظہ۔3 کے سولہ مقامات تک رسائی ہو گی۔ جدول کی دائیں قطار میں یہ حدود درج ہیں۔شکل-ج میں بالائی سولہ خانے ان مقامات کو ظاہر کرتے ہیں۔۔شکل-ج میں ظاہر ہے کہ جہاں خالی مقامات کا اختتام ہوتا ہے وہیں سے حافظہ۔3 شروع ہوتا ہے۔
-
-یہاں کل چھ پتہ بِٹ \عددی{A_0} تا \عددی{A_5} استعمال کیے گئے جو چونسٹھ \عددی{(2^6=64)} مقامات تک رسائی دے سکتے ہیں۔ہم نے سولہ سولہ لفظ کے تین حافظے استعمال کرتے ہوئے اڑتالیس \عددی{ (16\times 3=48)} مقامات استعمال کیے جبکہ سولہ \عددی{(64-48=16)} مقامات (\موٹا{خالی مقامات}) کا استعمال نہیں کیا گیا۔اگرچہ ان تین حافظوں کو سلسلہ وار جوڑا گیا ہے ، تاہم ان میں صرف حافظہ۔0 اور حافظہ۔1 قریب قریب ہیں جبکہ حافظہ۔3 دور رکھا گیا ہے۔ہم سولہ لفظ کا مزید ایک حافظہ شناخت کار کے ساتھ جوڑ کر تمام چونسٹھ مقامات بروئے کار لا سکتے ہیں۔
-
+یہاں کل چھ پتہ بِٹ \عددی{A_0} تا \عددی{A_5} استعمال کیے گئے جو چونسٹھ \عددی{(2^6=64)} مقامات تک رسائی دے سکتے ہیں۔ہم نے سولہ سولہ لفظ کے تین حافظے استعمال کرتے ہوئے اڑتالیس \عددی{ (16\times 3=48)} مقامات استعمال کیے جبکہ سولہ \عددی{(64-48=16)} مقامات (\موٹا{خالی مقامات}) کا استعمال نہیں کیا گیا۔اگرچہ ان تین حافظوں کو سلسلہ وار جوڑا گیا ہے ، تاہم ان میں صرف حافظہ 0 اور حافظہ 1 قریب قریب ہیں جبکہ حافظہ 3 دور رکھا گیا ہے۔ہم سولہ لفظ کا مزید ایک حافظہ شناخت کار کے ساتھ جوڑ کر تمام چونسٹھ مقامات بروئے کار لا سکتے ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kystep}{0.15}
+\pgfmathsetmacro{\kxstep}{1.25}
+\pgfmathsetmacro{\ksepX}{4}
+\pgfmathsetmacro{\ksepY}{0.25}
+\draw[](0,0)--++(0,32*\kystep)  (\kxstep,0)--++(0,32*\kystep);
+\foreach \x in {0,1,...,32}{\draw(0,\x*\kystep)--++(\kxstep,0);}
+\draw[](0,48*\kystep)--++(0,16*\kystep)  (\kxstep,48*\kystep)--++(0,16*\kystep);
+\foreach \x in {0,1,...,16}{\draw(0,48*\kystep+\x*\kystep)--++(\kxstep,0);}
+\draw(0,32*\kystep)--++(0,16*\kystep)  (\kxstep,32*\kystep)--++(0,16*\kystep);
+\draw[](-\ksepX,0)--++(0,16*\kystep)  (-\ksepX+\kxstep,0)--++(0,16*\kystep);
+\foreach \x in {0,1,...,16}{\draw(-\ksepX,\x*\kystep)--++(\kxstep,0);}
+\draw(-\ksepX,8*\kystep)node[left]{\RL{حافظہ 0}};
+\draw[](-\ksepX,\ksepY+16*\kystep)--++(0,16*\kystep)  (-\ksepX+\kxstep,\ksepY+16*\kystep)--++(0,16*\kystep);
+\foreach \x in {0,1,...,16}{\draw(-\ksepX,\ksepY+16*\kystep+\x*\kystep)--++(\kxstep,0);}
+\draw(-\ksepX,\ksepY+16*\kystep+8*\kystep)node[left]{\RL{حافظہ 1 }};
+\draw[](-\ksepX,2*\ksepY+32*\kystep)--++(0,16*\kystep)  (-\ksepX+\kxstep,2*\ksepY+32*\kystep)--++(0,16*\kystep);
+\foreach \x in {0,1,...,16}{\draw(-\ksepX,2*\ksepY+32*\kystep+\x*\kystep)--++(\kxstep,0);}
+\draw(-\ksepX,2*\ksepY+32*\kystep+8*\kystep)node[left]{\RL{حافظہ 2 }};
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt}](0,0)--++(0,16*\kystep);
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt}](0,16*\kystep)--++(0,16*\kystep);
+\draw[decorate,decoration={brace,amplitude=10pt, raise=2pt}](0,48*\kystep)--++(0,16*\kystep);
+\draw(-0.50,8*\kystep) to [out=170,in=20] (-\ksepX+\kxstep+0.2,10*\kystep);
+\draw(-0.50,24*\kystep) to [out=170,in=20] (-\ksepX+\kxstep+0.2,\ksepY+26*\kystep);
+\draw(-0.50,56*\kystep) to [out=-170,in=45] (-\ksepX+\kxstep+0.2,\ksepY+42*\kystep);
+\draw(0.5*\kxstep,40*\kystep)node[rotate=90,above]{\RL{غیر مستعمل}}node[rotate=90,below]{\RL{مقامات}};
+\end{tikzpicture}
+\caption{مستعمل اور غیر مستعمل مقامات (برائے شکل \حوالہ{شکل_حافظہ_تین_سلسلہ_وار})}
+\label{شکل_حافظہ_پتہ_فضا}
+\end{figure}
 
 
 \جزوحصہ{دو \عددی{4\times 4} حافظے متوازی جوڑ کر \عددی{4\times 8} حافظے کا حصول}
-شکل \حوالہء{ 9.16 }-ا میں دو \عددی{4\times 4} حافظے متوازی جوڑ کر ایک \عددی{4\times 8} حافظہ حاصل کیا گیا ہے۔دونوں حافظے بیک وقت بیدار ہوتے ہیں اور پتہ کے دو بِٹ \عددی{A_0} اور \عددی{A_1} دونوں حافظوں کے چار مقام تک رسائی دیتے ہیں۔حافظہ۔0 کے مواد کو \عددی{D_0} تا \عددی{D_3} جبکہ حافظہ۔1 کے مواد کو \عددی{D_4} تا \عددی{D_7} تصور کر کے 
+شکل \حوالہء{ 9.16 }-ا میں دو \عددی{4\times 4} حافظے متوازی جوڑ کر ایک \عددی{4\times 8} حافظہ حاصل کیا گیا ہے۔دونوں حافظے بیک وقت بیدار ہوتے ہیں اور پتہ کے دو بِٹ \عددی{A_0} اور \عددی{A_1} دونوں حافظوں کے چار مقام تک رسائی دیتے ہیں۔حافظہ 0 کے مواد کو \عددی{D_0} تا \عددی{D_3} جبکہ حافظہ 1 کے مواد کو \عددی{D_4} تا \عددی{D_7} تصور کر کے 
 ان (\عددی{D_0} تا \عددی{D_7})آٹھ بِٹوں کو ایک بائٹ تصور کیا جا سکتا ہے۔اس طرح آپس میں متوازی جڑے دو حافظوں کو \عددی{4\times 8} استعداد کا ایک حافظہ تصور کیا جا سکتا ہے جسے شکل-ب میں تصوراتی شکل دی گئی ہے۔ 
 
 \حصہ{حافظہ کے اوقات کار}
