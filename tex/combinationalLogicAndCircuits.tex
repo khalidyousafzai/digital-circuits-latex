@@ -1147,7 +1147,7 @@ e&a_2&a_1&a_0&d_7&d_6&d_5&d_4&d_3&d_2&d_1&d_0\\
 \pgfmathsetmacro{\kys}{\kbase+5*\kstep}
 \pgfmathsetmacro{\kpin}{0.5}
 \pgfmathsetmacro{\kpina}{\kxsa/2}
-\pgfmathsetmacro{\ke}{\kbase-2.5*\kstep}
+\pgfmathsetmacro{\ke}{0.5*(\kbase-2.5*\kstep)}
 \draw(0*\kxs,0)node[nand port,scale=1,number inputs=4,rotate=-90,anchor=in 1](u7){};
 \draw(1*\kxs,0)node[nand port,scale=1,number inputs=4,rotate=-90,anchor=in 1](u6){};
 \draw(2*\kxs,0)node[nand port,scale=1,number inputs=4,rotate=-90,anchor=in 1](u5){};
@@ -1156,9 +1156,9 @@ e&a_2&a_1&a_0&d_7&d_6&d_5&d_4&d_3&d_2&d_1&d_0\\
 \draw(5*\kxs,0)node[nand port,scale=1,number inputs=4,rotate=-90,anchor=in 1](u2){};
 \draw(6*\kxs,0)node[nand port,scale=1,number inputs=4,rotate=-90,anchor=in 1](u1){};
 \draw(7*\kxs,0)node[nand port,scale=1,number inputs=4,rotate=-90,anchor=in 1](u0){};
-\draw(0.5,\kys)node[not port,scale=1,rotate=-90,anchor=out](u8){};
-\draw(0.5-\kxsa,\kys)node[not port,scale=1,rotate=-90,anchor=out](u9){};
-\draw(0.5-2*\kxsa,\kys)node[not port,scale=1,rotate=-90,anchor=out](u10){};
+\draw(0.5,\kys)node[not port,scale=0.8,rotate=-90,anchor=out](u8){};
+\draw(0.5-\kxsa,\kys)node[not port,scale=0.8,rotate=-90,anchor=out](u9){};
+\draw(0.5-2*\kxsa,\kys)node[not port,scale=0.8,rotate=-90,anchor=out](u10){};
 \draw(u8.in)--++(0,\kpin)node[above]{$a_0$};
 \draw(u9.in)--++(0,\kpin)node[above]{$a_1$};
 \draw(u10.in)--++(0,\kpin)node[above]{$a_2$};
@@ -1170,7 +1170,7 @@ e&a_2&a_1&a_0&d_7&d_6&d_5&d_4&d_3&d_2&d_1&d_0\\
 \draw(u10.in)--++(-\kpina,0)coordinate(kin10);
 \draw(u0.in 1)++(\kpin/2,\kbase+0*\kstep)-|(kin10);
 \draw(u0.in 1)++(\kpin/2,\ke)-|coordinate(ken)(u7.in 4) (ken)--++(-0.25*\kpin,0)
-node[not port,scale=1,anchor=out](u11){} (u11.in)node[left]{$\overline{e}$}node[below,xshift=-0.5em,yshift=-0.5em]{$\overline{\text{مجاز}}$};
+node[not port,scale=0.8,anchor=out](u11){} (u11.in)node[above]{$\overline{e}$}--++(-\kpin,0)node[left]{$\overline{\text{مجاز}}$};
 \draw(u0.in 1)++(\kpin/2,\kbase+1*\kstep)-|(u10.out);
 \draw(u0.in 1)++(\kpin/2,\kbase+2*\kstep)-|(kin9);
 \draw(u0.in 1)++(\kpin/2,\kbase+3*\kstep)-|(u9.out);

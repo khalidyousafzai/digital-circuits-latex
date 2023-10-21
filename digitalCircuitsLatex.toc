@@ -596,7 +596,15 @@
 \contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\(16\times 8\)\: حافظے سلسلہ وار جوڑ کر ایک \:\(48\times 8\)\: حافظے کا حصول}{\arabicdigits {205}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {209}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {209}}{}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {210}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {211}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {213}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {1}}قابل تشکیل ضرب ترکیبی منطقی ادوار}{\arabicdigits {214}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {2}}قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}{\arabicdigits {214}}{}%
@@ -621,4 +629,12 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {253}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {chapter}{جوابات}{\arabicdigits {259}}{}%

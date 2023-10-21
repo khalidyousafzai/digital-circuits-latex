@@ -1299,3 +1299,149 @@ node[right]{\RL{لفظ 0}};
 \end{tikzpicture}
 \caption{}
 \end{figure}
+%============================
+%fig 9.16
+\begin{figure}
+\centering
+\begin{subfigure}{0.55\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+2*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+4*\kpsep}
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{\kydim+0.75}
+\draw[thick](0,0) rectangle++(\kxdim,\kydim);
+\draw[thick](0,\ksepY) rectangle++(\kxdim,\kydim);
+\draw(0.5*\kxdim,\kydim)node[above]{\text{\RL{حافظہ 0}}};
+\draw(0.5*\kxdim,\ksepY+\kydim)node[above]{\text{\RL{حافظہ 1}}};
+\foreach \x/\a in {0/4,1/5,2/6,3/7}{\draw(\kxdim,1*\ksepY+\kul+\kpin+\x*\kpsep)node[left]{$I\!/\!O_\x$}--++(\kpin,0)node[right]{$D_\a$};}
+\foreach \x in {0,1,2,3}{\draw(\kxdim,0*\ksepY+\kul+\kpin+\x*\kpsep)node[left]{$I\!/\!O_\x$}--++(\kpin,0)node[right]{$D_\x$};}
+\foreach \x in {0,1}{\draw(0,\kul+3*\kpin+\x*\kpin)node[right]{$A_\x$}--++(-4*\kpin,0)node[left]{$A_\x$};}
+\draw(0,\kul)node[right]{$\overline{\text{\RL{بیدار 0}}}$}--++( -4*\kpin,0)node[left]{$\overline{\text{\RL{بیدار}}}$};
+\draw(0,\kul+\kpin)node[right]{$\overline{\text{\RL{لکھ}}}$}--++( -4*\kpin,0)node[left]{$\overline{\text{\RL{لکھ}}}/\text{پڑھ}$};
+\draw(0,\ksepY+\kul+3*\kpin)node[right]{$A_0$}--++(-2*\kpin,0)coordinate(aa)--(aa|- 0,\kul+3*\kpin);
+\draw(0,\ksepY+\kul+4*\kpin)node[right]{$A_1$}--++(-2.5*\kpin,0)coordinate(aa)--(aa|- 0,\kul+4*\kpin);
+\draw(0,\ksepY+\kul)node[right]{$\overline{\text{\RL{بیدار 1}}}$}--++(-1*\kpin,0)coordinate(aa)--(aa|- 0,\kul);
+\draw(0,\ksepY+\kul+\kpin)node[right]{$\overline{\text{\RL{لکھ}}}$}--++(-1.5*\kpin,0)coordinate(aa)--(aa|- 0,\kul+\kpin);
+\foreach \x in {0,1}{\draw(0,\kul+\x*\kpin)++(-0.05,0)node[ocirc]{}  (0,\ksepY+\kul+\x*\kpin)++(-0.05,0)node[ocirc]{};}
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.35\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpinA}{0.3}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+2*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+7*\kpsep}
+\pgfmathsetmacro{\ksepX}{1.10}
+\pgfmathsetmacro{\ksepY}{\kydim+0.75}
+\draw[thick](0,0) rectangle++(\kxdim,\kydim);
+\draw(0.5*\kxdim,\kydim)node[above]{حافظہ}node[above,yshift=0.5cm]{$4\times 8$};
+\foreach \x in {0,1,...,7}{\draw(\kxdim,\kul+\x*\kpsep)node[left]{$I\!/\!O_\x$}--++(\kpin,0)node[right]{$D_\x$};}
+\foreach \x in {0,1}{\draw(0,\kul+5*\kpin+\x*\kpsep)node[right]{$A_\x$}--++(-\kpin,0)node[left]{$A_\x$};}
+\draw(0,\kul)node[right]{$\overline{\text{بیدار}}$}--++(-\kpin,0)node[left]{$\overline{\text{بیدار}}$};
+\draw(0,\kul+\kpin)node[right]{$\overline{\text{لکھ}}$}--++(-\kpin,0)node[left]{$\overline{\text{لکھ}}/{\text{پڑھ}}$};
+\draw(0,\kul)++(-0.05,0)node[ocirc]{};
+\draw(0,\kul+\kpin)++(-0.05,0)node[ocirc]{};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}
+%========================
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=2ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/rising arrows,
+timing/slope=0.3, %0.1 is good
+timing/dslope=0.3,
+thick,
+]
+%\tikztimingmetachar{R}{[|/utils/exec=\setcounter{new}{0}|]}
+%\usetikztiminglibrary[new={char=Q,reset char=R}]{counters}
+%[timing/counter/new={char=c, base=2,digits=3,max value=7, wraps ,text style={font=\normalsize}}] 12{2c} \\ 
+%$C$& H22{C}\\
+$\texturdu{\RL{پتہ}}$&3D{} 20D{[scale=1.5]\texturdu{\RL{درست پتہ}}} 3D{}\\
+$\overline{\texturdu{\RL{بیدار}}}$&3H 0.2h 20L 3H\\
+$\overline{\texturdu{\RL{لکھ}}}/\texturdu{\RL{پڑھ}}$&5H16L5H\\
+$\texturdu{\RL{مداخل مواد}}$&6.5D{}18D{[scale=1.5]\texturdu{\RL{درست مواد}}}1.5D\\ 
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,3,...,11} \draw(4*\n ex-2ex,-4ex+1.25ex)node[]{$0$};
+%\foreach \n in {2,4,...,12} \draw(4*\n ex-2ex,-4ex+1.25ex)node[]{$1$};
+%\foreach \n in {1,2,5,6,9,10} \draw(4*\n ex-2ex,-12 ex+1.25ex)node[]{$0$};
+%\foreach \n in {3,4,7,8,11,12} \draw(4*\n ex-2ex,-12 ex+1.25ex)node[]{$1$};
+%\foreach \n in {1,2,3,4,9,10,11,12} \draw(4*\n ex-2ex,-20 ex+1.25ex)node[]{$0$};
+%\foreach \n in {5,6,7,8} \draw(4*\n ex-2ex,-20 ex+1.25ex)node[]{$1$};
+%\draw(4*4 ex-2ex,-12 ex+1.25ex) circle (0.25cm and 1.75cm);
+%\draw(4*4 ex-2ex,-7*\rowdist+1.25ex) circle (0.25cm and 0.5cm);
+%%\foreach \n in {1}\draw(B\n.south)--(F\n.north);
+%%\foreach \n in {1}\draw(C\n.south)--(G\n.north);
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\caption{حافظہ میں مواد لکھنے کا عمل}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=2ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/rising arrows,
+timing/slope=0.3, %0.1 is good
+timing/dslope=0.3,
+thick,
+]
+%\tikztimingmetachar{R}{[|/utils/exec=\setcounter{new}{0}|]}
+%\usetikztiminglibrary[new={char=Q,reset char=R}]{counters}
+%[timing/counter/new={char=c, base=2,digits=3,max value=7, wraps ,text style={font=\normalsize}}] 12{2c} \\ 
+%$C$& H22{C}\\
+$\texturdu{\RL{پتہ}}$&3D{} 20D{[scale=1.5]\texturdu{\RL{درست پتہ}}} 3D{}\\
+$\overline{\texturdu{\RL{بیدار}}}$&3H 0.2h 20L 3H\\
+$\overline{\texturdu{\RL{لکھ}}}/\texturdu{\RL{پڑھ}}$&5H16H5H\\
+$\texturdu{\RL{مخارج  مواد}}$&16.5D{}8D{[scale=1.5]\texturdu{\RL{درست مواد}}}1.5D\\ 
+\extracode
+\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+\draw[dashed](6.5 ex,-1*\rowdist)--++(0,-3*\rowdist)coordinate(aa);
+\draw[dashed](2*16.5 ex+0.25 ex,-3*\rowdist)--++(0,-1*\rowdist)coordinate(bb);
+\draw[stealth-stealth]($(aa)+(0,1 ex)$)--($(bb)+(0,1 ex)$)node[pos=0.5,fill=white]{\texturdu{\RL{دورانیہ رسائی}}};
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,3,...,11} \draw(4*\n ex-2ex,-4ex+1.25ex)node[]{$0$};
+%\foreach \n in {2,4,...,12} \draw(4*\n ex-2ex,-4ex+1.25ex)node[]{$1$};
+%\foreach \n in {1,2,5,6,9,10} \draw(4*\n ex-2ex,-12 ex+1.25ex)node[]{$0$};
+%\foreach \n in {3,4,7,8,11,12} \draw(4*\n ex-2ex,-12 ex+1.25ex)node[]{$1$};
+%\foreach \n in {1,2,3,4,9,10,11,12} \draw(4*\n ex-2ex,-20 ex+1.25ex)node[]{$0$};
+%\foreach \n in {5,6,7,8} \draw(4*\n ex-2ex,-20 ex+1.25ex)node[]{$1$};
+%\draw(4*4 ex-2ex,-12 ex+1.25ex) circle (0.25cm and 1.75cm);
+%\draw(4*4 ex-2ex,-7*\rowdist+1.25ex) circle (0.25cm and 0.5cm);
+%%\foreach \n in {1}\draw(B\n.south)--(F\n.north);
+%%\foreach \n in {1}\draw(C\n.south)--(G\n.north);
+%\end{scope}
+\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\caption{حافظہ سے مواد پڑھنے کا عمل}
+\end{subfigure}
+\end{figure}
