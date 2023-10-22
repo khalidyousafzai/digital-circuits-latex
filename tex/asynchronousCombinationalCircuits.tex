@@ -5,7 +5,49 @@
 
 غیر معاصر ادوار کی اپنی ایک اہمیت ہے۔یہ ساعت کے کنارے کا انتظار کیے بغیر اشارہ کو ردعمل کر سکتے ہیں۔عموماً کسی بھی عددی دور میں کچھ حصہ معاصر اور کچھ غیر معاصر ہو گا۔
 
-شکل\حوالہء{ 11.1 } میں نہایت سادہ دور دکھایا گیا ہے جس کو سرسری نظر سے دیکھ کر یوں محسوس ہوتا ہے کہ ضرب گیٹ کا مخارج کبھی بلند نہیں ہو سکتا۔غور کرنے سے ثابت ہوتا ہے کہ مسئلہ اتنا سادہ نہیں۔ جب بھی مداخل \عددی{A} حال تبدیل کرے اس کے چند لمحوں بعد نفی گیٹ کا مخارج حال تبدیل کرے گا۔یہ \اصطلاح{ تاخیر }\فرہنگ{تاخیر}\حاشیہب{delay}\فرہنگ{delay} نفی گیٹ کے \اصطلاح{دورانیہ ردِ عمل } کی بدولت ہے۔شکل میں \عددی{A} اور \عددی{\overline{A}} کے خط کھینچتے ہوئے یہ تاخیر دکھائی گئی ہے۔اگر ضرب گیٹ کا دورانیہ ردِ عمل صفر ہوتا تب ضرب گیٹ کا مخارج ان دو مداخل کے مطابق حال \عددی{Y_0} اختیار کرتا۔حقیقتاً ضرب گیٹ کو بھی ردِ عمل کے لئے چند لمحات درکار ہوں گے لہٰذا ضرب گیٹ کا مخارج \عددی{Y} ہو گا۔
+شکل \حوالہ{شکل_غیر_معاصر_لرزش} میں نہایت سادہ دور دکھایا گیا ہے جس کو سرسری نظر سے دیکھ کر یوں محسوس ہوتا ہے کہ ضرب گیٹ کا مخارج کبھی بلند نہیں ہو سکتا۔غور کرنے سے ثابت ہوتا ہے کہ مسئلہ اتنا سادہ نہیں۔ جب بھی مداخل \عددی{A} حال تبدیل کرے اس کے چند لمحوں بعد نفی گیٹ کا مخارج حال تبدیل کرے گا۔یہ \اصطلاح{ تاخیر }\فرہنگ{تاخیر}\حاشیہب{delay}\فرہنگ{delay} نفی گیٹ کے \اصطلاح{دورانیہ ردِ عمل } کی بدولت ہے۔شکل میں \عددی{A} اور \عددی{\overline{A}} کے خط کھینچتے ہوئے یہ تاخیر بڑھا چڑھا کر  دکھائی گئی ہے۔اگر ضرب گیٹ کا دورانیہ ردِ عمل صفر ہوتا تب ضرب گیٹ کا مخارج ان دو مداخل کے مطابق حال \عددی{Y_0} اختیار کرتا۔حقیقتاً ضرب گیٹ کو بھی ردِ عمل کے لئے چند لمحات درکار ہوں گے لہٰذا ضرب گیٹ کا مخارج \عددی{Y} ہو گا۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klen}{1};
+\pgfmathsetmacro{\kpin}{0.5};
+\pgfmathsetmacro{\kpina}{0.75};
+\pgfmathsetmacro{\ksepX}{1.1}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\ksepYa}{1.1}
+\pgfmathsetmacro{\ksepdX}{0.2}
+\draw(0,0)node[and port,scale=1,number inputs=2,scale=1,anchor=out](u0){}  (u0.out)node[right]{$Y$};
+\draw(u0.in 2)--++(0,-\kpin)--++(-\kpin,0)node[above]{$\overline{A}$}node[not port,anchor=out,scale=0.8](u1){};
+\draw(u0.in 1)--(u0.in 1 -| u1.in)--++(-2*\kpin,0)coordinate(aa)node[left]{$A$};
+\draw(u1.in)--++(-\kpin,0)coordinate(bb)--(bb |- aa);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+ \begin{tikzpicture}
+  \pgfmathsetmacro{\kH}{0.75}
+   \pgfmathsetmacro{\ksepY}{\kH+0.5}
+\draw[thick](0,0)node[above left]{$A$}--++(2,0)--++(0,\kH)--++(5,0)--++(0,-\kH)--++(2,0);
+\draw[thick](0,-\ksepY)node[above left]{$\overline{A}$}  (0,-\ksepY+\kH)--++(3,0)--++(0,-\kH)--++(5,0)--++(0,\kH)--++(1,0);
+\draw[thick](0,-2*\ksepY)node[above left]{$Y_0$}--++(2,0)--++(0,\kH)--++(1,0)--++(0,-\kH)--++(6,0);
+\draw[thick](0,-3*\ksepY)node[above left]{$Y$}--++(3.25,0)--++(0,\kH)--++(1,0)coordinate[pos=0.5](kglitch)--++(0,-\kH)--++(4.75,0);
+\draw[dashed](2,\kH)++(0,0.2)--++(0,0.5)coordinate(aa)  (3,-\ksepY+\kH)++(0,0.2)coordinate(bbN)--(bbN |- aa) coordinate(bb);
+\draw[stealth-stealth]($(aa)+(0,-0.2)$)--($(bb)+(0,-0.2)$)coordinate[pos=0.5](ka);
+\draw(ka)++(0,0.2) to [out=90,in=0]++(-1,0.5)node[left]{\RL{نفی گیٹ کا دورانیہ رد عمل}};
+\draw[dashed](2,-2*\ksepY)++(0,-0.2)--++(0,-\ksepY-0.7)coordinate(cc)  (3.25,-3*\ksepY)++(0,-0.2)coordinate(ddP)--(ddP |- cc)coordinate(dd);
+\draw[stealth-stealth]($(cc)+(0,0.2)$)--($(dd)+(0,0.2)$)coordinate[pos=0.5](kb);
+\draw(kb)++(0,-0.2) to [out=-90,in=180]++(1,-0.5)node[right]{\RL{ضرب گیٹ کا دورانیہ رد عمل}};
+\draw(kglitch)++(0,0.2) to [out=90,in=180]++(0.5,0.75)node[right]{\RL{لرزش}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{مثبت برقی لرزش}
+\label{شکل_غیر_معاصر_لرزش}
+\end{figure}
 
 آپ دیکھ سکتے ہیں ضرب گیٹ کا مخارج غیر مطلوبہ طور پر ، نفی گیٹ کے دورانیہ ردِ عمل کے برابر دورانیے کے لئے، بلند ہو گا۔اس طرح کے ، غیر مطلوبہ نہایت کم دورانیہ کے لئے ،حال کی تبدیلی کو\اصطلاح{ برقی لرزش} یا مختصراً \اصطلاح{ لرزش}\فرہنگ{ لرزش}\حاشیہب{glitch}\فرہنگ{glitch} کہتے ہیں۔ برقی لرزش مثبت یا منفی ہو سکتی ہے لہٰذا موجودہ لرزش کو مثبت لرزش کہیں گے۔ لرزش نہایت کم دورانیے کی دھڑکن تصور کی جا سکتی ہے، تاہم لرزش کی اصطلاح عموماً غیر مطلوبہ دھڑکن کے لئے استعمال کی جاتی ہے اور ان سے معاصر ادوار کو پاک رکھا جاتا ہے۔
 
@@ -13,10 +55,55 @@
 
 آپ نے دیکھا کہ ضرب گیٹ تک اشارہ \عددی{\overline{A}} پہنچنے میں تاخیر کی بدولت لرزش پیدا ہوئی۔تاخیر کی مزید ایک مثال دیکھتے ہیں۔
 
-برقی تار میں برقی دباو کی رفتار تقریباً خلاء میں روشنی کی رفتار \حاشیہب{خلاء میں روشنی کی رفتار \عددی{3\times 10^8} میٹر فی سیکنڈ ہے۔}کے برابر ہوتی ہے۔یوں ایک نینو سیکنڈ میں برقی دباو تقریباً \عددی{3\times 10^8\times 10^{-9}=0.3} میٹر یعنی \عددی{30} سنٹی میٹر فاصلہ طے کرتا ہے۔آئیے دیکھتے ہیں اگر پچھلی مثال تبدیل کر کے نفی گیٹ کی جگہ \عددی{30} سینٹی میٹر برقی تار لگائی جائے اور ضرب گیٹ کی جگہ بلا شرکت جمع گیٹ نصب کیا جائے تو دور کا ردِ عمل کیسا ہوگا ( شکل \حوالہء{11.2 }دیکھیں)۔
+برقی تار میں برقی دباو کی رفتار تقریباً خلاء میں روشنی کی رفتار \حاشیہب{خلاء میں روشنی کی رفتار \عددی{3\times 10^8} میٹر فی سیکنڈ ہے۔}کے برابر ہوتی ہے۔یوں ایک نینو سیکنڈ میں برقی دباو تقریباً \عددی{3\times 10^8\times 10^{-9}=0.3} میٹر یعنی \عددی{30} سنٹی میٹر فاصلہ طے کرتا ہے۔آئیے دیکھتے ہیں اگر پچھلی مثال تبدیل کر کے نفی گیٹ کی جگہ \عددی{30} سینٹی میٹر برقی تار لگائی جائے اور ضرب گیٹ کی جگہ بلا شرکت جمع گیٹ نصب کیا جائے تو دور کا ردِ عمل کیسا ہوگا ( شکل \حوالہ{شکل_غیر_معاصر_لمبائی_تار_لرزش} دیکھیں)۔
 
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klen}{1};
+\pgfmathsetmacro{\kpin}{0.5};
+\pgfmathsetmacro{\kpina}{0.25};
+\pgfmathsetmacro{\ksepX}{1.1}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\ksepYa}{1.1}
+\pgfmathsetmacro{\ksepdX}{0.2}
+\draw(0,0)node[xor port,number inputs=2,scale=1](u0){};
+\path($(u0.in 1)!0.5!(u0.in 2)$)++(0,0.5*\kpina)coordinate(kup);
+\draw(u0.out)node[right]{$Y$};
+\draw(u0.in 1)--++(0,2*\kpin)coordinate[pos=0.75](kst)node[above]{$A$};
+\draw(u0.in 1)--++(-\kpin,0)--++(0,\kpin)--++(-\kpina,0)--++(0,-\kpin)--++(-\kpina,0)--++(0,\kpin)--++(-\kpina,0)--++(0,-\kpin)--++(-\kpina,0)--++(0,\kpin)--++(-\kpina,0)--++(0,-\kpin)--++(-\kpina,0)--++(0,\kpin)--++(-\kpina,0)--++(0,-\kpin)--++(-\kpina,0)--++(0,\kpin)--++(-\kpina,0)--++(0,-\kpin)coordinate(aaa)--(aaa |- kup)--++(-\kpin,0)coordinate(kmid)--++(0,-\kpina)--++(\kpin,0)coordinate(cc)--(cc |- u0.in 2)--++(0,-\kpin)coordinate(kbot)--++(\kpina,0)--++(0,\kpin)--++(\kpina,0)--++(0,-\kpin)--++(\kpina,0)--++(0,\kpin)--++(\kpina,0)--++(0,-\kpin)--++(\kpina,0)--++(0,\kpin)--++(\kpina,0)--++(0,-\kpin)--++(\kpina,0)--++(0,\kpin)--++(\kpina,0)--++(0,-\kpin)--++(\kpina,0)coordinate(kend)--++(0,\kpin)--(u0.in 2)node[below,xshift=-1ex]{$A_t$};
+\draw[stealth-stealth](kst)--(kst-| kmid)--++(-1.5*\kpin,0)coordinate(ktop)--(ktop |- kbot)coordinate[pos=0.5](ktxt)--++(0,-0.5*\kpin)coordinate(kklft)--(kklft -| u0.in 2);
+\draw(ktxt)node[fill=white,xshift=-0.5cm]{\RL{تیس سنٹی میٹر}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+ \begin{tikzpicture}
+  \pgfmathsetmacro{\kH}{0.75}
+   \pgfmathsetmacro{\ksepY}{\kH+0.5}
+\draw[thick](0,0)node[above left]{$A$}--++(2,0)--++(0,\kH)--++(5,0)--++(0,-\kH)--++(4,0);
+\draw[thick](0,-\ksepY)node[above left]{$A_t$}--++(3,0)--++(0,\kH)--++(5,0)--++(0,-\kH)--++(3,0);
+\draw[thick](0,-2*\ksepY)node[above left]{$Y_0$}--++(2,0)--++(0,\kH)--++(1,0)--++(0,-\kH)--++(4,0)--++(0,\kH)--++(1,0)--++(0,-\kH)--++(3,0);
+\draw[thick](0,-3*\ksepY)node[above left]{$Y$}--++(3.25,0)--++(0,\kH)--++(1,0)coordinate[pos=0.5](kglitch)--++(0,-\kH)--++(4,0)--++(0,\kH)--++(1,0)coordinate[pos=0.5](kglitchA)--++(0,-\kH)--++(1.75,0);
+\draw[dashed](2,\kH)++(0,0.2)--++(0,0.5)coordinate(aa)  (3,-\ksepY+\kH)++(0,0.2)coordinate(bbN)--(bbN |- aa) coordinate(bb);
+\draw[stealth-stealth]($(aa)+(0,-0.2)$)--($(bb)+(0,-0.2)$)coordinate[pos=0.5](ka);
+\draw(ka)++(0,0.2) to [out=90,in=0]++(-1,0.5)node[left]{\RL{ایک نینو سیکنڈ}};
+\draw[dashed](2,-2*\ksepY)++(0,-0.2)--++(0,-\ksepY-0.7)coordinate(cc)  (3.25,-3*\ksepY)++(0,-0.2)coordinate(ddP)--(ddP |- cc)coordinate(dd);
+\draw[stealth-stealth]($(cc)+(0,0.2)$)--($(dd)+(0,0.2)$)coordinate[pos=0.5](kb);
+\draw(kb)++(0,-0.2) to [out=-90,in=180]++(1,-0.5)node[right]{\RL{بلا شرکت جمع  گیٹ کا دورانیہ رد عمل}};
+\draw(kglitch)++(0,0.2) to [out=90,in=180]++(0.5,0.75)node[right]{\RL{لرزش}};
+\draw(kglitchA)++(0,0.2) to [out=90,in=180]++(0.5,0.75)node[right]{\RL{لرزش}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{دو برقی تاروں کی لمبائی میں فرق کی بدولت پیدا لرزشیں}
+\label{شکل_غیر_معاصر_لمبائی_تار_لرزش}
+\end{figure}
 
- اشارہ \عددی{A} گیٹ کے ایک داخلی پن پر مہیا کیا گیا ہے جبکہ یہی اشارہ تیس سنٹی میٹر برقی تار سے گزار کر دوسرے داخلی پن پر مہیا کیا گیا ہے جہاں اشارے کو \عددی{A_t} کہا گیا ہے۔ تار کو بل دار لکیر سے ظاہر کیا گیا ہے۔یوں اشارہ \عددی{A_t} گیٹ کے دوسرے پن تک تاخیر سے پہنچتا ہے۔اشارہ \عددی{A} بلند یا پست ہونے کے ایک نینو سیکنڈ بعد اشارہ \عددی{A_t} بلند یا پست ہو گا۔گیٹ کا دورانیہ ردِ عمل نظر انداز کرتے ہوئے گیٹ کا مخارج \عددی{Y_0} ہوگا۔ گیٹ کا دورانیہ ردِ عمل مدِ نظر رکھتے ہوئے مخارج \عددی{Y} ہوگا۔گیٹ کے خارجی اشارے میں دو بلند برقی لرزشیں دیکھنے کو ملتی ہیں جن کے دورانیے برقی تار میں تاخیر کے برابر ہیں۔یوں اشارے کی راہ میں تاخیر، حافظہ کی طرح، معلومات لمحاتی طور یاد رکھنے کی صلاحیت رکھتی ہیں۔
+ اشارہ \عددی{A} گیٹ کے ایک داخلی پن پر مہیا کیا گیا ہے جبکہ یہی اشارہ تیس سنٹی میٹر برقی تار سے گزار کر دوسرے داخلی پن پر مہیا کیا گیا ہے جہاں  (تاخیر سے پہنچنے والے) اشارے کو \عددی{A_t} کہا گیا ہے۔ تار کو بل دار لکیر سے ظاہر کیا گیا ہے۔یوں اشارہ \عددی{A_t} گیٹ کے دوسرے پن تک (تار میں ترسیل کے بعد) \موٹا{  تاخیر } سے پہنچتا ہے۔اشارہ \عددی{A} بلند یا پست ہونے کے ایک نینو سیکنڈ بعد اشارہ \عددی{A_t} بلند یا پست ہو گا۔گیٹ کا دورانیہ ردِ عمل نظر انداز کرتے ہوئے گیٹ کا مخارج \عددی{Y_0} ہوگا۔ گیٹ کا دورانیہ ردِ عمل مدِ نظر رکھتے ہوئے مخارج \عددی{Y} ہوگا۔گیٹ کے خارجی اشارے میں دو بلند برقی لرزشیں دیکھنے کو ملتی ہیں جن کے دورانیے برقی تار میں تاخیر کے برابر ہیں۔یوں اشارے کی راہ میں تاخیر، حافظہ کی طرح، معلومات لمحاتی طور یاد رکھنے کی صلاحیت رکھتی ہیں۔
 
 آپ نے دیکھا مختلف طرز کی تاخیر دور میں لرزشیں پیدا کرتی ہیں۔جہاں\اصطلاح{ باز رسی اشارہ }\فرہنگ{باز رسی اشارہ}\حاشیہب{feedback signal}\فرہنگ{feedback signal} تاخیر سے پہنچ کر مخارج تبدیل کرتا ہو وہاں دوران تاخیر مخارج اور تاخیر کے بعد مخارج مختلف ہوں گے جس سے \اصطلاح{ نا پائیدار حالت }\فرہنگ{حالت!نا پائیدار}\حاشیہب{unstable condition}\فرہنگ{unstable condition} پیدا ہو گی۔
 
@@ -30,16 +117,45 @@
 اس حصہ میں بغیر پلٹ ادوار پر غور کیا جائے گا۔پلٹ والے دور پر اگلے حصہ میں غور کیا جائے گا۔
 
 \جزوحصہ{عبوری جدول}
-غیر معاصر ترتیبی ادوار پر غور ان کے \اصطلاح{ عبوری جدول }\فرہنگ{عبوری جدول}\حاشیہب{transition table}\فرہنگ{transition table} کی مدد سے کیا جاتا ہے۔یہ طریقہ شکل \حوالہء{11.3} میں دیے گئے دور کی مدد سے سیکھتے ہیں۔
+غیر معاصر ترتیبی ادوار پر غور ان کے \اصطلاح{ عبوری جدول }\فرہنگ{عبوری جدول}\حاشیہب{transition table}\فرہنگ{transition table} کی مدد سے کیا جاتا ہے۔یہ طریقہ شکل   \حوالہ{شکل_غیر_معاصر_دور_کی_مثال}  میں دیے گئے دور کی مدد سے سیکھتے ہیں۔
 
-پلٹ کی غیر موجودگی کے باوجود اس کو ترتیبی دور اس لئے کہیں گے کہ خارجی اشارے \عددی{A} اور \عددی{B} بطور باز رسی اشارات، \عددی{a} اور \عددی{b}، استعمال کیے گئے ہیں۔دور سے خارجی حال کی مساوات لکھتے ہیں۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klen}{1};
+\pgfmathsetmacro{\kpin}{0.5};
+\pgfmathsetmacro{\kpina}{0.25};
+\pgfmathsetmacro{\ksepX}{1.1}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\ksepYa}{1.1}
+\pgfmathsetmacro{\ksepdX}{0.2}
+\draw(0,0)node[and port,number inputs=2,scale=1,anchor=out](u0){};
+\draw(0,\ksepY)node[and port,number inputs=2,scale=1,anchor=out](u1){};
+\draw[thin](u1.in 1)--++(0,\kpin)--++(-\kpin,0)node[or port,scale=1,number inputs=2,anchor=out](u2){};
+\draw[thin](u1.in 2)--++(-\kpin,0)--++(0,-\kpin)node[or port,scale=1,anchor=out,number inputs=2](u3){};
+\draw[thin](u0.in 2)--++(-\kpin,0)node[or port,scale=1,number inputs=2,anchor=out](u4){};
+\draw[thin](u1.in 1)--(u0.in 1);
+\draw[thin](u4.in 2)--++(-\kpin,0)node[not port,anchor=out,scale=0.8](u5){};
+\draw[thin](u3.in 1)--++(-\kpin,0)node[not port,anchor=out,scale=0.8](u6){};
+\draw[thin](u6.out)|-(u4.in 1);
+\draw[thin](u3.in 2)--++(0,-\kpin)-|(u5.in)node[left]{$a$} --++(0,-2*\kpin)-|(u1.out)--++(\kpin,0)node[right]{$A$};
+\draw[thin](u0.out)--++(\kpin,0)coordinate[pos=0.5](kB)node[right]{$B$};
+\draw[thin](u2.in 1)node[above left]{$b$}--++(0,2*\kpin)-|(kB);
+\draw[thin](u2.in 2)--(u2.in 2-| u5.in)--++(-\kpin,0)node[left]{$X$};
+\draw[thin](u6.in)--(u6.in |- u2.in 2);
+\end{tikzpicture}
+\caption{غیر معاصر دور}
+\label{شکل_غیر_معاصر_دور_کی_مثال}
+\end{figure}
+
+پلٹ کی غیر موجودگی کے باوجود اس کو ترتیبی دور اس لئے کہیں گے کہ خارجی اشارے \عددی{A} اور \عددی{B} بطور  \اصطلاح{باز رسی اشارات}\فرہنگ{باز رسی اشارات}\حاشیہب{feedback signals}\فرہنگ{feedback signals} ، \عددی{a} اور \عددی{b}، استعمال کیے گئے ہیں۔دور سے خارجی حال کی مساوات لکھتے ہیں۔
 \begin{gather}
 \begin{aligned}
 A&=(b+x)\cdot (a+\overline{x})\\
 B&=(b+x)\cdot (\overline{a}+\overline{x})
 \end{aligned}
 \end{gather}
-مساوات حاصل کرتے وقت باز رسی اشاروں کو عام مداخل تصور کریں۔یوں \عددی{x} کو بیرونی مداخل جبکہ \عددی{a} اور \عددی{b} کو اندرونی مداخل تصور کریں۔ ان مساوات میں \عددی{a} اور \عددی{b} \موٹا{ موجودہ مخارج } جبکہ \عددی{A} اور \عددی{B} \موٹا{ اگلے مخارج }ہیں۔ ان مساوات سے جدول \حوالہ{جدول_غیر_معاصر_باز رسی} حاصل ہو گا جس سے عبوری جدول کا حصول شکل \حوالہء{11.4 } میں دکھایا گیا ہے۔
+مساوات حاصل کرتے وقت باز رسی اشاروں کو عام مداخل تصور کریں۔یوں \عددی{x} کو بیرونی مداخل جبکہ \عددی{a} اور \عددی{b} کو اندرونی مداخل تصور کریں۔ ان مساوات میں \عددی{a} اور \عددی{b} \موٹا{ موجودہ مخارج } جبکہ \عددی{A} اور \عددی{B} \موٹا{ اگلے مخارج }ہیں۔ ان مساوات سے جدول \حوالہ{جدول_غیر_معاصر_باز رسی} حاصل ہو گا جس سے عبوری جدول کا حصول شکل  \حوالہ{شکل_غیر_معاصر_عبوری_جدول_حصول}  میں دکھایا گیا ہے۔
 \begin{table}
 \caption{دور کا بوولین جدول}
 \label{جدول_غیر_معاصر_باز رسی}
@@ -61,20 +177,98 @@ a&b&x&A&B\\
 \end{tabular}
 \end{otherlanguage}
 \end{table}
+%
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\draw[xstep=\kxstep,ystep=\kystep](\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\draw(\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/0}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/1}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[xstep=\kxstep,ystep=\kystep](2*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\draw(2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(2*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/1}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[xstep=\kxstep,ystep=\kystep](0*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\draw(0*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/00,1/01}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/01}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/10}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/00,1/10}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(0*\ksepX+0*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(0*\ksepX+1*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(0*\ksepX+0*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(0*\ksepX+1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kkAB){$\phantom{00}$};
+\draw[-stealth](1*\ksepX+1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)++(-0.2,-0.2) to [out=-170,in=-90] (kkAB.-110); 
+\draw[-stealth](2*\ksepX+1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)++(-0.2,-0.2) to [out=-170,in=-25] (kkAB.-45); 
+\draw(1*\ksepX+1*\kxstep,-5*\kystep)node[below]{$A=(b+x)(a+\overline{x})$};
+\draw(2*\ksepX+1*\kxstep,-5*\kystep)node[below]{$B=(b+x)(\overline{a}+\overline{x})$};
+\draw(1*\ksepX+1*\kxstep,1*\kystep)node[above]{\RL{کارناف نقشہ برائے \عددی{A}}};
+\draw(2*\ksepX+1*\kxstep,1*\kystep)node[above]{\RL{کارناف  نقشہ برائے \عددی{B}}};
+\draw(0*\ksepX+1*\kxstep,1*\kystep)node[above]{\RL{عبوری جدول}};
+\end{tikzpicture}
+\caption{عبوری جدول کا حصول}
+\label{شکل_غیر_معاصر_عبوری_جدول_حصول}
+\end{figure}
+
 
 جدول \حوالہ{جدول_غیر_معاصر_باز رسی} میں پیش \اصطلاح{حال کے متغیرات}\فرہنگ{حال کے متغیرات}\حاشیہب{state variables}\فرہنگ{state variables} \عددی{A} اور \عددی{B} کی معلومات کو علیحدہ علیحدہ کارناف نقشوں کی طرز پر لکھا گیا ہے جس سے عبوری جدول کے حصول میں آسانی پیدا ہوتی ہے۔کارناف نقشوں کی بائیں جانب قطار کی صورت میں اندرونی مداخل \عددی{ab} کی قیمتیں جبکہ اوپر جانب صف کی صورت میں بیرونی مداخل \عددی{x} کی قیمتیں لکھی جاتی ہیں۔
 
-\اصطلاح{عبوری جدول } میں \عددی{A} اور \عددی{B} کی قیمتیں ساتھ ساتھ \عددی{AB} لکھی جاتی ہیں۔کارناف نقشوں کی آخری صفوں کی دائیں قطاروں میں \عددی{A} کی قیمت \عددی{1} جبکہ \عددی{B} کی قیمت \عددی{0} ہے۔عبوری جدول کی نچلی صف اور دائیں قطار کے خانے میں ان قیمتوں کو ساتھ ساتھ \عددی{10} لکھا گیا ہے۔ اس عمل کی وضاحت نقطہ دار لکیروں سے کی گئی ہے۔
+\اصطلاح{عبوری جدول } میں \عددی{A} اور \عددی{B} کی قیمتیں ساتھ ساتھ \عددی{AB} لکھی جاتی ہیں۔کارناف نقشوں کی آخری صف  کی دائیں قطاروں میں \عددی{A} کی قیمت \عددی{1} جبکہ \عددی{B} کی قیمت \عددی{0} ہے۔عبوری جدول کی نچلی صف اور دائیں قطار کے مطابقتی  خانے میں ان قیمتوں کو ساتھ ساتھ \عددی{10} لکھا گیا ہے۔ اس عمل کی وضاحت  تیر دار  لکیروں سے کی گئی ہے۔
 
-عبوری جدول میں صف در صف چلتے ہوئے جب بھی صف میں موجودہ مخارج \عددی{ab} اور اگلے مخارج \عددی{AB} کی قیمت یکساں ہو، \عددی{AB} کی قیمت دائرے میں بند کریں۔دائرہ میں بند حال پائیدار (مستحکم) جبکہ باقی نا پائیدار یعنی \اصطلاح{عبوری } \فرہنگ{عبوری حال }\حاشیہب{transient state}\فرہنگ{transient state} ہوں گے۔
+عبوری جدول میں صف در صف چلتے ہوئے جب بھی صف میں موجودہ مخارج \عددی{ab} اور اگلے مخارج \عددی{AB} کی قیمت یکساں ہو، وہاں  \عددی{AB} کی قیمت دائرے میں بند کریں۔ یوں عبوری جدول کی پہلی صف میں(  جدول سے باہر بائیں  جانب ) \عددی{ab} کی قیمت \عددی{00} ہے  ؛ اسی صف  اور  بائیں قطار میں \عددی{AB} کی قیمت بھی \عددی{00} ہے لہٰذا اس قیمت کو دائرے میں  بند کیا  گیا ہے۔ دائرہ میں بند حال پائیدار (مستحکم) جبکہ باقی نا پائیدار یعنی \اصطلاح{عبوری } \فرہنگ{عبوری حال }\حاشیہب{transient state}\فرہنگ{transient state} ہوں گے۔ 
 
-شکل\حوالہء{ 11.5 } پر نظر رکھ کر \اصطلاح{عبوری جدول }کے استعمال پر غور کرتے ہیں۔جدول کی \عددی{ab=00} صف اور \عددی{x=0} قطار میں واقع خانے کو \اصطلاح{ابتدائی خانہ}\حاشیہد{کسی بھی مستحکم حال خانے کو ابتدائی خانہ منتخب کیا جا سکتا ہے۔}کہا گیا ہے، جس میں \عددی{ab=00} اور \عددی{x=0} کی صورت میں \عددی{AB} کی قیمت درج ہے۔ فرض کریں ابتدائی خانہ دور کا ابتدائی حال ظاہر کرتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid ++(2*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/00,1/01}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/01}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/10}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/00,1/10}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(0*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt](ka){$\phantom{00}$};
+\draw(1*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kb){$\phantom{00}$};
+\draw(0*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kc){$\phantom{00}$};
+\draw(1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)coordinate(kend)node[draw,circle,inner sep=1pt](kd){$\phantom{00}$};
+\draw[-stealth,very thick](ka.0) to [out=0,in=90] (kb.90);
+\draw[-stealth](kb.180) to [out=180,in=90] (kc.90);
+\draw[-stealth](kc.0) to [out=0,in=90] (kd.90);
+\draw[-stealth](kd.180) to [out=180,in=-90]  (-1*\kxstep,-2*\kystep) to [out=90,in=-160](ka.-160);
+\draw(ka.45)++(0.1,0.1) to [out=45,in=180]++(1,1)node[right]{\RL{ابتدائی خانہ}};
+\end{tikzpicture}
+\caption{عبوری جدول کا استعمال}
+\label{شکل_غیر_معاصر_عبوری_جدول_استعمال}
+\end{figure}
 
-اب اگر \عددی{ab=00} رکھتے ہوئے بیرونی مداخل \عددی{x} کی قیمت \عددی{0} سے \عددی{1} کر دی جائے تو عبوری جدول کے مطابق \عددی{AB} کی قیمت \عددی{00} سے \عددی{01} ہو جائے گی۔ یوں موجودہ حال \عددی{ab} اور اگلے حال \عددی{AB} کی قیمتیں مختلف ہوں گی جو عبوری حال کی نشانی ہے اور جس میں دور زیادہ دیر نہیں رہ سکتا۔ برقی تاروں میں تاخیر کے بعد \عددی{ab} کی قیمت \عددی{01} ہو جائے گی جبکہ \عددی{x} اپنی نئی قیمت \عددی{(1)} برقرار رکھے گا۔یوں دور تاخیر کے بعد عبوری جدول کی \عددی{x=1} قطار اور \عددی{ab=01} صف پر پائے جانے والے خانے تک پہنچے گا جہاں \عددی{AB} اور \عددی{ab} دونوں کی قیمت \عددی{01} ہے، جو مستحکم حال کو ظاہر کرتا ہے ( اور اسی لئے دائرے میں بند دکھایا گیا ہے)۔ اس پورے مرحلہ کو" پہلا قدم " کہا گیا ہے۔پہلے قدم کو تیر دار لکیر سے ظاہر کیا گیا ہے جو عبوری خانے سے گزر کر مستحکم خانے پر اختتام پذیر ہوتا ہے۔
+شکل \حوالہ{شکل_غیر_معاصر_عبوری_جدول_استعمال} پر نظر رکھ کر \اصطلاح{عبوری جدول }کے استعمال پر غور کرتے ہیں۔جدول کی \عددی{ab=00} صف اور \عددی{x=0} قطار میں واقع خانے کو \اصطلاح{ابتدائی خانہ}\حاشیہد{کسی بھی مستحکم حال خانے کو ابتدائی خانہ منتخب کیا جا سکتا ہے۔}کہا گیا ہے، جس میں \عددی{ab=00} اور \عددی{x=0} کی صورت میں \عددی{AB} کی قیمت درج ہے۔ فرض کریں ابتدائی خانہ دور کا ابتدائی حال ظاہر کرتا ہے۔
+
+اب اگر \عددی{ab=00} رکھتے ہوئے بیرونی مداخل \عددی{x} کی قیمت \عددی{0} سے \عددی{1} کر دی جائے تو عبوری جدول کے مطابق \عددی{AB} کی قیمت \عددی{00} سے \عددی{01} ہو جائے گی۔ یوں موجودہ حال \عددی{ab} اور اگلے حال \عددی{AB} کی قیمتیں مختلف ہوں گی جو عبوری حال کی نشانی ہے اور جس میں دور زیادہ دیر نہیں رہ سکتا۔ برقی تاروں میں تاخیر کے بعد \عددی{ab} کی قیمت \عددی{01} ہو جائے گی جبکہ \عددی{x} اپنی نئی قیمت \عددی{(1)} برقرار رکھے گا۔یوں دور تاخیر کے بعد عبوری جدول کی \عددی{x=1} قطار اور \عددی{ab=01} صف پر پائے جانے والے خانے تک پہنچے گا جہاں \عددی{AB} اور \عددی{ab} دونوں کی قیمت \عددی{01} ہے، جو مستحکم حال کو ظاہر کرتا ہے ( اور اسی لئے دائرے میں بند دکھایا گیا ہے)۔ اس پورے مرحلہ کو   ، جسے ہم " پہلا قدم"  کہتے ہیں (وضاحت کی خاطر)  موٹی   تیر دار لکیر سے ظاہر کیا گیا ہے جو عبوری خانے سے گزر کر مستحکم خانے پر اختتام پذیر ہوتا ہے۔
 
  مستحکم (پائیدار) حال سے ابتدا کرتے ہوئے \عددی{x} کی قیمت تبدیل کرنے سے دور کچھ لمحوں کے لئے عبوری حال اختیار کر گیا۔یہ صورت زیادہ دیر برقرار نہیں رہی۔تاروں میں تاخیر کے بعد باز رسی اشارے تبدیل ہوئے اور دور دوبارہ مستحکم حال اختیار کر گیا۔عموماً ادوار کا عمل اسی طرح ہو گا۔
 
-اسی طرح \عددی{ab=01} رکھتے ہوئے \عددی{x} کی قیمت \عددی{1} سے \عددی{0} کرنے سے عبوری جدول کے مطابق دور \عددی{x=0} قطار اور \عددی{ab=01} صف کے خانے میں درج حال \عددی{AB=11} اختیار کرے گا۔اس مرتبہ بھی \عددی{AB} اور \عددی{ab} مختلف ہیں (جو عبوری حال کو ظاہر کرتا ہے) لہٰذا دور اس سے نکلنے کی کوشش کرے گا۔برقی تاروں میں تاخیر کے بعد \عددی{AB} کی نئی قیمتوں کی خبر \عددی{ab} کے مقام تک پہنچے گی لہٰذا \عددی{ab} کی قیمت بھی \عددی{11} ہو جائے گی۔یوں دور \عددی{x=0} قطار اور \عددی{ab=11} صف میں درج (دائرے میں بند) مستحکم حال \عددی{AB=11} اختیار کر ے گا۔اسی طرح چلاتے ہوئے \عددی{x} کی قیمت بار بار تبدیل کرنے سے دور بالترتیب \عددی{00} ، \عددی{01}، \عددی{11}، اور \عددی{10} مستحکم حال اختیار کرے گا۔ہر مرتبہ \عددی{10} تک پہنچ کر یہی ترتیب دوبارہ دہرائی جائے گی۔شکل میں تیر دار لکیروں سے یہ مراحل دکھائے گئے ہیں۔
+اسی طرح \عددی{ab=01} رکھتے ہوئے \عددی{x} کی قیمت \عددی{1} سے \عددی{0} کرنے سے عبوری جدول کے مطابق دور \عددی{x=0} قطار اور \عددی{ab=01} صف کے خانے میں درج حال \عددی{AB=11} اختیار کرے گا۔اس مرتبہ بھی \عددی{AB} اور \عددی{ab} مختلف ہیں (جو عبوری حال کو ظاہر کرتا ہے) لہٰذا دور اس سے نکلنے کی کوشش کرے گا۔برقی تاروں میں تاخیر کے بعد \عددی{AB} کی نئی قیمتوں کی خبر \عددی{ab} کے مقام تک پہنچے گی لہٰذا \عددی{ab} کی قیمت بھی \عددی{11} ہو جائے گی۔یوں دور \عددی{x=0} قطار اور \عددی{ab=11} صف میں درج (دائرے میں بند) مستحکم حال \عددی{AB=11} اختیار کر ے گا۔تیر دار لکیر مستحکم حال \عددی{01} کے خانے سے  آغاز کرتے ہوئے عبوری حال \عددی{11} کے خانے سے گزر کر مستحکم حال \عددی{11} کے خانے پر اختتام پذیر ہو گا۔اسی طرح چلتے ہوئے \عددی{x} کی قیمت بار بار تبدیل کرنے سے دور بالترتیب \عددی{00} ، \عددی{01}، \عددی{11}، اور \عددی{10} مستحکم حال اختیار کرے گا، جس کے بعد یہ  دوبارہ مستحکم حال \عددی{00} پہنچ کر نئے سرے سے اس ترتیب کو دہرائے گا۔شکل میں تیر دار لکیروں سے یہ مراحل دکھائے گئے ہیں۔
 
  دور کا حال \عددی{AB} کی بجائے \عددی{ABx} لکھا جاتا ہے۔ یوں \عددی{000}، \عددی{011}، \عددی{110}، اور \عددی{101} \اصطلاح{ مستحکم حال }جبکہ \عددی{001}، \عددی{010}، \عددی{111}، اور \عددی{100} \اصطلاح{ عبوری حال }ہیں۔
  
@@ -98,12 +292,84 @@ a&b&x&A&B\\
 عبوری جدول کے حصول کے بعد بیرونی مداخل تبدیل کر کے دور کے عبوری حال پر غور کیا جا سکتا ہے۔ 
 
 \جزوحصہ{بہاو کا جدول}
-شکل\حوالہء{ 11.4 } میں عبوری جدول لکھتے ہوئے خانوں میں بوولین طرز پر حال درج کیے گئے۔دو مخارج کی صورت میں چار حال ( \عددی{00}، \عددی{01}، \عددی{10}، اور \عددی{11} ) ممکن ہیں جنہیں نام بھی دیے جا سکتے ہیں۔مثلاً حال \عددی{00} کو حال \عددی{a} پکارا جا سکتا ہے۔ اسی طرح \عددی{01} کو حال \عددی{b}، \عددی{10} کو حال \عددی{c}، اور \عددی{11} کو حال \عددی{d} نام دیے جا سکتے ہیں۔عبوری جدول میں یہ نام استعمال کر کے، شکل \حوالہء{ 11.6} میں پیش، \اصطلاح{ بہاو کا جدول }\فرہنگ{جدول!بہاو کا}\حاشیہب{flow table}\فرہنگ{table!flow} حاصل ہو گا۔
+شکل \حوالہ{شکل_غیر_معاصر_عبوری_جدول_حصول} میں عبوری جدول لکھتے ہوئے خانوں میں بوولین طرز پر حال درج کیے گئے۔دو مخارج کی صورت میں چار حال ( \عددی{00}، \عددی{01}، \عددی{10}، اور \عددی{11} ) ممکن ہیں جنہیں نام بھی دیے جا سکتے ہیں۔مثلاً حال \عددی{00} کو حال \عددی{a} پکارا جا سکتا ہے۔ اسی طرح \عددی{01} کو حال \عددی{b}، \عددی{10} کو حال \عددی{c}، اور \عددی{11} کو حال \عددی{d} نام دیے جا سکتے ہیں۔عبوری جدول میں یہ نام استعمال کر کے، شکل  \حوالہ{شکل_غیر_معاصر_جدول_بہاو_کا_حصول}  میں پیش، \اصطلاح{ بہاو کا جدول }\فرہنگ{جدول!بہاو کا}\حاشیہب{flow table}\فرہنگ{table!flow} حاصل ہو گا۔
 
-شکل \حوالہء{ 11.6} میں پیش بہاو کے جدول کے ہر صف میں صرف ایک مستحکم حال پایا جاتا ہے۔پہلی صف میں صرف \عددی{000} اور دوسری صف میں صرف \عددی{011} مستحکم حال پائے جاتے ہیں۔ ایسا جدول جس کی ہر صف میں صرف ایک مستحکم حال پایا جاتا ہو \اصطلاح{ اوّلی بہاو کا جدول }\فرہنگ{بہاو کا جدول!اوّلی}\حاشیہب{primitive flow table}\فرہنگ{flow table!primitive} کہلاتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\draw[xstep=\kxstep,ystep=\kystep](2*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\draw(2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(2*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/00,1/01}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/01}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/10}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/00,1/10}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(2*\ksepX+0*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt](ka){$\phantom{00}$};
+\draw(2*\ksepX+1*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kb){$\phantom{00}$};
+\draw(2*\ksepX+0*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kc){$\phantom{00}$};
+\draw(2*\ksepX+1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)coordinate(kend)node[draw,circle,inner sep=1pt](kd){$\phantom{00}$};
+\draw(2*\ksepX+1*\kxstep,-4*\kystep)node[below]{\RL{عبوری جدول}};
+\draw[xstep=\kxstep,ystep=\kystep](0*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\draw(0*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{a},1/{b},2/{d},3/{c}}{\draw(0*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/a,1/b}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/d,1/b}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/d,1/c}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/a,1/c}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(0*\ksepX+0*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt](ka){$\phantom{00}$};
+\draw(0*\ksepX+1*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kb){$\phantom{00}$};
+\draw(0*\ksepX+0*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kc){$\phantom{00}$};
+\draw(0*\ksepX+1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)coordinate(kend)node[draw,circle,inner sep=1pt](kd){$\phantom{00}$};
+\draw(0*\ksepX+1*\kxstep,-4*\kystep)node[below]{\RL{بہاو کا جدول}};
+\draw(\ksepX+\kxstep,0)node[below]{$\begin{aligned} 00&=a\\  01&=b\\ 10&=c\\ 11&=d \end{aligned}$};
+\end{tikzpicture}
+\caption{عبوری جدول سے  بہاو کے جدول  کا حصول}
+\label{شکل_غیر_معاصر_جدول_بہاو_کا_حصول}
+\end{figure}
+
+شکل  \حوالہ{شکل_غیر_معاصر_جدول_بہاو_کا_حصول}  میں پیش بہاو کے جدول کی  ہر صف میں صرف ایک مستحکم حال پایا جاتا ہے۔پہلی صف میں صرف \عددی{000} اور دوسری صف میں صرف \عددی{011} مستحکم حال پائے جاتے ہیں۔ ایسا جدول جس کی ہر صف میں صرف ایک مستحکم حال پایا جاتا ہو \اصطلاح{ اوّلی بہاو کا جدول }\فرہنگ{بہاو کا جدول!اوّلی}\حاشیہب{primitive flow table}\فرہنگ{flow table!primitive} کہلاتا ہے۔
 
 
-شکل\حوالہء{ 11.7 } میں ایک ایسا بہاو کا جدول پیش کیا گیا ہے جس کی صفوں میں ایک سے زیادہ مستحکم حال پائے جاتے ہیں۔مثلاً ، پہلی صف میں مستحکم حال \عددی{000}، \عددی{011}، اور \عددی{010} ہیں۔ایسے جدول کو \اصطلاح{ غیر اوّلی بہاو کا جدول }\فرہنگ{بہاو کا جدول!غیر اوّلی}\حاشیہب{non primitive flow table}\فرہنگ{flow table!non primitive} کہتے ہیں۔
+شکل \حوالہ{شکل_غیر_معاصر_غیر_اولین}  میں ایک ایسا بہاو کا جدول پیش کیا گیا ہے جس کی صفوں میں ایک سے زیادہ مستحکم حال پائے جاتے ہیں۔مثلاً ، پہلی صف میں مستحکم حال \عددی{000}، \عددی{011}، اور \عددی{010} ہیں۔ایسے جدول کو \اصطلاح{ غیر اوّلی بہاو کا جدول }\فرہنگ{بہاو کا جدول!غیر اوّلی}\حاشیہب{non primitive flow table}\فرہنگ{flow table!non primitive} کہتے ہیں۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\draw[xstep=\kxstep,ystep=\kystep](2*\ksepX,0) grid ++(4*\kxstep,-2*\kystep);
+\draw((2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x_1x_0$}node[pos=0.75,below left]{$y$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw((2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/a,1/b}{\draw(2*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/a,1/b,2/a,3/a}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/a,1/b,2/b,3/b}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\draw(2*\ksepX+2*\kxstep,-2*\kystep)node[below]{\RL{غیر اولین بہاو  کا جدول}};
+\foreach \kx in {0,2,3}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {1,2,3}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+
+\draw[xstep=\kxstep,ystep=\kystep](0*\ksepX,0) grid ++(4*\kxstep,-2*\kystep);
+\draw(0*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x_1x_0$}node[pos=0.75,below left]{$y$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/a,1/b}{\draw(0*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/0,3/0}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/1,3/1}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\draw(0*\ksepX+2*\kxstep,-2*\kystep)node[below]{\RL{عبوری جدول}};
+\foreach \kx in {0,2,3}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {1,2,3}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw(\ksepX+2*\kxstep,0)node[below]{$\begin{aligned} a&=0\\ b&=1  \end{aligned}$};
+\end{tikzpicture}
+\caption{غیر اولین بہاو کے جدول سے عبوری جدول کا حصول}
+\label{شکل_غیر_معاصر_غیر_اولین}
+\end{figure}
+
 
  بہاو کے جدول سے دور حاصل کرنے کے لئے پہلے عبوری جدول حاصل کیا جاتا ہے۔بہاو کے جدول کے دو صف ہیں لہٰذا دور کے دو حال ہوں گے۔دو ممکنہ صورتوں کو ایک بِٹ عدد ظاہر کر سکتا ہے۔یوں حال \عددی{a} کو \عددی{0} اور حال \عددی{b} کو \عددی{1} لکھ کر عبوری جدول حاصل کرتے ہیں، جو شکل\حوالہء{ 11.7 } میں دکھایا گیا ہے۔ دور کے اگلے مخارج کو \عددی{Y} اور موجودہ مخارج کو \عددی{y} سے ظاہر کر کے عبوری جدول سے \عددی{Y} کا تفاعل حاصل کرتے ہیں۔
 \begin{align}

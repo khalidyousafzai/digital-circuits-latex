@@ -362,9 +362,7 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 \foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
-
-
-
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
 \newcommand{\kBuffer}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
@@ -766,7 +764,7 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 %%%%%%%%%%%%%%%%%%%%%%%%
 % OR gate  skeleton for use with  input BUS. Input can be accessed with say u0in and output with u0out
 %\kBusOR[u1]{Xlocation}{Ylocation}
-\newcommand{\kBusOR}[3][u0]{
+\newcommand{\kBusOR}[3][u0]{{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -778,5 +776,32 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 \def\pn{pn}			%pin 'ocirc'
 \pgfmathsetmacro{\kxdim}{1}
 \pgfmathsetmacro{\kydim}{1}
-\draw[thick] (\kshiftX,\kshiftY) to [out=45,in=-45]coordinate[pos=0.5](\kref\kin) ++(0,\kydim) to [out=0,in=130] ++(\kxdim,-0.5*\kydim)coordinate(\kref\kout) to [out=-130,in=0]++(-\kxdim,-0.5*\kydim);}
-
+\draw[thick] (\kshiftX,\kshiftY) to [out=45,in=-45]coordinate[pos=0.5](\kref\kin) ++(0,\kydim) to [out=0,in=130] ++(\kxdim,-0.5*\kydim)coordinate(\kref\kout) to [out=-130,in=0]++(-\kxdim,-0.5*\kydim);}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kBusBuffer}[3][u0]{{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\kin{in}
+\def\kout{out}
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pn{pn}			%pin 'ocirc'
+\def\pu{pu}
+\def\pd{pd}
+\pgfmathsetmacro{\klen}{1}
+\draw[thick](\kshiftX,\kshiftY)coordinate(aa)++(0,-0.5*\klen)--++(30:\klen)
+coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
+\draw[thin](ked)--++(\kpin,0)coordinate(\kref\pu)  (keda)--++(\kpin,0)coordinate(\kref\pd) 
+(aa)--++(-\kpin,0)coordinate(\kref\kin);
+\draw[thick]  (ked)++(0.07,0)node[ocirc,fill]{};
+}}
+%====================================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%draws a cross at the location to show intact fuses in non volatile memory
+\newcommand{\kCross}[1]{{
+\pgfmathsetmacro{\kmv}{0.15}
+ \draw(#1)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv);
+ \draw(#1)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+}}

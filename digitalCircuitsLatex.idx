@@ -1,58 +1,52 @@
-\indexentry{bit}{\arabicdigits {189}}
-\indexentry{بِٹ}{\arabicdigits {189}}
-\indexentry{ثنائی ہندسہ}{\arabicdigits {189}}
-\indexentry{memory}{\arabicdigits {189}}
-\indexentry{حافظہ}{\arabicdigits {189}}
-\indexentry{word}{\arabicdigits {189}}
-\indexentry{لفظ}{\arabicdigits {189}}
-\indexentry{byte}{\arabicdigits {189}}
-\indexentry{بائٹ}{\arabicdigits {189}}
-\indexentry{ہشتمی عدد}{\arabicdigits {189}}
-\indexentry{write}{\arabicdigits {189}}
-\indexentry{لکھنا}{\arabicdigits {189}}
-\indexentry{read}{\arabicdigits {189}}
-\indexentry{پڑھنا}{\arabicdigits {189}}
-\indexentry{memory!RAM}{\arabicdigits {189}}
-\indexentry{حافظہ!عارضی}{\arabicdigits {189}}
-\indexentry{حافظہ!دورانیہ رسائی}{\arabicdigits {189}}
-\indexentry{access time}{\arabicdigits {189}}
-\indexentry{دورانیہ رسائی}{\arabicdigits {189}}
-\indexentry{memory!ROM}{\arabicdigits {190}}
-\indexentry{حافظہ!پختہ}{\arabicdigits {190}}
-\indexentry{OTP}{\arabicdigits {190}}
-\indexentry{پختہ حافظہ!ایک مرتبہ قابل لکھائی}{\arabicdigits {190}}
-\indexentry{ROM!EEROM}{\arabicdigits {190}}
-\indexentry{پختہ حافظہ!برق مٹتا}{\arabicdigits {190}}
-\indexentry{ROM!UV erasable}{\arabicdigits {190}}
-\indexentry{پختہ حافظہ!شعاع مٹتا}{\arabicdigits {190}}
-\indexentry{memory!unit}{\arabicdigits {191}}
-\indexentry{حافظہ!اکائی}{\arabicdigits {191}}
-\indexentry{memory!binary cell}{\arabicdigits {191}}
-\indexentry{عارضی حافظہ!اکائی}{\arabicdigits {191}}
-\indexentry{state!high impedance}{\arabicdigits {193}}
-\indexentry{حال!بلند رکاوٹی}{\arabicdigits {193}}
-\indexentry{IC, integrated circuit}{\arabicdigits {195}}
-\indexentry{مخلوط دور}{\arabicdigits {195}}
-\indexentry{پست فعال پن}{\arabicdigits {195}}
-\indexentry{active low}{\arabicdigits {195}}
-\indexentry{CS, chip select}{\arabicdigits {195}}
-\indexentry{بیدار}{\arabicdigits {195}}
-\indexentry{fuse}{\arabicdigits {199}}
-\indexentry{فتیلہ}{\arabicdigits {199}}
-\indexentry{switch}{\arabicdigits {202}}
-\indexentry{سوئچ}{\arabicdigits {202}}
-\indexentry{IC!programmer}{\arabicdigits {202}}
-\indexentry{مخلوط دور!برنامہ نویس}{\arabicdigits {202}}
-\indexentry{مائکروپراسیسر}{\arabicdigits {209}}
-\indexentry{microprocessor}{\arabicdigits {209}}
-\indexentry{خرد عامل کار}{\arabicdigits {209}}
-\indexentry{commands}{\arabicdigits {209}}
-\indexentry{احکامات}{\arabicdigits {209}}
-\indexentry{instruction}{\arabicdigits {210}}
-\indexentry{ہدایت}{\arabicdigits {210}}
-\indexentry{assembly language}{\arabicdigits {210}}
-\indexentry{مادری زبان}{\arabicdigits {210}}
-\indexentry{memory!access time}{\arabicdigits {211}}
-\indexentry{حافظہ!دورانیہ رسائی}{\arabicdigits {211}}
-\indexentry{configure}{\arabicdigits {211}}
-\indexentry{تشکیل}{\arabicdigits {211}}
+\indexentry{delay}{\arabicdigits {219}}
+\indexentry{تاخیر}{\arabicdigits {219}}
+\indexentry{glitch}{\arabicdigits {221}}
+\indexentry{ لرزش}{\arabicdigits {221}}
+\indexentry{state!transition}{\arabicdigits {221}}
+\indexentry{عبوری حال }{\arabicdigits {221}}
+\indexentry{feedback signal}{\arabicdigits {221}}
+\indexentry{باز رسی اشارہ}{\arabicdigits {221}}
+\indexentry{unstable condition}{\arabicdigits {221}}
+\indexentry{حالت!نا پائیدار}{\arabicdigits {221}}
+\indexentry{fundamental mode}{\arabicdigits {221}}
+\indexentry{بنیادی طریقہ کار}{\arabicdigits {221}}
+\indexentry{asynchronous!combinational circuit}{\arabicdigits {223}}
+\indexentry{ترتیبی دور!غیر معاصر}{\arabicdigits {223}}
+\indexentry{feedback signal}{\arabicdigits {223}}
+\indexentry{باز رسی اشارہ}{\arabicdigits {223}}
+\indexentry{transition table}{\arabicdigits {223}}
+\indexentry{عبوری جدول}{\arabicdigits {223}}
+\indexentry{feedback signals}{\arabicdigits {223}}
+\indexentry{باز رسی اشارات}{\arabicdigits {223}}
+\indexentry{state variables}{\arabicdigits {224}}
+\indexentry{حال کے متغیرات}{\arabicdigits {224}}
+\indexentry{transient state}{\arabicdigits {224}}
+\indexentry{عبوری حال }{\arabicdigits {224}}
+\indexentry{table!flow}{\arabicdigits {227}}
+\indexentry{جدول!بہاو کا}{\arabicdigits {227}}
+\indexentry{flow table!primitive}{\arabicdigits {227}}
+\indexentry{بہاو کا جدول!اوّلی}{\arabicdigits {227}}
+\indexentry{بہاو کا جدول!غیر اوّلی}{\arabicdigits {227}}
+\indexentry{flow table!non primitive}{\arabicdigits {227}}
+\indexentry{race condition}{\arabicdigits {229}}
+\indexentry{حالت دوڑ}{\arabicdigits {229}}
+\indexentry{race!critical}{\arabicdigits {229}}
+\indexentry{دوڑ!بحرانی}{\arabicdigits {229}}
+\indexentry{race!non-critical}{\arabicdigits {229}}
+\indexentry{دوڑ!غیر بحرانی}{\arabicdigits {229}}
+\indexentry{cycle}{\arabicdigits {230}}
+\indexentry{پھیرا}{\arabicdigits {230}}
+\indexentry{unstable circuit}{\arabicdigits {230}}
+\indexentry{غیر مستحکم دور}{\arabicdigits {230}}
+\indexentry{oscillator}{\arabicdigits {230}}
+\indexentry{مرتعش}{\arabicdigits {230}}
+\indexentry{adjacent numbers}{\arabicdigits {231}}
+\indexentry{ہمسایہ اعداد}{\arabicdigits {231}}
+\indexentry{one hot bit assignment}{\arabicdigits {231}}
+\indexentry{ایک بلند بِٹ تقرری}{\arabicdigits {231}}
+\indexentry{don't care}{\arabicdigits {232}}
+\indexentry{غیر ضروری}{\arabicdigits {232}}
+\indexentry{state!complete}{\arabicdigits {234}}
+\indexentry{حال!مکمل}{\arabicdigits {234}}
+\indexentry{edge!rising}{\arabicdigits {235}}
+\indexentry{کنارہ!چڑھائی}{\arabicdigits {235}}

@@ -251,4 +251,19 @@ coordinate(bb)--++(-\kdimY/2,-\kdimX)coordinate(cc)coordinate(\kref\pb\pout)--++
 \def\kydim{1}
 \draw[thick] (\kshiftX,\kshiftY) to [out=-45,in=-180+45]coordinate[pos=0.5](\kref\kin) ++(\kydim,0) to [out=-90,in=130-90] ++(-0.5*\kydim,-\kxdim)coordinate(\kref\kout) to [out=-130-90,in=-90]++(-0.5*\kydim,\kxdim);}}
 %======================
-
+%%%%%%%%%%%%%%%%%%
+\newcommand{\kBusANDdown}[3][u0]{{	%double brace needed to keep variables \kxdim and \kydim local
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\kin{in}
+\def\kout{out}
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pn{pn}			%pin 'ocirc'
+\def\kxdim{1}
+\def\kydim{1}
+\draw[thick](\kshiftX,\kshiftY)coordinate(\kref\kout) to [out=0,in=-90] ++(0.5*\kydim,\kxdim)--++(-\kydim,0)coordinate[pos=0.5](\kref\kin) to [out=-90,in=180] (\kshiftX,\kshiftY);
+}}
+%======================

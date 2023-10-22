@@ -11,7 +11,66 @@
 
 
 \جزوحصہ{قابل تشکیل ضرب ترکیبی منطقی ادوار}
-قابل تشکیل ضرب ترکیبی منطقی ادوار کی عمومی ساخت شکل \حوالہء{ 10.1 } میں دکھائی گئی ہے جہاں دور کے چار مداخل اور تین مخارج ہیں۔ان ادوار میں عموماً کئی مخارج اشارے بھی بطور مداخل استعمال کیے جاتے ہیں جیسے یہاں \عددی{F_2} استعمال کیا گیا ہے۔
+قابل تشکیل ضرب ترکیبی منطقی ادوار کی عمومی ساخت شکل  \حوالہ{شکل_قابل_تشکیل_ضرب_عمومی_صورت}  میں دکھائی گئی ہے جہاں دور کے چار مداخل اور تین مخارج ہیں۔ان ادوار میں عموماً کئی مخارج اشارے بھی بطور مداخل استعمال کیے جاتے ہیں جیسے یہاں \عددی{F_2} استعمال کیا گیا ہے۔
+
+\begin{figure}
+ \centering
+ \begin{tikzpicture}
+\pgfmathsetmacro{\klen}{1};
+\pgfmathsetmacro{\kpin}{0.5};
+\pgfmathsetmacro{\kpina}{0.75};
+\pgfmathsetmacro{\ksepX}{1.1}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\ksepYa}{1.1}
+\pgfmathsetmacro{\ksepdX}{0.2}
+\kBusANDdown[u0]{0}{0}
+\kBusANDdown[u1]{-\ksepX}{0}
+\kBusANDdown[u2]{-2*\ksepX}{0}
+\kBusANDdown[u3]{-3*\ksepX-\ksepdX}{0}
+\kBusANDdown[u4]{-4*\ksepX-\ksepdX}{0}
+\kBusANDdown[u5]{-5*\ksepX-\ksepdX}{0}
+\kBusANDdown[u6]{-6*\ksepX-2*\ksepdX}{0}
+\kBusANDdown[u7]{-7*\ksepX-2*\ksepdX}{0}
+\kBusANDdown[u8]{-8*\ksepX-2*\ksepdX}{0}
+\draw(u1out)--++(0,-\kpin)node[or port,scale=1,number inputs=3,rotate=-90,anchor=in 2](u9){};
+\draw(u9.in 1) -|(u0out)  (u9.in 3) -| (u2out)  (u9.out)--++(0,-\kpin)node[below]{$F_0$};
+\draw(u4out)--++(0,-\kpin)node[or port,scale=1,number inputs=3,rotate=-90,anchor=in 2](u10){};
+\draw(u10.in 1) -|(u3out)  (u10.in 3) -| (u5out)  (u10.out)--++(0,-\kpin)node[below]{$F_1$};
+\draw(u7out)--++(0,-\kpin)node[or port,scale=1,number inputs=3,rotate=-90,anchor=in 2](u11){};
+\draw(u11.in 1) -|(u6out)  (u11.in 3) -| (u8out)  (u11.out)--++(0,-\kpin)node[below]{$F_2$};
+\kBusBuffer[u12]{-9*\ksepX-4*\ksepdX}{\ksepY}
+\kBusBuffer[u13]{-9*\ksepX-5*\ksepdX}{\ksepY+1*\ksepYa}
+\kBusBuffer[u14]{-9*\ksepX-5*\ksepdX}{\ksepY+2*\ksepYa}
+\kBusBuffer[u15]{-9*\ksepX-5*\ksepdX}{\ksepY+3*\ksepYa}
+\kBusBuffer[u16]{-9*\ksepX-5*\ksepdX}{\ksepY+4*\ksepYa}
+\draw(u12pd)--(u12pd -| u0in)--++(1.25*\kpin,0)coordinate(klft)node[right]{$1$};
+\draw(u12pu)--(u12pu -|klft)node[right]{$2$};
+\draw(u13pd)--(u13pd -|klft)node[right]{$3$};
+\draw(u13pu)--(u13pu -|klft)node[right]{$4$};
+\draw(u14pd)--(u14pd -|klft)node[right]{$5$};
+\draw(u14pu)--(u14pu -|klft)node[right]{$6$};
+\draw(u15pd)--(u15pd -|klft)node[right]{$7$};
+\draw(u15pu)--(u15pu -|klft)node[right]{$8$};
+\draw(u16pd)--(u16pd -|klft)node[right]{$9$};
+\draw(u16pu)--(u16pu -|klft)node[right]{$10$};
+\draw(u0in)--(u0in |- u16pu)--++(0,1*\kpin)coordinate(ktop)node[above]{$1$};
+\draw(u1in)--(u1in |- ktop)node[above]{$2$};
+\draw(u2in)--(u2in |- ktop)node[above]{$3$};
+\draw(u3in)--(u3in |- ktop)node[above]{$4$};
+\draw(u4in)--(u4in |- ktop)node[above]{$5$};
+\draw(u5in)--(u5in |- ktop)node[above]{$6$};
+\draw(u6in)--(u6in |- ktop)node[above]{$7$};
+\draw(u7in)--(u7in |- ktop)node[above]{$8$};
+\draw(u8in)--(u8in |- ktop)node[above]{$9$};
+\draw(u13in)node[left]{$A_0$};
+\draw(u14in)node[left]{$A_1$};
+\draw(u15in)node[left]{$A_2$};
+\draw(u16in)node[left]{$A_3$};
+\draw(u12in)|-(u11.out);
+\end{tikzpicture}
+\caption{قابل تشکیل ضرب جوڑ والے  ترکیبی دور کی عمومی ساخت}
+\label{شکل_قابل_تشکیل_ضرب_عمومی_صورت}
+\end{figure}
 
 دکھائے گئے دور کے تین یکساں حصے ہیں۔ہر حصہ میں دس مداخل تین ضرب گیٹ ہیں جو تین مداخل ایک جمع گیٹ کو جاتے ہیں۔ضرب گیٹ کے مداخل قابل تشکیل جبکہ جمع گیٹ کے مداخل اٹل ہیں۔دور کے کُل چار مداخل ہیں جنہیں مستحکم کار سے گزار کر ان کے متمم بھی ضرب گیٹ کو مہیا کیے گئے ہیں۔اس دور میں \عددی{10} داخلی کُل\عددی{9} جمع گیٹ ہیں لہٰذا اس میں \عددی{9\times 10=90} فتیلے ہوں گے۔
 
@@ -25,7 +84,7 @@ F_1(A,B,C,D)&=\sum(0,1,5,7,9,13,14,15)\\
 F_2(A,B,C,D)&=\sum(0,1,5,7,14,15)
 \end{aligned}
 \end{gather}
-ان تفاعل کا سادہ روپ درج ذیل ہے۔
+کارناف نقشہ جات سے ان تفاعل کا  درج ذیل سادہ روپ  حاصل کیا جا سکتا ہے۔
 \begin{gather}
 \begin{aligned}
 F_0&=\overline{A}B\overline{C}+AC\overline{D}\\
@@ -34,21 +93,207 @@ F_2&=\overline{A}\,\overline{B}\,\overline{C}+\overline{A}BD+ABC
 \end{aligned}
 \end{gather}
 
-ان مساواتوں میں کوئی بھی ضربی رکن تین سے زیادہ مداخل پر مشتمل نہیں لہٰذا درج بالا تفاعلات کو شکل \حوالہء{ 10.1 } میں پیش قابل تشکیل ترکیبی منطقی دور استعمال کر کے حاصل کیا جا سکتا ہے۔شکل \حوالہء{10.2 } میں تفاعلات کا دور دکھایا گیا ہے جہاں موجود جوڑ صلیبی نشان سے ظاہر کیے گئے ہیں۔ باقی جوڑ منقطع کیے گئے ہیں۔
+ان مساواتوں میں کوئی بھی ضربی رکن تین سے زیادہ مداخل پر مشتمل نہیں لہٰذا درج بالا تفاعلات کو شکل  \حوالہ{شکل_قابل_تشکیل_ضرب_عمومی_صورت}  میں پیش قابل تشکیل ترکیبی منطقی دور استعمال کر کے حاصل کیا جا سکتا ہے۔شکل  \حوالہ{شکل_قابل_تشکیل_تین_تفاعلات} میں درج بالا  تفاعلات کا دور دکھایا گیا ہے جہاں سالم جوڑ صلیبی نشان سے ظاہر کیے گئے ہیں۔ باقی جوڑ منقطع کیے گئے ہیں۔
+\begin{figure}
+ \centering
+ \begin{tikzpicture}
+\pgfmathsetmacro{\klen}{1};
+\pgfmathsetmacro{\kpin}{0.5};
+\pgfmathsetmacro{\kpina}{0.75};
+\pgfmathsetmacro{\ksepX}{1.1}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\ksepYa}{1.1}
+\pgfmathsetmacro{\ksepdX}{0.2}
+\kBusANDdown[u0]{0}{0}
+\kBusANDdown[u1]{-\ksepX}{0}
+\kBusANDdown[u2]{-2*\ksepX}{0}
+\kBusANDdown[u3]{-3*\ksepX-\ksepdX}{0}
+\kBusANDdown[u4]{-4*\ksepX-\ksepdX}{0}
+\kBusANDdown[u5]{-5*\ksepX-\ksepdX}{0}
+\kBusANDdown[u6]{-6*\ksepX-2*\ksepdX}{0}
+\kBusANDdown[u7]{-7*\ksepX-2*\ksepdX}{0}
+\kBusANDdown[u8]{-8*\ksepX-2*\ksepdX}{0}
+\draw(u1out)--++(0,-\kpin)node[or port,scale=1,number inputs=3,rotate=-90,anchor=in 2](u9){};
+\draw(u9.in 1) -|(u0out)  (u9.in 3) -| (u2out)  (u9.out)--++(0,-\kpin)node[below]{$F_0$};
+\draw(u4out)--++(0,-\kpin)node[or port,scale=1,number inputs=3,rotate=-90,anchor=in 2](u10){};
+\draw(u10.in 1) -|(u3out)  (u10.in 3) -| (u5out)  (u10.out)--++(0,-\kpin)node[below]{$F_1$};
+\draw(u7out)--++(0,-\kpin)node[or port,scale=1,number inputs=3,rotate=-90,anchor=in 2](u11){};
+\draw(u11.in 1) -|(u6out)  (u11.in 3) -| (u8out)  (u11.out)--++(0,-\kpin)node[below]{$F_2$};
+\kBusBuffer[u12]{-9*\ksepX-4*\ksepdX}{\ksepY}
+\kBusBuffer[u13]{-9*\ksepX-5*\ksepdX}{\ksepY+1*\ksepYa}
+\kBusBuffer[u14]{-9*\ksepX-5*\ksepdX}{\ksepY+2*\ksepYa}
+\kBusBuffer[u15]{-9*\ksepX-5*\ksepdX}{\ksepY+3*\ksepYa}
+\kBusBuffer[u16]{-9*\ksepX-5*\ksepdX}{\ksepY+4*\ksepYa}
+\draw(u12pd)--(u12pd -| u0in)--++(1.25*\kpin,0)coordinate(klft)node[right]{$1$};
+\draw(u12pu)--(u12pu -|klft)node[right]{$2$};
+\draw(u13pd)--(u13pd -|klft)node[right]{$3$};
+\draw(u13pu)--(u13pu -|klft)node[right]{$4$};
+\draw(u14pd)--(u14pd -|klft)node[right]{$5$};
+\draw(u14pu)--(u14pu -|klft)node[right]{$6$};
+\draw(u15pd)--(u15pd -|klft)node[right]{$7$};
+\draw(u15pu)--(u15pu -|klft)node[right]{$8$};
+\draw(u16pd)--(u16pd -|klft)node[right]{$9$};
+\draw(u16pu)--(u16pu -|klft)node[right]{$10$};
+\draw(u0in)--(u0in |- u16pu)--++(0,1*\kpin)coordinate(ktop)node[above]{$1$};
+\draw(u1in)--(u1in |- ktop)node[above]{$2$};
+\draw(u2in)--(u2in |- ktop)node[above]{$3$};
+\draw(u3in)--(u3in |- ktop)node[above]{$4$};
+\draw(u4in)--(u4in |- ktop)node[above]{$5$};
+\draw(u5in)--(u5in |- ktop)node[above]{$6$};
+\draw(u6in)--(u6in |- ktop)node[above]{$7$};
+\draw(u7in)--(u7in |- ktop)node[above]{$8$};
+\draw(u8in)--(u8in |- ktop)node[above]{$9$};
+\draw(u13in)node[left]{$A$};
+\draw(u14in)node[left]{$B$};
+\draw(u15in)node[left]{$C$};
+\draw(u16in)node[left]{$D$};
+\draw(u12in)|-(u11.out);
+\path(u0in)--(u0in |- u13pu)coordinate(aa);
+\kCross{aa}
+\path(u0in)--(u0in |- u14pd)coordinate(aa);
+\kCross{aa}
+\path(u0in)--(u0in |- u15pu)coordinate(aa);
+\kCross{aa}
+\path(u1in)--(u1in |- u13pd)coordinate(aa);
+\kCross{aa}
+\path(u1in)--(u1in |- u15pd)coordinate(aa);
+\kCross{aa}
+\path(u1in)--(u1in |- u16pu)coordinate(aa);
+\kCross{aa}
+\path(u3in)--(u3in |- u12pd)coordinate(aa);
+\kCross{aa}
+\path(u4in)--(u4in |- u13pu)coordinate(aa);
+\kCross{aa}
+\path(u4in)--(u4in |- u14pu)coordinate(aa);
+\kCross{aa}
+\path(u4in)--(u4in |- u15pd)coordinate(aa);
+\kCross{aa}
+\path(u6in)--(u6in |- u13pu)coordinate(aa);
+\kCross{aa}
+\path(u6in)--(u6in |- u14pu)coordinate(aa);
+\kCross{aa}
+\path(u6in)--(u6in |- u15pu)coordinate(aa);
+\kCross{aa}
+\path(u7in)--(u7in |- u13pu)coordinate(aa);
+\kCross{aa}
+\path(u7in)--(u7in |- u14pd)coordinate(aa);
+\kCross{aa}
+\path(u7in)--(u7in |- u16pd)coordinate(aa);
+\kCross{aa}
+\path(u8in)--(u8in |- u13pd)coordinate(aa);
+\kCross{aa}
+\path(u8in)--(u8in |- u14pd)coordinate(aa);
+\kCross{aa}
+\path(u8in)--(u8in |- u15pd)coordinate(aa);
+\kCross{aa}
+\end{tikzpicture}
+\caption{تین تفاعلات کا حصول}
+\label{شکل_قابل_تشکیل_تین_تفاعلات}
+\end{figure}
+
 
 
 \جزوحصہ{قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}
 ان ادوار میں بھی پہلی صف ضرب گیٹ اور دوسری صف جمع گیٹوں کی ہوتی ہے البتہ ان میں ضرب گیٹوں اور جمع گیٹوں کے تمام جوڑ قابل تشکیل ہوتے ہیں۔یوں استعمال کے نکتہ نظر سے یہ نہایت لچک دار ہوتے ہیں۔ 
 
+\begin{figure}
+ \centering
+ \begin{tikzpicture}
+\pgfmathsetmacro{\klen}{1};
+\pgfmathsetmacro{\kpin}{0.5};
+\pgfmathsetmacro{\kpina}{0.75};
+\pgfmathsetmacro{\ksepX}{1.1}
+\pgfmathsetmacro{\ksepY}{2}
+\pgfmathsetmacro{\ksepYa}{1.1}
+\pgfmathsetmacro{\ksepdX}{0.2}
+\kBusANDdown[u0]{0}{0}
+\kBusANDdown[u1]{-\ksepX}{0}
+\kBusANDdown[u2]{-2*\ksepX}{0}
+\kBusANDdown[u3]{-3*\ksepX}{0}
+\kBusANDdown[u4]{-4*\ksepX}{0}
+\kBusANDdown[u5]{-5*\ksepX}{0}
+\kBusBuffer[u6]{-7*\ksepX}{\ksepY}
+\kBusBuffer[u7]{-7*\ksepX}{\ksepY+1*\ksepYa}
+\kBusBuffer[u8]{-7*\ksepX}{\ksepY+2*\ksepYa}
+\kBusBuffer[u9]{-7*\ksepX}{\ksepY+3*\ksepYa}
+\kBusOR[u10]{\ksepX}{-\ksepYa}
+\kBusOR[u11]{\ksepX}{-2*\ksepYa}
+\kBusOR[u12]{\ksepX}{-3*\ksepYa}
+\draw[thin](u0in)--(u0in |- u9pu)--++(0,\kpin)coordinate(ktop);
+\draw[thin](u1in)--(u1in |- ktop);
+\draw[thin](u2in)--(u2in |- ktop);
+\draw[thin](u3in)--(u3in |- ktop);
+\draw[thin](u4in)--(u4in |- ktop);
+\draw[thin](u5in)--(u5in |- ktop);
+\draw[thin](u6pd)--(u6pd -| u0in)--++(\kpin,0)coordinate(krt);
+\draw[thin](u6pu)--(u6pu -| krt);
+\draw[thin](u7pd)--(u7pd -| krt);
+\draw[thin](u7pu)--(u7pu -| krt);
+\draw[thin](u8pd)--(u8pd -| krt);
+\draw[thin](u8pu)--(u8pu -| krt);
+\draw[thin](u9pd)--(u9pd -| krt);
+\draw[thin](u9pu)--(u9pu -| krt);
+\draw(u0out)--(u0out |- u12in)--++(0,-\kpin)coordinate(kbot);
+\draw(u1out)--(u1out |- kbot);
+\draw(u2out)--(u2out |- kbot);
+\draw(u3out)--(u3out |- kbot);
+\draw(u4out)--(u4out |- kbot);
+\draw(u5out)--(u5out |- kbot);
+\draw(u6in)node[left]{$A_0$};
+\draw(u7in)node[left]{$A_1$};
+\draw(u8in)node[left]{$A_2$};
+\draw(u9in)node[left]{$A_3$};
+\draw(u10out)--++(\kpin,0)node[right]{$D_2$};
+\draw(u11out)--++(\kpin,0)node[right]{$D_1$};
+\draw(u12out)--++(\kpin,0)node[right]{$D_0$};
+\draw(u10in)--(u10in -| u5out)--++(-\kpin,0)coordinate(klft);
+\draw(u11in)--(u11in -| klft);
+\draw(u12in)--(u12in -| klft);
+\path(u2in)--(u2in |- u6pu)coordinate(aa);
+\kCross{aa}
+\path(u2in)--(u2in |- u7pu)coordinate(aa);
+\kCross{aa}
+\path(u2in)--(u2in |- u8pd)coordinate(aa);
+\kCross{aa}
+\path(u2in)--(u2in |- u9pu)coordinate(aa);
+\kCross{aa}
+\path(u3in)--(u3in |- u7pu)coordinate(aa);
+\kCross{aa}
+\path(u3in)--(u3in |- u8pd)coordinate(aa);
+\kCross{aa}
+\path(u3in)--(u3in |- u9pu)coordinate(aa);
+\kCross{aa}
+\path(u4in)--(u4in |- u6pu)coordinate(aa);
+\kCross{aa}
+\path(u4in)--(u4in |- u9pu)coordinate(aa);
+\kCross{aa}
+\path(u5in)--(u5in |- u6pd)coordinate(aa);
+\kCross{aa}
+\path(u5in)--(u5in |- u7pu)coordinate(aa);
+\kCross{aa}
+\path(u5in)--(u5in |- u9pd)coordinate(aa);
+\kCross{aa}
+\path(u2out)--(u2out |- u10in)coordinate(aa);
+\kCross{aa}
+\path(u3out)--(u3out |- u11in)coordinate(aa);
+\kCross{aa}
+\path(u4out)--(u4out |- u12in)coordinate(aa);
+\kCross{aa}
+\path(u5out)--(u5out |- u12in)coordinate(aa);
+\kCross{aa}
+\end{tikzpicture}
+\caption{چھ ضرب اور تین جمع گیٹ پر مشتمل قابل تشکیل ضرب و جمع منطقی ترکیبی دور}
+\label{شکل_قابل_تشکیل_چھ_ضرب_تین_جمع_گیٹ}
+\end{figure}
 
-شکل\حوالہء{ 10.3 } میں قابل تشکیل ضرب و جمع ترکیبی منطقی دور دکھایا گیا ہے۔اس دور میں تمام ضرب گیٹوں کے داخلی جوڑ اور تمام جمع گیٹوں کے داخلی جوڑ قابل تشکیل ہیں۔اس دور میں آٹھ داخلی چھ ضرب گیٹ اور چھ داخلی تین جمع گیٹ ہیں۔یوں اس میں کُل جوڑ \عددی{66} ہوں گے۔
+شکل \حوالہ{شکل_قابل_تشکیل_چھ_ضرب_تین_جمع_گیٹ} میں قابل تشکیل ضرب و جمع ترکیبی منطقی دور دکھایا گیا ہے۔اس دور میں تمام ضرب گیٹوں کے داخلی جوڑ اور تمام جمع گیٹوں کے داخلی جوڑ قابل تشکیل ہیں۔اس دور میں آٹھ داخلی چھ ضرب گیٹ اور چھ داخلی تین جمع گیٹ ہیں۔یوں اس میں کُل جوڑ \عددی{66} ہوں گے۔
 
 اس شکل میں درج ذیل تین تفاعل حاصل کیے گئے ہیں جہاں صلیبی نشان سلامت جوڑ کو ظاہر کرتے ہیں۔ ان تفاعل کے حصول میں چار ضرب گیٹ اور تینوں جمع گیٹ کی ضرورت پیش آئی، جبکہ دو ضرب گیٹ زیر استعمال نہیں آئے۔
 \begin{gather}
 \begin{aligned}
-D_2&=\overline{A_0}\,\overline{A_1} A_2 \overline{A_3}\\
-D_1&=\overline{A_1}A_2 \overline{A_3}\\
-D_2&=A_0\overline{A_1}A_3+\overline{A_0}\,\overline{A_3}
+D_2&=\overline{A}_0\overline{A}_1 A_2 \overline{A}_3\\
+D_1&=\overline{A}_1A_2 \overline{A}_3\\
+D_2&=A_0\overline{A}_1A_3+\overline{A}_0\,\overline{A}_3
 \end{aligned}
 \end{gather}
  یہاں دکھایا گیا قابل تشکیل ضرب و جمع ترکیبی منطقی دور صرف سمجھانے کی خاطر تھا۔حقیقی ادوار میں کئی گنا زیادہ مداخل،مخارج، اور گیٹ ہوں گے۔ثنائی تفاعل کی سادہ ترین صورت حاصل کر کے اسے مخلوط دور میں ڈالا جاتا ہے۔سادہ ترین روپ کا حصول ، جو عموماً ایک مشکل کام ہو گا ، کمپیوٹر کے ذریعے کیا جاتا ہے۔ منقطع ہونے والے فتیلوں کی معلومات بھی کمپیوٹر فراہم کرتا ہے۔فتیلے مخلوط ادوار کا پروگرامر منقطع کرتا ہے۔
