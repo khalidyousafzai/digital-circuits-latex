@@ -45,7 +45,7 @@
 \end{tikzpicture}
 \caption{}
 \end{subfigure}
-\caption{مثبت برقی لرزش}
+\caption{مثبت برقی لرزش۔}
 \label{شکل_غیر_معاصر_لرزش}
 \end{figure}
 
@@ -99,7 +99,7 @@
 \end{tikzpicture}
 \caption{}
 \end{subfigure}
-\caption{دو برقی تاروں کی لمبائی میں فرق کی بدولت پیدا لرزشیں}
+\caption{دو برقی تاروں کی لمبائی میں فرق کی بدولت پیدا لرزشیں۔}
 \label{شکل_غیر_معاصر_لمبائی_تار_لرزش}
 \end{figure}
 
@@ -144,7 +144,7 @@
 \draw[thin](u2.in 2)--(u2.in 2-| u5.in)--++(-\kpin,0)node[left]{$X$};
 \draw[thin](u6.in)--(u6.in |- u2.in 2);
 \end{tikzpicture}
-\caption{غیر معاصر دور}
+\caption{غیر معاصر دور۔}
 \label{شکل_غیر_معاصر_دور_کی_مثال}
 \end{figure}
 
@@ -157,7 +157,7 @@ B&=(b+x)\cdot (\overline{a}+\overline{x})
 \end{gather}
 مساوات حاصل کرتے وقت باز رسی اشاروں کو عام مداخل تصور کریں۔یوں \عددی{x} کو بیرونی مداخل جبکہ \عددی{a} اور \عددی{b} کو اندرونی مداخل تصور کریں۔ ان مساوات میں \عددی{a} اور \عددی{b} \موٹا{ موجودہ مخارج } جبکہ \عددی{A} اور \عددی{B} \موٹا{ اگلے مخارج }ہیں۔ ان مساوات سے جدول \حوالہ{جدول_غیر_معاصر_باز رسی} حاصل ہو گا جس سے عبوری جدول کا حصول شکل  \حوالہ{شکل_غیر_معاصر_عبوری_جدول_حصول}  میں دکھایا گیا ہے۔
 \begin{table}
-\caption{دور کا بوولین جدول}
+\caption{دور کا بوولین جدول۔}
 \label{جدول_غیر_معاصر_باز رسی}
 \centering
 \begin{otherlanguage}{english}
@@ -186,7 +186,8 @@ a&b&x&A&B\\
 \pgfmathsetmacro{\kystep}{1}
 \pgfmathsetmacro{\kpin}{0.75}
 \pgfmathsetmacro{\ksepX}{2*\kxstep+2}
-\draw[xstep=\kxstep,ystep=\kystep](\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\foreach \x in {0,1,2}{\draw(1*\ksepX+\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(1*\ksepX,-\x*\kystep)--++(2*\kxstep,0);}
 \draw(\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
 \foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -194,7 +195,8 @@ a&b&x&A&B\\
 \foreach \kx/\xlb in {0/1,1/0}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
 \foreach \kx/\xlb in {0/1,1/1}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
 \foreach \kx/\xlb in {0/0,1/1}{\draw(\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
-\draw[xstep=\kxstep,ystep=\kystep](2*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\foreach \x in {0,1,2}{\draw(2*\ksepX+\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(2*\ksepX,-\x*\kystep)--++(2*\kxstep,0);}
 \draw(2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
 \foreach \kx/\xlb in {0/{0},1/{1}}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(2*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -202,7 +204,8 @@ a&b&x&A&B\\
 \foreach \kx/\xlb in {0/1,1/1}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
 \foreach \kx/\xlb in {0/1,1/0}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
 \foreach \kx/\xlb in {0/0,1/0}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
-\draw[xstep=\kxstep,ystep=\kystep](0*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\foreach \x in {0,1,2}{\draw(0*\ksepX+\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0*\ksepX,-\x*\kystep)--++(2*\kxstep,0);}
 \draw(0*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
 \foreach \kx/\xlb in {0/{0},1/{1}}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -222,7 +225,7 @@ a&b&x&A&B\\
 \draw(2*\ksepX+1*\kxstep,1*\kystep)node[above]{\RL{کارناف  نقشہ برائے \عددی{B}}};
 \draw(0*\ksepX+1*\kxstep,1*\kystep)node[above]{\RL{عبوری جدول}};
 \end{tikzpicture}
-\caption{عبوری جدول کا حصول}
+\caption{عبوری جدول کا حصول۔}
 \label{شکل_غیر_معاصر_عبوری_جدول_حصول}
 \end{figure}
 
@@ -240,7 +243,8 @@ a&b&x&A&B\\
 \pgfmathsetmacro{\kystep}{1}
 \pgfmathsetmacro{\kpin}{0.75}
 \pgfmathsetmacro{\ksepX}{2*\kxstep+2}
-\draw[xstep=\kxstep,ystep=\kystep](0,0) grid ++(2*\kxstep,-4*\kystep);
+\foreach \x in {0,1,2}{\draw(0*\ksepX+\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0*\ksepX,-\x*\kystep)--++(2*\kxstep,0);}
 \draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
 \foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -252,23 +256,28 @@ a&b&x&A&B\\
 \draw(1*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kb){$\phantom{00}$};
 \draw(0*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kc){$\phantom{00}$};
 \draw(1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)coordinate(kend)node[draw,circle,inner sep=1pt](kd){$\phantom{00}$};
-\draw[-stealth,very thick](ka.0) to [out=0,in=90] (kb.90);
-\draw[-stealth](kb.180) to [out=180,in=90] (kc.90);
-\draw[-stealth](kc.0) to [out=0,in=90] (kd.90);
-\draw[-stealth](kd.180) to [out=180,in=-90]  (-1*\kxstep,-2*\kystep) to [out=90,in=-160](ka.-160);
+\foreach \kx in {0,1}{\path(0.5*\kxstep+\kx*\kxstep,-0.5*\kystep)node[circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,1}{\path(0.5*\kxstep+\kx*\kxstep,-1.5*\kystep)node[circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\foreach \kx in {0,1}{\path(0.5*\kxstep+\kx*\kxstep,-2.5*\kystep)node[circle,inner sep=1pt](c\kx){$\phantom{00}$};}
+\foreach \kx in {0,1}{\path(0.5*\kxstep+\kx*\kxstep,-3.5*\kystep)node[circle,inner sep=1pt](d\kx){$\phantom{00}$};}
+
+\draw[-stealth,very thick](a0) to [out=30,in=150] (a1) to [out=-60,in=60] (b1);
+\draw[-stealth](b1) to [out=150,in=30] (b0) to [out=-120,in=120] (c0);
+\draw[-stealth](c0) to [out=30,in=150] (c1) to [out=-60,in=60] (d1);
+\draw[-stealth](d1) to [out=-150,in=-20] (d0) to [out=170,in=-170] (a0);
 \draw(ka.45)++(0.1,0.1) to [out=45,in=180]++(1,1)node[right]{\RL{ابتدائی خانہ}};
 \end{tikzpicture}
-\caption{عبوری جدول کا استعمال}
+\caption{عبوری جدول کا استعمال۔}
 \label{شکل_غیر_معاصر_عبوری_جدول_استعمال}
 \end{figure}
 
 شکل \حوالہ{شکل_غیر_معاصر_عبوری_جدول_استعمال} پر نظر رکھ کر \اصطلاح{عبوری جدول }کے استعمال پر غور کرتے ہیں۔جدول کی \عددی{ab=00} صف اور \عددی{x=0} قطار میں واقع خانے کو \اصطلاح{ابتدائی خانہ}\حاشیہد{کسی بھی مستحکم حال خانے کو ابتدائی خانہ منتخب کیا جا سکتا ہے۔}کہا گیا ہے، جس میں \عددی{ab=00} اور \عددی{x=0} کی صورت میں \عددی{AB} کی قیمت درج ہے۔ فرض کریں ابتدائی خانہ دور کا ابتدائی حال ظاہر کرتا ہے۔
 
-اب اگر \عددی{ab=00} رکھتے ہوئے بیرونی مداخل \عددی{x} کی قیمت \عددی{0} سے \عددی{1} کر دی جائے تو عبوری جدول کے مطابق \عددی{AB} کی قیمت \عددی{00} سے \عددی{01} ہو جائے گی۔ یوں موجودہ حال \عددی{ab} اور اگلے حال \عددی{AB} کی قیمتیں مختلف ہوں گی جو عبوری حال کی نشانی ہے اور جس میں دور زیادہ دیر نہیں رہ سکتا۔ برقی تاروں میں تاخیر کے بعد \عددی{ab} کی قیمت \عددی{01} ہو جائے گی جبکہ \عددی{x} اپنی نئی قیمت \عددی{(1)} برقرار رکھے گا۔یوں دور تاخیر کے بعد عبوری جدول کی \عددی{x=1} قطار اور \عددی{ab=01} صف پر پائے جانے والے خانے تک پہنچے گا جہاں \عددی{AB} اور \عددی{ab} دونوں کی قیمت \عددی{01} ہے، جو مستحکم حال کو ظاہر کرتا ہے ( اور اسی لئے دائرے میں بند دکھایا گیا ہے)۔ اس پورے مرحلہ کو   ، جسے ہم " پہلا قدم"  کہتے ہیں (وضاحت کی خاطر)  موٹی   تیر دار لکیر سے ظاہر کیا گیا ہے جو عبوری خانے سے گزر کر مستحکم خانے پر اختتام پذیر ہوتا ہے۔
+اب اگر \عددی{ab=00} رکھتے ہوئے بیرونی مداخل \عددی{x} کی قیمت \عددی{0} سے \عددی{1} کر دی جائے تو عبوری جدول کے مطابق \عددی{AB} کی قیمت \عددی{00} سے \عددی{01} ہو جائے گی۔ یوں موجودہ حال \عددی{ab} اور اگلے حال \عددی{AB} کی قیمتیں مختلف ہوں گی جو عبوری حال کی نشانی ہے اور جس میں دور زیادہ دیر نہیں رہ سکتا۔ برقی تاروں میں تاخیر کے بعد \عددی{ab} کی قیمت \عددی{01} ہو جائے گی جبکہ \عددی{x} اپنی ( نئی ) قیمت \عددی{(1)} برقرار رکھے گا۔یوں دور تاخیر کے بعد عبوری جدول کی \عددی{x=1} قطار اور \عددی{ab=01} صف پر پائے جانے والے خانے تک پہنچے گا جہاں \عددی{AB} اور \عددی{ab} دونوں کی قیمت \عددی{01} ہے، جو مستحکم حال کو ظاہر کرتا ہے ( اور اسی لئے دائرے میں بند دکھایا گیا ہے)۔ اس پورے مرحلہ کو   ، جسے ہم " پہلا قدم"  کہتے ہیں (وضاحت کی خاطر)  موٹی   تیر دار لکیر سے ظاہر کیا گیا ہے جو عبوری خانے  (عبوری حال \عددی{01}) سے گزر کر مستحکم خانے (مستحکم حال   \دائرہبند{01})  پر اختتام پذیر ہوتا ہے۔
 
  مستحکم (پائیدار) حال سے ابتدا کرتے ہوئے \عددی{x} کی قیمت تبدیل کرنے سے دور کچھ لمحوں کے لئے عبوری حال اختیار کر گیا۔یہ صورت زیادہ دیر برقرار نہیں رہی۔تاروں میں تاخیر کے بعد باز رسی اشارے تبدیل ہوئے اور دور دوبارہ مستحکم حال اختیار کر گیا۔عموماً ادوار کا عمل اسی طرح ہو گا۔
 
-اسی طرح \عددی{ab=01} رکھتے ہوئے \عددی{x} کی قیمت \عددی{1} سے \عددی{0} کرنے سے عبوری جدول کے مطابق دور \عددی{x=0} قطار اور \عددی{ab=01} صف کے خانے میں درج حال \عددی{AB=11} اختیار کرے گا۔اس مرتبہ بھی \عددی{AB} اور \عددی{ab} مختلف ہیں (جو عبوری حال کو ظاہر کرتا ہے) لہٰذا دور اس سے نکلنے کی کوشش کرے گا۔برقی تاروں میں تاخیر کے بعد \عددی{AB} کی نئی قیمتوں کی خبر \عددی{ab} کے مقام تک پہنچے گی لہٰذا \عددی{ab} کی قیمت بھی \عددی{11} ہو جائے گی۔یوں دور \عددی{x=0} قطار اور \عددی{ab=11} صف میں درج (دائرے میں بند) مستحکم حال \عددی{AB=11} اختیار کر ے گا۔تیر دار لکیر مستحکم حال \عددی{01} کے خانے سے  آغاز کرتے ہوئے عبوری حال \عددی{11} کے خانے سے گزر کر مستحکم حال \عددی{11} کے خانے پر اختتام پذیر ہو گا۔اسی طرح چلتے ہوئے \عددی{x} کی قیمت بار بار تبدیل کرنے سے دور بالترتیب \عددی{00} ، \عددی{01}، \عددی{11}، اور \عددی{10} مستحکم حال اختیار کرے گا، جس کے بعد یہ  دوبارہ مستحکم حال \عددی{00} پہنچ کر نئے سرے سے اس ترتیب کو دہرائے گا۔شکل میں تیر دار لکیروں سے یہ مراحل دکھائے گئے ہیں۔
+اسی طرح \عددی{ab=01} رکھتے ہوئے \عددی{x} کی قیمت \عددی{1} سے \عددی{0} کرنے سے عبوری جدول کے مطابق دور \عددی{x=0} قطار اور \عددی{ab=01} صف کے خانے میں درج حال \عددی{AB=11} اختیار کرے گا۔اس مرتبہ بھی \عددی{AB} اور \عددی{ab} مختلف ہیں (جو عبوری حال کو ظاہر کرتا ہے) لہٰذا دور اس سے نکلنے کی کوشش کرے گا۔برقی تاروں میں تاخیر کے بعد \عددی{AB} کی نئی قیمتوں کی خبر \عددی{ab} کے مقام تک پہنچے گی لہٰذا \عددی{ab} کی قیمت بھی \عددی{11} ہو جائے گی۔یوں دور \عددی{x=0} قطار اور \عددی{ab=11} صف میں درج (دائرے میں بند) مستحکم حال \عددی{AB=11} اختیار کر ے گا۔تیر دار لکیر مستحکم حال \عددی{01}  سے  آغاز کرتے ہوئے عبوری حال \عددی{11} سے گزر کر مستحکم حال \دائرہبند{11}  پر اختتام پذیر ہو گا۔اسی طرح چلتے ہوئے \عددی{x} کی قیمت بار بار تبدیل کرنے سے دور بالترتیب \عددی{00} ، \عددی{01}، \عددی{11}، اور \عددی{10} مستحکم حال اختیار کرے گا، جس کے بعد یہ  دوبارہ مستحکم حال \عددی{00} پہنچ کر نئے سرے سے اس ترتیب کو دہرائے گا۔شکل میں تیر دار لکیروں سے یہ مراحل دکھائے گئے ہیں۔
 
  دور کا حال \عددی{AB} کی بجائے \عددی{ABx} لکھا جاتا ہے۔ یوں \عددی{000}، \عددی{011}، \عددی{110}، اور \عددی{101} \اصطلاح{ مستحکم حال }جبکہ \عددی{001}، \عددی{010}، \عددی{111}، اور \عددی{100} \اصطلاح{ عبوری حال }ہیں۔
  
@@ -301,7 +310,8 @@ a&b&x&A&B\\
 \pgfmathsetmacro{\kystep}{1}
 \pgfmathsetmacro{\kpin}{0.75}
 \pgfmathsetmacro{\ksepX}{2*\kxstep+2}
-\draw[xstep=\kxstep,ystep=\kystep](2*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\foreach \x in {0,1,2}{\draw(2*\ksepX+\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(2*\ksepX,-\x*\kystep)--++(2*\kxstep,0);}
 \draw(2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
 \foreach \kx/\xlb in {0/{0},1/{1}}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(2*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -314,7 +324,8 @@ a&b&x&A&B\\
 \draw(2*\ksepX+0*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](kc){$\phantom{00}$};
 \draw(2*\ksepX+1*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)coordinate(kend)node[draw,circle,inner sep=1pt](kd){$\phantom{00}$};
 \draw(2*\ksepX+1*\kxstep,-4*\kystep)node[below]{\RL{عبوری جدول}};
-\draw[xstep=\kxstep,ystep=\kystep](0*\ksepX,0) grid ++(2*\kxstep,-4*\kystep);
+\foreach \x in {0,1,2}{\draw(0*\ksepX+\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0*\ksepX,-\x*\kystep)--++(2*\kxstep,0);}
 \draw(0*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$ab$};
 \foreach \kx/\xlb in {0/{0},1/{1}}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/{a},1/{b},2/{d},3/{c}}{\draw(0*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -329,7 +340,7 @@ a&b&x&A&B\\
 \draw(0*\ksepX+1*\kxstep,-4*\kystep)node[below]{\RL{بہاو کا جدول}};
 \draw(\ksepX+\kxstep,0)node[below]{$\begin{aligned} 00&=a\\  01&=b\\ 10&=c\\ 11&=d \end{aligned}$};
 \end{tikzpicture}
-\caption{عبوری جدول سے  بہاو کے جدول  کا حصول}
+\caption{عبوری جدول سے  بہاو کے جدول  کا حصول۔}
 \label{شکل_غیر_معاصر_جدول_بہاو_کا_حصول}
 \end{figure}
 
@@ -341,21 +352,23 @@ a&b&x&A&B\\
 \begin{figure}
 \centering
 \begin{tikzpicture}
-\pgfmathsetmacro{\kxstep}{1}
-\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kxstep}{0.9}
+\pgfmathsetmacro{\kystep}{0.9}
 \pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.1}
 \pgfmathsetmacro{\ksepX}{2*\kxstep+2}
-\draw[xstep=\kxstep,ystep=\kystep](2*\ksepX,0) grid ++(4*\kxstep,-2*\kystep);
-\draw((2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x_1x_0$}node[pos=0.75,below left]{$y$};
-\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw((2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \x in {0,1,2,3,4}{\draw(2*\ksepX+\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(2*\ksepX,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(2*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x_1x_0$}node[pos=0.75,below left]{$y$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/a,1/b}{\draw(2*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
 \foreach \kx/\xlb in {0/a,1/b,2/a,3/a}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
 \foreach \kx/\xlb in {0/a,1/b,2/b,3/b}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
 \draw(2*\ksepX+2*\kxstep,-2*\kystep)node[below]{\RL{غیر اولین بہاو  کا جدول}};
 \foreach \kx in {0,2,3}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
 \foreach \kx in {1,2,3}{\draw(2*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
-
-\draw[xstep=\kxstep,ystep=\kystep](0*\ksepX,0) grid ++(4*\kxstep,-2*\kystep);
+\foreach \x in {0,1,2,3,4}{\draw(0*\ksepX+\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(0*\ksepX,-\x*\kystep)--++(4*\kxstep,0);}
 \draw(0*\ksepX,0)--++(135:\kpin)node[pos=0.75,above right]{$x_1x_0$}node[pos=0.75,below left]{$y$};
 \foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
 \foreach \ky/\ylb in {0/a,1/b}{\draw(0*\ksepX,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
@@ -364,23 +377,76 @@ a&b&x&A&B\\
 \draw(0*\ksepX+2*\kxstep,-2*\kystep)node[below]{\RL{عبوری جدول}};
 \foreach \kx in {0,2,3}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
 \foreach \kx in {1,2,3}{\draw(0*\ksepX+\kx*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw[dashed](0*\ksepX+\kxstep+\kmv,-\kmv) rectangle ++(\kxstep-2*\kmv,-2*\kystep+2*\kmv);
+\draw[dashed](0*\ksepX+2*\kxstep+\kmv,-\kystep-\kmv) rectangle ++(2*\kxstep-2*\kmv,-1*\kystep+2*\kmv);
 \draw(\ksepX+2*\kxstep,0)node[below]{$\begin{aligned} a&=0\\ b&=1  \end{aligned}$};
 \end{tikzpicture}
-\caption{غیر اولین بہاو کے جدول سے عبوری جدول کا حصول}
+\caption{غیر اولین بہاو کے جدول سے عبوری جدول کا حصول۔}
 \label{شکل_غیر_معاصر_غیر_اولین}
 \end{figure}
 
 
- بہاو کے جدول سے دور حاصل کرنے کے لئے پہلے عبوری جدول حاصل کیا جاتا ہے۔بہاو کے جدول کے دو صف ہیں لہٰذا دور کے دو حال ہوں گے۔دو ممکنہ صورتوں کو ایک بِٹ عدد ظاہر کر سکتا ہے۔یوں حال \عددی{a} کو \عددی{0} اور حال \عددی{b} کو \عددی{1} لکھ کر عبوری جدول حاصل کرتے ہیں، جو شکل\حوالہء{ 11.7 } میں دکھایا گیا ہے۔ دور کے اگلے مخارج کو \عددی{Y} اور موجودہ مخارج کو \عددی{y} سے ظاہر کر کے عبوری جدول سے \عددی{Y} کا تفاعل حاصل کرتے ہیں۔
+ بہاو کے جدول سے دور حاصل کرنے کے لئے پہلے عبوری جدول حاصل کیا جاتا ہے۔بہاو کے جدول کے دو صف ہیں لہٰذا دور کے دو حال ہوں گے۔دو ممکنہ صورتوں کو ایک بِٹ عدد ظاہر کر سکتا ہے۔یوں حال \عددی{a} کو \عددی{0} اور حال \عددی{b} کو \عددی{1} لکھ کر عبوری جدول حاصل کرتے ہیں، جو شکل \حوالہ{شکل_غیر_معاصر_غیر_اولین} میں دکھایا گیا ہے۔ دور کے اگلے مخارج کو \عددی{Y} اور موجودہ مخارج کو \عددی{y} سے ظاہر کر کے عبوری جدول سے ں (نقطہ دار مستطیلوں سے گروہ بندی کر کے)  \عددی{Y} کا تفاعل حاصل کرتے ہی۔
 \begin{align}
 Y=\overline{x}_1x_0+x_1y
 \end{align}
+اس تفاعل کا دور شکل \حوالہ{شکل_غیر_معاصر_غیر_اولین_سے_دور} میں  پیش  ہے۔
 
-اس تفاعل کا دور شکل\حوالہء{ 11.8 } میں دکھایا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.75}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpina}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\draw(0,0)node[or port,scale=1,number inputs=2,anchor=out](u0){};
+\draw(u0.in 2)--++(0,-\kpin)node[and port,scale=1,number inputs=2,anchor=out](u1){};
+\draw(u0.in 1)--++(0,\kpin)node[and port,scale=1,number inputs=2,anchor=out](u2){};
+\draw(u1.in 1) node[not port,scale=0.8,anchor=out](u3){};
+\draw(u2.in 2)--(u2.in 2 -|u3.in)--++(-\kpin,0)coordinate(klft)node[left]{$X_1$};
+\draw(u1.in 2)--++(0,-\kpin)coordinate(aa)--(aa -| klft)node[left]{$X_0$};
+\draw(u2.in 1)node[left]{$y$}--++(0,\kpin)-|(u0.out)--++(\kpin,0)node[right]{$Y$};
+\draw(u3.in)--(u3.in |- klft);
+\end{tikzpicture}
+\caption{غیر اولین بہاو کے جدول سے حاصل دور۔}
+\label{شکل_غیر_معاصر_غیر_اولین_سے_دور}
+\end{figure}
 
- شکل\حوالہء{ 11.7 } میں پیش بہاو کے جدول کے استعمال پر شکل \حوالہء{ 11.9 } کی مدد سے غور کرتے ہیں۔ فرض کریں بیرونی مداخل \عددی{x_1x_0} کی قیمت \عددی{00} ہے،یعنی \عددی{x=00} ، اور دور حال \عددی{a} میں ہے۔اگر \عددی{x_1} تبدیل کیے بغیر \عددی{x_0} کی قیمت \عددی{1} کر دی جائے،یعنی \عددی{x=01} کر دی جائے، تو عبوری جدول کے مطابق دور چند لمحوں کے لئے عبوری حال \عددی{b} اختیار کرنے کے بعد مستحکم حال \عددی{b} اختیار کر ے گا۔اب اگر \عددی{x_0} کی قیمت \عددی{1} رکھتے ہوئے \عددی{x_1} کی قیمت بھی \عددی{1} کر دی جائے،یعنی \عددی{x=11} کر دی جائے، تو حال \عددی{b} برقرار رہے گا۔اس اختتامی خانے کو \موٹا{ پہلا اختتامی خانہ }کہا گیا ہے۔ابتدائی خانے سے \موٹا{ پہلے اختتامی خانے }تک پہنچنے کا عمل تین تیر دار لکیروں سے ظاہر کیا گیا ہے جہاں پہلا تیر مستحکم حال \عددی{a} سے عبوری حال \عددی{b} کا حصول جبکہ دوسرا تیر یہاں سے مستحکم حال \عددی{b} کا حصول ظاہر کرتا ہے۔تیسرا تیر مستحکم حال \عددی{b} سے مستحکم حال \عددی{b} میں ہی رہنے کو ظاہر کرتا ہے۔
+ شکل \حوالہ{شکل_غیر_معاصر_غیر_اولین}  میں پیش بہاو کے جدول کے استعمال پر شکل  \حوالہ{شکل_غیر_معاصر_دو_اختتامی_خانے}  کی مدد سے غور کرتے ہیں۔ فرض کریں بیرونی مداخل \عددی{x_1x_0} کی قیمت \عددی{00} ہے،یعنی \عددی{x=00} ، اور دور حال \عددی{a} میں ہے۔اگر \عددی{x_1} تبدیل کیے بغیر \عددی{x_0} کی قیمت \عددی{1} کر دی جائے،یعنی \عددی{x=01} کر دی جائے، تو عبوری جدول کے مطابق دور چند لمحوں کے لئے عبوری حال \عددی{b} اختیار کرنے کے بعد مستحکم حال \عددی{b} اختیار کر ے گا۔اب اگر \عددی{x_0} کی قیمت \عددی{1} رکھتے ہوئے \عددی{x_1} کی قیمت بھی \عددی{1} کر دی جائے،یعنی \عددی{x=11} کر دی جائے، تو حال \عددی{b} برقرار رہے گا۔اس  کو \موٹا{ پہلا اختتام}کہا گیا ہے۔ابتدائی خانے سے \موٹا{ پہلے اختتام}تک پہنچنے کا عمل    دو تیر دار لکیروں  سے ظاہر کیا گیا ہے ۔ پہلی  تیر دار لکیر مستحکم حال \عددی{a} سے  آغاز کر کے  عبوری حال \عددی{b}  سے گزر کر  مستحکم حال \دائرہبند{b}  پہنچتی ہے۔دوسری تیر دار لکیر  مستحکم حال \عددی{b} سے آغاز کر کے\موٹا{ پہلے اختتامی   مستحکم حال} \عددی{b}  پہنچتی ہے۔
 
-اس کے برعکس، ابتدائی خانے سے آغاز کرتے ہوئے \عددی{x_1} برقرار اور \عددی{x_0} تبدیل کرنے کی بجائے ہم \عددی{x_0} کی قیمت \عددی{0}رکھتے ہوئے \عددی{x_1} کی قیمت \عددی{1} کرتے ہیں، یعنی \عددی{x=10} کرتے ہیں۔ بہاو کے جدول کے مطابق حال \عددی{a} برقرار رہے گا۔اب اگر \عددی{x_0} کی قیمت بھی \عددی{1} کر دی جائے، یعنی \عددی{x=11} کر دی جائے، تو اختتامی حال برقرار \عددی{a} رہے گا۔اس اختتامی خانے کو \موٹا{دوسرا اختتامی خانہ } کہا گیا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x_1x_0$}node[pos=0.75,below left]{$y$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/a,1/b}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/a,1/b,2/a,3/a}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/a,1/b,2/b,3/b}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx in {0,2,3}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {1,2,3}{\draw(\kx*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\path(\kx*\kxstep+\kxstep/2,-\kystep/2)node[,circle,inner sep=1pt](\ka\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\path(\kx*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[,circle,inner sep=1pt](\kb\kx){$\phantom{00}$};}
+\draw[-stealth](a0) to [out=30,in=145](a1) to [out=-100,in=110](b1) to [out=-45,in=-135](b2);
+\draw[-stealth](a0) to [out=70,in=110] (a3) to [out=-135,in=-45] (a2);
+\draw(a0.180)++(-0.1,0) to [out=135,in=0]++(-1.5,0.25)node[left]{\RL{ابتدائی خانہ}};
+\draw(b2.-90)++(0,-0.1) to [out=-90,in=180]++(0.5,-0.5)node[right]{\RL{پہلا اختتام}};
+\draw(a2.-60)++(-0.1,-0.1) to [out=-35,in=180]++(2.5,0)node[right]{\RL{دوسرا اختتام}};
+\end{tikzpicture}
+\caption{دو مختلف ترتیب سے مداخل  تبدیل کیے گئے۔}
+\label{شکل_غیر_معاصر_دو_اختتامی_خانے}
+\end{figure}
+%============
+
+اس کے برعکس، ابتدائی خانے سے آغاز کرتے ہوئے \عددی{x_1} برقرار اور \عددی{x_0} تبدیل کرنے کی بجائے ہم \عددی{x_0} کی قیمت \عددی{0}رکھتے ہوئے \عددی{x_1} کی قیمت \عددی{1} کرتے ہیں، یعنی \عددی{x=10} کرتے ہیں۔ بہاو کے جدول کے مطابق حال \عددی{a} برقرار رہے گا ۔اب اگر \عددی{x_0} کی قیمت بھی \عددی{1} کر دی جائے، یعنی \عددی{x=11} کر دی جائے، تو اختتامی حال برقرار \عددی{a} رہے گا۔اس  کو   \موٹا{دوسرا اختتام} کہا گیا ہے۔
 
 آپ نے دیکھا اختتامی حال بیرونی مداخل کی تبدیلی کی ترتیب پر منحصر ہے۔اس مثال میں ابتدائی بیرونی مداخل \عددی{00} جبکہ اختتامی بیرونی مداخل \عددی{11} ہیں۔ یاد رہے \موٹا{ بنیادی طریق کار } کی شرائط کے تحت، (دور کی درست کارکردگی کے لئے ضروری ہے کہ) ایک سے زیادہ بیرونی مداخل بیک وقت تبدیل نہ کیے جائیں۔ یوں \عددی{00} سے آغاز کر کے ہم سیدھا \عددی{11} نہیں کر سکتے۔ایسا کرنے سے ( ناقابل معلوم تاخیر کی بنا پر) درست اختتامی حال جاننا ناممکن ہو گا۔
 
@@ -390,17 +456,195 @@ Y=\overline{x}_1x_0+x_1y
 
 جب عبوری حال کی تبدیلی کی ترتیب اختتامی حال متعین کرنے میں کردار ادا کرتی ہو اور دور دو مختلف اختتامی مستحکم حال اختیار کر نے کی صلاحیت رکھتا ہو وہاں دوڑ کو \اصطلاح{بحرانی دوڑ }\فرہنگ{دوڑ!بحرانی}\حاشیہب{critical race}\فرہنگ{race!critical} کہیں گے۔ سودمند استعمال کے لئے ضروری ہے کہ دور میں بحرانی دوڑ کی صورت پیدا نہ ہوتی ہو۔جہاں عبوری حال کی تبدیلی کی ترتیب اختتامی مستحکم حال پر اثر انداز نہ ہوتی ہو وہاں دوڑ کو\اصطلاح{ غیر بحرانی دوڑ }\فرہنگ{دوڑ!غیر بحرانی}\حاشیہب{non-critical race}\فرہنگ{race!non-critical} کہیں گے۔
 
+%============================
+%fig 11.10
+\begin{figure}
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.9}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},2/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\draw(0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt](a0){$00$};
+\draw(1.5*\kxstep,-0.5*\kystep)node[,circle,inner sep=1pt](a1){$01,$};
+\draw(2.5*\kxstep,-0.5*\kystep)node[,circle,inner sep=1pt](a2){$11,$};
+\draw(3.5*\kxstep,-0.5*\kystep)node[,circle,inner sep=1pt](a3){$10$};
+\draw(2.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt](b2){$01$};
+\draw(2.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt](c2){$11$};
+\draw(2.5*\kxstep,-3.5*\kystep)node[circle,inner sep=1pt](d2){$11$};
+\draw[-stealth](a0) to [out=0,in=170] (a1) to [out=-45,in=90] (b2);
+\draw[-stealth](a0) to [out=30,in=145](a2) to [out=-25,in=90] (4.5*\kxstep,-1.5*\kystep) to [out=-90,in=0] (c2);
+\draw[-stealth](a0.60) to [out=60,in=160](a3) to [out=-20,in=90] (4.75*\kxstep,-1.5*\kystep) to [out=-90,in=-20] (d2) to [out=160,in=-160] (c2);
+\draw(\kxstep,-4.5*\kystep)node[below]{
+\begin{minipage}{4.5cm}\begin{center}
+ \RL{ممکنہ تبادلہ  حال}\\ 
+ $00 \to 01 \to 01\phantom{\to 11}$ \\
+ $00 \to 11\to 11\phantom{\to 11}$\\
+ $00 \to 10\to 11\to 11$
+ \end{center}\end{minipage}};
+\end{tikzpicture}
+\caption{بحرانی دوڑ کی ایک مثال۔}
+\label{شکل_غیر_معاصر_بحرانی_دوڑ}
+\end{minipage}\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.9}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},2/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\a in {0/{00},1/{01,},2/{11,},3/{10}}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{$\a$};}
+\foreach \kx/\a in {2/01}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {2/11}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {2/10}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node{$\a$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[circle,inner sep=1pt](c\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[circle,inner sep=1pt](d\kx){$\phantom{00}$};}
+\foreach \kx in {0}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {2}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {2}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {2}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw[-stealth](a0) to [out=0,in=170] (a1) to [out=-45,in=90] (b2);
+\draw[-stealth](a0) to [out=30,in=145](a2) to [out=-25,in=90] (4.5*\kxstep,-1.5*\kystep) to [out=-90,in=0] (c2);
+\draw[-stealth](a0) to [out=60,in=160](a3) to [out=-20,in=90] (4.75*\kxstep,-1.5*\kystep) to [out=-90,in=-20] (d2);
+\draw(\kxstep,-4.5*\kystep)node[below]{
+\begin{minipage}{3cm}\begin{center}
+ \RL{ممکنہ تبادلہ  حال}\\ 
+ $00 \to 01 \to 01$ \\
+ $00 \to 11\to 11$\\
+ $00 \to 10\to 10$
+ \end{center}\end{minipage}};
+\end{tikzpicture}
+\caption{بحرانی دوڑ کی دوسری مثال}
+\label{شکل_غیر_بحرانی_دوڑ_دوسری}
+\end{minipage}
+\end{figure}
+%============
 
+شکل \حوالہ{شکل_غیر_معاصر_بحرانی_دوڑ}  میں بحرانی دوڑ کی ایک مثال دکھائی گئی ہے جہاں بیرونی مداخل \عددی{x} اور باز رسی   اشارات \عددی{y_0}،  اور \عددی{y_1} (یعنی مخارج \عددی{Y_0} اور \عددی{Y_1}) ہیں۔حال کو \اصطلاح{مکمل حال } \عددی{Y_1Y_0x} لکھتے ہوئے حال \عددی{000} سے آغاز کر کے بیرونی مداخل \عددی{0} سے \عددی{1} کرنے سے دور اختتامی حال کی جانب دوڑ لگائے گا۔نا معلوم تاخیر کی بنا پر ہم نہیں جانتے دور تین ممکنہ حال \عددی{011}، \عددی{111}، اور \عددی{101} میں سے کس حال کو پہلے پہنچے گا۔ یہ تینوں عبوری حال پہلی صف میں دکھائے گئے ہیں۔ عبوری حال \عددی{011} پہلے پہنچنے کی صورت میں دور یہاں سے ہوتے ہوئے اختتامی مستحکم حال \عددی{011} اختیار کر ے گا، جس کو دوسری صف میں دائرے میں بند دکھایا گیا ہے۔اگر دونوں باز رسی راہ میں مائل تاخیر برابر ہوں ، دور پہلے  عبوری حال  \عددی{111} پہنچے گا اور یہاں سے ہوتے ہوئے اختتامی مستحکم حال \عددی{111} اختیار کر ے گا، جس کو تیسری صف میں دائرہ میں بند دکھایا گیا ہے۔تیسری صورت میں دور عبوری حال \عددی{101} پہلے پہنچتا ہے جہاں سے یہ آخری صف کی جانب رواں ہو گا ، لیکن آخری صف ازخود عبوری حال ہے لہٰذا دور اس عبوری حال سے بھی گزر کر آخر کار تیسری صف کے اختتامی مستحکم حال \عددی{111} پہنچے گا۔اس مثال میں دو اختتامی حال ممکن ہیں۔یہ دریافت کرنا ناممکن ہے کہ دور ان میں سے کس اختتامی حال کو پہنچے گا۔ شکل میں بائیں جانب \عددی{x=0} کی قطار اس لئے خالی رکھی گئی ہے کہ ہم صرف \عددی{x=0} سے \عددی{x=1} کرتے ہوئے دور پر غور کر رہے ہیں جس میں بائیں قطار کے اندراجات درکار نہیں۔
 
-شکل\حوالہء{ 11.10 } میں بحرانی دوڑ کی ایک مثال دکھائی گئی ہے جہاں بیرونی مداخل \عددی{x} اور حال \عددی{y_1y_0x} ہے۔ حال کو \اصطلاح{مکمل حال } \عددی{y_1y_0x} لکھتے ہوئے حال \عددی{000} سے آغاز کر کے بیرونی مداخل \عددی{0} سے \عددی{1} کرنے سے دور اختتامی حال کی جانب دوڑ لگائے گا۔نا معلوم تاخیر کی بنا پر ہم نہیں جانتے دور تین ممکنہ حال \عددی{011}، \عددی{111}، اور \عددی{101} میں سے کس حال کو پہلے پہنچے گا۔ یہ تینوں عبوری حال پہلی صف میں دکھائے گئے ہیں۔ عبوری حال \عددی{011} پہلے پہنچنے کی صورت میں دور یہاں سے ہوتے ہوئے اختتامی مستحکم حال \عددی{011} اختیار کر ے گا، جس کو دوسری صف میں دائرے میں بند دکھایا گیا ہے۔اگر دونوں باز رسی راہ میں مائل تاخیر برابر ہوں ، دور عبوری حال \عددی{111} پہلے پہنچے گا اور یہاں سے ہوتے ہوئے اختتامی مستحکم حال \عددی{111} اختیار کر ے گا، جس کو تیسری صف میں دائرہ میں بند دکھایا گیا ہے۔تیسری صورت میں دور عبوری حال \عددی{101} پہلے پہنچتا ہے جہاں سے یہ آخری صف کی جانب رواں ہو گا ، لیکن آخری صف ازخود عبوری حال ہے لہٰذا دور اس عبوری حال سے بھی گزر کر آخر کار تیسری صف کے اختتامی مستحکم حال \عددی{111} پہنچے گا۔اس مثال میں دو اختتامی حال ممکن ہیں۔یہ دریافت کرنا ناممکن ہے کہ دور ان میں سے کس اختتامی حال کو پہنچے گا۔ شکل میں بائیں جانب \عددی{x=0} کی قطار اس لئے خالی رکھی گئی ہے کہ ہم صرف \عددی{x=0} سے \عددی{x=1} کرتے ہوئے دور پر غور کر رہے ہیں جس میں بائیں قطار کے اندراجات درکار نہیں۔
+شکل \حوالہ{شکل_غیر_بحرانی_دوڑ_دوسری}  میں \موٹا{بحرانی دوڑ } کی دوسری مثال پیش  ہے جہاں تین اختتامی حال ممکن ہیں۔ \اصطلاح{ مکمل مستحکم حال } \عددی{Y_1Y_0x=000} سے آغاز کرتے ہوئے بیرونی مداخل \عددی{x} کی قیمت \عددی{1} کر نے سے دور اختتامی حال کی طرف دوڑ لگائے گا۔بالکل اُوپر مثال کی طرح،تین ممکنہ عبوری حال  ممکن ہیں۔ایک عبوری حال \عددی{011} ہے جہاں سے یہ دوسری صف میں دکھائے اختتامی مستحکم حال \عددی{011} پہنچے گا۔دوسرا عبوری حال \عددی{111} ہے جہاں سے یہ تیسری صف کے اختتامی مستحکم حال \عددی{111} پہنچے گا اور تیسرا عبوری حال \عددی{101} ہے جہاں سے یہ آخری صف میں   اختتامی مستحکم حال \عددی{101} پہنچے گا۔ نامعلوم تاخیر کی بنا پر یہ جاننا ممکن نہیں کہ دور حقیقت میں کس اختتامی حال کو پہنچے گا۔
 
-شکل\حوالہء{ 11.11 } میں \موٹا{بحرانی دوڑ } کی دوسری مثال دکھائی گئی ہے جہاں تین اختتامی حال ممکن ہیں۔ \اصطلاح{ مکمل مستحکم حال } \عددی{000} سے آغاز کرتے ہوئے بیرونی مداخل \عددی{x} کی قیمت \عددی{1} کر نے سے دور اختتامی حال کی طرف دوڑ لگائے گا۔بالکل اُوپر مثال کی طرح،تین ممکنہ عبوری حال ہیں۔ایک عبوری حال \عددی{011} ہے جہاں سے یہ دوسری صف میں دکھائے اختتامی مستحکم حال \عددی{011} پہنچے گا۔دوسرا عبوری حال \عددی{111} ہے جہاں سے یہ تیسری صف کے اختتامی مستحکم حال \عددی{111} پہنچے گا اور تیسرا عبوری حال \عددی{101} ہے جہاں سے یہ آخری صف میں دکھائے اختتامی مستحکم حال \عددی{101} پہنچے گا۔ نامعلوم تاخیر کی بنا پر یہ جاننا ممکن نہیں کہ دور حقیقت میں کس اختتامی حال کو پہنچے گا۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},2/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\a in {0/{00},1/{01,},2/{11,},3/{10}}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{$\a$};}
+\foreach \kx/\a in {2/11}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {2/10}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {2/10}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node{$\a$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[circle,inner sep=1pt](c\kx){$\phantom{00}$};}
+\foreach \kx in {0,1,2,3}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[circle,inner sep=1pt](d\kx){$\phantom{00}$};}
+\foreach \kx in {0}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {2}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {2}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {2}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw[](a0) to [out=0,in=170] (a1) to [out=-45,in=120] (b2) to [out=-45,in=60](c2);
+\draw[-stealth](a0) to [out=30,in=145](a2) to [out=-25,in=90] (4.5*\kxstep,-1.5*\kystep) to [out=-90,in=30] (c2) to [out=-130,in=130] (d2);
+\draw[-stealth](a0) to [out=60,in=160](a3) to [out=-20,in=90] (5.5*\kxstep,-2*\kystep) to [out=-90,in=-20] (d2);
+\draw(\kxstep,-4.5*\kystep)node[below]{
+\begin{minipage}{5cm}\begin{center}
+ \RL{ممکنہ تبادلہ  حال}\\ 
+ $00 \to 01 \to 11 \to 10 \to 10$ \\
+ $00 \to 11 \to 10 \to 10 \phantom{\to 10}$\\
+ $00 \to 10 \to 10 \phantom{ \to 11 \to 10}$
+ \end{center}\end{minipage}};
+ \end{tikzpicture}
+\caption{غیر بحرانی دوڑ کی ایک مثال}
+\label{شکل_غیر_معاصر_غیر_بحرانی_دوڑ}
+\end{figure}
+اب غیر بحرانی دوڑ کی ایک مثال دیکھتے ہیں جو شکل  \حوالہ{شکل_غیر_معاصر_غیر_بحرانی_دوڑ}  میں دکھائی گئی ہے۔اس مثال میں \عددی{Y_1Y_0x=000} سے آغاز کرتے ہوئے تین عبوری حال ممکن ہیں۔ ایک عبوری حال \عددی{011} ہے جہاں سے دور دوسری صف کے عبوری حال \عددی{111} اور اس کے بعد تیسری صف کے عبوری حال \عددی{101} سے گزر کر آخر کار چوتھی صف کے اختتامی مستحکم حال \عددی{101} پہنچے گا۔ دوسرا عبوری حال \عددی{111} ہے جہاں سے دور تیسری صف کے عبوری حال \عددی{101} سے ہوتے ہوئے آخر کار آخری صف کے اختتامی مستحکم حال \عددی{101} پہنچے گا۔ تیسرا عبوری حال \عددی{101} ہے جہاں سے گزر کر دور آخری صف کے اختتامی مستحکم حال \عددی{101} پہنچے گا۔
 
-اب غیر بحرانی دوڑ کی ایک مثال دیکھتے ہیں جو شکل \حوالہء{11.12 } میں دکھائی گئی ہے۔اس مثال میں \عددی{000} سے آغاز کرتے ہوئے تین عبوری حال ممکن ہیں۔ ایک عبوری حال \عددی{011} ہے جہاں سے دور دوسری صف کے عبوری حال \عددی{111} اور اس کے بعد تیسری صف کے عبوری حال \عددی{101} سے گزر کر آخر کار چوتھی صف کے اختتامی مستحکم حال \عددی{101} پہنچے گا۔ دوسرا عبوری حال \عددی{111} ہے جہاں سے دور تیسری صف کے عبوری حال \عددی{101} سے ہوتے ہوئے آخر کار آخری صف کے اختتامی مستحکم حال \عددی{101} پہنچے گا۔ تیسرا عبوری حال \عددی{101} ہے جہاں سے گزر کر دور آخری صف کے اختتامی مستحکم حال \عددی{101} پہنچے گا۔
+اس مثال میں اگرچہ تین مختلف ممکنات موجود ہیں تاہم اختتامی مستحکم حال سب کا ایک ہے لہٰذا یہ  \موٹا{غیر بحرانی دوڑ } ہو گی۔ 
 
-اس مثال میں اگرچہ تین مختلف ممکنات موجود ہیں تاہم اختتامی مستحکم حال سب کا ایک ہے لہٰذا یہ غیر بحرانی دوڑ ہو گی۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(2*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\a in {0/00,1/10}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/11}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node{$\a$};}
+\foreach \kx in {0}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw(\kxstep,-4.5*\kystep)node[below]{\begin{minipage}{4cm}\begin{center} \RL{تبادلہ حال}\\ $00 \to 10 \to 11 \to 01$ \end{center}\end{minipage}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(2*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\a in {0/00,1/10}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/11}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/11}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node{$\a$};}
+\foreach \kx in {0}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw(\kxstep,-4.5*\kystep)node[below]{\begin{minipage}{4cm}\begin{center} \RL{تبادلہ حال}\\ $00 \to 10 \to 11$ \end{center}\end{minipage}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{پھیرے}
+\label{شکل_غیر_معاصر_پھیرے}
+\end{figure}
 
- مخصوص اور منفرد عبوری حال سے گزر کر اختتامی مستحکم حال اختیار کرنے کو \اصطلاح{ پھیرا }\فرہنگ{پھیرا}\حاشیہب{cycle}\فرہنگ{cycle} لگانا کہتے ہیں۔اس کی مثال شکل \حوالہء{11.13 } میں دی گئی ہے۔ان اشکال میں حالت دوڑ نہیں پائی جاتی چونکہ ایک وقت میں صرف ایک مخارج حال تبدیل کرتا ہے ، البتہ اختتامی حال تک پہنچنے کی خاطر دور کو مخصوص اور منفرد عبوری حال سے گزرنا ہو گا۔
+ مخصوص اور منفرد عبوری حال سے گزر کر اختتامی مستحکم حال اختیار کرنے کو \اصطلاح{ پھیرا }\فرہنگ{پھیرا}\حاشیہب{cycle}\فرہنگ{cycle} لگانا کہتے ہیں۔اس کی مثال شکل  \حوالہ{شکل_غیر_معاصر_پھیرے}  میں دی گئی ہے۔ان اشکال میں حالت دوڑ نہیں پائی جاتی چونکہ ایک وقت میں صرف ایک مخارج حال تبدیل کرتا ہے ، البتہ اختتامی حال تک پہنچنے کی خاطر دور کو مخصوص اور منفرد عبوری حال سے گزرنا ہو گا۔
 
 شکل - الف میں مستحکم حال \عددی{00} سے آغاز کرتے ہوئے عبوری حال \عددی{10} کے بعد عبوری حال \عددی{11} سے گزر کر اختتامی مستحکم حال \عددی{01} پہنچا گیا۔ شکل-ب میں مستحکم حال \عددی{00} سے آغاز کرتے ہوئے عبوری حال \عددی{10} کے راستے اختتامی مستحکم حال \عددی{11} اختیار کیا گیا۔
 

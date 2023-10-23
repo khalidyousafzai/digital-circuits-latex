@@ -27,26 +27,26 @@
 \indexentry{flow table!primitive}{\arabicdigits {227}}
 \indexentry{بہاو کا جدول!اوّلی}{\arabicdigits {227}}
 \indexentry{بہاو کا جدول!غیر اوّلی}{\arabicdigits {227}}
-\indexentry{flow table!non primitive}{\arabicdigits {227}}
+\indexentry{flow table!non primitive}{\arabicdigits {228}}
 \indexentry{race condition}{\arabicdigits {229}}
 \indexentry{حالت دوڑ}{\arabicdigits {229}}
-\indexentry{race!critical}{\arabicdigits {229}}
-\indexentry{دوڑ!بحرانی}{\arabicdigits {229}}
-\indexentry{race!non-critical}{\arabicdigits {229}}
-\indexentry{دوڑ!غیر بحرانی}{\arabicdigits {229}}
-\indexentry{cycle}{\arabicdigits {230}}
-\indexentry{پھیرا}{\arabicdigits {230}}
-\indexentry{unstable circuit}{\arabicdigits {230}}
-\indexentry{غیر مستحکم دور}{\arabicdigits {230}}
-\indexentry{oscillator}{\arabicdigits {230}}
-\indexentry{مرتعش}{\arabicdigits {230}}
-\indexentry{adjacent numbers}{\arabicdigits {231}}
-\indexentry{ہمسایہ اعداد}{\arabicdigits {231}}
-\indexentry{one hot bit assignment}{\arabicdigits {231}}
-\indexentry{ایک بلند بِٹ تقرری}{\arabicdigits {231}}
-\indexentry{don't care}{\arabicdigits {232}}
-\indexentry{غیر ضروری}{\arabicdigits {232}}
-\indexentry{state!complete}{\arabicdigits {234}}
-\indexentry{حال!مکمل}{\arabicdigits {234}}
-\indexentry{edge!rising}{\arabicdigits {235}}
-\indexentry{کنارہ!چڑھائی}{\arabicdigits {235}}
+\indexentry{race!critical}{\arabicdigits {230}}
+\indexentry{دوڑ!بحرانی}{\arabicdigits {230}}
+\indexentry{race!non-critical}{\arabicdigits {230}}
+\indexentry{دوڑ!غیر بحرانی}{\arabicdigits {230}}
+\indexentry{cycle}{\arabicdigits {232}}
+\indexentry{پھیرا}{\arabicdigits {232}}
+\indexentry{unstable circuit}{\arabicdigits {232}}
+\indexentry{غیر مستحکم دور}{\arabicdigits {232}}
+\indexentry{oscillator}{\arabicdigits {232}}
+\indexentry{مرتعش}{\arabicdigits {232}}
+\indexentry{adjacent numbers}{\arabicdigits {233}}
+\indexentry{ہمسایہ اعداد}{\arabicdigits {233}}
+\indexentry{one hot bit assignment}{\arabicdigits {234}}
+\indexentry{ایک بلند بِٹ تقرری}{\arabicdigits {234}}
+\indexentry{don't care}{\arabicdigits {234}}
+\indexentry{غیر ضروری}{\arabicdigits {234}}
+\indexentry{state!complete}{\arabicdigits {236}}
+\indexentry{حال!مکمل}{\arabicdigits {236}}
+\indexentry{edge!rising}{\arabicdigits {237}}
+\indexentry{کنارہ!چڑھائی}{\arabicdigits {237}}

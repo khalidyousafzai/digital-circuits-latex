@@ -85,6 +85,11 @@
 \newcommand{\قولء}[1]{’#1‘}
 \newcommand{\قول}[1]{”#1“}
 
+\newcommand*{\دائرہبند}[1]{%
+  \begin{tikzpicture}[baseline=(char.base)]
+    \node[draw,circle,inner sep=1pt](char) {\(#1\)};
+  \end{tikzpicture}}
+
 
 \renewcommand{\indexname}{فرہنگ}        %does nothing here. must be placed within begin{urdufont} environment to be the last to take effect 
 %===============================
