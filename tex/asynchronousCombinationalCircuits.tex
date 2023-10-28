@@ -592,7 +592,7 @@ Y=\overline{x}_1x_0+x_1y
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kxstep}{1}
-\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
 \pgfmathsetmacro{\kpin}{0.75}
 \def\ka{a}
 \def\kb{b}
@@ -618,7 +618,7 @@ Y=\overline{x}_1x_0+x_1y
 \centering
 \begin{tikzpicture}
 \pgfmathsetmacro{\kxstep}{1}
-\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
 \pgfmathsetmacro{\kpin}{0.75}
 \def\ka{a}
 \def\kb{b}
@@ -650,47 +650,363 @@ Y=\overline{x}_1x_0+x_1y
 
 
 \جزوحصہ{توازن اور ارتعاش }
- ایسا دور جو \موٹا{پھیرے} لگاتے ہوئے کسی بھی اختتامی مستحکم حال تک نہ پہنچ پائے \اصطلاح{غیر مستحکم دور }\فرہنگ{غیر مستحکم دور}\حاشیہب{unstable circuit}\فرہنگ{unstable circuit} کہلاتا ہے۔شکل \حوالہء{ 11.14 } میں اس کی مثال دکھائی گئی ہے جہاں بیرونی مداخل \عددی{1} کرنے سے دور مستحکم حال تک پہنچے بغیر عبوری حال سے عبوری حال منتقل ہو گا۔	ایسے ادوار بطور\اصطلاح{ مرتعش }\فرہنگ{مرتعش}\حاشیہب{oscillator}\فرہنگ{oscillator} استعمال کیے جاتے ہیں۔ ادوار کو کبھی بھی غیر مستحکم نہیں ہونے دیا جاتا ماسوائے جب انہیں بطور مرتعش استعمال کرنا مقصد ہو۔
+ ایسا دور جو \موٹا{پھیرے} لگاتے ہوئے کسی بھی اختتامی مستحکم حال تک نہ پہنچ پائے \اصطلاح{غیر مستحکم دور }\فرہنگ{غیر مستحکم دور}\حاشیہب{unstable circuit}\فرہنگ{unstable circuit} کہلاتا ہے۔شکل  \حوالہ{شکل_غیر_معاصر_مرتعش}  میں اس کی مثال دکھائی گئی ہے جہاں بیرونی مداخل \عددی{1} کرنے سے دور مستحکم حال تک پہنچے بغیر عبوری حال سے عبوری حال منتقل ہو گا۔ ایسے ادوار بطور\اصطلاح{ مرتعش }\فرہنگ{مرتعش}\حاشیہب{oscillator}\فرہنگ{oscillator} استعمال کیے جاتے ہیں۔ ادوار کو کبھی بھی غیر مستحکم نہیں ہونے دیا جاتا ماسوائے جب انہیں بطور مرتعش استعمال کرنا مقصد ہو۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(2*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\a in {0/00,1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{$\a$};}
+\foreach \kx/\a in {1/11}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node{$\a$};}
+\foreach \kx in {0}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw(0*\ksepX+0*\kxstep,-5*\kystep)node[circle,inner sep=1pt](kA){$01$};
+\draw(0*\ksepX+1*\kxstep,-5*\kystep)node[circle,inner sep=1pt](kB){$11$};
+\draw(0*\ksepX+2*\kxstep,-5*\kystep)node[circle,inner sep=1pt](kC){$01$};
+\draw[-stealth](kA)--(kB);
+\draw[-stealth](kB)--(kC);
+\draw[-stealth](kC)--++(0.5*\kxstep,0)--++(0,-1*\kystep)coordinate(krgt)--(krgt -| kA)--++(-0.5*\kxstep,0)|-(kA.180);
+\draw(1*\kxstep,-5.5*\kystep)node[]{\text{\RL{ارتعاش}}};
+\end{tikzpicture}
+\caption{مرتعش}
+\label{شکل_غیر_معاصر_مرتعش}
+\end{figure}
+
+اس مرتعش کی کارکردگی پر غور کرتے ہیں۔ جدول  میں بیرونی مخارج \عددی{Y_0} اور \عددی{Y_1} کو ایک  ساتھ ملا کر \عددی{Y_1Y_0} لکھا جاتا ہے۔ انہیں بیرونی مخارج سے بالترتیب  از رسی  اشارات  \عددی{y_0} اور \عددی{y_1} حاصل کیے  گئے  ہیں، جنہیں جدول کے بائیں جانب قطار میں ایک ساتھ ملا کر \عددی{y_1y_0} لکھا گیا ہے۔  فرض کریں \عددی{x=0} رکھتے ہوئے (جہاں \عددی{x} بیرونی مداخل ہے)،  ہم مستحکم حال \عددی{00} سے آغاز کرتے ہیں جو دائرہ میں بند دکھایا گیا ہے۔ جدول کے تحت  حال \عددی{Y_1Y_0=00} ہو گا اور  \عددی{y_1y_0=00} ہو گا۔ اب ہم  مستقل طور پر \عددی{x=1} کرتے ہیں، جس سے حال پہلی  (بالائی) صف  میں رہتے ہوئے دائیں قطار منتقل ہو گا جہاں حال \عددی{Y_1Y_0=01} ہے۔ یوں \عددی{Y_1Y_0=01} اور \عددی{y_1y_0=00} ہوں گے جو غیر مستحکم یعنی عبوری حال کی نشاندہی ہے (مستحکم حال کی صورت میں حال اور باز رسی اشارات ایک جیسے ہوں گے)۔  غیر  مستحکم حال  جدول میں غیر  دائرہ بند ہیں۔
+
+بیرونی مداخل بلند رہنے کی صورت میں ہم جدول کی  دائیں قطار میں رہتے ہیں۔    کچھ تاخیر کے بعد باز رسی اشارات تک حال \عددی{Y_1Y_0=01} کی خبر پہنچتی ہے لہٰذا  ان تاخیر کے بعد \عددی{y_1y_0=01} ہو گا۔ لیکن جدول کے تحت \عددی{x=1} کی قطار اور \عددی{y_1y_0=01} کی صف میں  حال \عددی{Y_1Y_0=11} پایا جاتا ہے۔ ہم دیکھتے ہیں کہ اب بھی  حال \عددی{Y_1Y_0=11} اور باز رسی اشارات \عددی{y_1y_0=01} ایک دوسرے سے مختلف ہیں۔ یوں ہم اب بھی عبوری حال میں ہیں، جس میں دور زیادہ دیر   نہیں ٹہر سکتا۔ 
+
+چند لمحوں کی تاخیر کے بعد باز رسی اشارات   تک اس حال کی خبر پہنچتی ہے اور \عددی{y_1y_0=11} ہو گا۔ لیکن \عددی{x=1} کی  قطار اور \عددی{y_1y_0=11} کی صف میں حال \عددی{Y_1Y_0=01} ہے جو عبوری ہے۔  چند لمحوں بعد باز رسی اشارات بھی \عددی{y_1y_0=01} ہوں گے لیکن ہم دیکھ چکے کہ وہاں سے دور جلد واپس حال  \عددی{11} منتقل ہو گا۔ یوں  اس جدول کے تحت چلتا ہوا دور حال \عددی{Y_1Y_0=01} اور \عددی{Y_1Y_0=11} کے بیچ   \اصطلاح{ارتعاش }\فرہنگ{ارتعاش}\حاشیہب{oscillate}\فرہنگ{oscillate} کرے  گا۔ 
 
 \حصہ{حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}
 حالت دوڑ کی صورت اس وقت پیدا ہو گی ہے جب ایک سے زیادہ مخارج بیک وقت حال تبدیل کرنے کی کوشش کریں۔بحرانی دوڑ کی صورت میں ادوار قابل استعمال نہیں رہتے۔اس حصے میں بحرانی دوڑ کے خاتمے پر غور کیا جائے گا۔یاد رہے (\موٹا{بنیادی طریقہ کار } پر چلنے کے تحت) ایک وقت پر غیر معاصر دور کا صرف ایک مداخل تبدیل ہو سکتا ہے ، لہٰذا یہ حصہ پڑھتے ہوئے ایک سے زیادہ مداخل کی تبدیلی کی فکر مت کریں۔
 
 جن ادوار میں ایک وقت پر صرف ایک مخارج حال تبدیل کرنے کی کوشش کرتا ہو، وہ حالت دوڑ سے دو چار نہیں ہوتے۔اس حقیقت کو بروئے کار لاتے ہوئے حالت دوڑ ختم کی جاتی ہے۔
 
-عبوری جدول کے حصول کے بعد اس میں درج حال کو ثنائی علامتیں تعین کی جاتی ہیں۔ ان حال کو \اصطلاح{ہمسایہ } ثنائی علامتیں مختص کرنے سے جن کے مابین عبوری جدول میں تبادلہ پایا جاتا ہو بحرانی دوڑ سے پاک دور حاصل ہو گا۔دو ایسے ثنائی اعداد \اصطلاح{ ہمسایہ اعداد }\فرہنگ{ہمسایہ اعداد}\حاشیہب{adjacent numbers}\فرہنگ{adjacent numbers} کہلاتے ہیں جن میں صرف ایک ہندسے کا فرق ہو۔یوں \عددی{1010} اور \عددی{1110} ہمسایہ اعداد ہیں چونکہ ان میں صرف ایک بِٹ مختلف ہے۔اسی طرح \عددی{1110} اور \عددی{0110} آپس میں ہمسایہ ہیں جبکہ \عددی{1010} اور \عددی{0110} آپس میں ہمسایہ نہیں۔
+عبوری جدول کے حصول کے بعد اس میں درج حال کو ثنائی علامتیں تعین کی جاتی ہیں۔  جن  حال کے مابین عبوری جدول میں تبادلہ پایا جاتا ہو ،  ان حال کو \اصطلاح{ہمسایہ } ثنائی علامتیں مختص کرنے سے بحرانی دوڑ سے پاک دور حاصل ہو گا۔دو ایسے ثنائی اعداد \اصطلاح{ ہمسایہ اعداد }\فرہنگ{ہمسایہ اعداد}\حاشیہب{adjacent numbers}\فرہنگ{adjacent numbers} کہلاتے ہیں جن میں صرف ایک ہندسے کا فرق ہو۔یوں \عددی{1010} اور \عددی{1110} ہمسایہ اعداد ہیں چونکہ ان میں صرف ایک بِٹ مختلف ہے۔اسی طرح \عددی{1110} اور \عددی{0110} آپس میں ہمسایہ ہیں جبکہ \عددی{1010} اور \عددی{0110} آپس میں ہمسایہ نہیں۔
 
-اس ترکیب کو شکل \حوالہء{11.15 }-ا میں دی مثال کی مدد سے دیکھتے ہیں جس میں چار صف ہیں۔یوں دو بِٹ\اصطلاح{ حال کا متغیر } \عددی{f_1f_0} اس کے چار ممکنہ حال بیان کر سکتا ہے۔ہم حال \عددی{a} کے لئے \عددی{f=00}، حال \عددی{b} کے لئے \عددی{f=01}،حال \عددی{c} کے لئے \عددی{f=11}، اور حال \عددی{d} کے لئے \عددی{f=10} حال کے متغیر منتخب کر کے دیکھتے ہیں کیا نتائج رو نما ہوتے ہیں۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.9}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {0/{$f_1f_0$}, 1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-6*\kystep);}
+\foreach \x in {0,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-5*\kystep);}
+\foreach \x/\a in {0/00,1/a,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/01,1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/11,1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/10,1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\draw(0,0)--++(6*\kxstep,0);
+\draw(0,-1*\kystep)--++(6*\kxstep,0);
+\draw(0,-5*\kystep)--++(6*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.9}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {0/{$f_1f_0$}, 1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-6*\kystep);}
+\foreach \x in {0,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-5*\kystep);}
+\foreach \x/\a in {0/00,1/a,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/01,1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/10,1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/11,1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\draw(0,0)--++(6*\kxstep,0);
+\draw(0,-1*\kystep)--++(6*\kxstep,0);
+\draw(0,-5*\kystep)--++(6*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{حال کے متغیرات کا تقرر}
+\label{شکل_غیر_معاصر_حال_کے_متغیر_کا_تقرر}
+\end{figure}
+
+
+اس ترکیب کو شکل  \حوالہ{شکل_غیر_معاصر_حال_کے_متغیر_کا_تقرر}-ا میں دی مثال کی مدد سے دیکھتے ہیں جس میں چار صف ہیں۔یوں دو بِٹ\اصطلاح{ حال کا متغیر } \عددی{f_1f_0} اس کے چار ممکنہ حال بیان کر سکتا ہے۔ہم حال \عددی{a} کے لئے \عددی{f=00}، حال \عددی{b} کے لئے \عددی{f=01}،حال \عددی{c} کے لئے \عددی{f=11}، اور حال \عددی{d} کے لئے \عددی{f=10} حال کے متغیر منتخب کر کے دیکھتے ہیں کیا نتائج رو نما ہوتے ہیں۔
 
  پہلی صف میں \عددی{x} کی قیمت \عددی{00} سے \عددی{01} کرنے سے حال تبدیل ہو کر \عددی{a}سے \عددی{b} ہو گا، لہٰذا حال کا متغیر \عددی{f} تبدیل ہو کر \عددی{00} سے \عددی{01} ہو گا۔چونکہ حال کے متغیر کا صرف ایک بِٹ تبدیل ہو ا لہٰذا حالت دوڑ پیدا نہیں ہو گی۔اس کے برعکس، پہلی صف میں \عددی{x} کی قیمت \عددی{00} سے \عددی{10} کرنے سے حال تبدیل ہو کر \عددی{a} سے \عددی{c} ہو گا لہٰذا \عددی{f} کی قیمت \عددی{00} سے تبدیل ہو کر \عددی{11} ہو گی۔چونکہ \عددی{f} کے دو ہندسے بیکوقت تبدیل ہونے کی کوشش کرتے ہیں لہٰذا حالت دوڑ پیدا ہو گی۔ یوں دو بِٹ حال کا متغیر تقرر کرنے سے حالت دوڑ پیدا ہو گی۔ایسی صورت میں دو سے زیادہ بِٹ حال کا متغیر استعمال کر کے دیکھا جاتا ہے کہ آیا حالت دوڑ سے چھٹکارا ممکن ہے۔
 
 کبھی کبھار چار صف عبوری جدول میں دو بِٹ حال کا متغیر یوں تقرر کرنا ممکن ہو گا کہ حالت دوڑ پیدا نہ ہو۔
 
-شکل \حوالہء{11.15 } -ب میں حال کے متغیر کی ترتیب بدل کر حالت دوڑ سے بچنے کی (نا کام) کوشش کی گئی ہے۔ یہاں \عددی{a}، \عددی{b}، \عددی{c}، اور \عددی{d} کے لئے بالترتیب \عددی{f=00}، \عددی{f=01}، \عددی{f=10}، اور \عددی{f=11} مختص کیے گئے۔پہلی صف میں \عددی{a}سے \عددی{b} کرنے سے \عددی{f} کی قیمت \عددی{00} سے تبدیل ہو کر \عددی{01} ، جبکہ \عددی{a} سے \عددی{c} کرنے سے \عددی{f} کی قیمت \عددی{00} سے \عددی{10} ہو گی۔ دونوں صورتوں میں \عددی{f} کا صرف ایک بِٹ تبدیل ہو گا، لہٰذا پہلی صف میں حالت دوڑ پیدا نہیں ہو گا۔ البتہ دوسری صف میں \عددی{x} کی قیمت \عددی{01} سے \عددی{11} کرنے سے حال تبدیل ہو کر \عددی{b} سے \عددی{c} ہو گا اور یوں \عددی{f} کی قیمت \عددی{01} سے \عددی{10} ہو گی۔ حال کے متغیر کے دو بِٹ کی تبدیلی سے مراد حالت دوڑ ہے۔
+شکل  \حوالہ{شکل_غیر_معاصر_حال_کے_متغیر_کا_تقرر}-ب میں حال کے متغیر کی ترتیب بدل کر حالت دوڑ سے بچنے کی (نا کام) کوشش کی گئی ہے۔ یہاں \عددی{a}، \عددی{b}، \عددی{c}، اور \عددی{d} کے لئے بالترتیب \عددی{f=00}، \عددی{f=01}، \عددی{f=10}، اور \عددی{f=11} مختص کیے گئے۔پہلی صف میں \عددی{a}سے \عددی{b} کرنے سے \عددی{f} کی قیمت \عددی{00} سے تبدیل ہو کر \عددی{01} ، جبکہ \عددی{a} سے \عددی{c} کرنے سے \عددی{f} کی قیمت \عددی{00} سے \عددی{10} ہو گی۔ دونوں صورتوں میں \عددی{f} کا صرف ایک بِٹ تبدیل ہو گا، لہٰذا پہلی صف میں حالت دوڑ پیدا نہیں ہو گا۔ البتہ دوسری صف میں \عددی{x} کی قیمت \عددی{01} سے \عددی{11} کرنے سے حال تبدیل ہو کر \عددی{b} سے \عددی{c} ہو گا اور یوں \عددی{f} کی قیمت \عددی{01} سے \عددی{10} ہو گی۔ حال کے متغیر کے دو بِٹ کی تبدیلی سے مراد حالت دوڑ ہے۔
 
 مذکورہ بالا دو مثالوں سے ظاہر ہے کہ موجودہ مسئلے میں دو بِٹ حال کا متغیر مختص کرنے سے حالت دوڑ سے نجات حاصل کرنا ممکن نہیں۔ایسی صورت میں حالت دوڑ سے پاک حال کا متغیر منتخب کرنے کے لئے ہم \اصطلاح{ایک بلند بِٹ تقرری }\فرہنگ{ایک بلند بِٹ تقرری}\حاشیہب{one hot bit assignment}\فرہنگ{one hot bit assignment} کا طریقہ استعمال کرتے ہیں، جس کا استعمال نہایت آسان ہے۔آئیے اسی مثال پر اسے استعمال کرتے ہیں۔
 
-شکل\حوالہء{ 11.16 } میں حال کا متغیر چار بِٹ رکھا گیا ہے اور اس میں ایک وقت پر صرف ایک بِٹ بلند ہے۔یوں حال \عددی{a} ، \عددی{b}، \عددی{c}، اور \عددی{d} کے لئے حال کے متغیر بالترتیب \عددی{0001}، \عددی{0010}، \عددی{0100}، اور \عددی{1000} مقرر کیے گئے۔
+شکل \حوالہ{شکل_غیر_معاصر_حالت_دوڑ_سے_پاک} میں حال کا متغیر چار بِٹ رکھا گیا ہے اور اس میں ایک وقت پر صرف ایک بِٹ بلند ہے۔یوں حال \عددی{a} ، \عددی{b}، \عددی{c}، اور \عددی{d} کے لئے حال کے متغیر بالترتیب \عددی{0001}، \عددی{0010}، \عددی{0100}، اور \عددی{1000} مقرر کیے گئے۔
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-6*\kystep);}
+\foreach \x in {-1,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-5*\kystep);}
+\foreach \x/\a in {1/a,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\draw(-1,0)--++(7*\kxstep,0);
+\draw(-1,-1*\kystep)--++(7*\kxstep,0);
+\draw(-1,-5*\kystep)--++(7*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+\foreach \x/\a in {0/f_3f_2f_1f_0,1/0001,2/0010,3/0100,4/1000}{\draw(0*\kxstep,-\x*\kystep-0.5*\kystep)node[]{$\a$};}
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\end{tikzpicture}
+\caption{حالت دوڑ سے پاک حال کے متغیرات کا تقرر}
+\label{شکل_غیر_معاصر_حالت_دوڑ_سے_پاک}
+\end{figure}
 
-شکل \حوالہء{11.16 } میں جدول کی پہلی صف میں مداخل کی قیمت \عددی{00} سے \عددی{01} کرنے سے دور حال \عددی{a} سے حال \عددی{b} منتقل ہوتا ہے۔یوں حال کا متغیر \عددی{0001} سے \عددی{0010} ہو گا اور اس میں دو بِٹ کی تبدیلی حالت دوڑ پیدا کرے گی۔اس سے بچنے کے لئے جدول میں ایک نیا عبوری حال، \عددی{e}، شامل کیا جاتا ہے ۔حال \عددی{a} سے \عددی{b} پہنچنے کے لئے اس عبوری حال سے گزرنا لازمی بنایا جاتا ہے۔عبوری حال \عددی{e} کے لئے حال کا متغیر یوں مقرر کیا جاتا ہے کہ یہ \عددی{a} اور \عددی{b}دونوں کا ہمسایہ عدد ہو۔ایسا عدد \عددی{0011} ہے۔یوں \عددی{e} کے لئے حال کا متغیر \عددی{0011} مقرر کیا جاتا ہے اور جدول کو تبدیل کر کے \عددی{x=01}کی قطار کے حال \عددی{a} کی صف میں \عددی{b} کی بجائے \عددی{e} لکھا جاتا ہے جبکہ اسی قطار میں حال \عددی{e} کی صف میں \عددی{b} لکھا جاتا ہے۔ایسا کرنے سے جدول تبدیل ہو کر شکل \حوالہء{11.17 } اختیار کرتا ہے۔
+شکل  \حوالہ{شکل_غیر_معاصر_حالت_دوڑ_سے_پاک} میں جدول کی پہلی صف میں مداخل کی قیمت \عددی{00} سے \عددی{01} کرنے سے دور حال \عددی{a} سے حال \عددی{b} منتقل ہوتا ہے۔یوں حال کا متغیر \عددی{0001} سے \عددی{0010} ہو گا اور اس میں دو بِٹ کی تبدیلی حالت دوڑ پیدا کرے گی۔اس سے بچنے کے لئے جدول میں ایک نیا عبوری حال، \عددی{e}، شامل کیا جاتا ہے ۔حال \عددی{a} سے \عددی{b} پہنچنے کے لئے اس عبوری حال سے گزرنا لازمی بنایا جاتا ہے۔عبوری حال \عددی{e} کے لئے حال کا متغیر یوں مقرر کیا جاتا ہے کہ یہ \عددی{a} اور \عددی{b}دونوں کا ہمسایہ عدد ہو۔ایسا عدد \عددی{0011} ہے۔یوں \عددی{e} کے لئے حال کا متغیر \عددی{0011} مقرر کیا جاتا ہے اور جدول کو تبدیل کر کے \عددی{x=01}کی قطار کے حال \عددی{a} کی صف میں \عددی{b} کی بجائے \عددی{e} لکھا جاتا ہے جبکہ اسی قطار میں حال \عددی{e} کی صف میں \عددی{b} لکھا جاتا ہے۔ایسا کرنے سے جدول تبدیل ہو کر شکل   \حوالہ{شکل_غیر_عبوری_سے_حالت_دوڑ_نہیں}  اختیار کرتا ہے۔
 
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-7*\kystep);}
+\foreach \x in {-1,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-6*\kystep);}
+\foreach \x/\a in {1/a,2/a,3/e,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/e,2/-,3/b,4/-,5/-}{\draw(\x*\kxstep+0.5*\kxstep,-5.5*\kystep)node[]{$\a$};}
+\draw(-1,0)--++(7*\kxstep,0);
+\draw(-1,-1*\kystep)--++(7*\kxstep,0);
+\draw(-1,-6*\kystep)--++(7*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+\foreach \x/\a in {0/f_3f_2f_1f_0,1/0001,2/0010,3/0100,4/1000,5/0011}{\draw(0*\kxstep,-\x*\kystep-0.5*\kystep)node[]{$\a$};}
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](a1){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](b2){$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-5*\kystep-\kystep/2)node[,circle,inner sep=1pt](e2){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-1*\kystep-\kystep/2)node[circle,inner sep=1pt](a2){$\phantom{00}$};
+\draw[-stealth](a1) to [out=30,in=150](a2) to [out=-60,in=50](e2) to [out=130,in=-120](b2);
+\end{tikzpicture}
+\caption{عبوری حال سے حالت دوڑ کا خاتمہ}
+\label{شکل_غیر_عبوری_سے_حالت_دوڑ_نہیں}
+\end{figure}
 
-اب پہلی صف میں مداخل \عددی{00} سے \عددی{01} کرنے سے دور حال \عددی{a} سے عبوری حال \عددی{e} اختیار کرتے ہوئے آخر کار اختتامی مستحکم حال \عددی{b} پہنچتا ہے۔اس عمل کو نقطہ دار تیر دار لکیروں سے ظاہر کیا گیا ہے۔ اس پورے عمل میں ہر قدم پر حال کے متغیر کا صرف ایک بِٹ تبدیل ہوتا ہے لہٰذا حالت دوڑ پیدا نہیں ہو گی ۔ عبوری حال \عددی{e} کی صف میں باقی خانے خالی رکھے گئے ہیں۔ان میں سے کچھ خانے زیر استعمال آئیں گے اور کچھ نہیں۔استعمال میں نہ آنے والے خانے خالی رکھے جاتے ہیں اور ان خانوں کی قیمت\اصطلاح{ غیر ضروری }\فرہنگ{غیر ضروری}\حاشیہب{don't care}\فرہنگ{don't care} ہو گی۔
+اب پہلی صف میں مداخل \عددی{00} سے \عددی{01} کرنے سے دور حال \عددی{a} سے عبوری حال \عددی{e} اختیار کرتے ہوئے آخر کار اختتامی مستحکم حال \عددی{b} پہنچتا ہے۔اس عمل کو تیر دار لکیرسے ظاہر کیا گیا ہے۔ اس پورے عمل میں ہر قدم پر حال کے متغیر کا صرف ایک بِٹ تبدیل ہوتا ہے لہٰذا حالت دوڑ پیدا نہیں ہو گی ۔ عبوری حال \عددی{e} کی صف میں باقی خانے خالی رکھے گئے ہیں۔ان میں سے کچھ خانے زیر استعمال آئیں گے اور کچھ نہیں۔استعمال میں نہ آنے والے خانے خالی رکھے جاتے ہیں اور ان خانوں کی قیمت\اصطلاح{ غیر ضروری }\فرہنگ{غیر ضروری}\حاشیہب{don't care}\فرہنگ{don't care} ہو گی۔
 
-پہلی صف میں مداخل \عددی{00}سے \عددی{10} کرنے سے شکل \حوالہء{11.17 } میں حال \عددی{a} سے حال \عددی{c}حاصل ہو گا۔حال کا متغیر \عددی{0001} سے تبدیل ہو کر \عددی{0100} ہونا چاہے گا۔البتہ ایسا کرنے سے حالت دوڑ پیدا ہو گی، جس سے ہم مذکورہ بالا طریقے سے چھٹکارا حاصل کرتے ہیں۔
+اس کے برعکس، پہلی صف میں مداخل \عددی{00}سے \عددی{10} کرنے سے شکل  \حوالہ{شکل_غیر_عبوری_سے_حالت_دوڑ_نہیں} میں حال \عددی{a} سے حال \عددی{c}حاصل ہو گا۔حال کا متغیر \عددی{0001} سے تبدیل ہو کر \عددی{0100} ہونا چاہے گا۔البتہ ایسا کرنے سے حالت دوڑ پیدا ہو گی، جس سے ہم مذکورہ بالا طریقے سے چھٹکارا حاصل کرتے ہیں۔
 
-اس حالت دوڑ سے بچنے کے لئے جدول میں عبوری حال، \عددی{f} ، شامل کیا جاتا ہے اور حال \عددی{a} سے عبوری حال \عددی{f} کے ذریعہ حال \عددی{c} پہنچا جاتا ہے۔عبوری حال \عددی{f} کے لئے حال کا متغیر یوں مقرر کیا جاتا ہے کہ یہ \عددی{a} اور \عددی{c} دونوں کا ہمسایہ عدد ہو۔ایسا عدد \عددی{0101} ہے۔یوں ح \عددی{f} کے لئے حال کا متغیر \عددی{0101} مقرر کیا جاتا ہے اور جدول کو تبدیل کر کے \عددی{x=10} کی قطار میں حال \عددی{a} کی صف \عددی{c} کو تبدیل کر کے \عددی{f} لکھا جاتا ہے جبکہ اسی قطار میں حال \عددی{f} کی صف میں \عددی{c} لکھا جاتا ہے۔ایسا کرنے سے شکل \حوالہء{ 11.18} ملتا ہے۔
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-8*\kystep);}
+\foreach \x in {-1,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-7*\kystep);}
+\foreach \x/\a in {1/a,2/a,3/e,4/f,5/f}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/e,2/-,3/b,4/-,5/-}{\draw(\x*\kxstep+0.5*\kxstep,-5.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/f,2/-,3/-,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-6.5*\kystep)node[]{$\a$};}
+\draw(-1,0)--++(7*\kxstep,0);
+\draw(-1,-1*\kystep)--++(7*\kxstep,0);
+\draw(-1,-7*\kystep)--++(7*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+\foreach \x/\a in {0/f_3f_2f_1f_0,1/0001,2/0010,3/0100,4/1000,5/0011,6/0101}{\draw(0*\kxstep,-\x*\kystep-0.5*\kystep)node[]{$\a$};}
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](a1){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](b2){$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-5*\kystep-\kystep/2)node[,circle,inner sep=1pt](e2){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-1*\kystep-\kystep/2)node[circle,inner sep=1pt](a2){$\phantom{00}$};
+%\draw[-stealth](a1) to [out=30,in=150](a2) to [out=-70,in=50](e2) to [out=130,in=-120](b2);
+\end{tikzpicture}
+\caption{عبوری حال سے حالت دوڑ کا خاتمہ}
+\label{شکل_غیر_معاصر_عبوری_سے_خاتمہ}
+\end{figure}
 
-یہی طریقہ کار تمام خانوں کے لئے دہرایا جاتا ہے۔ایسا کرنے سے شکل \حوالہء{11.19 } حاصل ہو گا۔آپ سے گزارش کی جاتی ہے کہ یہ جدول خود حاصل کریں۔تسلی کر لیں کہ اس جدول میں کسی بھی حال سے دوسرے حال تک پہنچنے میں حالت دوڑ پیدا نہیں ہوتی۔
+اس حالت دوڑ سے بچنے کے لئے جدول میں عبوری حال، \عددی{f} ، شامل کیا جاتا ہے اور حال \عددی{a} سے عبوری حال \عددی{f} کے ذریعہ حال \عددی{c} پہنچا جاتا ہے۔عبوری حال \عددی{f} کے لئے حال کا متغیر یوں مقرر کیا جاتا ہے کہ یہ \عددی{a} اور \عددی{c} دونوں کا ہمسایہ عدد ہو۔ایسا عدد \عددی{0101} ہے۔یوں ح \عددی{f} کے لئے حال کا متغیر \عددی{0101} مقرر کیا جاتا ہے اور جدول کو تبدیل کر کے \عددی{x=10} کی قطار میں حال \عددی{a} کی صف \عددی{c} کو تبدیل کر کے \عددی{f} لکھا جاتا ہے جبکہ اسی قطار میں حال \عددی{f} کی صف میں \عددی{c} لکھا جاتا ہے۔ایسا کرنے سے شکل  \حوالہ{شکل_غیر_معاصر_عبوری_سے_خاتمہ}  ملتا ہے۔
+
+یہی طریقہ کار تمام خانوں کے لئے دہرایا جاتا ہے۔ایسا کرنے سے شکل  \حوالہ{شکل_غیر_معاصر_مکمل_پاک}  حاصل ہو گا۔آپ سے گزارش کی جاتی ہے کہ یہ جدول خود حاصل کریں۔تسلی کر لیں کہ اس جدول میں کسی بھی حال سے دوسرے حال تک پہنچنے میں حالت دوڑ پیدا نہیں ہوتی۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\foreach \x/\a in {0.5/$f_3f_2f_1f_0$,2/{\text{\RL{حال}}}, 
+3/{$00$},4/{$01$},5/{$11$},6/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\draw(5*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(3*\kxstep,0*\kystep)--++(0,\kystep)--++(4*\kxstep,0)--++(0,-\kystep);
+\foreach \x in {0,2,3,7}{\draw(\x*\kxstep,0)--++(0,-10*\kystep);}
+\foreach \y in {0,1,5,10}{\draw(0*\kxstep,-\y*\kystep)--++(7*\kxstep,0);}
+\foreach \x/\a in {0.5/0001,2/a,3/\encircle{a},4/{\cancel{b},e},5/{\cancel{c},f},6/{\cancel{c},f}}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0010,2/b,3/{\cancel{a},e},4/{\encircle{b}},5/{c},6/{d}}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0100,2/c,3/{\cancel{a},f},4/{\cancel{b},g},5/{\encircle{c}},6/{\encircle{c}}}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/1000,2/d,3/\encircle{d},4/{\cancel{b},h},5/{\cancel{c},i},6/{\encircle{d}}}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0011,2/e,3/a,4/b,5/-,6/-}{\draw(\x*\kxstep+0.5*\kxstep,-5.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0101,2/f,3/a,4/-,5/c,6/c}{\draw(\x*\kxstep+0.5*\kxstep,-6.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0110,2/g,3/-,4/b,5/c,6/-}{\draw(\x*\kxstep+0.5*\kxstep,-7.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/1010,2/h,3/-,4/b,5/-,6/d}{\draw(\x*\kxstep+0.5*\kxstep,-8.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/1100,2/i,3/-,4/-,5/c,6/-}{\draw(\x*\kxstep+0.5*\kxstep,-9.5*\kystep)node[]{$\a$};}
+%\draw(3*\kxstep+\kxstep/2,-1*\kystep-\kystep/2)node[circle,inner sep=1pt](a2){$\phantom{00}$};
+\end{tikzpicture}
+\caption{حالت دوڑ سے مکمل پاک  حال کے متغیرات کا تقرر}
+\label{شکل_غیر_معاصر_مکمل_پاک}
+\end{figure}
+
 
 
 \حصہ{ عبوری جدول کی مدد سے پلٹ کا تجزیہ}
 عبوری جدول استعمال کر کے سے اس حصے میں پلٹ کا تجزیہ کیا جائے گا۔چند مثالوں کے بعد حصہ \حوالہ{حصہ_غیر_معاصر_قدم_با_قدم} میں اس طریقہ کار پر قدم با قدم غور کیا جائے گا۔
 
 \جزوحصہ{ایس آر پلٹ}
-عبوری جدول استعمال کر کے سب سے پہلے ایس آر پلٹ پر غور کرتے ہیں۔شکل \حوالہء{11.20 } میں اُوپر ایس آر پلٹ اور نیچے اسی کو بطور \موٹا{ باز رسی دور } پیش کیا گیا ہے جہاں\اصطلاح{ باز رسی اشارہ } \عددی{q} کی پہچان آسان ہے۔
+عبوری جدول استعمال کر کے   ایس آر پلٹ پر غور کرتے ہیں۔شکل  \حوالہ{شکل_غیر_معاصر_ایس_آر_پلٹ_کا_عبوری}  -ا میں  ایس آر پلٹ اور  شکل-ب  میں اسی کو بطور \موٹا{ باز رسی دور } پیش کیا گیا ہے جہاں\اصطلاح{ باز رسی اشارہ } \عددی{q} کی پہچان آسان ہے۔ شکل-ب   سے  درج ذیل حاصل ہو گا۔
+\begin{align*}
+Q&=\overline{R+\overline{S+q}}\\
+&=\overline{R}S+\overline{R}q
+\end{align*}
 
- حال کے متغیر \عددی{Q} کو بطور باز رسی اشارہ \عددی{q} استعمال کیا گیا ہے۔یوں حال کا متغیر \عددی{Q}، اندرونی مداخل \عددی{q} جبکہ بیرونی مداخل \عددی{S} اور \عددی{R} ہیں۔انہیں استعمال کرتے ہوئے عبوری جدول حاصل کی گئی ہے (شکل \حوالہء{11.20 } دیکھیں)۔آئیے اس پلٹ کا تجزیہ اس کے عبوری جدول کی مدد سے کریں۔پلٹ کا جدول صداقت مندرجہ ذیل ہے۔
+\begin{figure}
+\centering
+\begin{subfigure}{0.35\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nor port,number inputs=2,anchor=out](u0){};
+\draw(0,\ksepY) node[nor port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(\kpin,0)node[right]{$\overline{Q}$};
+\draw(u1.out)--++(\kpin,0)node[right]{$Q$};
+\draw(u0.out)--++(0,\kpin)coordinate(aa);
+\draw(u1.out)--++(0,-\kpin)coordinate(bb);
+\draw(u0.in 1)--++(0,\kpin)--(bb);
+\draw(u1.in 2)--++(0,-\kpin)--(aa);
+\draw(u0.in 2)--++(-\kpin,0)node[left]{$S$};
+\draw(u1.in 1)--++(-\kpin,0)node[left]{$R$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.65\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nor port,number inputs=2,anchor=out](u0){};
+\draw(u0.in 2)--++(0,-\kpin)--++(-4*\kpin,0)node[above right]{$\overline{Q}=\overline{S+q}$} node[nor port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(\kpin,0)node[right]{$Q$};
+\draw(u1.in 2)node[left]{$q$}--++(0,-\kpin)-|(u0.out);
+\draw(u1.in 1)--++(-\kpin,0)coordinate(aa)node[left]{$S$};
+\draw(u0.in 1) --(u0.in 1 -| aa)node[left]{$R$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\foreach \x in {0,4}{\draw(\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,2}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$SR$}node[pos=0.75,below left]{$q$};
+\foreach \kx/\ka in {0/00,1/01,2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\ka$};}
+\foreach \kx/\ka in {-1/0,0/{0},1/{0},2/{0},3/1}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\ka$};}
+\foreach \kx/\ka in {-1/1,0/{1},1/0,2/0,3/{1}}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\ka$};}
+\foreach \kx in {0,1,2}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\foreach \kx in {0,3}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{ایس آر پلٹ }
+\label{شکل_غیر_معاصر_ایس_آر_پلٹ_کا_عبوری}
+\end{figure}
+ حال کے متغیر \عددی{Q} کو بطور باز رسی اشارہ \عددی{q} استعمال کیا گیا ہے۔یوں حال کا متغیر \عددی{Q}، اندرونی مداخل \عددی{q} جبکہ بیرونی مداخل \عددی{S} اور \عددی{R} ہیں۔انہیں استعمال کرتے ہوئے (درج بالا مساوات کی مدد سے )  شکل-ج میں پیش  عبوری جدول حاصل کی گئی  جہاں جدول کے اندر \عددی{Q} کی قیمت درج ہے۔آئیے اس پلٹ کا تجزیہ اس کے عبوری جدول کی مدد سے کریں۔پلٹ کا جدول صداقت مندرجہ ذیل ہے۔
+ 
+
+ %
  \begin{align*}
  \begin{array}{cc|cc}
  \toprule
@@ -707,16 +1023,138 @@ Y=\overline{x}_1x_0+x_1y
  \begin{align}
  S\cdot R=0
  \end{align}
+%
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$SR$}node[pos=0.75,below left]{$q$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx in {0,1,2}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[draw,circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,3}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[draw,circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\draw[-stealth](a1) to [out=120,in=60](a0);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$SR$}node[pos=0.75,below left]{$q$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx in {0,1,2}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[draw,circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,3}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[draw,circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\draw[-stealth](b3) to [out=160,in=30](b0);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{ایس آر پلٹ کا استعمال}
+\label{شکل_غیر_معاصر_ایس_آر_استعمال}
+\end{figure} 
 
-شکل \حوالہء{11.21 } پر نظر رکھ کر آگے پڑھیں۔عبوری جدول کی \عددی{SR=01} قطار اور \عددی{q=0} صف میں مستحکم حال پایا جاتا ہے جہاں حال کا متغیر پست \عددی{(Q=0)} ہے۔ عبوری جدول کے تحت \عددی{SR=00} کرنے سے حال کا متغیر پست رہے گا۔شکل -الف میں نقطہ دار تیر دار لکیر اس عمل کو ظاہر کرتی ہے۔
+شکل  \حوالہ{شکل_غیر_معاصر_ایس_آر_استعمال}  پر نظر رکھ کر آگے پڑھیں۔عبوری جدول کی \عددی{SR=01} قطار اور \عددی{q=0} صف میں مستحکم حال پایا جاتا ہے جہاں حال کا متغیر پست \عددی{(Q=0)} ہے۔ عبوری جدول کے تحت \عددی{SR=00} کرنے سے حال کا متغیر پست رہے گا۔شکل -الف میں تیر دار لکیر اس عمل کو ظاہر کرتی ہے۔
 
-اسی طرح \عددی{SR=10} کی صورت میں پلٹ کا بلند مستحکم حال \عددی{q=1} کی صف میں پایا جاتا ہے۔عبوری جدول کے مطابق \عددی{SR=00} کرنے سے پلٹ بلند حال میں رہے گا، جیسا شکل-ب میں دکھایا گیا ہے۔یہ دونوں اعمال پلٹ کے بوولین جدول سے بھی واضح ہیں۔
+اسی طرح \عددی{SR=10} کی صورت میں پلٹ کا  بلند مستحکم حال \عددی{q=1} کی صف میں پایا جاتا ہے۔عبوری جدول کے مطابق \عددی{SR=00} کرنے سے پلٹ بلند حال میں رہے گا  ، جو شکل-ب   میں تیر دار لکیر سے دکھایا گیا ہے۔یہ دونوں اعمال پلٹ کے بوولین جدول سے بھی واضح ہیں۔
 
 اب دیکھتے ہیں \عددی{SR=11} سے آغاز کرتے ہوئے \عددی{SR=00} کرنے سے کیا صورت پیدا ہوتی ہے۔یاد رہے ان ادوار کو \موٹا{ بنیادی طریق کار }کے تحت چلایا جاتا ہے جہاں ایک سے زیادہ بیرونی مداخل تبدیل کرنے کی اجازت نہیں۔بہرحال پھر بھی دیکھتے ہیں کہ ایسا کرنے سے کیا مسائل کھڑے ہوتے ہیں۔بوولین جدول کے مطابق \عددی{SR=00}کرنے سے قبل \عددی{Q} اور \عددی{\overline{Q}} دونوں پست ہوں گے نا کہ آپس میں متضاد جبکہ کسی بھی پلٹ کے لئے لازم ہے کہ اس کے دونوں مخارج ہر وقت متضاد حال ہوں۔ساتھ ہی، عبوری جدول کے تحت اگر \عددی{S}پہلے پست حال اختیار کر لے تو اختتامی حال \عددی{0} ہو گا جبکہ اگر \عددی{R} پہلے پست ہو تب اختتامی حال \عددی{1} ہو گا۔چونکہ قبل از وقت یہ جاننا ممکن نہیں کہ \عددی{S} یا \عددی{R} پہلے پست ہو گا لہٰذا اختتامی حال جاننا ممکن نہیں۔ دور کا یوں استعمال غیر یقینی صورت پیدا کرے گا۔
 
 
 \جزوحصہ{ ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}
-شکل \حوالہء{11.22 } ڈی پلٹ دکھایا گیا ہے جو ساعت کے کنارہ پر چلتا ہے۔ڈی پلٹ میں اندرونی باز رسی دور پایا جاتا ہے جس کے اندرونی حال کے متغیرات \عددی{S} اور \عددی{R} جبکہ باز رسی اشارات \عددی{s} اور \عددی{r} ہیں\حاشیہد{اس کتاب میں ضرب متمم گیٹ پر مبنی ایس آر پلٹ کے مداخل عموماً \عددی{\overline{S}} اور \عددی{\overline{R}} لکھے گئے ہیں۔ یہاں \عددی{S} اور \عددی{R} لکھا گیا ہے۔ امید کی جاتی ہے کہ اس سے پریشانی پیدا نہیں ہو گی۔}۔شکل میں ڈی پلٹ کو دوبارہ باز رسی دور کے طرز پر بنایا گیا ہے تا کہ باز رسی اشارات \عددی{s} اور \عددی{r} کی پہچان آسان ہو۔
+شکل \حوالہ{شکل_غیر_معاصر_ڈی_پلٹ_بطور_باز_رسی}  -ا میں   ڈی پلٹ دکھایا گیا ہے جو ساعت کے کنارہ پر چلتا ہے۔ڈی پلٹ میں اندرونی باز رسی دور پایا جاتا ہے جس کے اندرونی حال کے متغیرات \عددی{S} اور \عددی{R} جبکہ باز رسی اشارات \عددی{s} اور \عددی{r} ہیں\حاشیہد{اس کتاب میں ضرب متمم گیٹ پر مبنی ایس آر پلٹ کے مداخل عموماً \عددی{\overline{S}} اور \عددی{\overline{R}} لکھے گئے ہیں۔ یہاں \عددی{S} اور \عددی{R} لکھا گیا ہے۔ امید کی جاتی ہے کہ اس سے پریشانی پیدا نہیں ہو گی۔}۔شکل -ب میں ڈی پلٹ کو باز رسی دور کے طرز پر بنایا گیا ہے تا کہ باز رسی اشارات \عددی{s} اور \عددی{r} کی پہچان آسان ہو۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nand port,number inputs=2,anchor=out](u0){};
+\draw(0,\ksepY) node[nand port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(0,\kpin)coordinate(aa);
+\draw(u1.out)--++(0,-\kpin)coordinate(bb);
+\draw(u0.in 1)--++(0,\kpin)--(bb);
+\draw(u1.in 2)--++(0,-\kpin)--(aa);
+\draw (u0.out)--++(\kpin,0)node[right]{$\overline{Q}$};
+\draw (u1.out)--++(\kpin,0)node[right]{$Q$};
+\draw(u0.in 2)--++(-2*\kpin,0) node[nand port,number inputs=3,anchor=out](u3){};
+\draw(u3.out)node[above right]{$R$}++(0,-\ksepY) node[nand port,number inputs=2,anchor=out](u4){};
+\draw(u4.out)node[right]{$B$}--++(0,\kpin)coordinate(aa);
+\draw(u3.out)--++(0,-\kpin)coordinate(bb);
+\draw(u4.in 1)--++(0,\kpin)--(bb);
+\draw(u3.in 3)--++(0,-\kpin)--(aa);
+\draw(u1.in 1)--++(-2*\kpin,0) node[nand port,number inputs=2,anchor=out](u5){};
+\draw(u5.out)node[above right]{$S$}node[draw,circle,minimum size=4pt,inner sep=0pt,fill=black]{}++(0,\ksepY) node[nand port,number inputs=2,anchor=out](u6){};
+\draw(u5.out)--++(0,\kpin)coordinate(aa);
+\draw(u6.out)node[right]{$A$}--++(0,-\kpin)coordinate(bb);
+\draw(u5.in 1)--++(0,\kpin)--(bb);
+\draw(u6.in 2)--++(0,-\kpin)--(aa);
+\draw(u3.in 1)--++(0,\kpin)coordinate(cc);
+\draw(u5.out)--++(0,-\kpin)--(cc);
+\draw(u3.in 2)--++(-\kpin,0)|-(u5.in 2);
+\draw($(u3.in 1)!0.5!(u5.in 2)$)++(-\kpin,0)--++(-2*\kpin,0)coordinate(kC)node[left]{$C$};
+\draw(u4.in 2)--(u4.in 2 -| kC)node[left]{$D$};
+\draw(u6.in 1)--++(-2*\kpin,0)coordinate(kT)--(kT |- u4.in 2)--++(0,-\kpin)-|(u4.out);
+\draw(u1.out)node[shift={(-0.5cm,1cm)}]{\text{\RL{خارجی پلٹ}}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nand port,number inputs=2,anchor=out](u0){};
+\draw(0,\ksepY) node[nand port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(0,\kpin)coordinate(aa);
+\draw(u1.out)--++(0,-\kpin)coordinate(bb);
+\draw(u0.in 1)--++(0,\kpin)--(bb);
+\draw(u1.in 2)--++(0,-\kpin)--(aa);
+\draw (u0.out)--++(\kpin,0)node[right]{$\overline{Q}$};
+\draw (u1.out)--++(\kpin,0)node[right]{$Q$};
+\draw(u0.in 2)--++(-4*\kpin,0)node[below right]{$R=\overline{BCs}$}node[nand port,number inputs=3,anchor=out](u2){};
+\draw(u2.in 1)--++(0,\kpin)--++(-3*\kpin,0)node[above right]{$B=\overline{rD}$}node[nand port,number inputs=2,anchor=out](u3){};
+\draw(u1.in 1)--++(-4*\kpin,0)node[above right]{$S=\overline{AC}$}node[nand port,number inputs=2,anchor=out](u4){};
+\draw(u4.in 1)--++(0,\kpin)--++(-3*\kpin,0)node[above right]{$A=\overline{sB}$}node[nand port,number inputs=2,anchor=out](u5){};
+\draw(u5.in 1)node[left]{$s$}--++(0,\kpin)-|(u4.out);
+\draw(u3.in 1)node[left]{$r$}--++(0,\kpin)-|(u2.out);
+\draw(u5.in 2)--++(-\kpin,0)coordinate(klft)node[left]{$B$};
+\draw(u4.in 2)--(u4.in 2 -| klft)node[left]{$C$};
+\draw(u3.in 2)--(u3.in 2 -| klft)node[left]{$D$};
+\draw(u2.in 2)--(u2.in 2 -| klft)node[left]{$C$};
+\draw(u2.in 3)--(u2.in 3 -| klft)node[left]{$s$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{ڈی پلٹ بطور باز رسی دور}
+\label{شکل_غیر_معاصر_ڈی_پلٹ_بطور_باز_رسی}
+\end{figure}
 
 اس دور میں \عددی{S} اور \عددی{R} حال کے متغیرات ، \عددی{s} اور \عددی{r} باز رسی اشارات ، جبکہ \عددی{C} اور \عددی{D} بیرونی مداخل ہیں۔یوں درج ذیل لکھا جا سکتا ہے۔
 \begin{gather}
@@ -730,14 +1168,90 @@ R&=\overline{BCs}=\overline{B}+\overline{C}+\overline{s}=\overline{\overline{Dr}
 \end{aligned}
 \end{gather}
 
- ان مساوات سے حاصل \عددی{S} اور \عددی{R} کے بوولین جدول کو کارناف نقشوں کی طرز پر لکھ کر شکل\حوالہء{ 11.23 } میں دکھایا گیا عبوری جدول حاصل کیا گیا۔\اصطلاح{مکمل حال }\فرہنگ{حال!مکمل}\حاشیہب{complete state}\فرہنگ{state!complete} \عددی{srCD} کی صورت میں لکھتے ہوئے اس جدول پر غور کرتے ہیں۔
+ ان مساوات سے حاصل \عددی{S} اور \عددی{R} کے بوولین جدول کو کارناف نقشہ جات کے  طرز پر شکل \حوالہ{شکل_غیر_معاصر_ڈی_پلٹ_عبوری_حصول}-ا  ا ور شکل-ب میں لکھ کر شکل   -ج  کا  عبوری جدول حاصل کیا گیا۔   \اصطلاح{مکمل حال }\فرہنگ{حال!مکمل}\حاشیہب{complete state}\فرہنگ{state!complete} \عددی{srCD} کی صورت میں لکھتے ہوئے اس جدول پر غور کرتے ہیں۔
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.75}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$sr$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/0}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(2*\kxstep,-4*\kystep)node[below]{$R=rD+\overline{C}+\overline{s}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.75}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$sr$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(2*\kxstep,-4*\kystep)node[below]{$S=s(\overline{r}+\overline{D})+\overline{C}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1.2}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$sr$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/01,3/01}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/01,3/01}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/01,3/10}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/10,3/10}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {2,3}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[draw,circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\foreach \kx/\xlb in {0,1}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[draw,circle,inner sep=1pt](c\kx){$\phantom{00}$};}
+\foreach \kx/\xlb in {2,3}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[draw,circle,inner sep=1pt](d\kx){$\phantom{00}$};}
+\foreach \kx/\xlb in {0/{},1/{},2/x,3/x}{\draw(\kx*\kxstep,-1*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\foreach \kx/\xlb in {0/{u},1/{v},2/n,3/q}{\draw(\kx*\kxstep,-2*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\foreach \kx/\xlb in {0/{a},1/{b},2/k,3/e}{\draw(\kx*\kxstep,-3*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\foreach \kx/\xlb in {0/{p},1/{j},2/i,3/m}{\draw(\kx*\kxstep,-4*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\draw[-stealth,dashed](b2) to [out=180,in=90](c1);
+\draw[-stealth](c1) to [out=30,in=-120](b2);
+\draw[-stealth,dashed](d3) to [out=150,in=-40](c0);
+\draw[-stealth](c0) to [out=-60,in=-120](d3);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{ڈی پلٹ کے عبوری جدول کا حصول اور استعمال}
+\label{شکل_غیر_معاصر_ڈی_پلٹ_عبوری_حصول}
+\end{figure}
 
 
-فرض کریں جس لمحے پلٹ کو برقی طاقت مہیا کر کے زندہ کیا جاتا ہے اس لمحے ساعت، \عددی{C}، اور بیرونی مداخل، \عددی{D} ،دونوں پست ہیں۔عبوری جدول کے مطابق دور \عددی{CD=00} کی قطار میں ہوگا۔اس قطار میں تین خانے \عددی{0000}، \عددی{0100}، اور \عددی{1000} عبوری حال کے متغیر ظاہر کرتے ہیں۔ ان خانوں میں عبوری حال \عددی{SR=11} ہے۔چوتھا خانہ،\عددی{1100}، مستحکم حال \عددی{SR=11} ظاہر کرتا ہے۔ اگر برقی طاقت کی فراہمی کے لمحے تاخیر ایسی ہوں کہ دور ان تین عبوری خانوں میں سے کسی ایک میں داخل ہو تو وہ یہاں سے جلد \عددی{sr=11} کی صف پہنچ کر مستحکم حال اختیار کر ے گا۔اگر زندہ ہوتے ہی دور سیدھا \عددی{1100} خانے میں داخل ہو تب وہ یہی رہے گا۔
+فرض کریں جس لمحے پلٹ کو برقی طاقت مہیا کر کے زندہ کیا جاتا ہے اس لمحے ساعت، \عددی{C}، اور بیرونی مداخل، \عددی{D} ،دونوں پست ہیں۔عبوری جدول کے مطابق دور \عددی{CD=00} کی قطار میں ہوگا۔اس قطار میں  پہلا خانہ  \عددی{0000}، دوسرا خانہ  \عددی{0100}، اور  چوتھا خانہ \عددی{1000} عبوری حال کے متغیر ظاہر کرتے ہیں۔ ان خانوں میں عبوری حال \عددی{SR=11} ہے۔تیسرا خانہ \عددی{1100}، مستحکم حال \عددی{SR=11} ظاہر کرتا ہے۔ اگر برقی طاقت کی فراہمی کے لمحے تاخیر ایسی ہوں کہ دور ان تین عبوری خانوں میں سے کسی ایک میں داخل ہو تو وہ یہاں سے جلد \عددی{sr=11} کی صف پہنچ کر مستحکم حال اختیار کر ے گا۔اگر زندہ ہوتے ہی دور سیدھا \عددی{1100} خانے میں داخل ہو تب وہ یہی رہے گا۔
 
 اس کے برعکس برقی طاقت مہیا کرنے کے لمحے اگر \عددی{C=1} اور \عددی{D=1} ہو تب عبوری جدول کے مطابق دور \عددی{0111} یا \عددی{1011} مستحکم حال پہنچ کر یہی رہے گا، جبکہ \عددی{C=1} اور \عددی{D=0} کی صورت میں دور \عددی{0110} یا \عددی{1010} حال میں ہو گا۔
 
-پست ساعت کی صورت میں حال کے متغیر \عددی{SR} کی قیمت \عددی{11} رہتی ہے۔عبوری جدول میں \عددی{CD=00} اور \عددی{CD=01} کی دو قطاریں اس حقیقت کو ظاہر کرتی ہیں جہاں تمام \عددی{SR} کی قیمت \عددی{11} ہے۔ہم جانتے ہیں ایس آر پلٹ کے دونوں مداخل بلند ہونے کی صورت میں پلٹ اپنا حال برقرار رکھتی ہے۔یوں شکل \حوالہء{11.22 } میں خارجی پلٹ اپنا حال برقرار رکھے گی۔
+پست ساعت کی صورت میں حال کے متغیر \عددی{SR} کی قیمت \عددی{11} رہتی ہے۔عبوری جدول میں \عددی{CD=00} اور \عددی{CD=01} کی دو قطاریں اس حقیقت کو ظاہر کرتی ہیں جہاں تمام \عددی{SR} کی قیمت \عددی{11} ہے۔ہم جانتے ہیں ایس آر پلٹ کے دونوں مداخل بلند ہونے کی صورت میں پلٹ اپنا حال برقرار رکھتی ہے۔یوں شکل  \حوالہ{شکل_غیر_معاصر_ڈی_پلٹ_بطور_باز_رسی} میں خارجی پلٹ اپنا حال برقرار رکھے گی۔
 
 پست ساعت، \عددی{C=0}، اور پست \عددی{D} کی صورت میں مستحکم حال کا متغیر \عددی{SR} حاصل کرنے کی خاطر ہم عبوری جدول کی \عددی{CD=00} قطار میں دیکھتے ہیں جہاں ہمیں \موٹا{ مکمل حال } \عددی{srCD=1100} بطور مستحکم حال ملتا ہے۔جدول کے اس خانے میں \عددی{a} لکھ کر اسے اجاگر کیا گیا ہے۔یہاں \عددی{SR=11} کی بدولت خارجی پلٹ اپنا حال برقرار رکھے گی۔
 
@@ -749,11 +1263,10 @@ R&=\overline{BCs}=\overline{B}+\overline{C}+\overline{s}=\overline{\overline{Dr}
 
 اسی طرح مکمل حال \عددی{srCD=1101} میں موجود دور ، ساعت کے کنارہ چڑھائی پر ، عبوری حال \عددی{1111} سے گزر کر مستحکم حال \عددی{0111} اختیار کرے گا۔اس قدم کو خانہ \عددی{b} سے خانہ \عددی{k} کے راستے خانہ \عددی{n} تک تیر دار لکیر ظاہر کرتی ہے۔یہ قدم بلند بیرونی مداخل \عددی{D=1} اور ساعت کے کنارہ چڑھائی پر \عددی{SR=01} کی صورت میں ہونے والا عمل ہے جس سے داخلی پلٹ بلند ہو کر ڈی پلٹ کا مخارج بلند \عددی{(Q=1)} کرتا ہے۔
 
-ساعت کے \اصطلاح{ کنارہ اترائی } پر ہونے والے عمل کو نقطہ دار تیر دار لکیروں سے ظاہر کیا گیا ہے۔انہیں آپ خود سمجھ سکتے ہیں۔یہ دونوں لکیریں یہ حقیقت واضح کرتی ہیں کہ ساعت کے کنارہ اترائی پر عبوری حال اور اختتامی مستحکم حال دونوں میں \عددی{SR=11} ہو گا لہٰذا بیرونی پلٹ اپنا حال برقرار رکھے گی اور یوں ساعت کے کنارہ اترائی پر ڈی پلٹ کے حال میں کسی قسم کی تبدیلی رو نما نہیں ہوگی۔
+ساعت کے \اصطلاح{ کنارہ اترائی } پر ہونے والے عمل کو  تیر دار لکیروں سے ظاہر کیا گیا ہے۔انہیں آپ خود سمجھ سکتے ہیں۔یہ دونوں لکیریں یہ حقیقت واضح کرتی ہیں کہ ساعت کے کنارہ اترائی پر عبوری حال اور اختتامی مستحکم حال دونوں میں \عددی{SR=11} ہو گا لہٰذا بیرونی پلٹ اپنا حال برقرار رکھے گی اور یوں ساعت کے کنارہ اترائی پر ڈی پلٹ کے حال میں کسی قسم کی تبدیلی رو نما نہیں ہوگی۔
 
-ایک آخری بات اس پلٹ کے حوالے سے کرتے ہیں۔شکل \حوالہء{ 11.22 } میں \عددی{R} پیدا کرنے والے ضرب متمم گیٹ کو \عددی{S} بطور داخلی اشارہ مہیا کیا گیا ہے، جس کی بدولت \عددی{S} اور \عددی{R} کسی صورت بیکوقت پست نہیں ہو سکتے۔یاد رہے کہ \عددی{S} اور \عددی{R} دونوں بیکوقت پست ہونے سے بیرونی پلٹ کے دونوں مخارج بلند ہو جائیں گے جو کہ ناقابل قبول صورت ہو گی۔یوں عبوری جدول میں \عددی{0010} اور \عددی{0011} کے خانے کوئی معنی نہیں رکھتے۔ان خانوں کو \عددی{x} لکھ کر اجاگر کیا گیا ہے۔
+ایک آخری بات اس پلٹ کے حوالے سے کرتے ہیں۔شکل  \حوالہ{شکل_غیر_معاصر_ڈی_پلٹ_بطور_باز_رسی}  میں \عددی{R} پیدا کرنے والے ضرب متمم گیٹ کو \عددی{S} بطور داخلی اشارہ مہیا کیا گیا ہے، جس کی بدولت \عددی{S} اور \عددی{R} کسی صورت بیکوقت پست نہیں ہو سکتے۔یاد رہے کہ \عددی{S} اور \عددی{R} دونوں بیکوقت پست ہونے سے بیرونی پلٹ کے دونوں مخارج بلند ہو جائیں گے جو کہ ناقابل قبول صورت ہو گی۔یوں عبوری جدول میں \عددی{0010} اور \عددی{0011} کے خانے کوئی معنی نہیں رکھتے۔ان خانوں کو \عددی{x} لکھ کر اجاگر کیا گیا ہے۔
 
-%???KKK
 \جزوحصہ{ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}\شناخت{حصہ_غیر_معاصر_قدم_با_قدم}
 مذکورہ بالا مثالوں میں استعمال کیے گئے طریقہ کار کو یہاں بیان کرتے ہیں۔پلٹ کے اپنے باز رسی اشارات کو نظر انداز کرتے ہیں۔
 \begin{itemize}

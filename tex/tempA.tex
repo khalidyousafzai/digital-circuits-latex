@@ -461,4 +461,485 @@
 \caption{}
 \end{subfigure}
 \end{figure}
-%============
+%============%============
+%fig 11.14
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(2*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$x$}node[pos=0.75,below left]{$y_1y_0$};
+\foreach \kx/\xlb in {0/{0},1/{1}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/00,1/01,2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\a in {0/00,1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{$\a$};}
+\foreach \kx/\a in {1/11}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node{$\a$};}
+\foreach \kx/\a in {1/01}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node{$\a$};}
+\foreach \kx in {0}{\draw(\kx*\kxstep+0.5*\kxstep,-0.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-1.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-2.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+%\foreach \kx in {1}{\draw(\kx*\kxstep+0.5*\kxstep,-3.5*\kystep)node[draw,circle,inner sep=1pt]{$\phantom{00}$};}
+\draw(0*\ksepX+0*\kxstep,-5*\kystep)node[circle,inner sep=1pt](kA){$01$};
+\draw(0*\ksepX+1*\kxstep,-5*\kystep)node[circle,inner sep=1pt](kB){$11$};
+\draw(0*\ksepX+2*\kxstep,-5*\kystep)node[circle,inner sep=1pt](kC){$01$};
+\draw[-stealth](kA)--(kB);
+\draw[-stealth](kB)--(kC);
+\draw[-stealth](kC)--++(0.5*\kxstep,0)--++(0,-1*\kystep)coordinate(krgt)--(krgt -| kA)--++(-0.5*\kxstep,0)|-(kA.180);
+\end{tikzpicture}
+\caption{}
+\end{figure}
+%============%============
+%fig 11.15
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {0/{$f_1f_0$}, 1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-6*\kystep);}
+\foreach \x in {0,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-5*\kystep);}
+\foreach \x/\a in {0/00,1/a,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/01,1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/11,1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/10,1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\draw(0,0)--++(6*\kxstep,0);
+\draw(0,-1*\kystep)--++(6*\kxstep,0);
+\draw(0,-5*\kystep)--++(6*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {0/{$f_1f_0$}, 1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-6*\kystep);}
+\foreach \x in {0,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-5*\kystep);}
+\foreach \x/\a in {0/00,1/a,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/01,1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/10,1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0/11,1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\draw(0,0)--++(6*\kxstep,0);
+\draw(0,-1*\kystep)--++(6*\kxstep,0);
+\draw(0,-5*\kystep)--++(6*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}
+%==========================
+%fig 11.16
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-6*\kystep);}
+\foreach \x in {-1,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-5*\kystep);}
+\foreach \x/\a in {1/a,2/a,3/a,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\draw(-1,0)--++(7*\kxstep,0);
+\draw(-1,-1*\kystep)--++(7*\kxstep,0);
+\draw(-1,-5*\kystep)--++(7*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+\foreach \x/\a in {0/f_3f_2f_1f_0,1/0001,2/0010,3/0100,4/1000}{\draw(0*\kxstep,-\x*\kystep-0.5*\kystep)node[]{$\a$};}
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\end{tikzpicture}
+\end{figure}
+%==========================
+%fig 11.17
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-7*\kystep);}
+\foreach \x in {-1,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-6*\kystep);}
+\foreach \x/\a in {1/a,2/a,3/e,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/e,2/-,3/b,4/-,5/-}{\draw(\x*\kxstep+0.5*\kxstep,-5.5*\kystep)node[]{$\a$};}
+\draw(-1,0)--++(7*\kxstep,0);
+\draw(-1,-1*\kystep)--++(7*\kxstep,0);
+\draw(-1,-6*\kystep)--++(7*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+\foreach \x/\a in {0/f_3f_2f_1f_0,1/0001,2/0010,3/0100,4/1000,5/0011}{\draw(0*\kxstep,-\x*\kystep-0.5*\kystep)node[]{$\a$};}
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](a1){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](b2){$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-5*\kystep-\kystep/2)node[,circle,inner sep=1pt](e2){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-1*\kystep-\kystep/2)node[circle,inner sep=1pt](a2){$\phantom{00}$};
+\draw[-stealth](a1) to [out=30,in=150](a2) to [out=-70,in=50](e2) to [out=130,in=-120](b2);
+\end{tikzpicture}
+\end{figure}
+%==========================
+%==========================
+%fig 11.18
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x/\a in {1/{\text{\RL{حال}}}, 
+2/{$00$},3/{$01$},4/{$11$},5/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\foreach \x in {2,6}{\draw(\x*\kxstep,1*\kystep)--++(0,-8*\kystep);}
+\foreach \x in {-1,1}{\draw(\x*\kxstep,0*\kystep)--++(0,-7*\kystep);}
+\foreach \x/\a in {1/a,2/a,3/e,4/f,5/f}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/b,2/a,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/c,2/a,3/b,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/d,2/d,3/b,4/c,5/d}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/e,2/-,3/b,4/-,5/-}{\draw(\x*\kxstep+0.5*\kxstep,-5.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {1/f,2/-,3/-,4/c,5/c}{\draw(\x*\kxstep+0.5*\kxstep,-6.5*\kystep)node[]{$\a$};}
+\draw(-1,0)--++(7*\kxstep,0);
+\draw(-1,-1*\kystep)--++(7*\kxstep,0);
+\draw(-1,-7*\kystep)--++(7*\kxstep,0);
+\draw(2*\kxstep,\kystep)--++(4*\kxstep,0);
+\foreach \x/\a in {0/f_3f_2f_1f_0,1/0001,2/0010,3/0100,4/1000,5/0011,6/0101}{\draw(0*\kxstep,-\x*\kystep-0.5*\kystep)node[]{$\a$};}
+%\draw(\kxstep,0.5*\kystep)node[]{\text{\RL{حال کا متغیر}}};
+\draw(4*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(2*\kxstep+\kxstep/2,-\kystep-\kystep/2)node[draw,circle,inner sep=1pt](a1){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-2*\kystep-\kystep/2)node[draw,circle,inner sep=1pt](b2){$\phantom{00}$};
+\draw(4*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-3*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(2*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(5*\kxstep+\kxstep/2,-4*\kystep-\kystep/2)node[draw,circle,inner sep=1pt]{$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-5*\kystep-\kystep/2)node[,circle,inner sep=1pt](e2){$\phantom{00}$};
+\draw(3*\kxstep+\kxstep/2,-1*\kystep-\kystep/2)node[circle,inner sep=1pt](a2){$\phantom{00}$};
+%\draw[-stealth](a1) to [out=30,in=150](a2) to [out=-70,in=50](e2) to [out=130,in=-120](b2);
+\end{tikzpicture}
+\end{figure}
+%==========================
+%==========================
+%fig 11.19
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\foreach \x/\a in {0.5/$f_3f_2f_1f_0$,2/{\text{\RL{حال}}}, 
+3/{$00$},4/{$01$},5/{$11$},6/{$10$}}{\draw(\x*\kxstep+0.5*\kxstep,-0.5*\kystep)node[]{\a};}
+\draw(5*\kxstep,0.5*\kystep)node[]{\text{\RL{مداخل $x_1x_0$}}};
+\draw(3*\kxstep,0*\kystep)--++(0,\kystep)--++(4*\kxstep,0)--++(0,-\kystep);
+\foreach \x in {0,2,3,7}{\draw(\x*\kxstep,0)--++(0,-10*\kystep);}
+\foreach \y in {0,1,5,10}{\draw(0*\kxstep,-\y*\kystep)--++(7*\kxstep,0);}
+\foreach \x/\a in {0.5/0001,2/a,3/\encircle{a},4/{\cancel{b},e},5/{\cancel{c},f},6/{\cancel{c},f}}{\draw(\x*\kxstep+0.5*\kxstep,-1.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0010,2/b,3/{\cancel{a},e},4/{\encircle{b}},5/{c},6/{d}}{\draw(\x*\kxstep+0.5*\kxstep,-2.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0100,2/c,3/{\cancel{a},f},4/{\cancel{b},g},5/{\encircle{c}},6/{\encircle{c}}}{\draw(\x*\kxstep+0.5*\kxstep,-3.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/1000,2/d,3/\encircle{d},4/{\cancel{b},h},5/{\cancel{c},i},6/{\encircle{d}}}{\draw(\x*\kxstep+0.5*\kxstep,-4.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0011,2/e,3/a,4/b,5/-,6/-}{\draw(\x*\kxstep+0.5*\kxstep,-5.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0101,2/f,3/a,4/-,5/c,6/c}{\draw(\x*\kxstep+0.5*\kxstep,-6.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/0110,2/g,3/-,4/b,5/c,6/-}{\draw(\x*\kxstep+0.5*\kxstep,-7.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/1010,2/h,3/-,4/b,5/-,6/d}{\draw(\x*\kxstep+0.5*\kxstep,-8.5*\kystep)node[]{$\a$};}
+\foreach \x/\a in {0.5/1100,2/i,3/-,4/-,5/c,6/-}{\draw(\x*\kxstep+0.5*\kxstep,-9.5*\kystep)node[]{$\a$};}
+%\draw(3*\kxstep+\kxstep/2,-1*\kystep-\kystep/2)node[circle,inner sep=1pt](a2){$\phantom{00}$};
+\end{tikzpicture}
+\end{figure}
+%==========================
+%fig 11.20
+\begin{figure}
+\centering
+\begin{subfigure}{0.35\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nor port,number inputs=2,anchor=out](u0){};
+\draw(0,\ksepY) node[nor port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(\kpin,0)node[right]{$\overline{Q}$};
+\draw(u1.out)--++(\kpin,0)node[right]{$Q$};
+\draw(u0.out)--++(0,\kpin)coordinate(aa);
+\draw(u1.out)--++(0,-\kpin)coordinate(bb);
+\draw(u0.in 1)--++(0,\kpin)--(bb);
+\draw(u1.in 2)--++(0,-\kpin)--(aa);
+\draw(u0.in 2)--++(-\kpin,0)node[left]{$S$};
+\draw(u1.in 1)--++(-\kpin,0)node[left]{$R$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.65\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nor port,number inputs=2,anchor=out](u0){};
+\draw(u0.in 2)--++(0,-\kpin)--++(-4*\kpin,0)node[above right]{$\overline{Q}=\overline{S+q}$} node[nor port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(\kpin,0)node[right]{$Q$};
+\draw(u1.in 2)node[left]{$q$}--++(0,-\kpin)-|(u0.out);
+\draw(u1.in 1)--++(-\kpin,0)coordinate(aa)node[left]{$S$};
+\draw(u0.in 1) --(u0.in 1 -| aa)node[left]{$R$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}
+%=================
+% fig 11.21
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$SR$}node[pos=0.75,below left]{$q$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx in {0,1,2}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[draw,circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,3}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[draw,circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\draw[-stealth](a1) to [out=120,in=60](a0);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\def\ka{a}
+\def\kb{b}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-2*\kystep);}
+\foreach \x in {0,1,2}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$SR$}node[pos=0.75,below left]{$q$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/0,1/1}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx in {0,1,2}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[draw,circle,inner sep=1pt](a\kx){$\phantom{00}$};}
+\foreach \kx in {0,3}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[draw,circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\draw[-stealth](b3) to [out=160,in=30](b0);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure} 
+%======================
+%fig 11.22
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nand port,number inputs=2,anchor=out](u0){};
+\draw(0,\ksepY) node[nand port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(0,\kpin)coordinate(aa);
+\draw(u1.out)--++(0,-\kpin)coordinate(bb);
+\draw(u0.in 1)--++(0,\kpin)--(bb);
+\draw(u1.in 2)--++(0,-\kpin)--(aa);
+\draw (u0.out)--++(\kpin,0)node[right]{$\overline{Q}$};
+\draw (u1.out)--++(\kpin,0)node[right]{$Q$};
+
+\draw(u0.in 2)--++(-2*\kpin,0) node[nand port,number inputs=3,anchor=out](u3){};
+\draw(u3.out)node[above right]{$R$}++(0,-\ksepY) node[nand port,number inputs=2,anchor=out](u4){};
+\draw(u4.out)node[right]{$B$}--++(0,\kpin)coordinate(aa);
+\draw(u3.out)--++(0,-\kpin)coordinate(bb);
+\draw(u4.in 1)--++(0,\kpin)--(bb);
+\draw(u3.in 3)--++(0,-\kpin)--(aa);
+
+\draw(u1.in 1)--++(-2*\kpin,0) node[nand port,number inputs=2,anchor=out](u5){};
+\draw(u5.out)node[above right]{$S$}node[draw,circle,minimum size=4pt,inner sep=0pt,fill=black]{}++(0,\ksepY) node[nand port,number inputs=2,anchor=out](u6){};
+\draw(u5.out)--++(0,\kpin)coordinate(aa);
+\draw(u6.out)node[right]{$A$}--++(0,-\kpin)coordinate(bb);
+\draw(u5.in 1)--++(0,\kpin)--(bb);
+\draw(u6.in 2)--++(0,-\kpin)--(aa);
+
+\draw(u3.in 1)--++(0,\kpin)coordinate(cc);
+\draw(u5.out)--++(0,-\kpin)--(cc);
+
+\draw(u3.in 2)--++(-\kpin,0)|-(u5.in 2);
+\draw($(u3.in 1)!0.5!(u5.in 2)$)++(-\kpin,0)--++(-2*\kpin,0)coordinate(kC)node[left]{$C$};
+\draw(u4.in 2)--(u4.in 2 -| kC)node[left]{$D$};
+\draw(u6.in 1)--++(-2*\kpin,0)coordinate(kT)--(kT |- u4.in 2)--++(0,-\kpin)-|(u4.out);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\ksepY}{2}
+\draw(0,0) node[nand port,number inputs=2,anchor=out](u0){};
+\draw(0,\ksepY) node[nand port,number inputs=2,anchor=out](u1){};
+\draw(u0.out)--++(0,\kpin)coordinate(aa);
+\draw(u1.out)--++(0,-\kpin)coordinate(bb);
+\draw(u0.in 1)--++(0,\kpin)--(bb);
+\draw(u1.in 2)--++(0,-\kpin)--(aa);
+\draw (u0.out)--++(\kpin,0)node[right]{$\overline{Q}$};
+\draw (u1.out)--++(\kpin,0)node[right]{$Q$};
+
+\draw(u0.in 2)--++(-4*\kpin,0)node[below right]{$R=\overline{BCs}$}node[nand port,number inputs=3,anchor=out](u2){};
+\draw(u2.in 1)--++(0,\kpin)--++(-3*\kpin,0)node[above right]{$B=\overline{rD}$}node[nand port,number inputs=2,anchor=out](u3){};
+\draw(u1.in 1)--++(-4*\kpin,0)node[above right]{$S=\overline{AC}$}node[nand port,number inputs=2,anchor=out](u4){};
+\draw(u4.in 1)--++(0,\kpin)--++(-3*\kpin,0)node[above right]{$A=\overline{sB}$}node[nand port,number inputs=2,anchor=out](u5){};
+\draw(u5.in 1)node[left]{$s$}--++(0,\kpin)-|(u4.out);
+\draw(u3.in 1)node[left]{$r$}--++(0,\kpin)-|(u2.out);
+\draw(u5.in 2)--++(-\kpin,0)coordinate(klft)node[left]{$B$};
+\draw(u4.in 2)--(u4.in 2 -| klft)node[left]{$C$};
+\draw(u3.in 2)--(u3.in 2 -| klft)node[left]{$D$};
+\draw(u2.in 2)--(u2.in 2 -| klft)node[left]{$C$};
+\draw(u2.in 3)--(u2.in 3 -| klft)node[left]{$s$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}
+%=====================
+%fig 11.23
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.75}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$sr$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/0}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(2*\kxstep,-4*\kystep)node[below]{$R=rD+\overline{C}+\overline{s}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{0.75}
+\pgfmathsetmacro{\kystep}{0.75}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$sr$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw(2*\kxstep,-4*\kystep)node[below]{$S=s(\overline{r}+\overline{D})+\overline{C}$};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1.2}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{2*\kxstep+2}
+\foreach \x in {0,1,2,3,4}{\draw(\x*\kxstep,0)--++(0,-4*\kystep);}
+\foreach \x in {0,1,2,3,4}{\draw(0,-\x*\kystep)--++(4*\kxstep,0);}
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$sr$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/11,3/10}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/11,3/10}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/01,3/01}{\draw(\kx*\kxstep+\kxstep/2,-0.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/01,3/01}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/01,3/10}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/11,1/11,2/10,3/10}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {2,3}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[draw,circle,inner sep=1pt](b\kx){$\phantom{00}$};}
+\foreach \kx/\xlb in {0,1}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[draw,circle,inner sep=1pt](c\kx){$\phantom{00}$};}
+\foreach \kx/\xlb in {2,3}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[draw,circle,inner sep=1pt](d\kx){$\phantom{00}$};}
+\foreach \kx/\xlb in {0/{},1/{},2/x,3/x}{\draw(\kx*\kxstep,-1*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\foreach \kx/\xlb in {0/{u},1/{v},2/n,3/q}{\draw(\kx*\kxstep,-2*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\foreach \kx/\xlb in {0/{a},1/{b},2/k,3/e}{\draw(\kx*\kxstep,-3*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\foreach \kx/\xlb in {0/{p},1/{j},2/i,3/m}{\draw(\kx*\kxstep,-4*\kystep)node[shift={(1.5ex,1.5ex)}]{$\xlb$};}
+\draw[-stealth,dashed](b2) to [out=180,in=90](c1);
+\draw[-stealth](c1) to [out=30,in=-120](b2);
+\draw[-stealth,dashed](d3) to [out=150,in=-40](c0);
+\draw[-stealth](c0) to [out=-60,in=-120](d3);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\end{figure}
+

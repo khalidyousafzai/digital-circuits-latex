@@ -88,3 +88,9 @@ mark=at position #1 with {\draw[line cap=round,mark segment] (0,-2pt) -- (0,2pt)
 \newcolumntype{L}{>{$}l<{$}}
 \newcolumntype{C}{>{$}c<{$}}
 \newcolumntype{R}{>{$}r<{$}}
+
+%=============================
+% this encircles the number. can be used inline, and inside tables too.
+%the urdu equivalent is \دائرہبند  command
+\newcommand*\encircle[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}

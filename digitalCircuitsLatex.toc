@@ -619,14 +619,14 @@
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {227}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {229}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {4}}توازن اور ارتعاش }{\arabicdigits {232}}{}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {233}}{}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {235}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {235}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {236}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {238}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {12}}سوالات}{\arabicdigits {235}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {234}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {237}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {237}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {240}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {245}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {12}}سوالات}{\arabicdigits {247}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {251}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {257}}{}%
