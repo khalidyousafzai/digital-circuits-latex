@@ -234,11 +234,11 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}جڑواں بوولین تفاعل}{\arabicdigits {56}}{}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}ارکان ضرب کے مجموعہ کی ترکیب}{\arabicdigits {56}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}ارکان ضرب کے مجموعہ کی ترکیب}{\arabicdigits {57}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -625,8 +625,18 @@
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {240}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {245}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {12}}سوالات}{\arabicdigits {247}}{}%
+\selectlanguage *{urdu}
+\selectlanguage *{english}
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {257}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {chapter}{جوابات}{\arabicdigits {261}}{}%

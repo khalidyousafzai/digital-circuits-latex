@@ -1,0 +1,1184 @@
+print("=======================");
+kill(all);
+print("Q 6.1");
+
+f:2*t-3;
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.2");
+
+
+declare(a,constant,b,constant);
+f:(a*t+b)^2;
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.3");
+
+
+declare(a,constant,b,constant);
+f:sin(2*%pi*t);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.4");
+
+
+declare(a,constant,b,constant);
+f:(sin(2*%pi*t))^2;
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.5");
+
+
+declare(a,constant,b,constant);
+f:%e^(-3*t)*sin(4*t);
+laplace(f,t,s);
+
+
+print("=======================");
+kill(all);
+print("Q 6.6");
+
+
+declare(a,constant,b,constant);
+f:%e^(2*t)*cos(3*t);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.7");
+
+
+declare(a,constant,b,constant);
+f:cos(2*t-%pi/3);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.8");
+
+
+declare(a,constant,b,constant);
+f:2*sin(5*t+%pi);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.9");
+
+f1:t/2;
+integrate(f1*%e^(-s*t),t,0,2);
+
+
+print("=======================");
+kill(all);
+print("Q 6.10");
+
+f1:2;
+integrate(f1*%e^(-s*t),t,0,3);
+
+print("=======================");
+kill(all);
+print("Q 6.11");
+
+f1:-2/5*t+2;
+integrate(f1*%e^(-s*t),t,0,5);
+
+
+print("=======================");
+kill(all);
+print("Q 6.12");
+
+f1:-5*t+5;
+integrate(f1*%e^(-s*t),t,0,2);
+ratsimp(%);
+
+print("=======================");
+kill(all);
+print("Q 6.13");
+
+f1:2/3*t;
+f2:(7-t)/2;
+integrate(f1*%e^(-s*t),t,0,3)+integrate(f2*%e^(-s*t),t,3,7);
+ratsimp(%);
+
+
+print("=======================");
+kill(all);
+print("Q 6.14");
+
+f1:t;
+f2:3;
+integrate(f1*%e^(-s*t),t,0,2)+integrate(f2*%e^(-s*t),t,2,4);
+ratsimp(%);
+
+print("=======================");
+kill(all);
+print("Q 6.19");
+
+f:(0.5*s+1.3)/(s^2+1.69);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.20");
+
+f:(4*s+1)/(s^2-16);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.21");
+
+f:(s)/(m^2*s^2+n^2);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.22");
+
+f:1/((s+3)*(s-2));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.23");
+
+f:2/(s^3)+3/(s^5);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.24");
+
+f:(3*s+8)/(s^2-9);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.25");
+
+f:(s-1)/(s^2-s-6);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.26");
+
+f:(1)/((s-a)*(s+b));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.27");
+
+f:t*%e^(2*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.28");
+
+f:%e^(-3*t)*sin(5*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.29");
+
+f:0.25*%e^(-1.5*t)*cos(3*pi*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.30");
+
+f:sinh(t)*sin(w*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.31");
+
+f:m/(s+n)^2;
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.32");
+
+f:3/(s+5)^4;
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.33");
+
+f:3/(s+sqrt(5))^3;
+
+ilt(f,s,t);
+
+
+
+print("=======================");
+kill(all);
+print("Q 6.34");
+
+f:2*%e^(-t)*sin(2*t);
+
+laplace(f,t,s)
+
+
+
+print("=======================");
+kill(all);
+print("Q 6.35");
+
+f:%e^(-4*pi*t)*sin(pi*t);
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("Q 6.36");
+
+f:%e^(-4*t)*(2*sin(5*t)+3*cos(5*t));
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("Q 6.37");
+
+f:%e^(-a*t)*(sin(b*t)+cos(b*t));
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("Q 6.38");
+
+f:(a+b*t)*%e^(-c*t);
+
+laplace(f,t,s)
+
+print("=======================");
+kill(all);
+print("example 6.11");
+
+f:(2*s+5)/((s+1)*(s+2));
+partfrac(f,s);
+
+print("=======================");
+kill(all);
+print("Q 6.40");
+
+f:(cos(t))^2;
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.46");
+
+f:t*sin(w*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.47);
+
+f:t*sinh(a*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.53");
+
+f:1/(s^2+s);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.54");
+
+f:6/(s^2+4*s);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.55");
+
+f:3/(s^2-9*s);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.56");
+
+f:9/(s^3+9*s);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.57");
+
+f:4/(s^2*(s+2));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.58");
+
+f:4/(s^3*(s+2));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.59");
+
+f:12/(s*(s^2+4));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.60");
+
+f:12/(s^2*(s^2+4));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.61");
+
+f:32/(s^1*(s^2-16));
+
+ilt(f,s,t);
+print("=======================");
+kill(all);
+print("Q 6.62");
+
+f:32/(s^2*(s^2-16));
+
+ilt(f,s,t);
+print("=======================");
+kill(all);
+print("Q 6.63");
+
+f:6/(s^4*(s^2+1));
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.64");
+
+eq:'diff(y,t,2)+%pi^2*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=1,'diff(y,t)=0);
+
+print("=======================");
+kill(all);
+print("Q 6.65");
+
+assume(w>0);
+eq:'diff(y,t,2)+w^2*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=A,'diff(y,t)=B);
+
+print("=======================");
+kill(all);
+print("Q 6.66");
+
+A:1;
+B:-1;
+
+eq:'diff(y,t,2)-5*'diff(y,t,1)+6*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=A,'diff(y,t)=B);
+
+print("=======================");
+kill(all);
+print("Q 6.67");
+
+A:2;
+B:1;
+
+eq:'diff(y,t,2)-1*'diff(y,t,1)-2*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=A,'diff(y,t)=B);
+
+print("=======================");
+kill(all);
+print("Q 6.68");
+
+A:2;
+B:1;
+
+eq:'diff(y,t,2)-2*'diff(y,t,1)+1*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=A,'diff(y,t)=B);
+
+print("=======================");
+kill(all);
+print("Q 6.69");
+
+assume(k>0);
+A:2;
+B:k;
+
+eq:'diff(y,t,2)-k*'diff(y,t,1)=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=A,'diff(y,t)=B);
+
+print("=======================");
+kill(all);
+print("Q 6.70");
+
+assume(k>0);
+A:2;
+B:2*k;
+
+eq:'diff(y,t,2)+k*'diff(y,t,1)-2*k^2*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=A,'diff(y,t)=B);
+
+print("=======================");
+kill(all);
+print("example 6.15");
+
+eq:'diff(y,t,2)+2*'diff(y,t)+4*y=0;
+
+ode2(eq,y,t);
+ic2(%,t=0,y=4,'diff(y,t)=-3);
+
+print("=======================");
+kill(all);
+print("Q 6.73");
+
+f:%e^(-t)*cos(w*t-a);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.76");
+
+f:%e^(-a*t)*sinh(w*t);
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.76");
+
+f:sinh(a*t)*sin(a*t);
+laplace(f,t,s);
+
+
+print("=======================");
+kill(all);
+print("Q 6.80");
+
+f:(s+4)/((s+1)^2+9);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.81");
+
+f:(s-2)/(s^2+4*s+8);
+
+ilt(f,s,t);
+
+
+print("=======================");
+kill(all);
+print("Q 6.82");
+
+f:2/(s+1)^3+6/(s+1)^4;
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.83");
+
+f:(a*s+b)/((s-c)^2+w^2);
+
+ilt(f,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.84");
+
+eq:'diff(y,t,2)+2*'diff(y,t,1)+10*y=0;
+ode2(eq,y,t);
+ic2(%,t=0,y=-2,'diff(y,t)=1);
+
+print("=======================");
+kill(all);
+print("Q 6.85");
+
+eq:'diff(y,t,2)-6*'diff(y,t,1)+9*y=0;
+ode2(eq,y,t);
+ic2(%,t=0,y=1,'diff(y,t)=2);
+
+print("=======================");
+kill(all);
+print("Q 6.86");
+
+eq:'diff(y,t,2)-2*'diff(y,t,1)+5*y=0;
+ode2(eq,y,t);
+ic2(%,t=0,y=-1,'diff(y,t)=1);
+
+
+print("=======================");
+kill(all);
+print("Q 6.87");
+
+eq:'diff(y,t,2)+10*'diff(y,t,1)+25*y=0;
+ode2(eq,y,t);
+ic2(%,t=0,y=2,'diff(y,t)=-1);
+
+
+print("=======================");
+kill(all);
+print("Q 6.100");
+
+integrate(sin(w*t)*%e^(-s*t),t,0,2*%pi/w);
+
+print("=======================");
+kill(all);
+print("Q 6.102");
+
+integrate(%e^(-s*t)*t^2,t,1,inf);
+
+print("=======================");
+kill(all);
+print("Q 6.103");
+
+integrate(%e^(-s*t)*A*sin(w*t),t,0,%pi/w);
+
+print("=======================");
+kill(all);
+print("Q 6.104");
+
+integrate(%e^(-s*t)*A*cos(w*t),t,0,%pi/(2*w));
+
+print("=======================");
+kill(all);
+print("Q 6.105");
+
+integrate(%e^(-s*t)*t^2,t,0,1);
+
+print("=======================");
+kill(all);
+print("Q 6.112");
+
+eq:'diff(i,t,2)+i=1;
+ode2(eq,i,t);
+ic2(%,t=0,i=0,'diff(i,t)=0);
+
+print("=======================");
+kill(all);
+print("example 6.25");
+
+F:(3*s-2)/(s*(s-1));
+ilt(F,s,t);
+
+print("=======================");
+kill(all);
+print("example 6.26");
+
+F:(s^2-4*s)/((s+2)^3);
+ilt(F,s,t);
+
+partfrac(F,s);
+
+print("=======================");
+kill(all);
+print("example 6.27a");
+
+f:(s-4)/(s^2+2*s+5);
+ilt(f,s,t);
+
+eq:85=(A*s+B)*(s^2+2*s+10)+(C*s+D)*(s^2+1);
+expand(eq);
+
+eq1:A+C=0;
+eq2:2*A+B+D=0;
+eq3:10*A+2*B+C=0;
+eq4:10*B+D=85;
+
+solve([eq1,eq2,eq3,eq4],[A,B,C,D]);
+
+
+print("=======================");
+kill(all);
+print("example 6.27");
+
+eq:'diff(y,t,2)+2*'diff(y,t)+10*y=85*sin(t);
+laplace(eq,t,s);
+ode2(eq,y,t);
+sol:ic2(%,t=0,y=1,'diff(y,t)=-6);
+
+ev(rhs(sol),t=%pi);
+ev('diff(rhs(sol)),t=%pi);
+plot2d(rhs(sol),['t,0,%pi]);
+
+eq:'diff(y,t,2)+2*'diff(y,t)+10*y=0;
+laplace(eq,t,s);
+ode2(eq,y,t);
+sol:ic2(%,t=0,y=2-3*%e^(-%pi),'diff(y,t)=15*%e^(-%pi)-9);
+plot2d(rhs(sol),['t,%pi,2*%pi]);
+
+print("=======================");
+kill(all);
+print("Q 6.121");
+
+Y1:1/((s+1/2)*(s+1));
+Y2:1/((s+1/2)*(s+1)^2);
+partfrac(Y1+Y2,s);
+
+ilt(Y1+Y2,s,t);
+ilt(Y1,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.122");
+
+Y1:(s+4)/(s^2+3*s+2)+10/((s^2+1)*(s^2+3*s+2));
+Y2:1/(s^2+3*s+2);
+ilt(Y1,s,t);
+ilt(Y2,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.123");
+
+Y1:1/(s^2+4*s+5)+1/(s*(s^2+4*s+5));
+Y2:1/(s*(s^2+4*s+5));
+Y3:1/(s^2+4*s+5);
+ilt(Y1,s,t);
+ilt(Y2,s,t);
+ilt(Y3,s,t);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("Q 6.124a");
+load("abs_integrate.mac");
+
+assume(a>0);
+eq:'diff(y(t),t,2)+3*'diff(y(t),t,1)+2*y(t)=sin(t)+delta(t-a)+unit_step(t-a);
+
+atvalue('diff(y(t),t),t=0,1);
+atvalue(y(t),t=0,-1);
+
+lap:laplace(eq,t,s);
+
+ sol: solve(%, 'laplace(y(t), t, s));
+
+map( lambda( [eq], ilt(eq, s, t)), sol);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("Q 6.124");
+load("abs_integrate.mac");
+
+assume(a>0);
+eq:'diff(y(t),t,2)+2*'diff(y(t),t,1)+5*y(t)=5*t-10*delta(t-%pi);
+
+atvalue('diff(y(t),t),t=0,2);
+atvalue(y(t),t=0,1);
+
+lap:laplace(eq,t,s);
+
+ sol: solve(%, 'laplace(y(t), t, s));
+
+map( lambda( [eq], ilt(eq, s, t)), sol);
+
+Y1:(s^3+4*s^2+5)/(s^4+2*s^3+5*s^2);
+Y2:-10*s^2/(s^4+2*s^3+5*s^2);
+ilt(Y1,s,t);
+ilt(Y2,s,t);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("example 6.28");
+
+integrate(a*%e^(-s*t),t,0,c)-integrate(a*%e^(-s*t),t,c,2*c);
+
+print("=======================");
+print("delta and unit_step functions");
+kill(all);
+print("example 6.29");
+load("abs_integrate.mac");
+
+assume(w>0);
+f:sin(w*t);
+Y:1/(1-%e^(-%pi*s/w))*integrate(f*%e^(-s*t),t,0,%pi/w);
+
+print("=======================");
+kill(all);
+print("example 6.38");
+
+Y:(s^2+1)/(s^2*(s^2+s+1));
+partfrac(%,s);
+ilt(%,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.125");
+
+f:1;
+g:1;
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.126");
+
+f:1;
+g:t-tau;
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.127");
+
+f:tau;
+g:t-tau;
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.128");
+
+f:tau;
+g:sin(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.129");
+assume(t>0);
+
+f:1;
+g:cos(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.130");
+assume(t>0);
+
+f:1;
+g:sin(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.131");
+assume(t>0);
+
+f:%e^(tau);
+g:%e^(t-tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.131");
+assume(t>0);
+
+f:sin(w*tau);
+g:cos(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.132");
+assume(t>0);
+
+f:cos(w*tau);
+g:cos(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.132");
+assume(t>0);
+
+f:%e^(w*tau);
+g:sin(w*t-w*tau);
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.133");
+assume(t>0);
+
+f:tau;
+g:%e^(a*(t-tau));
+integrate(f*g,tau,0,t);
+
+print("=======================");
+kill(all);
+print("Q 6.133");
+assume(t>0);
+
+f:%e^(a*tau);
+g:%e^(b*(t-tau));
+integrate(f*g,tau,0,t);
+
+
+print("=======================");
+kill(all);
+print("Q 6.141");
+assume(t>0);
+
+Y:1/((s-1)*(s+2));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.142");
+assume(t>0);
+
+Y:4*s/(s^2+1)+1/(s*(s^2+1));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.144");
+assume(t>0);
+
+Y:1/(s*(s+1));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.145");
+assume(t>0);
+
+Y:1/(s^2);
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.146");
+assume(t>0);
+
+Y:5/((s+2)*(s-3));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.147");
+assume(t>0);
+
+Y:4*s/(s^2+4)^2;
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.148");
+assume(t>0);
+
+Y:w^3/(s^2*(s^2+w^2));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.149");
+assume(t>0);
+
+Y:4/((s)*(s^2-4));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.149");
+assume(t>0);
+
+Y:24/((s^2+1)*(s^2+9));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.150");
+assume(t>0);
+
+Y:30/((s^2+1)*(s^2-9));
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("example 6.42");
+
+
+F:log((s^2-w^2)/(s^2));
+FF:-1*diff(F,s);
+trigsimp(FF);
+partfrac(%,s);
+ilt(%,s,t);
+
+integrate(FF,s,sa,inf);
+
+f:1/t*(2-%e^(w*t)-%e^(-w*t));
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.152");
+
+f:4*t*%e^(-2*t);
+
+laplace(f,t,s);
+print("=======================");
+kill(all);
+print("Q 6.153");
+
+f:t*cos(w*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.154");
+
+f:t*sin(5*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.155");
+
+f:t^2*sin(5*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.156");
+
+f:t*%e^(-t)*sin(t);
+
+laplace(f,t,s);
+
+
+print("=======================");
+kill(all);
+print("Q 6.157");
+
+f:t^n*%e^(a*t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.158");
+
+f:t^2*cos(t);
+
+laplace(f,t,s);
+
+print("=======================");
+kill(all);
+print("Q 6.159");
+
+n:1;
+ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
+expand(%);
+
+n:2;
+ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
+expand(%);
+
+n:3;
+ln:1/(n!)*%e^(t)*diff(t^n*%e^(-t),t,n);
+expand(%);
+
+print("=======================");
+kill(all);
+print("Q 6.161");
+
+Y:6*s/(s^2+9)^2;
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.162");
+
+Y:2*s/(s^2-1)^2;
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.163");
+
+Y:(2*s+4)/(s^2+4*s+5)^2;
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.164");
+
+Y:log(s/(s-1));
+
+ilt(Y,s,t);
+
+print("=======================");
+kill(all);
+print("example 6.44");
+
+eq1:-(0.03+s)*Y1+0.01*Y2=-0.2/s;
+eq2:0.03*Y1-(0.03+s)*Y2=-50;
+
+solnlst:solve([eq1,eq2],[Y1,Y2]);
+soln:solnlst[1];
+sol:map(rhs,soln);
+YY1:sol[1];
+YY2:sol[2];
+partfrac(YY1,s);
+partfrac(YY2,s);
+
+eq3:s^2+300/5000*s+3/5000=0;
+solve(eq3);
+ra:-0.0473;
+rb:-0.0127;
+Y11:10/s+(500-50000*s)/(5000*(s-ra)*(s-rb));
+partfrac(Y11,s);
+float(%);
+
+Y22:10/s+(200000*s+4500)/(5000*(s-ra)*(s-rb));
+partfrac(Y22,s);
+float(%);
+
+print("=======================");
+kill(all);
+print("example 6.45");
+
+eq1:(0.4*s+3)*I1-I2=10/s*(1-%e^(-s));
+eq2:-I1+(2*s+1)*I2=0;
+
+solve([eq1,eq2],[I1,I2]);
+
+s1:-7.76;
+s2:-0.326;
+
+eq:25*(2*s+1)/(s*(s-s1)*(s-s2));
+partfrac(%,s);
+
+ilt(eq,s,t);
+
+print("=======================");
+kill(all);
+print("Q 6.169");
+
+eq1:'diff(y1(t),t)+y2(t)=0;
+eq2:y1(t)+'diff(y2(t),t)=1;
+atvalue(y1(t),t=0,0);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.170");
+
+eq1:'diff(y1(t),t)+y2(t)=0;
+eq2:y1(t)+'diff(y2(t),t)=sin(t);
+atvalue(y1(t),t=0,0);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.171");
+
+eq1:'diff(y1(t),t)+y1(t)-2*y2(t)=0;
+eq2:'diff(y2(t),t)-y1(t)+2*y2(t)=0;
+atvalue(y1(t),t=0,1);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.172");
+
+eq1:'diff(y1(t),t)=1*y2(t)-4*cos(4*t);
+eq2:'diff(y2(t),t)=-3*y1(t)-9*sin(4*t);
+atvalue(y1(t),t=0,0);
+atvalue(y2(t),t=0,0);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+
+print("=======================");
+kill(all);
+print("Q 6.175");
+
+eq1:'diff(y1(t),t)=4*y1(t)+y2(t);
+eq2:'diff(y2(t),t)=-1*y1(t)+2*y2(t);
+atvalue(y1(t),t=0,3);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
+
+print("=======================");
+kill(all);
+print("Q 6.179");
+
+eq1:'diff(y1(t),t)=4*y1(t)+y2(t);
+eq2:'diff(y2(t),t)=-1*y1(t)+2*y2(t);
+atvalue(y1(t),t=0,3);
+atvalue(y2(t),t=0,1);
+
+desolve([eq1,eq2],[y1(t),y2(t)]);
