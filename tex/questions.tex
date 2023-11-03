@@ -1,6 +1,6 @@
-% https://onlinetoolz.net/truth-tables#sym=ma2&exp1=A%20and%20(B%20or%20not%20C)
+% https://onlinetoolz.net/truth-tables
 %Karnaugh questions pending
-
+%recheck Q6.7 and Q6.8 and add the next part too
 \باب{سوالات}
 %Q1.1
 \ابتدا{سوال}
@@ -820,26 +820,107 @@ F_0=(A+B+C)(A+\overline{B}+\overline{C})(\overline{A}+B+\overline{C})(\overline{
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.3
-چار مداخل کا  ایسا بوولین جدول بنائیں جس کا مخارج صرف اُس   صورت بلند ہو جب  داخلی ثنائی عدد کی قیمت اعشاری  نو  \عددی{9} سے  کم ہو تفاعل کا ترکیبی دور تشکیل دیں۔ 
+چار مداخل کا  ایسا بوولین جدول بنائیں جس میں مخارج صرف اُس   صورت بلند ہو جب  داخلی ثنائی عدد کی قیمت اعشاری  نو  \عددی{(9)} سے  کم ہو تفاعل کا ترکیبی دور تشکیل دیں۔ 
 
 جواب: \عددی{F=\sum(0,1,2,3,4,5,6,7,8)}
 \انتہا{سوال}
-%???KKK done till here
 \ابتدا{سوال}
 %5.4
 تین مداخل اور تین مخارج  کا ایسا بوولین جدول تشکیل دیں جس میں  داخلی ثنائی عدد کی قیمت سات  \عددی{(7)} سے کم ہونے کی صورت میں مخارج کی قیمت مداخل سے ایک زیادہ  ہو  جبکہ  داخلی قیمت سات کے برابر ہونے کی صورت میں مخارج کی قیمت صفر \عددی{(000)}  ہو۔
+
+جواب:
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC|CCC}
+\toprule
+A&B&C&X&Y&Z\\
+\midrule
+0&0&0&0&0&1\\
+0&0&1&0&1&0\\
+0&1&0&0&1&1\\
+0&1&1&1&0&0\\
+1&0&0&1&0&1\\
+1&0&1&1&1&0\\
+1&1&0&1&1&1\\
+1&1&1&0&0&0\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.5
-\اصطلاح{اقلیتی دور }\فرہنگ{اقلیتی دور}\حاشیہب{minority circuit}\فرہنگ{minority circuit} ایسے ترکیبی دور کو کہتے ہیں جس کا مداخل اس صورت بلند ہوتا ہے جب اس کے زیادہ تر مداخل پست ہوں۔تین  مداخل  اقلیتی دور تشکیل دیں۔
+\اصطلاح{اقلیتی دور }\فرہنگ{اقلیتی دور}\حاشیہب{minority circuit}\فرہنگ{minority circuit} ایسے ترکیبی دور کو کہتے ہیں جس کا مداخل اس صورت بلند ہوتا ہے جب اس کے زیادہ تر مداخل پست ہوں۔تین  مداخل  اقلیتی دور  کا جدول لکھ کر دور تشکیل دیں۔
+
+جواب:
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC|C}
+\toprule
+A&B&C&F\\
+\midrule
+0&0&0&1\\
+0&0&1&1\\
+0&1&0&1\\
+0&1&1&0\\
+1&0&0&1\\
+1&0&1&0\\
+1&1&0&0\\
+1&1&1&0\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.6
 ایک ترکیبی دور تشکیل دیں جو اعشاری ہندسے کا اساس نو خارج  کرے۔اس دور کے چار مداخل اور چار مخارج ہوں گے۔
+
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCCC|CCCC}
+\toprule
+A&B&C&D&W&X&Y&Z\\
+\midrule
+0&0&0&0&1&0&0&1\\
+0&0&0&1&1&0&0&0\\
+0&0&1&0&0&1&1&1\\
+0&0&1&1&0&1&1&0\\
+0&1&0&0&0&1&0&1\\
+0&1&0&1&0&1&0&0\\
+0&1&1&0&0&0&1&1\\
+0&1&1&1&0&0&1&0\\
+1&0&0&0&0&0&0&1\\
+1&0&0&1&0&0&0&0\\
+1&0&1&0&d&d&d&d\\
+1&0&1&1&d&d&d&d\\
+1&1&0&0&d&d&d&d\\
+1&1&0&1&d&d&d&d\\
+1&1&1&0&d&d&d&d\\
+1&1&1&1&d&d&d&d\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.7
- تین بٹ کے دو اعداد کا موازنہ کرنے والا ایسا ترکیبی دور تشکیل دیں  جس کا مخارج اس صورت بلند ہو جب دونوں اعداد کی قیمتیں  برابر ہوں۔
+ تین بٹ کے دو اعداد کا موازنہ کرنے والا ایسا ترکیبی دور تشکیل دیں  جس کا مخارج اس صورت بلند ہو جب دونوں اعداد کی قیمتیں  برابر ہوں۔ 
+ 
+ جواب:
+ \begin{center}
+ \begin{tikzpicture}
+ \pgfmathsetmacro{\kpin}{1}
+ \draw(0,0)node[nor port,anchor=out,number inputs=3](u0){};
+\draw(u0.in 1)--++(0,\kpin)node[xor port,anchor=out,number inputs=2](u1){};
+\draw(u0.in 2)--++(0,0*\kpin)node[xor port,anchor=out,number inputs=2](u2){};
+\draw(u0.in 3)--++(0,-\kpin)node[xor port,anchor=out,number inputs=2](u3){};
+\draw(u3.in 1)node[left]{$a_0$}  (u3.in 2)node[left]{$b_0$};
+\draw(u2.in 1)node[left]{$a_1$}  (u2.in 2)node[left]{$b_1$};
+\draw(u1.in 1)node[left]{$a_2$}  (u1.in 2)node[left]{$b_2$};
+\draw(u0.out)node[right]{\text{\RL{برابر}}};
+ \end{tikzpicture}
+ \end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.8
@@ -851,7 +932,7 @@ F_0=(A+B+C)(A+\overline{B}+\overline{C})(\overline{A}+B+\overline{C})(\overline{
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.10
-ایک عدد  \عددی{3\times 8} شناخت کار کی مدد سے   درج ذیل تین تفاعلات حاصل کریں۔اس دور کو شکل \حوالہء{ 5.25 } کی طرز پر تشکیل دیں۔
+ایک عدد  \عددی{3\times 8} شناخت کار کی مدد سے   درج ذیل تین تفاعلات  کا دور  شکل  \حوالہ{شکل_ترکیبی_شناخت_کار_سے_مکمل_ضرب} کے طرز پر تشکیل دیں۔
 \begin{align*}
 F_0(X,Y,Z)&=\sum(0,3,7)\\
 F_1(X,Y,Z)&=\sum(1,2,5)\\
@@ -867,11 +948,112 @@ F_2(X,Y,Z)&=\sum(0,1,2,3,5,7)
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.12
- مکمل جمع کار کو دو عدد داخلی منتخب کار کی مدد سے حاصل کریں۔
+ دو داخلی منتخب کار کی مدد سے  مکمل جمع کار  تشکیل دیں۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.13
- شکل\حوالہء{ 12.2 } میں اعشاری ہندسوں کی  \اصطلاح{سات  کلی  نمائشی تختی }\فرہنگ{سات کلی نمائشی تختی}\حاشیہب{seven segment display}\فرہنگ{seven segment display} دکھائی  گئی ہے جو سات قابل روشن حصوں پر مبنی ہے۔ان حصوں میں سے  کسی ایک یا ایک سے زیادہ حصوں کو بیک وقت روشن کیا جا سکتا  ہے۔یوں مختلف حصے روشن کرنے سے اعشاری ہندسے لکھے جا  سکتے ہیں۔مثلاً   حصہ ب اور پ  (یعنی بپ)  بیک وقت روشن کرنے سے \عددی{1}   لکھا جائے گا۔اسی طرح حصہ ا،ب،  پ، ت، ٹ، اور  ث (یعنی ابپتٹث)   بیک  وقت روشن کرنے سے \عددی{0} لکھا جا ئے گا۔   فرض کریں کسی حصے کو  روشن کرنے کے لئے اس حصہ  کو  بلند کیا جاتا ہے۔چار مداخل اور سات مخارج  کا   ترکیبی  دور تشکیل دیں جو مہیا کردہ اعشاری ہندسے کو اس تختی پر دکھائے۔ اعشاری ہندسہ  ثنائی علامتی روپ میں مہیا کیا جائے گا۔   مخلوط دور  \عددی{4511} یہی کام  سرانجام   دیتا ہے۔
+ شکل \حوالہ{شکل_سوالات_نمائشی_تختی}  میں (بائیں جانب)  اعشاری ہندسوں کی  \اصطلاح{سات  کلی  نمائشی تختی }\فرہنگ{سات کلی نمائشی تختی}\حاشیہب{seven segment display}\فرہنگ{seven segment display} دکھائی  گئی ہے جو سات قابل روشن حصوں پر مبنی ہے۔ان حصوں میں سے  کسی ایک یا ایک سے زیادہ حصوں کو بیک وقت روشن کیا جا سکتا  ہے۔یوں مختلف حصے روشن کرنے سے اعشاری ہندسے لکھے  جاتے ہیں۔مثلاً   حصہ ب اور پ  (یعنی بپ)  بیک وقت روشن کرنے سے \عددی{1}   لکھا جائے گا۔اسی طرح حصہ ا،ب،  پ، ت، ٹ، اور  ث (یعنی ابپتٹث)   بیک  وقت روشن کرنے سے \عددی{0} لکھا جا ئے گا۔   فرض کریں کسی حصے کو  روشن کرنے کے لئے اس حصہ  کو  بلند کیا جاتا ہے۔ایک سے زیادہ سات کلی نمائشی تختی ساتھ ساتھ رکھ کر زیادہ ہندسوں کی نمائش کی جا سکتی ہے۔
+ 
+ چار مداخل اور سات مخارج  کا   ترکیبی  دور تشکیل دیں جو مہیا کردہ اعشاری ہندسے کو اس تختی پر دکھائے (جدول سے شروع کریں)۔ اعشاری ہندسہ  ثنائی علامتی روپ میں مہیا کیا جائے گا۔   مخلوط دور  \عددی{4511} یہی کام  سرانجام   دیتا ہے۔
+ \begin{figure}
+ \centering
+ \begin{tikzpicture}
+\pgfmathsetmacro{\kdel}{0.2}
+\pgfmathsetmacro{\kdela}{0.1}
+\pgfmathsetmacro{\ks}{0.5}
+\pgfmathsetmacro{\kl}{\ks+2*\kdel}
+\pgfmathsetmacro{\kg}{0.1}
+\pgfmathsetmacro{\ksepX}{0}
+\draw(\ksepX,0)--++(\kl,0)node[pos=0.5,above]{ا}--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)node[pos=0.5,right]{ب}--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)node[pos=0.5,right]{پ}--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ت}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)node[pos=0.5,left]{ٹ}--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+\draw(\ksepX,-1*\kg)--++(0,-\kl)node[pos=0.5,left]{ث}--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)node[pos=0.5,above]{ج}--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%0
+\pgfmathsetmacro{\ksepX}{3*\kl}
+\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ابپتٹث}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+%\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%1
+\pgfmathsetmacro{\ksepX}{4*\kl}
+%\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)node[below]{بپ}--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+%\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+%\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+%\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+%\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%2
+\pgfmathsetmacro{\ksepX}{5.5*\kl}
+\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+%\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ابتٹج}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+%\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%3
+\pgfmathsetmacro{\ksepX}{7*\kl}
+\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ابپتج}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+%\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+%\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%4
+\pgfmathsetmacro{\ksepX}{8.5*\kl}
+%\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+%\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+%\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+\draw(\ksepX,-2*\kl-3*\kg)++(0.5*\kl,0)node[below]{بپثج};
+ \end{tikzpicture}
+ \caption{سات کلی نمائشی تختی}
+ \label{شکل_سوالات_نمائشی_تختی}
+ \end{figure}
+ 
+ جواب:
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tabular}{CCCC|CCCCCCC}
+ \toprule
+ d_3&d_2&d_1&d_0&\text{\RL{ج}}&\text{\RL{ث}}&\text{\RL{ٹ}}&\text{\RL{ت}}&\text{\RL{پ}}&\text{\RL{ب}}&\text{\RL{ا}}\\
+ \midrule
+ 0&0&0&0&0&1&1&1&1&1&1\\
+ 0&0&0&1&0&0&0&0&1&1&0\\
+ 0&0&1&0&1&0&1&1&0&1&1\\
+ 0&0&1&1&1&0&0&1&1&1&1\\
+ 0&1&0&0&1&1&0&0&1&1&0\\
+ 0&1&0&1&1&1&0&1&1&0&1\\
+ 0&1&1&0&1&1&1&1&1&0&1\\
+ 0&1&1&1&0&0&0&0&1&1&1\\
+ 1&0&0&0&1&1&1&1&1&1&1\\
+ 1&0&0&1&1&1&0&0&1&1&1\\
+ 1&0&1&0&d&d&d&d&d&d&d\\
+ 1&0&1&1&d&d&d&d&d&d&d\\
+ 1&1&0&0&d&d&d&d&d&d&d\\
+ 1&1&0&1&d&d&d&d&d&d&d\\
+ 1&1&1&0&d&d&d&d&d&d&d\\
+ 1&1&1&1&d&d&d&d&d&d&d\\
+ \midrule
+ \end{tabular}
+ \end{otherlanguage}
+ \end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %5.14
@@ -887,31 +1069,156 @@ F_2(X,Y,Z)&=\sum(0,1,2,3,5,7)
 \انتہا{سوال}
 \ابتدا{سوال}  
 %6.2
- شکل میں ضرب گیٹ کا دورانیہ رد عمل  \عددی{10} نینو سیکنڈ جبکہ جمع گیٹ کا \عددی{15} نینو سیکنڈ ہے۔تینوں مداخل بیک وقت تبدیل کیے جاتے ہیں۔ کتنی دیر بعد مخارج  \عددی{F_1}اور \عددی{F_2}  مستحکم حالت میں ہوں گے۔ (جواب: \عددی{\SI{10}{\nano\second}} ، \عددی{\SI{25}{\nano\second}})
+ شکل میں ضرب گیٹ کا دورانیہ رد عمل  \عددی{10} نینو سیکنڈ جبکہ جمع گیٹ کا \عددی{15} نینو سیکنڈ ہے۔تینوں مداخل بیک وقت تبدیل کیے جاتے ہیں۔ کتنی دیر بعد مخارج  \عددی{F_1}اور \عددی{F_2}  مستحکم حال میں ہوں گے؟
+ \begin{center}
+ \begin{tikzpicture}
+ \pgfmathsetmacro{\kpin}{0.4}
+ \draw(0,0)node[or port,anchor=out](u0){};
+ \draw(u0.in 1)--++(-\kpin,0)node[above]{$F_1$}node[and port,anchor=out](u1){};
+ \draw(u1.in 1)node[left]{$A$} (u1.in 2)node[left]{$B$};
+ \draw(u0.in 2)--++(0,-\kpin)coordinate(kk)--(kk -| u1.in 1)node[left]{$C$};
+ \draw(u0.out)node[right]{$F_2$};
+ \end{tikzpicture}
+ \end{center}
+ جواب: \عددی{\SI{10}{\nano\second}} ، \عددی{\SI{25}{\nano\second}}
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.3
- ایک کمپیوٹر  \عددی{\SI{2}{\giga\hertz}}  ساعتی اشارے  سے چلتا ہے۔یہ  اشارہ تیس فی صد وقت بلند رہتا ہے جبکہ اس کا دورانیہ اترائی  پانچ فی صد اور دورانیہ چڑھائی پانچ فی صد وقت لیتے ہیں۔ساعتی اشارے  کا دوری عرصہ ،دورانیہ چڑھائی اور پست دورانیہ حاصل کریں۔ (جواب:  \عددی{\SI{5e-10}{\second}}،  \عددی{\SI{2.5e-11}{\second}}، \عددی{\SI{3e-10}{\second}})
+ ایک کمپیوٹر  \عددی{\SI{2}{\giga\hertz}}  ساعتی اشارے  سے چلتا ہے۔یہ  اشارہ تیس فی صد وقت بلند رہتا ہے جبکہ اس کا دورانیہ اترائی  پانچ فی صد اور دورانیہ چڑھائی پانچ فی صد وقت لیتے ہیں۔ساعتی اشارے  کا دوری عرصہ ،دورانیہ چڑھائی اور پست دورانیہ حاصل کریں۔ 
+ 
+ جواب:  \عددی{\SI{5e-10}{\second}}،  \عددی{\SI{2.5e-11}{\second}}، \عددی{\SI{3e-10}{\second}}
 \انتہا{سوال}
 \ابتدا{سوال}
 % 6.4
- جمع متمم گیٹ پر مبنی متعدد  مداخل ایس آر پلٹ کے مداخل  ترسیم کیے گئے ہیں۔اس کا مخارج  ترسیم کریں۔
+ جمع متمم گیٹ پر مبنی  متعدد (بلند فعال)  مداخل ایس آر پلٹ کے مداخل  ترسیم کیے گئے ہیں۔اس کا مخارج  ترسیم کریں۔
+ 
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/rising arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& 0.5CN(A1)CCN(A2)CCN(A3)CCN(A4)C\\
+$S$&lL{H}4{L}{H}5{L}1.5{H}3.5{L}\\
+$R_a$&3{L}HL{h}5{L}1{H}5{L}\\
+$R_b$&10{L}2{H}2{L}h2{L}\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4}{\draw(A\n.south)--(A\n |- row3.south);}
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+
+جواب:
+\begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/rising arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& 0.5CN(A1)CCN(A2)CCN(A3)CCN(A4)C\\
+$S$&lL{H}4{L}{H}5{L}1.5{H}3.5{L}\\
+$R_a$&3{L}HL{h}5{L}1{H}5{L}\\
+$R_b$&10{L}2{H}2{L}h2{L}\\
+$Q$&uUhH3{L}l3{H}h2{L}lhH2{L}l\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4}{\draw(A\n.south)--(A\n |- row3.south);}
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+
 \انتہا{سوال}
 \ابتدا{سوال} 
 %6.5
- آقا و غلام پلٹ کے مداخل  ترسیم  کیے گئے ہیں۔مخارج \عددی{Q_a}اور \عددی{Q} ترسیم کریں۔
+ آقا و غلام پلٹ کے مداخل  ترسیم  کیے گئے ہیں۔آقا مخارج \عددی{Q_a}اور  غلام  مخارج \عددی{Q} ترسیم کریں۔
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/falling arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& cCN(A1)CCN(A2)CCN(A3)CCN(A4)CCCCN(A5)CCN(A6)0.5C\\
+ $C$&LHhLlHLlHHHHLLlHHhLl0.5l\\
+ $S$&LlhLhLLhLlLhLLLHHLLL0.5l\\
+ $R$&LLLLl0.5hLLlhlLLLLLLlHhL\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4,5,6}\draw(A\n.south)--(E\n.north);
+%\foreach \n in {1}\draw(B\n.south)--(F\n.north);
+%\foreach \n in {1}\draw(C\n.south)--(G\n.north);
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+جواب:
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/falling arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& cCN(A1)CCN(A2)CCN(A3)CCN(A4)CCCCN(A5)CCN(A6)0.5C\\
+ $C$&LHhLlHLlHHHHLLlHHhLl0.5l\\
+ $S$&LlhLhLLhLlLhLLLHHLLL0.5l\\
+ $R$&LLLLl0.5hLLlhlLLLLLLlHhL\\
+  $Q_a$&lLHHHLLllLHHHHHH0.5hLLl\\
+   $Q$&lLLHHhLLLLLlHHHHHLl0.5l\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4,5,6}\draw(A\n.south)--(E\n.north);
+%\foreach \n in {1}\draw(B\n.south)--(F\n.north);
+%\foreach \n in {1}\draw(C\n.south)--(G\n.north);
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.6
- شکل \حوالہء{ 6.25 } میں سلسلہ وار ثنائی جمع کار  پیش ہے۔اسے استعمال کرتے ہوئے \عددی{10110011_2} اور  \عددی{00110011_2}  جمع کریں۔
+ شکل  \حوالہ{شکل_ترتیبی_ثنائی_سلسلہ_وار_جمع_کار}    میں سلسلہ وار ثنائی جمع کار  پیش ہے۔اسے استعمال کرتے ہوئے \عددی{10110011_2} اور  \عددی{00110011_2} قدم با قدم   جمع کریں۔ ہر قدم پر  تمام مقامات پر متغیرات دریافت کریں۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.7
-ایک ترتیب دور جس میں دو ڈی پلٹ،  \عددی{A} اور \عددی{B}،  استعمال ہوئے ہیں کے مداخل \عددی{x} اور  \عددی{y} جبکہ مخارج \عددی{z} ہے۔ دور کی مساوات درج ذیل ہیں۔
+ایک ترتیبی  دور جس کے مداخل \عددی{x} اور  \عددی{y} جبکہ مخارج \عددی{z} ہے   میں دو ڈی پلٹ،  \عددی{A} اور \عددی{B} مستعمل ہیں ۔ دور کی مساوات درج ذیل   ہیں۔ یاد رہے ہم \عددی{A(t+1)} کو اگلا حال  جبکہ \عددی{A(t)} کو موجودہ حال یا باز رسی اشارہ   تصور کر سکتے ہیں۔
 \begin{align*}
-A(t+1)&=\overline{x}y+xA\\
-B(t+1)&=\overline{x}B+xA\\
-z&=B
+A(t+1)&=\overline{x}y+xA(t)\\
+B(t+1)&=\overline{x}B(t)+xA(t)\\
+z(t)&=x\overline{B}(t)
 \end{align*}
 \begin{enumerate}[a.]
 \item
@@ -921,6 +1228,52 @@ z&=B
 \item
   حال  کے جدول سے حال کا خاکہ حاصل کریں۔
 \end{enumerate}
+
+جواب:
+\begin{center}
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpina}{0.4}
+\pgfmathsetmacro{\ksepY}{2.25}
+\kDFF[u0]{0}{0}
+\kDFF[u1]{0}{-\ksepY}
+\draw(u0p1)--++(-\kpin,0)node[or port,number inputs=2,anchor=out](u2){};
+\draw(u1p1)--++(-\kpin,0)node[or port,number inputs=2,anchor=out](u3){};
+\draw(u2.in 1)--++(0,\kpina)--++(-\kpina,0)node[and port,anchor=out](u4){};
+\draw(u2.in 2)--++(-\kpina,0)--++(0,-\kpina)node[and port,anchor=out](u5){};
+\draw(u2.in 1)--(u3.in 1);
+\draw(u3.in 2)node[and port,anchor=out](u6){};
+\draw(u5.in 2)--++(-\kpin,0)node[not port,scale=0.7,anchor=out](u8){};
+\draw(u8.in)--++(-3*\kpin,0)coordinate[pos=0.25](klftM)coordinate[pos=0.5](kkk)coordinate(klft)node[left]{$x$};
+\draw(u5.in 1)--(u5.in 1 -|klft)node[left]{$y$};
+\draw(klftM)node[draw,circle,fill=black,inner sep=0pt,minimum size=4pt]{}|-(u4.in 2);
+\draw(u4.in 1)--++(0,1.2*\kpin)coordinate(kA)-|(u0p6);
+\draw(u8.out)|-(u6.in 2);
+\draw(u6.in 1)--++(0,2.25*\kpin)-|(u1p6);
+\draw(u0p2)--(u1p2)--++(0,-2*\kpin)--++(-\kpin,0)node[left]{$C$};
+\draw(u0p6)--++(\kpin,0)node[right]{$A$};
+\draw(u1p6)--++(\kpin,0)node[right]{$B$};
+\draw(0,-\ksepY-2.5*\kpin)node[and port,anchor=in 1](u10){};
+\draw(u1p4)--++(0,-2*\kpin)-|(u10.in 1);
+\draw(klftM)|-(u10.in 2);
+\end{tikzpicture}
+\end{center}
+%
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCCCC}
+\toprule
+&\multicolumn{2}{c}{x=1}&\multicolumn{2}{c}{x=0}\\
+AB&y=1&y=0&y=1&y=0\\
+\midrule
+00&00&00&10&00\\
+01&00&00&11&01\\
+10&11&11&10&00\\
+11&11&11&11&01\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.8
@@ -937,27 +1290,107 @@ z&=B
 \item 
 ان  مساوات سے  حال کا خاکہ بنائیں۔
 \end{enumerate}
+%
+جواب:
+\begin{align*}
+A(t+1)&=\overline{B}\,\overline{A}+\overline{x} A\\
+B(t+1)&=A\overline{B}+xB
+\end{align*}
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC}
+\toprule
+\text{\RL{موجودہ حال}}&\multicolumn{2}{c}{\text{\RL{اگلا حال}}}\\
+\cline{2-3}
+AB&x=1&x=0\\
+\midrule
+00&10&10\\
+01&00&01\\
+10&01&11\\
+11&00&11\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.9
  دو  ڈی پلٹ، \عددی{A} اور \عددی{B}، استعمال کر کے مداخل \عددی{x} کا   ترتیبی دور تخلیق دیں جو بالترتیب  \عددی{00}، \عددی{01}، \عددی{10}،  اور \عددی{11} حال اختیار کر سکتا ہو۔بلند  مداخل  کی صورت میں بڑھتی  گنتی   اور پست مداخل  کی صورت میں گھٹتی گنتی  حاصل کرنی ہے۔ بڑھتی گنتی کی صورت میں \عددی{11} کو  پہنچنے کے بعد بلند  مداخل  کی صورت میں  دور اسی حال میں رہنا چاہیے ۔گھٹتی گنتی کرتے ہوئے \عددی{00} کو پہنچنے کے بعد پست مداخل کی صورت میں دور \عددی{00} میں رہنا چاہیے۔
+ 
+ جواب: 
+ 
+ \begin{minipage}{0.35\textwidth}
+ \centering
+ \begin{otherlanguage}{english}
+ \begin{tabular}{CCC|CC}
+ \toprule
+ x&A&B&D_A&D_B\\
+ \midrule
+ 0&0&0&0&0\\
+ 0&0&1&0&0\\
+ 0&1&0&0&1\\
+ 0&1&1&1&0\\
+ 1&0&0&0&1\\
+ 1&0&1&1&0\\
+ 1&1&0&1&1\\
+ 1&1&1&1&1\\
+ \end{tabular}
+ \end{otherlanguage}
+ \end{minipage}\hfill
+\begin{minipage}{0.65\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{1}
+\pgfmathsetmacro{\ksepY}{3.75}
+\kDFF[u0]{0}{0}
+\kDFF[u1]{0}{-\ksepY}
+\draw(u0p6)node[right]{$A$} (u1p6)node[right]{$B$};
+\draw(u0p1)--++(-\kpin,0)node[or port,anchor=out](u2){u2};
+\draw(u2.in 1)--++(0,\kpin)node[and port,anchor=out](u3){u3};
+\draw(u2.in 2)--++(0,-\kpin)node[and port,anchor=out](u4){u4};
+\draw(u3.in 1)--++(0,\kpin)node[xor port,anchor=out](u5){u5};
+\draw(u5.in 1)node[left]{$x$}  (u5.in 2)node[left]{$A$};
+\draw(u3.in 2)--(u3.in 2 -| u5.in 2)node[left]{$B$};
+\draw(u4.in 2)--++(0,-\kpin)node[xor port,anchor=out](u6){u6};
+\draw(u6.in 1)node[left]{$A$}  (u6.in 2)node[left]{$B$};
+\draw(u4.in 1)--(u4.in 1 -| u5.in 2)node[left]{$x$};
+
+\draw(u1p1)--++(-\kpin,0)node[or port,anchor=out](u20){u20};
+\draw(u20.in 1)--++(0,\kpin)node[and port,anchor=out](u30){u30};
+\draw(u20.in 2)--++(0,-\kpin)node[and port,anchor=out](u40){u40};
+\draw(u30.in 1)--++(0,\kpin)node[xor port,anchor=out](u50){u50};
+\draw(u50.in 1)node[left]{$x$}  (u50.in 2)node[left]{$A$};
+\draw(u30.in 2)--(u30.in 2 -| u5.in 2)node[left]{$\overline{B}$};
+\draw(u40.in 1)--(u40.in 1 -| u50.in 2)node[left]{$x$};
+\draw(u40.in 2)--(u40.in 2 -| u50.in 2)node[left]{$A$};
+\draw(u0p2)--(u1p2)--++(0,-\kpin)node[below]{$C$};
+\end{tikzpicture} 
+\end{minipage}
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.10
  گزشتہ سوال میں  مداخل  \عددی{e} کا اضافہ کریں۔ بلند  \عددی{e} کی صورت میں دور جوں کا توں چلتا ہو جبکہ پست \عددی{e} کی صورت میں  دور اپنا حال برقرار رکھتا ہو۔
+ 
+ جواب: ساعت \عددی{C} کو ضرب گیٹ سے گزاریں۔ ضرب گیٹ کا دوسرا مداخل \عددی{e} ہو گا۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %6.11
  پچھلے سوال   میں  مداخل کی تعداد میں مزید اضافہ کرتے ہوئے مداخل \عددی{s}  کا اضافہ کریں۔ مداخل \عددی{s}  بلند کرنے سے دور کو حال \عددی{00} اختیار کر لینا چاہیے جبکہ پست  \عددی{s} کی صورت میں دور  کو  پہلے کی طرح کام کرنا چاہیے۔
+ 
+ جواب:دونوں  ڈی پلٹ  کے بلند فعال  \اصطلاح{ زبردستی پست } مداخل کو \عددی{s}  فراہم کریں۔
 \انتہا{سوال}
 %==============
 \ابتدا{سوال}
 %7.1
  چار بٹ  سلسلہ وار دائیں منتقل دفتر میں ابتدائی ثنائی مواد  \عددی{1011} موجود ہے۔دفتر کا مخارج  اسی دفتر کو بطور مداخل مہیا کیا جاتا ہے۔سات ساعت کے کنارے گزرنے کے بعد دفتر میں کیا عدد ہو گا؟
+ 
+ جواب: \عددی{0111}
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.2
   گزشتہ سوال میں دائیں منتقل دفتر کے بجائے بائیں منتقل دفتر استعمال کرتے ہوئے  جواب معلوم کریں۔
+  
+  جواب: \عددی{1101}
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.3
@@ -965,19 +1398,25 @@ z&=B
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.4
- آٹھ بٹ  سلسلہ وار دائیں منتقل دفتر کا  مخارج  چار بٹ  سلسلہ وار دائیں منتقل دفتر  کو بطور مداخل فراہم کیا جاتا ہے۔آٹھ بٹ دفتر میں ابتدائی مواد \عددی{10110110} پایا جاتا ہے  اور  اسے \عددی{1010}   مداخل  فراہم کیا جاتا ہے۔ساعت کے سات کنارے گزرنے کے بعد ان دفتر  میں کیا اعداد پائے جائیں گے؟
+ آٹھ بٹ  سلسلہ وار دائیں منتقل دفتر کا  مخارج  چار بٹ  سلسلہ وار دائیں منتقل دفتر  کو بطور مداخل فراہم کیا جاتا ہے۔آٹھ بٹ دفتر میں ابتدائی مواد \عددی{10110110} پایا جاتا ہے  اور  اسے \عددی{1010}    (کمتر بِٹ سے آغاز کر کے)    فراہم کیا جاتا ہے۔ساعت کے چار  کنارے گزرنے کے بعد ان دفتر  میں کیا اعداد پائے جائیں گے؟
+ 
+ جواب: \عددی{0110}،  \عددی{10101010}
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.5
- گزشتہ سوال میں چار بٹ سلسلہ وار بائیں منتقل دفتر استعمال کرتے  ہوئے جواب حاصل کریں۔
+ گزشتہ سوال میں  بائیں منتقل دفتر استعمال کرتے  ہوئے جواب حاصل کریں۔ چار بِٹ مداخل کا بلند تر بِٹ پہلے فراہم کیا جاتا ہے۔
+ 
+ جواب: \عددی{1011}، \عددی{01101010}
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.6
- آٹھ بٹ کے دو عدد عالمگیر دفتر استعمال کرتے ہوئے سولہ بٹ کا عالمگیر دفتر حاصل کریں۔
+ آٹھ بٹ کے دو عدد بائیں  انتقال  دفتر استعمال کرتے ہوئے سولہ بٹ کا  بائیں انتقال دفتر حاصل کریں۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.7
- شکل   \حوالہ{شکل_دفتر_متعدد_ہندسی_جمع_کار}  میں سلسلہ وار ثنائی جمع کار دکھایا گیا ہے۔ آٹھ بِٹ دفتر۔ا  میں \عددی{11001010}  اور  آٹھ بِٹ دفتر-ب   میں \عددی{11100001} پایا جاتا ہے۔تصور کریں  ساعت کے آٹھ کنارے گزرتے ہیں۔ساعت کا ہر کنارہ گزرنے کے بعد دفتر-ا میں  کیا مواد موجود ہو گا؟
+ شکل   \حوالہ{شکل_دفتر_متعدد_ہندسی_جمع_کار}  میں سلسلہ وار ثنائی جمع کار دکھایا گیا ہے۔ آٹھ بِٹ دفتر۔ا  میں \عددی{11001010}  اور  آٹھ بِٹ دفتر-ب   میں \عددی{11100001} پایا جاتا ہے۔تصور کریں \عددی{\overline{\text{\RL{زبردستی پست}}}}    لمحاتی  پست کرنے کے بعد ساعت کے آٹھ کنارے گزرتے ہیں۔ساعت کا ہر کنارہ گزرنے کے بعد دفتر-ا میں  کیا مواد موجود ہو گا؟
+ 
+ جواب:پہلے کنارے کے بعد دفتر-ا میں \عددی{11100101} ہو گا۔  آخری کنارے کے بعد \عددی{C=1} اور  دفتر-ا میں \عددی{10101011} ہو گا۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %7.8
@@ -987,14 +1426,18 @@ z&=B
 \ابتدا{سوال}
 %8.1
  چار بٹ معاصر سیدھا گنت کار کی موجودہ گنتی  \عددی{0101_2} ہے۔ساعت کے کتنے کناروں بعد  \عددی{0000_2} ہو گا؟
+ 
+ جواب: گیارہ کناروں بعد۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %8.2
  سولہ بٹ معاصر گنت کار کی موجودہ گنتی  \عددی{3FA7_{16}}ہے۔ساعت کے کتنے کنارے گزرنے کے بعد \عددی{0000_{16}} ہو گا؟ (ا) تصور کریں یہ سیدھا گنت کار ہے۔ (ب) تصور کریں یہ الٹ گنت کار ہے۔
+ 
+ جواب: (ا)  \عددی{49241_{10}}، (ب)    \عددی{16295_{10}}
 \انتہا{سوال}
 \ابتدا{سوال}
 %8.3
- چار بٹ ثنائی لہریا گنت کار  استعمال کر کے  ثنائی مرموز اعشاری گنت کار  بنایا جا سکتا ہے۔ پس اتنا کرنا ہو گا کہ \عددی{1010_2} پر پہنچ کر  گنتی   فوراً زبردستی \عددی{0000_2} کی جائے ، جو ایک  ضرب متمم گیٹ استعمال  کرنے سے  ممکن ہے۔زبردستی پست صلاحیت رکھنے والے پلٹ استعمال کرتے ہوئے   دور تخلیق دیں۔ 
+ چار بٹ ثنائی لہریا گنت کار  استعمال کر کے  ثنائی مرموز اعشاری گنت کار  بنایا جا سکتا ہے۔ پس اتنا کرنا ہو گا کہ \عددی{1010_2} پر پہنچ کر  گنتی   فوراً زبردستی \عددی{0000_2} کی جائے۔ زبردستی پست صلاحیت رکھنے والی پلٹ استعمال کرتے ہوئے   دور تخلیق دیں۔ 
 \انتہا{سوال}
 \ابتدا{سوال}
 %8.4
@@ -1002,11 +1445,32 @@ z&=B
 \انتہا{سوال}
 \ابتدا{سوال}
 %8.5
- جے کے پلٹ استعمال کر کے  ایسا معاصر گنت کار تشکیل دیں  جو   \عددی{0}، \عددی{2}، \عددی{3}، اور \عددی{7}   کا گردان کرے۔
+ جے کے پلٹ استعمال کر کے  ایسا معاصر گنت کار تشکیل دیں  جو   \عددی{0}، \عددی{2}، \عددی{3}، اور \عددی{7}   کا گردان کرے۔ جدول  لکھ کر سے شروع کریں۔ گنت کار میں زبردستی پست کا مداخل رکھیں تا کہ \عددی{0} سے گردان شروع کی جائے۔
+ 
+ جواب:
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tabular}{CCC|CCC}
+ \toprule
+ \multicolumn{3}{c|}{\text{\RL{موجودہ گنتی}}}&\multicolumn{3}{c}{\text{\RL{اگلی گنتی}}}\\
+ Q_2&Q_1&Q_0&Q_2&Q_1&Q_0\\
+ \midrule
+ 0&0&0&0&1&0\\
+ 0&0&1&d&d&d\\
+ 0&1&0&0&1&1\\
+ 0&1&1&1&1&1\\
+ 1&0&0&d&d&d\\
+ 1&0&1&d&d&d\\
+ 1&1&0&d&d&d\\
+ 1&1&1&0&0&0\\
+ \bottomrule
+ \end{tabular}
+ \end{otherlanguage}
+ \end{center}
 \انتہا{سوال}
 \ابتدا{سوال}
 %8.6
- ٹی پلٹ استعمال کرتے ہوئے ایسا  چار بٹ ثنائی معاصر گنت کار تشکیل دیں جو صفر  \عددی{(0000_2)} سے چودہ  \عددی{(1110_2)} تک جفت گنتی کے بعد ایک  \عددی{(0001_2)} سے پندرہ  \عددی{(1111_2)} تک طاق گنتی کرے اور اس ترتیب کو دہراتا رہے۔ 
+ ٹی پلٹ استعمال کرتے ہوئے ایسا  چار بٹ ثنائی معاصر گنت کار تشکیل دیں جو صفر  \عددی{(0000_2)} سے چودہ  \عددی{(1110_2)} تک جفت گنتی کے بعد ایک  \عددی{(0001_2)} سے پندرہ  \عددی{(1111_2)} تک طاق گنتی کرے اور اس ترتیب کو دہراتا ر ہو۔ابتدا \عددی{0000_2} سے کریں۔
 \انتہا{سوال}
 \ابتدا{سوال}
 %Q8.6b
@@ -1014,8 +1478,11 @@ z&=B
 ایسا چار بِٹ چھلا گنت کار تخلیق دیں جو بلند بِٹ کو \عددی{Q_0} سے \عددی{Q_1} رخ گھماتا ہو۔
 \انتہا{سوال}
 %8.7
- شکل \حوالہء{ 8.11 } میں دورانیہ پیدا کار دکھایا گیا ہے جہاں  ساعت کا تعدد \عددی{\SI{10}{\mega\hertz}} ہے اور درکار دورانیہ \عددی{\SI{500}{\nano\second}}  ہے۔درکار دورانیہ کے تین بٹ کیا ہوں گے؟
+ شکل  \حوالہ{شکل_گنت_کار_دھڑکن}  میں  دھڑکن پیدا کار (دورانیہ پیدا کار ) دکھایا گیا ہے۔ ساعت کا تعدد \عددی{\SI{10}{\mega\hertz}}  اور درکار دورانیہ \عددی{\SI{500}{\nano\second}}  ہے۔درکار دورانیہ کے تین بٹ کیا ہوں گے؟
+ 
+ جواب: \عددی{110_2}
 \انتہا{سوال}
+%???KKK
 \ابتدا{سوال}
 %8.8
  کارناف نقشے  استعمال  کر کے  مساوات \حوالہ{مساوات_گنت_کار_چار_بِٹ} حاصل کریں۔

@@ -16,8 +16,8 @@
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {8}} اساس آٹھ اور اساس سولہ سے اساس دو میں تبادلہ}{\arabicdigits {9}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {2}}بنیادی حساب}{\arabicdigits {11}}{}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}ثنائی نظام میں اعداد منفی کرنا}{\arabicdigits {12}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}اساسی تکملہ یا \:\(r\)\: کا تکملہ}{\arabicdigits {13}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}اساس منفی ایک تکملہ یا \:\((r-1)\)\: کا تکملہ}{\arabicdigits {14}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}اساسی تکملہ یا \:\({r}\)\: کا تکملہ}{\arabicdigits {13}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}اساس منفی ایک تکملہ یا \:\({(r-1)}\)\: کا تکملہ}{\arabicdigits {14}}{}%
 \contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}دو اعداد کی منفی بذریعہ اساسی تکملہ}{\arabicdigits {15}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -443,8 +443,8 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {1}}غیر فعال مداخل پلٹ کار، حال برقرار رکھتا ہے}{\arabicdigits {129}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {2}}مداخل \:\(S\)\: فعال کرنے سے پلٹ کار بلند حال اختیار کرتا ہے}{\arabicdigits {129}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {3}}مداخل \:\(\overline {R}\)\: فعال کرنے سے پلٹ کار پست حال اختیار کرتا ہے}{\arabicdigits {130}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {2}}مداخل \:\({S}\)\: فعال کرنے سے پلٹ کار بلند حال اختیار کرتا ہے}{\arabicdigits {129}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {3}}مداخل \:\({\overline {R}}\)\: فعال کرنے سے پلٹ کار پست حال اختیار کرتا ہے}{\arabicdigits {130}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {4}}حال دوڑ}{\arabicdigits {131}}{}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}زیادہ مداخل پلٹ کار}{\arabicdigits {131}}{}%
 \bgroup 
@@ -498,12 +498,12 @@
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {12}}سلسلہ وار ثنائی جمع کار}{\arabicdigits {147}}{}%
 \contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {13}}معاصر ترتیبی ادوار کا تجزیہ}{\arabicdigits {148}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {1}}مساوات حال}{\arabicdigits {148}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {2}}جدول حال}{\arabicdigits {149}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {2}}حال کا جدول}{\arabicdigits {149}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {3}} خاکہ حال}{\arabicdigits {150}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {3}} حال کا خاکہ}{\arabicdigits {150}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {4}}ڈی پلٹ کار پر مبنی ترتیبی دور}{\arabicdigits {150}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {5}}جے کے پلٹ کار پر مبنی ترتیبی دور}{\arabicdigits {151}}{}%
 \bgroup 
@@ -588,13 +588,13 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {202}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\(4\times 4\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\(8\times 4\)\: حافظہ کا حصول}{\arabicdigits {202}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\({4\times 4}\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\({8\times 4}\)\: حافظہ کا حصول}{\arabicdigits {202}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\(16\times 8\)\: حافظے سلسلہ وار جوڑ کر ایک \:\(48\times 8\)\: حافظے کا حصول}{\arabicdigits {205}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\(4\times 4\)\: حافظے متوازی جوڑ کر \:\(4\times 8\)\: حافظے کا حصول}{\arabicdigits {209}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\({16\times 8}\)\: حافظے سلسلہ وار جوڑ کر ایک \:\({48\times 8}\)\: حافظے کا حصول}{\arabicdigits {205}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\({4\times 4}\)\: حافظے متوازی جوڑ کر \:\({4\times 8}\)\: حافظے کا حصول}{\arabicdigits {209}}{}%
 \contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {209}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -639,4 +639,52 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {261}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {chapter}{جوابات}{\arabicdigits {267}}{}%
