@@ -1859,3 +1859,302 @@ node[right]{$c_{\text{خ}}$};
 \end{figure}
 
 اس شکل میں \عددی{9} ضرب گیٹ اور \عددی{ 6} مکمل جمع کار مستعمل ہیں۔ ضرب گیٹ \عددی{u_1} مداخل \عددی{a_0} اور \عددی{b_1} کا منطقی ضرب \عددی{A_1=a_0b_1} دے گا، جو مکمل جمع کار \عددی{u_{14}} کا \عددی{z} مداخل ہے۔ شکل میں \عددی{u_1} کے مخارج سے \عددی{u_{14}} کے \عددی{z} مداخل تک تار نظر پوش کرتے ہوئے دونوں کو ایک نام \عددی{(A_1)} سے پکارا گیا ہے۔ دو نقطوں کو ایک نام سے پکارنا، دونوں کو آپس میں تار سے جوڑنے کے مترادف ہے۔
+
+\حصہء{سوالات}
+\ابتدا{سوال}\شناخت{سوال_چار_مداخل_دور}
+%5.1 
+شکل   میں چار مداخل  دور دیا گیا ہے۔
+\begin{center}
+\begin{tikzpicture}
+\def\kpin{0.7}
+\def\kpina{0.4}
+\draw(0,0)node[xor port,anchor=out,number inputs=2](u0){};
+\draw(u0.in 1)--++(0,\kpin)node[or port,number inputs=2,anchor=out](u1){};
+\draw(u0.in 2)--++(0,-\kpin)node[or port,number inputs=2,anchor=out](u2){};
+\draw(u1.in 2)--(u2.in 1)coordinate[pos=0.5](aa);
+\draw(aa)--++(-\kpin,0)node[above]{$K_1$}node[and port,anchor=out](u3){}  (u2.in 2)--++(-\kpin,0)node[above]{$K_2$}node[and port,anchor=out](u4){};
+\draw(u3.in 1)node[not port,anchor=out,scale=0.7](u5){}  (u4.in 2)node[not port,anchor=out,scale=0.7](u6){};
+\draw(u6.in)|-(u3.in 2)   (u6.in)--++(-\kpina,0)coordinate(klft)node[left]{$D$};
+\draw(u4.in 1)--(u4.in 1 -| klft)node[left]{$C$}  (u5.in)--(u5.in -| klft)node[left]{$B$}  (u1.in 1)--(u1.in 1 -| klft)node[left]{$A$}  (u0.out)node[right]{$F$};
+\end{tikzpicture}
+\end{center}
+\begin{enumerate}[a.]
+\item
+اندرونی متغیرات  \عددی{K_1} اور \عددی{ K_2}کی بوولین مساوات  حاصل  کریں۔
+\item
+ خارجی تابع متغیر \عددی{F} کی بوولین مساوات حاصل کریں۔
+\item
+ایک بوولین جدول بنائیں جس میں چار آزاد متغیرات \عددی{A}، \عددی{B}،  \عددی{C}،  اور \عددی{D} کی تمام  ممکنہ ترتیب درج ہو۔اس جدول میں \عددی{K_1}، \عددی{K_2}،  اور \عددی{F} کے خانے بنا کر پُر کریں۔ 
+\end{enumerate}
+
+جواب: (ا) \عددی{K_1=\overline{B}D}، \عددی{K_2=C\overline{D}}؛ (ب) \عددی{F=(A+K_1)\oplus (K_1+K_2)}، 
+\عددی{F=(A+\overline{B}D)\oplus (\overline{B}D+C\overline{D})}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.2
+ ایسا بوولین جدول بنائیں جس  میں تین مداخل اور ایک مخارج ہو۔جدول  یوں پُر کریں کہ مخارج کی قیمت صرف اُس صورت ایک  \عددی{(1)} ہو جب صرف  ایک مداخل کی قیمت صفر   \عددی{(0)} ہو۔اس جدول کی مدد سے مخارج کا ترکیبی دور تشکیل دیں۔
+ 
+ جواب:
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tabular}{CCC|C}
+ \toprule
+ A&B&C&F\\
+ \midrule
+ 0&0&0&0\\
+ 0&0&1&0\\
+ 0&1&0&0\\
+ 0&1&1&1\\
+ 1&0&0&0\\
+ 1&0&1&1\\
+ 1&1&0&1\\
+ 1&1&1&0\\
+ \bottomrule
+ \end{tabular}
+ \end{otherlanguage}
+ \end{center}
+ \عددی{F=\sum(3,5,6)}، \عددی{F=\prod(0,1,2,4,7)}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.3
+چار مداخل کا  ایسا بوولین جدول بنائیں جس میں مخارج صرف اُس   صورت بلند ہو جب  داخلی ثنائی عدد کی قیمت اعشاری  نو  \عددی{(9)} سے  کم ہو تفاعل کا ترکیبی دور تشکیل دیں۔ 
+
+جواب: \عددی{F=\sum(0,1,2,3,4,5,6,7,8)}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.4
+تین مداخل اور تین مخارج  کا ایسا بوولین جدول تشکیل دیں جس میں  داخلی ثنائی عدد کی قیمت سات  \عددی{(7)} سے کم ہونے کی صورت میں مخارج کی قیمت مداخل سے ایک زیادہ  ہو  جبکہ  داخلی قیمت سات کے برابر ہونے کی صورت میں مخارج کی قیمت صفر \عددی{(000)}  ہو۔
+
+جواب:
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC|CCC}
+\toprule
+A&B&C&X&Y&Z\\
+\midrule
+0&0&0&0&0&1\\
+0&0&1&0&1&0\\
+0&1&0&0&1&1\\
+0&1&1&1&0&0\\
+1&0&0&1&0&1\\
+1&0&1&1&1&0\\
+1&1&0&1&1&1\\
+1&1&1&0&0&0\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.5
+\اصطلاح{اقلیتی دور }\فرہنگ{اقلیتی دور}\حاشیہب{minority circuit}\فرہنگ{minority circuit} ایسے ترکیبی دور کو کہتے ہیں جس کا مداخل اس صورت بلند ہوتا ہے جب اس کے زیادہ تر مداخل پست ہوں۔تین  مداخل  اقلیتی دور  کا جدول لکھ کر دور تشکیل دیں۔
+
+جواب:
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC|C}
+\toprule
+A&B&C&F\\
+\midrule
+0&0&0&1\\
+0&0&1&1\\
+0&1&0&1\\
+0&1&1&0\\
+1&0&0&1\\
+1&0&1&0\\
+1&1&0&0\\
+1&1&1&0\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.6
+ایک ترکیبی دور تشکیل دیں جو اعشاری ہندسے کا اساس نو خارج  کرے۔اس دور کے چار مداخل اور چار مخارج ہوں گے۔
+
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCCC|CCCC}
+\toprule
+A&B&C&D&W&X&Y&Z\\
+\midrule
+0&0&0&0&1&0&0&1\\
+0&0&0&1&1&0&0&0\\
+0&0&1&0&0&1&1&1\\
+0&0&1&1&0&1&1&0\\
+0&1&0&0&0&1&0&1\\
+0&1&0&1&0&1&0&0\\
+0&1&1&0&0&0&1&1\\
+0&1&1&1&0&0&1&0\\
+1&0&0&0&0&0&0&1\\
+1&0&0&1&0&0&0&0\\
+1&0&1&0&d&d&d&d\\
+1&0&1&1&d&d&d&d\\
+1&1&0&0&d&d&d&d\\
+1&1&0&1&d&d&d&d\\
+1&1&1&0&d&d&d&d\\
+1&1&1&1&d&d&d&d\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.7
+ تین بٹ کے دو اعداد کا موازنہ کرنے والا ایسا ترکیبی دور تشکیل دیں  جس کا مخارج اس صورت بلند ہو جب دونوں اعداد کی قیمتیں  برابر ہوں۔ 
+ 
+ جواب:
+ \begin{center}
+ \begin{tikzpicture}
+ \pgfmathsetmacro{\kpin}{1}
+ \draw(0,0)node[nor port,anchor=out,number inputs=3](u0){};
+\draw(u0.in 1)--++(0,\kpin)node[xor port,anchor=out,number inputs=2](u1){};
+\draw(u0.in 2)--++(0,0*\kpin)node[xor port,anchor=out,number inputs=2](u2){};
+\draw(u0.in 3)--++(0,-\kpin)node[xor port,anchor=out,number inputs=2](u3){};
+\draw(u3.in 1)node[left]{$a_0$}  (u3.in 2)node[left]{$b_0$};
+\draw(u2.in 1)node[left]{$a_1$}  (u2.in 2)node[left]{$b_1$};
+\draw(u1.in 1)node[left]{$a_2$}  (u1.in 2)node[left]{$b_2$};
+\draw(u0.out)node[right]{\text{\RL{برابر}}};
+ \end{tikzpicture}
+ \end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.8
+ چار بٹ کے دو ثنائی اعداد ضرب کرنے والا ترکیبی دور تشکیل دیں۔
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.9
+ جمع متمم گیٹ استعمال کرتے ہوئے  شناخت کار تشکیل دیں۔
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.10
+ایک عدد  \عددی{3\times 8} شناخت کار کی مدد سے   درج ذیل تین تفاعلات  کا دور  شکل  \حوالہ{شکل_ترکیبی_شناخت_کار_سے_مکمل_ضرب} کے طرز پر تشکیل دیں۔
+\begin{align*}
+F_0(X,Y,Z)&=\sum(0,3,7)\\
+F_1(X,Y,Z)&=\sum(1,2,5)\\
+F_2(X,Y,Z)&=\sum(0,1,2,3,5,7)
+\end{align*}
+ \انتہا{سوال}
+\ابتدا{سوال}
+%5.11
+ درج ذیل تفاعل کو  \عددی{16\times 1} داخلی منتخب کار کی مدد سے حاصل  کریں۔
+ \begin{align*}
+ F(A,B,C,D)=\sum(0,1,4,7,13,15)
+ \end{align*}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.12
+ دو داخلی منتخب کار کی مدد سے  مکمل جمع کار  تشکیل دیں۔
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.13
+ شکل \حوالہ{شکل_سوالات_نمائشی_تختی}  میں (بائیں جانب)  اعشاری ہندسوں کی  \اصطلاح{سات  کلی  نمائشی تختی }\فرہنگ{سات کلی نمائشی تختی}\حاشیہب{seven segment display}\فرہنگ{seven segment display} دکھائی  گئی ہے جو سات قابل روشن حصوں پر مبنی ہے۔ان حصوں میں سے  کسی ایک یا ایک سے زیادہ حصوں کو بیک وقت روشن کیا جا سکتا  ہے۔یوں مختلف حصے روشن کرنے سے اعشاری ہندسے لکھے  جاتے ہیں۔مثلاً   حصہ ب اور پ  (یعنی بپ)  بیک وقت روشن کرنے سے \عددی{1}   لکھا جائے گا۔اسی طرح حصہ ا،ب،  پ، ت، ٹ، اور  ث (یعنی ابپتٹث)   بیک  وقت روشن کرنے سے \عددی{0} لکھا جا ئے گا۔   فرض کریں کسی حصے کو  روشن کرنے کے لئے اس حصہ  کو  بلند کیا جاتا ہے۔ایک سے زیادہ سات کلی نمائشی تختی ساتھ ساتھ رکھ کر زیادہ ہندسوں کی نمائش کی جا سکتی ہے۔
+ 
+ چار مداخل اور سات مخارج  کا   ترکیبی  دور تشکیل دیں جو مہیا کردہ اعشاری ہندسے کو اس تختی پر دکھائے (جدول سے شروع کریں)۔ اعشاری ہندسہ  ثنائی علامتی روپ میں مہیا کیا جائے گا۔   مخلوط دور  \عددی{4511} یہی کام  سرانجام   دیتا ہے۔
+ \begin{figure}
+ \centering
+ \begin{tikzpicture}
+\pgfmathsetmacro{\kdel}{0.2}
+\pgfmathsetmacro{\kdela}{0.1}
+\pgfmathsetmacro{\ks}{0.5}
+\pgfmathsetmacro{\kl}{\ks+2*\kdel}
+\pgfmathsetmacro{\kg}{0.1}
+\pgfmathsetmacro{\ksepX}{0}
+\draw(\ksepX,0)--++(\kl,0)node[pos=0.5,above]{ا}--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)node[pos=0.5,right]{ب}--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)node[pos=0.5,right]{پ}--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ت}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)node[pos=0.5,left]{ٹ}--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+\draw(\ksepX,-1*\kg)--++(0,-\kl)node[pos=0.5,left]{ث}--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)node[pos=0.5,above]{ج}--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%0
+\pgfmathsetmacro{\ksepX}{3*\kl}
+\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ابپتٹث}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+%\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%1
+\pgfmathsetmacro{\ksepX}{4*\kl}
+%\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)node[below]{بپ}--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+%\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+%\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+%\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+%\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%2
+\pgfmathsetmacro{\ksepX}{5.5*\kl}
+\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+%\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ابتٹج}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+%\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%3
+\pgfmathsetmacro{\ksepX}{7*\kl}
+\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)node[pos=0.5,below]{ابپتج}--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+%\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+%\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+
+%4
+\pgfmathsetmacro{\ksepX}{8.5*\kl}
+%\draw(\ksepX,0)--++(\kl,0)--++(-\kdel,-\kdel)--++(-\ks,0)--++(-\kdel,\kdel); 	% الف
+\draw(\ksepX+\kl,-\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%ب
+\draw(\ksepX+\kl,-\kl-2*\kg)--++(0,-\kl)--++(-\kdel,\kdel)--++(0,\ks)--++(\kdel,\kdel);	%پ
+%\draw(\ksepX,-2*\kl-3*\kg)--++(\kl,0)--++(-\kdel,\kdel)--++(-\ks,0)--++(-\kdel,-\kdel);	%ت
+%\draw(\ksepX,-1*\kl-2*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ٹ
+\draw(\ksepX,-1*\kg)--++(0,-\kl)--++(\kdel,\kdel)--++(0,\ks)--++(-\kdel,\kdel);		%ث
+\draw(\ksepX+0.5*\kdel,-\kl-1.5*\kg)--++(\kdela,\kdela)--++(\ks,0)--++(\kdela,-\kdela)--++(-\kdela,-\kdela)--++(-\ks,0)--++(-\kdela,\kdela);%ج
+\draw(\ksepX,-2*\kl-3*\kg)++(0.5*\kl,0)node[below]{بپثج};
+ \end{tikzpicture}
+ \caption{سات کلی نمائشی تختی}
+ \label{شکل_سوالات_نمائشی_تختی}
+ \end{figure}
+ 
+ جواب:
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tabular}{CCCC|CCCCCCC}
+ \toprule
+ d_3&d_2&d_1&d_0&\text{\RL{ج}}&\text{\RL{ث}}&\text{\RL{ٹ}}&\text{\RL{ت}}&\text{\RL{پ}}&\text{\RL{ب}}&\text{\RL{ا}}\\
+ \midrule
+ 0&0&0&0&0&1&1&1&1&1&1\\
+ 0&0&0&1&0&0&0&0&1&1&0\\
+ 0&0&1&0&1&0&1&1&0&1&1\\
+ 0&0&1&1&1&0&0&1&1&1&1\\
+ 0&1&0&0&1&1&0&0&1&1&0\\
+ 0&1&0&1&1&1&0&1&1&0&1\\
+ 0&1&1&0&1&1&1&1&1&0&1\\
+ 0&1&1&1&0&0&0&0&1&1&1\\
+ 1&0&0&0&1&1&1&1&1&1&1\\
+ 1&0&0&1&1&1&0&0&1&1&1\\
+ 1&0&1&0&d&d&d&d&d&d&d\\
+ 1&0&1&1&d&d&d&d&d&d&d\\
+ 1&1&0&0&d&d&d&d&d&d&d\\
+ 1&1&0&1&d&d&d&d&d&d&d\\
+ 1&1&1&0&d&d&d&d&d&d&d\\
+ 1&1&1&1&d&d&d&d&d&d&d\\
+ \midrule
+ \end{tabular}
+ \end{otherlanguage}
+ \end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%5.14
+ انٹرنیٹ سے سات کلی  نمائشی تختی کے معلوماتی صفحات حاصل کریں۔ یہ سات نوری ڈایوڈ  پر  مشتمل ہو گا۔ بعض ادوار میں تمام نوری ڈایوڈ کے منفی سر ایک ساتھ جوڑ  کر  مطلوبہ نوری ڈایوڈ کے مثبت سر پر \عددی{1} مہیا   کر کے روشن کیا جاتا ہے اور بعض میں تمام کے مثبت سر آپس میں جوڑ کر مطلوبہ نوری ڈایوڈ کا  منفی سر پست کر کے اسے روشن کیا جاتا ہے۔
+\انتہا{سوال}
+%=================
+

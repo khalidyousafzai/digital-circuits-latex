@@ -14,11 +14,11 @@
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {6}}اساس دو کا اساس آٹھ میں تبادلہ}{\arabicdigits {9}}{}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {7}}اساس دو کا اساس سولہ میں تبادلہ}{\arabicdigits {9}}{}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {8}} اساس آٹھ اور اساس سولہ سے اساس دو میں تبادلہ}{\arabicdigits {9}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {2}}بنیادی حساب}{\arabicdigits {11}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}ثنائی نظام میں اعداد منفی کرنا}{\arabicdigits {12}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}اساسی تکملہ یا \:\({r}\)\: کا تکملہ}{\arabicdigits {13}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}اساس منفی ایک تکملہ یا \:\({(r-1)}\)\: کا تکملہ}{\arabicdigits {14}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}دو اعداد کی منفی بذریعہ اساسی تکملہ}{\arabicdigits {15}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {2}}بنیادی حساب}{\arabicdigits {13}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {1}}ثنائی نظام میں اعداد منفی کرنا}{\arabicdigits {14}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {2}}اساسی تکملہ یا \:\({r}\)\: کا تکملہ}{\arabicdigits {15}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {3}}اساس منفی ایک تکملہ یا \:\({(r-1)}\)\: کا تکملہ}{\arabicdigits {16}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {4}}دو اعداد کی منفی بذریعہ اساسی تکملہ}{\arabicdigits {17}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -27,11 +27,11 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}دو اعداد کی منفی بذریعہ اساس منفی ایک کا تکملہ}{\arabicdigits {17}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {6}}مثبت اور منفی اعداد}{\arabicdigits {19}}{}%
-\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {7}}علامت دار و تکملہ نظام}{\arabicdigits {22}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {3}}بوولین الجبرا}{\arabicdigits {25}}{}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {1}}بوولین الجبرا کے بنیادی تصورات}{\arabicdigits {25}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {5}}دو اعداد کی منفی بذریعہ اساس منفی ایک کا تکملہ}{\arabicdigits {19}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {6}}مثبت اور منفی اعداد}{\arabicdigits {21}}{}%
+\contentsline {section}{\numberline {\arabicdigits {2}.\arabicdigits {7}}علامت دار و تکملہ نظام}{\arabicdigits {24}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {3}}بوولین الجبرا}{\arabicdigits {29}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {1}}بوولین الجبرا کے بنیادی تصورات}{\arabicdigits {29}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -40,7 +40,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {1}}منطقی ضرب}{\arabicdigits {26}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {1}}منطقی ضرب}{\arabicdigits {30}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -49,7 +49,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {2}}منطقی جمع}{\arabicdigits {27}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {2}}منطقی جمع}{\arabicdigits {31}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -74,8 +74,8 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {3}}منطقی نفی}{\arabicdigits {29}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {4}}منطقی بلا شرکت جمع}{\arabicdigits {29}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {3}}منطقی نفی}{\arabicdigits {33}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {4}}منطقی بلا شرکت جمع}{\arabicdigits {33}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -84,17 +84,17 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {5}}منطقی ضد بلا شرکت جمع}{\arabicdigits {30}}{}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {2}}برقی تاروں میں جوڑ کی وضاحت}{\arabicdigits {30}}{}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {3}}عددی گیٹ}{\arabicdigits {31}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {1}}ضرب گیٹ}{\arabicdigits {31}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {2}}جمع گیٹ}{\arabicdigits {32}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {1}.\arabicdigits {5}}منطقی ضد بلا شرکت جمع}{\arabicdigits {34}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {2}}برقی تاروں میں جوڑ کی وضاحت}{\arabicdigits {34}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {3}}عددی گیٹ}{\arabicdigits {35}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {1}}ضرب گیٹ}{\arabicdigits {35}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {2}}جمع گیٹ}{\arabicdigits {36}}{}%
 \selectlanguage *{english}
 \selectlanguage *{urdu}
 \selectlanguage *{english}
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {3}}نفی گیٹ}{\arabicdigits {33}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {4}}متعدد مداخل گیٹ}{\arabicdigits {33}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {3}}نفی گیٹ}{\arabicdigits {37}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {4}}متعدد مداخل گیٹ}{\arabicdigits {37}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -103,7 +103,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {5}}ضرب متمم گیٹ اور جمع متمم گیٹ}{\arabicdigits {35}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {5}}ضرب متمم گیٹ اور جمع متمم گیٹ}{\arabicdigits {39}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -116,13 +116,13 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {6}}بلا شرکت جمع گیٹ اور بلا شرکت جمع متمم گیٹ}{\arabicdigits {38}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {3}.\arabicdigits {6}}بلا شرکت جمع گیٹ اور بلا شرکت جمع متمم گیٹ}{\arabicdigits {42}}{}%
 \selectlanguage *{english}
 \selectlanguage *{urdu}
 \selectlanguage *{english}
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {4}}گیٹوں کے برقی خواص}{\arabicdigits {40}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {4}.\arabicdigits {1}}مستحکم کار}{\arabicdigits {41}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {4}}گیٹوں کے برقی خواص}{\arabicdigits {44}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {4}.\arabicdigits {1}}مستحکم کار}{\arabicdigits {45}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -131,9 +131,9 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {4}.\arabicdigits {2}}مخلوط ادوار}{\arabicdigits {43}}{}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {5}}بوولین تفاعل کا تخمینہ}{\arabicdigits {45}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {5}.\arabicdigits {1}}بوولین تفاعل کا تخمینہ}{\arabicdigits {45}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {4}.\arabicdigits {2}}مخلوط ادوار}{\arabicdigits {47}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {5}}بوولین تفاعل کا تخمینہ}{\arabicdigits {49}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {5}.\arabicdigits {1}}بوولین تفاعل کا تخمینہ}{\arabicdigits {49}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -150,7 +150,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {6}}قوسین میں بند بوولین تفاعل}{\arabicdigits {47}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {6}}قوسین میں بند بوولین تفاعل}{\arabicdigits {51}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -171,7 +171,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {7}}بوولین الجبرا کے بنیادی قوانین}{\arabicdigits {49}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {7}}بوولین الجبرا کے بنیادی قوانین}{\arabicdigits {53}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -224,7 +224,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {8}}ڈی مارگن کے کلیات}{\arabicdigits {53}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {8}}ڈی مارگن کے کلیات}{\arabicdigits {57}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -233,12 +233,12 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}جڑواں بوولین تفاعل}{\arabicdigits {56}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}جڑواں بوولین تفاعل}{\arabicdigits {60}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}ارکان ضرب کے مجموعہ کی ترکیب}{\arabicdigits {57}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}ارکان ضرب کے مجموعہ کی ترکیب}{\arabicdigits {61}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -259,7 +259,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {11}}ارکان جمع کی ضرب کی ترکیب}{\arabicdigits {60}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {11}}ارکان جمع کی ضرب کی ترکیب}{\arabicdigits {64}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -280,8 +280,8 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {12}}مجموعہ ارکان ضرب اور ضرب بعد از جمع کے مابین تبادلہ}{\arabicdigits {64}}{}%
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {13}}ضرب و جمع دور سے متمم ضرب و متمم ضرب دور کا حصول}{\arabicdigits {65}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {12}}مجموعہ ارکان ضرب اور ضرب بعد از جمع کے مابین تبادلہ}{\arabicdigits {68}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {13}}ضرب و جمع دور سے متمم ضرب و متمم ضرب دور کا حصول}{\arabicdigits {69}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -290,50 +290,60 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {14}}جمع و ضرب دور سے متمم جمع و متمم جمع دور کا حصول}{\arabicdigits {67}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {14}}جمع و ضرب دور سے متمم جمع و متمم جمع دور کا حصول}{\arabicdigits {71}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {15}}علامتی روپ یا رموز}{\arabicdigits {68}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {1}}ایسکی رموز اور عالمی رموز}{\arabicdigits {68}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {15}}علامتی روپ یا رموز}{\arabicdigits {72}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {1}}ایسکی رموز اور عالمی رموز}{\arabicdigits {72}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {2}}اعشاری اعداد کے ثنائی رموز}{\arabicdigits {70}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {3}}گرے رموز}{\arabicdigits {70}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {2}}اعشاری اعداد کے ثنائی رموز}{\arabicdigits {74}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {3}}گرے رموز}{\arabicdigits {74}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{\numberline {\arabicdigits {4}} کارناف نقشہ جات}{\arabicdigits {73}}{}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {1}}کارناف نقشے کا بنیادی خاکہ}{\arabicdigits {73}}{}%
+\selectlanguage *{urdu}
+\selectlanguage *{english}
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {2}}کارناف نقشے کی بھرائی}{\arabicdigits {75}}{}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {3}}کارناف نقشے سے تفاعل کی سادہ مساوات کا حصول}{\arabicdigits {75}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {4}} کارناف نقشہ جات}{\arabicdigits {81}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {1}}کارناف نقشے کا بنیادی خاکہ}{\arabicdigits {81}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {2}}کارناف نقشے کی بھرائی}{\arabicdigits {83}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {3}}کارناف نقشے سے تفاعل کی سادہ مساوات کا حصول}{\arabicdigits {83}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {1}}دو آزاد متغیر تفاعل}{\arabicdigits {77}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {2}}تین متغیر تفاعل}{\arabicdigits {80}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {1}}دو آزاد متغیر تفاعل}{\arabicdigits {85}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {2}}تین متغیر تفاعل}{\arabicdigits {88}}{}%
 \selectlanguage *{english}
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {3}}چار متغیر تفاعل}{\arabicdigits {83}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {4}}سادہ مساوات سے تفاعل کے ارکان ضرب کا حصول}{\arabicdigits {85}}{}%
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {4}} ضرب بعد از جمع کی شکل میں سادہ مساوات}{\arabicdigits {85}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {3}}چار متغیر تفاعل}{\arabicdigits {91}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {4}.\arabicdigits {3}.\arabicdigits {4}}سادہ مساوات سے تفاعل کے ارکان ضرب کا حصول}{\arabicdigits {93}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {4}} ضرب بعد از جمع کی شکل میں سادہ مساوات}{\arabicdigits {93}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -342,10 +352,10 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {5}}غیر دلچسپ حال}{\arabicdigits {87}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {5}}ترکیبی منطق اور ترکیبی ادوار}{\arabicdigits {89}}{}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {1}}ثنائی جمع کار اور ثنائی منفی کار}{\arabicdigits {89}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {1}}نصف جمع کار}{\arabicdigits {90}}{}%
+\contentsline {section}{\numberline {\arabicdigits {4}.\arabicdigits {5}}غیر دلچسپ حال}{\arabicdigits {95}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {5}}ترکیبی منطق اور ترکیبی ادوار}{\arabicdigits {97}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {1}}ثنائی جمع کار اور ثنائی منفی کار}{\arabicdigits {97}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {1}}نصف جمع کار}{\arabicdigits {98}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -354,19 +364,19 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {2}}مکمل جمع کار}{\arabicdigits {92}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {3}}منفی کار}{\arabicdigits {96}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {2}}مکمل جمع کار}{\arabicdigits {100}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {3}}منفی کار}{\arabicdigits {104}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {4}} اعشاری جمع کار}{\arabicdigits {99}}{}%
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {2}}ثنائی ضرب کار}{\arabicdigits {101}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {4}} اعشاری جمع کار}{\arabicdigits {107}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {2}}ثنائی ضرب کار}{\arabicdigits {109}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {3}}شناخت کار}{\arabicdigits {102}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {3}}شناخت کار}{\arabicdigits {110}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -387,7 +397,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {4}}شناخت کار کی مدد سے تفاعل کا حصول}{\arabicdigits {109}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {4}}شناخت کار کی مدد سے تفاعل کا حصول}{\arabicdigits {117}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -400,8 +410,8 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {5}}داخلی منتخب کار اور خارجی منتخب کار}{\arabicdigits {112}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {1}}خارجی منتخب کار}{\arabicdigits {112}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {5}}داخلی منتخب کار اور خارجی منتخب کار}{\arabicdigits {120}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {1}}خارجی منتخب کار}{\arabicdigits {120}}{}%
 \bgroup 
 \selectlanguage *{english}
 \bgroup 
@@ -410,20 +420,17 @@
 \selectlanguage *{urdu}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {2}}داخلی منتخب کار}{\arabicdigits {113}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {2}}داخلی منتخب کار}{\arabicdigits {121}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {3}}داخلی منتخب کار سے تفاعل کا حصول}{\arabicdigits {115}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {3}}داخلی منتخب کار سے تفاعل کا حصول}{\arabicdigits {123}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {6}}متوازی ثنائی ضرب کار}{\arabicdigits {117}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {6}}معاصر ترتیبی منطق اور ادوار}{\arabicdigits {121}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {1}}گیٹوں کے اوقات کار}{\arabicdigits {122}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {2}}پلٹ کار}{\arabicdigits {123}}{}%
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {6}}متوازی ثنائی ضرب کار}{\arabicdigits {125}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -436,76 +443,70 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}ساعت}{\arabicdigits {127}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {4}}متمم ضرب گیٹ ایس آر پلٹ کار}{\arabicdigits {128}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {1}}غیر فعال مداخل پلٹ کار، حال برقرار رکھتا ہے}{\arabicdigits {129}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {2}}مداخل \:\({S}\)\: فعال کرنے سے پلٹ کار بلند حال اختیار کرتا ہے}{\arabicdigits {129}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {3}}مداخل \:\({\overline {R}}\)\: فعال کرنے سے پلٹ کار پست حال اختیار کرتا ہے}{\arabicdigits {130}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {4}}حال دوڑ}{\arabicdigits {131}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}زیادہ مداخل پلٹ کار}{\arabicdigits {131}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {6}}قابل مجاز و معذور پلٹ کار}{\arabicdigits {132}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {6}}معاصر ترتیبی منطق اور ادوار}{\arabicdigits {133}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {1}}گیٹوں کے اوقات کار}{\arabicdigits {134}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {2}}پلٹ کار}{\arabicdigits {135}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {7}}آقا غلام پلٹ کار}{\arabicdigits {134}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {8}} ڈی پلٹ کار}{\arabicdigits {137}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {8}.\arabicdigits {1}}آقا غلام پلٹ کار سے حاصل کردہ ڈی پلٹ کار}{\arabicdigits {137}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {3}}ساعت}{\arabicdigits {139}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {4}}متمم ضرب گیٹ ایس آر پلٹ کار}{\arabicdigits {140}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {1}}غیر فعال مداخل پلٹ کار، حال برقرار رکھتا ہے}{\arabicdigits {141}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {2}}مداخل \:\({S}\)\: فعال کرنے سے پلٹ کار بلند حال اختیار کرتا ہے}{\arabicdigits {141}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {3}}مداخل \:\({\overline {R}}\)\: فعال کرنے سے پلٹ کار پست حال اختیار کرتا ہے}{\arabicdigits {142}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {4}.\arabicdigits {4}}حال دوڑ}{\arabicdigits {143}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {5}}زیادہ مداخل پلٹ کار}{\arabicdigits {143}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {9}}ڈی پلٹ کار}{\arabicdigits {139}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {10}}جے کے پلٹ کار }{\arabicdigits {142}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {6}}قابل مجاز و معذور پلٹ کار}{\arabicdigits {144}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {7}}آقا غلام پلٹ کار}{\arabicdigits {146}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {8}} ڈی پلٹ کار}{\arabicdigits {149}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {8}.\arabicdigits {1}}آقا غلام پلٹ کار سے حاصل کردہ ڈی پلٹ کار}{\arabicdigits {149}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {10}.\arabicdigits {1}}ٹی پلٹ کار}{\arabicdigits {145}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {11}}ثنائی گنت کار}{\arabicdigits {146}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {12}}سلسلہ وار ثنائی جمع کار}{\arabicdigits {147}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {13}}معاصر ترتیبی ادوار کا تجزیہ}{\arabicdigits {148}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {1}}مساوات حال}{\arabicdigits {148}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {2}}حال کا جدول}{\arabicdigits {149}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {3}} حال کا خاکہ}{\arabicdigits {150}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {4}}ڈی پلٹ کار پر مبنی ترتیبی دور}{\arabicdigits {150}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {5}}جے کے پلٹ کار پر مبنی ترتیبی دور}{\arabicdigits {151}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {9}}ڈی پلٹ کار}{\arabicdigits {151}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {10}}جے کے پلٹ کار }{\arabicdigits {154}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -518,18 +519,23 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {6}}ٹی پلٹ کار کی مدد سے ترتیبی دور کا جائزہ}{\arabicdigits {155}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {10}.\arabicdigits {1}}ٹی پلٹ کار}{\arabicdigits {157}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {11}}ثنائی گنت کار}{\arabicdigits {158}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {12}}سلسلہ وار ثنائی جمع کار}{\arabicdigits {159}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {13}}معاصر ترتیبی ادوار کا تجزیہ}{\arabicdigits {160}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {1}}مساوات حال}{\arabicdigits {160}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {2}}حال کا جدول}{\arabicdigits {161}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {14}}میلی اور مُور نمونہ}{\arabicdigits {156}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {14}.\arabicdigits {1}}حال اور ان کی مقرری}{\arabicdigits {157}}{}%
-\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {15}}معاصر ترتیبی ادوار کی بناوٹ}{\arabicdigits {158}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {3}} حال کا خاکہ}{\arabicdigits {162}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {4}}ڈی پلٹ کار پر مبنی ترتیبی دور}{\arabicdigits {162}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {5}}جے کے پلٹ کار پر مبنی ترتیبی دور}{\arabicdigits {163}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -538,64 +544,42 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{\numberline {\arabicdigits {7}}دفتر}{\arabicdigits {163}}{}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {1}}سلسلہ وار دفتر}{\arabicdigits {165}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {1}}دائیں انتقال دفتر}{\arabicdigits {165}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {2}}بائیں انتقال دفتر}{\arabicdigits {165}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {3}} دائیں و بائیں انتقال دفتر}{\arabicdigits {166}}{}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {2}}متوازی بھرائی دفتر}{\arabicdigits {166}}{}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}عالمگیر انتقال دفتر}{\arabicdigits {167}}{}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {170}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {8}} گنت کار}{\arabicdigits {173}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}ثنائی گنت کار}{\arabicdigits {173}}{}%
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}معاصر گنت کار}{\arabicdigits {175}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {1}}معاصر ثنائی گنت کار}{\arabicdigits {175}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {13}.\arabicdigits {6}}ٹی پلٹ کار کی مدد سے ترتیبی دور کا جائزہ}{\arabicdigits {167}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {2}}ثنائی مرموز اعشاری معاصر گنت کار}{\arabicdigits {178}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}دیگر گنت کار}{\arabicdigits {182}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}متغیر لمبائی گنت کار}{\arabicdigits {182}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {14}}میلی اور مُور نمونہ}{\arabicdigits {168}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {6}.\arabicdigits {14}.\arabicdigits {1}}حال اور ان کی مقرری}{\arabicdigits {169}}{}%
+\contentsline {section}{\numberline {\arabicdigits {6}.\arabicdigits {15}}معاصر ترتیبی ادوار کی بناوٹ}{\arabicdigits {170}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {2}}بے ترتیب گنت کار}{\arabicdigits {184}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {3}} چھلا گنت کار}{\arabicdigits {185}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دھڑکن پیدا کار}{\arabicdigits {186}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {9}} حافظہ}{\arabicdigits {189}}{}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}عارضی حافظہ}{\arabicdigits {190}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}} پختہ حافظہ}{\arabicdigits {199}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {202}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\({4\times 4}\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\({8\times 4}\)\: حافظہ کا حصول}{\arabicdigits {202}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\({16\times 8}\)\: حافظے سلسلہ وار جوڑ کر ایک \:\({48\times 8}\)\: حافظے کا حصول}{\arabicdigits {205}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\({4\times 4}\)\: حافظے متوازی جوڑ کر \:\({4\times 8}\)\: حافظے کا حصول}{\arabicdigits {209}}{}%
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {209}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -604,33 +588,26 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {211}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {213}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {1}}قابل تشکیل ضرب ترکیبی منطقی ادوار}{\arabicdigits {214}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {2}}قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}{\arabicdigits {215}}{}%
-\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} قابل تشکیل ترتیبی ادوار}{\arabicdigits {218}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {11}} غیر معاصر ترتیبی ادوار }{\arabicdigits {219}}{}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {1}} تجزیہ}{\arabicdigits {223}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {223}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {227}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {229}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {4}}توازن اور ارتعاش }{\arabicdigits {232}}{}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {234}}{}%
-\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {237}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {237}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {240}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {245}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {12}}سوالات}{\arabicdigits {247}}{}%
-\selectlanguage *{urdu}
-\selectlanguage *{english}
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {chapter}{\numberline {\arabicdigits {7}}دفتر}{\arabicdigits {179}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {1}}سلسلہ وار دفتر}{\arabicdigits {181}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {1}}دائیں انتقال دفتر}{\arabicdigits {181}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {2}}بائیں انتقال دفتر}{\arabicdigits {181}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {3}} دائیں و بائیں انتقال دفتر}{\arabicdigits {182}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {2}}متوازی بھرائی دفتر}{\arabicdigits {182}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}عالمگیر انتقال دفتر}{\arabicdigits {183}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {186}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {8}} گنت کار}{\arabicdigits {189}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}ثنائی گنت کار}{\arabicdigits {189}}{}%
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}معاصر گنت کار}{\arabicdigits {191}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {1}}معاصر ثنائی گنت کار}{\arabicdigits {191}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -639,34 +616,48 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {2}.\arabicdigits {2}}ثنائی مرموز اعشاری معاصر گنت کار}{\arabicdigits {194}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {3}}دیگر گنت کار}{\arabicdigits {198}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {1}}متغیر لمبائی گنت کار}{\arabicdigits {198}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {2}}بے ترتیب گنت کار}{\arabicdigits {200}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {3}} چھلا گنت کار}{\arabicdigits {201}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {8}.\arabicdigits {3}.\arabicdigits {4}}دھڑکن پیدا کار}{\arabicdigits {202}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {chapter}{\numberline {\arabicdigits {9}} حافظہ}{\arabicdigits {205}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {1}}عارضی حافظہ}{\arabicdigits {206}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {2}} پختہ حافظہ}{\arabicdigits {215}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {3}}حافظہ کی استعداد بڑھانے کی ترکیب}{\arabicdigits {218}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {1}}دو عدد \:\({4\times 4}\)\: حافظے سلسلہ وار جوڑ کر ایک عدد \:\({8\times 4}\)\: حافظہ کا حصول}{\arabicdigits {218}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {2}} تین \:\({16\times 8}\)\: حافظے سلسلہ وار جوڑ کر ایک \:\({48\times 8}\)\: حافظے کا حصول}{\arabicdigits {221}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {9}.\arabicdigits {3}.\arabicdigits {3}}دو \:\({4\times 4}\)\: حافظے متوازی جوڑ کر \:\({4\times 8}\)\: حافظے کا حصول}{\arabicdigits {225}}{}%
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {4}}حافظہ کے اوقات کار}{\arabicdigits {225}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -675,6 +666,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {9}.\arabicdigits {5}}پختہ حافظہ سے ترکیبی ادوار کا حصول}{\arabicdigits {227}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -683,8 +675,25 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {chapter}{\numberline {\arabicdigits {10}}قابل تشکیل ترکیبی منطقی ادوار}{\arabicdigits {231}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {1}}قابل تشکیل ضرب ترکیبی منطقی ادوار}{\arabicdigits {232}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {10}.\arabicdigits {0}.\arabicdigits {2}}قابل تشکیل ضرب و جمع ترکیبی منطقی ادوار}{\arabicdigits {233}}{}%
+\contentsline {section}{\numberline {\arabicdigits {10}.\arabicdigits {1}} قابل تشکیل ترتیبی ادوار}{\arabicdigits {236}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {11}} غیر معاصر ترتیبی ادوار }{\arabicdigits {239}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {1}} تجزیہ}{\arabicdigits {243}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {1}}عبوری جدول}{\arabicdigits {243}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {267}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {2}}بہاو کا جدول}{\arabicdigits {247}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {3}} حالت دوڑ}{\arabicdigits {249}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {1}.\arabicdigits {4}}توازن اور ارتعاش }{\arabicdigits {252}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\arabicdigits {254}}{}%
+\contentsline {section}{\numberline {\arabicdigits {11}.\arabicdigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\arabicdigits {257}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {257}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {260}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {265}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {12}}سادہ ترین کمپیوٹر}{\arabicdigits {267}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}بناؤٹ}{\arabicdigits {267}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {269}}{}%

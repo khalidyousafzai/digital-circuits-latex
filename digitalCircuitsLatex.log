@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  3 NOV 2023 17:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  5 NOV 2023 18:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231131027.tex)...disabled (restricted).
+runsystem(touch w18-test-20231151094.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231131027.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231151094.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -2261,36 +2261,54 @@ LaTeX Info: Redefining \ttfamily on input line 1025.
 LaTeX Info: Redefining \rmfamily on input line 1033.
 LaTeX Info: Redefining \sffamily on input line 1033.
 LaTeX Info: Redefining \ttfamily on input line 1033.
-LaTeX Info: Redefining \rmfamily on input line 1054.
-LaTeX Info: Redefining \sffamily on input line 1054.
-LaTeX Info: Redefining \ttfamily on input line 1054.
-LaTeX Info: Redefining \rmfamily on input line 1062.
-LaTeX Info: Redefining \sffamily on input line 1062.
-LaTeX Info: Redefining \ttfamily on input line 1062.
-LaTeX Info: Redefining \rmfamily on input line 1070.
-LaTeX Info: Redefining \sffamily on input line 1070.
-LaTeX Info: Redefining \ttfamily on input line 1070.
-LaTeX Info: Redefining \rmfamily on input line 1078.
-LaTeX Info: Redefining \sffamily on input line 1078.
-LaTeX Info: Redefining \ttfamily on input line 1078.
-LaTeX Info: Redefining \rmfamily on input line 1091.
-LaTeX Info: Redefining \sffamily on input line 1091.
-LaTeX Info: Redefining \ttfamily on input line 1091.
-LaTeX Info: Redefining \rmfamily on input line 1099.
-LaTeX Info: Redefining \sffamily on input line 1099.
-LaTeX Info: Redefining \ttfamily on input line 1099.
-LaTeX Info: Redefining \rmfamily on input line 1117.
-LaTeX Info: Redefining \sffamily on input line 1117.
-LaTeX Info: Redefining \ttfamily on input line 1117.
-LaTeX Info: Redefining \rmfamily on input line 1125.
-LaTeX Info: Redefining \sffamily on input line 1125.
-LaTeX Info: Redefining \ttfamily on input line 1125.
-LaTeX Info: Redefining \rmfamily on input line 1141.
-LaTeX Info: Redefining \sffamily on input line 1141.
-LaTeX Info: Redefining \ttfamily on input line 1141.
-LaTeX Info: Redefining \rmfamily on input line 1149.
-LaTeX Info: Redefining \sffamily on input line 1149.
-LaTeX Info: Redefining \ttfamily on input line 1149.
+LaTeX Info: Redefining \rmfamily on input line 1055.
+LaTeX Info: Redefining \sffamily on input line 1055.
+LaTeX Info: Redefining \ttfamily on input line 1055.
+LaTeX Info: Redefining \rmfamily on input line 1063.
+LaTeX Info: Redefining \sffamily on input line 1063.
+LaTeX Info: Redefining \ttfamily on input line 1063.
+LaTeX Info: Redefining \rmfamily on input line 1071.
+LaTeX Info: Redefining \sffamily on input line 1071.
+LaTeX Info: Redefining \ttfamily on input line 1071.
+LaTeX Info: Redefining \rmfamily on input line 1079.
+LaTeX Info: Redefining \sffamily on input line 1079.
+LaTeX Info: Redefining \ttfamily on input line 1079.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
+LaTeX Info: Redefining \rmfamily on input line 1100.
+LaTeX Info: Redefining \sffamily on input line 1100.
+LaTeX Info: Redefining \ttfamily on input line 1100.
+LaTeX Info: Redefining \rmfamily on input line 1118.
+LaTeX Info: Redefining \sffamily on input line 1118.
+LaTeX Info: Redefining \ttfamily on input line 1118.
+LaTeX Info: Redefining \rmfamily on input line 1126.
+LaTeX Info: Redefining \sffamily on input line 1126.
+LaTeX Info: Redefining \ttfamily on input line 1126.
+LaTeX Info: Redefining \rmfamily on input line 1142.
+LaTeX Info: Redefining \sffamily on input line 1142.
+LaTeX Info: Redefining \ttfamily on input line 1142.
+LaTeX Info: Redefining \rmfamily on input line 1150.
+LaTeX Info: Redefining \sffamily on input line 1150.
+LaTeX Info: Redefining \ttfamily on input line 1150.
+LaTeX Info: Redefining \rmfamily on input line 1157.
+LaTeX Info: Redefining \sffamily on input line 1157.
+LaTeX Info: Redefining \ttfamily on input line 1157.
+LaTeX Info: Redefining \rmfamily on input line 1161.
+LaTeX Info: Redefining \sffamily on input line 1161.
+LaTeX Info: Redefining \ttfamily on input line 1161.
+LaTeX Info: Redefining \rmfamily on input line 1166.
+LaTeX Info: Redefining \sffamily on input line 1166.
+LaTeX Info: Redefining \ttfamily on input line 1166.
+LaTeX Info: Redefining \rmfamily on input line 1174.
+LaTeX Info: Redefining \sffamily on input line 1174.
+LaTeX Info: Redefining \ttfamily on input line 1174.
+LaTeX Info: Redefining \rmfamily on input line 1187.
+LaTeX Info: Redefining \sffamily on input line 1187.
+LaTeX Info: Redefining \ttfamily on input line 1187.
+LaTeX Info: Redefining \rmfamily on input line 1196.
+LaTeX Info: Redefining \sffamily on input line 1196.
+LaTeX Info: Redefining \ttfamily on input line 1196.
 ) (./tex/karnaughMaps.aux
 LaTeX Info: Redefining \rmfamily on input line 13.
 LaTeX Info: Redefining \sffamily on input line 13.
@@ -2432,6 +2450,36 @@ LaTeX Info: Redefining \ttfamily on input line 383.
 LaTeX Info: Redefining \rmfamily on input line 391.
 LaTeX Info: Redefining \sffamily on input line 391.
 LaTeX Info: Redefining \ttfamily on input line 391.
+LaTeX Info: Redefining \rmfamily on input line 409.
+LaTeX Info: Redefining \sffamily on input line 409.
+LaTeX Info: Redefining \ttfamily on input line 409.
+LaTeX Info: Redefining \rmfamily on input line 417.
+LaTeX Info: Redefining \sffamily on input line 417.
+LaTeX Info: Redefining \ttfamily on input line 417.
+LaTeX Info: Redefining \rmfamily on input line 425.
+LaTeX Info: Redefining \sffamily on input line 425.
+LaTeX Info: Redefining \ttfamily on input line 425.
+LaTeX Info: Redefining \rmfamily on input line 433.
+LaTeX Info: Redefining \sffamily on input line 433.
+LaTeX Info: Redefining \ttfamily on input line 433.
+LaTeX Info: Redefining \rmfamily on input line 442.
+LaTeX Info: Redefining \sffamily on input line 442.
+LaTeX Info: Redefining \ttfamily on input line 442.
+LaTeX Info: Redefining \rmfamily on input line 451.
+LaTeX Info: Redefining \sffamily on input line 451.
+LaTeX Info: Redefining \ttfamily on input line 451.
+LaTeX Info: Redefining \rmfamily on input line 459.
+LaTeX Info: Redefining \sffamily on input line 459.
+LaTeX Info: Redefining \ttfamily on input line 459.
+LaTeX Info: Redefining \rmfamily on input line 467.
+LaTeX Info: Redefining \sffamily on input line 467.
+LaTeX Info: Redefining \ttfamily on input line 467.
+LaTeX Info: Redefining \rmfamily on input line 479.
+LaTeX Info: Redefining \sffamily on input line 479.
+LaTeX Info: Redefining \ttfamily on input line 479.
+LaTeX Info: Redefining \rmfamily on input line 487.
+LaTeX Info: Redefining \sffamily on input line 487.
+LaTeX Info: Redefining \ttfamily on input line 487.
 ) (./tex/synchronusSequentialLogic.aux
 LaTeX Info: Redefining \rmfamily on input line 48.
 LaTeX Info: Redefining \sffamily on input line 48.
@@ -2565,6 +2613,48 @@ LaTeX Info: Redefining \ttfamily on input line 602.
 LaTeX Info: Redefining \rmfamily on input line 610.
 LaTeX Info: Redefining \sffamily on input line 610.
 LaTeX Info: Redefining \ttfamily on input line 610.
+LaTeX Info: Redefining \rmfamily on input line 623.
+LaTeX Info: Redefining \sffamily on input line 623.
+LaTeX Info: Redefining \ttfamily on input line 623.
+LaTeX Info: Redefining \rmfamily on input line 631.
+LaTeX Info: Redefining \sffamily on input line 631.
+LaTeX Info: Redefining \ttfamily on input line 631.
+LaTeX Info: Redefining \rmfamily on input line 639.
+LaTeX Info: Redefining \sffamily on input line 639.
+LaTeX Info: Redefining \ttfamily on input line 639.
+LaTeX Info: Redefining \rmfamily on input line 647.
+LaTeX Info: Redefining \sffamily on input line 647.
+LaTeX Info: Redefining \ttfamily on input line 647.
+LaTeX Info: Redefining \rmfamily on input line 655.
+LaTeX Info: Redefining \sffamily on input line 655.
+LaTeX Info: Redefining \ttfamily on input line 655.
+LaTeX Info: Redefining \rmfamily on input line 663.
+LaTeX Info: Redefining \sffamily on input line 663.
+LaTeX Info: Redefining \ttfamily on input line 663.
+LaTeX Info: Redefining \rmfamily on input line 671.
+LaTeX Info: Redefining \sffamily on input line 671.
+LaTeX Info: Redefining \ttfamily on input line 671.
+LaTeX Info: Redefining \rmfamily on input line 679.
+LaTeX Info: Redefining \sffamily on input line 679.
+LaTeX Info: Redefining \ttfamily on input line 679.
+LaTeX Info: Redefining \rmfamily on input line 687.
+LaTeX Info: Redefining \sffamily on input line 687.
+LaTeX Info: Redefining \ttfamily on input line 687.
+LaTeX Info: Redefining \rmfamily on input line 695.
+LaTeX Info: Redefining \sffamily on input line 695.
+LaTeX Info: Redefining \ttfamily on input line 695.
+LaTeX Info: Redefining \rmfamily on input line 703.
+LaTeX Info: Redefining \sffamily on input line 703.
+LaTeX Info: Redefining \ttfamily on input line 703.
+LaTeX Info: Redefining \rmfamily on input line 711.
+LaTeX Info: Redefining \sffamily on input line 711.
+LaTeX Info: Redefining \ttfamily on input line 711.
+LaTeX Info: Redefining \rmfamily on input line 719.
+LaTeX Info: Redefining \sffamily on input line 719.
+LaTeX Info: Redefining \ttfamily on input line 719.
+LaTeX Info: Redefining \rmfamily on input line 727.
+LaTeX Info: Redefining \sffamily on input line 727.
+LaTeX Info: Redefining \ttfamily on input line 727.
 ) (./tex/registers.aux) (./tex/counters.aux
 LaTeX Info: Redefining \rmfamily on input line 35.
 LaTeX Info: Redefining \sffamily on input line 35.
@@ -2596,6 +2686,12 @@ LaTeX Info: Redefining \ttfamily on input line 136.
 LaTeX Info: Redefining \rmfamily on input line 144.
 LaTeX Info: Redefining \sffamily on input line 144.
 LaTeX Info: Redefining \ttfamily on input line 144.
+LaTeX Info: Redefining \rmfamily on input line 164.
+LaTeX Info: Redefining \sffamily on input line 164.
+LaTeX Info: Redefining \ttfamily on input line 164.
+LaTeX Info: Redefining \rmfamily on input line 172.
+LaTeX Info: Redefining \sffamily on input line 172.
+LaTeX Info: Redefining \ttfamily on input line 172.
 ) (./tex/memory.aux
 LaTeX Info: Redefining \rmfamily on input line 49.
 LaTeX Info: Redefining \sffamily on input line 49.
@@ -2627,113 +2723,28 @@ LaTeX Info: Redefining \ttfamily on input line 171.
 LaTeX Info: Redefining \rmfamily on input line 179.
 LaTeX Info: Redefining \sffamily on input line 179.
 LaTeX Info: Redefining \ttfamily on input line 179.
+LaTeX Info: Redefining \rmfamily on input line 194.
+LaTeX Info: Redefining \sffamily on input line 194.
+LaTeX Info: Redefining \ttfamily on input line 194.
+LaTeX Info: Redefining \rmfamily on input line 202.
+LaTeX Info: Redefining \sffamily on input line 202.
+LaTeX Info: Redefining \ttfamily on input line 202.
+LaTeX Info: Redefining \rmfamily on input line 210.
+LaTeX Info: Redefining \sffamily on input line 210.
+LaTeX Info: Redefining \ttfamily on input line 210.
+LaTeX Info: Redefining \rmfamily on input line 218.
+LaTeX Info: Redefining \sffamily on input line 218.
+LaTeX Info: Redefining \ttfamily on input line 218.
 )
 (./tex/programmableLogicDevices.aux)
 (./tex/asynchronousCombinationalCircuits.aux
-LaTeX Info: Redefining \rmfamily on input line 43.
-LaTeX Info: Redefining \sffamily on input line 43.
-LaTeX Info: Redefining \ttfamily on input line 43.
-LaTeX Info: Redefining \rmfamily on input line 51.
-LaTeX Info: Redefining \sffamily on input line 51.
-LaTeX Info: Redefining \ttfamily on input line 51.
-) (./tex/questions.aux
-LaTeX Info: Redefining \rmfamily on input line 9.
-LaTeX Info: Redefining \sffamily on input line 9.
-LaTeX Info: Redefining \ttfamily on input line 9.
-LaTeX Info: Redefining \rmfamily on input line 13.
-LaTeX Info: Redefining \sffamily on input line 13.
-LaTeX Info: Redefining \ttfamily on input line 13.
-LaTeX Info: Redefining \rmfamily on input line 18.
-LaTeX Info: Redefining \sffamily on input line 18.
-LaTeX Info: Redefining \ttfamily on input line 18.
-LaTeX Info: Redefining \rmfamily on input line 26.
-LaTeX Info: Redefining \sffamily on input line 26.
-LaTeX Info: Redefining \ttfamily on input line 26.
-LaTeX Info: Redefining \rmfamily on input line 40.
-LaTeX Info: Redefining \sffamily on input line 40.
-LaTeX Info: Redefining \ttfamily on input line 40.
-LaTeX Info: Redefining \rmfamily on input line 48.
-LaTeX Info: Redefining \sffamily on input line 48.
-LaTeX Info: Redefining \ttfamily on input line 48.
-LaTeX Info: Redefining \rmfamily on input line 57.
-LaTeX Info: Redefining \sffamily on input line 57.
-LaTeX Info: Redefining \ttfamily on input line 57.
-LaTeX Info: Redefining \rmfamily on input line 65.
-LaTeX Info: Redefining \sffamily on input line 65.
-LaTeX Info: Redefining \ttfamily on input line 65.
-LaTeX Info: Redefining \rmfamily on input line 73.
-LaTeX Info: Redefining \sffamily on input line 73.
-LaTeX Info: Redefining \ttfamily on input line 73.
-LaTeX Info: Redefining \rmfamily on input line 81.
-LaTeX Info: Redefining \sffamily on input line 81.
-LaTeX Info: Redefining \ttfamily on input line 81.
-LaTeX Info: Redefining \rmfamily on input line 90.
-LaTeX Info: Redefining \sffamily on input line 90.
-LaTeX Info: Redefining \ttfamily on input line 90.
-LaTeX Info: Redefining \rmfamily on input line 98.
-LaTeX Info: Redefining \sffamily on input line 98.
-LaTeX Info: Redefining \ttfamily on input line 98.
-LaTeX Info: Redefining \rmfamily on input line 106.
-LaTeX Info: Redefining \sffamily on input line 106.
-LaTeX Info: Redefining \ttfamily on input line 106.
-LaTeX Info: Redefining \rmfamily on input line 115.
-LaTeX Info: Redefining \sffamily on input line 115.
-LaTeX Info: Redefining \ttfamily on input line 115.
-LaTeX Info: Redefining \rmfamily on input line 127.
-LaTeX Info: Redefining \sffamily on input line 127.
-LaTeX Info: Redefining \ttfamily on input line 127.
-LaTeX Info: Redefining \rmfamily on input line 136.
-LaTeX Info: Redefining \sffamily on input line 136.
-LaTeX Info: Redefining \ttfamily on input line 136.
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-LaTeX Info: Redefining \rmfamily on input line 152.
-LaTeX Info: Redefining \sffamily on input line 152.
-LaTeX Info: Redefining \ttfamily on input line 152.
-LaTeX Info: Redefining \rmfamily on input line 160.
-LaTeX Info: Redefining \sffamily on input line 160.
-LaTeX Info: Redefining \ttfamily on input line 160.
-LaTeX Info: Redefining \rmfamily on input line 168.
-LaTeX Info: Redefining \sffamily on input line 168.
-LaTeX Info: Redefining \ttfamily on input line 168.
-LaTeX Info: Redefining \rmfamily on input line 176.
-LaTeX Info: Redefining \sffamily on input line 176.
-LaTeX Info: Redefining \ttfamily on input line 176.
-LaTeX Info: Redefining \rmfamily on input line 184.
-LaTeX Info: Redefining \sffamily on input line 184.
-LaTeX Info: Redefining \ttfamily on input line 184.
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
-LaTeX Info: Redefining \rmfamily on input line 200.
-LaTeX Info: Redefining \sffamily on input line 200.
-LaTeX Info: Redefining \ttfamily on input line 200.
-LaTeX Info: Redefining \rmfamily on input line 208.
-LaTeX Info: Redefining \sffamily on input line 208.
-LaTeX Info: Redefining \ttfamily on input line 208.
-LaTeX Info: Redefining \rmfamily on input line 216.
-LaTeX Info: Redefining \sffamily on input line 216.
-LaTeX Info: Redefining \ttfamily on input line 216.
-LaTeX Info: Redefining \rmfamily on input line 224.
-LaTeX Info: Redefining \sffamily on input line 224.
-LaTeX Info: Redefining \ttfamily on input line 224.
-LaTeX Info: Redefining \rmfamily on input line 232.
-LaTeX Info: Redefining \sffamily on input line 232.
-LaTeX Info: Redefining \ttfamily on input line 232.
-LaTeX Info: Redefining \rmfamily on input line 240.
-LaTeX Info: Redefining \sffamily on input line 240.
-LaTeX Info: Redefining \ttfamily on input line 240.
-LaTeX Info: Redefining \rmfamily on input line 248.
-LaTeX Info: Redefining \sffamily on input line 248.
-LaTeX Info: Redefining \ttfamily on input line 248.
-LaTeX Info: Redefining \rmfamily on input line 256.
-LaTeX Info: Redefining \sffamily on input line 256.
-LaTeX Info: Redefining \ttfamily on input line 256.
-LaTeX Info: Redefining \rmfamily on input line 264.
-LaTeX Info: Redefining \sffamily on input line 264.
-LaTeX Info: Redefining \ttfamily on input line 264.
-))
+LaTeX Info: Redefining \rmfamily on input line 44.
+LaTeX Info: Redefining \sffamily on input line 44.
+LaTeX Info: Redefining \ttfamily on input line 44.
+LaTeX Info: Redefining \rmfamily on input line 52.
+LaTeX Info: Redefining \sffamily on input line 52.
+LaTeX Info: Redefining \ttfamily on input line 52.
+) (./tex/simplestComputer.aux))
 \openout1 = `digitalCircuitsLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
@@ -3350,36 +3361,42 @@ LaTeX Info: Redefining \ttfamily on input line 307.
 LaTeX Info: Redefining \rmfamily on input line 309.
 LaTeX Info: Redefining \sffamily on input line 309.
 LaTeX Info: Redefining \ttfamily on input line 309.
+LaTeX Info: Redefining \rmfamily on input line 310.
+LaTeX Info: Redefining \sffamily on input line 310.
+LaTeX Info: Redefining \ttfamily on input line 310.
+LaTeX Info: Redefining \rmfamily on input line 311.
+LaTeX Info: Redefining \sffamily on input line 311.
+LaTeX Info: Redefining \ttfamily on input line 311.
 LaTeX Info: Redefining \rmfamily on input line 313.
 LaTeX Info: Redefining \sffamily on input line 313.
 LaTeX Info: Redefining \ttfamily on input line 313.
 LaTeX Info: Redefining \rmfamily on input line 315.
 LaTeX Info: Redefining \sffamily on input line 315.
 LaTeX Info: Redefining \ttfamily on input line 315.
+LaTeX Info: Redefining \rmfamily on input line 317.
+LaTeX Info: Redefining \sffamily on input line 317.
+LaTeX Info: Redefining \ttfamily on input line 317.
 LaTeX Info: Redefining \rmfamily on input line 319.
 LaTeX Info: Redefining \sffamily on input line 319.
 LaTeX Info: Redefining \ttfamily on input line 319.
-LaTeX Info: Redefining \rmfamily on input line 321.
-LaTeX Info: Redefining \sffamily on input line 321.
-LaTeX Info: Redefining \ttfamily on input line 321.
 LaTeX Info: Redefining \rmfamily on input line 323.
 LaTeX Info: Redefining \sffamily on input line 323.
 LaTeX Info: Redefining \ttfamily on input line 323.
 LaTeX Info: Redefining \rmfamily on input line 325.
 LaTeX Info: Redefining \sffamily on input line 325.
 LaTeX Info: Redefining \ttfamily on input line 325.
-LaTeX Info: Redefining \rmfamily on input line 328.
-LaTeX Info: Redefining \sffamily on input line 328.
-LaTeX Info: Redefining \ttfamily on input line 328.
-LaTeX Info: Redefining \rmfamily on input line 330.
-LaTeX Info: Redefining \sffamily on input line 330.
-LaTeX Info: Redefining \ttfamily on input line 330.
-LaTeX Info: Redefining \rmfamily on input line 332.
-LaTeX Info: Redefining \sffamily on input line 332.
-LaTeX Info: Redefining \ttfamily on input line 332.
+LaTeX Info: Redefining \rmfamily on input line 329.
+LaTeX Info: Redefining \sffamily on input line 329.
+LaTeX Info: Redefining \ttfamily on input line 329.
+LaTeX Info: Redefining \rmfamily on input line 331.
+LaTeX Info: Redefining \sffamily on input line 331.
+LaTeX Info: Redefining \ttfamily on input line 331.
 LaTeX Info: Redefining \rmfamily on input line 333.
 LaTeX Info: Redefining \sffamily on input line 333.
 LaTeX Info: Redefining \ttfamily on input line 333.
+LaTeX Info: Redefining \rmfamily on input line 335.
+LaTeX Info: Redefining \sffamily on input line 335.
+LaTeX Info: Redefining \ttfamily on input line 335.
 LaTeX Info: Redefining \rmfamily on input line 338.
 LaTeX Info: Redefining \sffamily on input line 338.
 LaTeX Info: Redefining \ttfamily on input line 338.
@@ -3389,16 +3406,12 @@ LaTeX Info: Redefining \ttfamily on input line 340.
 LaTeX Info: Redefining \rmfamily on input line 342.
 LaTeX Info: Redefining \sffamily on input line 342.
 LaTeX Info: Redefining \ttfamily on input line 342.
-LaTeX Info: Redefining \rmfamily on input line 344.
-LaTeX Info: Redefining \sffamily on input line 344.
-LaTeX Info: Redefining \ttfamily on input line 344.
-
-
-LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/m/sl' undefined
-(Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 346.
-
-[4]
+LaTeX Info: Redefining \rmfamily on input line 343.
+LaTeX Info: Redefining \sffamily on input line 343.
+LaTeX Info: Redefining \ttfamily on input line 343.
+LaTeX Info: Redefining \rmfamily on input line 348.
+LaTeX Info: Redefining \sffamily on input line 348.
+LaTeX Info: Redefining \ttfamily on input line 348.
 LaTeX Info: Redefining \rmfamily on input line 350.
 LaTeX Info: Redefining \sffamily on input line 350.
 LaTeX Info: Redefining \ttfamily on input line 350.
@@ -3408,36 +3421,37 @@ LaTeX Info: Redefining \ttfamily on input line 352.
 LaTeX Info: Redefining \rmfamily on input line 354.
 LaTeX Info: Redefining \sffamily on input line 354.
 LaTeX Info: Redefining \ttfamily on input line 354.
-LaTeX Info: Redefining \rmfamily on input line 356.
-LaTeX Info: Redefining \sffamily on input line 356.
-LaTeX Info: Redefining \ttfamily on input line 356.
+
+
+LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/m/sl' undefined
+(Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
+e 356.
+
+[4]
 LaTeX Info: Redefining \rmfamily on input line 360.
 LaTeX Info: Redefining \sffamily on input line 360.
 LaTeX Info: Redefining \ttfamily on input line 360.
 LaTeX Info: Redefining \rmfamily on input line 362.
 LaTeX Info: Redefining \sffamily on input line 362.
 LaTeX Info: Redefining \ttfamily on input line 362.
+LaTeX Info: Redefining \rmfamily on input line 364.
+LaTeX Info: Redefining \sffamily on input line 364.
+LaTeX Info: Redefining \ttfamily on input line 364.
 LaTeX Info: Redefining \rmfamily on input line 366.
 LaTeX Info: Redefining \sffamily on input line 366.
 LaTeX Info: Redefining \ttfamily on input line 366.
-LaTeX Info: Redefining \rmfamily on input line 368.
-LaTeX Info: Redefining \sffamily on input line 368.
-LaTeX Info: Redefining \ttfamily on input line 368.
-LaTeX Info: Redefining \rmfamily on input line 371.
-LaTeX Info: Redefining \sffamily on input line 371.
-LaTeX Info: Redefining \ttfamily on input line 371.
-LaTeX Info: Redefining \rmfamily on input line 373.
-LaTeX Info: Redefining \sffamily on input line 373.
-LaTeX Info: Redefining \ttfamily on input line 373.
-LaTeX Info: Redefining \rmfamily on input line 375.
-LaTeX Info: Redefining \sffamily on input line 375.
-LaTeX Info: Redefining \ttfamily on input line 375.
-LaTeX Info: Redefining \rmfamily on input line 377.
-LaTeX Info: Redefining \sffamily on input line 377.
-LaTeX Info: Redefining \ttfamily on input line 377.
-LaTeX Info: Redefining \rmfamily on input line 379.
-LaTeX Info: Redefining \sffamily on input line 379.
-LaTeX Info: Redefining \ttfamily on input line 379.
+LaTeX Info: Redefining \rmfamily on input line 370.
+LaTeX Info: Redefining \sffamily on input line 370.
+LaTeX Info: Redefining \ttfamily on input line 370.
+LaTeX Info: Redefining \rmfamily on input line 372.
+LaTeX Info: Redefining \sffamily on input line 372.
+LaTeX Info: Redefining \ttfamily on input line 372.
+LaTeX Info: Redefining \rmfamily on input line 376.
+LaTeX Info: Redefining \sffamily on input line 376.
+LaTeX Info: Redefining \ttfamily on input line 376.
+LaTeX Info: Redefining \rmfamily on input line 378.
+LaTeX Info: Redefining \sffamily on input line 378.
+LaTeX Info: Redefining \ttfamily on input line 378.
 LaTeX Info: Redefining \rmfamily on input line 381.
 LaTeX Info: Redefining \sffamily on input line 381.
 LaTeX Info: Redefining \ttfamily on input line 381.
@@ -3453,24 +3467,27 @@ LaTeX Info: Redefining \ttfamily on input line 387.
 LaTeX Info: Redefining \rmfamily on input line 389.
 LaTeX Info: Redefining \sffamily on input line 389.
 LaTeX Info: Redefining \ttfamily on input line 389.
-LaTeX Info: Redefining \rmfamily on input line 392.
-LaTeX Info: Redefining \sffamily on input line 392.
-LaTeX Info: Redefining \ttfamily on input line 392.
-LaTeX Info: Redefining \rmfamily on input line 394.
-LaTeX Info: Redefining \sffamily on input line 394.
-LaTeX Info: Redefining \ttfamily on input line 394.
-LaTeX Info: Redefining \rmfamily on input line 396.
-LaTeX Info: Redefining \sffamily on input line 396.
-LaTeX Info: Redefining \ttfamily on input line 396.
-LaTeX Info: Redefining \rmfamily on input line 398.
-LaTeX Info: Redefining \sffamily on input line 398.
-LaTeX Info: Redefining \ttfamily on input line 398.
-LaTeX Info: Redefining \rmfamily on input line 400.
-LaTeX Info: Redefining \sffamily on input line 400.
-LaTeX Info: Redefining \ttfamily on input line 400.
+LaTeX Info: Redefining \rmfamily on input line 391.
+LaTeX Info: Redefining \sffamily on input line 391.
+LaTeX Info: Redefining \ttfamily on input line 391.
+LaTeX Info: Redefining \rmfamily on input line 393.
+LaTeX Info: Redefining \sffamily on input line 393.
+LaTeX Info: Redefining \ttfamily on input line 393.
+LaTeX Info: Redefining \rmfamily on input line 395.
+LaTeX Info: Redefining \sffamily on input line 395.
+LaTeX Info: Redefining \ttfamily on input line 395.
+LaTeX Info: Redefining \rmfamily on input line 397.
+LaTeX Info: Redefining \sffamily on input line 397.
+LaTeX Info: Redefining \ttfamily on input line 397.
+LaTeX Info: Redefining \rmfamily on input line 399.
+LaTeX Info: Redefining \sffamily on input line 399.
+LaTeX Info: Redefining \ttfamily on input line 399.
 LaTeX Info: Redefining \rmfamily on input line 402.
 LaTeX Info: Redefining \sffamily on input line 402.
 LaTeX Info: Redefining \ttfamily on input line 402.
+LaTeX Info: Redefining \rmfamily on input line 404.
+LaTeX Info: Redefining \sffamily on input line 404.
+LaTeX Info: Redefining \ttfamily on input line 404.
 LaTeX Info: Redefining \rmfamily on input line 406.
 LaTeX Info: Redefining \sffamily on input line 406.
 LaTeX Info: Redefining \ttfamily on input line 406.
@@ -3483,292 +3500,303 @@ LaTeX Info: Redefining \ttfamily on input line 410.
 LaTeX Info: Redefining \rmfamily on input line 412.
 LaTeX Info: Redefining \sffamily on input line 412.
 LaTeX Info: Redefining \ttfamily on input line 412.
-LaTeX Info: Redefining \rmfamily on input line 415.
-LaTeX Info: Redefining \sffamily on input line 415.
-LaTeX Info: Redefining \ttfamily on input line 415.
-LaTeX Info: Redefining \rmfamily on input line 417.
-LaTeX Info: Redefining \sffamily on input line 417.
-LaTeX Info: Redefining \ttfamily on input line 417.
+LaTeX Info: Redefining \rmfamily on input line 416.
+LaTeX Info: Redefining \sffamily on input line 416.
+LaTeX Info: Redefining \ttfamily on input line 416.
+LaTeX Info: Redefining \rmfamily on input line 418.
+LaTeX Info: Redefining \sffamily on input line 418.
+LaTeX Info: Redefining \ttfamily on input line 418.
 LaTeX Info: Redefining \rmfamily on input line 420.
 LaTeX Info: Redefining \sffamily on input line 420.
 LaTeX Info: Redefining \ttfamily on input line 420.
 LaTeX Info: Redefining \rmfamily on input line 422.
 LaTeX Info: Redefining \sffamily on input line 422.
 LaTeX Info: Redefining \ttfamily on input line 422.
-LaTeX Info: Redefining \rmfamily on input line 428.
-LaTeX Info: Redefining \sffamily on input line 428.
-LaTeX Info: Redefining \ttfamily on input line 428.
+LaTeX Info: Redefining \rmfamily on input line 425.
+LaTeX Info: Redefining \sffamily on input line 425.
+LaTeX Info: Redefining \ttfamily on input line 425.
+LaTeX Info: Redefining \rmfamily on input line 427.
+LaTeX Info: Redefining \sffamily on input line 427.
+LaTeX Info: Redefining \ttfamily on input line 427.
 LaTeX Info: Redefining \rmfamily on input line 430.
 LaTeX Info: Redefining \sffamily on input line 430.
 LaTeX Info: Redefining \ttfamily on input line 430.
 LaTeX Info: Redefining \rmfamily on input line 432.
 LaTeX Info: Redefining \sffamily on input line 432.
 LaTeX Info: Redefining \ttfamily on input line 432.
-LaTeX Info: Redefining \rmfamily on input line 434.
-LaTeX Info: Redefining \sffamily on input line 434.
-LaTeX Info: Redefining \ttfamily on input line 434.
-LaTeX Info: Redefining \rmfamily on input line 436.
-LaTeX Info: Redefining \sffamily on input line 436.
-LaTeX Info: Redefining \ttfamily on input line 436.
-LaTeX Info: Redefining \rmfamily on input line 438.
-LaTeX Info: Redefining \sffamily on input line 438.
-LaTeX Info: Redefining \ttfamily on input line 438.
-LaTeX Info: Redefining \rmfamily on input line 442.
-LaTeX Info: Redefining \sffamily on input line 442.
-LaTeX Info: Redefining \ttfamily on input line 442.
-LaTeX Info: Redefining \rmfamily on input line 444.
-LaTeX Info: Redefining \sffamily on input line 444.
-LaTeX Info: Redefining \ttfamily on input line 444.
+LaTeX Info: Redefining \rmfamily on input line 435.
+LaTeX Info: Redefining \sffamily on input line 435.
+LaTeX Info: Redefining \ttfamily on input line 435.
+LaTeX Info: Redefining \rmfamily on input line 437.
+LaTeX Info: Redefining \sffamily on input line 437.
+LaTeX Info: Redefining \ttfamily on input line 437.
+LaTeX Info: Redefining \rmfamily on input line 439.
+LaTeX Info: Redefining \sffamily on input line 439.
+LaTeX Info: Redefining \ttfamily on input line 439.
+LaTeX Info: Redefining \rmfamily on input line 441.
+LaTeX Info: Redefining \sffamily on input line 441.
+LaTeX Info: Redefining \ttfamily on input line 441.
+LaTeX Info: Redefining \rmfamily on input line 443.
+LaTeX Info: Redefining \sffamily on input line 443.
+LaTeX Info: Redefining \ttfamily on input line 443.
+LaTeX Info: Redefining \rmfamily on input line 445.
+LaTeX Info: Redefining \sffamily on input line 445.
+LaTeX Info: Redefining \ttfamily on input line 445.
+LaTeX Info: Redefining \rmfamily on input line 447.
+LaTeX Info: Redefining \sffamily on input line 447.
+LaTeX Info: Redefining \ttfamily on input line 447.
+LaTeX Info: Redefining \rmfamily on input line 449.
+LaTeX Info: Redefining \sffamily on input line 449.
+LaTeX Info: Redefining \ttfamily on input line 449.
 LaTeX Info: Redefining \rmfamily on input line 451.
 LaTeX Info: Redefining \sffamily on input line 451.
 LaTeX Info: Redefining \ttfamily on input line 451.
 LaTeX Info: Redefining \rmfamily on input line 453.
 LaTeX Info: Redefining \sffamily on input line 453.
 LaTeX Info: Redefining \ttfamily on input line 453.
-LaTeX Info: Redefining \rmfamily on input line 456.
-LaTeX Info: Redefining \sffamily on input line 456.
-LaTeX Info: Redefining \ttfamily on input line 456.
 LaTeX Info: Redefining \rmfamily on input line 458.
 LaTeX Info: Redefining \sffamily on input line 458.
 LaTeX Info: Redefining \ttfamily on input line 458.
-LaTeX Info: Redefining \rmfamily on input line 461.
-LaTeX Info: Redefining \sffamily on input line 461.
-LaTeX Info: Redefining \ttfamily on input line 461.
-LaTeX Info: Redefining \rmfamily on input line 463.
-LaTeX Info: Redefining \sffamily on input line 463.
-LaTeX Info: Redefining \ttfamily on input line 463.
-LaTeX Info: Redefining \rmfamily on input line 467.
-LaTeX Info: Redefining \sffamily on input line 467.
-LaTeX Info: Redefining \ttfamily on input line 467.
-LaTeX Info: Redefining \rmfamily on input line 469.
-LaTeX Info: Redefining \sffamily on input line 469.
-LaTeX Info: Redefining \ttfamily on input line 469.
-LaTeX Info: Redefining \rmfamily on input line 471.
-LaTeX Info: Redefining \sffamily on input line 471.
-LaTeX Info: Redefining \ttfamily on input line 471.
-LaTeX Info: Redefining \rmfamily on input line 473.
-LaTeX Info: Redefining \sffamily on input line 473.
-LaTeX Info: Redefining \ttfamily on input line 473.
-LaTeX Info: Redefining \rmfamily on input line 475.
-LaTeX Info: Redefining \sffamily on input line 475.
-LaTeX Info: Redefining \ttfamily on input line 475.
-LaTeX Info: Redefining \rmfamily on input line 477.
-LaTeX Info: Redefining \sffamily on input line 477.
-LaTeX Info: Redefining \ttfamily on input line 477.
+LaTeX Info: Redefining \rmfamily on input line 460.
+LaTeX Info: Redefining \sffamily on input line 460.
+LaTeX Info: Redefining \ttfamily on input line 460.
+LaTeX Info: Redefining \rmfamily on input line 462.
+LaTeX Info: Redefining \sffamily on input line 462.
+LaTeX Info: Redefining \ttfamily on input line 462.
+LaTeX Info: Redefining \rmfamily on input line 464.
+LaTeX Info: Redefining \sffamily on input line 464.
+LaTeX Info: Redefining \ttfamily on input line 464.
+LaTeX Info: Redefining \rmfamily on input line 466.
+LaTeX Info: Redefining \sffamily on input line 466.
+LaTeX Info: Redefining \ttfamily on input line 466.
+LaTeX Info: Redefining \rmfamily on input line 468.
+LaTeX Info: Redefining \sffamily on input line 468.
+LaTeX Info: Redefining \ttfamily on input line 468.
+LaTeX Info: Redefining \rmfamily on input line 472.
+LaTeX Info: Redefining \sffamily on input line 472.
+LaTeX Info: Redefining \ttfamily on input line 472.
+LaTeX Info: Redefining \rmfamily on input line 474.
+LaTeX Info: Redefining \sffamily on input line 474.
+LaTeX Info: Redefining \ttfamily on input line 474.
 LaTeX Info: Redefining \rmfamily on input line 481.
 LaTeX Info: Redefining \sffamily on input line 481.
 LaTeX Info: Redefining \ttfamily on input line 481.
 LaTeX Info: Redefining \rmfamily on input line 483.
 LaTeX Info: Redefining \sffamily on input line 483.
 LaTeX Info: Redefining \ttfamily on input line 483.
-LaTeX Info: Redefining \rmfamily on input line 485.
-LaTeX Info: Redefining \sffamily on input line 485.
-LaTeX Info: Redefining \ttfamily on input line 485.
-LaTeX Info: Redefining \rmfamily on input line 487.
-LaTeX Info: Redefining \sffamily on input line 487.
-LaTeX Info: Redefining \ttfamily on input line 487.
-LaTeX Info: Redefining \rmfamily on input line 489.
-LaTeX Info: Redefining \sffamily on input line 489.
-LaTeX Info: Redefining \ttfamily on input line 489.
+LaTeX Info: Redefining \rmfamily on input line 486.
+LaTeX Info: Redefining \sffamily on input line 486.
+LaTeX Info: Redefining \ttfamily on input line 486.
+LaTeX Info: Redefining \rmfamily on input line 488.
+LaTeX Info: Redefining \sffamily on input line 488.
+LaTeX Info: Redefining \ttfamily on input line 488.
 LaTeX Info: Redefining \rmfamily on input line 491.
 LaTeX Info: Redefining \sffamily on input line 491.
 LaTeX Info: Redefining \ttfamily on input line 491.
-LaTeX Info: Redefining \rmfamily on input line 494.
-LaTeX Info: Redefining \sffamily on input line 494.
-LaTeX Info: Redefining \ttfamily on input line 494.
-LaTeX Info: Redefining \rmfamily on input line 496.
-LaTeX Info: Redefining \sffamily on input line 496.
-LaTeX Info: Redefining \ttfamily on input line 496.
+LaTeX Info: Redefining \rmfamily on input line 493.
+LaTeX Info: Redefining \sffamily on input line 493.
+LaTeX Info: Redefining \ttfamily on input line 493.
+LaTeX Info: Redefining \rmfamily on input line 497.
+LaTeX Info: Redefining \sffamily on input line 497.
+LaTeX Info: Redefining \ttfamily on input line 497.
+LaTeX Info: Redefining \rmfamily on input line 499.
+LaTeX Info: Redefining \sffamily on input line 499.
+LaTeX Info: Redefining \ttfamily on input line 499.
+LaTeX Info: Redefining \rmfamily on input line 501.
+LaTeX Info: Redefining \sffamily on input line 501.
+LaTeX Info: Redefining \ttfamily on input line 501.
 LaTeX Info: Redefining \rmfamily on input line 503.
 LaTeX Info: Redefining \sffamily on input line 503.
 LaTeX Info: Redefining \ttfamily on input line 503.
 LaTeX Info: Redefining \rmfamily on input line 505.
 LaTeX Info: Redefining \sffamily on input line 505.
 LaTeX Info: Redefining \ttfamily on input line 505.
+LaTeX Info: Redefining \rmfamily on input line 507.
+LaTeX Info: Redefining \sffamily on input line 507.
+LaTeX Info: Redefining \ttfamily on input line 507.
+LaTeX Info: Redefining \rmfamily on input line 511.
+LaTeX Info: Redefining \sffamily on input line 511.
+LaTeX Info: Redefining \ttfamily on input line 511.
+LaTeX Info: Redefining \rmfamily on input line 513.
+LaTeX Info: Redefining \sffamily on input line 513.
+LaTeX Info: Redefining \ttfamily on input line 513.
+LaTeX Info: Redefining \rmfamily on input line 515.
+LaTeX Info: Redefining \sffamily on input line 515.
+LaTeX Info: Redefining \ttfamily on input line 515.
+LaTeX Info: Redefining \rmfamily on input line 517.
+LaTeX Info: Redefining \sffamily on input line 517.
+LaTeX Info: Redefining \ttfamily on input line 517.
+LaTeX Info: Redefining \rmfamily on input line 519.
+LaTeX Info: Redefining \sffamily on input line 519.
+LaTeX Info: Redefining \ttfamily on input line 519.
+LaTeX Info: Redefining \rmfamily on input line 521.
+LaTeX Info: Redefining \sffamily on input line 521.
+LaTeX Info: Redefining \ttfamily on input line 521.
+LaTeX Info: Redefining \rmfamily on input line 524.
+LaTeX Info: Redefining \sffamily on input line 524.
+LaTeX Info: Redefining \ttfamily on input line 524.
+LaTeX Info: Redefining \rmfamily on input line 526.
+LaTeX Info: Redefining \sffamily on input line 526.
+LaTeX Info: Redefining \ttfamily on input line 526.
+LaTeX Info: Redefining \rmfamily on input line 533.
+LaTeX Info: Redefining \sffamily on input line 533.
+LaTeX Info: Redefining \ttfamily on input line 533.
+LaTeX Info: Redefining \rmfamily on input line 535.
+LaTeX Info: Redefining \sffamily on input line 535.
+LaTeX Info: Redefining \ttfamily on input line 535.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/sl' will be
-(Font)              scaled to size 10.0pt on input line 508.
+(Font)              scaled to size 10.0pt on input line 538.
  [5]
-LaTeX Info: Redefining \rmfamily on input line 510.
-LaTeX Info: Redefining \sffamily on input line 510.
-LaTeX Info: Redefining \ttfamily on input line 510.
-LaTeX Info: Redefining \rmfamily on input line 512.
-LaTeX Info: Redefining \sffamily on input line 512.
-LaTeX Info: Redefining \ttfamily on input line 512.
-LaTeX Info: Redefining \rmfamily on input line 514.
-LaTeX Info: Redefining \sffamily on input line 514.
-LaTeX Info: Redefining \ttfamily on input line 514.
-LaTeX Info: Redefining \rmfamily on input line 516.
-LaTeX Info: Redefining \sffamily on input line 516.
-LaTeX Info: Redefining \ttfamily on input line 516.
-LaTeX Info: Redefining \rmfamily on input line 518.
-LaTeX Info: Redefining \sffamily on input line 518.
-LaTeX Info: Redefining \ttfamily on input line 518.
-LaTeX Info: Redefining \rmfamily on input line 520.
-LaTeX Info: Redefining \sffamily on input line 520.
-LaTeX Info: Redefining \ttfamily on input line 520.
-LaTeX Info: Redefining \rmfamily on input line 523.
-LaTeX Info: Redefining \sffamily on input line 523.
-LaTeX Info: Redefining \ttfamily on input line 523.
-LaTeX Info: Redefining \rmfamily on input line 525.
-LaTeX Info: Redefining \sffamily on input line 525.
-LaTeX Info: Redefining \ttfamily on input line 525.
-LaTeX Info: Redefining \rmfamily on input line 527.
-LaTeX Info: Redefining \sffamily on input line 527.
-LaTeX Info: Redefining \ttfamily on input line 527.
-LaTeX Info: Redefining \rmfamily on input line 529.
-LaTeX Info: Redefining \sffamily on input line 529.
-LaTeX Info: Redefining \ttfamily on input line 529.
-LaTeX Info: Redefining \rmfamily on input line 534.
-LaTeX Info: Redefining \sffamily on input line 534.
-LaTeX Info: Redefining \ttfamily on input line 534.
-LaTeX Info: Redefining \rmfamily on input line 536.
-LaTeX Info: Redefining \sffamily on input line 536.
-LaTeX Info: Redefining \ttfamily on input line 536.
-LaTeX Info: Redefining \rmfamily on input line 538.
-LaTeX Info: Redefining \sffamily on input line 538.
-LaTeX Info: Redefining \ttfamily on input line 538.
 LaTeX Info: Redefining \rmfamily on input line 540.
 LaTeX Info: Redefining \sffamily on input line 540.
 LaTeX Info: Redefining \ttfamily on input line 540.
-LaTeX Info: Redefining \rmfamily on input line 554.
-LaTeX Info: Redefining \sffamily on input line 554.
-LaTeX Info: Redefining \ttfamily on input line 554.
-LaTeX Info: Redefining \rmfamily on input line 556.
-LaTeX Info: Redefining \sffamily on input line 556.
-LaTeX Info: Redefining \ttfamily on input line 556.
-LaTeX Info: Redefining \rmfamily on input line 558.
-LaTeX Info: Redefining \sffamily on input line 558.
-LaTeX Info: Redefining \ttfamily on input line 558.
-LaTeX Info: Redefining \rmfamily on input line 560.
-LaTeX Info: Redefining \sffamily on input line 560.
-LaTeX Info: Redefining \ttfamily on input line 560.
-LaTeX Info: Redefining \rmfamily on input line 563.
-LaTeX Info: Redefining \sffamily on input line 563.
-LaTeX Info: Redefining \ttfamily on input line 563.
-LaTeX Info: Redefining \rmfamily on input line 565.
-LaTeX Info: Redefining \sffamily on input line 565.
-LaTeX Info: Redefining \ttfamily on input line 565.
-LaTeX Info: Redefining \rmfamily on input line 569.
-LaTeX Info: Redefining \sffamily on input line 569.
-LaTeX Info: Redefining \ttfamily on input line 569.
-LaTeX Info: Redefining \rmfamily on input line 571.
-LaTeX Info: Redefining \sffamily on input line 571.
-LaTeX Info: Redefining \ttfamily on input line 571.
+LaTeX Info: Redefining \rmfamily on input line 542.
+LaTeX Info: Redefining \sffamily on input line 542.
+LaTeX Info: Redefining \ttfamily on input line 542.
+LaTeX Info: Redefining \rmfamily on input line 544.
+LaTeX Info: Redefining \sffamily on input line 544.
+LaTeX Info: Redefining \ttfamily on input line 544.
+LaTeX Info: Redefining \rmfamily on input line 546.
+LaTeX Info: Redefining \sffamily on input line 546.
+LaTeX Info: Redefining \ttfamily on input line 546.
+LaTeX Info: Redefining \rmfamily on input line 548.
+LaTeX Info: Redefining \sffamily on input line 548.
+LaTeX Info: Redefining \ttfamily on input line 548.
+LaTeX Info: Redefining \rmfamily on input line 550.
+LaTeX Info: Redefining \sffamily on input line 550.
+LaTeX Info: Redefining \ttfamily on input line 550.
+LaTeX Info: Redefining \rmfamily on input line 553.
+LaTeX Info: Redefining \sffamily on input line 553.
+LaTeX Info: Redefining \ttfamily on input line 553.
+LaTeX Info: Redefining \rmfamily on input line 555.
+LaTeX Info: Redefining \sffamily on input line 555.
+LaTeX Info: Redefining \ttfamily on input line 555.
+LaTeX Info: Redefining \rmfamily on input line 557.
+LaTeX Info: Redefining \sffamily on input line 557.
+LaTeX Info: Redefining \ttfamily on input line 557.
+LaTeX Info: Redefining \rmfamily on input line 559.
+LaTeX Info: Redefining \sffamily on input line 559.
+LaTeX Info: Redefining \ttfamily on input line 559.
+LaTeX Info: Redefining \rmfamily on input line 564.
+LaTeX Info: Redefining \sffamily on input line 564.
+LaTeX Info: Redefining \ttfamily on input line 564.
+LaTeX Info: Redefining \rmfamily on input line 566.
+LaTeX Info: Redefining \sffamily on input line 566.
+LaTeX Info: Redefining \ttfamily on input line 566.
+LaTeX Info: Redefining \rmfamily on input line 568.
+LaTeX Info: Redefining \sffamily on input line 568.
+LaTeX Info: Redefining \ttfamily on input line 568.
+LaTeX Info: Redefining \rmfamily on input line 570.
+LaTeX Info: Redefining \sffamily on input line 570.
+LaTeX Info: Redefining \ttfamily on input line 570.
+LaTeX Info: Redefining \rmfamily on input line 572.
+LaTeX Info: Redefining \sffamily on input line 572.
+LaTeX Info: Redefining \ttfamily on input line 572.
 LaTeX Info: Redefining \rmfamily on input line 574.
 LaTeX Info: Redefining \sffamily on input line 574.
 LaTeX Info: Redefining \ttfamily on input line 574.
 LaTeX Info: Redefining \rmfamily on input line 576.
 LaTeX Info: Redefining \sffamily on input line 576.
 LaTeX Info: Redefining \ttfamily on input line 576.
+LaTeX Info: Redefining \rmfamily on input line 578.
+LaTeX Info: Redefining \sffamily on input line 578.
+LaTeX Info: Redefining \ttfamily on input line 578.
+LaTeX Info: Redefining \rmfamily on input line 580.
+LaTeX Info: Redefining \sffamily on input line 580.
+LaTeX Info: Redefining \ttfamily on input line 580.
 LaTeX Info: Redefining \rmfamily on input line 582.
 LaTeX Info: Redefining \sffamily on input line 582.
 LaTeX Info: Redefining \ttfamily on input line 582.
 LaTeX Info: Redefining \rmfamily on input line 584.
 LaTeX Info: Redefining \sffamily on input line 584.
 LaTeX Info: Redefining \ttfamily on input line 584.
-LaTeX Info: Redefining \rmfamily on input line 587.
-LaTeX Info: Redefining \sffamily on input line 587.
-LaTeX Info: Redefining \ttfamily on input line 587.
-LaTeX Info: Redefining \rmfamily on input line 589.
-LaTeX Info: Redefining \sffamily on input line 589.
-LaTeX Info: Redefining \ttfamily on input line 589.
-LaTeX Info: Redefining \rmfamily on input line 593.
-LaTeX Info: Redefining \sffamily on input line 593.
-LaTeX Info: Redefining \ttfamily on input line 593.
-LaTeX Info: Redefining \rmfamily on input line 595.
-LaTeX Info: Redefining \sffamily on input line 595.
-LaTeX Info: Redefining \ttfamily on input line 595.
-LaTeX Info: Redefining \rmfamily on input line 600.
-LaTeX Info: Redefining \sffamily on input line 600.
-LaTeX Info: Redefining \ttfamily on input line 600.
-LaTeX Info: Redefining \rmfamily on input line 602.
-LaTeX Info: Redefining \sffamily on input line 602.
-LaTeX Info: Redefining \ttfamily on input line 602.
-LaTeX Info: Redefining \rmfamily on input line 604.
-LaTeX Info: Redefining \sffamily on input line 604.
-LaTeX Info: Redefining \ttfamily on input line 604.
-LaTeX Info: Redefining \rmfamily on input line 606.
-LaTeX Info: Redefining \sffamily on input line 606.
-LaTeX Info: Redefining \ttfamily on input line 606.
-
-
-LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(0)/b/n' undefined
-(Font)              using `TU/JameelNooriNastaleeq(0)/m/n' instead on input lin
-e 612.
-
-[6]
+LaTeX Info: Redefining \rmfamily on input line 586.
+LaTeX Info: Redefining \sffamily on input line 586.
+LaTeX Info: Redefining \ttfamily on input line 586.
+LaTeX Info: Redefining \rmfamily on input line 588.
+LaTeX Info: Redefining \sffamily on input line 588.
+LaTeX Info: Redefining \ttfamily on input line 588.
+LaTeX Info: Redefining \rmfamily on input line 590.
+LaTeX Info: Redefining \sffamily on input line 590.
+LaTeX Info: Redefining \ttfamily on input line 590.
+LaTeX Info: Redefining \rmfamily on input line 592.
+LaTeX Info: Redefining \sffamily on input line 592.
+LaTeX Info: Redefining \ttfamily on input line 592.
+LaTeX Info: Redefining \rmfamily on input line 594.
+LaTeX Info: Redefining \sffamily on input line 594.
+LaTeX Info: Redefining \ttfamily on input line 594.
+LaTeX Info: Redefining \rmfamily on input line 596.
+LaTeX Info: Redefining \sffamily on input line 596.
+LaTeX Info: Redefining \ttfamily on input line 596.
+LaTeX Info: Redefining \rmfamily on input line 598.
+LaTeX Info: Redefining \sffamily on input line 598.
+LaTeX Info: Redefining \ttfamily on input line 598.
+LaTeX Info: Redefining \rmfamily on input line 612.
+LaTeX Info: Redefining \sffamily on input line 612.
+LaTeX Info: Redefining \ttfamily on input line 612.
+LaTeX Info: Redefining \rmfamily on input line 614.
+LaTeX Info: Redefining \sffamily on input line 614.
+LaTeX Info: Redefining \ttfamily on input line 614.
 LaTeX Info: Redefining \rmfamily on input line 616.
 LaTeX Info: Redefining \sffamily on input line 616.
 LaTeX Info: Redefining \ttfamily on input line 616.
 LaTeX Info: Redefining \rmfamily on input line 618.
 LaTeX Info: Redefining \sffamily on input line 618.
 LaTeX Info: Redefining \ttfamily on input line 618.
-LaTeX Info: Redefining \rmfamily on input line 628.
-LaTeX Info: Redefining \sffamily on input line 628.
-LaTeX Info: Redefining \ttfamily on input line 628.
+LaTeX Info: Redefining \rmfamily on input line 621.
+LaTeX Info: Redefining \sffamily on input line 621.
+LaTeX Info: Redefining \ttfamily on input line 621.
+LaTeX Info: Redefining \rmfamily on input line 623.
+LaTeX Info: Redefining \sffamily on input line 623.
+LaTeX Info: Redefining \ttfamily on input line 623.
+LaTeX Info: Redefining \rmfamily on input line 627.
+LaTeX Info: Redefining \sffamily on input line 627.
+LaTeX Info: Redefining \ttfamily on input line 627.
 LaTeX Info: Redefining \rmfamily on input line 629.
 LaTeX Info: Redefining \sffamily on input line 629.
 LaTeX Info: Redefining \ttfamily on input line 629.
-LaTeX Info: Redefining \rmfamily on input line 631.
-LaTeX Info: Redefining \sffamily on input line 631.
-LaTeX Info: Redefining \ttfamily on input line 631.
-LaTeX Info: Redefining \rmfamily on input line 633.
-LaTeX Info: Redefining \sffamily on input line 633.
-LaTeX Info: Redefining \ttfamily on input line 633.
-LaTeX Info: Redefining \rmfamily on input line 635.
-LaTeX Info: Redefining \sffamily on input line 635.
-LaTeX Info: Redefining \ttfamily on input line 635.
-LaTeX Info: Redefining \rmfamily on input line 637.
-LaTeX Info: Redefining \sffamily on input line 637.
-LaTeX Info: Redefining \ttfamily on input line 637.
-LaTeX Info: Redefining \rmfamily on input line 639.
-LaTeX Info: Redefining \sffamily on input line 639.
-LaTeX Info: Redefining \ttfamily on input line 639.
-LaTeX Info: Redefining \rmfamily on input line 641.
-LaTeX Info: Redefining \sffamily on input line 641.
-LaTeX Info: Redefining \ttfamily on input line 641.
-LaTeX Info: Redefining \rmfamily on input line 643.
-LaTeX Info: Redefining \sffamily on input line 643.
-LaTeX Info: Redefining \ttfamily on input line 643.
-LaTeX Info: Redefining \rmfamily on input line 645.
-LaTeX Info: Redefining \sffamily on input line 645.
-LaTeX Info: Redefining \ttfamily on input line 645.
-LaTeX Info: Redefining \rmfamily on input line 647.
-LaTeX Info: Redefining \sffamily on input line 647.
-LaTeX Info: Redefining \ttfamily on input line 647.
+LaTeX Info: Redefining \rmfamily on input line 632.
+LaTeX Info: Redefining \sffamily on input line 632.
+LaTeX Info: Redefining \ttfamily on input line 632.
+LaTeX Info: Redefining \rmfamily on input line 634.
+LaTeX Info: Redefining \sffamily on input line 634.
+LaTeX Info: Redefining \ttfamily on input line 634.
+LaTeX Info: Redefining \rmfamily on input line 638.
+LaTeX Info: Redefining \sffamily on input line 638.
+LaTeX Info: Redefining \ttfamily on input line 638.
+LaTeX Info: Redefining \rmfamily on input line 640.
+LaTeX Info: Redefining \sffamily on input line 640.
+LaTeX Info: Redefining \ttfamily on input line 640.
+LaTeX Info: Redefining \rmfamily on input line 644.
+LaTeX Info: Redefining \sffamily on input line 644.
+LaTeX Info: Redefining \ttfamily on input line 644.
+LaTeX Info: Redefining \rmfamily on input line 646.
+LaTeX Info: Redefining \sffamily on input line 646.
+LaTeX Info: Redefining \ttfamily on input line 646.
 LaTeX Info: Redefining \rmfamily on input line 649.
 LaTeX Info: Redefining \sffamily on input line 649.
 LaTeX Info: Redefining \ttfamily on input line 649.
 LaTeX Info: Redefining \rmfamily on input line 651.
 LaTeX Info: Redefining \sffamily on input line 651.
 LaTeX Info: Redefining \ttfamily on input line 651.
-LaTeX Info: Redefining \rmfamily on input line 653.
-LaTeX Info: Redefining \sffamily on input line 653.
-LaTeX Info: Redefining \ttfamily on input line 653.
 LaTeX Info: Redefining \rmfamily on input line 655.
 LaTeX Info: Redefining \sffamily on input line 655.
 LaTeX Info: Redefining \ttfamily on input line 655.
 LaTeX Info: Redefining \rmfamily on input line 657.
 LaTeX Info: Redefining \sffamily on input line 657.
 LaTeX Info: Redefining \ttfamily on input line 657.
-LaTeX Info: Redefining \rmfamily on input line 659.
-LaTeX Info: Redefining \sffamily on input line 659.
-LaTeX Info: Redefining \ttfamily on input line 659.
-LaTeX Info: Redefining \rmfamily on input line 661.
-LaTeX Info: Redefining \sffamily on input line 661.
-LaTeX Info: Redefining \ttfamily on input line 661.
-LaTeX Info: Redefining \rmfamily on input line 663.
-LaTeX Info: Redefining \sffamily on input line 663.
-LaTeX Info: Redefining \ttfamily on input line 663.
-LaTeX Info: Redefining \rmfamily on input line 665.
-LaTeX Info: Redefining \sffamily on input line 665.
-LaTeX Info: Redefining \ttfamily on input line 665.
-LaTeX Info: Redefining \rmfamily on input line 667.
-LaTeX Info: Redefining \sffamily on input line 667.
-LaTeX Info: Redefining \ttfamily on input line 667.
-LaTeX Info: Redefining \rmfamily on input line 669.
-LaTeX Info: Redefining \sffamily on input line 669.
-LaTeX Info: Redefining \ttfamily on input line 669.
+LaTeX Info: Redefining \rmfamily on input line 662.
+LaTeX Info: Redefining \sffamily on input line 662.
+LaTeX Info: Redefining \ttfamily on input line 662.
+LaTeX Info: Redefining \rmfamily on input line 664.
+LaTeX Info: Redefining \sffamily on input line 664.
+LaTeX Info: Redefining \ttfamily on input line 664.
+LaTeX Info: Redefining \rmfamily on input line 666.
+LaTeX Info: Redefining \sffamily on input line 666.
+LaTeX Info: Redefining \ttfamily on input line 666.
+LaTeX Info: Redefining \rmfamily on input line 668.
+LaTeX Info: Redefining \sffamily on input line 668.
+LaTeX Info: Redefining \ttfamily on input line 668.
 LaTeX Info: Redefining \rmfamily on input line 671.
 LaTeX Info: Redefining \sffamily on input line 671.
 LaTeX Info: Redefining \ttfamily on input line 671.
@@ -3781,32 +3809,27 @@ LaTeX Info: Redefining \ttfamily on input line 675.
 LaTeX Info: Redefining \rmfamily on input line 677.
 LaTeX Info: Redefining \sffamily on input line 677.
 LaTeX Info: Redefining \ttfamily on input line 677.
-LaTeX Info: Redefining \rmfamily on input line 679.
-LaTeX Info: Redefining \sffamily on input line 679.
-LaTeX Info: Redefining \ttfamily on input line 679.
-LaTeX Info: Redefining \rmfamily on input line 681.
-LaTeX Info: Redefining \sffamily on input line 681.
-LaTeX Info: Redefining \ttfamily on input line 681.
-LaTeX Info: Redefining \rmfamily on input line 683.
-LaTeX Info: Redefining \sffamily on input line 683.
-LaTeX Info: Redefining \ttfamily on input line 683.
-LaTeX Info: Redefining \rmfamily on input line 685.
-LaTeX Info: Redefining \sffamily on input line 685.
-LaTeX Info: Redefining \ttfamily on input line 685.
-LaTeX Info: Redefining \rmfamily on input line 687.
-LaTeX Info: Redefining \sffamily on input line 687.
-LaTeX Info: Redefining \ttfamily on input line 687.
-LaTeX Info: Redefining \rmfamily on input line 689.
-LaTeX Info: Redefining \sffamily on input line 689.
-LaTeX Info: Redefining \ttfamily on input line 689.
+
+
+LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(0)/b/n' undefined
+(Font)              using `TU/JameelNooriNastaleeq(0)/m/n' instead on input lin
+e 682.
+
+[6]
+LaTeX Info: Redefining \rmfamily on input line 686.
+LaTeX Info: Redefining \sffamily on input line 686.
+LaTeX Info: Redefining \ttfamily on input line 686.
+LaTeX Info: Redefining \rmfamily on input line 688.
+LaTeX Info: Redefining \sffamily on input line 688.
+LaTeX Info: Redefining \ttfamily on input line 688.
 )
 \tf@toc=\write7
 \openout7 = `digitalCircuitsLatex.toc'.
 
  [7]
-\openout2 = `./tex/questions.aux'.
+\openout2 = `./tex/simplestComputer.aux'.
 
- (./tex/questions.tex [246
+ (./tex/simplestComputer.tex [266
 
 
 
@@ -3828,723 +3851,29 @@ LaTeX Info: Redefining \ttfamily on input line 689.
 ]
 باب \arabicdigits{12}.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 4.
+(Font)              scaled to size 20.74pt on input line 1.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: $[]$، $[]$، $[]$، $[]$، $[]$، $[]
-$، $[]$،[]
- []
-
-[247]
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب:اساس سولہ $\OT1/ppl/m/n/10 7$\TU/J
-ameelNooriNastaleeq(2)/m/sl/10 ، $[]$، $[]$، $[]$، $[]$، $[]$، $[]$، $[]$؛ ثنائ
-ی $[]$، $[]$،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--164
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦:  درج ذیل ثنائی مجموعے حاصل ک
-ریں۔ان سوالات کو اعشاری روپ میں بھی حل کریں۔جوابات کا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--189
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٧:  درج ذیل ثنائی اعداد کے سوال
-ات حل کریں۔ان سوالات کو اعشاری روپ میں بھی حل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--214
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٨:  درج ذیل ثنائی اعداد کے سوال
-ات حل کریں۔انہیں سوالات کو اعشاری روپ میں بھی حل[]
- []
-
-[248]
-Underfull \hbox (badness 1360) in paragraph at lines 282--283
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: تکملات نو $\OT1/ppl/m/n/10 3$\TU/
-JameelNooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10 1$\TU/JameelNooriNastaleeq(2
-)/m/sl/10 ، $[]$، $[]$، $[]$، $[]$؛ تکملات دس $\OT1/ppl/m/n/10 4$\TU/JameelNoor
-iNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10 2$\TU/JameelNooriNastaleeq(2)/m/sl/10 
-، $[]$، $[]$، $[]$،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: تکملات ایک $[]$، $[]$، $[]$، $[]$
-؛ تکملات دو $[]$، $[]$، $[]$،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--310
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.١٢:  درج ذیل اعشاری سوالات کو ت
-کملہ نو اور تکملہ دس استعمال کرتے ہوئے حل کریں۔ سادہ طریقے سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--331
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.١٣:  درج ذیل ثنائی سوالات کو تک
-ملہ ایک اور تکملہ دو سے حل کریں۔ سادہ ثنائی طریقے سے حاصل[]
- []
-
-[249]
-LaTeX Info: Redefining \rmfamily on input line 390.
-LaTeX Info: Redefining \sffamily on input line 390.
-LaTeX Info: Redefining \ttfamily on input line 390.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 392.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 392.
-LaTeX Info: Redefining \rmfamily on input line 427.
-LaTeX Info: Redefining \sffamily on input line 427.
-LaTeX Info: Redefining \ttfamily on input line 427.
-
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
- [250]
-LaTeX Info: Redefining \rmfamily on input line 516.
-LaTeX Info: Redefining \sffamily on input line 516.
-LaTeX Info: Redefining \ttfamily on input line 516.
-LaTeX Info: Redefining \rmfamily on input line 525.
-LaTeX Info: Redefining \sffamily on input line 525.
-LaTeX Info: Redefining \ttfamily on input line 525.
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--549
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢١:  (ا) بوولین مماثل استعمال ک
-رتے ہوئے درج ذیل کو ضرب بعد از جمع کی شکل میں لکھیں ۔ (ب) ان[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--549
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تفاعل کے جدول لکھ کر یہی جواب حاصل کریں۔ 
-(ج) دیے گئے تفاعل اور حاصل جواب کے جدول لکھ کر[]
- []
-
-[251]
-Underfull \hbox (badness 10000) in paragraph at lines 561--565
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢٢:  تفاعل $\OML/zplm/m/it/10 Y
-$ \TU/JameelNooriNastaleeq(2)/m/sl/10 درج ذیل صورتوں میں $\OT1/ppl/m/n/10 1$ \T
-U/JameelNooriNastaleeq(2)/m/sl/10 کے برابر ہے۔اگر $[]$، $[]$، اور $[]$ہو یا اگر
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--565
-[]$[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $[]$، اور $[]$ہو اور یا اگر $[]$، $
-[]$، اور $[]$ہو۔دیگر صورت تفاعل کی قیمت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--565
-[]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ان معلومات کا جدول لکھ کر تفاعل ک
-ی سادہ مساوات مجموعہ ارکان ضرب کے روپ میں[]
- []
-
-LaTeX Font Info:    Font shape `TU/AASameerSagarNastaleeqBold(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 570.
+(Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 7.6pt on input line 570.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 570.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 570.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 570.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 570.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 570.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 570.
-LaTeX Info: Redefining \rmfamily on input line 570.
-LaTeX Info: Redefining \sffamily on input line 570.
-LaTeX Info: Redefining \ttfamily on input line 570.
-LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 570.
-LaTeX Info: Redefining \rmfamily on input line 570.
-LaTeX Info: Redefining \sffamily on input line 570.
-LaTeX Info: Redefining \ttfamily on input line 570.
+(Font)              scaled to size 14.4pt on input line 4.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--602
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یا اگر $[]$، $[]$، اور $[]$ہو یا اگر $[]$
-، $[]$، اور $[]$ہو اور یا اگر $[]$، $[]$، اور[]
+Overfull \hbox (1.49583pt too wide) in paragraph at lines 56--56
+ [][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--602
-[]$[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 ہو۔ ان صورتوں کے علاوہ اس کی قیمت ایک
- $[]$ رہتی ہے۔ان معلومات کا جدول لکھ کر $\OML/zplm/m/it/10 Z$ \TU/JameelNooriNa
-staleeq(2)/m/sl/10 کی ضرب[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 607.
-LaTeX Info: Redefining \sffamily on input line 607.
-LaTeX Info: Redefining \ttfamily on input line 607.
-[252]
-Underfull \hbox (badness 10000) in paragraph at lines 640--644
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢٦:  جدول میں $\OML/zplm/m/it/1
-0 A$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zplm/m/it/10 B$\TU/JameelNooriN
-astaleeq(2)/m/sl/10 ، اور $\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(2)/m/s
-l/10 تین آزاد داخلی متغیرات جبکہ $[]$، $[]$, اور $[]$ تابع خارجی[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 645.
-LaTeX Info: Redefining \sffamily on input line 645.
-LaTeX Info: Redefining \ttfamily on input line 645.
-LaTeX Info: Redefining \rmfamily on input line 660.
-LaTeX Info: Redefining \sffamily on input line 660.
-LaTeX Info: Redefining \ttfamily on input line 660.
-
-Underfull \hbox (badness 10000) in paragraph at lines 683--687
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: (ا) $[]$، $[]$،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 687--692
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢٧:  درج ذیل تفاعل مجموعہ ارکان
- ضرب روپ میں ہیں۔انہیں ضرب بعد از جمع روپ میں[]
- []
-
-[253]
-Overfull \hbox (27.22134pt too wide) in paragraph at lines 706--707
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: (ا) $[]$، (ج) $[]$، (ھ) $[]$ []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--712
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢٨:  درج ذیل تفاعل ضرب بعد از ج
-مع روپ میں ہیں۔انہیں مجموعہ ارکان ضرب روپ میں[]
- []
-
-
-Underfull \hbox (badness 4582) in paragraph at lines 723--728
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢٩:  انٹرنیٹ سے درج ذیل معلومات
-ی صفحات حاصل کریں۔ یہ مخلوط ادوار پاکستان کے ہر شہر میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 749--753
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٣٠:  گزشتہ سوال میں $[]$ مخلوط 
-دور کے معلومات صفحات سے دریافت کریں اس میں موجود[]
- []
-
-[254]
-Underfull \hbox (badness 10000) in paragraph at lines 790--791
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایک بوولین جدول بنائیں جس میں چار آزاد 
-متغیرات $\OML/zplm/m/it/10 A$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zplm/m
-/it/10 B$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OML/zplm/m/it/10 C$\TU/JameelN
-ooriNastaleeq(2)/m/sl/10 ، اور $\OML/zplm/m/it/10 D$ \TU/JameelNooriNastaleeq(2
-)/m/sl/10 کی تمام ممکنہ ترتیب درج[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 793--795
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: (ا) $[]$، $[]$؛ (ب) $[]$،[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 795--799
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٣٤:  ایسا بوولین جدول بنائیں جس
- میں تین مداخل اور ایک مخارج ہو۔جدول یوں پُر کریں کہ مخارج کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 795--799
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قیمت صرف اُس صورت ایک $[]$ ہو جب صرف ایک 
-مداخل کی قیمت صفر $[]$ ہو۔اس جدول کی[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 802.
-LaTeX Info: Redefining \sffamily on input line 802.
-LaTeX Info: Redefining \ttfamily on input line 802.
-LaTeX Info: Redefining \rmfamily on input line 817.
-LaTeX Info: Redefining \sffamily on input line 817.
-LaTeX Info: Redefining \ttfamily on input line 817.
-
-Underfull \hbox (badness 10000) in paragraph at lines 820--824
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٣٥:  چار مداخل کا ایسا بوولین ج
-دول بنائیں جس میں مخارج صرف اُس صورت بلند ہو جب[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 826--830
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٣٦:  تین مداخل اور تین مخارج کا
- ایسا بوولین جدول تشکیل دیں جس میں داخلی ثنائی عدد کی قیمت[]
- []
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 826--830
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سات $[]$ سے کم ہونے کی صورت میں مخارج کی 
-قیمت مداخل سے ایک زیادہ ہو جبکہ داخلی قیمت سات[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 833.
-LaTeX Info: Redefining \sffamily on input line 833.
-LaTeX Info: Redefining \ttfamily on input line 833.
-LaTeX Info: Redefining \rmfamily on input line 848.
-LaTeX Info: Redefining \sffamily on input line 848.
-LaTeX Info: Redefining \ttfamily on input line 848.
-
-Underfull \vbox (badness 4229) has occurred while \output is active []
-
- [255]
-LaTeX Info: Redefining \rmfamily on input line 853.
-LaTeX Info: Redefining \sffamily on input line 853.
-LaTeX Info: Redefining \ttfamily on input line 853.
-
-Underfull \hbox (badness 10000) in paragraph at lines 850--854
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٣٧:  \TU/AASameerSagarNastaleeq
-Bold(0)/m/n/10 اقلیتی دور [][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 ایسے ترک
-یبی دور کو کہتے ہیں جس کا مداخل اس صورت بلند ہوتا ہے جب اس کے زیادہ تر[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 857.
-LaTeX Info: Redefining \sffamily on input line 857.
-LaTeX Info: Redefining \ttfamily on input line 857.
-LaTeX Info: Redefining \rmfamily on input line 872.
-LaTeX Info: Redefining \sffamily on input line 872.
-LaTeX Info: Redefining \ttfamily on input line 872.
-LaTeX Info: Redefining \rmfamily on input line 880.
-LaTeX Info: Redefining \sffamily on input line 880.
-LaTeX Info: Redefining \ttfamily on input line 880.
-LaTeX Info: Redefining \rmfamily on input line 903.
-LaTeX Info: Redefining \sffamily on input line 903.
-LaTeX Info: Redefining \ttfamily on input line 903.
-[256]
-Underfull \hbox (badness 10000) in paragraph at lines 932--936
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٤٢:  ایک عدد $[]$ شناخت کار کی 
-مدد سے درج ذیل تین تفاعلات کا دور شکل ٥.‏٢٠[] کے طرز پر[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [257]
-LaTeX Info: Redefining \rmfamily on input line 955.
-LaTeX Info: Redefining \sffamily on input line 955.
-LaTeX Info: Redefining \ttfamily on input line 955.
-
-Underfull \hbox (badness 7451) in paragraph at lines 952--956
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قابل روشن حصوں پر مبنی ہے۔ان حصوں میں سے 
-کسی ایک یا ایک سے زیادہ حصوں کو بیک وقت روشن کیا جا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--956
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سکتا ہے۔یوں مختلف حصے روشن کرنے سے اعشاری
- ہندسے لکھے جاتے ہیں۔مثلاً حصہ ب اور پ (یعنی بپ) بیک[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 952--956
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 وقت روشن کرنے سے $\OT1/ppl/m/n/10 1$ \TU/
-JameelNooriNastaleeq(2)/m/sl/10 لکھا جائے گا۔اسی طرح حصہ ا،ب، پ، ت، ٹ، اور ث (ی
-عنی ابپتٹث) بیک[]
- []
-
-
-Underfull \hbox (badness 7221) in paragraph at lines 952--956
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 وقت روشن کرنے سے $\OT1/ppl/m/n/10 0$ \TU/
-JameelNooriNastaleeq(2)/m/sl/10 لکھا جا ئے گا۔ فرض کریں کسی حصے کو روشن کرنے کے
- لئے اس حصہ کو بلند کیا جاتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 957--1029
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 چار مداخل اور سات مخارج کا ترکیبی دور ت
-شکیل دیں جو مہیا کردہ اعشاری ہندسے کو اس تختی پر دکھائے (جدول[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 1032.
-LaTeX Info: Redefining \sffamily on input line 1032.
-LaTeX Info: Redefining \ttfamily on input line 1032.
-LaTeX Info: Redefining \rmfamily on input line 1055.
-LaTeX Info: Redefining \sffamily on input line 1055.
-LaTeX Info: Redefining \ttfamily on input line 1055.
-[258]
-Underfull \hbox (badness 10000) in paragraph at lines 1057--1061
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٤٦:  انٹرنیٹ سے سات کلی نمائشی 
-تختی کے معلوماتی صفحات حاصل کریں۔ یہ سات نوری[]
- []
-
-
-Underfull \hbox (badness 1082) in paragraph at lines 1057--1061
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈایوڈ پر مشتمل ہو گا۔ بعض ادوار میں تمام 
-نوری ڈایوڈ کے منفی سر ایک ساتھ جوڑ کر مطلوبہ نوری ڈایوڈ کے مثبت سر پر $\OT1/ppl
-/m/n/10 1$[]
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 1057--1061
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مہیا کر کے روشن کیا جاتا ہے اور بعض میں ت
-مام کے مثبت سر آپس میں جوڑ کر مطلوبہ نوری ڈایوڈ کا منفی سر[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1073
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٤٨:  شکل میں ضرب گیٹ کا دورانیہ
- رد عمل $[]$ نینو سیکنڈ جبکہ جمع گیٹ کا $[]$ نینو سیکنڈ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1073
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔تینوں مداخل بیک وقت تبدیل کیے جاتے ہیں
-۔ کتنی دیر بعد مخارج $[]$اور $[]$ مستحکم حال میں ہوں[]
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 1084--1088
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے جبکہ اس کا دورانیہ اترائی پانچ فی صد ا
-ور دورانیہ چڑھائی پانچ فی صد وقت لیتے ہیں۔ساعتی اشارے کا دوری[]
- []
-
-[259]
-Underfull \hbox (badness 10000) in paragraph at lines 1090--1094
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٠:  جمع متمم گیٹ پر مبنی متعدد
- (بلند فعال) مداخل ایس آر پلٹ کے مداخل ترسیم کیے گئے[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 1096.
-LaTeX Info: Redefining \sffamily on input line 1096.
-LaTeX Info: Redefining \ttfamily on input line 1096.
-
-Package tikz-timing Warning: Can not repeat group by a non-integer factor!
-Rounding '1.5' to '2.0'. on input line 1107.
-
-
-Package tikz-timing Warning: Can not repeat group by a non-integer factor!
-Rounding '3.5' to '4.0'. on input line 1107.
-
-LaTeX Info: Redefining \rmfamily on input line 1118.
-LaTeX Info: Redefining \sffamily on input line 1118.
-LaTeX Info: Redefining \ttfamily on input line 1118.
-LaTeX Info: Redefining \rmfamily on input line 1123.
-LaTeX Info: Redefining \sffamily on input line 1123.
-LaTeX Info: Redefining \ttfamily on input line 1123.
-
-Package tikz-timing Warning: Can not repeat group by a non-integer factor!
-Rounding '1.5' to '2.0'. on input line 1134.
-
-
-Package tikz-timing Warning: Can not repeat group by a non-integer factor!
-Rounding '3.5' to '4.0'. on input line 1134.
-
-LaTeX Info: Redefining \rmfamily on input line 1146.
-LaTeX Info: Redefining \sffamily on input line 1146.
-LaTeX Info: Redefining \ttfamily on input line 1146.
-LaTeX Info: Redefining \rmfamily on input line 1154.
-LaTeX Info: Redefining \sffamily on input line 1154.
-LaTeX Info: Redefining \ttfamily on input line 1154.
-LaTeX Info: Redefining \rmfamily on input line 1178.
-LaTeX Info: Redefining \sffamily on input line 1178.
-LaTeX Info: Redefining \ttfamily on input line 1178.
-LaTeX Info: Redefining \rmfamily on input line 1182.
-LaTeX Info: Redefining \sffamily on input line 1182.
-LaTeX Info: Redefining \ttfamily on input line 1182.
-LaTeX Info: Redefining \rmfamily on input line 1208.
-LaTeX Info: Redefining \sffamily on input line 1208.
-LaTeX Info: Redefining \ttfamily on input line 1208.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1210--1214
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٢:  شکل ٦.‏٢٤[] میں سلسلہ وار 
-ثنائی جمع کار پیش ہے۔اسے استعمال کرتے ہوئے $[]$ اور[]
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 1214--1218
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٣:  ایک ترتیبی دور جس کے مداخل
- $\OML/zplm/m/it/10 x$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/
-10 y$ \TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ مخارج $\OML/zplm/m/it/10 z$ \TU/
-JameelNooriNastaleeq(2)/m/sl/10 ہے میں دو ڈی پلٹ، $\OML/zplm/m/it/10 A$ \TU/Jam
-eelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq
-(2)/m/sl/10 مستعمل[]
- []
-
-
-Underfull \hbox (badness 4279) in paragraph at lines 1214--1218
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں ۔ دور کی مساوات درج ذیل ہیں۔ یاد رہے 
-ہم $[]$ کو اگلا حال جبکہ $[]$ کو موجودہ حال یا باز رسی اشارہ تصور کر[]
- []
-
-[260]
-LaTeX Info: Redefining \rmfamily on input line 1263.
-LaTeX Info: Redefining \sffamily on input line 1263.
-LaTeX Info: Redefining \ttfamily on input line 1263.
-LaTeX Info: Redefining \rmfamily on input line 1275.
-LaTeX Info: Redefining \sffamily on input line 1275.
-LaTeX Info: Redefining \ttfamily on input line 1275.
-
-Underfull \vbox (badness 5652) has occurred while \output is active []
-
- [261]
-LaTeX Info: Redefining \rmfamily on input line 1300.
-LaTeX Info: Redefining \sffamily on input line 1300.
-LaTeX Info: Redefining \ttfamily on input line 1300.
-LaTeX Info: Redefining \rmfamily on input line 1313.
-LaTeX Info: Redefining \sffamily on input line 1313.
-LaTeX Info: Redefining \ttfamily on input line 1313.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اور $[]$ حال اختیار کر سکتا ہو۔بلند مداخل
- کی صورت میں بڑھتی گنتی اور پست مداخل کی صورت میں گھٹتی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گنتی حاصل کرنی ہے۔ بڑھتی گنتی کی صورت میں
- $[]$ کو پہنچنے کے بعد بلند مداخل کی صورت میں دور اسی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1319
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حال میں رہنا چاہیے ۔گھٹتی گنتی کرتے ہوئے 
-$[]$ کو پہنچنے کے بعد پست مداخل کی صورت میں دور $[]$[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 1324.
-LaTeX Info: Redefining \sffamily on input line 1324.
-LaTeX Info: Redefining \ttfamily on input line 1324.
-LaTeX Info: Redefining \rmfamily on input line 1338.
-LaTeX Info: Redefining \sffamily on input line 1338.
-LaTeX Info: Redefining \ttfamily on input line 1338.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [262]
-Underfull \hbox (badness 10000) in paragraph at lines 1369--1373
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٦:  گزشتہ سوال میں مداخل $\OML
-/zplm/m/it/10 e$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا اضافہ کریں۔ بلند $\OML/
-zplm/m/it/10 e$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی صورت میں دور جوں کا توں 
-چلتا ہو جبکہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1379
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٧:  پچھلے سوال میں مداخل کی تع
-داد میں مزید اضافہ کرتے ہوئے مداخل $\OML/zplm/m/it/10 s$ \TU/JameelNooriNastale
-eq(2)/m/sl/10 کا اضافہ کریں۔[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1379
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مداخل $\OML/zplm/m/it/10 s$ \TU/JameelNoo
-riNastaleeq(2)/m/sl/10 بلند کرنے سے دور کو حال $[]$ اختیار کر لینا چاہیے جبکہ پ
-ست $\OML/zplm/m/it/10 s$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی صورت میں دور کو
- پہلے کی طرح[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1386
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٨:  چار بٹ سلسلہ وار دائیں منت
-قل دفتر میں ابتدائی ثنائی مواد $[]$ موجود ہے۔دفتر کا مخارج اسی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1386
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر کو بطور مداخل مہیا کیا جاتا ہے۔سات س
-اعت کے کنارے گزرنے کے بعد دفتر میں کیا عدد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1392
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٥٩:  گزشتہ سوال میں دائیں منتقل
- دفتر کے بجائے بائیں منتقل دفتر استعمال کرتے ہوئے جواب معلوم[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1398--1402
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦١:  آٹھ بٹ سلسلہ وار دائیں منت
-قل دفتر کا مخارج چار بٹ سلسلہ وار دائیں منتقل دفتر کو بطور مداخل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1398--1402
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فراہم کیا جاتا ہے۔آٹھ بٹ دفتر میں ابتدائی
- مواد $[]$ پایا جاتا ہے اور اسے $[]$ (کمتر بِٹ سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1398--1402
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 آغاز کر کے) فراہم کیا جاتا ہے۔ساعت کے چار
- کنارے گزرنے کے بعد ان دفتر میں کیا اعداد پائے[]
- []
-
-[263]
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1408
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦٢:  گزشتہ سوال میں بائیں منتقل
- دفتر استعمال کرتے ہوئے جواب حاصل کریں۔ چار بِٹ مداخل کا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1410--1414
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦٣:  آٹھ بٹ کے دو عدد بائیں انت
-قال دفتر استعمال کرتے ہوئے سولہ بٹ کا بائیں انتقال دفتر حاصل[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1414--1418
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر-ب میں $[]$ پایا جاتا ہے۔تصور کریں $[
-]$ لمحاتی پست کرنے کے بعد ساعت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب:پہلے کنارے کے بعد دفتر-ا میں $[]$ 
-ہو گا۔ آخری کنارے کے بعد $[]$ اور دفتر-ا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1420--1424
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦٥:  سلسلہ وار ثنائی جمع کار سے
- سلسلہ وار ثنائی منفی کار حاصل کریں۔ منفی کردہ عدد کا تکملہ دفتر-ب[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1424--1429
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦٦:  چار بٹ معاصر سیدھا گنت کار
- کی موجودہ گنتی $[]$ ہے۔ساعت کے کتنے کناروں بعد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1431--1435
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦٧:  سولہ بٹ معاصر گنت کار کی م
-وجودہ گنتی $[]$ہے۔ساعت کے کتنے کنارے گزرنے کے بعد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1441
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦٨:  چار بٹ ثنائی لہریا گنت کار
- استعمال کر کے ثنائی مرموز اعشاری گنت کار بنایا جا سکتا ہے۔[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1441
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پس اتنا کرنا ہو گا کہ $[]$ پر پہنچ کر گنت
-ی فوراً زبردستی $[]$ کی جائے۔ زبردستی پست صلاحیت رکھنے والی[]
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 1445--1449
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٧٠:  جے کے پلٹ استعمال کر کے ای
-سا معاصر گنت کار تشکیل دیں جو $\OT1/ppl/m/n/10 0$\TU/JameelNooriNastaleeq(2)/m/
-sl/10 ، $\OT1/ppl/m/n/10 2$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/
-10 3$\TU/JameelNooriNastaleeq(2)/m/sl/10 ، اور $\OT1/ppl/m/n/10 7$ \TU/JameelNo
-oriNastaleeq(2)/m/sl/10 کا گردان کرے۔ جدول[]
- []
-
-LaTeX Info: Redefining \rmfamily on input line 1452.
-LaTeX Info: Redefining \sffamily on input line 1452.
-LaTeX Info: Redefining \ttfamily on input line 1452.
-LaTeX Info: Redefining \rmfamily on input line 1468.
-LaTeX Info: Redefining \sffamily on input line 1468.
-LaTeX Info: Redefining \ttfamily on input line 1468.
-[264]
-Underfull \hbox (badness 1968) in paragraph at lines 1470--1474
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٧١:  ٹی پلٹ استعمال کرتے ہوئے ا
-یسا چار بٹ ثنائی معاصر گنت کار تشکیل دیں جو صفر $[]$ سے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1470--1474
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 چودہ $[]$ تک جفت گنتی کے بعد ایک $[]$ سے 
-پندرہ $[]$ تک طاق گنتی کرے اور[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1479--1482
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ٨.‏١٠[] میں دھڑکن پیدا کار (دورانیہ 
-پیدا کار ) دکھایا گیا ہے۔ ساعت کا تعدد $[]$ اور درکار[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1493--1498
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٧٦:  مختلف جسامت کے حافظوں میں 
-پتہ بِٹ کی اعشاری تعداد (ا) $\OT1/ppl/m/n/10 4$\TU/JameelNooriNastaleeq(2)/m/sl
-/10 ، (ب) $[]$، (ج) $[]$، اور (د)[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1502
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٧٧:  حافظہ کی جسامت عموماً $[]$
- لکھی اور پکاری جاتی ہے ، جہاں $\OML/zplm/m/it/10 N$ \TU/JameelNooriNastaleeq(2
-)/m/sl/10 حافظہ میں الفاظ کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1498--1502
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تعداد اور $\OML/zplm/m/it/10 D$ \TU/Jamee
-lNooriNastaleeq(2)/m/sl/10 ایک لفظ میں بِٹوں کی تعداد ہے۔یوں (ا) $[]$، (ب) $[]$
- ، (ج) $[]$، اور (د)[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1518
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٨١:  چار پتہ اور آٹھ مواد بٹ حا
-فظہ استعمال کر کے نو کا پہاڑا حاصل کرنا ہے۔حافظہ کو ثنائی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1518
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مرموز اعشاری روپ میں $\OT1/ppl/m/n/10 0$ 
-\TU/JameelNooriNastaleeq(2)/m/sl/10 تا $\OT1/ppl/m/n/10 9$ \TU/JameelNooriNasta
-leeq(2)/m/sl/10 اعشاری عدد بطور پتہ فراہم کیا جائے گا۔حافظہ نے مواد بِٹ پر جواب
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1518
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ثنائی مرموز اعشاری روپ میں پیش کرنا ہے۔مث
-لاً ا، گر اسے دو $[]$ فراہم کیا جائے تو یہ اٹھارہ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1514--1518
-[]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 خارج کرے۔ (ا) حافظہ میں لکھا مواد جد
-ول کی شکل میں لکھیں۔ (ب) حافظہ میں[]
- []
-
-[265]
-Underfull \hbox (badness 10000) in paragraph at lines 1518--1522
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٨٢:  چار بٹ ثنائی عدد میں $\OT1
-/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی تعداد جاننا مقصود ہے۔ اس 
-کام کے لئے $[]$ حافظہ[]
- []
-
-
-Underfull \hbox (badness 3803) in paragraph at lines 1518--1522
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 استعمال کیا جاتا ہے۔حافظہ کو ثنائی عدد بط
-ور پتہ مہیا کیا جاتا ہے۔حافظہ نے اس عدد میں $\OT1/ppl/m/n/10 1$ \TU/JameelNoori
-Nastaleeq(2)/m/sl/10 کی[]
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 1518--1522
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تعداد بطور مواد خارج کرنا ہے۔یوں ا گر $[]
-$ فراہم کیا جائے تو $[]$ وصول ہو گا۔ حافظہ میں لکھا گیا مواد[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1522--1526
-[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٨٣:  انٹرنیٹ سے (ا) $[]$، (ب) $
-[]$، (ج) $[]$، (د) $[]$، (ہ) $[]$، اور (و) $[]$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1522--1526
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 حافظوں کے معلوماتی صفحات حاصل کر کے ان کی
- قسم (یعنی پختہ یا عارضی)، جسامت اور دورانیہ رسائی[]
- []
+LaTeX Warning: Float too large for page by 6.94817pt on input line 161.
 
-) [266] (./answer.tex) [267
+) [267] [268] (./answer.tex) [269
 
 
 
 
-] [268
+] [270
 
 
 ]
@@ -4979,36 +4308,54 @@ LaTeX Info: Redefining \ttfamily on input line 1025.
 LaTeX Info: Redefining \rmfamily on input line 1033.
 LaTeX Info: Redefining \sffamily on input line 1033.
 LaTeX Info: Redefining \ttfamily on input line 1033.
-LaTeX Info: Redefining \rmfamily on input line 1054.
-LaTeX Info: Redefining \sffamily on input line 1054.
-LaTeX Info: Redefining \ttfamily on input line 1054.
-LaTeX Info: Redefining \rmfamily on input line 1062.
-LaTeX Info: Redefining \sffamily on input line 1062.
-LaTeX Info: Redefining \ttfamily on input line 1062.
-LaTeX Info: Redefining \rmfamily on input line 1070.
-LaTeX Info: Redefining \sffamily on input line 1070.
-LaTeX Info: Redefining \ttfamily on input line 1070.
-LaTeX Info: Redefining \rmfamily on input line 1078.
-LaTeX Info: Redefining \sffamily on input line 1078.
-LaTeX Info: Redefining \ttfamily on input line 1078.
-LaTeX Info: Redefining \rmfamily on input line 1091.
-LaTeX Info: Redefining \sffamily on input line 1091.
-LaTeX Info: Redefining \ttfamily on input line 1091.
-LaTeX Info: Redefining \rmfamily on input line 1099.
-LaTeX Info: Redefining \sffamily on input line 1099.
-LaTeX Info: Redefining \ttfamily on input line 1099.
-LaTeX Info: Redefining \rmfamily on input line 1117.
-LaTeX Info: Redefining \sffamily on input line 1117.
-LaTeX Info: Redefining \ttfamily on input line 1117.
-LaTeX Info: Redefining \rmfamily on input line 1125.
-LaTeX Info: Redefining \sffamily on input line 1125.
-LaTeX Info: Redefining \ttfamily on input line 1125.
-LaTeX Info: Redefining \rmfamily on input line 1141.
-LaTeX Info: Redefining \sffamily on input line 1141.
-LaTeX Info: Redefining \ttfamily on input line 1141.
-LaTeX Info: Redefining \rmfamily on input line 1149.
-LaTeX Info: Redefining \sffamily on input line 1149.
-LaTeX Info: Redefining \ttfamily on input line 1149.
+LaTeX Info: Redefining \rmfamily on input line 1055.
+LaTeX Info: Redefining \sffamily on input line 1055.
+LaTeX Info: Redefining \ttfamily on input line 1055.
+LaTeX Info: Redefining \rmfamily on input line 1063.
+LaTeX Info: Redefining \sffamily on input line 1063.
+LaTeX Info: Redefining \ttfamily on input line 1063.
+LaTeX Info: Redefining \rmfamily on input line 1071.
+LaTeX Info: Redefining \sffamily on input line 1071.
+LaTeX Info: Redefining \ttfamily on input line 1071.
+LaTeX Info: Redefining \rmfamily on input line 1079.
+LaTeX Info: Redefining \sffamily on input line 1079.
+LaTeX Info: Redefining \ttfamily on input line 1079.
+LaTeX Info: Redefining \rmfamily on input line 1092.
+LaTeX Info: Redefining \sffamily on input line 1092.
+LaTeX Info: Redefining \ttfamily on input line 1092.
+LaTeX Info: Redefining \rmfamily on input line 1100.
+LaTeX Info: Redefining \sffamily on input line 1100.
+LaTeX Info: Redefining \ttfamily on input line 1100.
+LaTeX Info: Redefining \rmfamily on input line 1118.
+LaTeX Info: Redefining \sffamily on input line 1118.
+LaTeX Info: Redefining \ttfamily on input line 1118.
+LaTeX Info: Redefining \rmfamily on input line 1126.
+LaTeX Info: Redefining \sffamily on input line 1126.
+LaTeX Info: Redefining \ttfamily on input line 1126.
+LaTeX Info: Redefining \rmfamily on input line 1142.
+LaTeX Info: Redefining \sffamily on input line 1142.
+LaTeX Info: Redefining \ttfamily on input line 1142.
+LaTeX Info: Redefining \rmfamily on input line 1150.
+LaTeX Info: Redefining \sffamily on input line 1150.
+LaTeX Info: Redefining \ttfamily on input line 1150.
+LaTeX Info: Redefining \rmfamily on input line 1157.
+LaTeX Info: Redefining \sffamily on input line 1157.
+LaTeX Info: Redefining \ttfamily on input line 1157.
+LaTeX Info: Redefining \rmfamily on input line 1161.
+LaTeX Info: Redefining \sffamily on input line 1161.
+LaTeX Info: Redefining \ttfamily on input line 1161.
+LaTeX Info: Redefining \rmfamily on input line 1166.
+LaTeX Info: Redefining \sffamily on input line 1166.
+LaTeX Info: Redefining \ttfamily on input line 1166.
+LaTeX Info: Redefining \rmfamily on input line 1174.
+LaTeX Info: Redefining \sffamily on input line 1174.
+LaTeX Info: Redefining \ttfamily on input line 1174.
+LaTeX Info: Redefining \rmfamily on input line 1187.
+LaTeX Info: Redefining \sffamily on input line 1187.
+LaTeX Info: Redefining \ttfamily on input line 1187.
+LaTeX Info: Redefining \rmfamily on input line 1196.
+LaTeX Info: Redefining \sffamily on input line 1196.
+LaTeX Info: Redefining \ttfamily on input line 1196.
 )
 (./tex/karnaughMaps.aux
 LaTeX Info: Redefining \rmfamily on input line 13.
@@ -5150,6 +4497,36 @@ LaTeX Info: Redefining \ttfamily on input line 383.
 LaTeX Info: Redefining \rmfamily on input line 391.
 LaTeX Info: Redefining \sffamily on input line 391.
 LaTeX Info: Redefining \ttfamily on input line 391.
+LaTeX Info: Redefining \rmfamily on input line 409.
+LaTeX Info: Redefining \sffamily on input line 409.
+LaTeX Info: Redefining \ttfamily on input line 409.
+LaTeX Info: Redefining \rmfamily on input line 417.
+LaTeX Info: Redefining \sffamily on input line 417.
+LaTeX Info: Redefining \ttfamily on input line 417.
+LaTeX Info: Redefining \rmfamily on input line 425.
+LaTeX Info: Redefining \sffamily on input line 425.
+LaTeX Info: Redefining \ttfamily on input line 425.
+LaTeX Info: Redefining \rmfamily on input line 433.
+LaTeX Info: Redefining \sffamily on input line 433.
+LaTeX Info: Redefining \ttfamily on input line 433.
+LaTeX Info: Redefining \rmfamily on input line 442.
+LaTeX Info: Redefining \sffamily on input line 442.
+LaTeX Info: Redefining \ttfamily on input line 442.
+LaTeX Info: Redefining \rmfamily on input line 451.
+LaTeX Info: Redefining \sffamily on input line 451.
+LaTeX Info: Redefining \ttfamily on input line 451.
+LaTeX Info: Redefining \rmfamily on input line 459.
+LaTeX Info: Redefining \sffamily on input line 459.
+LaTeX Info: Redefining \ttfamily on input line 459.
+LaTeX Info: Redefining \rmfamily on input line 467.
+LaTeX Info: Redefining \sffamily on input line 467.
+LaTeX Info: Redefining \ttfamily on input line 467.
+LaTeX Info: Redefining \rmfamily on input line 479.
+LaTeX Info: Redefining \sffamily on input line 479.
+LaTeX Info: Redefining \ttfamily on input line 479.
+LaTeX Info: Redefining \rmfamily on input line 487.
+LaTeX Info: Redefining \sffamily on input line 487.
+LaTeX Info: Redefining \ttfamily on input line 487.
 )
 (./tex/synchronusSequentialLogic.aux
 LaTeX Info: Redefining \rmfamily on input line 48.
@@ -5284,6 +4661,48 @@ LaTeX Info: Redefining \ttfamily on input line 602.
 LaTeX Info: Redefining \rmfamily on input line 610.
 LaTeX Info: Redefining \sffamily on input line 610.
 LaTeX Info: Redefining \ttfamily on input line 610.
+LaTeX Info: Redefining \rmfamily on input line 623.
+LaTeX Info: Redefining \sffamily on input line 623.
+LaTeX Info: Redefining \ttfamily on input line 623.
+LaTeX Info: Redefining \rmfamily on input line 631.
+LaTeX Info: Redefining \sffamily on input line 631.
+LaTeX Info: Redefining \ttfamily on input line 631.
+LaTeX Info: Redefining \rmfamily on input line 639.
+LaTeX Info: Redefining \sffamily on input line 639.
+LaTeX Info: Redefining \ttfamily on input line 639.
+LaTeX Info: Redefining \rmfamily on input line 647.
+LaTeX Info: Redefining \sffamily on input line 647.
+LaTeX Info: Redefining \ttfamily on input line 647.
+LaTeX Info: Redefining \rmfamily on input line 655.
+LaTeX Info: Redefining \sffamily on input line 655.
+LaTeX Info: Redefining \ttfamily on input line 655.
+LaTeX Info: Redefining \rmfamily on input line 663.
+LaTeX Info: Redefining \sffamily on input line 663.
+LaTeX Info: Redefining \ttfamily on input line 663.
+LaTeX Info: Redefining \rmfamily on input line 671.
+LaTeX Info: Redefining \sffamily on input line 671.
+LaTeX Info: Redefining \ttfamily on input line 671.
+LaTeX Info: Redefining \rmfamily on input line 679.
+LaTeX Info: Redefining \sffamily on input line 679.
+LaTeX Info: Redefining \ttfamily on input line 679.
+LaTeX Info: Redefining \rmfamily on input line 687.
+LaTeX Info: Redefining \sffamily on input line 687.
+LaTeX Info: Redefining \ttfamily on input line 687.
+LaTeX Info: Redefining \rmfamily on input line 695.
+LaTeX Info: Redefining \sffamily on input line 695.
+LaTeX Info: Redefining \ttfamily on input line 695.
+LaTeX Info: Redefining \rmfamily on input line 703.
+LaTeX Info: Redefining \sffamily on input line 703.
+LaTeX Info: Redefining \ttfamily on input line 703.
+LaTeX Info: Redefining \rmfamily on input line 711.
+LaTeX Info: Redefining \sffamily on input line 711.
+LaTeX Info: Redefining \ttfamily on input line 711.
+LaTeX Info: Redefining \rmfamily on input line 719.
+LaTeX Info: Redefining \sffamily on input line 719.
+LaTeX Info: Redefining \ttfamily on input line 719.
+LaTeX Info: Redefining \rmfamily on input line 727.
+LaTeX Info: Redefining \sffamily on input line 727.
+LaTeX Info: Redefining \ttfamily on input line 727.
 ) (./tex/registers.aux) (./tex/counters.aux
 LaTeX Info: Redefining \rmfamily on input line 35.
 LaTeX Info: Redefining \sffamily on input line 35.
@@ -5315,6 +4734,12 @@ LaTeX Info: Redefining \ttfamily on input line 136.
 LaTeX Info: Redefining \rmfamily on input line 144.
 LaTeX Info: Redefining \sffamily on input line 144.
 LaTeX Info: Redefining \ttfamily on input line 144.
+LaTeX Info: Redefining \rmfamily on input line 164.
+LaTeX Info: Redefining \sffamily on input line 164.
+LaTeX Info: Redefining \ttfamily on input line 164.
+LaTeX Info: Redefining \rmfamily on input line 172.
+LaTeX Info: Redefining \sffamily on input line 172.
+LaTeX Info: Redefining \ttfamily on input line 172.
 ) (./tex/memory.aux
 LaTeX Info: Redefining \rmfamily on input line 49.
 LaTeX Info: Redefining \sffamily on input line 49.
@@ -5346,123 +4771,38 @@ LaTeX Info: Redefining \ttfamily on input line 171.
 LaTeX Info: Redefining \rmfamily on input line 179.
 LaTeX Info: Redefining \sffamily on input line 179.
 LaTeX Info: Redefining \ttfamily on input line 179.
+LaTeX Info: Redefining \rmfamily on input line 194.
+LaTeX Info: Redefining \sffamily on input line 194.
+LaTeX Info: Redefining \ttfamily on input line 194.
+LaTeX Info: Redefining \rmfamily on input line 202.
+LaTeX Info: Redefining \sffamily on input line 202.
+LaTeX Info: Redefining \ttfamily on input line 202.
+LaTeX Info: Redefining \rmfamily on input line 210.
+LaTeX Info: Redefining \sffamily on input line 210.
+LaTeX Info: Redefining \ttfamily on input line 210.
+LaTeX Info: Redefining \rmfamily on input line 218.
+LaTeX Info: Redefining \sffamily on input line 218.
+LaTeX Info: Redefining \ttfamily on input line 218.
 ) (./tex/programmableLogicDevices.aux)
 (./tex/asynchronousCombinationalCircuits.aux
-LaTeX Info: Redefining \rmfamily on input line 43.
-LaTeX Info: Redefining \sffamily on input line 43.
-LaTeX Info: Redefining \ttfamily on input line 43.
-LaTeX Info: Redefining \rmfamily on input line 51.
-LaTeX Info: Redefining \sffamily on input line 51.
-LaTeX Info: Redefining \ttfamily on input line 51.
-) (./tex/questions.aux
-LaTeX Info: Redefining \rmfamily on input line 9.
-LaTeX Info: Redefining \sffamily on input line 9.
-LaTeX Info: Redefining \ttfamily on input line 9.
-LaTeX Info: Redefining \rmfamily on input line 13.
-LaTeX Info: Redefining \sffamily on input line 13.
-LaTeX Info: Redefining \ttfamily on input line 13.
-LaTeX Info: Redefining \rmfamily on input line 18.
-LaTeX Info: Redefining \sffamily on input line 18.
-LaTeX Info: Redefining \ttfamily on input line 18.
-LaTeX Info: Redefining \rmfamily on input line 26.
-LaTeX Info: Redefining \sffamily on input line 26.
-LaTeX Info: Redefining \ttfamily on input line 26.
-LaTeX Info: Redefining \rmfamily on input line 40.
-LaTeX Info: Redefining \sffamily on input line 40.
-LaTeX Info: Redefining \ttfamily on input line 40.
-LaTeX Info: Redefining \rmfamily on input line 48.
-LaTeX Info: Redefining \sffamily on input line 48.
-LaTeX Info: Redefining \ttfamily on input line 48.
-LaTeX Info: Redefining \rmfamily on input line 57.
-LaTeX Info: Redefining \sffamily on input line 57.
-LaTeX Info: Redefining \ttfamily on input line 57.
-LaTeX Info: Redefining \rmfamily on input line 65.
-LaTeX Info: Redefining \sffamily on input line 65.
-LaTeX Info: Redefining \ttfamily on input line 65.
-LaTeX Info: Redefining \rmfamily on input line 73.
-LaTeX Info: Redefining \sffamily on input line 73.
-LaTeX Info: Redefining \ttfamily on input line 73.
-LaTeX Info: Redefining \rmfamily on input line 81.
-LaTeX Info: Redefining \sffamily on input line 81.
-LaTeX Info: Redefining \ttfamily on input line 81.
-LaTeX Info: Redefining \rmfamily on input line 90.
-LaTeX Info: Redefining \sffamily on input line 90.
-LaTeX Info: Redefining \ttfamily on input line 90.
-LaTeX Info: Redefining \rmfamily on input line 98.
-LaTeX Info: Redefining \sffamily on input line 98.
-LaTeX Info: Redefining \ttfamily on input line 98.
-LaTeX Info: Redefining \rmfamily on input line 106.
-LaTeX Info: Redefining \sffamily on input line 106.
-LaTeX Info: Redefining \ttfamily on input line 106.
-LaTeX Info: Redefining \rmfamily on input line 115.
-LaTeX Info: Redefining \sffamily on input line 115.
-LaTeX Info: Redefining \ttfamily on input line 115.
-LaTeX Info: Redefining \rmfamily on input line 127.
-LaTeX Info: Redefining \sffamily on input line 127.
-LaTeX Info: Redefining \ttfamily on input line 127.
-LaTeX Info: Redefining \rmfamily on input line 136.
-LaTeX Info: Redefining \sffamily on input line 136.
-LaTeX Info: Redefining \ttfamily on input line 136.
-LaTeX Info: Redefining \rmfamily on input line 144.
-LaTeX Info: Redefining \sffamily on input line 144.
-LaTeX Info: Redefining \ttfamily on input line 144.
-LaTeX Info: Redefining \rmfamily on input line 152.
-LaTeX Info: Redefining \sffamily on input line 152.
-LaTeX Info: Redefining \ttfamily on input line 152.
-LaTeX Info: Redefining \rmfamily on input line 160.
-LaTeX Info: Redefining \sffamily on input line 160.
-LaTeX Info: Redefining \ttfamily on input line 160.
-LaTeX Info: Redefining \rmfamily on input line 168.
-LaTeX Info: Redefining \sffamily on input line 168.
-LaTeX Info: Redefining \ttfamily on input line 168.
-LaTeX Info: Redefining \rmfamily on input line 176.
-LaTeX Info: Redefining \sffamily on input line 176.
-LaTeX Info: Redefining \ttfamily on input line 176.
-LaTeX Info: Redefining \rmfamily on input line 184.
-LaTeX Info: Redefining \sffamily on input line 184.
-LaTeX Info: Redefining \ttfamily on input line 184.
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
-LaTeX Info: Redefining \rmfamily on input line 200.
-LaTeX Info: Redefining \sffamily on input line 200.
-LaTeX Info: Redefining \ttfamily on input line 200.
-LaTeX Info: Redefining \rmfamily on input line 208.
-LaTeX Info: Redefining \sffamily on input line 208.
-LaTeX Info: Redefining \ttfamily on input line 208.
-LaTeX Info: Redefining \rmfamily on input line 216.
-LaTeX Info: Redefining \sffamily on input line 216.
-LaTeX Info: Redefining \ttfamily on input line 216.
-LaTeX Info: Redefining \rmfamily on input line 224.
-LaTeX Info: Redefining \sffamily on input line 224.
-LaTeX Info: Redefining \ttfamily on input line 224.
-LaTeX Info: Redefining \rmfamily on input line 232.
-LaTeX Info: Redefining \sffamily on input line 232.
-LaTeX Info: Redefining \ttfamily on input line 232.
-LaTeX Info: Redefining \rmfamily on input line 240.
-LaTeX Info: Redefining \sffamily on input line 240.
-LaTeX Info: Redefining \ttfamily on input line 240.
-LaTeX Info: Redefining \rmfamily on input line 248.
-LaTeX Info: Redefining \sffamily on input line 248.
-LaTeX Info: Redefining \ttfamily on input line 248.
-LaTeX Info: Redefining \rmfamily on input line 256.
-LaTeX Info: Redefining \sffamily on input line 256.
-LaTeX Info: Redefining \ttfamily on input line 256.
-LaTeX Info: Redefining \rmfamily on input line 264.
-LaTeX Info: Redefining \sffamily on input line 264.
-LaTeX Info: Redefining \ttfamily on input line 264.
-))
+LaTeX Info: Redefining \rmfamily on input line 44.
+LaTeX Info: Redefining \sffamily on input line 44.
+LaTeX Info: Redefining \ttfamily on input line 44.
+LaTeX Info: Redefining \rmfamily on input line 52.
+LaTeX Info: Redefining \sffamily on input line 52.
+LaTeX Info: Redefining \ttfamily on input line 52.
+) (./tex/simplestComputer.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 62666 strings out of 476191
- 1681126 string characters out of 9562072
- 2487665 words of memory out of 7000000
- 82253 multiletter control sequences out of 15000+600000
- 495660 words of font info for 164 fonts, out of 8000000 for 9000
+ 61100 strings out of 476191
+ 1651776 string characters out of 9562072
+ 2484700 words of memory out of 7000000
+ 80698 multiletter control sequences out of 15000+600000
+ 489928 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,10n,118p,2641b,1184s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,9n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (30 pages).
+Output written on digitalCircuitsLatex.pdf (12 pages).

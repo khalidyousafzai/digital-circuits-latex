@@ -2244,3 +2244,326 @@ y&=AB
 \ابتدا{مشق}\شناخت{مشق_ترتیبی_شناس}
 مساوات \حوالہ{مساوات_ترتیبی_شناس_حال_انتخاب} میں حال کے اظہار کا ایک انتخاب دکھایا گیا ہے۔آپ کوئی دوسرا انتخاب کر سکتے ہیں، مثلاً \عددی{a=01}، \عددی{b=10}، \عددی{c=11}، اور \عددی{d=00} جس سے دوسرا دور حاصل ہو گا۔ یہ دور حاصل کریں۔
 \انتہا{مشق}
+
+\حصہء{سوالات}
+\ابتدا{سوال}
+%6.1
+ ثابت کریں  جے کے پلٹ کے مخارج  \عددی{\overline{Q}_{n+1}} کی مساوات    درج ذیل ہے۔
+ \begin{align*}
+ \overline{Q}_{n+1}=\overline{J}\,\overline{Q}+KQ
+ \end{align*}
+\انتہا{سوال}
+\ابتدا{سوال}  
+%6.2
+ شکل میں ضرب گیٹ کا دورانیہ رد عمل  \عددی{10} نینو سیکنڈ جبکہ جمع گیٹ کا \عددی{15} نینو سیکنڈ ہے۔تینوں مداخل بیک وقت تبدیل کیے جاتے ہیں۔ کتنی دیر بعد مخارج  \عددی{F_1}اور \عددی{F_2}  مستحکم حال میں ہوں گے؟
+ \begin{center}
+ \begin{tikzpicture}
+ \pgfmathsetmacro{\kpin}{0.4}
+ \draw(0,0)node[or port,anchor=out](u0){};
+ \draw(u0.in 1)--++(-\kpin,0)node[above]{$F_1$}node[and port,anchor=out](u1){};
+ \draw(u1.in 1)node[left]{$A$} (u1.in 2)node[left]{$B$};
+ \draw(u0.in 2)--++(0,-\kpin)coordinate(kk)--(kk -| u1.in 1)node[left]{$C$};
+ \draw(u0.out)node[right]{$F_2$};
+ \end{tikzpicture}
+ \end{center}
+ جواب: \عددی{\SI{10}{\nano\second}} ، \عددی{\SI{25}{\nano\second}}
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.3
+ ایک کمپیوٹر  \عددی{\SI{2}{\giga\hertz}}  ساعتی اشارے  سے چلتا ہے۔یہ  اشارہ تیس فی صد وقت بلند رہتا ہے جبکہ اس کا دورانیہ اترائی  پانچ فی صد اور دورانیہ چڑھائی پانچ فی صد وقت لیتے ہیں۔ساعتی اشارے  کا دوری عرصہ ،دورانیہ چڑھائی اور پست دورانیہ حاصل کریں۔ 
+ 
+ جواب:  \عددی{\SI{5e-10}{\second}}،  \عددی{\SI{2.5e-11}{\second}}، \عددی{\SI{3e-10}{\second}}
+\انتہا{سوال}
+\ابتدا{سوال}
+% 6.4
+ جمع متمم گیٹ پر مبنی  متعدد (بلند فعال)  مداخل ایس آر پلٹ کے مداخل  ترسیم کیے گئے ہیں۔اس کا مخارج  ترسیم کریں۔
+ 
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/rising arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& 0.5CN(A1)CCN(A2)CCN(A3)CCN(A4)C\\
+$S$&lL{H}4{L}{H}5{L}1.5{H}3.5{L}\\
+$R_a$&3{L}HL{h}5{L}1{H}5{L}\\
+$R_b$&10{L}2{H}2{L}h2{L}\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4}{\draw(A\n.south)--(A\n |- row3.south);}
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+
+جواب:
+\begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/rising arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& 0.5CN(A1)CCN(A2)CCN(A3)CCN(A4)C\\
+$S$&lL{H}4{L}{H}5{L}1.5{H}3.5{L}\\
+$R_a$&3{L}HL{h}5{L}1{H}5{L}\\
+$R_b$&10{L}2{H}2{L}h2{L}\\
+$Q$&uUhH3{L}l3{H}h2{L}lhH2{L}l\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4}{\draw(A\n.south)--(A\n |- row3.south);}
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+
+\انتہا{سوال}
+\ابتدا{سوال} 
+%6.5
+ آقا و غلام پلٹ کے مداخل  ترسیم  کیے گئے ہیں۔آقا مخارج \عددی{Q_a}اور  غلام  مخارج \عددی{Q} ترسیم کریں۔
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/falling arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& cCN(A1)CCN(A2)CCN(A3)CCN(A4)CCCCN(A5)CCN(A6)0.5C\\
+ $C$&LHhLlHLlHHHHLLlHHhLl0.5l\\
+ $S$&LlhLhLLhLlLhLLLHHLLL0.5l\\
+ $R$&LLLLl0.5hLLlhlLLLLLLlHhL\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4,5,6}\draw(A\n.south)--(E\n.north);
+%\foreach \n in {1}\draw(B\n.south)--(F\n.north);
+%\foreach \n in {1}\draw(C\n.south)--(G\n.north);
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+جواب:
+ \begin{center}
+ \begin{otherlanguage}{english}
+ \begin{tikztimingtable}[%
+timing/.style={x=4ex,y=3ex},
+timing/rowdist=5ex,
+every node/.style={inner sep=0,outer sep=0},
+timing/c/arrow tip=latex, %and this set the style
+timing/c/falling arrows,
+timing/slope=0.0, %0.1 is good
+thick,
+]
+%$C$& cCN(A1)CCN(A2)CCN(A3)CCN(A4)CCCCN(A5)CCN(A6)0.5C\\
+ $C$&LHhLlHLlHHHHLLlHHhLl0.5l\\
+ $S$&LlhLhLLhLlLhLLLHHLLL0.5l\\
+ $R$&LLLLl0.5hLLlhlLLLLLLlHhL\\
+  $Q_a$&lLHHHLLllLHHHHHH0.5hLLl\\
+   $Q$&lLLHHhLLLLLlHHHHHLl0.5l\\
+\extracode
+%\begin{pgfonlayer}{background}
+%\begin{scope}[semitransparent ,dashed]
+%\vertlines[darkgray,dotted]{3.6,7.5,11.5,15.5,19.5,23.5,27.5}
+%\foreach \n in {1,2,3,4,5,6}\draw(A\n.south)--(E\n.north);
+%\foreach \n in {1}\draw(B\n.south)--(F\n.north);
+%\foreach \n in {1}\draw(C\n.south)--(G\n.north);
+%\end{scope}
+%\end{pgfonlayer}
+\end{tikztimingtable}
+\end{otherlanguage}
+\end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.6
+ شکل  \حوالہ{شکل_ترتیبی_ثنائی_سلسلہ_وار_جمع_کار}    میں سلسلہ وار ثنائی جمع کار  پیش ہے۔اسے استعمال کرتے ہوئے \عددی{10110011_2} اور  \عددی{00110011_2} قدم با قدم   جمع کریں۔ ہر قدم پر  تمام مقامات پر متغیرات دریافت کریں۔
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.7
+ایک ترتیبی  دور جس کے مداخل \عددی{x} اور  \عددی{y} جبکہ مخارج \عددی{z} ہے   میں دو ڈی پلٹ،  \عددی{A} اور \عددی{B} مستعمل ہیں ۔ دور کی مساوات درج ذیل   ہیں۔ یاد رہے ہم \عددی{A(t+1)} کو اگلا حال  جبکہ \عددی{A(t)} کو موجودہ حال یا باز رسی اشارہ   تصور کر سکتے ہیں۔
+\begin{align*}
+A(t+1)&=\overline{x}y+xA(t)\\
+B(t+1)&=\overline{x}B(t)+xA(t)\\
+z(t)&=x\overline{B}(t)
+\end{align*}
+\begin{enumerate}[a.]
+\item
+ ترتیبی دور  بنائیں۔ 
+\item
+  ان مساوات سے حال کا جدول حاصل کریں۔ 
+\item
+  حال  کے جدول سے حال کا خاکہ حاصل کریں۔
+\end{enumerate}
+
+جواب:
+\begin{center}
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpina}{0.4}
+\pgfmathsetmacro{\ksepY}{2.25}
+\kDFF[u0]{0}{0}
+\kDFF[u1]{0}{-\ksepY}
+\draw(u0p1)--++(-\kpin,0)node[or port,number inputs=2,anchor=out](u2){};
+\draw(u1p1)--++(-\kpin,0)node[or port,number inputs=2,anchor=out](u3){};
+\draw(u2.in 1)--++(0,\kpina)--++(-\kpina,0)node[and port,anchor=out](u4){};
+\draw(u2.in 2)--++(-\kpina,0)--++(0,-\kpina)node[and port,anchor=out](u5){};
+\draw(u2.in 1)--(u3.in 1);
+\draw(u3.in 2)node[and port,anchor=out](u6){};
+\draw(u5.in 2)--++(-\kpin,0)node[not port,scale=0.7,anchor=out](u8){};
+\draw(u8.in)--++(-3*\kpin,0)coordinate[pos=0.25](klftM)coordinate[pos=0.5](kkk)coordinate(klft)node[left]{$x$};
+\draw(u5.in 1)--(u5.in 1 -|klft)node[left]{$y$};
+\draw(klftM)node[draw,circle,fill=black,inner sep=0pt,minimum size=4pt]{}|-(u4.in 2);
+\draw(u4.in 1)--++(0,1.2*\kpin)coordinate(kA)-|(u0p6);
+\draw(u8.out)|-(u6.in 2);
+\draw(u6.in 1)--++(0,2.25*\kpin)-|(u1p6);
+\draw(u0p2)--(u1p2)--++(0,-2*\kpin)--++(-\kpin,0)node[left]{$C$};
+\draw(u0p6)--++(\kpin,0)node[right]{$A$};
+\draw(u1p6)--++(\kpin,0)node[right]{$B$};
+\draw(0,-\ksepY-2.5*\kpin)node[and port,anchor=in 1](u10){};
+\draw(u1p4)--++(0,-2*\kpin)-|(u10.in 1);
+\draw(klftM)|-(u10.in 2);
+\end{tikzpicture}
+\end{center}
+%
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCCCC}
+\toprule
+&\multicolumn{2}{c}{x=1}&\multicolumn{2}{c}{x=0}\\
+AB&y=1&y=0&y=1&y=0\\
+\midrule
+00&00&00&10&00\\
+01&00&00&11&01\\
+10&11&11&10&00\\
+11&11&11&11&01\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.8
+ مداخل \عددی{x} اور دو جے کے پلٹ،  \عددی{A} اور \عددی{B} ، پر مبنی ترتیبی دور درج ذیل مساوات   پر پورا اترتا ہے۔
+ \begin{align*}
+ J_A&=\overline{B}\\
+ K_A&=x\\
+ J_B&=A\\
+ K_B&=x
+ \end{align*}
+ \begin{enumerate}[a.]
+\item
+ان سے حال کی مساوات  \عددی{A(t+1)} اور  \عددی{B(t+1)} حاصل کریں۔
+\item 
+ان  مساوات سے  حال کا خاکہ بنائیں۔
+\end{enumerate}
+%
+جواب:
+\begin{align*}
+A(t+1)&=\overline{B}\,\overline{A}+\overline{x} A\\
+B(t+1)&=A\overline{B}+xB
+\end{align*}
+\begin{center}
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC}
+\toprule
+\text{\RL{موجودہ حال}}&\multicolumn{2}{c}{\text{\RL{اگلا حال}}}\\
+\cline{2-3}
+AB&x=1&x=0\\
+\midrule
+00&10&10\\
+01&00&01\\
+10&01&11\\
+11&00&11\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{center}
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.9
+ دو  ڈی پلٹ، \عددی{A} اور \عددی{B}، استعمال کر کے مداخل \عددی{x} کا   ترتیبی دور تخلیق دیں جو بالترتیب  \عددی{00}، \عددی{01}، \عددی{10}،  اور \عددی{11} حال اختیار کر سکتا ہو۔بلند  مداخل  کی صورت میں بڑھتی  گنتی   اور پست مداخل  کی صورت میں گھٹتی گنتی  حاصل کرنی ہے۔ بڑھتی گنتی کی صورت میں \عددی{11} کو  پہنچنے کے بعد بلند  مداخل  کی صورت میں  دور اسی حال میں رہنا چاہیے ۔گھٹتی گنتی کرتے ہوئے \عددی{00} کو پہنچنے کے بعد پست مداخل کی صورت میں دور \عددی{00} میں رہنا چاہیے۔
+ 
+ جواب: 
+ 
+ \begin{minipage}{0.35\textwidth}
+ \centering
+ \begin{otherlanguage}{english}
+ \begin{tabular}{CCC|CC}
+ \toprule
+ x&A&B&D_A&D_B\\
+ \midrule
+ 0&0&0&0&0\\
+ 0&0&1&0&0\\
+ 0&1&0&0&1\\
+ 0&1&1&1&0\\
+ 1&0&0&0&1\\
+ 1&0&1&1&0\\
+ 1&1&0&1&1\\
+ 1&1&1&1&1\\
+ \end{tabular}
+ \end{otherlanguage}
+ \end{minipage}\hfill
+\begin{minipage}{0.65\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{1}
+\pgfmathsetmacro{\ksepY}{3.75}
+\kDFF[u0]{0}{0}
+\kDFF[u1]{0}{-\ksepY}
+\draw(u0p6)node[right]{$A$} (u1p6)node[right]{$B$};
+\draw(u0p1)--++(-\kpin,0)node[or port,anchor=out](u2){u2};
+\draw(u2.in 1)--++(0,\kpin)node[and port,anchor=out](u3){u3};
+\draw(u2.in 2)--++(0,-\kpin)node[and port,anchor=out](u4){u4};
+\draw(u3.in 1)--++(0,\kpin)node[xor port,anchor=out](u5){u5};
+\draw(u5.in 1)node[left]{$x$}  (u5.in 2)node[left]{$A$};
+\draw(u3.in 2)--(u3.in 2 -| u5.in 2)node[left]{$B$};
+\draw(u4.in 2)--++(0,-\kpin)node[xor port,anchor=out](u6){u6};
+\draw(u6.in 1)node[left]{$A$}  (u6.in 2)node[left]{$B$};
+\draw(u4.in 1)--(u4.in 1 -| u5.in 2)node[left]{$x$};
+
+\draw(u1p1)--++(-\kpin,0)node[or port,anchor=out](u20){u20};
+\draw(u20.in 1)--++(0,\kpin)node[and port,anchor=out](u30){u30};
+\draw(u20.in 2)--++(0,-\kpin)node[and port,anchor=out](u40){u40};
+\draw(u30.in 1)--++(0,\kpin)node[xor port,anchor=out](u50){u50};
+\draw(u50.in 1)node[left]{$x$}  (u50.in 2)node[left]{$A$};
+\draw(u30.in 2)--(u30.in 2 -| u5.in 2)node[left]{$\overline{B}$};
+\draw(u40.in 1)--(u40.in 1 -| u50.in 2)node[left]{$x$};
+\draw(u40.in 2)--(u40.in 2 -| u50.in 2)node[left]{$A$};
+\draw(u0p2)--(u1p2)--++(0,-\kpin)node[below]{$C$};
+\end{tikzpicture} 
+\end{minipage}
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.10
+ گزشتہ سوال میں  مداخل  \عددی{e} کا اضافہ کریں۔ بلند  \عددی{e} کی صورت میں دور جوں کا توں چلتا ہو جبکہ پست \عددی{e} کی صورت میں  دور اپنا حال برقرار رکھتا ہو۔
+ 
+ جواب: ساعت \عددی{C} کو ضرب گیٹ سے گزاریں۔ ضرب گیٹ کا دوسرا مداخل \عددی{e} ہو گا۔
+\انتہا{سوال}
+\ابتدا{سوال}
+%6.11
+ پچھلے سوال   میں  مداخل کی تعداد میں مزید اضافہ کرتے ہوئے مداخل \عددی{s}  کا اضافہ کریں۔ مداخل \عددی{s}  بلند کرنے سے دور کو حال \عددی{00} اختیار کر لینا چاہیے جبکہ پست  \عددی{s} کی صورت میں دور  کو  پہلے کی طرح کام کرنا چاہیے۔
+ 
+ جواب:دونوں  ڈی پلٹ  کے بلند فعال  \اصطلاح{ زبردستی پست } مداخل کو \عددی{s}  فراہم کریں۔
+\انتہا{سوال}
+%==============
+
