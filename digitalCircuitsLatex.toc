@@ -131,9 +131,9 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {4}.\arabicdigits {2}}مخلوط ادوار}{\arabicdigits {47}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {4}.\arabicdigits {2}}مخلوط ادوار}{\arabicdigits {48}}{}%
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {5}}بوولین تفاعل کا تخمینہ}{\arabicdigits {49}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {5}.\arabicdigits {1}}بوولین تفاعل کا تخمینہ}{\arabicdigits {49}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {5}.\arabicdigits {1}}بوولین تفاعل کا تخمینہ}{\arabicdigits {50}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -150,7 +150,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {6}}قوسین میں بند بوولین تفاعل}{\arabicdigits {51}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {6}}قوسین میں بند بوولین تفاعل}{\arabicdigits {52}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -224,7 +224,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {8}}ڈی مارگن کے کلیات}{\arabicdigits {57}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {8}}ڈی مارگن کے کلیات}{\arabicdigits {58}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -233,11 +233,11 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}جڑواں بوولین تفاعل}{\arabicdigits {60}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {9}}جڑواں بوولین تفاعل}{\arabicdigits {61}}{}%
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {10}}ارکان ضرب کے مجموعہ کی ترکیب}{\arabicdigits {61}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -280,7 +280,7 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {12}}مجموعہ ارکان ضرب اور ضرب بعد از جمع کے مابین تبادلہ}{\arabicdigits {68}}{}%
+\contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {12}}مجموعہ ارکان ضرب اور ضرب بعد از جمع کے مابین تبادلہ}{\arabicdigits {69}}{}%
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {13}}ضرب و جمع دور سے متمم ضرب و متمم ضرب دور کا حصول}{\arabicdigits {69}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -291,18 +291,18 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {14}}جمع و ضرب دور سے متمم جمع و متمم جمع دور کا حصول}{\arabicdigits {71}}{}%
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {3}.\arabicdigits {15}}علامتی روپ یا رموز}{\arabicdigits {72}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {1}}ایسکی رموز اور عالمی رموز}{\arabicdigits {72}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {2}}اعشاری اعداد کے ثنائی رموز}{\arabicdigits {74}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {3}}گرے رموز}{\arabicdigits {74}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {1}}ایسکی رموز اور عالمی رموز}{\arabicdigits {73}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {2}}اعشاری اعداد کے ثنائی رموز}{\arabicdigits {73}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {3}.\arabicdigits {15}.\arabicdigits {3}}گرے رموز}{\arabicdigits {75}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -696,4 +696,5 @@
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {265}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {12}}سادہ ترین کمپیوٹر}{\arabicdigits {267}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}بناؤٹ}{\arabicdigits {267}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {269}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {2}}ہدایات کی فہرست}{\arabicdigits {272}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {273}}{}%
