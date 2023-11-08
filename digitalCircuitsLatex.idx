@@ -1,30 +1,46 @@
-\indexentry{state!tri}{\arabicdigits {267}}
-\indexentry{حال!سہ}{\arabicdigits {267}}
-\indexentry{state!two}{\arabicdigits {267}}
-\indexentry{حال!دو}{\arabicdigits {267}}
-\indexentry{input output unit}{\arabicdigits {267}}
-\indexentry{دخول و خروج مرکز}{\arabicdigits {267}}
-\indexentry{control unit}{\arabicdigits {267}}
-\indexentry{قابو مرکز}{\arabicdigits {267}}
-\indexentry{program counter}{\arabicdigits {269}}
-\indexentry{ہدایت گنت کار}{\arabicdigits {269}}
-\indexentry{pointer}{\arabicdigits {269}}
-\indexentry{اشارہ گر}{\arabicdigits {269}}
-\indexentry{instruction register}{\arabicdigits {270}}
-\indexentry{دفتر ہدایت}{\arabicdigits {270}}
-\indexentry{operation!memory read}{\arabicdigits {270}}
-\indexentry{ہدایت پڑھ عمل}{\arabicdigits {270}}
-\indexentry{bus!control}{\arabicdigits {270}}
-\indexentry{گزرگاہ!قابو}{\arabicdigits {270}}
-\indexentry{register!output}{\arabicdigits {271}}
-\indexentry{خارجی دفتر}{\arabicdigits {271}}
-\indexentry{port!output}{\arabicdigits {271}}
-\indexentry{خارجی روزن}{\arabicdigits {271}}
-\indexentry{printer}{\arabicdigits {271}}
-\indexentry{پرنٹر}{\arabicdigits {271}}
-\indexentry{interface circuit}{\arabicdigits {271}}
-\indexentry{دور!ملاپی}{\arabicdigits {271}}
-\indexentry{LED}{\arabicdigits {271}}
-\indexentry{نوری ڈایوڈ}{\arabicdigits {271}}
-\indexentry{ALU}{\arabicdigits {271}}
-\indexentry{حسابی مرکز}{\arabicdigits {271}}
+\indexentry{state!tri}{\arabicdigits {271}}
+\indexentry{حال!سہ}{\arabicdigits {271}}
+\indexentry{state!two}{\arabicdigits {271}}
+\indexentry{حال!دو}{\arabicdigits {271}}
+\indexentry{input output unit}{\arabicdigits {271}}
+\indexentry{دخول و خروج مرکز}{\arabicdigits {271}}
+\indexentry{control unit}{\arabicdigits {271}}
+\indexentry{قابو مرکز}{\arabicdigits {271}}
+\indexentry{program}{\arabicdigits {273}}
+\indexentry{برنامہ}{\arabicdigits {273}}
+\indexentry{program counter}{\arabicdigits {273}}
+\indexentry{ہدایت گنت کار}{\arabicdigits {273}}
+\indexentry{pointer}{\arabicdigits {273}}
+\indexentry{اشارہ گر}{\arabicdigits {273}}
+\indexentry{instruction register}{\arabicdigits {275}}
+\indexentry{دفتر ہدایت}{\arabicdigits {275}}
+\indexentry{operation!memory read}{\arabicdigits {275}}
+\indexentry{ہدایت پڑھ عمل}{\arabicdigits {275}}
+\indexentry{bus!control}{\arabicdigits {275}}
+\indexentry{گزرگاہ!قابو}{\arabicdigits {275}}
+\indexentry{register!output}{\arabicdigits {276}}
+\indexentry{خارجی دفتر}{\arabicdigits {276}}
+\indexentry{port!output}{\arabicdigits {276}}
+\indexentry{خارجی روزن}{\arabicdigits {276}}
+\indexentry{printer}{\arabicdigits {276}}
+\indexentry{پرنٹر}{\arabicdigits {276}}
+\indexentry{interface circuit}{\arabicdigits {276}}
+\indexentry{دور!ملاپی}{\arabicdigits {276}}
+\indexentry{LED}{\arabicdigits {276}}
+\indexentry{نوری ڈایوڈ}{\arabicdigits {276}}
+\indexentry{ALU}{\arabicdigits {276}}
+\indexentry{حسابی مرکز}{\arabicdigits {276}}
+\indexentry{assembly language}{\arabicdigits {277}}
+\indexentry{مادری زبان}{\arabicdigits {277}}
+\indexentry{fullstop}{\arabicdigits {280}}
+\indexentry{ختمہ}{\arabicdigits {280}}
+\indexentry{memory reference instructions}{\arabicdigits {280}}
+\indexentry{راجع ہدایات}{\arabicdigits {280}}
+\indexentry{microprocessor}{\arabicdigits {280}}
+\indexentry{خرد عامل کار}{\arabicdigits {280}}
+\indexentry{op code}{\arabicdigits {281}}
+\indexentry{رمز}{\arabicdigits {281}}
+\indexentry{operand}{\arabicdigits {282}}
+\indexentry{زیر عمل}{\arabicdigits {282}}
+\indexentry{operand}{\arabicdigits {282}}
+\indexentry{زیر عمل}{\arabicdigits {282}}

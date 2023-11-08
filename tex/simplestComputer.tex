@@ -21,7 +21,7 @@
 \pgfmathsetmacro{\kdimY}{2*\kulV+4*\kpsep}		%two spaces between 3 pins
 \pgfmathsetmacro{\ksepX}{\kdimX+2*\kpina+1*\kpsep+\kW}
 \pgfmathsetmacro{\ksepY}{\kdimY+\kpin+0.5*\kpsep}
-\draw(0,0) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1.5cm,align=center]{\text{\RL{ہدایت}} \text{\RL{گنت کار}}};
+\draw(0,0)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1.5cm,align=center]{\text{\RL{ہدایت}} \text{\RL{گنت کار}}};
 \draw(0,\kulV+0*\kpsep)--++(-\kpin,0)node[left]{$E_P$};
 \draw(0,\kulV+1*\kpsep)--++(-\kpin,0)node[left]{$\overline{CLR}$};
 \draw(0,\kulV+2*\kpsep)--++(-\kpin,0)node[left]{$\overline{CLK}$};
@@ -34,7 +34,7 @@
 \draw(\kdimX,\kulV+1.5*\kpsep)++(\kpina,0)++(-0.5*\kpsep,-0.5*\kpsep)--++(1*\kpsep,1*\kpsep)--++(-1*\kpsep,1*\kpsep);
 \draw(\kdimX,\kulV+2*\kpsep)++(0.5*\kpina,0)node[]{$4$};
 
-\draw(0,-\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{\text{\RL{درآمدی سوئچ  اور }} \text{\RL{دفتر پتہ}}};
+\draw(0,-\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{\text{\RL{برنامہ نویس}}\\ \text{\RL{اور}}\\ \text{\RL{دفتر پتہ}}};
 \draw(0,-\ksepY+\kulV+2*\kpsep)--++(-\kpina,0)node[left]{$CLK$};
 \draw(0,-\ksepY+\kulV+2*\kpsep-\kmv)--++(\kmv,\kmv)--++(-\kmv,\kmv);
 \draw(0,-\ksepY+\kulV+4*\kpsep)--++(-\kpina,0)node[left]{$\overline{L}_M$};
@@ -53,7 +53,7 @@
 \draw(\kdimX,-\ksepY+\kulV+2*\kpsep)--++(1*\kpsep,1*\kpsep);
 \draw(\kdimX,-\ksepY+\kulV+2*\kpsep)++(0.5*\kpina,0)node[]{$4$};
 
-\draw(0,-2*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{$16\times 8$ \text{\RL{عارضی حافظہ}}};
+\draw(0,-2*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{$16\times 8$ \text{\RL{عارضی حافظہ}}};
 \draw(0,-2*\ksepY+\kulV)--++(-\kpina,0)node[left]{$\overline{CE}$}; 
 \draw(0,-2*\ksepY+\kulV)++(-\knshift,0)node[ocirc]{};
 \draw(\kdimX,-2*\ksepY+\kulV+1.5*\kpsep)--++(\kpina,0);
@@ -61,7 +61,7 @@
 \draw(\kdimX,-2*\ksepY+\kulV+1.5*\kpsep)++(\kpina,0)++(-0.5*\kpsep,-0.5*\kpsep)--++(1*\kpsep,1*\kpsep)--++(-1*\kpsep,1*\kpsep);
 \draw(\kdimX,-2*\ksepY+\kulV+2*\kpsep)++(0.5*\kpina,0)node[]{$8$};
 
-\draw(0,-3*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{دفتر ہدایت}}};
+\draw(0,-3*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{دفتر ہدایت}}};
 \draw(0,-3*\ksepY+\kulV+0*\kpsep)--++(-\kpina,0)node[left]{$\overline{E}_I$};
 \draw(0,-3*\ksepY+\kulV+1*\kpsep)--++(-\kpina,0)node[left]{$CLR$};
 \draw(0,-3*\ksepY+\kulV+2*\kpsep)--++(-\kpina,0)node[left]{$CLK$};
@@ -82,7 +82,7 @@
 \draw(\kulH+1.5*\kpsep,-3*\ksepY)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
 \draw(\kulH+2*\kpsep,-3*\ksepY)++(0,-0.5*\kpin)node[]{$4$};
 
-\draw(0,-4*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=3cm,align=center]{ \text{\RL{قابو  و ترتیب کار}}};
+\draw(0,-4*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=3cm,align=center]{ \text{\RL{قابو  و ترتیب کار}}};
 \draw[-latex](\kdimX,-4*\ksepY+\kulV+0*\kpsep)--++(\kpina,0)node[right]{$\overline{CLR}$}; 
 \draw[-latex](\kdimX,-4*\ksepY+\kulV+1*\kpsep)--++(\kpina,0)node[right]{$CLR$}; 
 \draw[-latex](\kdimX,-4*\ksepY+\kulV+2*\kpsep)--++(\kpina,0)node[right]{$\overline{CLK}$}; 
@@ -95,10 +95,10 @@
 \draw(\kdimX,-4*\ksepY+\kulV+0*\kpsep)++(\knshift,0)node[ocirc]{};
 \draw(\kdimX,-4*\ksepY+\kulV+2*\kpsep)++(\knshift,0)node[ocirc]{};
 
-\draw(\kdimX+\kpina+0.5*\kpsep,\kdimY) rectangle ++(\kW,-4*\ksepY+\kpin);
+\draw(\kdimX+\kpina+0.5*\kpsep,\kdimY)  [thick] rectangle ++(\kW,-4*\ksepY+\kpin);
 \draw(\kdimX+\kpina+0.5*\kpsep,\kdimY)++(0.5*\kW,0)node[above, text width=1.5cm,align=center]{\text{\RL{گزرگاہ}} $W$}node[below]{$8$};
 
-\draw(\ksepX,-0*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{ \text{\RL{دفتر}} $A$};
+\draw(\ksepX,-0*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{ \text{\RL{دفتر}} $A$};
 \draw(\ksepX,-0*\ksepY+\kulV+0*\kpsep)--++(-\kpina,0); 
 \draw(\ksepX,-0*\ksepY+\kulV+1*\kpsep)--++(-\kpina,0); 
 \draw(\ksepX,-0*\ksepY+\kulV+0*\kpsep)++(-\kpina,0)++(0.5*\kpsep,-0.5*\kpsep)--++(-\kpsep,\kpsep)--++(\kpsep,\kpsep);
@@ -116,7 +116,7 @@
 \draw(\ksepX+\kdimX,-0*\ksepY+\kulV+4*\kpsep)--++(\kpin,0)node[right]{$\overline{L}_A$};
 \draw(\ksepX+\kdimX,-0*\ksepY+\kulV+2*\kpsep)++(0,-\kmv)--++(-\kmv,\kmv)--++(\kmv,\kmv);
 \draw(\ksepX+\kdimX,-0*\ksepY+\kulV+4*\kpsep)++(\knshift,0)node[ocirc]{};
-\draw(\ksepX,-1*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{جمع و منفی کار}}};
+\draw(\ksepX,-1*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{ \text{\RL{جمع و منفی کار}}};
 \draw(\ksepX+\kdimX,-1*\ksepY+\kulV+0*\kpsep)--++(\kpin,0)node[right]{$E_U$};
 \draw(\ksepX+\kdimX,-1*\ksepY+\kulV+4*\kpsep)--++(\kpin,0)node[right]{$S_U$};
 \draw(\ksepX,-1*\ksepY+\kulV+1.5*\kpsep)--++(-\kpina,0); 
@@ -129,7 +129,7 @@
 \draw(\ksepX+\kulH+2*\kpsep,-1*\ksepY)++(0,-0.5*\kpsep-0.5*\kpin)node[]{$8$};
 
 
-\draw(\ksepX,-2*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{ \text{\RL{دفتر}} $B$};
+\draw(\ksepX,-2*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{ \text{\RL{دفتر}} $B$};
 \draw(\ksepX,-2*\ksepY+\kulV+1.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
 \draw(\ksepX,-2*\ksepY+\kulV+2.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
 \draw(\ksepX,-2*\ksepY+\kulV+1.5*\kpsep)++(-1*\kpsep,-0.5*\kpsep)--++(\kpsep,\kpsep)--++(-\kpsep,\kpsep);
@@ -139,7 +139,7 @@
 \draw(\ksepX+\kdimX,-2*\ksepY+\kulV+2*\kpsep)++(0,-\kmv)--++(-\kmv,\kmv)--++(\kmv,\kmv);
 \draw(\ksepX+\kdimX,-2*\ksepY+\kulV+4*\kpsep)++(\knshift,0)node[ocirc]{};
 
-\draw(\ksepX,-3*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{خارجی دفتر}}};
+\draw(\ksepX,-3*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{خارجی دفتر}}};
 \draw(\ksepX,-3*\ksepY+\kulV+1.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
 \draw(\ksepX,-3*\ksepY+\kulV+2.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
 \draw(\ksepX,-3*\ksepY+\kulV+1.5*\kpsep)++(-1*\kpsep,-0.5*\kpsep)--++(\kpsep,\kpsep)--++(-\kpsep,\kpsep);
@@ -153,7 +153,7 @@
 \draw(\ksepX,-3*\ksepY)++(\kulH+1.5*\kpsep,0)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
 \draw(\ksepX+\kdimX,-3*\ksepY+\kulV+4*\kpsep)++(\knshift,0)node[ocirc]{};
 
-\draw(\ksepX,-4*\ksepY) rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{ثنائی نمائش}}};
+\draw(\ksepX,-4*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=2cm,align=center]{ \text{\RL{ثنائی نمائشی تختی}}};
 \end{tikzpicture}
 \caption{سادہ ترین کمپیوٹر کی بناوٹ}
 \label{شکل_کمپیوٹر_سادہ_ترین}
@@ -164,19 +164,114 @@
 شکل \حوالہ{شکل_کمپیوٹر_سادہ_ترین} میں پیش کئی دفاتر  آپ پہلے سے  جانتے ہیں۔  ہر ڈبے کی مختصر  خصوصیات بیان کرتے ہیں؛ ان پر تفصیلی گفتگو بعد میں کی جائے گی۔
 
 \جزوحصہء{ہدایت گنت کار}
-حافظہ  کے شروع میں برنامہ (پروگرام)  رکھا جاتا ہے۔ پہلا ہدایت ثنائی پتہ \عددی{0000} پر، دوسرا ہدایت پتہ \عددی{0001}، اور تیسرا ہدایت \عددی{0010} پر ہو گا۔\اصطلاح{ ہدایت گنت کار }\فرہنگ{ہدایت گنت کار}\حاشیہب{program counter}\فرہنگ{program counter}،  جو قابو مرکز کا حصہ ہے، \عددی{0000} تا \عددی{1111} گردان کرتا ہے۔ اس کا کام حافظہ کو وہ پتہ فراہم کرنا ہے جس سے اگلا ہدایت پڑھ کر عمل میں لایا جائے گا۔ یہ کام درج ذیل طریقے سے سرانجام ہو گا۔
+حافظہ  کے شروع میں\اصطلاح{ برنامہ }\فرہنگ{برنامہ}\حاشیہب{program}\فرہنگ{program} (پروگرام)  رکھا جاتا ہے۔ پہلا ہدایت ثنائی پتہ \عددی{0000} پر، دوسرا ہدایت پتہ \عددی{0001}، اور تیسرا ہدایت \عددی{0010} پر ہو گا۔\اصطلاح{ ہدایت گنت کار }\فرہنگ{ہدایت گنت کار}\حاشیہب{program counter}\فرہنگ{program counter}،  جو قابو مرکز کا حصہ ہے، \عددی{0000} تا \عددی{1111} گردان کرتا ہے۔ اس کا کام حافظہ کو وہ پتہ فراہم کرنا ہے جس سے اگلا ہدایت پڑھ کر عمل میں لایا جائے گا۔ یہ کام درج ذیل طریقے سے سرانجام ہو گا۔
 
 کمپیوٹر کی ہر دوڑ  سے قبل ہدایت گنت کار   \عددی{0000}  کر دیا جاتا ہے۔ جب کمپیوٹر کی دوڑ شروع  ہوتی ہے ہدایت گنت کار   حافظہ کو پتہ \عددی{0000} فراہم کرتا ہے۔ اس کے بعد ہدایت گنت کار   ایک قدم بڑھا کر \عددی{0001}  کر دیا جاتا ہے۔ پہلا ہدایت (مقام \عددی{0000} سے) پڑھ کر اس پر عمل کیا جاتا ہے، جس کے بعد ہدایت گنت کار حافظہ کو پتہ \عددی{0001} بھیجتا ہے اور   ہدایت گنت کار ایک قدم بڑھا کر \عددی{0010} کر دیا جاتا ہے۔ دوسرا ہدایت پڑھنے اور اس پر عمل کرنے کے بعد ہدایت گنت کار حافظہ کو \عددی{0010} پتہ بھیجتا ہے۔ اس طرح، ہدایت گنت کار ہر وقت اگلی  ہدایت  پر نظر جمائے رکھتا ہے۔
 
 گویا ہدایت گنت کار اس شخص کی طرح ہے جو ہدایت کی فہرست  کی طرف اشارہ کرتے ہوئے کہتا ہے یہ کام  پہلے کریں، یہ کام دوسرے نمبر پر کریں، یہ تیسرے نمبر پر کریں، وغیرہ۔ اسی لئے ہدایت گنت کار بعض اوقات \اصطلاح{  اشارہ گر   }\فرہنگ{اشارہ گر}\حاشیہب{pointer}\فرہنگ{pointer} کہلاتا ہے؛ یہ حافظہ میں اس مقام کی طرف اشارہ کرتا ہے جہاں کوئی   اہم معلومات درج ہو گی۔
 
-\جزوحصہء{درآمدی سوئچ  اور  دفتر پتہ}
-ہدایت گنت کار کے نیچے درآمدی سوئچ اور دفتر پتہ کا  ڈبہ ہے۔عارضی حافظہ کو  \عددی{4} پتہ اور \عددی{8} مواد   بِٹ فراہم کرنے والا دور،  جو درآمدی سوئچ پر مبنی ہے اور جس کے ذریعہ عارضی حافظہ میں برنامہ بھرا جاتا ہے،  اسی کا حصہ ہے۔یاد رہے کمپیوٹر کی  (با مقصد)دوڑ سے قبل عارضی حافظہ میں برنامہ  لکھنا لازمی ہے۔ یہ دور جو 
+\جزوحصہء{برنامہ نویس   اور  دفتر پتہ}
+ہدایت گنت کار کے نیچے برنامہ نویس   اور دفتر پتہ کا  ڈبہ ہے۔ شکل \حوالہ{شکل_کمپیوٹر_برنامہ_نویسی} میں برنامہ نویس پیش ہے (     صفحہ \حوالہصفحہ{شکل_حافظہ_میں_مواد_کی_لکھائی} پر شکل \حوالہ{شکل_حافظہ_میں_مواد_کی_لکھائی} سمجھیں)   جس  کے ذریعہ سوئچوں  کی مدد سے   عارضی حافظہ کو  \عددی{4} پتہ اور \عددی{8} مواد   بِٹ فراہم کر  کے بھرا جاتا ہے۔ یاد رہے کمپیوٹر کی  (با مقصد)دوڑ سے قبل عارضی حافظہ میں برنامہ  لکھنا لازمی ہے۔ یہ دور جو 
 
-حافظے کے پتہ  کا دفتر  (دفتر پتہ  حافظہ)  اس کمپیوٹر کے عارضی حافظے کا حصہ ہے۔ کمپیوٹر  کی دوڑ کے دوران، ہدایت گنت کار  میں موجود پتہ  اس میں  (دفتر پتہ میں)    نقل  کیا جاتا ہے۔ چند لمحوں بعد دفتر پتہ  یہ پتہ عارضی  حافظہ کو فراہم کرتا ہے، جہاں سے   اگلا ہدایت پڑھا جاتا ہے۔
+حافظے کے پتہ  کا دفتر  (دفتر پتہ  )  اس کمپیوٹر کے عارضی حافظے کا حصہ ہے۔ کمپیوٹر  کی دوڑ کے دوران، ہدایت گنت کار  میں موجود پتہ  اس   (دفتر پتہ)     میں نقل  کیا جاتا ہے۔  دفتر پتہ   چند لمحوں بعد یہ پتہ عارضی  حافظہ کو فراہم کرتا ہے، جہاں سے   اگلی ہدایت پڑھی جاتی ہے۔
+
+\begin{figure}
+\centering
+ \ctikzset{bipoles/resistor/height=0.15}
+ \ctikzset{bipoles/resistor/width=0.4}
+  \ctikzset{bipoles/nos/height=0.15}
+ \ctikzset{bipoles/nos/width=0.4}
+\begin{circuitikz}
+\pgfmathsetmacro{\ksepX}{6}
+\pgfmathsetmacro{\ksepY}{8}
+\pgfmathsetmacro{\kr}{1}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpsep}{0.50}
+\pgfmathsetmacro{\kpsepr}{0.25}
+\pgfmathsetmacro{\kpin}{0.5}
+\pgfmathsetmacro{\kpina}{2.5}
+\pgfmathsetmacro{\kpinb}{\kpsep+2*\kpsepr}%{4}
+\pgfmathsetmacro{\kul}{0.50}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kxdim}{2*\kul+3*\kpsep}
+\pgfmathsetmacro{\kydim}{2*\kul+5*\kpsep}
+\draw[thick](0,0)rectangle++(\kxdim,\kydim)node[pos=0.5,below]{$74189$}node[pos=0.5,above]{\text{\RL{حافظہ}}};
+\draw(1*\kul+0*\kpsep,\kydim)node[below]{$A_3$}node[shift={(-1.5ex,2ex)}]{$13$}--++(0,\kpina)to [R]++(0,\kr)coordinate(kpA);
+\draw(1*\kul+1*\kpsep,\kydim)node[below]{$A_2$}node[shift={(-1.5ex,2ex)}]{$14$}--++(0,\kpina)to [R]++(0,\kr);
+\draw(1*\kul+2*\kpsep,\kydim)node[below]{$A_1$}node[shift={(-1.5ex,2ex)}]{$15$}--++(0,\kpina)to [R]++(0,\kr);
+\draw(1*\kul+3*\kpsep,\kydim)node[below]{$A_0$}node[shift={(-1ex,2ex)}]{$1$}--++(0,\kpina)to [R]++(0,\kr)coordinate(kpB);
+\draw(kpA)--(kpB)--++(\kpin,0)node[right]{$\SI{+5}{\volt}$};
+\draw(1*\kul+0*\kpsep,\kydim)++(0,3*\kpsep+3*\kpsepr)coordinate(kaa)--++(-1*\kpsep,0) to [nos,o-o,invert,mirror]++(-\kpin,0)--++(-0.5*\kpsep,0)coordinate(gndA)node[left]{$a_3$};
+\draw(1*\kul+1*\kpsep,\kydim)++(0,3*\kpsep+2*\kpsepr)coordinate(kab)--++(-2*\kpsep,0) to [nos,o-o,invert,mirror]++(-\kpin,0)--++(-0.5*\kpsep,0)node[left]{$a_2$};
+\draw(1*\kul+2*\kpsep,\kydim)++(0,3*\kpsep+1*\kpsepr)coordinate(kac)--++(-3*\kpsep,0) to [nos,o-o,invert,mirror]++(-\kpin,0)--++(-0.5*\kpsep,0)node[left]{$a_1$};
+\draw(1*\kul+3*\kpsep,\kydim)++(0,3*\kpsep+0*\kpsepr)coordinate(kad)--++(-4*\kpsep,0) to [nos,o-o,invert,mirror]++(-\kpin,0)--++(-0.5*\kpsep,0)coordinate(gndB)node[left]{$a_0$};
+\draw(gndA)--(gndB)node [ground]{};
+\draw(0,\kul+1*\kpsep)node[right]{$D_4$}node[left,xshift=-0.5ex,yshift=1.5ex]{$4$}--++(-\kpinb-\kpsepr,0)--++(0,-2*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)--++(0,-\kpin)coordinate(kA);%
+\draw(0,\kul+2*\kpsep)node[right]{$D_5$}node[left,xshift=-0.5ex,yshift=1.5ex]{$6$}--++(-\kpinb-2*\kpsepr,0)--++(0,-3*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)--++(0,-\kpin);
+\draw(0,\kul+3*\kpsep)node[right]{$D_6$}node[left,xshift=-0.5ex,yshift=1.5ex]{$10$}--++(-\kpinb-3*\kpsepr,0)--++(0,-4*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)--++(0,-\kpin);
+\draw(0,\kul+4*\kpsep)node[right]{$D_7$}node[left,xshift=-0.5ex,yshift=1.5ex]{$12$}--++(-\kpinb-4*\kpsepr,0)--++(0,-5*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)node[above left]{$d_7$}--++(0,-\kpin)coordinate(kB);
+\draw(kA)--(kB)node[ground]{};
+\draw(-\kpsep-1*\kpsepr,\kul+0*\kpsep)--++(0,4*\kpsep+\kul)to [R]++(0,\kr)coordinate(kpC);
+\draw(-\kpsep-3*\kpsepr,\kul+1*\kpsep)--++(0,3*\kpsep+\kul)to [R]++(0,\kr);
+\draw(-\kpsep-4*\kpsepr,\kul+2*\kpsep)--++(0,2*\kpsep+\kul)to [R]++(0,\kr);
+\draw(-\kpsep-5*\kpsepr,\kul+3*\kpsep)--++(0,1*\kpsep+\kul)to [R]++(0,\kr);
+\draw(-\kpsep-6*\kpsepr,\kul+4*\kpsep)--++(0,0*\kpsep+\kul)to [R]++(0,\kr)coordinate(kpD);
+\draw(kpC)--(kpD)--++(-0.5*\kpin,0)node[left]{$\SI{5}{\volt}$};
+\draw(0,\kul+0*\kpsep)node[right]{$\overline{\text{\RL{لکھ}}}$}node[left,xshift=-0.5ex,yshift=1.5ex]{$3$}--++(-\kpinb+\kpsepr,0)--++(0,-5.5*\kpsep)coordinate(kkWW) to [nos,o-o,invert,mirror]++(0,-\kpin)node[right]{$S_1$}--++(0,-\kpin)node[ground]{};
+\draw(0,\kul+0*\kpsep)++(-\knshift,0)node[ocirc]{};
+\draw(1.5*\kul,0)node[below right]{$16$}--++(0,-\kpin)--++(-1*\kpin,0)node[left]{$\SI{5}{\volt}$} (1.5*\kul+\kpsep,0)node[below right]{$8$}--++(0,-\kpin)node[ground]{};
+\draw(1*\kul+3*\kpsep,0)node[below right]{$2$}node[above]{$\overline{\text{\RL{بیدار}}}$}
+--++(0,-0.5*\kpin)coordinate(kCE);
+\draw(1*\kul+3*\kpsep,0)++(0,-\knshift)node[ocirc]{};
+\draw(\kxdim,\kul+1*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$5$}--++(1*\kpin,0)node[right]{$\overline{O}_4$};
+\draw(\kxdim,\kul+2*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$7$}--++(1*\kpin,0)node[right]{$\overline{O}_5$};
+\draw(\kxdim,\kul+3*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$9$}--++(1*\kpin,0)node[right]{$\overline{O}_6$};
+\draw(\kxdim,\kul+4*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$11$}--++(1*\kpin,0)node[right]{$\overline{O}_7$};
+\draw(\kxdim,\kul+1*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw(\kxdim,\kul+2*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw(\kxdim,\kul+3*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw(\kxdim,\kul+4*\kpsep)++(\knshift,0)node[ocirc]{};
+
+\draw[thick](\ksepX,0*\ksepY)rectangle++(\kxdim,\kydim)node[pos=0.5,below]{$74189$}node[pos=0.5,above]{\text{\RL{حافظہ}}};
+\draw(1*\kul+0*\kpsep+\ksepX,\kydim+0*\ksepY)node[below]{$A_3$}node[shift={(-1.5ex,2ex)}]{$13$}|-(kaa)node[draw,circle,fill=black,inner sep=1.5pt]{};
+\draw(1*\kul+1*\kpsep+\ksepX,\kydim+0*\ksepY)node[below]{$A_2$}node[shift={(-1.5ex,2ex)}]{$14$}|-(kab)node[draw,circle,fill=black,inner sep=1.5pt]{};
+\draw(1*\kul+2*\kpsep+\ksepX,\kydim+0*\ksepY)node[below]{$A_1$}node[shift={(-1.5ex,2ex)}]{$15$}|-(kac)node[draw,circle,fill=black,inner sep=1.5pt]{};
+\draw(1*\kul+3*\kpsep+\ksepX,\kydim+0*\ksepY)node[below]{$A_0$}node[shift={(-1ex,2ex)}]{$1$}|-(kad)node[draw,circle,fill=black,inner sep=1.5pt]{};
+\draw(\ksepX,\kul+1*\kpsep+0*\ksepY)node[right]{$D_0$}node[left,xshift=-0.5ex,yshift=1.5ex]{$4$}--++(-\kpinb+\kpsepr,0)--++(0,-2*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)--++(0,-\kpin)coordinate(kA);%
+\draw(\ksepX,\kul+2*\kpsep+0*\ksepY)node[right]{$D_1$}node[left,xshift=-0.5ex,yshift=1.5ex]{$6$}--++(-\kpinb-0*\kpsepr,0)--++(0,-3*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)--++(0,-\kpin);
+\draw(\ksepX,\kul+3*\kpsep+0*\ksepY)node[right]{$D_2$}node[left,xshift=-0.5ex,yshift=1.5ex]{$10$}--++(-\kpinb-1*\kpsepr,0)--++(0,-4*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)--++(0,-\kpin);
+\draw(\ksepX,\kul+4*\kpsep+0*\ksepY)node[right]{$D_3$}node[left,xshift=-0.5ex,yshift=1.5ex]{$12$}--++(-\kpinb-2*\kpsepr,0)--++(0,-5*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)node[above left]{$d_3$}--++(0,-\kpin)coordinate(kB);
+\draw(\ksepX-\kpsep-1*\kpsepr,\kul+1*\kpsep+0*\ksepY)--++(0,3*\kpsep+\kul)to [R]++(0,\kr)coordinate(kpC);
+\draw(\ksepX-\kpsep-2*\kpsepr,\kul+2*\kpsep+0*\ksepY)--++(0,2*\kpsep+\kul)to [R]++(0,\kr);
+\draw(\ksepX-\kpsep-3*\kpsepr,\kul+3*\kpsep+0*\ksepY)--++(0,1*\kpsep+\kul)to [R]++(0,\kr);
+\draw(\ksepX-\kpsep-4*\kpsepr,\kul+4*\kpsep+0*\ksepY)--++(0,0*\kpsep+\kul)to [R]++(0,\kr)coordinate(kpD);
+\draw(kpC)--(kpD)--++(-0.5*\kpin,0)node[left]{$\SI{5}{\volt}$};
+\draw(\ksepX,\kul+0*\kpsep+0*\ksepY)node[right]{$\overline{\text{\RL{لکھ}}}$}node[left,xshift=-0.5ex,yshift=1.5ex]{$3$}coordinate(kwr);%--++(-\kpinb+\kpsepr,0)--++(0,-3*\kpsep) to [nos,o-o,invert,mirror]++(0,-\kpin)node[right]{$S_1$}--++(0,-\kpin)coordinate(kA);
+\draw(kwr)--++(-\kpin,0)|-($(kkWW)+(0,0.3)$);
+\draw(\ksepX,\kul+0*\kpsep+0*\ksepY)++(-\knshift,0)node[ocirc]{};
+\draw(kA)--(kB)node[ground]{};
+\draw(1.5*\kul+\ksepX,0*\ksepY)node[below right]{$16$}--++(0,-\kpin)--++(-0.5*\kpin,0)node[left]{$\SI{5}{\volt}$} (1.5*\kul+\kpsep+\ksepX,0)node[below right]{$8$}--++(0,-\kpin)node[ground]{};
+\draw(1*\kul+3*\kpsep+\ksepX,0*\ksepY)node[below right]{$2$}node[above]{$\overline{\text{\RL{بیدار}}}$}
+--++(0,-5*\kpin)node[spdt,xscale=-1,rotate=-90,anchor=in](sw){};
+\draw(1*\kul+3*\kpsep+\ksepX,0*\ksepY)++(0,-\knshift)node[ocirc]{};
+\draw(sw.out 1)node[ground]{} (sw.out 2)node[above right,yshift=3ex]{$S_2$}--++(2*\kpin,0)node[right]{$\overline{E}_R$};
+\draw(sw)++(0,-1.5cm)node[]{\text{\RL{دوڑ/برنامہ نویسی}}};
+\draw(sw.in)++(0,0.2)-|(kCE);
+\draw(\kxdim+\ksepX,\kul+1*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$5$}--++(1*\kpin,0)node[right]{$\overline{O}_0$};
+\draw(\kxdim+\ksepX,\kul+2*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$7$}--++(1*\kpin,0)node[right]{$\overline{O}_1$};
+\draw(\kxdim+\ksepX,\kul+3*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$9$}--++(1*\kpin,0)node[right]{$\overline{O}_2$};
+\draw(\kxdim+\ksepX,\kul+4*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$11$}--++(1*\kpin,0)node[right]{$\overline{O}_3$};
+\draw(\kxdim+\ksepX,\kul+1*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};
+\draw(\kxdim+\ksepX,\kul+2*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};
+\draw(\kxdim+\ksepX,\kul+3*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};
+\draw(\kxdim+\ksepX,\kul+4*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};
+\end{circuitikz}
+\caption{برنامہ نویس}
+\label{شکل_کمپیوٹر_برنامہ_نویسی}
+\end{figure}
 
 \جزوحصہء{عارضی حافظہ}
-کمپیوٹر کی دوڑ سے قبل   \عددی{16\times 8} عارضی  حافظہ  میں  ہدایت اور درکار مواد لکھا جاتا ہے۔ کمپیوٹر کی دوڑ کے دوران، حافظہ کو دفتر پتہ \عددی{4} بِٹ پتہ فراہم کرتا ہے ؛    جہاں سے ہدایت یا مواد  پڑھ  کر \عددی{W} گزرگاہ پر رکھ دیا جاتا ہے جسے  کمپیوٹر کا کوئی دوسرا حصے استعمال کر سکتا ہے۔
+کمپیوٹر کی دوڑ سے قبل   \عددی{16\times 8} عارضی  حافظہ  میں  ہدایت اور درکار مواد لکھا جاتا ہے۔ کمپیوٹر کی دوڑ کے دوران، حافظہ کو دفتر پتہ \عددی{4} بِٹ پتہ فراہم کرتا ہے ؛    جہاں سے ہدایت یا مواد  پڑھ  کر \عددی{W} گزرگاہ پر رکھ دیا جاتا ہے جسے  کمپیوٹر کا کوئی دوسرا حصے استعمال کر سکتا ہے۔عارضی حافظہ کے مخارج \عددی{\overline{O}_0} تا \عددی{\overline{O}_7} آٹھ برقی تاروں کے ذریعہ کمپیوٹر کے  باقی  حصوں کے ساتھ جڑا ہے۔ ان آٹھ تاروں کو  \عددی{W} گزرگاہ کہتے ہیں۔
 
 \جزوحصہء{دفتر ہدایت}
  قابو مرکز کا ایک حصہ  \اصطلاح{دفتر ہدایت  }\فرہنگ{دفتر ہدایت}\حاشیہب{instruction register}\فرہنگ{instruction register} ہے۔حافظہ سے ہدایت پڑھنے کی خاطر کمپیوٹر   جو عمل  سرانجام دیتا ہے اس کو \اصطلاح{ہدایت پڑھ عمل }\فرہنگ{ہدایت پڑھ عمل}\حاشیہب{memory read operation}\فرہنگ{operation!memory read} کہتے ہیں۔  حافظہ کے   مخاطب  مقام   پر موجود ہدایت (یا مواد) کو  یہ عمل \عددی{W} گزرگاہ پر رکھتا ہے۔ ساتھ ہی   ساعت کے اگلے مثبت کنارے پر  دفتر  ہدایت بھرائی کے لئے تیار کر دیا جاتا ہے۔
@@ -219,14 +314,233 @@
 
 چونکہ خارجی دفتر کے ذریعہ    مواد کمپیوٹر سے باہر منتقل ہوتا ہے لہٰذا اسے عموماً\اصطلاح{ خارجی  روزن }\فرہنگ{خارجی روزن}\حاشیہب{output port}\فرہنگ{port!output} بھی  کہتے ہیں۔ خارجی روزن  \اصطلاح{ ملاپی ادوار }\فرہنگ{دور!ملاپی}\حاشیہب{interface circuits}\فرہنگ{interface circuit} سے منسلک ہو گا جو بیرونی آلات  مثلاً  \اصطلاح{      پرنٹر}\فرہنگ{پرنٹر}\حاشیہب{printer}\فرہنگ{printer}،   سات کلی نمائشی تختی،  کمپیوٹر کا شیشہ، وغیرہ چلاتے ہیں۔
 
-\جزوحصہء{ثنائی نمائش}
-ثنائی نمائش آٹھ \اصطلاح{  نوری ڈایوڈ  }\فرہنگ{نوری ڈایوڈ}\حاشیہب{LED}\فرہنگ{LED} پر مبنی ہے۔خارجی  روزن کے ہر بِٹ کے ساتھ ایک نوری ڈایوڈ منسلک ہے۔ یوں ثنائی نمائش پر خارجی دفتر میں موجود  معلومات    ثنائی روپ میں نظر آئے گی۔
+\جزوحصہء{ثنائی نمائشی تختی}
+ثنائی نمائشی تختی  آٹھ \اصطلاح{  نوری ڈایوڈ  }\فرہنگ{نوری ڈایوڈ}\حاشیہب{LED}\فرہنگ{LED} پر مبنی ہے۔خارجی  روزن کے ہر بِٹ کے ساتھ ایک نوری ڈایوڈ منسلک ہے۔ یوں ثنائی نمائشی تختی  پر خارجی دفتر میں موجود  معلومات    ثنائی روپ میں نظر آئے گی۔
 
 \جزوحصہء{خلاصہ}
-اس کمپیوٹر کا قابو مرکز ہدایت گنت کار، ہدایت دفتر، اور قابو و ترتیب کار  (جو قابو لفظ، ساعت \عددی{CLK}، اور زائل  اشارہ \عددی{CLR}  پیدا کرتا ہے) پر مشتمل ہے۔ کمپیوٹر کا\اصطلاح{ حسابی  مرکز }\فرہنگ{حسابی  مرکز}\حاشیہب{arithmetic logic unit, ALU}\فرہنگ{ALU}  دفتر \عددی{A}، دفتر \عددی{B}، اور جمع و منفی کار پر مشتمل ہے۔کمپیوٹر کا حافظہ  دفتر پتہ اور \عددی{16\times 8} عارضی حافظہ پر مشتمل ہے۔  درآمدی  سوئچ، خارجی روزن، اور ثنائی نمائش مل کر   دخول و خروج مرکز دیتے ہیں۔
+اس کمپیوٹر کا قابو مرکز ہدایت گنت کار، ہدایت دفتر، اور قابو و ترتیب کار  (جو قابو لفظ، ساعت \عددی{CLK}، اور زائل  اشارہ \عددی{CLR}  پیدا کرتا ہے) پر مشتمل ہے۔ کمپیوٹر کا\اصطلاح{ حسابی  مرکز }\فرہنگ{حسابی  مرکز}\حاشیہب{arithmetic logic unit, ALU}\فرہنگ{ALU}  دفتر \عددی{A}، دفتر \عددی{B}، اور جمع و منفی کار پر مشتمل ہے۔کمپیوٹر کا حافظہ  دفتر پتہ اور \عددی{16\times 8} عارضی حافظہ پر مشتمل ہے۔  درآمدی  سوئچ، خارجی روزن، اور ثنائی نمائشی تختی  مل کر   دخول و خروج مرکز دیتے ہیں۔
 
 \حصہ{ہدایات کی فہرست} 
-کمپیوٹر کی با مقصد دوڑ سے قبل اس کے حافظہ  میں ہدایات قدم با قدم  بھرنا لازم ہے۔البتہ، ایسا کرنے سے پہلے  آپ کو اس کی  ہدایات  جاننی  ہو گی۔ان ہدایات سے مراد وہ اعمال ہیں جو یہ کمپیوٹر سرانجام دے سکتا ہے۔ اس کمپیوٹر کی ہدایات کی فہرست  پر اب غور کرتے ہیں۔
+کمپیوٹر کی با مقصد دوڑ سے قبل اس کے حافظہ  میں ہدایات قدم با قدم  بھرنا لازم ہے۔البتہ، ایسا کرنے سے پہلے  آپ کو یہ ہدایات  جاننی  ہو گی۔ان ہدایات سے مراد وہ اعمال ہیں جو یہ کمپیوٹر سرانجام دے سکتا ہے۔ اس کمپیوٹر کی ہدایات کی فہرست  پر اب غور کرتے ہیں۔ہدایت کا مجموعہ کمپیوٹر کی \اصطلاح{ مادری زبان }\فرہنگ{مادری زبان}\حاشیہب{assembly language}\فرہنگ{assembly language} کہلاتی ہے۔
 
 \جزوحصہء{نقل الف}
+حافظہ کے مقام \عددی{0000_2} پر موجود معلومات کو ہم  \عددی{R_0} کہتے ہیں، مقام \عددی{0001_2} پر  \عددی{R_1} ہو گا، وغیرہ ۔ یوں \عددی{R_0} مقام \عددی{0H} پر محفوظ ہے ، \عددی{R_1} پتہ \عددی{1H} پر، \عددی{R_2} پتہ \عددی{2H} پر، وغیرہ، جہاں \عددی{0H} سے مراد   \عددی{0_{16}} ہے۔اساس \عددی{16} اعداد کے آخر میں  زیرنوشت \عددی{16} لکھنے کی بجائے ہم عدد کے آخر میں \عددی{H} لکھتے ہیں۔
+
+\موٹا{نقل الف  } اس کمپیوٹر کی ایک ہدایت ہے جو  کہتی ہے دفتر ا  الف میں مواد نقل کریں۔ پوری ہدایت میں  اس مواد کا اساس سولہ پتہ بھی دیا جاتا ہے جو دفتر الف میں بھرا جائے گا، لہٰذا مکمل ہدایت درج ذیل ہے جو جدول \حوالہ{جدول_کمپیوٹر_ہدایات} میں  پیش ہے۔
+\begin{align*}
+\text{\RL{نقل  الف \فاصلہء   پتہ}}
+\end{align*}
+ یوں\قول{ نقل الف \عددی{8H}  } کہتی ہے کہ عارضی حافظہ کے پتہ \عددی{8H} پر درج معلومات کو دفتر الف میں نقل کریں۔ اس ہدایت پر عمل کرنے کے بعد دفتر الف میں  اور حافظہ کے مقام  \عددی{8H} پر ایک جیسا مواد  پایا جائے گا۔ یوں  درج ذیل صورت میں
+\begin{align*}
+R_8=1111\,0000
+\end{align*}
+جو کہتی ہے  مقام \عددی{R_8} پر  ثنائی معلومات  \عددی{1111\,0000} محفوظ ہے،  ذیل ہدایت
+\begin{align*}
+8H \quad \text{\RL{نقل الف }}
+\end{align*}
+پر عمل کرنے کے بعد درج ذیل ہو گا۔
+\begin{align*}
+\text{الف}=1111\,0000
+\end{align*}
+آپ نے دیکھا  یہ  ہدایت دفتر الف میں معلومات نقل کرتے ہوئے  حافظہ میں درج معلومات پر   اثر انداز نہیں ہوتی۔
+
+اسی طرح \قول{نقل الف \عددی{AH}}  مقام \عددی{10_{10}} سے دفتر الف میں معلومات  نقل کرے گی، اور \قول{نقل الف \عددی{FH}} مقام \عددی{F_{16}} سے معلومات دفتر الف میں نقل کرے گی۔
+
+\جزوحصہء{جمع}
+کمپیوٹر کی یہ ہدایت دو اعداد جمع کرنے کو کہتی  ہے۔پہلا عدد دفتر الف میں ہو گا جبکہ دوسرے عدد کا پتہ مکمل ہدایت میں شامل ہو گا؛ نتیجہ دفتر الف میں محفوظ ہو گا، لہٰذا دفتر الف میں پہلے سے موجود مواد زائل ہو گا۔یوں   اگر دفتر الف میں \عددی{2_{10}} اور حافظہ کے مقام \عددی{9H} پر \عددی{3_{10}} ہو:
+\begin{align*}
+\text{الف}&=0000\,0010\\
+R_9&=0000\,0011
+\end{align*}
+تب ذیل ہدایت
+\begin{align*}
+9H\quad \text{\RL{جمع}}
+\end{align*} 
+پر عمل کرنے کے لئے درج ذیل اقدام پر عمل کرنا ہو گا۔ پہلے قدم پر،  دفتر ب میں \عددی{R_9} ڈالا جائے گا:
+\begin{align*}
+\text{ب}=0000\,0011
+\end{align*}
+جس کے فوراً بعد  جمع و منفی کار   الف اور ب کا مجموعہ
+\begin{align*}
+\text{مجموعہ}=0000\,0101
+\end{align*}
+معلوم  کرتا ہے۔دوسرے قدم پر،   یہ مجموعہ دفتر الف میں ڈالا جاتا ہے۔
+\begin{align*}
+\text{الف}&=0000\,0101
+\end{align*}
+
+جب  بھی \قول{جمع}  کی ہدایت پر عمل کیا جائے درج بالا اقدام اٹھانے ہوں گے؛ دیے گئے پتہ سے مواد دفتر ب میں ڈال کر جمع  و منفی کار  سے مجموعہ حاصل کرنے کے بعد نتیجہ دفتر الف میں ڈالا جاتا ہے۔چونکہ   دفتر الف میں پہلے سے موجود مواد  کے اوپر  نیا مواد (حاصل جمع) لکھا جاتا ہے لہٰذا  دفتر الف کا پرانا  مواد زائل ہو گا۔اسی طرح چونکہ دفتر ب میں دیے گئے پتے کا مواد ڈالا  کیا جاتا ہے لہٰذا دفتر ب کا پرانا مواد بھی زائل ہو گا۔ اس طرح  \قول{جمع \عددی{9H}} پر عمل کرنے سے دفتر الف کا مواد اور \عددی{R_9} کا مجموعہ دفتر الف میں  حاصل ہو گا۔ \قول{جمع \عددی{FH}} پر عمل کے بعد دفتر الف میں \عددی{R_F} اور دفتر الف کا مجموعہ پایا جائے گا۔
+
+\begin{table}
+\caption{کمپیوٹر کی مادری زبان کی ہدایات}
+\label{جدول_کمپیوٹر_ہدایات}
+\centering
+\begin{tabular}{r|r}
+\toprule
+\multicolumn{1}{c|}{ہدایت}& \multicolumn{1}{c}{عمل}\\
+\midrule
+نقل الف \فاصلہء پتہ& دفتر الف میں حافظہ سے مواد نقل کریں\\
+جمع \فاصلہء پتہ& دفتر الف کے ساتھ حافظہ کا مواد جمع کریں\\
+منفی\فاصلہء پتہ&دفتر الف سے حافظہ کا مواد منفی کریں\\
+برآمد&دفتر الف کا مواد  ر خارجی  دفتر میں ڈالیں\\
+رک& کام کرنا روک دیں\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\جزوحصہء{منفی}
+دو اعداد منفی کرنے کے لئے کمپیوٹر کی ہدایت \اصطلاح{منفی} ہے جو دفتر الف میں موجود عدد سے  دیا گیا عدد منفی کر کے نتیجہ دفتر الف میں دے گی۔ مکمل ہدایت میں منفی ہونے والے عدد کے مقام کا پتہ بھی شامل ہو گا۔
+\begin{align*}
+\text{\RL{منفی\فاصلہء پتہ}}
+\end{align*}
+یوں \قول{منفی \عددی{CH}} کا مطلب ہے دفتر الف میں موجود مواد سے حافظہ  کے مقام \عددی{CH} پر موجود مواد \عددی{R_C} منفی کر کے نتیجہ دفتر الف میں ڈالیں۔
+
+مثال کی خاطر فرض کریں دفتر الف میں  اعشاری \عددی{7} اور  حافظہ کے مقام \عددی{CH} پر اعشاری \عددی{3} پایا جاتا ہے۔
+\begin{align*}
+\text{الف}&=0000\,0111\\
+R_C&=0000\,0011
+\end{align*}
+\قول{منفی\عددی{CH}} پر عمل درج ذیل اقدام اٹھانے سے ہو گا۔ پہلے قدم پر،  دفتر ب میں \عددی{R_C}  ڈالا  کیا جاتا ہے: 
+\begin{align*}
+\text{ب}=0000\,0011
+\end{align*}
+جس کے فوراً بعد جمع و منفی کار دفتر الف اور ب کا فرق:
+\begin{align*}
+\text{فرق}=0000\,0100
+\end{align*}
+  معلوم کرتا ہے۔دوسرے قدم پر یہ فرق  دفتر الف میں  ڈالا جاتا ہے۔
+\begin{align*}
+\text{الف}=0000\,0100
+\end{align*}
+
+منفی کی  تمام ہدایت  پر عمل درج بالا اقدام کے ذریعہ ہو گا؛ دیے گئے پتہ پر موجود مواد حافظہ سے دفتر ب میں ڈال کر جمع و منفی کار کو مہیا کیا جاتا ہے جو فوراً ان کا فرق معلوم کرتا ہے۔ یہ فرق دفتر الف میں ڈالا جاتا ہے۔ یوں \قول{منفی \عددی{CH}} پر عمل کرتے ہوئے \عددی{R_C} کو دفتر الف سے منفی کر کے نتیجہ دفتر الف میں ڈالا جائے گا۔ \قول{منفی \عددی{EH}} مقام \عددی{EH}  پر موجود مواد \عددی{R_E} کو دفتر الف سے منفی کر کے نتیجہ دفتر الف میں ڈالتا ہے۔
+
+\جزوحصہء{برآمد}
+کمپیوٹر کی ہدایت  \اصطلاح{برآمد}  کہتی ہے دفتر الف کا مواد خارجی دفتر میں ڈالیں۔اس ہدایت پر عمل کرنے کے بعد دفتر الف کا مواد کمپیوٹر سے باہر دستیاب ہو گا جہاں سے آپ نتیجہ دیکھ سکتے ہیں۔
+
+اس ہدایت پر عمل کرنے کے لئے  حافظہ سے رجوع کرنے کی ضرورت نہیں لہٰذا اس ہدایت میں پتہ درکار نہیں ہے۔
+
+\جزوحصہء{رک}
+یہ ہدایت  ، جو برنامے کی آخری ہدایت ہو گی، کمپیوٹر کو  مزید ہدایات پر عمل کرنے ے روکتی ہے۔یہ ہدایت،  جملہ مکمل ہونے کے بعد    (جملے کے آخر میں) \اصطلاح{  ختمہ  }\فرہنگ{ختمہ}\حاشیہب{fullstop}\فرہنگ{fullstop} کے مترادف ہے۔ ہر برنامے کے آخر میں یہ ہدایت ضروری ہے ؛  ورنہ کمپیوٹر  بے باق   دوڑتا رہے گا  اور بے مقصد (اور غلط) نتائج فراہم کرتا رہے گا۔
+
+رک کی ہدایت از خود مکمل ہے۔ اس پر عمل کرنے کی خاطر حافظہ سے رجوع کرنے کی ضرورت نہیں لہٰذا اس ہدایت میں پتے کی شمولیت نہیں ہو گی۔
+
+\جزوحصہء{حافظہ سے رجوع کرنے والے  راجع  ہدایات}
+نقل الف، جمع، اور منفی کی ہدایات حافظہ سے رجوع کرنی ہیں لہٰذا یہ\اصطلاح{  راجع ہدایات }\فرہنگ{راجع ہدایات}\حاشیہب{memory-reference instructions}\فرہنگ{memory reference instructions} کہلاتی ہیں۔ اس کے برعکس برآمد اور  رک حافظہ سے رجوع نہیں کرتی ہیں لہٰذا یہ ہدایات غیر راجع  ہیں۔
+
+\جزوحصہء{\عددی{8080} اور \عددی{8085}}
+وسیع  پیمانے پر استعمال ہونے والا  پہلا \اصطلاح{   خرد عامل  کار  }\فرہنگ{خرد عامل کار}\حاشیہب{microprocessor}\فرہنگ{microprocessor} (مائکروپراسیسر ) \عددی{8080}  تھا۔ اس کی کل \عددی{72} ہدایات ہیں۔اس خرد عامل کار \عددی{8085} ہے  جو انہیں ہدایات پر چلتا ہے۔  اس باب کے  سادہ ترین کمپیوٹر کو حقیقتاً قابل استعمال بنانے کی غرض سے ہم  اس کی ہدایات کو \عددی{8080/8085} کی ہدایت کے  ہم آہنگ بناتے ہیں۔ دوسرے لفظوں میں  نقل، جمع، منفی، برآمد، اور رک \عددی{8080/8085} کے بھی ہدایات ہیں۔
+
+\ابتدا{مثال}
+سادہ ترین کمپیوٹر کا ایک برنامہ پیش ہے۔
+\begin{center}
+\begin{tabular}{rr}
+پتہ& ہدایات\\[0.5ex]
+0H& نقل  \عددی{9H}\\
+1H&جمع \عددی{AH}\\
+2H&جمع \عددی{BH}\\
+3H&منفی \عددی{CH}\\
+4H&برآمد\\
+5H&رک
+\end{tabular}
+\end{center}
+حافظہ میں برنامہ سے اوپر درج ذیل مواد پایا جاتا ہے۔
+\begin{center}
+\begin{tabular}{rr}
+پتہ& مواد\\[0.5ex]
+6H&FFH\\
+7H&FFH\\
+8H&FFH\\
+9H&01H\\
+AH&02H\\
+BH&03H\\
+CH&04H\\
+DH&FFH\\
+EH&FFH\\
+FH&FFH
+\end{tabular}
+\end{center}
+یہ ہدایات  کیا کریں گے؟
+
+حل:\quad
+برنامہ نچلے حافظہ میں \عددی{0H} تا \عددی{5H} مقامات پر رکھا گیا ہے۔ پہلی ہدایت حافظہ کے مقام \عددی{9H} سے مواد \عددی{01H} دفتر الف میں نقل کرتی ہے۔
+\begin{align*}
+\text{الف}=01H
+\end{align*}
+دوسری ہدایت مقام \عددی{AH}  کا مواد دفتر الف کے ساتھ جمع کر کے نتیجہ دفتر الف میں ڈالتی ہے۔
+\begin{align*}
+\text{الف}=01H+02H=03H
+\end{align*}
+تیسری ہدایت حافظہ کے مقام \عددی{BH} کے مواد کو دفتر الف (جس میں اس وقت \عددی{03H} موجود ہے) کے ساتھ جمع کر کے نتیجہ دفتر الف منتقل کرتی ہے۔
+\begin{align*}
+\text{الف}=03H+03H=06H
+\end{align*}
+چوتھی ہدایت مقام \عددی{CH} کے مواد کو دفتر الف سے منفی کرکے نتیجہ دفتر الف میں ڈالتی ہے۔
+\begin{align*}
+\text{الف}=06H-04H=02H
+\end{align*}
+پانچویں ہدایت دفتر الف کے مواد کو خارجی دفتر میں منتقل کرتی ہے۔خارجی دفتر کے ساتھ ثنائی نمائشی تختی   منسلک ہے جس پر یہ مواد ثنائی روپ میں نظر آئے گا۔یوں  نوری ڈایوڈ درج ذیل دکھائیں گے۔
+\begin{align*}
+0000\,0010
+\end{align*}
+آخری ہدایت   \اصطلاح{رک}  ہے جو کمپیوٹر کر  کو مزید ہدایات پر عمل کرنے سے روکتی ہے۔
+\انتہا{مثال}
+
+\حصہ{کمپیوٹر  کی برنامہ  نویسی}
+کمپیوٹر کے  حافظہ میں ہدایات اور مواد بھرنے کے لئے ہمیں ایسی زبان استعمال کرنی ہو گی جو کمپیوٹر  سمجھ سکے۔ جدول \حوالہ{جدول_کمپیوٹر_رموز}  میں  کمپیوٹر  کے \اصطلاح{رموز }\فرہنگ{رمز}\حاشیہب{operation codes, op codes}\فرہنگ{op code} پیش ہیں۔ یوں \قول{ نقل  الف} کی ہدایت کے لئے کمپیوٹر \عددی{0000} کا  ثنائی رمز استعمال کرتا ہے۔\قول{ جمع } کے لئے \عددی{0001}، \قول{ منفی } کے لئے \عددی{0010}، \قول{  برآمد }کے لئے \عددی{1110}، اور \قول{ رک } کے لئے \عددی{1111} استعمال ہو گا۔ 
+\begin{table}
+\caption{سادہ ترین کمپیوٹر کے رمز}
+\label{جدول_کمپیوٹر_رموز}
+\centering
+\begin{tabular}{rr}
+\toprule
+ہدایت&رمز\\
+\midrule
+نقل&0000\\
+جمع&0001\\
+منفی&0010\\
+برآمد&1110\\
+رک&1111\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}
+
+\end{figure}
+
+جیسا پہلے ذکر کیا گیا،(صفحہ \حوالہصفحہ{مثال_حافظہ_برنامہ_نویس} پر مثال \حوالہ{مثال_حافظہ_برنامہ_نویس} دیکھیں) برنامہ نویس (شکل \حوالہ{شکل_کمپیوٹر_برنامہ_نویسی})  سوئچ  کے ذریعہ  حافظہ میں معلومات ڈالتا ہے۔ ان سوئچ کو یوں استعمال کیا گیا ہے کہ منقطع (کھڑا ) سوئچ \عددی{1} اور غیر منقطع ( بیٹھا  یا چالو) سوئچ \عددی{0} دیتا ہے۔ برنامہ نویسی کے دوران سوئچ \عددی{d_4} تا \عددی{d_7}   ہدایت  کے رمز کے مطابق رکھے جاتے ہیں جبکہ \عددی{d_0} تا \عددی{d_3}  ہدایت کے باقی\اصطلاح{ زیر عمل }\فرہنگ{زیر عمل}\حاشیہب{operand}\فرہنگ{operand} حصہ کے مطابق رکھے جاتے ہیں۔
+
+مثلاً،  فرض کریں ہم درج ذیل  ہدایات حافظہ میں بھرنا چاہتے ہیں۔
+\begin{center}
+\begin{tabular}{rrr}
+پتہ&\multicolumn{2}{c}{ہدایت}\\[1ex]
+$0H$& نقل& $ّFH$\\
+$1H$&جمع& $EH$\\
+$2H$&رک&
+\end{tabular}
+\end{center}
+
+سب سے پہلے ایک ایک ہدایت کا ثنائی روپ  حاصل کرتے ہیں۔
+\begin{center}
+\begin{tabular}{rrrr}
+نقل&$FH$&=&$0000\,1111$\\
+جمع & $EH$&=&$0001\,1110$\\
+رک&&=&$1111\,xxxx$
+\end{tabular}
+\end{center}
+پہلی ہدایت  \قول{نقل \عددی{FH}} ہے جس   کے دو حصے ہیں۔ اس کا پہلا حصہ  ہدایت \قول{نقل } ہے جس کا ثنائی رمز  \عددی{0000}   ہے؛ اس کا دوسرا حصہ   \عددی{FH} ہے جو     اس مقام کا پتہ ہے جہاں سے مواد لیا جائے گا۔یہ ہدایت کا  \اصطلاح{زیر عمل }\فرہنگ{زیر عمل}\حاشیہب{operand}\فرہنگ{operand} حصہ ہے۔ اس پتے کا ثنائی مماثل \عددی{1111} ہے۔   یوں \قول{جمع \عددی{FH}} کی جگہ  ان کے ثنائی مماثل جوڑ کر \عددی{0000\,1111} حاصل کیا گیا ہے۔ دوسری ہدایت میں جمع کا رمز \عددی{0001} اور زیر عمل حصہ \عددی{EH} کا ثنائی مماثل \عددی{1110} ہے۔ ان کو  ساتھ ساتھ لکھ کر \عددی{0001\,1110} حاصل کیا گیا ہے۔ آخری ہدایت  میں رک کا رمز \عددی{1111} ہے جبکہ اس کا کوئی زیر عمل حصہ نہیں پایا جاتا، لہٰذا زیر عمل حصہ غیر مطلوبہ ہے جس میں کچھ بھی لکھا جا سکتا ہے۔ اس غیر مطلوبہ حصہ کو \عددی{xxxx} سے ظاہر کیا گیا ہے۔یوں \عددی{1111\,xxxx} حاصل کیا گیا ہے۔
+
+اس کے بعد پتہ  اور مواد کے  سوئچ    قدم با قدم   درج ذیل رکھیں، جہاں \قول{ک} سے مراد  کھڑا   یعنی منقطع  سوئچ ہے جو \عددی{1} کو ظاہر کرتا ہے،  \قول{ب} سے مراد بیٹھا یا غیر منقطع (چالو) سوئچ ہے کو \عددی{0}   دیگا، اور \قول{x} سے مراد یہ کہ  سوئچ کسی بھی حالت (منقطع یا غیر منقطع)  میں ہو سکتا ہے۔
+\begin{center}
+\begin{tabular}{rr}
+پتہ& مواد\\[1ex]
+ب ب ب ب & ک ک ک ک   ب ب ب ب\\
+ک ب ب ب & ب ک ک ک  ک ب ب ب\\
+ب ک ب ب & \,\,\,\,\,
+ x\,\quad  x\,\quad  x\, \quad x \quad
+  ک ک ک ک
+\end{tabular}
+\end{center}
+
 
