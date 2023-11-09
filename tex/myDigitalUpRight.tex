@@ -288,9 +288,9 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,3,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
+\foreach \n in {1,2,3,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
 \foreach \n/\lbl in {1/J,3/K,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
 \foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
@@ -805,3 +805,4 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
  \draw(#1)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv);
  \draw(#1)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
 }}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

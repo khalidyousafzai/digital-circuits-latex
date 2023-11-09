@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  8 NOV 2023 18:00
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  9 NOV 2023 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231181080.tex)...disabled (restricted).
+runsystem(touch w18-test-20231191063.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231181080.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231191063.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -1847,6 +1847,7 @@ Package: newfile 2009/09/03 v1.0c Output and input files
 (./tex/myCircuitDimensionsAndMathematicalSymbols.tex)
 (./tex/myTikzCommandsCircuitAnalysis.tex) (./tex/myDigitalUpRight.tex)
 (./tex/myDigitalUpFacing.tex) (./tex/myDigitalDownFacing.tex)
+(./tex/myAssemblyLanguage.tex)
 \@indexfile=\write6
 \openout6 = `digitalCircuitsLatex.idx'.
 
@@ -1886,18 +1887,18 @@ LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
  (./tex/digitalCircuitsPreface.aux)
 (./tex/prefaceFirstBook.aux) (./tex/binarySystem.aux
-LaTeX Info: Redefining \rmfamily on input line 26.
-LaTeX Info: Redefining \sffamily on input line 26.
-LaTeX Info: Redefining \ttfamily on input line 26.
-LaTeX Info: Redefining \rmfamily on input line 27.
-LaTeX Info: Redefining \sffamily on input line 27.
-LaTeX Info: Redefining \ttfamily on input line 27.
 LaTeX Info: Redefining \rmfamily on input line 34.
 LaTeX Info: Redefining \sffamily on input line 34.
 LaTeX Info: Redefining \ttfamily on input line 34.
 LaTeX Info: Redefining \rmfamily on input line 35.
 LaTeX Info: Redefining \sffamily on input line 35.
 LaTeX Info: Redefining \ttfamily on input line 35.
+LaTeX Info: Redefining \rmfamily on input line 42.
+LaTeX Info: Redefining \sffamily on input line 42.
+LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 43.
+LaTeX Info: Redefining \sffamily on input line 43.
+LaTeX Info: Redefining \ttfamily on input line 43.
 ) (./tex/basicMaths.aux
 LaTeX Info: Redefining \rmfamily on input line 16.
 LaTeX Info: Redefining \sffamily on input line 16.
@@ -2744,37 +2745,44 @@ LaTeX Info: Redefining \ttfamily on input line 43.
 LaTeX Info: Redefining \rmfamily on input line 51.
 LaTeX Info: Redefining \sffamily on input line 51.
 LaTeX Info: Redefining \ttfamily on input line 51.
-) (./tex/simplestComputer.aux))
+) (./tex/simplestComputer.aux
+LaTeX Info: Redefining \rmfamily on input line 78.
+LaTeX Info: Redefining \sffamily on input line 78.
+LaTeX Info: Redefining \ttfamily on input line 78.
+LaTeX Info: Redefining \rmfamily on input line 86.
+LaTeX Info: Redefining \sffamily on input line 86.
+LaTeX Info: Redefining \ttfamily on input line 86.
+))
 \openout1 = `digitalCircuitsLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-55.
+56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
-LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
+LaTeX Font Info:    ... okay on input line 156.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package translations Info: no dictionary file `translations-basic-dictionary-hi
-ndustani.trsl' found. on input line 155.
+ndustani.trsl' found. on input line 156.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -2782,7 +2790,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 155.
+Package chemgreek Info: Activating mapping `fontspec' on line 156.
 
 
 *geometry* driver: auto-detecting
@@ -2821,61 +2829,61 @@ Package chemgreek Info: Activating mapping `fontspec' on line 155.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \rmfamily on input line 155.
-LaTeX Info: Redefining \sffamily on input line 155.
-LaTeX Info: Redefining \ttfamily on input line 155.
-LaTeX Info: Redefining \rmfamily on input line 155.
-LaTeX Info: Redefining \sffamily on input line 155.
-LaTeX Info: Redefining \ttfamily on input line 155.
+LaTeX Info: Redefining \rmfamily on input line 156.
+LaTeX Info: Redefining \sffamily on input line 156.
+LaTeX Info: Redefining \ttfamily on input line 156.
+LaTeX Info: Redefining \rmfamily on input line 156.
+LaTeX Info: Redefining \sffamily on input line 156.
+LaTeX Info: Redefining \ttfamily on input line 156.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 166.
+(Font)              scaled to size 17.28pt on input line 167.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 166.
+(Font)              scaled to size 9.0pt on input line 167.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 166.
+(Font)              scaled to size 12.0pt on input line 167.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-66.
+67.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-166.
+167.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-166.
+167.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-166.
+167.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 166.
+(Font)              scaled to size 12.50409pt on input line 167.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 166.
+(Font)              scaled to size 9.37807pt on input line 167.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 166.
+(Font)              scaled to size 7.29405pt on input line 167.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 166.
+(Font)              scaled to size 12.50409pt on input line 167.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 166.
+(Font)              scaled to size 9.37807pt on input line 167.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 166.
+(Font)              scaled to size 7.29405pt on input line 167.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-166.
+167.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 16
-6.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -2933,12 +2941,12 @@ Space,Script=Arabic].
 
 ]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 168.
+(Font)              scaled to size 24.88pt on input line 169.
 
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/b/n' undefined
 (Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 168.
+e 169.
 
 (./digitalCircuitsLatex.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
@@ -3822,6 +3830,12 @@ LaTeX Info: Redefining \ttfamily on input line 686.
 LaTeX Info: Redefining \rmfamily on input line 688.
 LaTeX Info: Redefining \sffamily on input line 688.
 LaTeX Info: Redefining \ttfamily on input line 688.
+LaTeX Info: Redefining \rmfamily on input line 703.
+LaTeX Info: Redefining \sffamily on input line 703.
+LaTeX Info: Redefining \ttfamily on input line 703.
+LaTeX Info: Redefining \rmfamily on input line 705.
+LaTeX Info: Redefining \sffamily on input line 705.
+LaTeX Info: Redefining \ttfamily on input line 705.
 )
 \tf@toc=\write7
 \openout7 = `digitalCircuitsLatex.toc'.
@@ -4117,7 +4131,7 @@ aleeq(2)/m/sl/10 میں[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--294
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عارضی حافظہ کا مخاطب لفظ نقل ہو گا۔انتقال
- مواد کے اوقات کار کی ترسیمات پر غور ( جس سے ہم جان پائیں[]
+ مواد کی وقتیہ ترسیمات پر غور ( جس سے ہم جان پائیں گے یہ[]
  []
 
 
@@ -4483,23 +4497,197 @@ Underfull \hbox (badness 10000) in paragraph at lines 532--533
 
 [282]
 Underfull \hbox (badness 10000) in paragraph at lines 534--535
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس کے بعد پتہ اور مواد کے سوئچ قدم با ق
-دم درج ذیل رکھیں، جہاں ”ک“ سے مراد کھڑا یعنی منقطع سوئچ ہے جو[]
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اب $[]$ کو بٹھا کر (زمین سے جوڑ کر) پتہ
+ اور مواد کے سوئچ قدم با قدم درج ذیل رکھیں، جہاں ”ک“ سے مراد[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 534--535
-[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو ظاہر کرتا ہے، ”ب“ 
-سے مراد بیٹھا یا غیر منقطع (چالو) سوئچ ہے کو $\OT1/ppl/m/n/10 0$ \TU/JameelNoor
-iNastaleeq(2)/m/sl/10 دیگا، اور ”x“ سے مراد یہ کہ سوئچ کسی بھی[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کھڑا یعنی منقطع سوئچ ہے جو $\OT1/ppl/m/n/
+10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کو ظاہر کرتا ہے، ”ب“ سے مراد بیٹھا یا
+ غیر منقطع (چالو) سوئچ ہے کو $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/
+sl/10 دیگا، اور ”x“ سے[]
  []
 
-) [283] [284
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہر قدم پر پتہ اور مواد سوئچ مطلوبہ حالت
+ میں رکھ کر $[]$ کو بٹھا کر دوبارہ کھڑا کریں۔ تینوں پتہ پر مواد لکھنے کے[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 556.
+LaTeX Info: Redefining \sffamily on input line 556.
+LaTeX Info: Redefining \ttfamily on input line 556.
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 آپ نے دیکھا کہ ہم کمپیوٹر کی  \TU/AASam
+eerSagarNastaleeqBold(0)/m/n/10 مادری زبان  \TU/JameelNooriNastaleeq(2)/m/sl/10
+ میں اردو کے الفاظ مثلاً ”نقل“، اور ”جمع“ استعمال کر کے کمپیوٹر کو ہدایات[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاری کرتے ہیں۔ کمپیوٹر از خود ” ثنائی زبا
+ن “ سمجھتا ہے جو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 مشینی زبان[][][][] []
+[] \TU/JameelNooriNastaleeq(2)/m/sl/10 کہلاتی ہے۔ مشینی زبان میں $\OT1/ppl/m/n/
+10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OT1/ppl/m/n/10 1$ \TU/JameelNoo
+riNastaleeq(2)/m/sl/10 سے الفاظ[]
+ []
+
+[283]
+LaTeX Info: Redefining \rmfamily on input line 587.
+LaTeX Info: Redefining \sffamily on input line 587.
+LaTeX Info: Redefining \ttfamily on input line 587.
+LaTeX Info: Redefining \rmfamily on input line 587.
+LaTeX Info: Redefining \sffamily on input line 587.
+LaTeX Info: Redefining \ttfamily on input line 587.
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس ثنائی برنامہ میں ہدایت کے چار بلند ت
+ر رتبی بِٹ ” عمل “ کو ظاہر کرتے ہیں جبکہ چار کم تر رتبی بِٹ ”پتہ “[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--600
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حل: گزشتہ مثال کا برنامہ لے کر حافظہ کے
+ مقام $[]$ تا $[]$ میں بالترتیب مواد $[]$، $[]$، $[]$،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--600
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اور $[]$ کے اساس سولہ مماثل لکھ کر درج ذی
+ل مطلوبہ برنامہ حاصل ہو گا۔(اعشاری $[]$ کا اساس سولہ مماثل[]
+ []
+
+[284]
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یاد رہے برنامے کی پہلی ہدایت حافظہ کے مقا
+م $[]$ سے پڑھی جاتی ہے، دوسری مقام $[]$ سے پڑھی جاتی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--644
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے، وغیرہ، لہٰذا برنامہ زیریں حافظہ میں ا
+ور مواد بالا میں رکھا گیا ہے۔ غیر مستعمل مقامات میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--647
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٢.٤:  درج بالا مثال میں حاصل ثنائی
+ برنامہ کو اساس سولہ کے روپ میں لکھیں۔ ثنائی روپ کی[]
+ []
+
+
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [285]
+LaTeX Info: Redefining \rmfamily on input line 676.
+LaTeX Info: Redefining \sffamily on input line 676.
+LaTeX Info: Redefining \ttfamily on input line 676.
+
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر کی خودکار کارکردگی کا دارومدار ” 
+قابو مرکز “ پر ہے۔ حافظہ سے باری باری ایک ہدایت اٹھانے اور اس پر عمل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس کمپیوٹر میں چھلا گنت کار مستعمل ہے جو 
+شکل ١٢.‏٣[] میں پیش ہے۔ مخلوط دور $[]$ میں دو عدد جے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے پلٹ کار پائے جاتے ہیں لہٰذا تین مخلوط 
+دور استعمال کیے گئے۔ اس مخلوط دور میں زبردستی پست کا مداخل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 موجود ہے، تاہم اس میں زبردستی بلند کا مدا
+خل موجود نہیں۔ استعمال سے پہلا ایک مرتبہ چھلا گنت کار[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کو ابتدائی حال میں لانا ضروری ہے جس میں ص
+رف ایک مخارج بلند ہو۔ زبردستی پست مداخل پلٹ کے[]
+ []
+
+[286]
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 719.
+
+Overfull \hbox (8.27364pt too wide) in paragraph at lines 739--739
+ [][]$\OT1/ppl/m/n/9 74107$[] 
+ []
+
+
+Overfull \hbox (8.27364pt too wide) in paragraph at lines 740--740
+ [][]$\OT1/ppl/m/n/9 74107$[] 
+ []
+
+
+Overfull \hbox (8.27364pt too wide) in paragraph at lines 741--741
+ [][]$\OT1/ppl/m/n/9 74107$[] 
+ []
+
+
+Overfull \hbox (36.28386pt too wide) in paragraph at lines 686--743
+ [][][][][][] 
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 766.
+LaTeX Info: Redefining \sffamily on input line 766.
+LaTeX Info: Redefining \ttfamily on input line 766.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 793.
+LaTeX Info: Redefining \rmfamily on input line 815.
+LaTeX Info: Redefining \sffamily on input line 815.
+LaTeX Info: Redefining \ttfamily on input line 815.
+
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ١٢.‏٣[] -ب میں گنت کار کی ڈبہ شکل ج
+بکہ شکل-د میں ساعت اور وقتیہ ترسیمات پیش ہیں۔ چھلا[]
+ []
+
+
+Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
+d on input line 825.
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 837--839
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس کے بعد چھلا گنت کار $[]$ پہنچتا ہے اور
+ دوبارہ چکر کاٹنا شروع کرتا ہے۔ یہ عمل مسلسل چلتا ہے۔ ہر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل-ج میں وقتیہ ترسیمات پیش ہیں۔ ابتدائ
+ی $[]$ حال کا آغاز ساعت کے پہلے کنارہ اترائی پر اور اختتام اگلے[]
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 842--843
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گنت کار چھ $\OML/zplm/m/it/10 T$ \TU/Jame
+elNooriNastaleeq(2)/m/sl/10 حال پیدا کرتا ہے۔ ان چھ $\OML/zplm/m/it/10 T$ \TU/J
+ameelNooriNastaleeq(2)/m/sl/10 حال کے دوران (ہر) ایک ہدایت اٹھایا جاتا ہے اور ا
+س پر عمل کیا[]
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 844--845
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جیسا دکھایا گیا ہے، ساعت کا کنارہ چڑھائ
+ی $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال کے وسط میں پایا
+ جاتا ہے۔ یہ ایک اہم حقیقت ہے[]
+ []
+
+) [287] [288] (./answer.tex) [289
 
 
 
 
-] (./answer.tex) [285] [286
+] [290
 
 
 ]
@@ -4560,18 +4748,18 @@ LaTeX Info: Redefining \ttfamily on input line 4.
 
 (./tex/digitalCircuitsPreface.aux) (./tex/prefaceFirstBook.aux)
 (./tex/binarySystem.aux
-LaTeX Info: Redefining \rmfamily on input line 26.
-LaTeX Info: Redefining \sffamily on input line 26.
-LaTeX Info: Redefining \ttfamily on input line 26.
-LaTeX Info: Redefining \rmfamily on input line 27.
-LaTeX Info: Redefining \sffamily on input line 27.
-LaTeX Info: Redefining \ttfamily on input line 27.
 LaTeX Info: Redefining \rmfamily on input line 34.
 LaTeX Info: Redefining \sffamily on input line 34.
 LaTeX Info: Redefining \ttfamily on input line 34.
 LaTeX Info: Redefining \rmfamily on input line 35.
 LaTeX Info: Redefining \sffamily on input line 35.
 LaTeX Info: Redefining \ttfamily on input line 35.
+LaTeX Info: Redefining \rmfamily on input line 42.
+LaTeX Info: Redefining \sffamily on input line 42.
+LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 43.
+LaTeX Info: Redefining \sffamily on input line 43.
+LaTeX Info: Redefining \ttfamily on input line 43.
 ) (./tex/basicMaths.aux
 LaTeX Info: Redefining \rmfamily on input line 16.
 LaTeX Info: Redefining \sffamily on input line 16.
@@ -5417,18 +5605,25 @@ LaTeX Info: Redefining \ttfamily on input line 43.
 LaTeX Info: Redefining \rmfamily on input line 51.
 LaTeX Info: Redefining \sffamily on input line 51.
 LaTeX Info: Redefining \ttfamily on input line 51.
-) (./tex/simplestComputer.aux))
+) (./tex/simplestComputer.aux
+LaTeX Info: Redefining \rmfamily on input line 78.
+LaTeX Info: Redefining \sffamily on input line 78.
+LaTeX Info: Redefining \ttfamily on input line 78.
+LaTeX Info: Redefining \rmfamily on input line 86.
+LaTeX Info: Redefining \sffamily on input line 86.
+LaTeX Info: Redefining \ttfamily on input line 86.
+))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 62032 strings out of 476191
- 1676476 string characters out of 9562072
- 2569817 words of memory out of 7000000
- 81622 multiletter control sequences out of 15000+600000
- 495644 words of font info for 162 fonts, out of 8000000 for 9000
+ 65051 strings out of 476191
+ 1726953 string characters out of 9562072
+ 2632186 words of memory out of 7000000
+ 84633 multiletter control sequences out of 15000+600000
+ 496826 words of font info for 168 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,11n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,15n,118p,2641b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (24 pages).
+Output written on digitalCircuitsLatex.pdf (28 pages).

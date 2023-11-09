@@ -4,8 +4,8 @@
 \contentsline {chapter}{\numberline {\arabicdigits {1}} ثنائی نظام}{\arabicdigits {1}}{}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {1}}اعشاری نظامِ گنتی}{\arabicdigits {1}}{}%
 \contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {2}}ہشتمی نظام گنتی}{\arabicdigits {3}}{}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}ثنائی نظامِ گنتی}{\arabicdigits {3}}{}%
-\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}اعشاری نظام سے ثنائی نظام میں تبادلہ}{\arabicdigits {5}}{}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {3}}ثنائی نظامِ گنتی}{\arabicdigits {4}}{}%
+\contentsline {section}{\numberline {\arabicdigits {1}.\arabicdigits {4}}اعشاری نظام سے ثنائی نظام میں تبادلہ}{\arabicdigits {6}}{}%
 \selectlanguage *{english}
 \selectlanguage *{urdu}
 \selectlanguage *{english}
@@ -698,4 +698,9 @@
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}بناؤٹ}{\arabicdigits {271}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {2}}ہدایات کی فہرست}{\arabicdigits {277}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {3}}کمپیوٹر کی برنامہ نویسی}{\arabicdigits {281}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {285}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {4}}بازیافتی پھیرا}{\arabicdigits {286}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {chapter}{جوابات}{\arabicdigits {289}}{}%

@@ -30,8 +30,9 @@
 \indexentry{نوری ڈایوڈ}{\arabicdigits {276}}
 \indexentry{ALU}{\arabicdigits {276}}
 \indexentry{حسابی مرکز}{\arabicdigits {276}}
-\indexentry{assembly language}{\arabicdigits {277}}
+\indexentry{language!assembly}{\arabicdigits {277}}
 \indexentry{مادری زبان}{\arabicdigits {277}}
+\indexentry{زبان!مادری}{\arabicdigits {277}}
 \indexentry{fullstop}{\arabicdigits {280}}
 \indexentry{ختمہ}{\arabicdigits {280}}
 \indexentry{memory reference instructions}{\arabicdigits {280}}
@@ -44,3 +45,13 @@
 \indexentry{زیر عمل}{\arabicdigits {282}}
 \indexentry{operand}{\arabicdigits {282}}
 \indexentry{زیر عمل}{\arabicdigits {282}}
+\indexentry{machine language}{\arabicdigits {283}}
+\indexentry{language!machine}{\arabicdigits {283}}
+\indexentry{مشینی زبان}{\arabicdigits {283}}
+\indexentry{زبان!مشینی}{\arabicdigits {283}}
+\indexentry{address field}{\arabicdigits {284}}
+\indexentry{جزو پتہ}{\arabicdigits {284}}
+\indexentry{instruction field}{\arabicdigits {284}}
+\indexentry{جزو ہدایت}{\arabicdigits {284}}
+\indexentry{timing states}{\arabicdigits {286}}
+\indexentry{وقتیہ حال}{\arabicdigits {286}}
