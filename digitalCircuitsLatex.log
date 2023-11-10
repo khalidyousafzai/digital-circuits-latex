@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  10 NOV 2023 16:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  10 NOV 2023 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231110977.tex)...disabled (restricted).
+runsystem(touch w18-test-202311101048.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231110977.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202311101048.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -4814,12 +4814,54 @@ Overfull \hbox (25.77344pt too wide) in paragraph at lines 1316--1416
  [][][][][][] 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1531.
-LaTeX Info: Redefining \sffamily on input line 1531.
-LaTeX Info: Redefining \ttfamily on input line 1531.
-LaTeX Info: Redefining \rmfamily on input line 1584.
-LaTeX Info: Redefining \sffamily on input line 1584.
-LaTeX Info: Redefining \ttfamily on input line 1584.
+LaTeX Info: Redefining \rmfamily on input line 1529.
+LaTeX Info: Redefining \sffamily on input line 1529.
+LaTeX Info: Redefining \ttfamily on input line 1529.
+LaTeX Info: Redefining \rmfamily on input line 1582.
+LaTeX Info: Redefining \sffamily on input line 1582.
+LaTeX Info: Redefining \ttfamily on input line 1582.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ١٢.‏٦[] میں بازیابی اور نقل طریق کی
+ وقتیہ ترسیمات پیش ہیں۔ $[]$ حال کے دوران $[]$ اور $[]$ فعال ہیں؛[]
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 1587--1588
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس حال کے وسط میں ساعت کا آنے والا کنارہ 
+چڑھائی ، دفتر پتہ میں برنامہ گنت کار سے پتہ منتقل[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+[]$\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا اضافہ ہو گا۔ $[]$ 
+حال کے دوران $[]$ اور $[]$ فعال ہیں؛ ساعت کے کنارہ چڑھائی پر دفتر ہدایت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ، پتہ کی نشاندہی پر حافظہ کے مطلوبہ م
+قام سے ، لفظ بھرا جائے گا۔ ”نقل“ کی ہدایت پر عمل درآمد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+[]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال سے شروع ہو گی، جہاں $[]$ اور $[]
+$ فعال ہیں؛ دفتر ہدایت میں موجود جزو پتہ ، ساعت کے[]
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 1587--1588
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کنارہ چڑھائی پر، دفتر پتہ میں منتقل ہو گا
+۔ $[]$ حال کے دوران $[]$ اور $[]$ فعال ہیں؛ دفتر الف میں،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ساعت کے کنارہ چڑھائی پر، حافظہ کے مطلوبہ 
+مقام سے مواد کا لفظ بھرا جائے گا۔ ”نقل“ ہدایت[]
+ []
+
 ) [291] [292] [293] (./answer.tex) [293
 
 
@@ -5765,8 +5807,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  65145 strings out of 476191
- 1728407 string characters out of 9562072
- 2635168 words of memory out of 7000000
+ 1728410 string characters out of 9562072
+ 2635169 words of memory out of 7000000
  84722 multiletter control sequences out of 15000+600000
  497598 words of font info for 170 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
