@@ -1,1 +1,114 @@
-\showthe\font
+\begin{subfigure}{0.30\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpina}{0.30}
+\pgfmathsetmacro{\kpsep}{0.20}			%pin to pin distance
+\pgfmathsetmacro{\kW}{\kpsep}
+\pgfmathsetmacro{\kulV}{0.20}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.20}
+\pgfmathsetmacro{\kdimX}{2*\kulH+4*\kpsep}
+\pgfmathsetmacro{\kdimY}{2*\kulV+4*\kpsep}		%two spaces between 3 pins
+\pgfmathsetmacro{\ksepX}{\kdimX+2*\kpina+1*\kpsep+\kW}
+\pgfmathsetmacro{\ksepY}{\kdimY+\kpin+0.5*\kpsep}
+\draw(0,0)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1.5cm,align=center]{\RTL{گنتکار}};
+\draw(0,\kulV+0*\kpsep)--++(-\kpin,0)node[left]{$E_P$};
+\draw(0,\kulV+4*\kpsep)--++(-\kpin,0)node[left]{$C_P$};
+\draw(\kdimX,\kulV+1.5*\kpsep)--++(\kpina,0);
+\draw(\kdimX,\kulV+2.5*\kpsep)--++(\kpina,0);
+\draw(\kdimX,\kulV+1.5*\kpsep)++(\kpina,0)++(-0.5*\kpsep,-0.5*\kpsep)--++(1*\kpsep,1*\kpsep)--++(-1*\kpsep,1*\kpsep);
+
+\draw(0,-\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{دفتر پتہ}};
+\draw(0,-\ksepY+\kulV+4*\kpsep)--++(-\kpina,0)node[left]{$\overline{L}_M$};
+\draw(0,-\ksepY+\kulV+4*\kpsep)++(-\knshift,0)node[ocirc]{};
+\draw(\kulH+0*\kpsep,-\ksepY)--++(0,-\kpin);
+\draw(\kulH+1*\kpsep,-\ksepY)--++(0,-\kpin);
+\draw(\kulH+0*\kpsep,-\ksepY)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
+\draw(\kulH+3*\kpsep,-\ksepY)--++(0,-\kpin);
+\draw(\kulH+4*\kpsep,-\ksepY)--++(0,-\kpin);
+\draw(\kulH+3*\kpsep,-\ksepY)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
+\draw(\kdimX,-\ksepY+\kulV+1.5*\kpsep)++(0.5*\kpsep,0)--++(\kpina,0);
+\draw(\kdimX,-\ksepY+\kulV+2.5*\kpsep)++(0.5*\kpsep,0)--++(\kpina,0);
+\draw(\kdimX,-\ksepY+\kulV+2*\kpsep)--++(1*\kpsep,-1*\kpsep);
+\draw(\kdimX,-\ksepY+\kulV+2*\kpsep)--++(1*\kpsep,1*\kpsep);
+
+\draw(0,-2*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{حافظہ}};
+\draw(0,-2*\ksepY+\kulV)--++(-\kpina,0)node[left]{$\overline{CE}$}; 
+\draw(0,-2*\ksepY+\kulV)++(-\knshift,0)node[ocirc]{};
+\draw(\kdimX,-2*\ksepY+\kulV+1.5*\kpsep)--++(\kpina,0);
+\draw(\kdimX,-2*\ksepY+\kulV+2.5*\kpsep)--++(\kpina,0);
+\draw(\kdimX,-2*\ksepY+\kulV+1.5*\kpsep)++(\kpina,0)++(-0.5*\kpsep,-0.5*\kpsep)--++(1*\kpsep,1*\kpsep)--++(-1*\kpsep,1*\kpsep);
+
+\draw(0,-3*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{ \RTL{دفتر ہدایت}};
+\draw(0,-3*\ksepY+\kulV+0*\kpsep)--++(-\kpina,0)node[left]{$\overline{E}_I$};
+\draw(0,-3*\ksepY+\kulV+4*\kpsep)--++(-\kpina,0)node[left]{$\overline{L}_I$};
+\draw(0,-3*\ksepY+\kulV+0*\kpsep)++(-\knshift,0)node[ocirc]{};
+\draw(0,-3*\ksepY+\kulV+4*\kpsep)++(-\knshift,0)node[ocirc]{};
+\draw(\kdimX,-3*\ksepY+\kulV+0*\kpsep)--++(\kpina,0);
+\draw(\kdimX,-3*\ksepY+\kulV+1*\kpsep)--++(\kpina,0);
+\draw(\kdimX,-3*\ksepY+\kulV+0*\kpsep)++(\kpina,0)++(-0.5*\kpsep,-0.5*\kpsep)--++(1*\kpsep,1*\kpsep)--++(-1*\kpsep,1*\kpsep);
+\draw(\kdimX,-3*\ksepY+\kulV+3*\kpsep)++(0.5*\kpsep,0)--++(\kpina,0);
+\draw(\kdimX,-3*\ksepY+\kulV+4*\kpsep)++(0.5*\kpsep,0)--++(\kpina,0);
+\draw(\kdimX,-3*\ksepY+\kulV+3.5*\kpsep)--++(1*\kpsep,-1*\kpsep);
+\draw(\kdimX,-3*\ksepY+\kulV+3.5*\kpsep)--++(1*\kpsep,1*\kpsep);
+\draw(\kulH+1.5*\kpsep,-3*\ksepY)--++(0,-\kpin);
+\draw(\kulH+2.5*\kpsep,-3*\ksepY)--++(0,-\kpin);
+\draw(\kulH+1.5*\kpsep,-3*\ksepY)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
+
+\draw(0,-4*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1.5cm,align=center]{\RTL{قابو    }};
+\draw(\kulH+1.5*\kpsep,-4*\ksepY)--++(0,-\kpin);
+\draw(\kulH+2.5*\kpsep,-4*\ksepY)--++(0,-\kpin);
+\draw(\kulH+1.5*\kpsep,-4*\ksepY)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
+
+\draw(\kdimX+\kpina+0.5*\kpsep,\kdimY)  [thick] rectangle ++(\kW,-4*\ksepY+\kpin);
+
+\draw(\ksepX,-0*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{$A$}};
+\draw(\ksepX,-0*\ksepY+\kulV+0*\kpsep)--++(-\kpina,0); 
+\draw(\ksepX,-0*\ksepY+\kulV+1*\kpsep)--++(-\kpina,0); 
+\draw(\ksepX,-0*\ksepY+\kulV+0*\kpsep)++(-\kpina,0)++(0.5*\kpsep,-0.5*\kpsep)--++(-\kpsep,\kpsep)--++(\kpsep,\kpsep);
+\draw(\ksepX,-0*\ksepY+\kulV+3*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
+\draw(\ksepX,-0*\ksepY+\kulV+4*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
+\draw(\ksepX,-0*\ksepY+\kulV+3*\kpsep)++(-1*\kpsep,-0.5*\kpsep)--++(\kpsep,\kpsep)--++(-\kpsep,\kpsep);
+\draw(\ksepX+\kulH+1.5*\kpsep,-0*\ksepY)--++(0,-\kpin);
+\draw(\ksepX+\kulH+2.5*\kpsep,-0*\ksepY)--++(0,-\kpin);
+\draw(\ksepX+\kulH+1.5*\kpsep,-0*\ksepY)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
+\draw(\ksepX+\kdimX,-0*\ksepY+\kulV+0*\kpsep)--++(\kpin,0)node[right]{$E_A$};
+\draw(\ksepX+\kdimX,-0*\ksepY+\kulV+4*\kpsep)--++(\kpin,0)node[right]{$\overline{L}_A$};
+\draw(\ksepX+\kdimX,-0*\ksepY+\kulV+4*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw(\ksepX,-1*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{جمع و منفی کار}};
+\draw(\ksepX+\kdimX,-1*\ksepY+\kulV+0*\kpsep)--++(\kpin,0)node[right]{$E_U$};
+\draw(\ksepX+\kdimX,-1*\ksepY+\kulV+4*\kpsep)--++(\kpin,0)node[right]{$S_U$};
+\draw(\ksepX,-1*\ksepY+\kulV+1.5*\kpsep)--++(-\kpina,0); 
+\draw(\ksepX,-1*\ksepY+\kulV+2.5*\kpsep)--++(-\kpina,0); 
+\draw(\ksepX,-1*\ksepY+\kulV+1.5*\kpsep)++(-\kpina,0)++(0.5*\kpsep,-0.5*\kpsep)--++(-\kpsep,\kpsep)--++(\kpsep,\kpsep);
+\draw(\ksepX+\kulH+1.5*\kpsep,-1*\ksepY)++(0,-0.5*\kpsep)--++(0,-\kpin);
+\draw(\ksepX+\kulH+2.5*\kpsep,-1*\ksepY)++(0,-0.5*\kpsep)--++(0,-\kpin);
+\draw(\ksepX+\kulH+1.5*\kpsep,-1*\ksepY)++(-0.5*\kpsep,-\kpsep)--++(\kpsep,\kpsep)--++(\kpsep,-\kpsep);
+
+
+\draw(\ksepX,-2*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{$B$}};
+\draw(\ksepX,-2*\ksepY+\kulV+1.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
+\draw(\ksepX,-2*\ksepY+\kulV+2.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
+\draw(\ksepX,-2*\ksepY+\kulV+1.5*\kpsep)++(-1*\kpsep,-0.5*\kpsep)--++(\kpsep,\kpsep)--++(-\kpsep,\kpsep);
+\draw(\ksepX+\kdimX,-2*\ksepY+\kulV+4*\kpsep)--++(\kpina,0)node[right]{$\overline{L}_B$}; 
+\draw(\ksepX+\kdimX,-2*\ksepY+\kulV+4*\kpsep)++(\knshift,0)node[ocirc]{};
+
+\draw(\ksepX,-3*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{خارجی دفتر}};
+\draw(\ksepX,-3*\ksepY+\kulV+1.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
+\draw(\ksepX,-3*\ksepY+\kulV+2.5*\kpsep)++(-0.5*\kpsep,0)--++(-\kpina,0); 
+\draw(\ksepX,-3*\ksepY+\kulV+1.5*\kpsep)++(-1*\kpsep,-0.5*\kpsep)--++(\kpsep,\kpsep)--++(-\kpsep,\kpsep);
+\draw(\ksepX+\kdimX,-3*\ksepY+\kulV+4*\kpsep)--++(\kpina,0)node[right]{$\overline{L}_O$}; 
+\draw(\ksepX,-3*\ksepY)++(\kulH+1.5*\kpsep,0)--++(0,-\kpin);
+\draw(\ksepX,-3*\ksepY)++(\kulH+2.5*\kpsep,0)--++(0,-\kpin);
+\draw(\ksepX,-3*\ksepY)++(\kulH+1.5*\kpsep,0)++(0,-\kpin)++(-0.5*\kpsep,0.5*\kpsep)--++(\kpsep,-\kpsep)--++(\kpsep,\kpsep);
+\draw(\ksepX+\kdimX,-3*\ksepY+\kulV+4*\kpsep)++(\knshift,0)node[ocirc]{};
+
+\draw(\ksepX,-4*\ksepY)  [thick] rectangle ++(\kdimX,\kdimY)node[pos=0.5,rectangle,inner sep=0pt,text width=1cm,align=center]{\RTL{تختی}};
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+

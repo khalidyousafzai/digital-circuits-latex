@@ -55,3 +55,13 @@
 \indexentry{جزو ہدایت}{\arabicdigits {284}}
 \indexentry{timing states}{\arabicdigits {286}}
 \indexentry{وقتیہ حال}{\arabicdigits {286}}
+\indexentry{state!address}{\arabicdigits {287}}
+\indexentry{حال!پتہ}{\arabicdigits {287}}
+\indexentry{state!increment}{\arabicdigits {289}}
+\indexentry{حال!بڑھوتری}{\arabicdigits {289}}
+\indexentry{cycle!fetch}{\arabicdigits {289}}
+\indexentry{پھیرا!بازیابی}{\arabicdigits {289}}
+\indexentry{cycle!execution}{\arabicdigits {291}}
+\indexentry{پھیرا!تعمیلی}{\arabicdigits {291}}
+\indexentry{nop}{\arabicdigits {291}}
+\indexentry{حال!فارغ}{\arabicdigits {291}}

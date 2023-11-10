@@ -698,9 +698,14 @@
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}بناؤٹ}{\arabicdigits {271}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {2}}ہدایات کی فہرست}{\arabicdigits {277}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {3}}کمپیوٹر کی برنامہ نویسی}{\arabicdigits {281}}{}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {4}}بازیافتی پھیرا}{\arabicdigits {286}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {4}}بازیابی پھیرا}{\arabicdigits {286}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {289}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {5}}تعمیلی پھیرا}{\arabicdigits {291}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {chapter}{جوابات}{\arabicdigits {293}}{}%
