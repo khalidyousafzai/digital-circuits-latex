@@ -724,4 +724,11 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {chapter}{جوابات}{\arabicdigits {293}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {6}}خرد برنامہ}{\arabicdigits {299}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {7}}سادہ کمپیوٹر کا نقشہ دور}{\arabicdigits {300}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {13}}نقشہ دور}{\arabicdigits {303}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {305}}{}%

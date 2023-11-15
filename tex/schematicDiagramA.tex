@@ -1,0 +1,102 @@
+\باب{نقشہ دور}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kul}{0.40}			%edge clearance along vertical edges
+\pgfmathsetmacro{\kdimX}{2*\kul+0*\kpsep}
+\pgfmathsetmacro{\kdimY}{2*\kul+2*\kpsep}	
+\pgfmathsetmacro{\ksepX}{2.00}
+\pgfmathsetmacro{\ksepY}{1.25}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinB}{1.5}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kw}{0.20}
+\kSfozSA[uu1]{0}{0}
+\kSfozSB[uu2]{\ksepX}{0}
+\kSfozSA[uu3]{2*\ksepX}{0}
+\kSfozSB[uu4]{3*\ksepX}{0}
+\draw(uu1-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u1\\74LS107};
+\draw(uu2-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u1\\74LS107};
+\draw(uu3-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u2\\74LS107};
+\draw(uu4-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u2\\74LS107};
+\kotsA[uu5]{4*\ksepX}{-\ksepY}
+\kotsB[uu6]{4*\ksepX}{-2*\ksepY}
+\kotsC[uu7]{4*\ksepX}{-3*\ksepY}
+\kotsD[uu8]{4*\ksepX}{-4*\ksepY}
+\draw[dashed,lgray]($(uu5pin|-uu5u)+(-0.5ex,2ex)$)rectangle ($(uu8pout|-uu8d)+(2ex,-1ex)$);
+\draw(uu5u)node[above,yshift=3ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u3\\74LS126};
+\draw[thin] (uu1p6)|-coordinate(cntA)(uu2p2)  (uu2p6)|-coordinate(cntB)(uu3p2)  (uu3p6)|-coordinate(cntC)(uu4p2);
+\draw[thin](cntA)|-(uu8pin) (cntB)|-(uu7pin)  (cntC)|-(uu6pin)  (uu4p6)|-coordinate(kAddressLoc)(uu5pin);
+\draw[thin](uu1p2)--++(-1*\kpin,0)coordinate(kClft)node[left]{$\overline{CLK}$};
+\draw[thin](uu1p3)--(uu1p1)--++(0,\kpinB)coordinate(kCPl);
+\draw[thin](uu2p3)--(uu2p1)--++(0,\kpinB);
+\draw[thin](uu3p3)--(uu3p1)--++(0,\kpinB);
+\draw[thin](uu4p3)--(uu4p1)--++(0,\kpinB)coordinate(kCPr)--(kCPl)--(kCPl-|kClft)node[left]{$C_P$};
+\draw(4.25*\ksepX,1*\kdimY)node[]{\text{\RL{برنامہ گنت کار}}};
+\draw[thin](uu5u)--++(0,0.5ex)--++(3*\kpin,0)coordinate(kEPtop);
+\draw[thin](uu6u)--++(0,0.5ex)--++(3*\kpin,0);
+\draw[thin](uu7u)--++(0,0.5ex)--++(3*\kpin,0);
+\draw[thin](uu8u)--++(0,0.5ex)--++(3*\kpin,0)coordinate(kEPbot);
+\draw[thin](kEPbot)--(kEPtop)--(kEPtop-|kClft)node[left,yshift=-0.5ex]{$E_P$};
+\draw(kAddressLoc)node[left]{$A_3$};
+\draw(uu6pin-|kAddressLoc)node[above left]{$A_2$};
+\draw(uu7pin-|kAddressLoc)node[above left]{$A_1$};
+\draw(uu8pin-|kAddressLoc)node[above left]{$A_0$};
+\draw(uu4pd)--(uu1pd)--(uu1pd-|kClft)node[left,yshift=0.5ex]{$\overline{CLR}$};
+\draw[thin](uu5pout)++(7*\kpin,3*\kpin)node[above]{$w_0$}coordinate(kwa)--($(uu8pout)+(7*\kpin,-25*\kpin)$)coordinate(kwbot);
+\draw[thin](kwa)++(-\kw,0)coordinate(kwb)--(kwb|-kwbot);
+\draw[thin](kwa)++(-2*\kw,0)coordinate(kwc)--(kwc|-kwbot);
+\draw[thin](kwa)++(-3*\kw,0)coordinate(kwd)--(kwd|-kwbot);
+\draw[thin](kwa)++(-4*\kw,0)coordinate(kwe)--(kwe|-kwbot);
+\draw[thin](kwa)++(-5*\kw,0)coordinate(kwf)--(kwf|-kwbot);
+\draw[thin](kwa)++(-6*\kw,0)coordinate(kwg)--(kwg|-kwbot);
+\draw[thin](kwa)++(-7*\kw,0)node[above]{$w_7$}coordinate(kwh)--(kwh|-kwbot);
+\draw[thin](uu8pout)--(uu8pout-|kwd);
+\draw[thin](uu7pout)--(uu7pout-|kwc);
+\draw[thin](uu6pout)--(uu6pout-|kwb);
+\draw[thin](uu5pout)--(uu5pout-|kwa);
+\draw[thin](kwd)node[yshift=6ex,rectangle,inner sep=0pt,text width=2cm,align=center]{\RTL{$W$ گزرگاہ}};
+\draw[thick] (3*\ksepX,-8*\ksepY)coordinate(kLftBot)rectangle node[rectangle, inner sep=0pt,align=center,text width=1cm]{u4 \\ 74LS173}++(2*\kul+3*\kpsep,2*\kul+4*\kpsep);
+\draw(kLftBot)++(\kul+0*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$14$}}--++(0,\kpin+4*\kw)coordinate(kd)--(kd-|kwd);
+\draw(kLftBot)++(\kul+1*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$13$}}--++(0,\kpin+3*\kw)coordinate(kc)--(kc-|kwc);
+\draw(kLftBot)++(\kul+2*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$12$}}--++(0,\kpin+2*\kw)coordinate(kb)--(kb-|kwb);
+\draw(kLftBot)++(\kul+3*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$11$}}--++(0,\kpin+1*\kw)coordinate(ka)--(ka-|kwa);
+\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+3*\kpsep)node[above right]{\scriptsize{$10$}}--++(2*\kpin,0)--++(0,\kpsep);
+\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+4*\kpsep)node[above right]{\scriptsize{$9$}}--++(3*\kpin,0)node[right]{$\overline{L}_M$};
+\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+3*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+4*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+2*\kpsep)node[above right]{\scriptsize{$7$}}--++(3*\kpin,0)node[right]{$CLK$};
+\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+2*\kpsep)++(0,-\kmv)--++(-\kmv,\kmv)--++(\kmv,\kmv);
+\draw(kLftBot)++(0,1*\kul+0*\kpsep)node[above left]{\scriptsize{$15$}}--++(-2*\kpin,0)coordinate(lftMARa);
+\draw(kLftBot)++(0,1*\kul+1*\kpsep)node[above left]{\scriptsize{$8$}}--++(-2*\kpin,0);
+\draw(kLftBot)++(0,1*\kul+2*\kpsep)node[above left]{\scriptsize{$2$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0);
+\draw(kLftBot)++(0,1*\kul+3*\kpsep)node[above left]{\scriptsize{$1$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0)coordinate(lftMARb);
+\draw(lftMARb)--(lftMARa)node[ground]{};
+\draw(kLftBot)++(0,1*\kul+4*\kpsep)node[above left]{\scriptsize{$16$}}--++(-2*\kpin,0)node[left]{$\SI{5}{\volt}$};
+\draw[thick] (kLftBot)++(-4*\kpsep,-4*\ksepY)coordinate(klftMUX)rectangle node[rectangle,inner sep=0pt,text width=1cm, align=center]{u5\\ 74LS157}++ (2*\kul+7*\kpsep,2*\kul+4*\kpsep);
+\draw(klftMUX)++(\kul+4*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$13$}}--($(kLftBot)+(\kul+0*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$3$}};
+\draw(klftMUX)++(\kul+5*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$10$}}--($(kLftBot)+(\kul+1*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$4$}};
+\draw(klftMUX)++(\kul+6*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$6$}}--($(kLftBot)+(\kul+2*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$5$}};
+\draw(klftMUX)++(\kul+7*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$3$}}--($(kLftBot)+(\kul+3*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$6$}};
+\draw(klftMUX)++(\kul+0*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$14$}}--++(0,\kpin)--++(-5*\kpin,0) to [nos,mirror,invert]node[below]{$s1$}++(-2*\kpin,0)--++(-2*\kpin,0)coordinate(wrAddBot)node[left]{$pA_3$};
+\draw(klftMUX)++(\kul+1*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$11$}}--++(0,2.5*\kpin)--++(-5*\kpin-1*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)node[left]{$pA_2$};
+\draw(klftMUX)++(\kul+2*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$5$}}--++(0,4*\kpin)--++(-5*\kpin-2*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)node[left]{$pA_1$};
+\draw(klftMUX)++(\kul+3*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$2$}}--++(0,5.5*\kpin)--++(-5*\kpin-3*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)coordinate(wrAddTop)node[left]{$pA_0$};
+\draw(wrAddTop)--(wrAddBot)node[ground]{};
+\draw(klftMUX)++(0,\kul+0*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$15$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0);
+\draw(klftMUX)++(0,\kul+1*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$8$}}--++(-2*\kpin,0)--++(0,-\kpsep)node[ground]{};
+\draw(klftMUX)++(0,\kul+2*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$1$}}--++(-7*\kpin,0) node[spdt,,rotate=0,anchor=out 1](sw){};
+\draw(sw.in)node[above]{$s2$}node[ground]{};
+\draw(sw.out 1)node[above]{\text{\RL{برنامہ نویسی}}};
+\draw(sw.out 2)node[below]{\text{\RL{دوڑ}}};
+\draw(klftMUX)++(\kul+4*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$12$}}--++(0,-2*\kpin)node[below]{$a_3$};
+\draw(klftMUX)++(\kul+5*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$9$}}--++(0,-2*\kpin)node[below]{$a_2$};
+\draw(klftMUX)++(\kul+6*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$7$}}--++(0,-2*\kpin)node[below]{$a_1$};
+\draw(klftMUX)++(\kul+7*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$4$}}--++(0,-2*\kpin)node[below]{$a_0$};
+\draw(klftMUX)++(2*\kul+7*\kpsep,2*\kul+2*\kpsep)node[right,xshift=2ex,rectangle,inner sep=0pt,text width=2cm,align=center]{$2\times 1$\\ \text{\RL{داخلی منتخب کار}}};
+\end{tikzpicture}
+\caption{برنامہ گنت کار}
+\label{شکل_کمپیوٹر_برنامہ_گنتکار}
+\end{figure}

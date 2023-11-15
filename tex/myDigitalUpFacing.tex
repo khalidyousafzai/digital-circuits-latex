@@ -103,9 +103,9 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcm{pcm}			%pin edge middle corner
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
-\foreach \n in {1,2,3,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n /\lbl in {1/S,2/C,3/R,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,3,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n /\lbl in {1/S,2/C,3/R,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\kuDFF}[3][u0]{
@@ -118,10 +118,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -135,10 +135,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,u,d}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,u,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\kuJKFF}[3][u0]{
@@ -151,10 +151,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,3,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/J,3/K,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,3,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/J,3/K,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,10 +168,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
@@ -185,10 +185,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,u,d}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,u,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
@@ -202,10 +202,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,d}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,d}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
@@ -220,10 +220,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kuFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,u}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,u}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,u}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
@@ -250,10 +250,10 @@ coordinate(\kref\pcd\m)+(0,\cdelX)coordinate(\kref\pcm\m)+(-\cdelY,0)coordinate(
 \pgfmathsetmacro{\kulH}{0.50}
 \pgfmathsetmacro{\kdimX}{2*\kulH+0*\kpsep}
 \pgfmathsetmacro{\kdimY}{\kdimX}		%two spaces between 3 pins
-\draw(\kshiftX,\kshiftY)coordinate(\kref\pin)--++(0,\kpin)coordinate(\kref\pb\pin);
+\draw[thin](\kshiftX,\kshiftY)coordinate(\kref\pin)--++(0,\kpin)coordinate(\kref\pb\pin);
 \draw(\kref\pb\pin)[thick]++(\kdimY/2,0)coordinate(aa)--++(-\kdimY,0)
 coordinate(bb)--++(\kdimY/2,\kdimX)coordinate(cc)coordinate(\kref\pb\pout)--++(\kdimY/2,-\kdimX);
-\draw(\kref\pb\pout)--++(0,\kpin)coordinate(\kref\pout);
+\draw[thin](\kref\pb\pout)--++(0,\kpin)coordinate(\kref\pout);
 \draw($(bb)!0.5!(cc)$)coordinate(\kref\pb\pu)+(-0.07,0)coordinate(\kref\pn\pu)+(-\kpin,0)coordinate(\kref\pu);
 \draw($(aa)!0.5!(cc)$)coordinate(\kref\pb\pd)+(0.07,0)coordinate(\kref\pn\pd)+(\kpin,0)coordinate(\kref\pd);
 \draw(\kref\pb\pin)++(0,-0.07)coordinate(\kref\pn\pin);

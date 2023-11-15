@@ -30,10 +30,10 @@ tu={\normalsize$c_{\text{د}}$}}}}
 \def\upClk{0/c_i/ci}
 \def\downClk{0/c_o/co}
 \draw[thick](\kshiftX,\kshiftY) rectangle ++(\kdimX,\kdimY);
-\foreach \yLoc/\lbl/\anchor in \leftPins {\draw(\kshiftX+\kulV+\yLoc*\kpsep,\kshiftY+\kdimY)node[below]{$\lbl$}--++(0,\kpin,0)coordinate(#1\anchor);}
-\foreach \yLoc/\lbl/\anchor in \rightPins{\draw(\kshiftX+\kulV+\yLoc*\kpsep,\kshiftY)node[above]{$\lbl$}--++(0,-\kpin,0)coordinate(#1\anchor);}
-\foreach \yLoc/\lbl/\anchor in \upClk{\draw(\kshiftX+\kdimX,\kshiftY+\kulV+\yLoc*\kpsep)coordinate(cc)--++(\kpin,0)coordinate(#1\anchor)  (cc)++(0,-\cdelY)--++(-\cdelX,\cdelY)node[left]{$\lbl$}--++(\cdelX,\cdelY);}
-\foreach \yLoc/\lbl/\anchor in \downClk{\draw(\kshiftX,\kshiftY+\kulV+\yLoc*\kpsep)coordinate(cc)--++(-\kpin,0)coordinate(#1\anchor)  (cc)++(0,-\cdelY)--++(\cdelX,\cdelY)node[right]{$\lbl$}--++(-\cdelX,\cdelY);}
+\foreach \yLoc/\lbl/\anchor in \leftPins {\draw[thin](\kshiftX+\kulV+\yLoc*\kpsep,\kshiftY+\kdimY)node[below]{$\lbl$}--++(0,\kpin,0)coordinate(#1\anchor);}
+\foreach \yLoc/\lbl/\anchor in \rightPins{\draw[thin](\kshiftX+\kulV+\yLoc*\kpsep,\kshiftY)node[above]{$\lbl$}--++(0,-\kpin,0)coordinate(#1\anchor);}
+\foreach \yLoc/\lbl/\anchor in \upClk{\draw[thin](\kshiftX+\kdimX,\kshiftY+\kulV+\yLoc*\kpsep)coordinate(cc)--++(\kpin,0)coordinate(#1\anchor)  (cc)++(0,-\cdelY)--++(-\cdelX,\cdelY)node[left]{$\lbl$}--++(\cdelX,\cdelY);}
+\foreach \yLoc/\lbl/\anchor in \downClk{\draw[thin](\kshiftX,\kshiftY+\kulV+\yLoc*\kpsep)coordinate(cc)--++(-\kpin,0)coordinate(#1\anchor)  (cc)++(0,-\cdelY)--++(\cdelX,\cdelY)node[right]{$\lbl$}--++(-\cdelX,\cdelY);}
 }
 %==================================
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -41,6 +41,7 @@ tu={\normalsize$c_{\text{د}}$}}}}
 %=============================
 %for FlipFlops
 %gives pin tip's locations as (pax,pay), pins are pa,pb,...,pf, pup,pdown corresponding to p1,..,p6,pu,pd
+%needed when anchoring at a certain pin
 \newcommand{\kpinAnchors}{
 \def\pax{-\kpin}
 \def\pay{\kulV+2*\kpsep}
@@ -99,7 +100,7 @@ tu={\normalsize$c_{\text{د}}$}}}}
 \def\pn{pn}			%pin 'ocirc'
 \def\px{x}			%pinAnchorX
 \def\py{y}			%pinAnchorY
-\foreach \n in {#2} {\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {#2} {\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %====================================
 %draws NOTHING, only gives all pin related ANCHORS
@@ -121,7 +122,9 @@ tu={\normalsize$c_{\text{د}}$}}}}
 \def\pcu{pcu}			%pin tip
 \def\pcm{pcm}			%pin tip
 \def\pcd{pcd}			%pin tip
+\def\pnum{pnum}			%pin number
 \pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knumshift}{0.15}   %half of pin length
 \pgfmathsetmacro{\knshift}{0.07}
 \pgfmathsetmacro{\kpin}{0.30}
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
@@ -145,16 +148,18 @@ tu={\normalsize$c_{\text{د}}$}}}}
 \draw(\kshiftX+\kdimX/2,\kdimY/2+\kshiftY)coordinate(\kref-center);
 %%left pins
 \foreach \n/\m in {0/3,1/2,2/1}{\draw(\kshiftX,\kshiftY+\kulV+\n*\kpsep)
-coordinate(\kref\pb\m)+(\klshift,0)coordinate(\kref\pl\m)+(-\knshift,0)coordinate(\kref\pn\m)+(-\kpin,0)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(\klshift,0)coordinate(\kref\pl\m)+(-\knshift,0)coordinate(\kref\pn\m)+(-\kpin,0)coordinate(\kref\p\m)+(-\knumshift,0.5*\kpsep)coordinate(\kref\pnum\m);}
 %%right pins
 \foreach \n/\m in {0/4,1/5,2/6}{\draw(\kshiftX+\kdimX,\kshiftY+\kulV+\n*\kpsep)
-coordinate(\kref\pb\m)+(-\klshift,0)coordinate(\kref\pl\m)+(\knshift,0)coordinate(\kref\pn\m)+(\kpin,0)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(-\klshift,0)coordinate(\kref\pl\m)+(\knshift,0)coordinate(\kref\pn\m)+(\kpin,0)coordinate(\kref\p\m)+
+(\knumshift,0.5*\kpsep)coordinate(\kref\pnum\m);}
 %%up pin
 \foreach \n/\m in {0/u}{\draw(\kshiftX+\kulH+\n*\kpsep,\kdimY+\kshiftY)
-coordinate(\kref\pb\m)+(0,-\klshift)coordinate(\kref\pl\m)+(0,\knshift)coordinate(\kref\pn\m)+(0,\kpin)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(0,-\klshift)coordinate(\kref\pl\m)+(0,\knshift)coordinate(\kref\pn\m)+(0,\kpin)coordinate(\kref\p\m)+
+(0.5*\kpsep,\knumshift)coordinate(\kref\pnum\m);}
 %%down pin
 \foreach \n/\m in {0/d}{\draw(\kshiftX+\kulH+\n*\kpsep,\kshiftY)
-coordinate(\kref\pb\m)+(0,\klshift)coordinate(\kref\pl\m)+(0,-\knshift)coordinate(\kref\pn\m)+(0,-\kpin)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(0,\klshift)coordinate(\kref\pl\m)+(0,-\knshift)coordinate(\kref\pn\m)+(0,-\kpin)coordinate(\kref\p\m)+(0.5*\kpsep,-\knumshift)coordinate(\kref\pnum\m);}
 %%clock edges left pin
 \foreach \n/\m in {0/3,1/2,2/1}{\draw(\kshiftX,\kshiftY+\kulV+\n*\kpsep)+(0,-\cdelY)
 coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\kref\pcu\m);}
@@ -184,8 +189,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 \def\pcm{pcm}			%clock edge middle corner
 \def\pcd{pcd}			%clock edge lower corner
 \def\pn{pn}			%pin 'ocirc'
+\def\pnum{pnum}			%pin number
 \pgfmathsetmacro{\klshift}{0.25}
 \pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\knumshift}{0.15}   %half of pin length
 \pgfmathsetmacro{\kpin}{0.30}
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
 \pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
@@ -208,16 +215,20 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 \draw(\kshiftX+\kdimX/2,\kdimY/2+\kshiftY)coordinate(\kref-center);
 %%left pins
 \foreach \n/\m in {0/3,1/2,2/1}{\draw(\kshiftX,\kshiftY+\kulV+\n*\kpsep)
-coordinate(\kref\pb\m)+(\klshift,0)coordinate(\kref\pl\m)+(-\knshift,0)coordinate(\kref\pn\m)+(-\kpin,0)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(\klshift,0)coordinate(\kref\pl\m)+(-\knshift,0)coordinate(\kref\pn\m)+(-\kpin,0)coordinate(\kref\p\m)
++(-\knumshift,0.5*\kpsep)coordinate(\kref\pnum\m);}
 %%right pins
 \foreach \n/\m in {0/4,1/5,2/6}{\draw(\kshiftX+\kdimX,\kshiftY+\kulV+\n*\kpsep)
-coordinate(\kref\pb\m)+(-\klshift,0)coordinate(\kref\pl\m)+(\knshift,0)coordinate(\kref\pn\m)+(\kpin,0)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(-\klshift,0)coordinate(\kref\pl\m)+(\knshift,0)coordinate(\kref\pn\m)+(\kpin,0)coordinate(\kref\p\m)
++(\knumshift,0.5*\kpsep)coordinate(\kref\pnum\m);}
 %%up pin
 \foreach \n/\m in {0/u}{\draw(\kshiftX+\kulH+\n*\kpsep,\kdimY+\kshiftY)
-coordinate(\kref\pb\m)+(0,-\klshift)coordinate(\kref\pl\m)+(0,\knshift)coordinate(\kref\pn\m)+(0,\kpin)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(0,-\klshift)coordinate(\kref\pl\m)+(0,\knshift)coordinate(\kref\pn\m)+(0,\kpin)coordinate(\kref\p\m)
++(0.5*\kpsep,\knumshift)coordinate(\kref\pnum\m);}
 %%down pin
 \foreach \n/\m in {0/d}{\draw(\kshiftX+\kulH+\n*\kpsep,\kshiftY)
-coordinate(\kref\pb\m)+(0,\klshift)coordinate(\kref\pl\m)+(0,-\knshift)coordinate(\kref\pn\m)+(0,-\kpin)coordinate(\kref\p\m);}
+coordinate(\kref\pb\m)+(0,\klshift)coordinate(\kref\pl\m)+(0,-\knshift)coordinate(\kref\pn\m)+(0,-\kpin)coordinate(\kref\p\m)
++(0.5*\kpsep,-\knumshift)coordinate(\kref\pnum\m);}
 %%clock edges left pin
 \foreach \n/\m in {0/3,1/2,2/1}{\draw(\kshiftX,\kshiftY+\kulV+\n*\kpsep)+(0,-\cdelY)
 coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\kref\pcu\m);}
@@ -240,9 +251,9 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcm{pcm}			%pin edge middle corner
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
-\foreach \n in {1,2,3,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n /\lbl in {1/S,2/C,3/R,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,3,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n /\lbl in {1/S,2/C,3/R,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\kDFF}[3][u0]{
@@ -255,10 +266,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -272,10 +283,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,u,d}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,u,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/D,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\kJKFF}[3][u0]{
@@ -291,9 +302,26 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 \foreach \n in {1,2,3,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
 \foreach \n/\lbl in {1/J,3/K,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
 \foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\kJKFFcd}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kFF[#1]{#2}{#3}
+\foreach \n in {1,2,3,6,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/J,3/K,6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {2,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\kTFF}[3][u0]{
 \def\kref{#1}
@@ -305,10 +333,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -322,10 +350,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,u}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,u}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,u}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -339,10 +367,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,d}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,d}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -356,10 +384,10 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 %\def\pcd{pcd}			%pin edge lower corner
 %\def\pn{pn}			%pin 'ocirc'
 \kFF[#1]{#2}{#3}
-\foreach \n in {1,2,4,6,u,d}{\draw(\kref\pb\n)--(\kref\p\n);}
-\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw(\kref\pl\n)node[]{$\lbl$};}
-\foreach \n in {2}{\draw(\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
-\foreach \n in {4,u,d}{\draw(\kref\pn\n)node[ocirc]{};}
+\foreach \n in {1,2,4,6,u,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/T,4/{\overline{Q}},6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {4,u,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
 }
 %%%%%%%%%%%%%%%%%%%%%%
 % buffer that gives both the Signal and its Complement is  \kBusBuffer
@@ -372,25 +400,29 @@ coordinate(\kref\pcd\m)+(\cdelX,0)coordinate(\kref\pcm\m)+(0,\cdelY)coordinate(\
 \def\pb{pb}			%pin base
 \def\pl{pl}			%pin label
 \def\pn{pn}			%pin 'ocirc'
+\def\pnum{pnum}			%pin number  
 \def\pin{pin}			%pin tip
 \def\pout{pout}			%pin tip
 \def\pu{u}			%pin tip
 \def\pd{d}			%pin tip
 \pgfmathsetmacro{\klshift}{0.25}
 \pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\knumshift}{0.15}  %half of pin length
 \pgfmathsetmacro{\kpin}{0.30}
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
 \pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
 \pgfmathsetmacro{\kulH}{0.50}
 \pgfmathsetmacro{\kdimX}{2*\kulH+0*\kpsep}
 \pgfmathsetmacro{\kdimY}{\kdimX}		%two spaces between 3 pins
-\draw(\kshiftX,\kshiftY)coordinate(\kref\pin)--++(\kpin,0)coordinate(\kref\pb\pin);
+\draw[thin](\kshiftX,\kshiftY)coordinate(\kref\pin)--++(\kpin,0)coordinate(\kref\pb\pin);
 \draw(\kref\pb\pin)[thick]++(0,-\kdimY/2)coordinate(aa)--++(0,\kdimY)coordinate(bb)--++(\kdimX,-\kdimY/2)coordinate(cc)coordinate(\kref\pb\pout)--++(-\kdimX,-\kdimY/2);
-\draw(\kref\pb\pout)--++(\kpin,0)coordinate(\kref\pout);
-\draw($(bb)!0.5!(cc)$)coordinate(\kref\pb\pu)+(0,0.07)coordinate(\kref\pn\pu)+(0,\kpin)coordinate(\kref\pu);
-\draw($(aa)!0.5!(cc)$)coordinate(\kref\pb\pd)+(0,-0.07)coordinate(\kref\pn\pd)+(0,-\kpin)coordinate(\kref\pd);
-\draw(\kref\pb\pin)++(-0.07,0)coordinate(\kref\pn\pin);
-\draw(\kref\pb\pout)++(0.07,0)coordinate(\kref\pn\pout);
+\draw[thin](\kref\pb\pout)--++(\kpin,0)coordinate(\kref\pout);
+\draw($(bb)!0.5!(cc)$)coordinate(\kref\pb\pu)+(0,0.07)coordinate(\kref\pn\pu)+(0,\kpin)coordinate(\kref\pu)
++(0.5*\kpin,\knumshift)coordinate(\kref\pnum\pu);
+\draw($(aa)!0.5!(cc)$)coordinate(\kref\pb\pd)+(0,-0.07)coordinate(\kref\pn\pd)+(0,-\kpin)coordinate(\kref\pd)
++(0.5*\kpin,-\knumshift)coordinate(\kref\pnum\pd);
+\draw(\kref\pb\pin)+(-0.07,0)coordinate(\kref\pn\pin)+(-\knumshift,0.5*\kpsep)coordinate(\kref\pnum\pin);
+\draw(\kref\pb\pout)+(0.07,0)coordinate(\kref\pn\pout)+(\knumshift,0.5*\kpsep)coordinate(\kref\pnum\pout);
 }
 %=====================================
 %========================================
@@ -756,9 +788,9 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 \newcommand{\kmuxD}[3][u0]{
 \def\kref{#1}
 \kBOX[#1]{#2}{#3}{4}{2}
-\foreach \n/\m in{0/3,1/2,2/1,3/0}{\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pl\n)node[]{$\m$};}
-\foreach \n/\m in{0/{a_0},1/{a_1}}{\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pl\n)node[]{\small{$\m$}};}
-\foreach \n in{2}{\draw(\kref\d\pb\n)--(\kref\d\p\n);}
+\foreach \n/\m in{0/3,1/2,2/1,3/0}{\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pl\n)node[]{$\m$};}
+\foreach \n/\m in{0/{a_0},1/{a_1}}{\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pl\n)node[]{\small{$\m$}};}
+\foreach \n in{2}{\draw[thin](\kref\d\pb\n)--(\kref\d\p\n);}
 }
 %================================
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -802,7 +834,111 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %draws a cross at the location to show intact fuses in non volatile memory
 \newcommand{\kCross}[1]{{
 \pgfmathsetmacro{\kmv}{0.15}
- \draw(#1)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv);
- \draw(#1)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
+ \draw[thin](#1)++(-0.5*\kmv,-0.5*\kmv)--++(\kmv,\kmv);
+ \draw[thin](#1)++(-0.5*\kmv,0.5*\kmv)--++(\kmv,-\kmv);
 }}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TTL used in SAP-1
+%74107-A  JK-FF
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+\newcommand{\kSfozSA}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kFF[#1]{#2}{#3}
+\foreach \n in {1,2,3,6,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/J,3/K,6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {2,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
+\foreach \n/\a in {1/1,2/12,3/4,d/13,6/3}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TTL used in SAP-1
+%74107-B   JK-FF
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+\newcommand{\kSfozSB}[3][u0]{
+\def\kref{#1}
+%\def\p{p}			%pin tip
+%\def\pb{pb}			%pin base
+%\def\pl{pl}			%pin label
+%\def\pcu{pcu}			%pin edge, upper corner
+%\def\pcm{pcm}			%pin edge middle corner
+%\def\pcd{pcd}			%pin edge lower corner
+%\def\pn{pn}			%pin 'ocirc'
+\kFF[#1]{#2}{#3}
+\foreach \n in {1,2,3,6,d}{\draw[thin](\kref\pb\n)--(\kref\p\n);}
+\foreach \n/\lbl in {1/J,3/K,6/Q}{\draw[thin](\kref\pl\n)node[]{$\lbl$};}
+\foreach \n in {2}{\draw[thin](\kref\pcd\n)--(\kref\pcm\n)--(\kref\pcu\n);}
+\foreach \n in {2,d}{\draw[thin](\kref\pn\n)node[ocirc]{};}
+\foreach \n/\a in {1/8,2/9,3/11,d/10,6/5}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+}
+%==========================================
+%============================================
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-A
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kotsA}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\kref{#1}
+\kBuffer[#1]{#2}{#3}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/2,pout/3,u/1}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-B
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kotsB}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\kref{#1}
+\kBuffer[#1]{#2}{#3}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/5,pout/6,u/4}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-C
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kotsC}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\kref{#1}
+\kBuffer[#1]{#2}{#3}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/9,pout/8,u/10}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-D
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kotsD}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\kref{#1}
+\kBuffer[#1]{#2}{#3}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/12,pout/11,u/13}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+}
+
+
