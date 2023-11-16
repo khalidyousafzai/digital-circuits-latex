@@ -608,32 +608,34 @@ coordinate[pos=0.5](\kref\keast)--++(-\kw,0)coordinate[pos=0.5](\kref\ksouth)
 %draws NOTHING, only gives all pin related ANCHORS
 % 
 
-%   \kBOXa[u1]{xshift}{yshift}{x-pin}{y-pins}     %x-pins and y-pins are max pins expected along these edges
+%   \kBOXa[u1]{xPins}{yPins}     %xPins and yPins are max pins expected along these edges
 
 \newcommand{\kBOXa}[3][u0]{
 \def\kref{#1}
 \def\nnx{#2} 			%count of horizontal pins
-\def\nny{#3}			%count of vertical pine
+\def\nny{#3}			%count of vertical pins
 \pgfmathsetmacro{\nx}{\nnx-1}
 \pgfmathsetmacro{\ny}{\nny-1}
 \def\kshiftX{0}
 \def\kshiftY{0}
 \def\p{p}			%pin tip
-\def\a{a}			%pin tip
-\def\b{b}			%pin tip
-\def\c{c}			%pin tip
-\def\d{d}			%pin tip
+\def\a{a}			%left pins are named \kref\a\p\n where \n=0 for lowest pin
+\def\b{b}			%bottom pins are named \kref\b\p\n where \n=0 for left most pin
+\def\c{c}			%right pins are named \kref\c\p\n where \n=0 for lowest pin
+\def\d{d}			%top pins are named \kref\d\p\n where \n=0 for left most pin
 \def\pb{pb}			%pin base
 \def\pl{pl}			%pin label
-\def\pn{pn}			%pin 'ocirc'
+\def\pn{pn}			%pin 'ocirc' indicating active LOW 
+\def\pnum{pnum}		%pin number location; use \kref\a\pnum\n e.g. u0apnum3 means left 3rd from bottom
 \def\px{x}			%pinAnchorX
 \def\py{y}			%pinAnchorY
-\def\pcu{pcu}			%clock edge top end
+\def\pcu{pcu}			%clock edge top end; \kref\a\pcu\n
 \def\pcm{pcm}			%clock edge mid
 \def\pcd{pcd}			%clock edge bottom end
 \pgfmathsetmacro{\klshift}{0.25}
 \pgfmathsetmacro{\knshift}{0.07}
-\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\knumshift}{0.25}
+\pgfmathsetmacro{\kpin}{0.30}			%pin length
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
 \pgfmathsetmacro{\kulVs}{0.50}			%South edge clearance along vertical edge
 \pgfmathsetmacro{\kulVn}{0.30}		%North edge clearance along vertical edge
@@ -657,16 +659,16 @@ coordinate[pos=0.5](\kref\keast)--++(-\kw,0)coordinate[pos=0.5](\kref\ksouth)
 \draw(\kshiftX+\kdimX/2,\kdimY/2+\kshiftY)coordinate(\kref-center);
 %%left pins
 \foreach \n in {0,...,\ny}{\draw(\kshiftX,\kshiftY+\kulVs+\n*\kpsep)
-coordinate(\kref\a\pb\n)+(\klshift,0)coordinate(\kref\a\pl\n)+(-\knshift,0)coordinate(\kref\a\pn\n)+(-\kpin,0)coordinate(\kref\a\p\n);}
+coordinate(\kref\a\pb\n)+(\klshift,0)coordinate(\kref\a\pl\n)+(-\knshift,0)coordinate(\kref\a\pn\n)+(-\kpin,0)coordinate(\kref\a\p\n)+(-\knumshift,1.25ex)coordinate(\kref\a\pnum\n);}
 %%right pins
 \foreach \n in {0,...,\ny}{\draw(\kshiftX+\kdimX,\kshiftY+\kulVs+\n*\kpsep)
-coordinate(\kref\c\pb\n)+(-\klshift,0)coordinate(\kref\c\pl\n)+(\knshift,0)coordinate(\kref\c\pn\n)+(\kpin,0)coordinate(\kref\c\p\n);}
+coordinate(\kref\c\pb\n)+(-\klshift,0)coordinate(\kref\c\pl\n)+(\knshift,0)coordinate(\kref\c\pn\n)+(\kpin,0)coordinate(\kref\c\p\n)+(\knumshift,1.25ex)coordinate(\kref\c\pnum\n);}
 %%up pin
 \foreach \n in {0,...,\nx}{\draw(\kshiftX+\kulHw+\n*\kpsep,\kdimY+\kshiftY)
-coordinate(\kref\d\pb\n)+(0,-\klshift)coordinate(\kref\d\pl\n)+(0,\knshift)coordinate(\kref\d\pn\n)+(0,\kpin)coordinate(\kref\d\p\n);}
+coordinate(\kref\d\pb\n)+(0,-\klshift)coordinate(\kref\d\pl\n)+(0,\knshift)coordinate(\kref\d\pn\n)+(0,\kpin)coordinate(\kref\d\p\n)+(1.25ex,\knumshift)coordinate(\kref\d\pnum\n);}
 %%down pin
 \foreach \n in {0,...,\nx}{\draw(\kshiftX+\kulHw+\n*\kpsep,\kshiftY)
-coordinate(\kref\b\pb\n)+(0,\klshift)coordinate(\kref\b\pl\n)+(0,-\knshift)coordinate(\kref\b\pn\n)+(0,-\kpin)coordinate(\kref\b\p\n);}
+coordinate(\kref\b\pb\n)+(0,\klshift)coordinate(\kref\b\pl\n)+(0,-\knshift)coordinate(\kref\b\pn\n)+(0,-\kpin)coordinate(\kref\b\p\n)+(1.25ex,-\knumshift)coordinate(\kref\b\pnum\n);}
 %%clock edges left pin
 \foreach \n in {0,...,\ny}{\draw(\kshiftX,\kshiftY+\kulVs+\n*\kpsep)+(0,-\cdelY)
 coordinate(\kref\a\pcd\n)+(\cdelX,0)coordinate(\kref\a\pcm\n)+(0,\cdelY)coordinate(\kref\a\pcu\n);}
@@ -711,9 +713,9 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 %draws general purpose BOX SKELETON ONLY
 %labels, pins, and clock edge needs to be added separately
 %can be anchored with pin at specific coordinate(x,y) as explained down
-%%   \kBOX[u1]{xshift}{yshift}{x-pins}{y-pins}
+%%   \kBOX[u1]{xshift}{yshift}{xPins}{yPins}
 %   to anchor pin2 at location (x,y) use
-%	\kBOX[u1]{x-\pbx}{y-\pby}{x-pins}{y-pins}
+%	\kBOX[u1]{x-\pbx}{y-\pby}{xPins}{yPins}
 %pin 1,2,3,4,5,6,u,d are in this context written \pba, ...\pbf,\pbup,\pbdown
 
 \newcommand{\kBOX}[5][u0]{
@@ -725,18 +727,20 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 \pgfmathsetmacro{\nx}{\nnx-1}
 \pgfmathsetmacro{\ny}{\nny-1}
 \def\p{p}			%pin tip
-\def\a{a}			%pin tip
-\def\b{b}			%pin tip
-\def\c{c}			%pin tip
-\def\d{d}			%pin tip
+\def\a{a}			%left pins
+\def\b{b}			%bottom pins 
+\def\c{c}			%right pins
+\def\d{d}			%top pins
 \def\pb{pb}			%pin base
 \def\pl{pl}			%pin label
+\def\pnum{pnum}		%pin number location; use \kref\a\pnum\n e.g. u0apnum3 means left 3rd from bottom
 \def\pcu{pcu}			%clock edge, upper corner
 \def\pcm{pcm}			%clock edge middle corner
 \def\pcd{pcd}			%clock edge lower corner
 \def\pn{pn}			%pin 'ocirc'
 \pgfmathsetmacro{\klshift}{0.25}
 \pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\knumshift}{0.25}
 \pgfmathsetmacro{\kpin}{0.30}
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
 \pgfmathsetmacro{\kulVs}{0.50}			%South edge clearance along vertical edge
@@ -761,16 +765,16 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 \draw(\kshiftX+\kdimX/2,\kdimY/2+\kshiftY)coordinate(\kref-center);
 %%left pins
 \foreach \n in {0,...,\ny}{\draw(\kshiftX,\kshiftY+\kulVs+\n*\kpsep)
-coordinate(\kref\a\pb\n)+(\klshift,0)coordinate(\kref\a\pl\n)+(-\knshift,0)coordinate(\kref\a\pn\n)+(-\kpin,0)coordinate(\kref\a\p\n);}
+coordinate(\kref\a\pb\n)+(\klshift,0)coordinate(\kref\a\pl\n)+(-\knshift,0)coordinate(\kref\a\pn\n)+(-\kpin,0)coordinate(\kref\a\p\n)+(-\knumshift,1.25ex)coordinate(\kref\a\pnum\n);}
 %%right pins
 \foreach \n in {0,...,\ny}{\draw(\kshiftX+\kdimX,\kshiftY+\kulVs+\n*\kpsep)
-coordinate(\kref\c\pb\n)+(-\klshift,0)coordinate(\kref\c\pl\n)+(\knshift,0)coordinate(\kref\c\pn\n)+(\kpin,0)coordinate(\kref\c\p\n);}
+coordinate(\kref\c\pb\n)+(-\klshift,0)coordinate(\kref\c\pl\n)+(\knshift,0)coordinate(\kref\c\pn\n)+(\kpin,0)coordinate(\kref\c\p\n)+(\knumshift,1.25ex)coordinate(\kref\c\pnum\n);}
 %%up pin
 \foreach \n in {0,...,\nx}{\draw(\kshiftX+\kulHw+\n*\kpsep,\kdimY+\kshiftY)
-coordinate(\kref\d\pb\n)+(0,-\klshift)coordinate(\kref\d\pl\n)+(0,\knshift)coordinate(\kref\d\pn\n)+(0,\kpin)coordinate(\kref\d\p\n);}
+coordinate(\kref\d\pb\n)+(0,-\klshift)coordinate(\kref\d\pl\n)+(0,\knshift)coordinate(\kref\d\pn\n)+(0,\kpin)coordinate(\kref\d\p\n)+(1.25ex,\knumshift)coordinate(\kref\d\pnum\n);}
 %%down pin
 \foreach \n in {0,...,\nx}{\draw(\kshiftX+\kulHw+\n*\kpsep,\kshiftY)
-coordinate(\kref\b\pb\n)+(0,\klshift)coordinate(\kref\b\pl\n)+(0,-\knshift)coordinate(\kref\b\pn\n)+(0,-\kpin)coordinate(\kref\b\p\n);}
+coordinate(\kref\b\pb\n)+(0,\klshift)coordinate(\kref\b\pl\n)+(0,-\knshift)coordinate(\kref\b\pn\n)+(0,-\kpin)coordinate(\kref\b\p\n)+(1.25ex,-\knumshift)coordinate(\kref\b\pnum\n);}
 %%clock edges left pin
 \foreach \n in {0,...,\ny}{\draw(\kshiftX,\kshiftY+\kulVs+\n*\kpsep)+(0,-\cdelY)
 coordinate(\kref\a\pcd\n)+(\cdelX,0)coordinate(\kref\a\pcm\n)+(0,\cdelY)coordinate(\kref\a\pcu\n);}
@@ -842,7 +846,7 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 % TTL used in SAP-1
 %74107-A  JK-FF
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
-\newcommand{\kSfozSA}[3][u0]{
+\newcommand{\kozSvA}[3][u0]{
 \def\kref{#1}
 %\def\p{p}			%pin tip
 %\def\pb{pb}			%pin base
@@ -861,8 +865,8 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TTL used in SAP-1
 %74107-B   JK-FF
-%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
-\newcommand{\kSfozSB}[3][u0]{
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+\newcommand{\kozSvB}[3][u0]{
 \def\kref{#1}
 %\def\p{p}			%pin tip
 %\def\pb{pb}			%pin base
@@ -879,8 +883,61 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \foreach \n/\a in {1/8,2/9,3/11,d/10,6/5}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
 }
 %==========================================
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS126
+\newcommand{\kots}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{4}{4}
+\foreach \n/\lbl in {0/13,1/10,2/4,3/1}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/3,1/6,2/8,3/11}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};    %bottom
+\foreach \n/\lbl in {0/7,3/14}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/2,1/5,2/9,3/12}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS126 RotateRight
+\newcommand{\kotsRR}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{4}{4}
+\foreach \n/\lbl in {0/2,1/5,2/9,3/11}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/1,1/4,2/10,3/13}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};   %bottom
+\foreach \n/\lbl in {0/3,1/6,2/8,3/11}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};	%right
+\foreach \n/\lbl in {0/7,3/14}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
+%============================================
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS126 RotateLeft
+\newcommand{\kotsRL}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{4}{4}
+\foreach \n/\lbl in {0/11,1/8,2/6,3/3}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/7,3/14}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};   %bottom
+\foreach \n/\lbl in {0/12,1/9,2/5,3/2}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};	%right
+\foreach \n/\lbl in {0/13,1/10,2/4,3/1}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
 %============================================
 %%%%%%%%%%%%%%%%%%%%%%
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
 %74126-A
 % buffer that gives both the Signal and its Complement is  \kBusBuffer
 \newcommand{\kotsA}[3][u0]{
@@ -933,12 +990,98 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \def\pbu{pbu}
+\def\pnum{pnum}
 \def\pu{pu}
 \def\kref{#1}
 \kBuffer[#1]{#2}{#3}
 \draw[thin](\kref\pbu)--(\kref\pu);
 %\draw[thin](\kref\pnum\pin)node[]{$2$};
-\foreach \n/\a in {pin/12,pout/11,u/13}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+\foreach \n/\a in {pin/12,pout/11,u/13}{\draw[thin](\kref\pnum\n)node[]{\scriptsize{$\a$}};}
 }
-
-
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS189
+\newcommand{\koen}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\knshift{0.07}
+\kBOX[#1]{#2}{#3}{4}{5}
+\foreach \n/\lbl in {0/3,1/12,2/10,3/6,4/4}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/5,1/7,2/9,3/11}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/2,3/8,4/16}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/1,1/15,2/14,3/13}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+\foreach \n in {0}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS173
+\newcommand{\koSvt}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{4}{5}
+\foreach \n/\lbl in {0/8,1/2,2/1,3/15,4/16}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/3,1/4,2/5,3/6}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {2/7,3/10,4/9}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/14,1/13,2/12,3/11}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n in {1,2}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\def\n{2}
+\draw(\kref\c\pcd\n)--(\kref\c\pcm\n)--(\kref\c\pcu\n);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS83
+\newcommand{\ket}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{12}{3}
+\foreach \n/\lbl in {0/12,2/5}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {2/15,4/2,6/6,8/9}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {1/13}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/1,1/3,2/8,3/10,5/16,7/4,9/7,11/11}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {1,2}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS157
+\newcommand{\koFvSv}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{8}{5}
+\foreach \n/\lbl in {0/15,1/8,2/1,4/16}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {4/12,5/9,6/7,7/4}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};    %bottom
+%\foreach \n/\lbl in {0/5,2/3}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/14,1/11,2/5,3/2,4/13,5/10,6/6,7/3}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%NE555
+\newcommand{\kFvFvFv}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{3}{3}
+\foreach \n/\lbl in {0/6,2/7}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/2,2/1}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {0/5,2/3}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/8,2/4}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {1,2}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
