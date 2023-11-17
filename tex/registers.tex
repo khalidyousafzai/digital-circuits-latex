@@ -291,10 +291,10 @@ node[left]{$\overline{\text{متوازی بھرائی}}$};
 \begin{tikzpicture}
 \pgfmathsetmacro{\ksepXa}{2.75}
 \pgfmathsetmacro{\ksepXb}{0.20}
-\pgfmathsetmacro{\ksepYa}{2.75}
+\pgfmathsetmacro{\ksepYa}{3.5}
 \pgfmathsetmacro{\ksepYb}{1.25}
-\pgfmathsetmacro{\ksepYc}{0.75}
-\pgfmathsetmacro{\ksepYd}{0.85}
+\pgfmathsetmacro{\ksepYc}{1}%{0.75}
+\pgfmathsetmacro{\ksepYd}{1.1}%{0.85}
 \pgfmathsetmacro{\ksepYe}{0.65}
 \pgfmathsetmacro{\kpinA}{0.5}
 \pgfmathsetmacro{\kpinB}{0.4}
@@ -332,12 +332,11 @@ node[left]{$\overline{\text{متوازی بھرائی}}$};
 \draw(j0east)node[right]{\text{\RL{دائیں خروج}}};
 \koutleft[j1]{kb}
 \draw(j1west)node[left]{\text{\RL{بائیں خروج}}};
-\kBOXanc
-\kupinAnchors
-\kmuxD[u5]{-0*\ksepXa-\spcx+\pax}{-\ksepYa}
-\kmuxD[u6]{-1*\ksepXa-\spcx+\pax}{-\ksepYa}
-\kmuxD[u7]{-2*\ksepXa-\spcx+\pax}{-\ksepYa}
-\kmuxD[u8]{-3*\ksepXa-\spcx+\pax}{-\ksepYa}
+\kupinAnchors									%gives values of pax etc
+\kmuxD[u5]{-0*\ksepXa-\kul-2*\kpsep+\pax}{-\ksepYa}
+\kmuxD[u6]{-1*\ksepXa-\kul-2*\kpsep+\pax}{-\ksepYa}
+\kmuxD[u7]{-2*\ksepXa-\kul-2*\kpsep+\pax}{-\ksepYa}
+\kmuxD[u8]{-3*\ksepXa-\kul-2*\kpsep+\pax}{-\ksepYa}
 \draw(u0pbd)--++(\kpin,0)--++(0,-\ksepYb)coordinate(ll);
 \draw(u0pnd)node[ocirc]{};
 \draw(u1pbd)--++(\kpin,0)--++(0,-\ksepYb);
@@ -354,14 +353,14 @@ node[left]{$\overline{\text{متوازی بھرائی}}$};
 \draw(u1p1)--(u6dp2);
 \draw(u2p1)--(u7dp2);
 \draw(u3p1)--(u8dp2);
-\draw(u5ap1)--++(0,\ksepYc)coordinate(aa);
-\draw(u5ap0)--++(-\ksepXb,0)--++(0,\ksepYd)coordinate(bb);
-\draw(u6ap1)--++(0,\ksepYc);
-\draw(u6ap0)--++(-\ksepXb,0)--++(0,\ksepYd);
-\draw(u7ap1)--++(0,\ksepYc);
-\draw(u7ap0)--++(-\ksepXb,0)--++(0,\ksepYd);
-\draw(u8ap1)--++(0,\ksepYc)coordinate(aaa);
-\draw(u8ap0)--++(-\ksepXb,0)--++(0,\ksepYd)coordinate(bbb);
+\draw(u5ap2)--++(0,\ksepYc)coordinate(aa);
+\draw(u5ap1)--++(-\ksepXb,0)--++(0,\ksepYd)coordinate(bb);
+\draw(u6ap2)--++(0,\ksepYc);
+\draw(u6ap1)--++(-\ksepXb,0)--++(0,\ksepYd);
+\draw(u7ap2)--++(0,\ksepYc);
+\draw(u7ap1)--++(-\ksepXb,0)--++(0,\ksepYd);
+\draw(u8ap2)--++(0,\ksepYc)coordinate(aaa);
+\draw(u8ap1)--++(-\ksepXb,0)--++(0,\ksepYd)coordinate(bbb);
 \draw(aa)--(aaa)--++(0,0.25)coordinate(abab)node[above, xshift=0.75ex]{$a_1$};
 \draw(bb)--(bbb)--(bbb |-abab)node[above,xshift=-0.75ex]{$a_0$};
 \draw(u5bp0)node[below]{$y$};

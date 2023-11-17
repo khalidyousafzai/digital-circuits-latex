@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  16 NOV 2023 17:47
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  17 NOV 2023 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202311161067.tex)...disabled (restricted).
+runsystem(touch w18-test-202311171057.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202311161067.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202311171057.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -2792,34 +2792,34 @@ LaTeX Info: Redefining \ttfamily on input line 214.
 (./tex/schematicDiagramA.aux))
 \openout1 = `digitalCircuitsLatex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 158.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-57.
+58.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 158.
+LaTeX Font Info:    ... okay on input line 158.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package translations Info: no dictionary file `translations-basic-dictionary-hi
-ndustani.trsl' found. on input line 157.
+ndustani.trsl' found. on input line 158.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -2827,7 +2827,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 157.
+Package chemgreek Info: Activating mapping `fontspec' on line 158.
 
 
 *geometry* driver: auto-detecting
@@ -2866,61 +2866,61 @@ Package chemgreek Info: Activating mapping `fontspec' on line 157.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \rmfamily on input line 157.
-LaTeX Info: Redefining \sffamily on input line 157.
-LaTeX Info: Redefining \ttfamily on input line 157.
-LaTeX Info: Redefining \rmfamily on input line 157.
-LaTeX Info: Redefining \sffamily on input line 157.
-LaTeX Info: Redefining \ttfamily on input line 157.
+LaTeX Info: Redefining \rmfamily on input line 158.
+LaTeX Info: Redefining \sffamily on input line 158.
+LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 158.
+LaTeX Info: Redefining \sffamily on input line 158.
+LaTeX Info: Redefining \ttfamily on input line 158.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 168.
+(Font)              scaled to size 17.28pt on input line 169.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 168.
+(Font)              scaled to size 9.0pt on input line 169.
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 168.
+(Font)              scaled to size 12.0pt on input line 169.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-68.
+69.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-168.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-168.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-168.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 168.
+(Font)              scaled to size 12.50409pt on input line 169.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 168.
+(Font)              scaled to size 9.37807pt on input line 169.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 168.
+(Font)              scaled to size 7.29405pt on input line 169.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 168.
+(Font)              scaled to size 12.50409pt on input line 169.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 168.
+(Font)              scaled to size 9.37807pt on input line 169.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 168.
+(Font)              scaled to size 7.29405pt on input line 169.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-168.
+169.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 16
-8.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -2978,12 +2978,12 @@ Space,Script=Arabic].
 
 ]
 LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 170.
+(Font)              scaled to size 24.88pt on input line 171.
 
 
 LaTeX Font Warning: Font shape `TU/JameelNooriNastaleeq(2)/b/n' undefined
 (Font)              using `TU/JameelNooriNastaleeq(2)/m/n' instead on input lin
-e 170.
+e 171.
 
 (./digitalCircuitsLatex.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
@@ -3961,42 +3961,39 @@ Overfull \hbox (2.93886pt too wide) in paragraph at lines 61--61
  []
 
 
-Overfull \hbox (2.92421pt too wide) in paragraph at lines 78--78
+Overfull \hbox (2.92421pt too wide) in paragraph at lines 79--79
  [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 74LS157[] 
  []
 
 
-Overfull \hbox (37.89044pt too wide) in paragraph at lines 5--100
+Overfull \hbox (37.89044pt too wide) in paragraph at lines 5--101
  [][][][][][] 
  []
 
 
-LaTeX Warning: Float too large for page by 67.11565pt on input line 102.
+LaTeX Warning: Float too large for page by 67.11565pt on input line 103.
 
 
-Overfull \hbox (2.93886pt too wide) in paragraph at lines 147--147
+Overfull \hbox (2.93886pt too wide) in paragraph at lines 150--150
  [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 74LS173[] 
  []
 
 
-Overfull \hbox (2.93886pt too wide) in paragraph at lines 149--149
+Overfull \hbox (2.93886pt too wide) in paragraph at lines 152--152
  [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 74LS173[] 
  []
 
 
-Overfull \hbox (41.14946pt too wide) in paragraph at lines 107--180
+Overfull \hbox (24.46762pt too wide) in paragraph at lines 192--225
  [][][][][][] 
  []
 
-
-LaTeX Warning: Float too large for page by 51.4101pt on input line 182.
-
-) [303] [304] [305] [306
+) [303] [304] [305] [306] (./answer.tex) [307
 
 
 
 
-] (./answer.tex) [307] [308
+] [308
 
 
 ]
@@ -4965,10 +4962,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 68695 strings out of 476191
- 1791093 string characters out of 9562072
- 2856766 words of memory out of 7000000
- 88282 multiletter control sequences out of 15000+600000
+ 75578 strings out of 476191
+ 1924966 string characters out of 9562072
+ 3147027 words of memory out of 7000000
+ 95165 multiletter control sequences out of 15000+600000
  493306 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,9n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -223,10 +223,10 @@
 \draw(1*\kul+3*\kpsep,0)node[below right]{$2$}node[above]{$\overline{\text{\RL{بیدار}}}$}
 --++(0,-0.5*\kpin)coordinate(kCE);
 \draw(1*\kul+3*\kpsep,0)++(0,-\knshift)node[ocirc]{};
-\draw(\kxdim,\kul+1*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$5$}--++(1*\kpin,0)node[right]{$\overline{O}_4$};
-\draw(\kxdim,\kul+2*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$7$}--++(1*\kpin,0)node[right]{$\overline{O}_5$};
-\draw(\kxdim,\kul+3*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$9$}--++(1*\kpin,0)node[right]{$\overline{O}_6$};
-\draw(\kxdim,\kul+4*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$11$}--++(1*\kpin,0)node[right]{$\overline{O}_7$};
+\draw(\kxdim,\kul+1*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$5$}--++(1.5*\kpin,0)node[right]{$\overline{O}_4$};
+\draw(\kxdim,\kul+2*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$7$}--++(1.5*\kpin,0)node[right]{$\overline{O}_5$};
+\draw(\kxdim,\kul+3*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$9$}--++(1.5*\kpin,0)node[right]{$\overline{O}_6$};
+\draw(\kxdim,\kul+4*\kpsep)node[right,xshift=0.5ex,yshift=1.5ex]{$11$}--++(1.5*\kpin,0)node[right]{$\overline{O}_7$};
 \draw(\kxdim,\kul+1*\kpsep)++(\knshift,0)node[ocirc]{};
 \draw(\kxdim,\kul+2*\kpsep)++(\knshift,0)node[ocirc]{};
 \draw(\kxdim,\kul+3*\kpsep)++(\knshift,0)node[ocirc]{};
@@ -255,12 +255,13 @@
 --++(0,-5*\kpin)node[spdt,xscale=-1,rotate=-90,anchor=in](sw){};
 \draw(1*\kul+3*\kpsep+\ksepX,0*\ksepY)++(0,-\knshift)node[ocirc]{};
 \draw(sw.out 1)node[ground]{} (sw.out 2)node[above right,yshift=3ex]{$S_2$}--++(2*\kpin,0)node[right]{$\overline{E}_R$};
-\draw(sw)++(0,-1.5cm)node[]{\text{\RL{دوڑ/برنامہ نویسی}}};
+\draw(sw.out 1)node[left]{\text{\RL{برنامہ نویسی}}};
+\draw(sw.out 2)node[below right]{\text{\RL{دوڑ}}};
 \draw(sw.in)++(0,0.2)-|(kCE);
-\draw(\kxdim+\ksepX,\kul+1*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$5$}--++(1*\kpin,0)node[right]{$\overline{O}_0$};
-\draw(\kxdim+\ksepX,\kul+2*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$7$}--++(1*\kpin,0)node[right]{$\overline{O}_1$};
-\draw(\kxdim+\ksepX,\kul+3*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$9$}--++(1*\kpin,0)node[right]{$\overline{O}_2$};
-\draw(\kxdim+\ksepX,\kul+4*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$11$}--++(1*\kpin,0)node[right]{$\overline{O}_3$};
+\draw(\kxdim+\ksepX,\kul+1*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$5$}--++(1.5*\kpin,0)node[right]{$\overline{O}_0$};
+\draw(\kxdim+\ksepX,\kul+2*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$7$}--++(1.5*\kpin,0)node[right]{$\overline{O}_1$};
+\draw(\kxdim+\ksepX,\kul+3*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$9$}--++(1.5*\kpin,0)node[right]{$\overline{O}_2$};
+\draw(\kxdim+\ksepX,\kul+4*\kpsep+0*\ksepY)node[right,xshift=0.5ex,yshift=1.5ex]{$11$}--++(1.5*\kpin,0)node[right]{$\overline{O}_3$};
 \draw(\kxdim+\ksepX,\kul+1*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};
 \draw(\kxdim+\ksepX,\kul+2*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};
 \draw(\kxdim+\ksepX,\kul+3*\kpsep+0*\ksepY)++(\knshift,0)node[ocirc]{};

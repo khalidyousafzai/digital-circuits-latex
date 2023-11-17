@@ -17,16 +17,16 @@
 \kozSvB[uu2]{\ksepX}{0}
 \kozSvA[uu3]{2*\ksepX}{0}
 \kozSvB[uu4]{3*\ksepX}{0}
-\draw(uu1-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u1\\74LS107};
-\draw(uu2-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u1\\74LS107};
-\draw(uu3-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u2\\74LS107};
-\draw(uu4-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u2\\74LS107};
+\draw[thin](uu1-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u1\\74LS107};
+\draw[thin](uu2-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u1\\74LS107};
+\draw[thin](uu3-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u2\\74LS107};
+\draw[thin](uu4-north)node[above,yshift=1ex,rectangle,inner sep=0pt,text width=2cm,align=center]{u2\\74LS107};
 \kotsA[uu5]{4*\ksepX}{-\ksepY}
 \kotsB[uu6]{4*\ksepX}{-2*\ksepY}
 \kotsC[uu7]{4*\ksepX}{-3*\ksepY}
 \kotsD[uu8]{4*\ksepX}{-4*\ksepY}
 \draw[dashed,lgray]($(uu5pin|-uu5u)+(-0.5ex,2ex)$)rectangle ($(uu8pout|-uu8d)+(2ex,-1ex)$);
-\draw(uu5u)node[above,yshift=3ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u3\\74LS126};
+\draw[thin](uu5u)node[above,yshift=3ex,rectangle,inner sep=0pt,text width=1cm,align=center]{u3\\74LS126};
 \draw[thin] (uu1p6)|-coordinate(cntA)(uu2p2)  (uu2p6)|-coordinate(cntB)(uu3p2)  (uu3p6)|-coordinate(cntC)(uu4p2);
 \draw[thin](cntA)|-(uu8pin) (cntB)|-(uu7pin)  (cntC)|-(uu6pin)  (uu4p6)|-coordinate(kAddressLoc)(uu5pin);
 \draw[thin](uu1p2)--++(-1*\kpin,0)coordinate(kClft)node[left]{$\overline{CLK}$};
@@ -34,17 +34,17 @@
 \draw[thin](uu2p3)--(uu2p1)--++(0,\kpinB);
 \draw[thin](uu3p3)--(uu3p1)--++(0,\kpinB);
 \draw[thin](uu4p3)--(uu4p1)--++(0,\kpinB)coordinate(kCPr)--(kCPl)--(kCPl-|kClft)node[left]{$C_P$};
-\draw(4.25*\ksepX,1*\kdimY)node[]{\text{\RL{برنامہ گنت کار}}};
+\draw[thin](4.25*\ksepX,1*\kdimY)node[]{\text{\RL{برنامہ گنت کار}}};
 \draw[thin](uu5u)--++(0,0.5ex)--++(3*\kpin,0)coordinate(kEPtop);
 \draw[thin](uu6u)--++(0,0.5ex)--++(3*\kpin,0);
 \draw[thin](uu7u)--++(0,0.5ex)--++(3*\kpin,0);
 \draw[thin](uu8u)--++(0,0.5ex)--++(3*\kpin,0)coordinate(kEPbot);
 \draw[thin](kEPbot)--(kEPtop)--(kEPtop-|kClft)node[left,yshift=-0.5ex]{$E_P$};
-\draw(kAddressLoc)node[left]{$A_3$};
-\draw(uu6pin-|kAddressLoc)node[above left]{$A_2$};
-\draw(uu7pin-|kAddressLoc)node[above left]{$A_1$};
-\draw(uu8pin-|kAddressLoc)node[above left]{$A_0$};
-\draw(uu4pd)--(uu1pd)--(uu1pd-|kClft)node[left,yshift=0.5ex]{$\overline{CLR}$};
+\draw[thin](kAddressLoc)node[left]{$A_3$};
+\draw[thin](uu6pin-|kAddressLoc)node[above left]{$A_2$};
+\draw[thin](uu7pin-|kAddressLoc)node[above left]{$A_1$};
+\draw[thin](uu8pin-|kAddressLoc)node[above left]{$A_0$};
+\draw[thin](uu4pd)--(uu1pd)--(uu1pd-|kClft)node[left,yshift=0.5ex]{$\overline{CLR}$};
 \draw[thin](uu5pout)++(7*\kpin,10*\kpin)node[above]{$w_0$}coordinate(kwa)--($(uu8pout)+(7*\kpin,-35*\kpin)$)coordinate(kwbot);
 \draw[thin](kwa)++(-\kw,0)coordinate(kwb)--(kwb|-kwbot);
 \draw[thin](kwa)++(-2*\kw,0)coordinate(kwc)--(kwc|-kwbot);
@@ -59,48 +59,49 @@
 \draw[thin](uu5pout)--(uu5pout-|kwa);
 \draw[thin](kwd)node[yshift=6ex,rectangle,inner sep=0pt,text width=2cm,align=center]{\RTL{$W$ گزرگاہ}};
 \draw[thick] (3*\ksepX,-8*\ksepY)coordinate(kLftBot)rectangle node[rectangle, inner sep=0pt,align=center,text width=1cm]{u4 \\ 74LS173}++(2*\kul+3*\kpsep,2*\kul+4*\kpsep);
-\draw(kLftBot)++(\kul+0*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$14$}}--++(0,\kpin+4*\kw)coordinate(kd)--(kd-|kwd);
-\draw(kLftBot)++(\kul+1*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$13$}}--++(0,\kpin+3*\kw)coordinate(kc)--(kc-|kwc);
-\draw(kLftBot)++(\kul+2*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$12$}}--++(0,\kpin+2*\kw)coordinate(kb)--(kb-|kwb);
-\draw(kLftBot)++(\kul+3*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$11$}}--++(0,\kpin+1*\kw)coordinate(ka)--(ka-|kwa);
-\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+3*\kpsep)node[above right]{\scriptsize{$10$}}--++(2*\kpin,0)--++(0,\kpsep);
-\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+4*\kpsep)node[above right]{\scriptsize{$9$}}--++(3*\kpin,0)node[right]{$\overline{L}_M$};
-\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+3*\kpsep)++(\knshift,0)node[ocirc]{};
-\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+4*\kpsep)++(\knshift,0)node[ocirc]{};
-\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+2*\kpsep)node[above right]{\scriptsize{$7$}}--++(3*\kpin,0)node[right]{$CLK$};
-\draw(kLftBot)++(2*\kul+3*\kpsep,1*\kul+2*\kpsep)++(0,-\kmv)--++(-\kmv,\kmv)--++(\kmv,\kmv);
-\draw(kLftBot)++(0,1*\kul+0*\kpsep)node[above left]{\scriptsize{$15$}}--++(-2*\kpin,0)coordinate(lftMARa);
-\draw(kLftBot)++(0,1*\kul+1*\kpsep)node[above left]{\scriptsize{$8$}}--++(-2*\kpin,0);
-\draw(kLftBot)++(0,1*\kul+2*\kpsep)node[above left]{\scriptsize{$2$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0);
-\draw(kLftBot)++(0,1*\kul+3*\kpsep)node[above left]{\scriptsize{$1$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0)coordinate(lftMARb);
-\draw(lftMARb)--(lftMARa)node[ground]{};
-\draw(kLftBot)++(0,1*\kul+4*\kpsep)node[above left]{\scriptsize{$16$}}--++(-2*\kpin,0)node[left]{$\SI{5}{\volt}$};
+\draw[thin] (2*\ksepX,-8*\ksepY+3*\kpsep)node[]{\text{\RL{دفتر پتہ}}};
+\draw[thin](kLftBot)++(\kul+0*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$14$}}--++(0,\kpin+4*\kw)coordinate(kd)--(kd-|kwd);
+\draw[thin](kLftBot)++(\kul+1*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$13$}}--++(0,\kpin+3*\kw)coordinate(kc)--(kc-|kwc);
+\draw[thin](kLftBot)++(\kul+2*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$12$}}--++(0,\kpin+2*\kw)coordinate(kb)--(kb-|kwb);
+\draw[thin](kLftBot)++(\kul+3*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$11$}}--++(0,\kpin+1*\kw)coordinate(ka)--(ka-|kwa);
+\draw[thin](kLftBot)++(2*\kul+3*\kpsep,1*\kul+3*\kpsep)node[above right]{\scriptsize{$10$}}--++(2*\kpin,0)--++(0,\kpsep);
+\draw[thin](kLftBot)++(2*\kul+3*\kpsep,1*\kul+4*\kpsep)node[above right]{\scriptsize{$9$}}--++(3*\kpin,0)node[right]{$\overline{L}_M$};
+\draw[thin](kLftBot)++(2*\kul+3*\kpsep,1*\kul+3*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw[thin](kLftBot)++(2*\kul+3*\kpsep,1*\kul+4*\kpsep)++(\knshift,0)node[ocirc]{};
+\draw[thin](kLftBot)++(2*\kul+3*\kpsep,1*\kul+2*\kpsep)node[above right]{\scriptsize{$7$}}--++(3*\kpin,0)node[right]{$CLK$};
+\draw[thin](kLftBot)++(2*\kul+3*\kpsep,1*\kul+2*\kpsep)++(0,-\kmv)--++(-\kmv,\kmv)--++(\kmv,\kmv);
+\draw[thin](kLftBot)++(0,1*\kul+0*\kpsep)node[above left]{\scriptsize{$15$}}--++(-2*\kpin,0)coordinate(lftMARa);
+\draw[thin](kLftBot)++(0,1*\kul+1*\kpsep)node[above left]{\scriptsize{$8$}}--++(-2*\kpin,0);
+\draw[thin](kLftBot)++(0,1*\kul+2*\kpsep)node[above left]{\scriptsize{$2$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0);
+\draw[thin](kLftBot)++(0,1*\kul+3*\kpsep)node[above left]{\scriptsize{$1$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0)coordinate(lftMARb);
+\draw[thin](lftMARb)--(lftMARa)node[ground]{};
+\draw[thin](kLftBot)++(0,1*\kul+4*\kpsep)node[above left]{\scriptsize{$16$}}--++(-2*\kpin,0)node[left]{$\SI{5}{\volt}$};
 \draw[thick] (kLftBot)++(-4*\kpsep,-4*\ksepY)coordinate(klftMUX)rectangle node[rectangle,inner sep=0pt,text width=1cm, align=center]{u5\\ 74LS157}++ (2*\kul+7*\kpsep,2*\kul+4*\kpsep);
-\draw(klftMUX)++(\kul+4*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$13$}}--($(kLftBot)+(\kul+0*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$3$}};
-\draw(klftMUX)++(\kul+5*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$10$}}--($(kLftBot)+(\kul+1*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$4$}};
-\draw(klftMUX)++(\kul+6*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$6$}}--($(kLftBot)+(\kul+2*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$5$}};
-\draw(klftMUX)++(\kul+7*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$3$}}--($(kLftBot)+(\kul+3*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$6$}};
-\draw(klftMUX)++(\kul+0*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$14$}}--++(0,\kpin)--++(-5*\kpin,0) to [nos,mirror,invert]node[below]{$s1$}++(-2*\kpin,0)--++(-2*\kpin,0)coordinate(wrAddBot)node[left]{$pA_3$};
-\draw(klftMUX)++(\kul+1*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$11$}}--++(0,2.5*\kpin)--++(-5*\kpin-1*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)node[left]{$pA_2$};
-\draw(klftMUX)++(\kul+2*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$5$}}--++(0,4*\kpin)--++(-5*\kpin-2*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)node[left]{$pA_1$};
-\draw(klftMUX)++(\kul+3*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$2$}}--++(0,5.5*\kpin)--++(-5*\kpin-3*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)coordinate(wrAddTop)node[left]{$pA_0$};
-\draw(wrAddTop)--(wrAddBot)node[ground]{};
-\draw(klftMUX)++(0,\kul+0*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$15$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0);
-\draw(klftMUX)++(0,\kul+1*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$8$}}--++(-2*\kpin,0)--++(0,-\kpsep)node[ground]{};
-\draw(klftMUX)++(0,\kul+2*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$1$}}--++(-7*\kpin,0) node[spdt,,rotate=0,anchor=out 1](sw){};
-\draw(sw.in)node[above]{$s2$}node[ground]{};
-\draw(sw.out 1)node[above]{\text{\RL{برنامہ نویسی}}};
-\draw(sw.out 2)node[below]{\text{\RL{دوڑ}}};
-\draw(klftMUX)++(\kul+4*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$12$}}--++(0,-2*\kpin)node[below]{$a_3$};
-\draw(klftMUX)++(\kul+5*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$9$}}--++(0,-2*\kpin)node[below]{$a_2$};
-\draw(klftMUX)++(\kul+6*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$7$}}--++(0,-2*\kpin)node[below]{$a_1$};
-\draw(klftMUX)++(\kul+7*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$4$}}--++(0,-2*\kpin)node[below]{$a_0$};
-\draw(klftMUX)++(2*\kul+7*\kpsep,2*\kul+2*\kpsep)node[right,xshift=2ex,rectangle,inner sep=0pt,text width=2cm,align=center]{$2\times 1$\\ \text{\RL{داخلی منتخب کار}}};
+\draw[thin](klftMUX)++(\kul+4*\kpsep,2*\kul+4*\kpsep)node[above,xshift=1.25ex]{\scriptsize{$13$}}--($(kLftBot)+(\kul+0*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$3$}};
+\draw[thin](klftMUX)++(\kul+5*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$10$}}--($(kLftBot)+(\kul+1*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$4$}};
+\draw[thin](klftMUX)++(\kul+6*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$6$}}--($(kLftBot)+(\kul+2*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$5$}};
+\draw[thin](klftMUX)++(\kul+7*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$3$}}--($(kLftBot)+(\kul+3*\kpsep,0)$)node[below,xshift=1.25ex]{\scriptsize{$6$}};
+\draw[thin](klftMUX)++(\kul+0*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$14$}}--++(0,\kpin)--++(-5*\kpin,0) to [nos,mirror,invert]node[below]{$s1$}++(-2*\kpin,0)--++(-2*\kpin,0)coordinate(wrAddBot)node[left]{$pA_3$};
+\draw[thin](klftMUX)++(\kul+1*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$11$}}--++(0,2.5*\kpin)--++(-5*\kpin-1*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)node[left]{$pA_2$};
+\draw[thin](klftMUX)++(\kul+2*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$5$}}--++(0,4*\kpin)--++(-5*\kpin-2*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)node[left]{$pA_1$};
+\draw[thin](klftMUX)++(\kul+3*\kpsep,2*\kul+4*\kpsep)node[above ,xshift=1.25ex]{\scriptsize{$2$}}--++(0,5.5*\kpin)--++(-5*\kpin-3*\kpsep,0) to [nos,mirror,invert]++(-2*\kpin,0)--++(-2*\kpin,0)coordinate(wrAddTop)node[left]{$pA_0$};
+\draw[thin](wrAddTop)--(wrAddBot)node[ground]{};
+\draw[thin](klftMUX)++(0,\kul+0*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$15$}}+(-\knshift,0)node[ocirc]{}--++(-2*\kpin,0);
+\draw[thin](klftMUX)++(0,\kul+1*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$8$}}--++(-2*\kpin,0)--++(0,-\kpsep)node[ground]{};
+\draw[thin](klftMUX)++(0,\kul+2*\kpsep)node[left,yshift=1.25ex]{\scriptsize{$1$}}--++(-7*\kpin,0) node[spdt,,rotate=0,anchor=out 1](sw){};
+\draw[thin](sw.in)node[above]{$s2$}node[ground]{};
+\draw[thin](sw.out 1)node[above]{\text{\RL{برنامہ نویسی}}};
+\draw[thin](sw.out 2)node[below]{\text{\RL{دوڑ}}};
+\draw[thin](klftMUX)++(\kul+4*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$12$}}--++(0,-2*\kpin)node[below]{$a_3$};
+\draw[thin](klftMUX)++(\kul+5*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$9$}}--++(0,-2*\kpin)node[below]{$a_2$};
+\draw[thin](klftMUX)++(\kul+6*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$7$}}--++(0,-2*\kpin)node[below]{$a_1$};
+\draw[thin](klftMUX)++(\kul+7*\kpsep,0)node[left,yshift=-1.25ex]{\scriptsize{$4$}}--++(0,-2*\kpin)node[below]{$a_0$};
+\draw[thin](klftMUX)++(2*\kul+7*\kpsep,2*\kul+2*\kpsep)node[right,xshift=2ex,rectangle,inner sep=0pt,text width=2cm,align=center]{$2\times 1$\\ \text{\RL{داخلی منتخب کار}}};
 \end{tikzpicture}
 \caption{برنامہ گنت کار}
 \label{شکل_کمپیوٹر_برنامہ_گنتکار}
 \end{figure}
-%---------------------------
+%===================================================================
 \begin{figure}
 \centering
 \begin{tikzpicture}
@@ -109,44 +110,46 @@
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
 \pgfmathsetmacro{\kpinA}{0.5}
 \pgfmathsetmacro{\kpinS}{0.4}
-\pgfmathsetmacro{\ksepX}{6}
+\pgfmathsetmacro{\ksepX}{5}
 \pgfmathsetmacro{\ksepY}{9}
 \koen[uu6]{0}{0}
-\draw(uu6-center)node[inner sep=0pt,text width=1cm, align=center,]{u6\\ 74189};
-\foreach \n/\lbl in {1/4,2/5,3/6,4/7}\draw[thin] (uu6ap\n)--++(-\kpinA,0) to [nos,mirror,invert]++(-\kpinS,0)--++(-1.5*\kpinA,0)node[right,yshift=1.5ex]{$D_{\lbl}$};
-\draw[thin](uu6ap4)++(-\kpinA-\kpinS-1.5*\kpinA,0)coordinate(kA)node[below left]{$S_3$}--(kA|-uu6ap1)coordinate(klft)node[ground]{};
+\draw[thin](uu6-center)node[inner sep=0pt,text width=1cm, align=center,]{u6\\ 74189};
+\foreach \n/\lbl in {1/4,2/5,3/6,4/7}\draw[thin] (uu6ap\n) to [nos,mirror,invert]++(-\kpinS,0)--++(-0.5*\kpin,0)node[left]{$D_{\lbl}$};
+\draw[thin](uu6ap4)++(-\kpinS-0.5*\kpin,0)coordinate(kA)--(kA|-uu6ap1)coordinate(klft)node[ground]{};
+\draw(uu6ap4)node[above left,yshift=2ex]{$S_3$};
 \koen[uu7]{\ksepX}{0}
-\draw(uu7-center)node[inner sep=0pt,text width=1cm, align=center,]{u7\\ 74189};
-\foreach \n/\lbl in {1/0,2/1,3/2,4/3}\draw[thin] (uu7ap\n)--++(-\kpinA,0) to [nos,mirror,invert]++(-\kpinS,0)--++(-1.5*\kpinA,0)node[right,yshift=1.5ex]{$D_{\lbl}$};
-\draw[thin](uu7ap4)++(-\kpinA-\kpinS-1.5*\kpinA,0)coordinate(kA)node[below left]{$S_3$}--(kA|-uu7ap1)node[ground]{};
+\draw[thin](uu7-center)node[inner sep=0pt,text width=1cm, align=center,]{u7\\ 74189};
+\foreach \n/\lbl in {1/0,2/1,3/2,4/3}\draw[thin] (uu7ap\n) to [nos,mirror,invert]++(-\kpinS,0)--++(-0.5*\kpin,0)node[left]{$D_{\lbl}$};
+\draw[thin](uu7ap4)++(-\kpinS-0.5*\kpin,0)coordinate(kA)--(kA|-uu7ap1)node[ground]{};
+\draw(uu7ap4)node[above left,yshift=2ex]{$S_3$};
 \foreach \n/\lbl in {0/3,1/2,2/1,3/0}\draw[thin](uu7dp\n)--++(0,2.5*\kpinA)node[above]{$a_{\lbl}$};
 \draw[thin](uu6dp0)--++(0,\kpin+3*\kw)coordinate(kB)--(kB-|uu7dp0);
 \draw[thin](uu6dp1)--++(0,\kpin+2*\kw)coordinate(kB)--(kB-|uu7dp1);
 \draw[thin](uu6dp2)--++(0,\kpin+1*\kw)coordinate(kB)--(kB-|uu7dp2);
 \draw[thin](uu6dp3)--++(0,\kpin+0*\kw)coordinate(kB)--(kB-|uu7dp3);
-\draw[thin](uu6cp3)--++(\kpin,0)node[ground]{}  (uu7cp3)--++(\kpin,0)node[ground]{};
-\draw[thin](uu6cp4)--++(\kpin,0)node[right]{$\SI{5}{\volt}$}  (uu7cp4)--++(\kpin,0)node[right]{$\SI{5}{\volt}$};
-\draw[thin](uu7ap0)--++(-\kpin,0)--++(0,-3.5*\kpin)coordinate(kC)--(kC-|uu6ap0)--++(-0.5*\kpin,0)coordinate(kswlft)--++(0,-1*\kpin)--++(-1.5*\kpin,0)node[spdt,anchor=out 2](sw){};
-\draw(sw.in)node[above]{$S_3$} node[ground]{} (sw.out 1)node[above,xshift=-2ex]{\text{\RL{پڑھ}}} (sw.out 2)node[below,xshift=-2ex]{\text{\RL{لکھ}}};
+\draw[thin](uu6cp3)node[ground]{}  (uu7cp3)node[ground]{};
+\draw[thin](uu6cp4)node[right]{$\SI{5}{\volt}$}  (uu7cp4)node[right]{$\SI{5}{\volt}$};
+\draw[thin](uu7ap0)--++(0,-2*\kpin)coordinate(kC)--(kC-|uu6ap0)coordinate(kswlft)node[spdt,anchor=out 1](sw){};
+\draw[thin](sw.in)node[above]{$S_4$} node[ground]{} (sw.out 2)node[below,xshift=-2ex]{\text{\RL{پڑھ}}} (sw.out 1)node[above,xshift=-2ex]{\text{\RL{لکھ}}};
 \draw[thin](uu6ap0)-|(kswlft);
-\draw[thin](uu7cp0)--++(\kpin,0)--++(0,-3.5*\kpin-\kw)coordinate(kD)--(kD-|uu6ap0)--++(0,-6*\kpin)node[spdt,anchor=in,xscale=-1,yscale=-1](sw){}node[right]{$S_4$};
-\draw(sw.out 1)node[right,xshift=2ex,yshift=-3ex]{\text{\RL{برنامہ لکھائی}}}node[ground]{};
-\draw(sw.out 2)node[above,xshift=2ex]{\text{\RL{دوڑ}}}--++(-\kpin,0)node[left]{$\overline{CE}$};
+\draw[thin](uu7cp0)--++(0,-2*\kpin-\kw)coordinate(kD)--($(kD-|uu6ap0)+(2*\kw,0)$)--++(0,-4*\kpin)node[spdt,anchor=in,xscale=-1](sw){};
+\draw[thin](sw.out 2)node[left,xshift=-2ex]{$S_2$}node[right,xshift=2ex,yshift=-3ex]{\text{\RL{برنامہ لکھائی}}}node[ground]{};
+\draw[thin](sw.out 1)node[above,xshift=2ex]{\text{\RL{دوڑ}}}--++(-\kpin,0)node[left]{$\overline{CE}$};
 \draw[thin](uu6cp0)--(uu6cp0|-kD);
-\foreach \n in {0,1,2,3,4,5,6,7}\draw[thin](uu7dp3)++(0,2.5*\kpinA)++(6*\kpin+7*\kw-\n*\kw,0)coordinate(w\n)--++(0,-2*\ksepY);\
-\draw[thin](uu7dp3)++(0,2.5*\kpinA)++(6*\kpin+0*\kw,0)node[above]{$w_7$}++(7*\kw,0)node[above]{$w_0$};
-\draw(uu7bp3)--++(0,-2*\kpin-0*\kw)coordinate(kD)--(kD-| w0);
-\draw(uu7bp2)--++(0,-2*\kpin-1*\kw)coordinate(kD)--(kD-| w1);
-\draw(uu7bp1)--++(0,-2*\kpin-2*\kw)coordinate(kD)--(kD-| w2);
-\draw(uu7bp0)--++(0,-2*\kpin-3*\kw)coordinate(kD)--(kD-| w3);
-\draw(uu6bp3)--++(0,-2*\kpin-4*\kw)coordinate(kD)--(kD-| w4);
-\draw(uu6bp2)--++(0,-2*\kpin-5*\kw)coordinate(kD)--(kD-| w5);
-\draw(uu6bp1)--++(0,-2*\kpin-6*\kw)coordinate(kD)--(kD-| w6);
-\draw(uu6bp0)--++(0,-2*\kpin-7*\kw)coordinate(kD)--(kD-| w7);
+\foreach \n in {0,1,2,3,4,5,6,7}\draw[thin](uu7dp3)++(0,2.5*\kpinA)++(3.5*\kpin+7*\kw-\n*\kw,0)coordinate(w\n)--++(0,-1.75*\ksepY);\
+\draw[thin](uu7dp3)++(0,2.5*\kpinA)++(3.5*\kpin+0*\kw,0)node[above]{$w_7$}++(7*\kw,0)node[above]{$w_0$};
+\draw[thin](uu7bp3)--++(0,-2*\kpin-0*\kw)coordinate(kD)--(kD-| w0);
+\draw[thin](uu7bp2)--++(0,-2*\kpin-1*\kw)coordinate(kD)--(kD-| w1);
+\draw[thin](uu7bp1)--++(0,-2*\kpin-2*\kw)coordinate(kD)--(kD-| w2);
+\draw[thin](uu7bp0)--++(0,-2*\kpin-3*\kw)coordinate(kD)--(kD-| w3);
+\draw[thin](uu6bp3)--++(0,-2*\kpin-4*\kw)coordinate(kD)--(kD-| w4);
+\draw[thin](uu6bp2)--++(0,-2*\kpin-5*\kw)coordinate(kD)--(kD-| w5);
+\draw[thin](uu6bp1)--++(0,-2*\kpin-6*\kw)coordinate(kD)--(kD-| w6);
+\draw[thin](uu6bp0)--++(0,-2*\kpin-7*\kw)coordinate(kD)--(kD-| w7);
 \koSvt[uu8]{0}{-\ksepY}
-\draw(uu8-center)node[inner sep=0pt,text width=1cm,align=center]{u8\\ 74LS173};
+\draw[thin](uu8-center)node[inner sep=0pt,text width=1cm,align=center]{u8\\ 74LS173};
 \koSvt[uu9]{\ksepX}{-\ksepY}
-\draw(uu9-center)node[inner sep=0pt,text width=1cm,align=center]{u9\\ 74LS173};
+\draw[thin](uu9-center)node[inner sep=0pt,text width=1cm,align=center]{u9\\ 74LS173};
 \draw[thin](uu9dp3)--++(0,\kpin+0*\kw)coordinate(kD)--(kD-|w0);
 \draw[thin](uu9dp2)--++(0,\kpin+1*\kw)coordinate(kD)--(kD-|w1);
 \draw[thin](uu9dp1)--++(0,\kpin+2*\kw)coordinate(kD)--(kD-|w2);
@@ -158,17 +161,17 @@
 \draw[thin](uu8ap2)--++(-\kpin,0)--++(0,-2*\kpsep)node[ground]{}  (uu8ap1)--++(-\kpin,0)  (uu8ap0)--++(-\kpin,0); 
 \draw[thin](uu8ap3)--++(-\kpin,0)coordinate(kklft)node[left]{$CLR$}  (uu8ap4)--++(-\kpin,0)node[left]{$\SI{5}{\volt}$};
 \draw[thin] (uu9ap4)--++(-\kpin,0)node[left]{$\SI{5}{\volt}$};
-\draw[thin](uu9cp2)--++(0,-9*\kpin)coordinate(kD)--(kD-|kklft)node[left]{$CLK$};
+\draw[thin](uu9cp2)--++(0,-6*\kpin)coordinate(kD)--(kD-|kklft)node[left]{$CLK$};
 \draw[thin](uu8cp2)--(uu8cp2|-kD);
-\draw[thin](uu9bp3)--++(0,-7*\kpin-0*\kw)coordinate(kD)--(kD-|w0);
-\draw[thin](uu9bp2)--++(0,-7*\kpin-1*\kw)coordinate(kD)--(kD-|w1);
-\draw[thin](uu9bp1)--++(0,-7*\kpin-2*\kw)coordinate(kD)--(kD-|w2);
-\draw[thin](uu9bp0)--++(0,-7*\kpin-3*\kw)coordinate(kD)--(kD-|w3);
-\draw[thin](uu9cp4)--++(\kpin,0)--++(0,-9*\kpin-3*\kpsep)coordinate(kD)--(kD-|kklft)node[left]{$\overline{L}_I$};
-\draw[thin](uu9cp3)--++(\kpin,0);
-\draw[thin](uu8cp4)--++(\kpin,0)coordinate(kE)--(kE|-kD);
-\draw[thin](uu8cp3)--++(\kpin,0);
-\draw[thin](uu9ap2)--++(-\kpin,0)--++(0,-9*\kpin-2*\kpsep)coordinate(kD)--(kD-|kklft)node[left]{$\overline{E}_I$};
+\draw[thin](uu9bp3)--++(0,-0*\kw)coordinate(kD)--(kD-|w0);
+\draw[thin](uu9bp2)--++(0,-1*\kw)coordinate(kD)--(kD-|w1);
+\draw[thin](uu9bp1)--++(0,-2*\kw)coordinate(kD)--(kD-|w2);
+\draw[thin](uu9bp0)--++(0,-3*\kw)coordinate(kD)--(kD-|w3);
+\draw[thin](uu9cp4)--++(\kw,0)--++(0,-6*\kpin-3*\kpsep)coordinate(kD)--(kD-|kklft)node[left]{$\overline{L}_I$};
+\draw[thin](uu9cp3)--++(\kw,0);
+\draw[thin](uu8cp4)--++(\kw,0)coordinate(kE)--(kE|-kD);
+\draw[thin](uu8cp3)--++(\kw,0);
+\draw[thin](uu9ap2)--++(-\kpin,0)--++(0,-6*\kpin-2*\kpsep)coordinate(kD)--(kD-|kklft)node[left]{$\overline{E}_I$};
 \draw[thin](uu9ap1)--++(-\kpin,0);
 \draw[thin](uu9ap3)--++(-2.5*\kpin,0)node[ground]{};
 \draw[thin](uu9ap0)node[ground]{};
@@ -176,7 +179,50 @@
 \draw[thin](uu8bp2)--++(0,-\kpin)node[below]{$I_5$};
 \draw[thin](uu8bp1)--++(0,-\kpin)node[below]{$I_6$};
 \draw[thin](uu8bp0)--++(0,-\kpin)node[below]{$I_7$};
+\draw(uu8ap4)node[shift={(-0.25cm,1.5cm)}]{\text{\RL{دفتر ہدایت}}};
+\draw(uu6ap4)node[shift={(-0.25cm,2cm)},inner sep=0pt,align=center]{$16\times 8$\\ \text{\RL{عارضی حافظہ}}};
 \end{tikzpicture}
 \caption{حافظہ اور دفتر ہدایت}
 \label{شکل_کمپیوٹر_حافظہ_دفتر_ہدایت}
 \end{figure}
+%=====================================================================
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kw}{0.20}
+\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kw}{0.20}
+\pgfmathsetmacro{\kpinA}{0.5}
+\pgfmathsetmacro{\kpinS}{0.4}
+\pgfmathsetmacro{\ksepX}{4}
+\pgfmathsetmacro{\ksepY}{5}
+\koSvt[uu10]{0}{0}
+\koSvt[uu11]{1*\ksepX}{0}
+\koSvt[uu12]{1*\ksepX}{-\ksepY}
+\koSvt[uu13]{2*\ksepX}{-\ksepY}
+\ket[uu14]{0}{-2*\ksepY}
+\ket[uu15]{1.5*\ksepX}{-2*\ksepY}
+\draw[thin](uu10-center)node[inner sep=0pt,align=center]{u10\\ 74LS173};
+\draw[thin](uu11-center)node[inner sep=0pt,align=center]{u11\\ 74LS173};
+\draw[thin](uu12-center)node[inner sep=0pt,align=center]{u12\\ 74LS173};
+\draw[thin](uu13-center)node[inner sep=0pt,align=center]{u13\\ 74LS173};
+\draw[thin](uu14-center)node[inner sep=0pt,align=center]{u14\\ 74LS83};
+\draw[thin](uu15-center)node[inner sep=0pt,align=center]{u15\\ 74LS83};
+\draw[thin](uu10ap4)node[left]{$\SI{5}{\volt}$};
+\draw[thin](uu11ap4)node[left]{$\SI{5}{\volt}$};
+\draw[thin](uu12ap4)node[left]{$\SI{5}{\volt}$};
+\draw[thin](uu13ap4)node[left]{$\SI{5}{\volt}$};
+\draw[thin](uu10ap3)--(uu10ap0)node[ground]{};
+\draw[thin](uu11ap3)--(uu11ap0)node[ground]{};
+\draw[thin](uu12ap3)--(uu12ap0)node[ground]{};
+\draw[thin](uu13ap3)--(uu13ap0)node[ground]{};
+\draw[thin](uu10cp3)--++(0,\kpin+4*\kpsep)-|coordinate(kLA)(uu11cp3)  (kLA)--++(\kpin+\kw,0)node[right]{$\overline{L}_A$};
+\draw[thin](uu10cp2)--++(\kw,0)--++(0,\kpin+4*\kpsep)coordinate(kA)--($(kA-|uu11cp2)+(\kw,0)$)coordinate(kCLK) |-(uu11cp2)  (kCLK)--++(\kpin,0)node[right]{$CLK$};
+\draw[thin](uu12cp3)--++(0,\kpin+4*\kpsep)-|coordinate(kLA)(uu13cp3)  (kLA)--++(\kpin+\kw,0)node[right]{$\overline{L}_B$};
+\draw[thin](uu12cp2)--++(\kw,0)--++(0,\kpin+4*\kpsep)coordinate(kA)--($(kA-|uu13cp2)+(\kw,0)$)coordinate(kCLK) |-(uu13cp2)  (kCLK)--++(\kpin,0)node[right]{$CLK$};
+\end{tikzpicture}
+\caption{دفتر الف اور جمع و منفی کار}
+\label{شکل_کمپیوٹر_دفتر_الف_جمع_منفی_کار}
+\end{figure}
+%==================================================================

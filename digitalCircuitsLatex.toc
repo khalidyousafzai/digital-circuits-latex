@@ -603,7 +603,7 @@
 \contentsline {subsection}{\numberline {\arabicdigits {7}.\arabicdigits {1}.\arabicdigits {3}} دائیں و بائیں انتقال دفتر}{\arabicdigits {182}}{}%
 \contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {2}}متوازی بھرائی دفتر}{\arabicdigits {182}}{}%
 \contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {3}}عالمگیر انتقال دفتر}{\arabicdigits {183}}{}%
-\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {186}}{}%
+\contentsline {section}{\numberline {\arabicdigits {7}.\arabicdigits {4}} سلسلہ وار ثنائی جمع کار}{\arabicdigits {187}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {8}} گنت کار}{\arabicdigits {189}}{}%
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {1}}ثنائی گنت کار}{\arabicdigits {189}}{}%
 \contentsline {section}{\numberline {\arabicdigits {8}.\arabicdigits {2}}معاصر گنت کار}{\arabicdigits {191}}{}%
