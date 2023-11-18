@@ -895,49 +895,49 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{4}{4}{0.5}
-\foreach \n/\lbl in {0/13,1/10,2/4,3/1}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {0/3,1/6,2/8,3/11}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};    %bottom
-\foreach \n/\lbl in {0/7,3/14}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
-\foreach \n/\lbl in {0/2,1/5,2/9,3/12}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-%\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/13,1/10,2/4,3/1}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/3,1/6,2/8,3/11}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};    %bottom
+\foreach \n/\lbl in {0/7,3/14}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/2,1/5,2/9,3/12}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {0}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
-%74LS126 RotateRight
+%74LS126  rotatedAntiClockWise
 \newcommand{\kotsACW}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{4}{4}{0.5}
-\foreach \n/\lbl in {0/2,1/5,2/9,3/11}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {0/1,1/4,2/10,3/13}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};   %bottom
-\foreach \n/\lbl in {0/3,1/6,2/8,3/11}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};	%right
-\foreach \n/\lbl in {0/7,3/14}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-%\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/2,1/5,2/9,3/11}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/1,1/4,2/10,3/13}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};   %bottom
+\foreach \n/\lbl in {0/3,1/6,2/8,3/11}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};	%right
+\foreach \n/\lbl in {0/7,3/14}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {0}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %============================================
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
-%74LS126 RotateLeft
+%74LS126  rotatedClockWise
 \newcommand{\kotsCW}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{4}{4}{0.5}
-\foreach \n/\lbl in {0/11,1/8,2/6,3/3}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {0/7,3/14}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};   %bottom
-\foreach \n/\lbl in {0/12,1/9,2/5,3/2}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};	%right
-\foreach \n/\lbl in {0/13,1/10,2/4,3/1}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-%\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/11,1/8,2/6,3/3}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/7,3/14}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};   %bottom
+\foreach \n/\lbl in {0/12,1/9,2/5,3/2}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};	%right
+\foreach \n/\lbl in {0/13,1/10,2/4,3/1}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {0}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %============================================
 %%%%%%%%%%%%%%%%%%%%%%
@@ -1011,13 +1011,13 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftY{#3}
 \def\knshift{0.07}
 \kBOX[#1]{#2}{#3}{4}{5}{0.5}
-\foreach \n/\lbl in {0/3,1/12,2/10,3/6,4/4}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}};
-\foreach \n/\lbl in {0/5,1/7,2/9,3/11}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};
-\foreach \n/\lbl in {0/2,3/8,4/16}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};
-\foreach \n/\lbl in {0/1,1/15,2/14,3/13}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-\foreach \n in {0}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+\foreach \n/\lbl in {0/3,1/12,2/10,3/6,4/4}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/5,1/7,2/9,3/11}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/2,3/8,4/16}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/1,1/15,2/14,3/13}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n in {0}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+\foreach \n in {0}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
@@ -1027,17 +1027,58 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{4}{5}{0.5}
-\foreach \n/\lbl in {0/8,1/2,2/1,3/15,4/16}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {0/3,1/4,2/5,3/6}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
-\foreach \n/\lbl in {2/7,3/10,4/9}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
-\foreach \n/\lbl in {0/14,1/13,2/12,3/11}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-\foreach \n in {1,2}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/8,1/2,2/1,3/15,4/16}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/3,1/4,2/5,3/6}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {2/7,3/10,4/9}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/14,1/13,2/12,3/11}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n in {1,2}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 \def\n{2}
-\draw(\kref\c\pcd\n)--(\kref\c\pcm\n)--(\kref\c\pcu\n);
+\draw[thin](\kref\c\pcd\n)--(\kref\c\pcm\n)--(\kref\c\pcu\n);
 }
+%==============================
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS173 rotated AntiClockWise
+\newcommand{\koSvtACW}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{5}{4}{0.5}
+\foreach \n/\lbl in {0/14,1/13,2/12,3/11}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/16,1/15,2/1,3/2,4/8}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}}; %bot
+\foreach \n/\lbl in {0/3,1/4,2/5,3/6}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};       %right
+\foreach \n/\lbl in {0/9,1/10,2/7}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};		%top
+\foreach \n in {2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+\foreach \n in {0,1}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\def\n{2}
+\draw[thin](\kref\d\pcd\n)--(\kref\d\pcm\n)--(\kref\d\pcu\n);
+}
+%==================================
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS173
+\newcommand{\koSvtCW}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{5}{4}{0.5}
+\foreach \n/\lbl in {0/6,1/5,2/4,3/3}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}};  %left
+\foreach \n/\lbl in {2/7,3/10,4/9}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};	%bot
+\foreach \n/\lbl in {0/11,1/12,2/13,3/14}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}}; %right
+\foreach \n/\lbl in {0/15,1/8,2/2,3/1,4/16}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}}; %top
+%\foreach \n in {1,2}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+\foreach \n in {3,4}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,3}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+\foreach \n in {2,3}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\def\n{2}
+\draw[thin](\kref\b\pcd\n)--(\kref\b\pcm\n)--(\kref\b\pcu\n);
+}
+%==============================
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
 %74LS83
@@ -1046,14 +1087,14 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{8}{3}{0.5}
-\foreach \n/\lbl in {0/12,1/14,2/5}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {3/15,4/2,5/6,6/9}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
-\foreach \n/\lbl in {1/13}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
-\foreach \n/\lbl in {0/1,1/3,2/8,3/10,4/16,5/4,6/7,7/11}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};  %upper pins
-%\foreach \n in {1,2}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/12,1/14,2/5}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {3/15,4/2,5/6,6/9}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {1/13}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/1,1/3,2/8,3/10,4/16,5/4,6/7,7/11}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};  %upper pins
+%\foreach \n in {1,2}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
@@ -1063,14 +1104,14 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{8}{5}{0.5}
-\foreach \n/\lbl in {0/15,1/8,2/1,4/16}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {4/12,5/9,6/7,7/4}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};    %bottom
-%\foreach \n/\lbl in {0/5,2/3}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
-\foreach \n/\lbl in {0/14,1/11,2/5,3/2,4/13,5/10,6/6,7/3}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-\foreach \n in {0}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/15,1/8,2/1,4/16}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {4/12,5/9,6/7,7/4}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};    %bottom
+%\foreach \n/\lbl in {0/5,2/3}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/14,1/11,2/5,3/2,4/13,5/10,6/6,7/3}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n in {0}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
@@ -1080,12 +1121,32 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{3}{3}{0.5}
-\foreach \n/\lbl in {0/6,2/7}\draw(\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {0/2,2/1}\draw(\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
-\foreach \n/\lbl in {0/5,2/3}\draw(\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
-\foreach \n/\lbl in {0/8,2/4}\draw(\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
-%\foreach \n in {1,2}\draw(\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
-%\foreach \n in {0,1,2,3}\draw(\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
-%\foreach \n in {3,4}\draw(\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
-%\foreach \n in {0}\draw(\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+\foreach \n/\lbl in {0/6,2/7}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/2,2/1}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {0/5,2/3}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/8,2/4}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {1,2}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
+%==========================
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%74LS86
+\newcommand{\kes}[3][u0]{
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\kBOX[#1]{#2}{#3}{3}{8}{0.5}
+\foreach \n/\lbl in {0/1,1/2,2/4,3/5,4/9,5/10,6/12,7/13} \draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+%\foreach \n/\lbl in {0/2,2/1}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {2/3,3/6,4/8,5/9}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+%\foreach \n/\lbl in {0/8,2/4}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+%\foreach \n in {1,2}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
+%\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
+%\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
+%\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
+}
+%==============================
+

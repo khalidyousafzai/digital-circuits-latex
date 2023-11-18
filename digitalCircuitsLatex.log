@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  17 NOV 2023 17:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  18 NOV 2023 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202311171057.tex)...disabled (restricted).
+runsystem(touch w18-test-20231118975.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202311171057.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231118975.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -3984,16 +3984,24 @@ Overfull \hbox (2.93886pt too wide) in paragraph at lines 152--152
  []
 
 
-Overfull \hbox (24.46762pt too wide) in paragraph at lines 192--225
+Overfull \hbox (7.35588pt too wide) in paragraph at lines 108--185
  [][][][][][] 
  []
 
-) [303] [304] [305] [306] (./answer.tex) [307
+
+LaTeX Warning: Float too large for page by 95.56863pt on input line 265.
+
+
+Overfull \hbox (25.12863pt too wide) in paragraph at lines 271--308
+ [][][][][][] 
+ []
+
+) [303] [304] [305] [306] [307] [308
 
 
 
 
-] [308
+] (./answer.tex) [309] [310
 
 
 ]
@@ -4962,12 +4970,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 75578 strings out of 476191
- 1924966 string characters out of 9562072
- 3147027 words of memory out of 7000000
- 95165 multiletter control sequences out of 15000+600000
+ 77685 strings out of 476191
+ 1966319 string characters out of 9562072
+ 3275723 words of memory out of 7000000
+ 97272 multiletter control sequences out of 15000+600000
  493306 words of font info for 150 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,9n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (14 pages).
+Output written on digitalCircuitsLatex.pdf (16 pages).
