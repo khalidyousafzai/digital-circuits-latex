@@ -747,10 +747,6 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 %\pgfmathsetmacro{\kpin}{0.30}
 \pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
 \pgfmathsetmacro{\kul}{0.40}			%pin to edge distance	
-%\pgfmathsetmacro{\kulVs}{0.50}		%South edge clearance along vertical edge
-%\pgfmathsetmacro{\kulVn}{0.30}		%North edge clearance along vertical edge
-%\pgfmathsetmacro{\kulHe}{0.40}		%East edge clearance along horizontal side
-%\pgfmathsetmacro{\kulHw}{0.50}		%West edge clearance along horizontal side
 \pgfmathsetmacro{\kdimX}{\kul+\kul+\nx*\kpsep}
 \pgfmathsetmacro{\kdimY}{\kul+\kul+\ny*\kpsep}		%two spaces between 3 pins
 \def\cdelX{0.15}
@@ -850,7 +846,7 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 % TTL used in SAP-1
 %74107-A  JK-FF
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
-\newcommand{\kozSvA}[3][u0]{
+\newcommand{\kSfozSA}[3][u0]{
 \def\kref{#1}
 %\def\p{p}			%pin tip
 %\def\pb{pb}			%pin base
@@ -869,8 +865,8 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TTL used in SAP-1
 %74107-B   JK-FF
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
-\newcommand{\kozSvB}[3][u0]{
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+\newcommand{\kSfozSB}[3][u0]{
 \def\kref{#1}
 %\def\p{p}			%pin tip
 %\def\pb{pb}			%pin base
@@ -888,9 +884,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %==========================================
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS126
-\newcommand{\kots}[3][u0]{	
+\newcommand{\kSfots}[3][u0]{	
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -905,9 +901,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS126  rotatedAntiClockWise
-\newcommand{\kotsACW}[3][u0]{
+\newcommand{\kSfotsACW}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -923,9 +919,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %============================================
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS126  rotatedClockWise
-\newcommand{\kotsCW}[3][u0]{
+\newcommand{\kSfotsCW}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -941,10 +937,10 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %============================================
 %%%%%%%%%%%%%%%%%%%%%%
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74126-A
 % buffer that gives both the Signal and its Complement is  \kBusBuffer
-\newcommand{\kotsA}[3][u0]{
+\newcommand{\kSfotsA}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -959,7 +955,7 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %%%%%%%%%%%%%%%%%%%%%%
 %74126-B
 % buffer that gives both the Signal and its Complement is  \kBusBuffer
-\newcommand{\kotsB}[3][u0]{
+\newcommand{\kSfotsB}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -974,7 +970,7 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %%%%%%%%%%%%%%%%%%%%%%
 %74126-C
 % buffer that gives both the Signal and its Complement is  \kBusBuffer
-\newcommand{\kotsC}[3][u0]{
+\newcommand{\kSfotsC}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -989,7 +985,7 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %%%%%%%%%%%%%%%%%%%%%%
 %74126-D
 % buffer that gives both the Signal and its Complement is  \kBusBuffer
-\newcommand{\kotsD}[3][u0]{
+\newcommand{\kSfotsD}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1003,9 +999,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \foreach \n/\a in {pin/12,pout/11,u/13}{\draw[thin](\kref\pnum\n)node[]{\scriptsize{$\a$}};}
 }
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS189
-\newcommand{\koen}[3][u0]{
+\newcommand{\kSfoen}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1020,9 +1016,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 \foreach \n in {0}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
 }
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS173
-\newcommand{\koSvt}[3][u0]{
+\newcommand{\kSfoSt}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1040,9 +1036,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %==============================
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS173 rotated AntiClockWise
-\newcommand{\koSvtACW}[3][u0]{
+\newcommand{\kSfoStACW}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1060,9 +1056,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %==================================
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS173
-\newcommand{\koSvtCW}[3][u0]{
+\newcommand{\kSfoStCW}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1080,9 +1076,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %==============================
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS83
-\newcommand{\ket}[3][u0]{
+\newcommand{\kSfet}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1097,9 +1093,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS157
-\newcommand{\koFvSv}[3][u0]{
+\newcommand{\kSfoFS}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
@@ -1114,17 +1110,17 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %NE555
-\newcommand{\kFvFvFv}[3][u0]{
+\newcommand{\kFFF}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
 \kBOX[#1]{#2}{#3}{3}{3}{0.5}
-\foreach \n/\lbl in {0/6,2/7}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
-\foreach \n/\lbl in {0/2,2/1}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
-\foreach \n/\lbl in {0/5,2/3}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
-\foreach \n/\lbl in {0/8,2/4}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
+\foreach \n/\lbl in {0/6,2/7}\draw[thin](\kref\a\pb\n)--(\kref\a\p\n)coordinate(\kref\p\lbl) (\kref\a\pnum\n)node[]{\scriptsize{$\lbl$}}; %left
+\foreach \n/\lbl in {0/2,2/1}\draw[thin](\kref\b\pb\n)--(\kref\b\p\n)coordinate(\kref\p\lbl) (\kref\b\pnum\n)node[]{\scriptsize{$\lbl$}};       %bottom
+\foreach \n/\lbl in {0/5,2/3}\draw[thin](\kref\c\pb\n)--(\kref\c\p\n)coordinate(\kref\p\lbl) (\kref\c\pnum\n)node[]{\scriptsize{$\lbl$}};		%right
+\foreach \n/\lbl in {0/8,2/4}\draw[thin](\kref\d\pb\n)--(\kref\d\p\n)coordinate(\kref\p\lbl) (\kref\d\pnum\n)node[]{\scriptsize{$\lbl$}};
 %\foreach \n in {1,2}\draw[thin](\kref\a\pb\n)++(-\knshift,0)node[ocirc]{};
 %\foreach \n in {0,1,2,3}\draw[thin](\kref\b\pb\n)++(0,-\knshift)node[ocirc]{};
 %\foreach \n in {3,4}\draw[thin](\kref\c\pb\n)++(\knshift,0)node[ocirc]{};
@@ -1132,9 +1128,9 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 }
 %==========================
 %==============================
-%numbering code 0=z, 1=o, 2=t, 3=Th, 4=f, 5=Fv, 6=s, 7=Sv, 8=e, 9=n
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS86
-\newcommand{\kes}[3][u0]{
+\newcommand{\kSfes}[3][u0]{
 \def\kref{#1}
 \def\kshiftX{#2}
 \def\kshiftY{#3}
