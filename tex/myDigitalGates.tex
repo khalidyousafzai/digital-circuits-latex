@@ -22,9 +22,9 @@
 \pgfmathsetmacro{\kdimX}{0.40}
 \pgfmathsetmacro{\kdimY}{0.5*\kul+0.5*\kul+\ny*\kpsep}		%two spaces between 3 pins
 
-\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kc-0.5*\kdimX,0)coordinate(\kref-center);
-\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kc-0.5*\kdimX,0)++(0,0.5*\kdimY)coordinate(\kref-north);
-\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kc-0.5*\kdimX,0)++(0,-0.5*\kdimY)coordinate(\kref-south);
+\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kc-0.5*\kdimX,0)coordinate(\kref\ksec-center);
+\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kc-0.5*\kdimX,0)++(0,0.5*\kdimY)coordinate(\kref\ksec-north);
+\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kc-0.5*\kdimX,0)++(0,-0.5*\kdimY)coordinate(\kref\ksec-south);
 %
 \draw[thick](\kshiftX,\kshiftY)coordinate(\kref\p\kout)++(-\kpin,0)coordinate(\kref\pb\kout)+(\knshift,0)coordinate(\kref\pn\kout)+(\knumshift,1.25ex)coordinate(\kref\pnum\kout)++(-\kc,-0.5*\kdimY)++(0,\kdimY)++(-\kdimX,0)++(0,-\kdimY)coordinate(AA)--++(\kdimX,0) to [out=0,in=-90]++(\kc,0.5*\kdimY) to [out=90,in=0]++(-\kc,0.5*\kdimY)--++(-\kdimX,0)--++(0,-\kdimY);
 %
@@ -92,9 +92,9 @@
 \pgfmathsetmacro{\kdimX}{0.7}
 \pgfmathsetmacro{\kdimY}{0.7}		%two spaces between 3 pins
 
-\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kdimX,0)coordinate(\kref-center);
-\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kdimX,0)++(0,0.5*\kdimY)coordinate(\kref-north);
-\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kdimX,0)++(0,-0.5*\kdimY)coordinate(\kref-south);
+\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kdimX,0)coordinate(\kref\ksec-center);
+\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kdimX,0)++(0,0.5*\kdimY)coordinate(\kref\ksec-north);
+\draw[thin](\kshiftX,\kshiftY)++(-\kpin-0.5*\kdimX,0)++(0,-0.5*\kdimY)coordinate(\kref\ksec-south);
 %
 \draw[thin](\kshiftX,\kshiftY)coordinate(\kref\kout)++(-\kpin,0)coordinate(\kref\pb\kout)+(\knshift,0)coordinate(\kref\pn\kout)+(\knumshift,1.25ex)coordinate(\kref\pnum\kout)++(-\kdimX,0)coordinate(\kref\pb\kin)+(-\knshift,0)coordinate(\kref\pn\kin)+(-\knumshift,1.25ex)coordinate(\kref\pnum\kin)+(-\kpin,0)coordinate(\kref\kin);
 %
@@ -106,11 +106,93 @@
 }
 %============================
 %==============================
+%downFacing NOT gates
+\newcommand{\kdNOTbox}[4][u0]{	%cannot use double quotes as the pin names allocated here are used when using the ICs
+\def\kref{#1}
+\def\kshiftX{#2}
+\def\kshiftY{#3}
+\def\kpin{#4}			
+\def\p{p}			%pin tip
+\def\kin{in}			%left pins
+\def\kout{out}		%bottom pins 
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pnum{pnum}		%pin number location; use \kref\a\pnum\n e.g. u0apnum3 means left 3rd from bottom
+\def\pn{pn}			%pin 'ocirc'
+\def\pu{pu}			%control pin up
+\def\pd{pd}			%control pin down
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\knumshift}{0.25}
+%\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kul}{0.40}			%pin to edge distance	
+%\pgfmathsetmacro{\kc}{0.40}
+\pgfmathsetmacro{\kdimX}{0.7}
+\pgfmathsetmacro{\kdimY}{0.7}		%two spaces between 3 pins
+
+\draw[thin](\kshiftX,\kshiftY)++(0,\kpin+0.5*\kdimX)coordinate(\kref\ksec-center);
+\draw[thin](\kshiftX,\kshiftY)++(0,\kpin+0.5*\kdimX)++(0.5*\kdimY,0)coordinate(\kref\ksec-east);
+\draw[thin](\kshiftX,\kshiftY)++(0,\kpin+0.5*\kdimX)++(-0.5*\kdimY,0)coordinate(\kref\ksec-west);
+%
+\draw[thin](\kshiftX,\kshiftY)coordinate(\kref\kout)++(0,\kpin)coordinate(\kref\pb\kout)
++(0,-\knshift)coordinate(\kref\pn\kout)+(1.25ex,-\knumshift)coordinate(\kref\pnum\kout)++(0,\kdimX)coordinate(\kref\pb\kin)+(0,\knshift,0)coordinate(\kref\pn\kin)+(1.25ex,\knumshift)coordinate(\kref\pnum\kin)+(0,\kpin,0)coordinate(\kref\kin);
+%
+\draw[thick](\kshiftX,\kshiftY)++(0,\kpin)coordinate(kO)--++(0.5*\kdimY,\kdimX)coordinate(kT)--++(-\kdimY,0)coordinate(kB)--++(0.5*\kdimY,-\kdimX);
+%
+\draw[thin]($(kO)!0.6!(kT)$)coordinate(\kref\pb\pu)+(\knshift,0)coordinate(\kref\pn\pu)+(\knumshift,-1.25ex)coordinate(\kref\pnum\pu)+(\kpin,0)coordinate(\kref\pu);
+%
+\draw[thin]($(kO)!0.6!(kB)$)coordinate(\kref\pb\pd)+(-\knshift,0)coordinate(\kref\pn\pd)+(-\knumshift,-1.25ex) coordinate(\kref\pnum\pd)+(-\kpin,0)coordinate(\kref\pd);
+}
+%============================
+%==============================
+%downFacing NOT gates
+\newcommand{\kdNOTboxL}[3][u0]{	%cannot use double quotes as the pin names allocated here are used when using the ICs
+\def\kref{#1}
+\def\kLoc{#2}		%location, provided as   x,y or name such as  2,3  or  kkk
+\def\kpin{#3}			
+\def\p{p}			%pin tip
+\def\kin{in}			%left pins
+\def\kout{out}		%bottom pins 
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pnum{pnum}		%pin number location; use \kref\a\pnum\n e.g. u0apnum3 means left 3rd from bottom
+\def\pn{pn}			%pin 'ocirc'
+\def\pu{pu}			%control pin up
+\def\pd{pd}			%control pin down
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\knumshift}{0.25}
+%\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kul}{0.40}			%pin to edge distance	
+%\pgfmathsetmacro{\kc}{0.40}
+\pgfmathsetmacro{\kdimX}{0.7}
+\pgfmathsetmacro{\kdimY}{0.7}		%two spaces between 3 pins
+
+\draw[thin](\kLoc)++(0,\kpin+0.5*\kdimX)coordinate(\kref\ksec-center);
+\draw[thin](\kLoc)++(0,\kpin+0.5*\kdimX)++(0.5*\kdimY,0)coordinate(\kref\ksec-east);
+\draw[thin](\kLoc)++(0,\kpin+0.5*\kdimX)++(-0.5*\kdimY,0)coordinate(\kref\ksec-west);
+%
+\draw[thin](\kLoc)coordinate(\kref\kout)++(0,\kpin)coordinate(\kref\pb\kout)+(0,-\knshift)coordinate(\kref\pn\kout)
++(1.25ex,-\knumshift)coordinate(\kref\pnum\kout)++(0,\kdimX)coordinate(\kref\pb\kin)+(0,\knshift,0)coordinate(\kref\pn\kin)+(1.25ex,\knumshift)coordinate(\kref\pnum\kin)+(0,\kpin,0)coordinate(\kref\kin);
+%
+\draw[thick](\kLoc)++(0,\kpin)coordinate(kO)--++(0.5*\kdimY,\kdimX)coordinate(kT)--++(-\kdimY,0)coordinate(kB)--++(0.5*\kdimY,-\kdimX);
+%
+\draw[thin]($(kO)!0.6!(kT)$)coordinate(\kref\pb\pu)+(\knshift,0)coordinate(\kref\pn\pu)+(\knumshift,-1.25ex)coordinate(\kref\pnum\pu)+(\kpin,0)coordinate(\kref\pu);
+%
+\draw[thin]($(kO)!0.6!(kB)$)coordinate(\kref\pb\pd)+(-\knshift,0)coordinate(\kref\pn\pd)+(-\knumshift,-1.25ex) coordinate(\kref\pnum\pd)+(-\kpin,0)coordinate(\kref\pd);
+}
+%============================
+
+
+%==============================
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %use u10Ap1, u10Ap12 etc to access pins where 1, 12 are IC pin numbers and A is the section number
 %74LS00A quad NAND gates
 \newcommand{\kSfzzA}[3][u0]{
 \def\kref{#1}
+\def\ksec{A}
 \def\p{p}			%pin tip
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/1,1/2}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
@@ -124,6 +206,7 @@
 %74LS00B 2-inpput quad NAND gates
 \newcommand{\kSfzzB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/4,1/5}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{6}
@@ -135,6 +218,7 @@
 %74LS00C 2-input quad NAND gates
 \newcommand{\kSfzzC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/9,1/10}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{8}
@@ -146,6 +230,7 @@
 %74LS00D 2-input quad NAND gates
 \newcommand{\kSfzzD}[3][u0]{	
 \def\kref{#1}
+\def\ksec{D}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/12,1/13}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{11}
@@ -158,6 +243,7 @@
 %74LS10A  3-input triple NAND gates
 \newcommand{\kSfozA}[3][u0]{	
 \def\kref{#1}
+\def\ksec{A}
 \kANDbox[#1]{#2}{#3}{3}{0.4}
 \foreach \n/\lbl in {0/1,1/2,2/13}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{12}
@@ -169,6 +255,7 @@
 %74LS10B  3-input triple NAND gates
 \newcommand{\kSfozB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kANDbox[#1]{#2}{#3}{3}{0.4}
 \foreach \n/\lbl in {0/3,1/4,2/5}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{6}
@@ -180,6 +267,7 @@
 %74LS10C  3-input triple NAND gates
 \newcommand{\kSfozC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kANDbox[#1]{#2}{#3}{3}{0.4}
 \foreach \n/\lbl in {0/9,1/10,2/11}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{8}
@@ -193,6 +281,7 @@
 %74LS08A quad AND gates
 \newcommand{\kSfzeA}[3][u0]{	
 \def\kref{#1}
+\def\ksec{A}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/1,1/2}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{3}
@@ -204,6 +293,7 @@
 %74LS08B 2-inpput quad AND gates
 \newcommand{\kSfzeB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/4,1/5}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{6}
@@ -215,6 +305,7 @@
 %74LS08C 2-input quad AND gates
 \newcommand{\kSfzeC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/9,1/10}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{8}
@@ -226,6 +317,7 @@
 %74LS08D 2-input quad AND gates
 \newcommand{\kSfzeD}[3][u0]{	
 \def\kref{#1}
+\def\ksec{D}
 \kANDbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/12,1/13}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \def\lbl{11}
@@ -239,6 +331,7 @@
 %74LS11A  3-input triple AND gates
 \newcommand{\kSfooA}[3][u0]{	
 \def\kref{#1}
+\def\ksec{A}
 \kANDbox[#1]{#2}{#3}{3}{0.4}
 \foreach \n/\lbl in {0/1,1/2,2/13}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$12$}};
@@ -253,6 +346,7 @@
 %74LS11B  3-input triple AND gates
 \newcommand{\kSfooB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kANDbox[#1]{#2}{#3}{3}{0.4}
 \foreach \n/\lbl in {0/3,1/4,2/5}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$6$}};
@@ -266,6 +360,7 @@
 %74LS11C  3-input triple AND gates
 \newcommand{\kSfooC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kANDbox[#1]{#2}{#3}{3}{0.4}
 \foreach \n/\lbl in {0/9,1/10,2/11}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$8$}};
@@ -280,92 +375,180 @@
 %74LS04A   hex NOT gates
 \newcommand{\kSfzfA}[3][u0]{	
 \def\kref{#1}
+\def\ksec{A}
 \def\p{p}
 \kNOTbox[#1]{#2}{#3}{0.4}
 \draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
-\def\lbl{1}
-\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$1$}};
-\def\lbl{2}
-\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$2$}};
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$1$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$2$}};
 \draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/1,out/2}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS04B   hex NOT gates
 \newcommand{\kSfzfB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kNOTbox[#1]{#2}{#3}{0.4}
 \draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
 \def\p{p}
-\def\lbl{3}
-\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$3$}};
-\def\lbl{4}
-\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$4$}};
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$3$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$4$}};
 \draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/3,out/4}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS04C   hex NOT gates
 \newcommand{\kSfzfC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kNOTbox[#1]{#2}{#3}{0.4}
 \draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
 \def\p{p}
-\def\lbl{5}
-\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$5$}};
-\def\lbl{6}
-\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$6$}};
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$5$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$6$}};
 \draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/5,out/6}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS04D   hex NOT gates
 \newcommand{\kSfzfD}[3][u0]{	
 \def\kref{#1}
+\def\ksec{D}
 \kNOTbox[#1]{#2}{#3}{0.4}
 \draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
 \def\p{p}
-\def\lbl{9}
-\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$9$}};
-\def\lbl{8}
-\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$8$}};
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$9$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$8$}};
 \draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/9,out/8}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS04E   hex NOT gates
 \newcommand{\kSfzfE}[3][u0]{	
 \def\kref{#1}
+\def\ksec{E}
 \kNOTbox[#1]{#2}{#3}{0.4}
 \draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
 \def\p{p}
-\def\lbl{11}
-\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$11$}};
-\def\lbl{10}
-\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$10$}};
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$11$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$10$}};
 \draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/11,out/10}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
 }
 %==============================
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %74LS04F   hex NOT gates
 \newcommand{\kSfzfF}[3][u0]{	
 \def\kref{#1}
+\def\ksec{F}
 \kNOTbox[#1]{#2}{#3}{0.4}
 \draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
 \def\p{p}
-\def\lbl{13}
-\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$13$}};
-\def\lbl{12}
-\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$12$}};
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$13$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$12$}};
 \draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/13,out/12}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
 }
 %=======================
 %==============================
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%use u10Ap1, u10Ap2 etc to access pins where 1, 2 are IC pin numbers and A is the section number
+%74LS04A   hex down facing NOT gates   \kdxxxx   d signifies down facing
+\newcommand{\kdSfzfA}[3][u0]{	
+\def\kref{#1}
+\def\ksec{A}
+\def\p{p}
+\kdNOTbox[#1]{#2}{#3}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$1$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$2$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/1,out/2}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04B   hex downfacing NOT gates
+\newcommand{\kdSfzfB}[3][u0]{	
+\def\kref{#1}
+\def\ksec{B}
+\kdNOTbox[#1]{#2}{#3}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$3$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$4$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/3,out/4}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04C   hex NOT gates
+\newcommand{\kdSfzfC}[3][u0]{	
+\def\kref{#1}
+\def\ksec{C}
+\kdNOTbox[#1]{#2}{#3}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$5$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$6$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/5,out/6}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04D   hex NOT gates
+\newcommand{\kdSfzfD}[3][u0]{	
+\def\kref{#1}
+\def\ksec{D}
+\kdNOTbox[#1]{#2}{#3}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$9$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$8$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/9,out/8}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04E   hex NOT gates
+\newcommand{\kdSfzfE}[3][u0]{	
+\def\kref{#1}
+\def\ksec{E}
+\kdNOTbox[#1]{#2}{#3}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$11$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$10$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/11,out/10}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04F   hex NOT gates
+\newcommand{\kdSfzfF}[3][u0]{	
+\def\kref{#1}
+\def\ksec{F}
+\kdNOTbox[#1]{#2}{#3}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$13$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$12$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/13,out/12}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%=======================
+
 %numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
 %use u10Ap1, u10Ap12 etc to access pins where 1, 12 are IC pin numbers and A is the section number
 %74LS02A quad NOR gates
 \newcommand{\kSfztA}[3][u0]{	
 \def\kref{#1}
+\def\ksec{A}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/2,1/3}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$1$}};
@@ -379,6 +562,7 @@
 %74LS02B 2-inpput quad NOR gates
 \newcommand{\kSfztB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/5,1/6}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$4$}};
@@ -392,6 +576,7 @@
 %74LS02C 2-input quad NOR gates
 \newcommand{\kSfztC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/8,1/9}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$10$}};
@@ -405,6 +590,7 @@
 %74LS02D 2-input quad NOR gates
 \newcommand{\kSfztD}[3][u0]{	
 \def\kref{#1}
+\def\ksec{D}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/11,1/12}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$13$}};
@@ -420,6 +606,7 @@
 %74LS32A quad OR gates
 \newcommand{\kSfTtA}[3][u0]{	
 \def\kref{#1}
+\def\ksec{A}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/1,1/2}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$3$}};
@@ -433,6 +620,7 @@
 %74LS32B 2-inpput quad OR gates
 \newcommand{\kSfTtB}[3][u0]{	
 \def\kref{#1}
+\def\ksec{B}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/4,1/5}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$6$}};
@@ -446,6 +634,7 @@
 %74LS32C 2-input quad OR gates
 \newcommand{\kSfTtC}[3][u0]{	
 \def\kref{#1}
+\def\ksec{C}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/9,1/10}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$8$}};
@@ -459,6 +648,7 @@
 %74LS32D 2-input quad OR gates
 \newcommand{\kSfTtD}[3][u0]{	
 \def\kref{#1}
+\def\ksec{D}
 \kORbox[#1]{#2}{#3}{2}{0.4}
 \foreach \n/\lbl in {0/12,1/13}\draw[thin](\kref\pb\n)--(\kref\kin\n)coordinate(\kref\p\lbl)  (\kref\pnum\n)node[]{\scriptsize{$\lbl$}}; 
 \draw[thin](\kref\pnum\kout)node[]{\scriptsize{$11$}};
@@ -468,4 +658,91 @@
 \draw(\kref\p\kout)coordinate(\kref\p\lbl);
 }
 %==============================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%use u10Ap1, u10Ap2 etc to access pins where 1, 2 are IC pin numbers and A is the section number
+%74LS04A   hex down facing NOT gates   \kdxxxx   d signifies down facing
+\newcommand{\kdSfzfAL}[2][u0]{	
+\def\kref{#1}
+\def\ksec{A}
+\def\p{p}
+\kdNOTboxL[#1]{#2}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$1$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$2$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/1,out/2}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04B   hex downfacing NOT gates
+\newcommand{\kdSfzfBL}[2][u0]{	
+\def\kref{#1}
+\def\ksec{B}
+\kdNOTboxL[#1]{#2}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$3$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$4$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/3,out/4}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04C   hex NOT gates
+\newcommand{\kdSfzfCL}[2][u0]{	
+\def\kref{#1}
+\def\ksec{C}
+\kdNOTboxL[#1]{#2}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$5$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$6$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/5,out/6}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04D   hex NOT gates
+\newcommand{\kdSfzfDL}[2][u0]{	
+\def\kref{#1}
+\def\ksec{D}
+\kdNOTboxL[#1]{#2}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$9$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$8$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/9,out/8}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04E   hex NOT gates
+\newcommand{\kdSfzfEL}[2][u0]{	
+\def\kref{#1}
+\def\ksec{E}
+\kdNOTboxL[#1]{#2}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)node[]{\scriptsize{$11$}};
+\draw[thin](\kref\pnum\kout)node[]{\scriptsize{$10$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/11,out/10}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%==============================
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74LS04F   hex NOT gates
+\newcommand{\kdSfzfFL}[2][u0]{	
+\def\kref{#1}
+\def\ksec{F}
+\kdNOTboxL[#1]{#2}{0.4}
+\draw[thin](\kref\pb\kin)--(\kref\kin)  (\kref\pb\kout)--(\kref\kout);
+\def\p{p}
+\draw[thin](\kref\pnum\kin)coordinate(\kref\p\lbl)node[]{\scriptsize{$13$}};
+\draw[thin](\kref\pnum\kout)coordinate(\kref\p\lbl)node[]{\scriptsize{$12$}};
+\draw[thin](\kref\pb\kout)--(\kref\kout) (\kref\pn\kout)node[ocirc]{};
+\foreach \n/\lbl in {in/13,out/12}\draw[thin](\kref\n)coordinate(\kref\p\lbl);
+}
+%=======================
 
