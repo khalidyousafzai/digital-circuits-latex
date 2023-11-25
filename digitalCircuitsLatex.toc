@@ -730,5 +730,4 @@
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {6}}خرد برنامہ}{\arabicdigits {299}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {7}}سادہ کمپیوٹر کا نقشہ دور}{\arabicdigits {301}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {13}}نقشہ دور}{\arabicdigits {309}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {311}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {313}}{}%

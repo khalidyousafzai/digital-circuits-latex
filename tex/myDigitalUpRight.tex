@@ -1145,4 +1145,114 @@ coordinate[pos=0.6](keda)--++(150:\klen)coordinate[pos=0.4](ked)--++(-90:\klen);
 %\foreach \n in {0}\draw[thin](\kref\d\pb\n)++(0,\knshift)node[ocirc]{};
 }
 %==============================
+%RotatedClockWise
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kBufferRCW}[2][u0]{
+\def\kref{#1}
+\def\kLoc{#2}
+\def\p{p}			%pin tip
+\def\pb{pb}			%pin base
+\def\pl{pl}			%pin label
+\def\pn{pn}			%pin 'ocirc'
+\def\pnum{pnum}			%pin number  
+\def\pin{pin}			%pin tip
+\def\pout{pout}			%pin tip
+\def\pu{u}			%pin tip
+\def\pd{d}			%pin tip
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\knumshift}{0.15}  %half of pin length
+\pgfmathsetmacro{\kpin}{0.30}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.50}
+\pgfmathsetmacro{\kdimX}{2*\kulH+0*\kpsep}
+\pgfmathsetmacro{\kdimY}{\kdimX}		%two spaces between 3 pins
+\draw[thin](\kLoc)coordinate(\kref\pin)--++(0,-\kpin)coordinate(\kref\pb\pin);
+\draw(\kref\pb\pin)[thick]++(-\kdimY/2,0)coordinate(aa)--++(\kdimY,0)coordinate(bb)--++(-\kdimY/2,-\kdimX)coordinate(cc)coordinate(\kref\pb\pout)--++(-\kdimY/2,\kdimX);
+\draw[thin](\kref\pb\pout)--++(0,-\kpin)coordinate(\kref\pout);
+\draw($(bb)!0.5!(cc)$)coordinate(\kref\pb\pu)+(0.07,0)coordinate(\kref\pn\pu)+(\kpin,0)coordinate(\kref\pu)
++(\knumshift,-0.5*\kpin)coordinate(\kref\pnum\pu);
+\draw($(aa)!0.5!(cc)$)coordinate(\kref\pb\pd)+(-0.07,0)coordinate(\kref\pn\pd)+(-\kpin,0)coordinate(\kref\pd)
++(\knumshift,-0.5*\kpin)coordinate(\kref\pnum\pd);
+\draw(\kref\pb\pin)+(0,0.07)coordinate(\kref\pn\pin)+(0.5*\kpsep,\knumshift)coordinate(\kref\pnum\pin);
+\draw(\kref\pb\pout)+(0,-0.07)coordinate(\kref\pn\pout)+(-0.5*\kpsep,-\knumshift)coordinate(\kref\pnum\pout);
+}
+%=====================================
+%%%%%%%%%%%%%%%%%%%%%%
+%numbering code 0=z, 1=o, 2=t, 3=T, 4=f, 5=F, 6=s, 7=S, 8=e, 9=n
+%74126-A
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kSfotsRCWA}[2][u0]{
+\def\kref{#1}
+\def\kLoc{#2}
+\def\ksec{A}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\p{p}			%pin tip
+\def\kref{#1}
+\kBufferRCW[#1]{#2}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/2,pout/3,u/1}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+\foreach \n/\a in {pin/2,pout/3,u/1}{\draw[thin](\kref\n)coordinate(\kref\p\a);}
+\path[thin](\kref\pb\pin)--(\kref\pb\pout)coordinate[pos=0.25](\kref\ksec-center);
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-B
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kSfotsRCWB}[2][u0]{
+\def\kref{#1}
+\def\kLoc{#2}
+\def\ksec{B}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\p{p}			%pin tip
+\def\kref{#1}
+\kBufferRCW[#1]{#2}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/5,pout/6,u/4}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+\foreach \n/\a in {pin/5,pout/6,u/4}{\draw[thin](\kref\n)coordinate(\kref\p\a);}
+\path[thin](\kref\pb\pin)--(\kref\pb\pout)coordinate[pos=0.25](\kref\ksec-center);
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-C
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kSfotsRCWC}[2][u0]{
+\def\kref{#1}
+\def\kLoc{#2}
+\def\ksec{C}
+\def\pbu{pbu}
+\def\pu{pu}
+\def\p{p}			%pin tip
+\def\kref{#1}
+\kBufferRCW[#1]{#2}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/9,pout/8,u/10}{\draw[thin](\kref\pnum\n)node[]{\scriptsize$\a$};}
+\foreach \n/\a in {pin/9,pout/8,u/10}{\draw[thin](\kref\n)coordinate(\kref\p\a);}
+\path[thin](\kref\pb\pin)--(\kref\pb\pout)coordinate[pos=0.25](\kref\ksec-center);
+}
+%%%%%%%%%%%%%%%%%%%%%%
+%74126-D
+% buffer that gives both the Signal and its Complement is  \kBusBuffer
+\newcommand{\kSfotsRCWD}[2][u0]{
+\def\kref{#1}
+\def\kLoc{#2}
+\def\ksec{D}
+\def\pbu{pbu}
+\def\pnum{pnum}
+\def\pu{pu}
+\def\p{p}			%pin tip
+\def\kref{#1}
+\kBufferRCW[#1]{#2}
+\draw[thin](\kref\pbu)--(\kref\pu);
+%\draw[thin](\kref\pnum\pin)node[]{$2$};
+\foreach \n/\a in {pin/12,pout/11,u/13}{\draw[thin](\kref\pnum\n)node[]{\scriptsize{$\a$}};}
+\foreach \n/\a in {pin/12,pout/11,u/13}{\draw[thin](\kref\n)coordinate(\kref\p\a);}
+\path[thin](\kref\pb\pin)--(\kref\pb\pout)coordinate[pos=0.25](\kref\ksec-center);
+}
+%==============================
 
