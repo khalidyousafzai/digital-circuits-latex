@@ -1,0 +1,159 @@
+\begin{theindex}
+
+  \item address field, 284
+  \item ALU, 276
+
+  \indexspace
+
+  \item bus
+    \subitem control, 275
+
+  \indexspace
+
+  \item capacitor, 308
+  \item control unit, 271
+  \item cycle
+    \subitem execution, 291
+    \subitem fetch, 289
+    \subitem instruction, 298
+    \subitem machine, 297
+
+  \indexspace
+
+  \item debounce, 307
+
+  \indexspace
+
+  \item full-wave rectifier, 308
+  \item fullstop, 280
+
+  \indexspace
+
+  \item input output unit, 271
+  \item instruction field, 284
+  \item instruction register, 275
+  \item interface circuit, 276
+
+  \indexspace
+
+  \item language
+    \subitem assembly, 277
+    \subitem machine, 283
+  \item LED, 276
+
+  \indexspace
+
+  \item machine language, 283
+  \item macroinstructions, 300
+  \item matrix
+    \subitem control, 310
+  \item memory reference instructions, 280
+  \item microinstruction, 300
+  \item microprocessor, 280
+  \item microprogram, 299
+
+  \indexspace
+
+  \item nop, 291
+
+  \indexspace
+
+  \item op code, 281
+  \item operand, 282
+  \item operation
+    \subitem memory read, 275
+
+  \indexspace
+
+  \item pointer, 273
+  \item port
+    \subitem output, 276
+  \item printer, 276
+  \item program, 273
+  \item program counter, 273
+  \item push button, 283
+
+  \indexspace
+
+  \item register
+    \subitem output, 276
+
+  \indexspace
+
+  \item spdt, 307
+  \item state
+    \subitem address, 287
+    \subitem counter, 310
+    \subitem increment, 289
+    \subitem tri, 271
+    \subitem two, 271
+
+  \indexspace
+
+  \item timing states, 286
+
+  \indexspace
+
+  \item اشارہ گر, 273
+  \item برق گیر, 308
+  \item برنامہ, 273
+  \item بلا ٹپک, 307
+  \item جزو پتہ, 284
+  \item جزو ہدایت, 284
+  \item حال
+    \subitem بڑھوتری, 289
+    \subitem دو, 271
+    \subitem سہ, 271
+    \subitem فارغ, 291
+    \subitem پتہ, 287
+    \subitem گنت کار, 310
+  \item حسابی مرکز, 276
+  \item خارجی دفتر, 276
+  \item خارجی روزن, 276
+  \item ختمہ, 280
+  \item خرد برنامہ, 299
+  \item خرد عامل کار, 280
+  \item خرد ہدایت, 299
+  \item داب بتام, 283
+  \item دخول و خروج مرکز, 271
+  \item دفتر ہدایت, 275
+  \item دور
+    \subitem ملاپی, 276
+  \item راجع ہدایات, 280
+  \item رمز, 281
+  \item زبان
+    \subitem مادری, 277
+    \subitem مشینی, 283
+  \item زیر عمل, 282
+  \item سوئچ
+    \subitem ایک قطب دو چال, 307
+
+  \indexspace
+
+  \item قابو مرکز, 271
+  \item قالب
+    \subitem قابو, 310
+  \item مادری زبان, 277
+  \item مشینی زبان, 283
+  \item مکمل لہر سمت کار, 308
+  \item نوری ڈایوڈ, 276
+  \item وقتیہ حال, 286
+  \item پرنٹر, 276
+  \item پھیرا
+    \subitem بازیابی, 289
+    \subitem تعمیلی, 291
+    \subitem مشینی, 297
+    \subitem ہدایتی, 298
+
+  \indexspace
+
+  \item کلاں ہدایات, 300
+  \item گزرگاہ
+    \subitem قابو, 275
+
+  \indexspace
+
+  \item ہدایت پڑھ عمل, 275
+  \item ہدایت گنت کار, 273
+
+\end{theindex}

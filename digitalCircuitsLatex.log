@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  26 NOV 2023 17:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  30 NOV 2023 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202311261059.tex)...disabled (restricted).
+runsystem(touch w18-test-20231130974.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202311261059.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231130974.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -4471,11 +4471,8 @@ LaTeX Info: Redefining \rmfamily on input line 492.
 LaTeX Info: Redefining \sffamily on input line 492.
 LaTeX Info: Redefining \ttfamily on input line 492.
 
-Underfull \hbox (badness 6236) in paragraph at lines 492--509
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ١٢.‏٢[] میں کمپیوٹر کے \TU/AASameerSagarN
-astaleeqBold(0)/m/n/10 رموز [][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 پیش ہی
-ں۔ یوں ” نقل الف“ کی ہدایت کے لئے کمپیوٹر $[]$ کا ثنائی رمز استعمال کرتا[]
- []
+Overfull \vbox (0.62694pt too high) has occurred while \output is active []
+
 
 [281]
 LaTeX Info: Redefining \rmfamily on input line 514.
@@ -5957,13 +5954,132 @@ Underfull \hbox (badness 10000) in paragraph at lines 3409--3410
  $[]$، $[]$، اور $[]$ پتے فراہم کرنا ہو گا۔ یوں کسی بھی طریق تک[]
  []
 
-) [314] [315] [316
+LaTeX Info: Redefining \rmfamily on input line 3484.
+LaTeX Info: Redefining \sffamily on input line 3484.
+LaTeX Info: Redefining \ttfamily on input line 3484.
+LaTeX Info: Redefining \rmfamily on input line 3484.
+LaTeX Info: Redefining \sffamily on input line 3484.
+LaTeX Info: Redefining \ttfamily on input line 3484.
+LaTeX Info: Redefining \rmfamily on input line 3484.
+LaTeX Info: Redefining \sffamily on input line 3484.
+LaTeX Info: Redefining \ttfamily on input line 3484.
+
+Underfull \hbox (badness 1496) in paragraph at lines 3484--3485
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 10۔16 میں کمپیوٹر کی خرد برنامہ نویسی
+ دکھائی گئی ہے، جو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 پتہ پختہ حافظہ[][][
+] []\TU/JameelNooriNastaleeq(2)/m/sl/10 ، \TU/AASameerSagarNastaleeqBold(0)/m/n
+/10 قابل پیش بھرائی[][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 گنت کار، اور \T
+U/AASameerSagarNastaleeqBold(0)/m/n/10 قابو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3484--3485
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 پختہ حافظہ  [][][] []\TU/JameelNoori
+Nastaleeq(2)/m/sl/10 پر مشتمل ہے۔پتہ حافظہ میں ، جدول ١٢.‏٦[] میں دیے گئے ، ہر 
+ہدایت کا ابتدائی پتہ پایا جاتا ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3484--3485
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دوسرے لفظوں میں پتہ حافظہ میں جدول ١٢.‏٧[
+] کا مواد پایا جاتا ہے۔ جیسا آپ دیکھ سکتے ہیں، جمع طریق کا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3486--3487
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جب بِٹ $[]$ پتہ پختہ حافظہ کو چلائیں، ا
+بتدائی پتہ پیدا ہو گا۔ مثلاً، اگر جمع ہدایت زیر تعمیل ہو،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3489--3490
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جب $[]$ بلند ہو، قابل پیش بھرائی گنت کار 
+کا” بھر“ مداخل بلند ہو گا لہٰذا پتہ پختہ حافظہ سے گنتکار[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 3491.
+LaTeX Info: Redefining \sffamily on input line 3491.
+LaTeX Info: Redefining \ttfamily on input line 3491.
+
+Underfull \hbox (badness 5302) in paragraph at lines 3491--3492
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گی۔ بازیابی کا ہر پھیرا ایک جیسا ہو گا، چ
+ونکہ $[]$، $[]$، اور $[]$ حال کے دوران گنت کار بالترتیب $[]$، $[]$، اور[]
+ []
+
+[314] [315]
+Underfull \hbox (badness 10000) in paragraph at lines 3493--3494
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر ہدایت میں موجود ہدایتی رمز تعمیلی 
+پھیرا قابو کرتا ہے۔ اگر جمع ہدایت بازیاب کی جائے، $[]$ کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3493--3494
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ $[]$ ہوں گے۔ یہ ہدایتی رمز پتہ پختہ ح
+افظہ کو چلاتے ہوئے $[]$ (جدول ١٢.‏٧[] دیکھیں) پیدا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3493--3494
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کرے گا، جو قابل پیش بھرائی گنت کار کو بطو
+ر ابتدائی پتہ فراہم کیا جاتا ہے۔ بلند $[]$ کے دوران ساعت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3493--3494
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے اگلے کنارہ اترائی پر $[]$ قابل پیش بھر
+ائی گنت کار میں بھرا جائے گا۔ یوں گنت کار” جمع “ طریق کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3493--3494
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ابتدائی گنتی سے آغاز کرتے ہوئے آگے گنتا ہ
+ے۔ $[]$ حال کے دوران گنت کار کا مخارج $[]$، $[]$ حال کے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3495--3496
+[][]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال کے شروع میں، $[]$ اشارے کا پیش
+ کنارہ تفرق کرتے ہوئے ایک باریک مثبت سوزن پیدا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3495--3496
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کیا جاتا ہے ، جو گنت کار کو صاف کر کے $[]
+$ کرتا ہے، جو بازیابی طریق کا ابتدائی پتہ ہے۔ یوں ایک نئے مشین[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3498--3499
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 قابو پختہ حافظہ میں کمپیوٹر کے خرد ہدایات
+ ذخیرہ کیے جاتے ہیں۔ بازیابی پھیرے کے دوران، اس کو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3506--3507
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ”جمع“ ہدایت کی تعمیل کے دوران، قابو پخت
+ہ حافظہ کو تعمیلی پھیرے کے دوران $[]$، $[]$، اور $[]$ پتے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3514--3515
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 فرض کریں ”برآمد“ ہدایت کی تعمیل کی جا ر
+ہی ہے۔ ہدایتی رمز $[]$ ہو گا اور ابتدائی پتہ $[]$ ہو گا (جدول ١٢.‏٧[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3514--3515
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے مخارج $[]$، $[]$، اور $[]$ ہوں گے (جدو
+ل ١٢.‏٦[] دیکھیں)۔ یہ طریق دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(
+2)/m/sl/10 کا مواد برآمدی[]
+ []
+
+) [316] (./answer.tex) [317
 
 
 
 
 
-] (./answer.tex) [317] [318
+] [318
 
 
 ]
@@ -6936,10 +7052,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 92944 strings out of 476191
- 2264918 string characters out of 9562072
- 3616013 words of memory out of 7000000
- 112513 multiletter control sequences out of 15000+600000
+ 92953 strings out of 476191
+ 2265045 string characters out of 9562072
+ 3615069 words of memory out of 7000000
+ 112522 multiletter control sequences out of 15000+600000
  504172 words of font info for 195 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,16n,118p,2641b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s

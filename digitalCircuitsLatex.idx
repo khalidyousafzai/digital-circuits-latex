@@ -40,7 +40,7 @@
 \indexentry{microprocessor}{\arabicdigits {280}}
 \indexentry{خرد عامل کار}{\arabicdigits {280}}
 \indexentry{op code}{\arabicdigits {281}}
-\indexentry{رمز}{\arabicdigits {281}}
+\indexentry{ہدایتی رمز}{\arabicdigits {281}}
 \indexentry{operand}{\arabicdigits {282}}
 \indexentry{زیر عمل}{\arabicdigits {282}}
 \indexentry{operand}{\arabicdigits {282}}
@@ -89,3 +89,11 @@
 \indexentry{حال!گنت کار}{\arabicdigits {310}}
 \indexentry{matrix!control}{\arabicdigits {310}}
 \indexentry{قالب!قابو}{\arabicdigits {310}}
+\indexentry{presettable}{\arabicdigits {314}}
+\indexentry{قابل پیش بھرائی}{\arabicdigits {314}}
+\indexentry{address!ROM}{\arabicdigits {314}}
+\indexentry{پتہ پختہ حافظہ}{\arabicdigits {314}}
+\indexentry{control ROM}{\arabicdigits {314}}
+\indexentry{قابو پختہ حافظہ}{\arabicdigits {314}}
+\indexentry{spike}{\arabicdigits {314}}
+\indexentry{سوزن}{\arabicdigits {314}}
