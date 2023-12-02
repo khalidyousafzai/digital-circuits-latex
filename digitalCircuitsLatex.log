@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  30 NOV 2023 16:14
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  2 DEC 2023 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231130974.tex)...disabled (restricted).
+runsystem(touch w18-test-20231221189.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231130974.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231221189.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -6039,19 +6039,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3493--3494
 
 Underfull \hbox (badness 10000) in paragraph at lines 3495--3496
 [][]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال کے شروع میں، $[]$ اشارے کا پیش
- کنارہ تفرق کرتے ہوئے ایک باریک مثبت سوزن پیدا[]
+ کنارہ تفرق کرتے ہوئے ایک باریک مثبت سوزن پیدا کیا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3495--3496
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کیا جاتا ہے ، جو گنت کار کو صاف کر کے $[]
-$ کرتا ہے، جو بازیابی طریق کا ابتدائی پتہ ہے۔ یوں ایک نئے مشین[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتا ہے ، جو گنت کار کو صاف کر کے $[]$ کر
+تی ہے؛ یہ بازیابی طریق کا ابتدائی پتہ ہے۔ یوں ایک نئے مشین[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3498--3499
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 قابو پختہ حافظہ میں کمپیوٹر کے خرد ہدایات
- ذخیرہ کیے جاتے ہیں۔ بازیابی پھیرے کے دوران، اس کو[]
+ ذخیرہ کیے جاتے ہیں۔ بازیابی پھیرے کے دوران، قابو پختہ[]
  []
 
 
@@ -6066,20 +6066,209 @@ Underfull \hbox (badness 10000) in paragraph at lines 3514--3515
 ہی ہے۔ ہدایتی رمز $[]$ ہو گا اور ابتدائی پتہ $[]$ ہو گا (جدول ١٢.‏٧[][]
  []
 
+LaTeX Info: Redefining \rmfamily on input line 3517.
+LaTeX Info: Redefining \sffamily on input line 3517.
+LaTeX Info: Redefining \ttfamily on input line 3517.
 
-Underfull \hbox (badness 10000) in paragraph at lines 3514--3515
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے مخارج $[]$، $[]$، اور $[]$ ہوں گے (جدو
-ل ١٢.‏٦[] دیکھیں)۔ یہ طریق دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(
-2)/m/sl/10 کا مواد برآمدی[]
+Underfull \hbox (badness 10000) in paragraph at lines 3517--3518
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدول ١٢.‏٦[] میں خرد ہدایت $[]$ فارغ رہنے
+ کی ہدایت ہے۔ یہ نقل طریق میں ایک مرتبہ اور[]
  []
 
-) [316] (./answer.tex) [317
+
+Underfull \hbox (badness 5548) in paragraph at lines 3517--3518
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 برآمد طریق میں دو مرتبہ پایا جاتا ہے۔ ساد
+ہ کمپیوٹر میں فارغ ہدایت استعمال کر کے تمام ہدایات کے لئے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3517--3518
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پھیرا موزوں ہو گا۔ تاہم، جہاں تیز رفتار د
+رکار ہو وہاں فارغ ہدایت سے چھٹکارا حاصل کر کے رفتار بڑھائی جا سکتی[]
+ []
+
+[316]
+Underfull \hbox (badness 6236) in paragraph at lines 3519--3520
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایسا $\OML/zplm/m/it/10 T$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 حال جس میں فارغ ہدایت موجود ہو کو نظر انداز کرتے ہوئے آ
+گے بڑھنے سے رفتار بڑھائی جا سکتی ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3519--3520
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 10۔16 میں معمولی تبدیلی سے ایسا کرنا 
+ممکن ہو گا۔ اس سے نقل ہدایت کا مشینی پھیرا گھٹ کر پانچ $\OML/zplm/m/it/10 T$ \T
+U/JameelNooriNastaleeq(2)/m/sl/10 حال[]
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 3519--3520
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ($[]$، $[]$، $[]$، $[]$، اور $[]$) کا رہ 
+جائے گا۔ برآمد ہدایت کا مشینی پھیرا گھٹ کر چار $\OML/zplm/m/it/10 T$ \TU/Jamee
+lNooriNastaleeq(2)/m/sl/10 حال ($[]$، $[]$، $[]$،[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 3521.
+LaTeX Info: Redefining \sffamily on input line 3521.
+LaTeX Info: Redefining \ttfamily on input line 3521.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3521--3522
+[][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 متغیر مشینی پھیرا [][][] []\TU/Jam
+eelNooriNastaleeq(2)/m/sl/10 حاصل کرنے کا ایک طریقہ شکل 10۔17 میں پیش ہے۔ نقل ہ
+دایت کے لئے $[]$ تا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3521--3522
+[]$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال ہو بہو مقررہ مشینی پھیرا کی طرح 
+ہیں۔ $[]$ حال کے آغاز میں قابو پختہ حافظہ $[]$ (یعنی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3521--3522
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 فارغ خرد ہدایت) پیدا کرے گا۔ ضرب متمم گیٹ
+ اس ہدایت کو فوراً پہچان کر پست $[]$ خارج کرتا ہے۔[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3521--3522
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جیسا شکل 10۔18 میں دکھایا گیا ہے، ضرب گیٹ
+ کی مدد سے $[]$ چھلا گنت کار کو مہیا کیا گیا ہے۔ چھلا[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3521--3522
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 گنت کار فوراً $[]$ حال اختیار کر کے نئے م
+شینی پھیرے کا آغاز کرتا ہے۔ یوں نقل ہدایت چھ سے گھٹ کر پانچ حال کا ہو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3523--3524
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برآمد ہدایت میں پہلا فارغ خرد ہدایت $[]
+$ حال میں پایا جاتا ہے۔ یوں $[]$ حال کے آغاز میں قابو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3523--3524
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پختہ حافظہ $[]$ دیگا جس کو ضرب متمم گیٹ پ
+ہچان کر پست $[]$ پیدا کر کے چھلا گنت کار کو $[]$[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 3525.
+LaTeX Info: Redefining \sffamily on input line 3525.
+LaTeX Info: Redefining \ttfamily on input line 3525.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3525--3526
+[][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 خرد عامل کار []\TU/JameelNooriNast
+aleeq(2)/m/sl/10 (\TU/AASameerSagarNastaleeqBold(0)/m/n/10 مائکروپراسیسر[][][][
+] \TU/JameelNooriNastaleeq(2)/m/sl/10 ) عموماً متغیر مشینی پھیرا استعمال کرتے ہ
+یں۔ مثال کے طور پر، $[]$ میں ، تمام[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3528--3529
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 خرد برنامہ نویسی کا ایک فائدہ ہدایت رمز ک
+شا اور قابو قالب سے چھٹکارا ہے؛ زیادہ ہدایات کی صورت میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3528--3529
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دونوں نہایت پیچیدہ ہوں گے۔ دوسرے لفظوں می
+ں، پختہ حافظہ میں خرد ہدایات ذخیرہ کرنا ہدایت[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3530--3531
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مزید، ہدایت رمز کشا اور قابو قالب بنانے
+ کے بعد ان میں تبدیلی لانا آسان نہیں ہو گا۔ آپ کو تاریں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3530--3531
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 اتار کر دوبارہ لگانی ہوں گی۔ خرد برنامہ ن
+ویسی کی صورت میں ایسا کرنے کی ضرورت نہیں؛ آپ کو صرف قابو پختہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3533--3534
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدید خرد عامل کار زیادہ تر قابو پختہ حافظ
+ہ اور ابتدائی پتہ حافظہ استعمال کرتے ہیں۔ ان کے خرد[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3533--3534
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامہ جدول زیادہ پیچیدہ ہوں گے، تاہم بنی
+ادی فلسفہ یہی ہو گا جو اس باب میں بتایا گیا۔ خرد ہدایات قابو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3533--3534
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 پختہ حافظہ میں ذخیرہ کیے جاتے ہیں اور ان 
+تک رسائی درکار ہدایت کے پتہ فراہم کرنے سے ہو کی جاتی[]
+ []
+
+[317]
+Underfull \hbox (badness 10000) in paragraph at lines 3558--3563
+[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٢:  آپ نے سوال ١٢.‏١[] میں برنا
+مہ لکھا۔ اس کا ترجمہ مشینی زبان میں کریں۔ مشینی زبان میں جواب[]
+ []
+
+
+Underfull \vbox (badness 4013) has occurred while \output is active []
+
+ [318]
+Underfull \hbox (badness 10000) in paragraph at lines 3589--3594
+[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٤:  گزشتہ سوال میں لکھا گیا برن
+امہ مشینی زبان میں ترجمہ کریں۔ جواب ثنائی اور اساس سولہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3599--3604
+[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٦:  فرض کریں $[]$ کی ساعت کا تع
+دد $[]$ ہے۔ جمع ہدایت کی بازیابی اور تعمیل کے لئے چار $\OML/zplm/m/it/10 T$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3610--3613
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جواب: ” نقل “ کے لئے $[]$، $[]$، $[]$ ی
+ا $[]$، $[]$،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3610--3613
+[]$[]$\TU/JameelNooriNastaleeq(2)/m/sl/10 ؛ منفی کے لئے $[]$، $[]$، $[]$ یا $[]
+$،[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3613--3618
+[] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٢.٨:  فرض کریں ہم دفتر $\OML/zplm
+/m/it/10 A$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا مواد دفتر $\OML/zplm/m/it/10
+ B$ \TU/JameelNooriNastaleeq(2)/m/sl/10 میں منتقل کرنا چاہتے ہیں۔ہمیں ایک نئی خ
+رد ہدایت درکار[]
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 3625--3628
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNo
+oriNastaleeq(2)/m/sl/10 کا مواد $[]$ کے کنارہ چڑھائی پر کہ کنارہ اترائی پر تبدی
+ل ہو گا؟ اس لمحے $[]$ کا کنارہ چڑھائی[]
+ []
+
+[319]
+Underfull \hbox (badness 10000) in paragraph at lines 3647--3648
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اگر $[]$، $[]$ ، اور $[]$ ہو تب بلند $[
+]$ کی صورت میں $\OML/zplm/m/it/10 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 گزرگاہ
+ پر[]
+ []
+
+) [320] (./answer.tex) [321
 
 
 
 
 
-] [318
+] [322
 
 
 ]
@@ -7052,12 +7241,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 92953 strings out of 476191
- 2265045 string characters out of 9562072
- 3615069 words of memory out of 7000000
- 112522 multiletter control sequences out of 15000+600000
+ 92962 strings out of 476191
+ 2265184 string characters out of 9562072
+ 3615156 words of memory out of 7000000
+ 112531 multiletter control sequences out of 15000+600000
  504172 words of font info for 195 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,16n,118p,2641b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (56 pages).
+Output written on digitalCircuitsLatex.pdf (60 pages).
