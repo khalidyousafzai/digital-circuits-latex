@@ -694,7 +694,7 @@
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {1}}ایس آر پلٹ}{\arabicdigits {261}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\arabicdigits {264}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {11}.\arabicdigits {3}.\arabicdigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\arabicdigits {269}}{}%
-\contentsline {chapter}{\numberline {\arabicdigits {12}}سادہ ترین کمپیوٹر}{\arabicdigits {271}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {12}} کمپیوٹر الف}{\arabicdigits {271}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {1}}بناؤٹ}{\arabicdigits {271}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {2}}ہدایات کی فہرست}{\arabicdigits {277}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {3}}کمپیوٹر کی برنامہ نویسی}{\arabicdigits {281}}{}%
@@ -729,6 +729,6 @@
 \egroup 
 \selectlanguage *{urdu}
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {6}}خرد برنامہ}{\arabicdigits {299}}{}%
-\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {7}}سادہ کمپیوٹر کا نقشہ دور}{\arabicdigits {301}}{}%
+\contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {7}}کمپیوٹر الف کا نقشہ}{\arabicdigits {301}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {8}}خرد برنامہ نویسی}{\arabicdigits {311}}{}%
 \contentsline {chapter}{جوابات}{\arabicdigits {321}}{}%
