@@ -731,4 +731,8 @@
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {6}}خرد برنامہ}{\arabicdigits {299}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {7}}کمپیوٹر الف کا نقشہ}{\arabicdigits {301}}{}%
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {8}}خرد برنامہ نویسی}{\arabicdigits {311}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {321}}{}%
+\contentsline {chapter}{\numberline {\arabicdigits {13}}کمپیوٹر با}{\arabicdigits {321}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {1}}دو طرفہ دفاتر}{\arabicdigits {321}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}طرز تعمیر}{\arabicdigits {322}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}حافظہ سے رجوع کرنے والی راجع ہدایات}{\arabicdigits {324}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {325}}{}%

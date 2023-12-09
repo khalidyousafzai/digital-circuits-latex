@@ -1,106 +1,28 @@
-\indexentry{state!tri}{\arabicdigits {271}}
-\indexentry{حال!سہ}{\arabicdigits {271}}
-\indexentry{state!two}{\arabicdigits {271}}
-\indexentry{حال!دو}{\arabicdigits {271}}
-\indexentry{input output unit}{\arabicdigits {271}}
-\indexentry{دخول و خروج مرکز}{\arabicdigits {271}}
-\indexentry{control unit}{\arabicdigits {271}}
-\indexentry{قابو مرکز}{\arabicdigits {271}}
-\indexentry{program}{\arabicdigits {273}}
-\indexentry{برنامہ}{\arabicdigits {273}}
-\indexentry{program counter}{\arabicdigits {273}}
-\indexentry{ہدایت گنت کار}{\arabicdigits {273}}
-\indexentry{pointer}{\arabicdigits {273}}
-\indexentry{اشارہ گر}{\arabicdigits {273}}
-\indexentry{instruction register}{\arabicdigits {275}}
-\indexentry{دفتر ہدایت}{\arabicdigits {275}}
-\indexentry{operation!memory read}{\arabicdigits {275}}
-\indexentry{ہدایت پڑھ عمل}{\arabicdigits {275}}
-\indexentry{bus!control}{\arabicdigits {275}}
-\indexentry{گزرگاہ!قابو}{\arabicdigits {275}}
-\indexentry{register!output}{\arabicdigits {276}}
-\indexentry{خارجی دفتر}{\arabicdigits {276}}
-\indexentry{port!output}{\arabicdigits {276}}
-\indexentry{خارجی روزن}{\arabicdigits {276}}
-\indexentry{printer}{\arabicdigits {276}}
-\indexentry{پرنٹر}{\arabicdigits {276}}
-\indexentry{interface circuit}{\arabicdigits {276}}
-\indexentry{دور!ملاپی}{\arabicdigits {276}}
-\indexentry{LED}{\arabicdigits {276}}
-\indexentry{نوری ڈایوڈ}{\arabicdigits {276}}
-\indexentry{ALU}{\arabicdigits {276}}
-\indexentry{حسابی مرکز}{\arabicdigits {276}}
-\indexentry{language!assembly}{\arabicdigits {277}}
-\indexentry{مادری زبان}{\arabicdigits {277}}
-\indexentry{زبان!مادری}{\arabicdigits {277}}
-\indexentry{fullstop}{\arabicdigits {280}}
-\indexentry{ختمہ}{\arabicdigits {280}}
-\indexentry{memory reference instructions}{\arabicdigits {280}}
-\indexentry{راجع ہدایات}{\arabicdigits {280}}
-\indexentry{microprocessor}{\arabicdigits {280}}
-\indexentry{خرد عامل کار}{\arabicdigits {280}}
-\indexentry{op code}{\arabicdigits {281}}
-\indexentry{ہدایتی رمز}{\arabicdigits {281}}
-\indexentry{operand}{\arabicdigits {282}}
-\indexentry{زیر عمل}{\arabicdigits {282}}
-\indexentry{operand}{\arabicdigits {282}}
-\indexentry{زیر عمل}{\arabicdigits {282}}
-\indexentry{push button}{\arabicdigits {283}}
-\indexentry{داب بتام}{\arabicdigits {283}}
-\indexentry{machine language}{\arabicdigits {283}}
-\indexentry{language!machine}{\arabicdigits {283}}
-\indexentry{مشینی زبان}{\arabicdigits {283}}
-\indexentry{زبان!مشینی}{\arabicdigits {283}}
-\indexentry{address field}{\arabicdigits {284}}
-\indexentry{جزو پتہ}{\arabicdigits {284}}
-\indexentry{instruction field}{\arabicdigits {284}}
-\indexentry{جزو ہدایت}{\arabicdigits {284}}
-\indexentry{timing states}{\arabicdigits {286}}
-\indexentry{وقتیہ حال}{\arabicdigits {286}}
-\indexentry{state!address}{\arabicdigits {287}}
-\indexentry{حال!پتہ}{\arabicdigits {287}}
-\indexentry{state!increment}{\arabicdigits {289}}
-\indexentry{حال!بڑھوتری}{\arabicdigits {289}}
-\indexentry{cycle!fetch}{\arabicdigits {289}}
-\indexentry{پھیرا!بازیابی}{\arabicdigits {289}}
-\indexentry{cycle!execution}{\arabicdigits {291}}
-\indexentry{پھیرا!تعمیلی}{\arabicdigits {291}}
-\indexentry{nop}{\arabicdigits {291}}
-\indexentry{حال!فارغ}{\arabicdigits {291}}
-\indexentry{cycle!machine}{\arabicdigits {297}}
-\indexentry{پھیرا!مشینی}{\arabicdigits {297}}
-\indexentry{cycle!instruction}{\arabicdigits {298}}
-\indexentry{پھیرا!ہدایتی}{\arabicdigits {298}}
-\indexentry{microprogram}{\arabicdigits {299}}
-\indexentry{خرد برنامہ}{\arabicdigits {299}}
-\indexentry{خرد ہدایت}{\arabicdigits {299}}
-\indexentry{microinstruction}{\arabicdigits {299}}
-\indexentry{macroinstructions}{\arabicdigits {300}}
-\indexentry{کلاں ہدایات}{\arabicdigits {300}}
-\indexentry{debounce}{\arabicdigits {307}}
-\indexentry{بلا ٹپک}{\arabicdigits {307}}
-\indexentry{spdt}{\arabicdigits {307}}
-\indexentry{سوئچ!ایک قطب دو چال}{\arabicdigits {307}}
-\indexentry{capacitor}{\arabicdigits {308}}
-\indexentry{برق گیر}{\arabicdigits {308}}
-\indexentry{full-wave rectifier}{\arabicdigits {308}}
-\indexentry{مکمل لہر سمت کار}{\arabicdigits {308}}
-\indexentry{state!counter}{\arabicdigits {310}}
-\indexentry{حال!گنت کار}{\arabicdigits {310}}
-\indexentry{matrix!control}{\arabicdigits {310}}
-\indexentry{قالب!قابو}{\arabicdigits {310}}
-\indexentry{presettable}{\arabicdigits {314}}
-\indexentry{قابل پیش بھرائی}{\arabicdigits {314}}
-\indexentry{address!ROM}{\arabicdigits {314}}
-\indexentry{پتہ پختہ حافظہ}{\arabicdigits {314}}
-\indexentry{control ROM}{\arabicdigits {314}}
-\indexentry{قابو پختہ حافظہ}{\arabicdigits {314}}
-\indexentry{spike}{\arabicdigits {314}}
-\indexentry{سوزن}{\arabicdigits {314}}
-\indexentry{machine cycle!fixed}{\arabicdigits {317}}
-\indexentry{مشینی پھیرا!مقررہ}{\arabicdigits {317}}
-\indexentry{machine cycle!variable}{\arabicdigits {317}}
-\indexentry{مشینی پھیرا!متغیر}{\arabicdigits {317}}
-\indexentry{مائکروپراسیسر}{\arabicdigits {317}}
-\indexentry{مائکروپراسیسر}{\arabicdigits {317}}
-\indexentry{خرد عامل کار}{\arabicdigits {317}}
+\indexentry{floating}{\arabicdigits {321}}
+\indexentry{غیر وابسطہ}{\arabicdigits {321}}
+\indexentry{bidirectional}{\arabicdigits {322}}
+\indexentry{دو طرفہ}{\arabicdigits {322}}
+\indexentry{keyboard}{\arabicdigits {322}}
+\indexentry{ٹائپ کار تختی}{\arabicdigits {322}}
+\indexentry{serial!in}{\arabicdigits {322}}
+\indexentry{سلسلہ وار!مداخل}{\arabicdigits {322}}
+\indexentry{monitor}{\arabicdigits {323}}
+\indexentry{نگران}{\arabicdigits {323}}
+\indexentry{memory data register}{\arabicdigits {323}}
+\indexentry{دفتر مواد}{\arabicdigits {323}}
+\indexentry{ALU}{\arabicdigits {323}}
+\indexentry{مرکز حساب و منطق}{\arabicdigits {323}}
+\indexentry{flag}{\arabicdigits {324}}
+\indexentry{جھنڈا}{\arabicdigits {324}}
+\indexentry{جھنڈا !علامت}{\arabicdigits {324}}
+\indexentry{flag!zero}{\arabicdigits {324}}
+\indexentry{جھنڈا!صفر}{\arabicdigits {324}}
+\indexentry{flag!sign}{\arabicdigits {324}}
+\indexentry{acknowledge}{\arabicdigits {324}}
+\indexentry{تشکر}{\arabicdigits {324}}
+\indexentry{handshaking}{\arabicdigits {324}}
+\indexentry{مصافحہ}{\arabicdigits {324}}
+\indexentry{signal!ready}{\arabicdigits {324}}
+\indexentry{اشارہ!تیار}{\arabicdigits {324}}
+\indexentry{serial!out}{\arabicdigits {324}}
+\indexentry{سلسلہ وار!مخارج}{\arabicdigits {324}}
