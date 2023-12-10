@@ -603,6 +603,18 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>مرکز</keyword>
 <keyword>مراکز</keyword>
 <keyword>طریق</keyword>
+<keyword>پھیرا</keyword>
+<keyword>پھیرے</keyword>
+<keyword>پھیروں</keyword>
+<keyword>کتابچہ</keyword>
+<keyword>تبادلہ</keyword>
+<keyword>لفظ</keyword>
+<keyword>الفاظ</keyword>
+<keyword>لفظوں</keyword>
+<keyword>دہان</keyword>
+<keyword>دھیان</keyword>
+<keyword>معائنہ</keyword>
+
 
 
         </context>
@@ -669,6 +681,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>راس</keyword>
 <keyword>راسیں</keyword>
 <keyword>راہ</keyword>
+<keyword>راہیں</keyword>
 <keyword>سرحد</keyword>
 <keyword>سعت</keyword>
 <keyword>سنک</keyword>
@@ -911,6 +924,18 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 <keyword>درآمد</keyword>
 <keyword>برآمد</keyword>
 <keyword>نویسی</keyword>
+<keyword>کتاب</keyword>
+<keyword>بھرائی</keyword>
+<keyword>وجہ</keyword>
+<keyword>دستی</keyword>
+<keyword>صلاحیت</keyword>
+<keyword>بیٹھک</keyword>
+<keyword>غرض</keyword>
+<keyword>تعمیر</keyword>
+<keyword>تفصیل</keyword>
+<keyword>نشاندہی</keyword>
+<keyword>تعمیل</keyword>
+
 
         </context>
 
@@ -992,13 +1017,25 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>بائٹ</keyword>
 	<keyword>بِٹ</keyword>
 	<keyword>بِٹوں</keyword>
+	<keyword>ریزہ</keyword>
+	<keyword>ریزے</keyword>
+	<keyword>ریزوں</keyword>
 	<keyword>حافظہ</keyword>
 	<keyword>حافظے</keyword>
 	<keyword>حافظوں</keyword>
 	<keyword>مائکروپراسیسر</keyword>
 	<keyword>مائکروکنٹرولر</keyword>
 	<keyword>کمپیوٹر</keyword>
-
+	<keyword>روزن</keyword>
+	<keyword>ارتقا</keyword>
+	<keyword>پنیا</keyword>
+	<keyword>پنیے</keyword>
+	<keyword>پنیوں</keyword>
+	<keyword>جھنڈا</keyword>
+	<keyword>جھنڈے</keyword>
+	<keyword>جھنڈوں</keyword>
+	<keyword>مصافحہ</keyword>
+	
         </context>
 
     <context id="kTechFeminine" style-ref="kTechnicalFeminine">
@@ -1042,6 +1079,7 @@ This file is placed in    khalid\.local\share\gtksourceview-3.0\language-specs\k
 	<keyword>تابعیت</keyword>
 	<keyword>اوسط</keyword>
 	<keyword>استعداد</keyword>
+	
 	
         </context>
 

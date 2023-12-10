@@ -1,5 +1,47 @@
-\newcommand*{\LDA}[1]{\text{\RL{نقل}} \, $#1$}
-\newcommand*{\ADD}[1]{\text{\RL{جمع}} \, $#1$}
-\newcommand*{\SUB}[1]{\text{\RL{منفی}} \, $#1$}
-\newcommand*{\OUT}{\text{\RL{برآمد}}}
+\newcommand*{\kop}[1]{#1}		%operand formatting
+\newcommand*{\kopBinary}[1]{#1}  	%must ensure binary data grouped into 4's should retain LTR style and donot flip
+
+\newcommand*{\دفترالف}{\text{الف}}	%urdu names of A,B,C,D registers
+\newcommand*{\دفترب}{\text{با}}
+\newcommand*{\دفترج}{\text{ج}}
+\newcommand*{\دفترد}{\text{د}}
+\newcommand*{\regA}{\text{الف}}	%english names of A,B,C,D registers
+\newcommand*{\regB}{\text{با}}
+\newcommand*{\regC}{\text{ج}}
+\newcommand*{\regD}{\text{د}}
+\newcommand*{\regPC}{\text{گنتکار}}  %گنت کار
+ 
+ 
+ \newcommand*{\نقل}[1]{\text{\RL{نقل \, #1}}}
+ \newcommand*{\جمع}[1]{\text{\RL{جمع \, #1}}}
+ \newcommand*{\منفی}[1]{\text{\RL{منفی \, #1}}}
+ \newcommand*{\برآمد}[1]{\text{\RL{برآمد \, #1}}}
+ \newcommand*{\رک}{\text{\RL{رک}}}
+ 
+\newcommand*{\ADD}[1]{\text{\RL{جمع \, #1}}}
+\newcommand*{\ANA}[1]{\text{\RL{ضرب منطقی\, #1}}}		%ضرب منطقی
+\newcommand*{\ANI}[1]{\text{\RL{ضرب  منطقی  متصل\, #1}}}	%ضرب منطقی  متصل
+\newcommand*{\CALL}[1]{\text{\RL{طلبی\, #1}}}
+\newcommand*{\CMA}{\text{\RL{متمم}}}
+\newcommand*{\DCR}[1]{\text{\RL{گھٹاو\, #1}}}
 \newcommand*{\HLT}{\text{\RL{رک}}}
+\newcommand*{\IN}[1]{\text{\RL{درآمد\, #1}}}
+\newcommand*{\INR}[1]{\text{\RL{بڑھاو\, #1}}}
+\newcommand*{\JM}[1]{\text{\RL{پہنچ منفی\, #1}}}		%
+\newcommand*{\JMP}[1]{\text{\RL{پہنچ \, #1}}}
+\newcommand*{\JNZ}[1]{\text{\RL{پہنچ غیر صفر\, #1}}}
+\newcommand*{\JZ}[1]{\text{\RL{پہنچ صفر\, #1}}}
+\newcommand*{\LDA}[1]{\text{\RL{نقل \, #1}}}
+\newcommand*{\MOV}[2]{\text{\RL{لاد\, #1 ، #2}}}
+\newcommand*{\MVI}[2]{\text{\RL{متصل\, #1 ، #2}}}
+\newcommand*{\NOP}{\text{\RL{فارغ}}}
+\newcommand*{\ORA}[1]{\text{\RL{جمع منطقی\, #1}}}		%جمع منطقی
+\newcommand*{\ORI}[1]{\text{\RL{جمع منطقی متصل\, #1}}}	%جمع  منطقی متصل
+\newcommand*{\OUT}[1]{\text{\RL{برآمد\, #1}}}
+\newcommand*{\RAL}{\text{\RL{گھوم بائیں}}}
+\newcommand*{\RAR}{\text{\RL{گھوم دائیں}}}
+\newcommand*{\RET}{\text{\RL{لوٹ}}}
+\newcommand*{\STA}[1]{\text{\RL{ذخیرہ \, #1}}}
+\newcommand*{\SUB}[1]{\text{\RL{منفی \, #1}}}
+\newcommand*{\XRA}[1]{\text{\RL{بلا شرکت \, #1}}}
+\newcommand*{\XRI}[1]{\text{\RL{بلا شرکت متصل \, #1}}}

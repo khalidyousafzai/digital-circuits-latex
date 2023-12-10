@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  9 DEC 2023 16:56
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  10 DEC 2023 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231291016.tex)...disabled (restricted).
+runsystem(touch w18-test-202312101198.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231291016.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202312101198.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -4133,12 +4133,6 @@ JameelNooriNastaleeq(2)/m/sl/10 بِٹ کی بجائے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈالنا مسئلہ پیش نہیں کریگا۔ آٹھ بِٹ ہدایت
-ی رمز استعمال کرتے ہوئے کمپیوٹر با کی ہدایات کو $[]$کی ہدایات[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 قابو و ترتیب کار وہ قابو الفاظ یا خرد ہدا
 یات پیدا کرتا ہے جو کمپیوٹر کے باقی حصوں کو ساتھ چلاتے اور ان سے کام لیتے[]
@@ -4157,33 +4151,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 لے کنارہ چڑھائی پر دفاتر کا ردعمل قابو لفظ یا خرد ہدایات[]
  []
 
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 46.
+LaTeX Font Info:    Font shape `TU/JameelNooriNastaleeq(2)/b/n' will be
+(Font)              scaled to size 7.0pt on input line 46.
 
-Underfull \hbox (badness 4752) in paragraph at lines 47--48
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNoor
-iNastaleeq(2)/m/sl/10 کا دو حال مخارج ” مرکز حساب و منطق “ کو جاتا ہے؛ اس کا سہ
- حال مخارج $\OML/zplm/m/it/10 W$ \TU/JameelNooriNastaleeq(2)/m/sl/10 گزرگاہ کو 
-جاتا ہے۔ یوں[]
+Underfull \hbox (badness 1939) in paragraph at lines 47--48
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $[]$ کا دو حال مخارج ” مرکز حساب و م
+نطق “ کو جاتا ہے؛ اس کا سہ حال مخارج $\OML/zplm/m/it/10 W$ \TU/JameelNooriNasta
+leeq(2)/m/sl/10 گزرگاہ کو جاتا ہے۔[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNoor
-iNastaleeq(2)/m/sl/10 میں موجود $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(2)
-/m/sl/10 بِٹ لفظ مسلسل مرکز حساب و منطق کو چلاتا ہے، تاہم یہی لفظ گزرگاہ پر صرف
- اس وقت ڈالا[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 یوں دفتر $[]$ میں موجود $\OT1/ppl/m/n/10 
+8$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ لفظ مسلسل مرکز حساب و منطق کو چلاتا 
+ہے، تاہم یہی لفظ گزرگاہ پر صرف اس[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 50.
 LaTeX Info: Redefining \sffamily on input line 50.
 LaTeX Info: Redefining \ttfamily on input line 50.
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 سے زیادہ قابو بِٹ ہوں گے ، جو $\OML/zplm/
-m/it/10 A$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $\OML/zplm/m/it/10 B$ \TU/Ja
-meelNooriNastaleeq(2)/m/sl/10 الفاظ پر درکار حسابی اور منطقی عمل تعین کرتے ہیں۔
- کمپیوٹر با میں مستعمل مرکز[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 52.
 LaTeX Info: Redefining \sffamily on input line 52.
 LaTeX Info: Redefining \ttfamily on input line 52.
@@ -4200,21 +4188,17 @@ aleeq(2)/m/sl/10 سے مراد ایک پلٹ کار ہے، جو کمپیوٹر �
  نظر رکھتا ہے۔ کمپیوٹر با میں دو[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 جھنڈے پائے جاتے ہیں۔کسی ہدایت پر عمل کے د
-وران دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کا مواد منف
-ی ہونے کی صورت میں  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 جھنڈا علامت [][][]
-[]
- []
-
 [323]
-Underfull \hbox (badness 1303) in paragraph at lines 55--56
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNoor
-iNastaleeq(2)/m/sl/10 کے ساتھ جمع یا اس سے منفی ہونے والا مواد دفتر $\OML/zplm/
-m/it/10 B$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی بجائے  \TU/AASameerSagarNasta
-leeqBold(0)/m/n/10 عارضی دفتر \TU/JameelNooriNastaleeq(2)/m/sl/10 میں رکھا جاتا
- ہے۔ یوں دفتر[]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $[]$ کے ساتھ جمع یا اس سے منفی ہونے 
+والا مواد دفتر $[]$ کی بجائے  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 عارضی دف
+تر \TU/JameelNooriNastaleeq(2)/m/sl/10 میں رکھا جاتا ہے۔ یوں[]
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 55--56
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $[]$ دیگر کام کے لئے استعمال کیا جا 
+سکتا ہے۔ عارضی دفتر اور دفتر $[]$ کے علاوہ کمپیوٹر با میں دفتر $[]$ بھی پایا[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 60.
@@ -4226,35 +4210,81 @@ LaTeX Info: Redefining \ttfamily on input line 60.
 LaTeX Info: Redefining \rmfamily on input line 60.
 LaTeX Info: Redefining \sffamily on input line 60.
 LaTeX Info: Redefining \ttfamily on input line 60.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNo
-oriNastaleeq(2)/m/sl/10 کا مواد روزن $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastale
-eq(2)/m/sl/10 پر بھی ڈالا جا سکتا ہے۔ روزن $\OT1/ppl/m/n/10 4$ \TU/JameelNooriN
-astaleeq(2)/m/sl/10 کا پنیا $\OT1/ppl/m/n/10 7$ \TU/JameelNooriNastaleeq(2)/m/s
-l/10 سادس عشری مرموز کار کو  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 تشکر [][]
-[] []\TU/JameelNooriNastaleeq(2)/m/sl/10 کا اشارہ بھیجتا[]
- []
-
 LaTeX Info: Redefining \rmfamily on input line 62.
 LaTeX Info: Redefining \sffamily on input line 62.
 LaTeX Info: Redefining \ttfamily on input line 62.
 
-Underfull \hbox (badness 1028) in paragraph at lines 62--63
+Underfull \hbox (badness 2213) in paragraph at lines 62--63
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 روزن $\OT1/ppl/m/n/10 4$ \TU/JameelNoor
 iNastaleeq(2)/m/sl/10 کے بِٹ $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/
 sl/10 پر بھی نظر ڈالیں جو \TU/AASameerSagarNastaleeqBold(0)/m/n/10 سلسلہ وار مخ
 ارج[][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 اشارے کو ظاہر کرتا ہے۔ایک مثال 
-میں ہم دفتر $\OML/zplm/m/it/10 A$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے[]
+میں ہم دفتر $[]$[]
  []
 
-) [324] (./answer.tex) [325
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر با کا بازیابی پھیرا وہی ہے جو پہل
+ے تھا۔ $[]$اب بھی پتہ حال ، $[]$ بڑھوتری حال، اور $[]$ حافظہ حال[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔چونکہ بازیابی پھیرا میں حافظہ سے دفتر 
+ہدایت میں برنامہ ہدایت ڈالی جاتی ہے لہٰذا کمپیوٹر با کی تمام[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ”نقل“ کی ہدایت وہی ہے جو پہلے تھی: مخاطب 
+مقام (نشان زد مقام) سے دفتر $[]$ میں حافظہ سے مواد[]
+ []
+
+[324]
+LaTeX Info: Redefining \rmfamily on input line 74.
+LaTeX Info: Redefining \sffamily on input line 74.
+LaTeX Info: Redefining \ttfamily on input line 74.
+LaTeX Info: Redefining \rmfamily on input line 74.
+LaTeX Info: Redefining \sffamily on input line 74.
+LaTeX Info: Redefining \ttfamily on input line 74.
+
+Underfull \hbox (badness 4673) in paragraph at lines 74--75
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت کے مختلف حصوں میں فرق کرنے کے لئے
+ بعض اوقات ہدایت کے پہلے حصے کو  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ہدایت
+ی رمز [][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ باقی حصے کو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ”ذخیرہ“ ایک ایسی ہدایت ہے جو دفتر $[]$ 
+کے مواد کو حافظہ میں محفوظ کرتی ہے۔ اس ہدایت کو پتہ درکار ہو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ” []“ ہدایت دیے گئے دفتر میں متصل مواد من
+تقل کرتی ہے۔یہ کمپیوٹر سے کہتی ہے کہ دیے گئے دفتر میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر کو کہتی ہے کہ دفتر $[]$ میں $[]$ 
+ڈالے۔ اس ہدایت کی تعمیل کے بعد دفتر $[]$ میں درج ذیل[]
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 101--203
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 “ کا ہدایتی رمز $[]$ ہے، ”[]“ کا ہدایتی
+ رمز $[]$ ہے، وغیرہ۔ اس باب کو پڑھتے ہوئے اس جدول سے[]
+ []
+
+[325] [326] (./answer.tex) [327
 
 
 
 
 
-] [326
+] [328
 
 
 ]
@@ -5224,12 +5254,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 61480 strings out of 476191
- 1656089 string characters out of 9562072
- 2512038 words of memory out of 7000000
- 81055 multiletter control sequences out of 15000+600000
- 495644 words of font info for 162 fonts, out of 8000000 for 9000
+ 61533 strings out of 476191
+ 1656570 string characters out of 9562072
+ 2514655 words of memory out of 7000000
+ 81107 multiletter control sequences out of 15000+600000
+ 495652 words of font info for 163 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,10n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,13n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (13 pages).
+Output written on digitalCircuitsLatex.pdf (15 pages).
