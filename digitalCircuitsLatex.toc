@@ -735,4 +735,8 @@
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {1}}دو طرفہ دفاتر}{\arabicdigits {321}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}طرز تعمیر}{\arabicdigits {322}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}حافظہ سے رجوع کرنے والی راجع ہدایات}{\arabicdigits {324}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {327}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {4}}دفتری ہدایات}{\arabicdigits {328}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\RL {لاد}}}{\arabicdigits {328}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\RL {جمع}}اور \text {\RL {منفی}}}{\arabicdigits {329}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}\text {\RL {پہنچ}}اور \text {\RL {طلبی}}ہدایات}{\arabicdigits {331}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {335}}{}%

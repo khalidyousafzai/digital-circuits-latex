@@ -1,15 +1,16 @@
 \newcommand*{\kop}[1]{#1}		%operand formatting
 \newcommand*{\kopBinary}[1]{#1}  	%must ensure binary data grouped into 4's should retain LTR style and donot flip
+\newcommand*{\زیرعمل}[1]{#1}
 
 \newcommand*{\دفترالف}{\text{الف}}	%urdu names of A,B,C,D registers
-\newcommand*{\دفترب}{\text{با}}
+\newcommand*{\دفترب}{\text{ب}}
 \newcommand*{\دفترج}{\text{ج}}
 \newcommand*{\دفترد}{\text{د}}
 \newcommand*{\regA}{\text{الف}}	%english names of A,B,C,D registers
-\newcommand*{\regB}{\text{با}}
+\newcommand*{\regB}{\text{ب}}
 \newcommand*{\regC}{\text{ج}}
 \newcommand*{\regD}{\text{د}}
-\newcommand*{\regPC}{\text{گنتکار}}  %گنت کار
+\newcommand*{\regPC}{\text{برنامہ گنتکار}}  %گنت کار
  
  
  \newcommand*{\نقل}[1]{\text{\RL{نقل \, #1}}}
@@ -29,6 +30,7 @@
 \newcommand*{\INR}[1]{\text{\RL{بڑھاو\, #1}}}
 \newcommand*{\JM}[1]{\text{\RL{پہنچ منفی\, #1}}}		%
 \newcommand*{\JMP}[1]{\text{\RL{پہنچ \, #1}}}
+%\newcommand*{\JMP}[1]{\text{\RL{شاخ \, #1}}}
 \newcommand*{\JNZ}[1]{\text{\RL{پہنچ غیر صفر\, #1}}}
 \newcommand*{\JZ}[1]{\text{\RL{پہنچ صفر\, #1}}}
 \newcommand*{\LDA}[1]{\text{\RL{نقل \, #1}}}
@@ -45,3 +47,32 @@
 \newcommand*{\SUB}[1]{\text{\RL{منفی \, #1}}}
 \newcommand*{\XRA}[1]{\text{\RL{بلا شرکت \, #1}}}
 \newcommand*{\XRI}[1]{\text{\RL{بلا شرکت متصل \, #1}}}
+
+ %short in-line versions without operands
+\newcommand*{\sADD}{\text{\RL{جمع}}}
+\newcommand*{\sANA}{\text{\RL{ضرب منطقی}}}		%ضرب منطقی
+\newcommand*{\sANI}{\text{\RL{ضرب  منطقی  متصل}}}	%ضرب منطقی  متصل
+\newcommand*{\sCALL}{\text{\RL{طلبی}}}
+\newcommand*{\sCMA}{\text{\RL{متمم}}}
+\newcommand*{\sDCR}{\text{\RL{گھٹاو}}}
+\newcommand*{\sHLT}{\text{\RL{\text{\RL{رک}}}}}
+\newcommand*{\sIN}{\text{\RL{درآمد}}}
+\newcommand*{\sINR}{\text{\RL{بڑھاو}}}
+\newcommand*{\sJM}{\text{\RL{پہنچ منفی}}}		%
+\newcommand*{\sJMP}{\text{\RL{پہنچ}}}
+\newcommand*{\sJNZ}{\text{\RL{پہنچ غیر صفر}}}
+\newcommand*{\sJZ}{\text{\RL{پہنچ صفر}}}
+\newcommand*{\sLDA}{\text{\RL{نقل}}}
+\newcommand*{\sMOV}{\text{\RL{لاد}}}
+\newcommand*{\sMVI}{\text{\RL{متصل}}}
+\newcommand*{\sNOP}{\text{\RL{فارغ}}}
+\newcommand*{\sORA}{\text{\RL{جمع منطقی}}}		%جمع منطقی
+\newcommand*{\sORI}{\text{\RL{جمع منطقی متصل}}}	%جمع  منطقی متصل
+\newcommand*{\sOUT}{\text{\RL{برآمد}}}
+\newcommand*{\sRAL}{\text{\RL{گھوم بائیں}}}
+\newcommand*{\sRAR}{\text{\RL{گھوم دائیں}}}
+\newcommand*{\sRET}{\text{\RL{لوٹ}}}
+\newcommand*{\sSTA}{\text{\RL{ذخیرہ}}}
+\newcommand*{\sSUB}{\text{\RL{منفی}}}
+\newcommand*{\sXRA}{\text{\RL{بلا شرکت}}}
+\newcommand*{\sXRI}{\text{\RL{بلا شرکت متصل}}}
