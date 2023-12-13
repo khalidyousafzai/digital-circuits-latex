@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  12 DEC 2023 16:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  13 DEC 2023 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202312121017.tex)...disabled (restricted).
+runsystem(touch w18-test-20231213663.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202312121017.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20231213663.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -4888,16 +4888,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 589--590
 Underfull \hbox (badness 10000) in paragraph at lines 589--590
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 خالی تھا) کے ساتھ $\OT1/ppl/m/n/10 8$ \TU
 /JameelNooriNastaleeq(2)/m/sl/10 مرتبہ $[]$ جمع ہو گا۔ یہی $\OT1/ppl/m/n/10 8$ 
-\TU/JameelNooriNastaleeq(2)/m/sl/10 اور $[]$ آپس میں ضرب کرنے سے حاصل ہو گا۔ دا
-ئرے[]
+\TU/JameelNooriNastaleeq(2)/m/sl/10 اور $[]$ ضرب کرنے سے حاصل ہو گا۔ دائرے کے $
+\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(2)/m/sl/10 چکر[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 589--590
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNas
-taleeq(2)/m/sl/10 چکر کاٹنے کے بعد گنتکار میں $\OT1/ppl/m/n/10 0$ \TU/JameelNoo
-riNastaleeq(2)/m/sl/10 ہو گا، لہٰذا جھنڈا صفر بلند ہو گا؛ یوں [] کی تعمیل ہو گی
- اور[]
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کاٹنے کے بعد گنتکار میں $\OT1/ppl/m/n/10 
+0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو گا، لہٰذا جھنڈا صفر بلند ہو گا؛ یوں [
+] کی تعمیل ہو گی اور کمپیوٹر دائرے[]
  []
 
 
@@ -4909,13 +4908,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 594--596
 LaTeX Info: Redefining \rmfamily on input line 599.
 LaTeX Info: Redefining \sffamily on input line 599.
 LaTeX Info: Redefining \ttfamily on input line 599.
-) [338] (./answer.tex) [339
+[338]
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ برنامہ نسبتاً سادہ ہے۔ اس میں ایک []
+ہدایت اور ایک سرخی کم ہیں۔ جب تک گنتکار صفر سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--622
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 بڑا ہو، []کمپیوٹر کو واپس” دوبارہ “ پر بھ
+یجے گی۔ جب گنتکار صفر ہو جائے، برنامہ []سے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--649
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اولین تین ہدایات، ضرب شروع ہونے سے قبل 
+،دفاتر کی ابتدائی حالت تعین کرتی ہیں۔ ابتدائی حالت[]
+ []
+
+[339]
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس طرح سوچیں: ابتدائی حالت تعین کرنے وا
+لی ہدایات کا ضرب دینے کے عمل سے کوئی تعلق نہیں۔ یہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--671
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صرف ان اعداد سے تعلق رکھتی ہیں جنہیں ضرب 
+کرنا مقصود ہو۔ ذیلی معمولہ صرف اس حصے پر مشتمل ہو گا جس کا ضرب[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامے کو نئی جگہ منتقل کرتے ہوئے ہم نے
+ $[]$ تا $[]$ پتوں کو $[]$ تا $[]$ پر نقش کیا۔ ساتھ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--689
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 تین ہدایات دفتر []کو صاف کرتی ہے، دفتر []
+میں عشری $[]$، اور دفتر []میں عشری $[]$ ڈالتی[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 687--689
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ []ہدایت( گزشتہ مثال میں دیے گئے ) ضرب
+ کار ذیلی معمولہ کو طلب کرتی ہے۔ ضرب کے اختتام پر []کی[]
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 690.
+LaTeX Info: Redefining \sffamily on input line 690.
+LaTeX Info: Redefining \ttfamily on input line 690.
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
+[][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 مقدار معلوم [][][] []\TU/JameelNoo
+riNastaleeq(2)/m/sl/10 اس معلومات کو کہتے ہیں جس کی بنا ذیلی معمولہ صحیح کام کر
+نے سے قاصر ہو گا۔پتہ $[]$ پر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 رکھے گئے ضرب کار ذیلی معمولہ کو، صحیح کام
+ کرنے کے لئے، تین مقدار معلوم ([]، []، []) درکار ہیں۔ دفتر []کو[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 صاف کر کے، دفتر []میں مضروب، اور دفتر []م
+یں ضارب ڈال کر ہم یہ مقدار معلوم ذیلی معمولہ[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کو مہیا کرتے ہیں۔ دوسرے لفظوں میں ہم $[]$
+، $[]$، اور $[]$ رکھ کر ذیلی معمولہ کو طلب[]
+ []
+
+) [340] (./answer.tex) [341
 
 
 
 
 
-] [340
+] [342
 
 
 ]
@@ -5885,12 +5960,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 61594 strings out of 476191
- 1657168 string characters out of 9562072
- 2515266 words of memory out of 7000000
- 81168 multiletter control sequences out of 15000+600000
+ 61597 strings out of 476191
+ 1657205 string characters out of 9562072
+ 2515281 words of memory out of 7000000
+ 81171 multiletter control sequences out of 15000+600000
  495652 words of font info for 163 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,13n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (27 pages).
+Output written on digitalCircuitsLatex.pdf (29 pages).
