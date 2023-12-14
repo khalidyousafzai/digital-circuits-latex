@@ -4,6 +4,8 @@
 \indexentry{دو طرفہ}{\arabicdigits {322}}
 \indexentry{keyboard}{\arabicdigits {322}}
 \indexentry{ٹائپ کار تختی}{\arabicdigits {322}}
+\indexentry{READY}{\arabicdigits {322}}
+\indexentry{تیار}{\arabicdigits {322}}
 \indexentry{serial!in}{\arabicdigits {322}}
 \indexentry{سلسلہ وار!مداخل}{\arabicdigits {322}}
 \indexentry{monitor}{\arabicdigits {323}}
@@ -18,7 +20,7 @@
 \indexentry{flag!zero}{\arabicdigits {324}}
 \indexentry{جھنڈا!صفر}{\arabicdigits {324}}
 \indexentry{flag!sign}{\arabicdigits {324}}
-\indexentry{acknowledge}{\arabicdigits {324}}
+\indexentry{ACKNOWLEDGE}{\arabicdigits {324}}
 \indexentry{تشکر}{\arabicdigits {324}}
 \indexentry{handshaking}{\arabicdigits {324}}
 \indexentry{مصافحہ}{\arabicdigits {324}}
@@ -57,3 +59,11 @@
 \indexentry{سخت افزار}{\arabicdigits {338}}
 \indexentry{parameter}{\arabicdigits {340}}
 \indexentry{مقدار معلوم}{\arabicdigits {340}}
+\indexentry{subset}{\arabicdigits {341}}
+\indexentry{سلسلہ!ذیلی}{\arabicdigits {341}}
+\indexentry{set!instruction}{\arabicdigits {342}}
+\indexentry{سلسلہ!ہدایتی}{\arabicdigits {342}}
+\indexentry{mask}{\arabicdigits {345}}
+\indexentry{نقاب}{\arabicdigits {345}}
+\indexentry{handshaking}{\arabicdigits {346}}
+\indexentry{مصافحہ}{\arabicdigits {346}}

@@ -739,5 +739,7 @@
 \contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\RL {لاد}}}{\arabicdigits {328}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\RL {جمع}}اور \text {\RL {منفی}}}{\arabicdigits {329}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}شاخ اور طلبی ہدایات}{\arabicdigits {331}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {340}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {341}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {341}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {343}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {8}}کمپیوٹر با کا خلاصہ}{\arabicdigits {347}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {349}}{}%
