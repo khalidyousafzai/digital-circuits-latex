@@ -31,7 +31,7 @@
 \indexentry{opcode}{\arabicdigits {325}}
 \indexentry{ہدایتی رمز}{\arabicdigits {325}}
 \indexentry{operand}{\arabicdigits {325}}
-\indexentry{زیر عمل}{\arabicdigits {325}}
+\indexentry{رقم زیر عمل}{\arabicdigits {325}}
 \indexentry{program!source}{\arabicdigits {330}}
 \indexentry{برنامہ!ماخذ}{\arabicdigits {330}}
 \indexentry{دستی!ترجمہ}{\arabicdigits {330}}
@@ -67,3 +67,23 @@
 \indexentry{نقاب}{\arabicdigits {345}}
 \indexentry{handshaking}{\arabicdigits {346}}
 \indexentry{مصافحہ}{\arabicdigits {346}}
+\indexentry{addressing!direct}{\arabicdigits {349}}
+\indexentry{پتہ!بلا واسطہ انداز}{\arabicdigits {349}}
+\indexentry{addressing!immediate}{\arabicdigits {349}}
+\indexentry{پتہ!متصل انداز}{\arabicdigits {349}}
+\indexentry{addressing!register}{\arabicdigits {349}}
+\indexentry{پتہ!دفتری انداز}{\arabicdigits {349}}
+\indexentry{addressing!implied}{\arabicdigits {349}}
+\indexentry{پتہ!مضمر انداز}{\arabicdigits {349}}
+\indexentry{nested loops}{\arabicdigits {352}}
+\indexentry{محیط دائرے}{\arabicdigits {352}}
+\indexentry{traffic lights}{\arabicdigits {353}}
+\indexentry{آمد و رفت بتی}{\arabicdigits {353}}
+\indexentry{amplifier}{\arabicdigits {355}}
+\indexentry{افزائش کار}{\arabicdigits {355}}
+\indexentry{loud speaker}{\arabicdigits {355}}
+\indexentry{بلند گو}{\arabicdigits {355}}
+\indexentry{square wave}{\arabicdigits {355}}
+\indexentry{چوکور موج}{\arabicdigits {355}}
+\indexentry{serial data stream}{\arabicdigits {356}}
+\indexentry{سلسلہ وار مواد کی دھار}{\arabicdigits {356}}
