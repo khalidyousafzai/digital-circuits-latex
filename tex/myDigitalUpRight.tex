@@ -791,7 +791,7 @@ coordinate(\kref\b\pcd\n)+(0,\cdelX)coordinate(\kref\b\pcm\n)+(\cdelY,0)coordina
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\kmuxD}[3][u0]{
 \def\kref{#1}
-\kBOX[#1]{#2}{#3}{4}{3}{0.3}
+\kBOX{#2}{#3}{4}{3}{0.3}
 \foreach \n/\m in{0/3,1/2,2/1,3/0}{\draw[thin](\kref\b\pb\n)--(\kref\b\p\n) (\kref\b\pl\n)node[]{\scriptsize{$\m$}};}
 \foreach \n/\m in{1/{a_0},2/{a_1}}{\draw[thin](\kref\a\pb\n)--(\kref\a\p\n) (\kref\a\pl\n)node[]{\small{$\m$}};}
 \foreach \n in{2}{\draw[thin](\kref\d\pb\n)--(\kref\d\p\n);}

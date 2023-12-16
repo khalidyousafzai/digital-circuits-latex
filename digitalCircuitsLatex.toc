@@ -733,13 +733,13 @@
 \contentsline {section}{\numberline {\arabicdigits {12}.\arabicdigits {8}}خرد برنامہ نویسی}{\arabicdigits {311}}{}%
 \contentsline {chapter}{\numberline {\arabicdigits {13}}کمپیوٹر با}{\arabicdigits {321}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {1}}دو طرفہ دفاتر}{\arabicdigits {321}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}طرز تعمیر}{\arabicdigits {322}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}حافظہ سے رجوع کرنے والی راجع ہدایات}{\arabicdigits {324}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {4}}دفتری ہدایات}{\arabicdigits {328}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\RL {لاد}}}{\arabicdigits {328}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\RL {جمع}}اور \text {\RL {منفی}}}{\arabicdigits {329}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}شاخ اور طلبی ہدایات}{\arabicdigits {331}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {341}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {343}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {8}}کمپیوٹر با کا خلاصہ}{\arabicdigits {347}}{}%
-\contentsline {chapter}{جوابات}{\arabicdigits {359}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}طرز تعمیر}{\arabicdigits {323}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}حافظہ سے رجوع کرنے والی راجع ہدایات}{\arabicdigits {326}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {4}}دفتری ہدایات}{\arabicdigits {330}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\RL {لاد}}}{\arabicdigits {330}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\RL {جمع}}اور \text {\RL {منفی}}}{\arabicdigits {331}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}شاخ اور طلبی ہدایات}{\arabicdigits {333}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {343}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {345}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {8}}کمپیوٹر با کا خلاصہ}{\arabicdigits {349}}{}%
+\contentsline {chapter}{جوابات}{\arabicdigits {367}}{}%

@@ -2,16 +2,290 @@
   ارتقائی طور پر کمپیوٹر الف  ایک قدیم  مشین ہے جو  چند سادہ ہدایت پر عمل درآمد کر سکتا ہے۔ اس باب میں  ارتقا کی اگلی کڑی  پر غور کیا جائے گا جسے ہم کمپیوٹر با کہیں گے۔ کمپیوٹر با چھلانگ  کی ہدایات  جانتا ہے جو   برنامہ  کے کسی   حصے پر دوبارہ  عمل کرنے  یا اس حصے کو نظر انداز کرنے پر کمپیوٹر کو  مجبور کر سکتی ہیں۔ جیسا آپ جلد جان پائیں گے،چھلانگ  ہدایات  کی بدولت   کمپیوٹر کی طاقت بہت زیادہ  بڑھتی ہے۔
   
   \حصہ{دو طرفہ دفاتر}
-  تاروں کی  برقی گنجائش کم کرنے کی غرض سے ہم کمپیوٹر با   کے ہر ایک دفتر اور \عددی{W} گزرگاہ کے بیچ   تاروں کا صرف ایک سلسلہ بچھائیں گے۔  شکل \حوالہء{11.1a} میں   اس تصور کی وضاحت کی گئی ہے۔ درآمدی اور برآمدی پنیے آپس میں جوڑے گئے ہیں؛ گزرگاہ  تک  تاروں کا  صرف  ایک گروہ  جاتا ہے۔
+  تاروں کی  برقی گنجائش کم کرنے کی غرض سے ہم کمپیوٹر با   کے ہر ایک دفتر اور \عددی{W} گزرگاہ کے بیچ   تاروں کا صرف ایک سلسلہ بچھائیں گے۔  شکل \حوالہ{شکل_کمپیوٹر_با_دو_طرفہ_دفتر}-الف   میں   اس تصور کی وضاحت کی گئی ہے۔ درآمدی اور برآمدی پنیے آپس میں جوڑے گئے ہیں؛ گزرگاہ  تک  تاروں کا  صرف  ایک گروہ  جاتا ہے۔
   
 کیا درآمدی اور برآمدی پنیے آپس میں جوڑنا کوئی  مسئلہ کھڑا کرتا ہے؟ جی نہیں۔ کمپیوٹر کی دوڑ کے دوران کسی ایک وقت پر  \قول{  لاد } اور\قول{  مجاز } میں  سے  صرف ایک  فعال ہو گا۔ فعال \قول{لاد}  کی صورت میں  ثنائی مواد گزرگاہ سے دفتر  کی  درآمد    کی جانب گامزن ہو گا؛ لاد  عمل کے دوران ، برآمدی راہیں \اصطلاح{   غیر وابسطہ   }\فرہنگ{غیر وابسطہ}\حاشیہب{floating}\فرہنگ{floating}ہوں گی۔ اس کے برعکس،  فعال \قول{مجاز} کی صورت میں ،  ثنائی مواد دفتر سے  گزرگاہ کی طرف گامزن ہو گا، اور درآمدی راہیں غیر وابسطہ ہوں گی۔
 
-سہ  حال دفتر کے درآمدی اور برآمدی پنیوں کو   مخلوط  دور ساز   اندرونی طور  پر  آپس میں جوڑ  سکتا ہے۔ اس سے نا صرف تاروں کی برقی گنجائش کم ہو گی بلکہ  درآمدی و برآمدی   پنیوں کی تعداد بھی کم ہو گی۔ مثلاً، شکل \حوالہء{11.1b} میں آٹھ کی بجائے چار درآمدی و برآمدی پنیے ہیں۔ 
+\begin{figure}
+\centering
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.50}
+\pgfmathsetmacro{\kpina}{1}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kW}{\kpsep}
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.40}
+\pgfmathsetmacro{\kdimX}{2*\kulH+3*\kpsep}
+\pgfmathsetmacro{\kdimY}{2*\kulV+2*\kpsep}		%two spaces between 3 pins
+\pgfmathsetmacro{\ksepX}{\kdimX+6*\kW}
+\pgfmathsetmacro{\ksepY}{\kdimY+3*\kW}
+\kBOX[uu0]{0}{0}{4}{3}{0.50}
+\draw[thin](uu0-center)node[rectangle,inner sep=0pt,text width=2cm, align=center]{\small{\RTL{سہ حال\\ دفتر}}};
+\foreach \n/\m/\q in {3/0/3,2/1/2,1/2/1,0/3/0}\draw[thin](uu0bpb\n)--++(0,-\kpin-\m*\kW/2)--++(\kulV+\kpsep+\m*\kpsep+\m*\kW/2,0)coordinate(uu0d\n)--++(0,\kdimY+2*\kpin+\m*\kW)coordinate(uu0u\n)-|(uu0dpb\q);
+\draw[thin](uu0apb0)--++(-\kpin,0)node[left]{مجاز};
+\draw[thin](uu0apb1)--++(-\kpin,0)node[left]{ساعت};
+\draw[thin](uu0apb2)--++(-\kpin,0)node[left]{لاد};
+\draw[thin](uu0apcu1)--(uu0apcm1)--(uu0apcd1);
+\foreach \n/\m in {0/3,1/2,2/1,3/0}\draw[thin](\ksepX+\n*\kW,\ksepY)coordinate(w\m)--++(0,-4);
+\draw($(w0)!0.5!(w3)$)node[above]{گزرگاہ};
+\draw[thin]($(uu0d0)!0.5!(uu0u0)$)++(0,-1.5*\kW)coordinate(kA)--(kA-|w3);
+\draw[thin]($(uu0d1)!0.5!(uu0u1)$)++(0,-0.5*\kW)coordinate(kA)--(kA-|w2);
+\draw[thin]($(uu0d2)!0.5!(uu0u2)$)++(0,+0.5*\kW)coordinate(kA)--(kA-|w1);
+\draw[thin]($(uu0d3)!0.5!(uu0u3)$)++(0,1.5*\kW)coordinate(kA)--(kA-|w0);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.50}
+\pgfmathsetmacro{\kpina}{1}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kW}{\kpsep}
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.40}
+\pgfmathsetmacro{\kdimX}{2*\kulH+3*\kpsep}
+\pgfmathsetmacro{\kdimY}{2*\kulV+2*\kpsep}		%two spaces between 3 pins
+\pgfmathsetmacro{\ksepX}{\kdimX+6*\kW}
+\pgfmathsetmacro{\ksepY}{\kdimY+0*\kW}
+\pgfmathsetmacro{\kpsepSmall}{\kdimY/4}
+\kBOX[uu0]{0}{0}{4}{3}{0.50}
+\draw[thin](uu0-center)node[rectangle,inner sep=0pt,text width=2cm, align=center]{\small{\RTL{سہ حال دفتر\\ دخول و خروج\\ اندرونی جڑا}}};
+\draw[thin](uu0apb0)--++(-\kpin,0)node[left]{مجاز};
+\draw[thin](uu0apb1)--++(-\kpin,0)node[left]{ساعت};
+\draw[thin](uu0apb2)--++(-\kpin,0)node[left]{لاد};
+\draw[thin](uu0apcu1)--(uu0apcm1)--(uu0apcd1);
+\foreach \n/\m in {0/3,1/2,2/1,3/0}\draw[thin](\ksepX+\n*\kW,\ksepY)coordinate(w\m)--++(0,-\kdimY);
+\draw($(w0)!0.5!(w3)$)node[above]{گزرگاہ};
+\draw[thin](\kdimX,0.5*\kpsepSmall)coordinate(kA)--(kA-|w0);
+\draw[thin](\kdimX,1.5*\kpsepSmall)coordinate(kA)--(kA-|w1);
+\draw[thin](\kdimX,2.5*\kpsepSmall)coordinate(kA)--(kA-|w2);
+\draw[thin](\kdimX,3.5*\kpsepSmall)coordinate(kA)--(kA-|w3);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{1\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.50}
+\pgfmathsetmacro{\kpina}{1}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kW}{\kpsep}
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.40}
+\pgfmathsetmacro{\kdimX}{2*\kulH+3*\kpsep}
+\pgfmathsetmacro{\kdimY}{2*\kulV+2*\kpsep}		%two spaces between 3 pins
+\pgfmathsetmacro{\ksepX}{\kdimX+6*\kW}
+\pgfmathsetmacro{\ksepY}{\kdimY+0*\kW}
+\pgfmathsetmacro{\kpsepSmall}{\kdimY/4}
+\kBOX[uu0]{0}{0}{4}{3}{0.50}
+\draw[thin](uu0-center)node[rectangle,inner sep=0pt,text width=2cm, align=center]{\small{\RTL{دو طرفہ\\ دفتر}}};
+\draw[thin](uu0apb0)--++(-\kpin,0)node[left]{$E$};
+\draw[thin](uu0apb1)--++(-\kpin,0)node[left]{$CLK$};
+\draw[thin](uu0apb2)--++(-\kpin,0)node[left]{$L$};
+\draw[thin](uu0apcu1)--(uu0apcm1)--(uu0apcd1);
+\draw[thick](\ksepX+\kW,\ksepY) rectangle ++(1*\kW,-\kdimY);
+\draw[thick](\ksepX+1.5*\kW,\ksepY)node[above]{گزرگاہ};
+\draw[thin](\kdimX,0.5*\kdimY)--++(\kW,\kW)coordinate[pos=0.5](aa);
+\draw[thin](\kdimX,0.5*\kdimY)--++(\kW,-\kW)coordinate[pos=0.5](bb);
+\draw[thin](\ksepX+\kW,0.5*\kdimY)--++(-\kW,\kW)coordinate[pos=0.5](cc);
+\draw[thin](\ksepX+\kW,0.5*\kdimY)--++(-\kW,-\kW)coordinate[pos=0.5](dd);
+\draw[thin](aa)--(cc);
+\draw[thin](bb)--(dd);
+\end{tikzpicture}
+\caption{}
+\end{subfigure}
+\caption{دو طرفہ دفتر}
+\label{شکل_کمپیوٹر_با_دو_طرفہ_دفتر}
+\end{figure}
+سہ  حال دفتر کے درآمدی اور برآمدی پنیوں کو   مخلوط  دور ساز   اندرونی طور  پر  آپس میں جوڑ  سکتا ہے۔ اس سے نا صرف تاروں کی برقی گنجائش کم ہو گی بلکہ  درآمدی و برآمدی   پنیوں کی تعداد بھی کم ہو گی۔ مثلاً، شکل \حوالہ{شکل_کمپیوٹر_با_دو_طرفہ_دفتر}-ب  میں آٹھ کی بجائے چار درآمدی و برآمدی پنیے ہیں۔ 
 
-شکل \حوالہء{11.1c} میں سہ حال دفتر ، جس کے درآمدی اور برآمدی  راہ  اندرونی طور پر   آپس میں جڑے ہیں، کی علامت  پیش ہے۔ دو طرفہ تیر ہمیں یاد دلاتا ہے کہ یہ راہ\اصطلاح{ دو طرفہ }\فرہنگ{دو طرفہ}\حاشیہب{bidirectional}\فرہنگ{bidirectional} ہے؛  اس پر  مواد  کسی بھی  طرف  چل سکتا ہے۔
+شکل \حوالہ{شکل_کمپیوٹر_با_دو_طرفہ_دفتر}-ج  میں سہ حال دفتر ، جس کے درآمدی اور برآمدی  راہ  اندرونی طور پر   آپس میں جڑے ہیں، کی علامت  پیش ہے۔ دو طرفہ تیر ہمیں یاد دلاتا ہے کہ یہ راہ\اصطلاح{ دو طرفہ }\فرہنگ{دو طرفہ}\حاشیہب{bidirectional}\فرہنگ{bidirectional} ہے؛  اس پر  مواد  کسی بھی  طرف  چل سکتا ہے۔
 
 \حصہ{طرز تعمیر}
-شکل  \حوالہء{11.2} میں کمپیوٹر با کی طرز تعمیر پیش ہے۔   دفاتر کے وہ برآمدات جو  گزرگاہ \عددی{W} سے منسلک   ہیں سہ حال ہیں؛ جو \عددی{W} گزرگاہ سے منسلک نہیں، وہ دو حال ہیں۔ یہاں بھی ہر ایک دفتر کو  قابو و ترتیب کار قابو اشارات (جو یہاں دکھائے نہیں گئے)  بھیجتا ہے۔  قابو اشارات ساعت کے   اگلے کنارہ چڑھائی پر دفتر کو لادنے،  یا مجاز  ہونے، یا کسی دوسرے مقصد کے لئے تیار کرتے ہیں۔ ہر ڈبے کی مختصر تفصیل درج ذیل ہے۔
+شکل \حوالہ{شکل_کمپیوٹر_با_تعمیر}  میں کمپیوٹر با کی طرز تعمیر پیش ہے۔   دفاتر کے وہ برآمدات جو  گزرگاہ \عددی{W} سے منسلک   ہیں سہ حال ہیں؛ جو \عددی{W} گزرگاہ سے منسلک نہیں، وہ دو حال ہیں۔ یہاں بھی ہر ایک دفتر کو  قابو و ترتیب کار قابو اشارات (جو یہاں دکھائے نہیں گئے)  بھیجتا ہے۔  قابو اشارات ساعت کے   اگلے کنارہ چڑھائی پر دفتر کو لادنے،  یا مجاز  ہونے، یا کسی دوسرے مقصد کے لئے تیار کرتے ہیں۔ ہر ڈبے کی مختصر تفصیل درج ذیل ہے۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\klshift}{0.25}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\knshift}{0.07}
+\pgfmathsetmacro{\kpin}{0.50}
+\pgfmathsetmacro{\kpina}{1}
+\pgfmathsetmacro{\kpsep}{0.40}			%pin to pin distance
+\pgfmathsetmacro{\kW}{0.5}
+\pgfmathsetmacro{\kAr}{0.35}
+\pgfmathsetmacro{\kulV}{0.40}			%edge clearance along vertical edge
+\pgfmathsetmacro{\kulH}{0.40}
+\pgfmathsetmacro{\kdimX}{2.5}
+\pgfmathsetmacro{\kdimXA}{2.0}
+\pgfmathsetmacro{\kdimY}{1.5}		%two spaces between 3 pins
+\pgfmathsetmacro{\ksepXW}{1}
+\pgfmathsetmacro{\ksepX}{\kdimX+2*\ksepXW+\kW}
+\pgfmathsetmacro{\ksepYA}{2}
+\pgfmathsetmacro{\ksepYB}{2.5}
+%
+%W bus
+\draw[thick](\kdimX+\ksepXW,\kdimY) rectangle ++(\kW,-8*\ksepYA);
+\draw[](\kdimX+\ksepXW+0.5*\kW,\kdimY)node[yshift=3ex,rectangle,inner sep=0pt, text width=2cm,align=center]{\RTL{$W$ گزرگاہ}} node[below]{$16$};
+
+%kLa, kRa  points to lower left and upper right corners
+\draw(0,0)coordinate(kAnchor)coordinate(kLa)  [thick] rectangle ++(\kdimX,\kdimY)coordinate(kRa) node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{مرموز کار برائے\\ سادس عشری\\ ٹائپ کار تختی}};
+\draw[thick,latex-](kAnchor)++(0,0.75*\kdimY)--++(-\kpin,0)node[left]{\RTL{تشکر}};
+\draw[thick](kAnchor)++(0,0.25*\kdimY)--++(-1.5*\kpin,0)coordinate(readyOut);
+%kLb, kRb  points to lower left and upper right corners
+\draw(kAnchor)++(0,-1*\ksepYA)coordinate(kAnchor)coordinate(kRb)  [thick] rectangle ++(\kdimX,\kdimY)coordinate(kRb) node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{داخلی روزن\\ 1}};
+%arrow head vertical
+\draw[thick](kAnchor)++(0.5*\kdimX,\kdimY)coordinate(kA)node[above]{$8$}--++(-\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(\kAr,\kAr)coordinate[pos=0.5](bb)  (aa)--(aa|-kLa)  (bb)--(bb|-kLa);
+%arrow head horizontal
+\draw[thick](kAnchor)++(\kdimX+\ksepXW,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](bb)  (aa)--(aa-| kRb)  (bb)--(bb-|kRb)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+%kLc, kRc  points to lower left and upper right corners
+\draw(kAnchor)++(0,-1*\ksepYA)coordinate(kAnchor)  [thick] rectangle ++(\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{داخلی روزن\\ 2}};
+ \draw[thick,latex-](kAnchor)++(0,0.75*\kdimY)node[above left]{$0$}--++(-1.5*\kpin,0)node[left]{\RTL{تیار}}--(readyOut);
+  \draw[thick,latex-](kAnchor)++(0,0.25*\kdimY)node[above left]{$7$}--++(-1*\kpin,0)node[left,yshift=-1ex,rectangle,text width=1.25cm,align=center]{\RTL{سلسلہ وار\\ درآمد}};
+%arrow head horizontal
+\draw[thick](kAnchor)++(\kdimX+\ksepXW,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](bb)  (aa)--(aa-| kRb)  (bb)--(bb-|kRb)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+%kLd, kRd  points to lower left and upper right corners
+\draw(kAnchor)++(0,-1*\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY) 
+node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برنامہ \\گنت کار}};
+%bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(\kdimX+\ksepXW,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](bb)  (kAnchor)++(\kdimX,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(0.5*\ksepXW,0)node[]{$16$};
+
+\draw(kAnchor)++(0,-1*\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{دفتر پتہ}};
+ %arrow head horizontal
+\draw[thick](kAnchor)coordinate(kL)++(\kdimX+\ksepXW,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate(aa) 
+ (kA)++(0,-0.5*\kAr)coordinate(bb)  (kAnchor)++(\kdimX,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(0.5*\ksepXW,0)node[]{$16$};
+ 
+ \draw(kAnchor)++(0,-1*\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{64\,K \\ \RTL{حافظہ}};
+ %arrow head vertical
+\draw[thick](kAnchor)++(0.5*\kdimX,\kdimY)coordinate(kA)node[above,yshift=0.5ex]{$16$}--++(-\kAr,\kAr)coordinate[pos=0.65](aa)  (kA)--++(\kAr,\kAr)coordinate[pos=0.65](bb)  (aa)--(aa|-kL)  (bb)--(bb|-kL);
+\draw[thick](kAnchor)++(0.5*\kdimX,0)coordinate(kA)coordinate(kB)--++(-\kAr,-\kAr)coordinate[pos=0.65](aa)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.65](bb);
+
+ \draw(kAnchor)++(0,-\ksepYB)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{مواد دفتر}};
+ \draw[thick](kAnchor)++(0.5*\kdimX,\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.65](cc)  
+ (kA)--++(\kAr,\kAr)coordinate[pos=0.65](dd)   (aa)--(cc)  (bb)--(dd);
+ \draw[thick]($(kA)!0.5!(kB)$)node[]{$8$};
+ 
+ %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(\kdimX+\ksepXW,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](bb)  (kAnchor)++(\kdimX,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(0.5*\ksepXW,0)node[]{$8$};
+
+ \draw(kAnchor)++(0,-\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{دفتر ہدایت}};
+  %arrow head horizontal
+\draw[thick](kAnchor)coordinate(kL)++(\kdimX+\ksepXW,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate(aa) 
+ (kA)++(0,-0.5*\kAr)coordinate(bb)  (kAnchor)++(\kdimX,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(0.5*\ksepXW,0)node[]{$8$};
+\draw[thick](kAnchor)++(0.5*\kdimX,0)coordinate(kA)node[below]{$8$}++(-0.5*\kAr,0)coordinate(aa)  (kA)++(0.5*\kAr,0)coordinate(bb);
+ 
+ \draw(kAnchor)++(0,-\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{قابو و ترتیب کار}};
+ \draw[thick](kAnchor)++(0.5*\kdimX,\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(\kAr,\kAr)coordinate[pos=0.5](dd)   (aa)--(cc)  (bb)--(dd); 
+ 
+ \draw[thick](kAnchor)++(0.5*\kdimX,0)coordinate(kA)++(-0.5*\kAr,0)coordinate(aa)  (kA)++(0.5*\kAr,0)coordinate(bb)
+ (kA)++(0,-\ksepYA+\kdimY)coordinate(kB)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kB)--++(\kAr,\kAr)coordinate[pos=0.5](dd)   (aa)--(cc)  (bb)--(dd)  (kB)node[below]{\RL{قابو لفظ}}; 
+ 
+ \draw(\ksepX,-1*\ksepYA)coordinate(kAnchor)coordinate(kRb)  [thick] rectangle ++(\kdimXA,\kdimY)coordinate(kRb) node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{دفتر \دفترالف}};
+  %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+ \draw[thick](kAnchor)++(0.5*\kdimXA,0)coordinate(kA)coordinate(kB)++(-0.5*\kAr,0)coordinate(aa)  
+ (kA)++(0.5*\kAr,0)coordinate(bb);
+ 
+  
+ \draw(kAnchor)++(0,-\ksepYA)coordinate(kAnchor)coordinate(kAnchorB)   [thick] rectangle ++(\kdimXA,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{مرکز حساب و منطق}};
+ 
+\draw[thick](kAnchor)++(0.5*\kdimXA,\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  
+ (kA)--++(\kAr,\kAr)coordinate[pos=0.5](dd)   (aa)--(cc)  (bb)--(dd)   ($(kA)!0.5!(kB)$)node[]{$8$};
+  
+  \draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](aa)  
+   (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](bb)  
+   (kAnchor)++(0,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate(cc)  (kA)++(0,-0.5*\kAr)coordinate(dd)
+   (aa)--(cc)  (bb)--(dd)  ($(aa)!0.5!(dd)$)node[]{$8$}; 
+ 
+\draw[thick](kAnchor)++(\kdimXA,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate(aa)  
+   (kA)++(0,-0.5*\kAr)coordinate(bb);
+ 
+  \draw(kAnchor)++(\kdimXA+\ksepXW,0)coordinate(kAnchor)   [thick] rectangle ++(0.5*\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{جھنڈے}};
+ \draw[thick](kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  
+   (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  ($(aa)!0.5!(dd)$)node[]{$2$}; 
+   
+ \draw(kAnchorB)++(0,-\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimXA,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{وقتی}};
+ 
+   %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+ \draw[thick](kAnchor)++(0.5*\kdimXA,0)coordinate(kA)coordinate(kB)++(-0.5*\kAr,0)coordinate(aa)  
+ (kA)++(0.5*\kAr,0)coordinate(bb);
+ 
+\draw[thick](kAnchor)++(0.5*\kdimXA,\kdimY)coordinate(kA)++(-0.5*\kAr,0)coordinate[](aa)  
+ (kA)++(0.5*\kAr,0)coordinate[](bb);
+\draw[thick](kAnchorB)++(0.5*\kdimXA,0)coordinate(kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](cc)  
+ (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)   ($(aa)!0.5!(dd)$)node[]{$8$};
+ 
+\draw(kAnchor)++(0,-\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimXA,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{دفتر \دفترب}};
+ 
+   %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+ \draw[thick](kAnchor)++(0.5*\kdimXA,0)coordinate(kA)coordinate(kB)++(-0.5*\kAr,0)coordinate(aa)  
+ (kA)++(0.5*\kAr,0)coordinate(bb);
+ 
+ \draw(kAnchor)++(0,-\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimXA,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{دفتر \دفترج}};
+ 
+   %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](aa)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+ \draw[thick](kAnchor)++(0.5*\kdimXA,0)coordinate(kA)coordinate(kB)++(-0.5*\kAr,0)coordinate(aa)  
+ (kA)++(0.5*\kAr,0)coordinate(bb);
+ 
+\draw(kAnchor)++(0,-\ksepYB)coordinate(kAnchor)coordinate(kAnchorC)   [thick] rectangle ++(\kdimXA,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{خارجی روزن 3}};
+ 
+   %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate[](aa)
+  (kA)++(0,-0.5*\kAr)coordinate[](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+ \draw[thick](kAnchor)++(0.5*\kdimXA,0)coordinate(kA)coordinate(kB)++(-0.5*\kAr,0)coordinate(aa)  
+ (kA)++(0.5*\kAr,0)coordinate(bb);
+
+\draw(kAnchor)++(0,-\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimXA,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{خارجی روزن 4}};
+ \draw[thick,-latex](kAnchor)++(\kdimXA,0.25*\kdimY)node[above right]{$7$}--++(\ksepXW,0)node[right]{\RTL{تشکر}};
+  \draw[thick,-latex](kAnchor)++(\kdimXA,0.75*\kdimY)node[above right]{$0$}--++(\ksepXW,0)node[right,rectangle,inner sep=0pt, text width=2cm]{\RTL{سلسلہ وار برآمد}};
+   %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate[](aa)
+  (kA)++(0,-0.5*\kAr)coordinate[](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+ 
+ \draw(kAnchorC)++(\kdimXA+\ksepXW,0)coordinate(kAnchor)   [thick] rectangle ++(0.9*\kdimX,\kdimY)
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{سادس عشری\\ نمائشی تختی}};
+ 
+   %bidirectional arrow head horizontal
+\draw[thick](kAnchor)++(-\ksepXW,0.5*\kdimY)coordinate(kA)++(0,0.5*\kAr)coordinate[](aa)
+  (kA)++(0,-0.5*\kAr)coordinate[](bb)  (kAnchor)++(0,0.5*\kdimY)coordinate(kA)--++(-\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(-\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(-0.5*\ksepXW,0)node[]{$8$};
+\end{tikzpicture}
+\caption{ کمپیوٹر با  کی بناوٹ}
+\label{شکل_کمپیوٹر_با_تعمیر}
+\end{figure}
+
 
 \جزوحصہء{داخلی روزن}
 کمپیوٹر با کے دو داخلی روزن ہیں جنہیں روزن \عددی{ 1 } اور روزن \عددی{ 2 } کہتے  ہیں۔  سادس عشری  مرموز  \اصطلاح{ٹائپ کار تختی   }\فرہنگ{ٹائپ کار تختی}\حاشیہب{keyboard}\فرہنگ{keyboard} روز ن \عددی{1 }کے ساتھ جڑی ہے۔ یوں ہم  روزن  \عددی{1 }کے ذریعے سادس عشری   برنامہ ہدایات اور مواد  داخل کر سکتے ہیں۔ جیسا آپ دیکھ سکتے ہیں، سادس عشری ٹائپ کار تختی روزن   \عددی{2 }کے بِٹ \عددی{0} کو \اصطلاح{تیار} \فرہنگ{تیار}\حاشیہب{READY}\فرہنگ{READY} کا اشارہ بھیجتی  ہے۔یہ اشارہ روزن \عددی{1} میں درست مواد کی نشاندہی کرتا ہے۔
@@ -1317,7 +1591,9 @@ F00BH&C9H&\RET
 
 آئیں   ذیلی معمولہ کے سبز بتی حصہ کو تفصیل سے دیکھیں؛ پیلی بتی اور لال بتی کے حصے بھی اسی طرح ہیں۔ آغاز \MVI{\regA}{32H}  ہدایت سے ہوتا ہے جو عشری \عددی{50} گنتکار \دفترالف میں ڈالتی ہے۔ دفتر \دفترالف دیگر  کاموں کے لئے   بھی مستعمل ہے لہٰذا اس میں موجود مواد کو \STA{حفاظت} حافظہ میں\قول{ حفاظت} پتے پر رکھتی ہے۔ ذیلی معمولہ کا آخری  مقام \قول{حفاظت}   کے لئے مختص ہے، جس کی نشاندہی  ذیلی معمولہ میں آخری سرخی  کرتی ہے۔ \MVI{\regA}{02H} دفتر \دفترالف کا بائٹ \عددی{1} بلند کرتی ہے، جو روزن \عددی{4} میں سبز بتی  کے لئے مختص ہے؛ \OUT{04H} روزن \عددی{4} کے بِٹ \عددی{1} کو بلند کرتی ہے، جو بیرونی دور کو سبز بتی روشن کرنے کا حکم ہے۔
 
-ہدایت \CALL{وق1س} جدول \حوالہ{جدول_کمپیوٹر_با_دورانے} میں پیش ایک سیکنڈ وقفہ پیدا کرنے والے ذیلی معمولہ کو طلب  کرتی ہے۔\LDA{حفاظت} گنتکار میں موجودہ گنتی ڈالتی ہے جو اس وقت  عشری \عددی{50} ہو گی۔ \DCR{\regA} اس گنتی کو گھٹا کر عشری \عددی{49} کرتی ہے۔ \STA{حفاظت}  نئی گنتی(عشری  \عددی{49} ) کا تحفظ کرتی ہے۔ اس کے بعد \JNZ{دائرہس} (دائرہ سبز چھوٹا کر کے\قول{ دائرہس } لکھا گیا ہے ، تا کہ سرخی پر عائد ، زیادہ سے زیادہ  چھ علامتوں کی شرط مطمئن  ہو)  مزید ایک سیکنڈ کا  وقفہ پیدا کرنے کے لئے واپس \CALL{وق1س} کو شاخ کرتی ہے۔
+جدول \حوالہ{جدول_کمپیوٹر_با_دورانے} میں ایک سیکنڈ وقفہ کے ذیلی معمولہ کا ابتدائی پتہ \عددی{F040H} دیا گیا ہے۔یوں ایک سیکنڈ وقفہ پیدا کرنے کے لئے ہم \عددی{\CALL{F040H}} لکھ سکتے ہیں، تاہم سرخی استعمال کرتے ہوئے اسی ذیلی معمولہ کو \CALL{وق1س} لکھ کر  طلب کیا جا سکتا ہے۔ ذیلی معمولہ کے ابتدائی مقام کو با  معنی   سرخی  سے منسوب کر کے پتہ کی بجائے استعمال کرنا  آسانی پیدا کرتا ہے۔
+
+یوں  ہدایت \CALL{وق1س} ایک سیکنڈ وقفے کے ذیلی معمولہ کو طلب  کرتی ہے۔\LDA{حفاظت} گنتکار میں موجودہ گنتی ڈالتی ہے جو اس وقت  عشری \عددی{50} ہو گی۔ \DCR{\regA} اس گنتی کو گھٹا کر عشری \عددی{49} کرتی ہے۔ \STA{حفاظت}  نئی گنتی(عشری  \عددی{49} ) کا تحفظ کرتی ہے۔ اس کے بعد \JNZ{دائرہس} (دائرہ سبز چھوٹا کر کے\قول{ دائرہس } لکھا گیا ہے ، تا کہ سرخی پر عائد ، زیادہ سے زیادہ  چھ علامتوں کی شرط مطمئن  ہو)  مزید ایک سیکنڈ کا  وقفہ پیدا کرنے کے لئے واپس \CALL{وق1س} کو شاخ کرتی ہے۔
 
 ہدایت \CALL{وق1س} پورا \عددی{50} مرتبہ طلب کیا گیا ہے؛ یوں سبز بتی \عددی{50} سیکنڈ روشن  رہتی ہے۔ اس کے بعد برنامہ \JNZ{دائرہس} سے نیچے گر کو  \MVI{\regA}{06H} پہنچتا ہے۔ یہاں سے پیلی بتی قابو کرنے حصہ  شروع ہوتا ہے۔ گنتکار \دفترالف میں عشری \عددی{6} ڈال کر ایک سیکنڈ وقفے کا ذیلی معمولہ  چھ مرتبہ طلب کیا جاتا ہے؛ یوں پیلی بتی \عددی{6} سیکنڈ روشن رہے گی۔
 
@@ -1431,3 +1707,327 @@ T=\frac{1}{f}=\frac{1}{\SI{261.63}{\hertz}}=\SI{3822}{\micro\second}
 \end{center}
 \انتہا{مثال}
 %------------------------
+
+\حصہء{سوالات}
+%Q11.1
+\ابتدا{سوال}
+ایک  ماخذ برنامہ لکھیں جو دفتر \دفترالف میں عشری  \عددی{100}، دفتر\دفترب میں  عشری \عددی{150}، اور دفتر \دفترج میں  عشری \عددی{200} ڈالے۔
+
+جواب:
+\begin{center}
+\begin{tabular}{r}
+\multicolumn{1}{c}{ہدایت}\\[1ex]
+\MVI{\regA}{64H}\\
+\MVI{\regB}{96H}\\
+\MVI{\regC}{C8H}\\
+\HLT
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%----------------
+%Q11.2
+\ابتدا{سوال}
+درج بالا  ماخذ  برنامے کا دستی ترجمہ   مشینی زبان میں کریں۔ ابتدائی پتہ \عددی{2000H} رکھیں۔
+\انتہا{سوال}
+%------------------------
+%Q11.3
+\ابتدا{سوال}
+ایک ماخذ  برنامہ  لکھیں جو  حافظہ میں مقام \عددی{4000H} پر عشری \عددی{50}، مقام \عددی{4001H} پر عشری \عددی{51}، اور مقام \عددی{4002H} پر عشری \عددی{52} ذخیرہ کرے۔
+
+جواب:
+\begin{center}
+\begin{tabular}{r}
+\multicolumn{1}{c}{ہدایت}\\[1ex]
+\MVI{\regA}{32H}\\
+\STA{4000H}\\
+\MVI{\regA}{33H}\\
+\STA{4001H}\\
+\MVI{\regA}{34H}\\
+\STA{4002H}\\
+\HLT
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%--------------------------
+%Q11.4
+\ابتدا{سوال}
+درج بالا ماخذ برنامے کا دستی ترجمہ مشینی زبان میں کریں۔
+\انتہا{سوال}
+%----------------------------------------
+%Q11.5
+\ابتدا{سوال}
+ایسا ماخذ برنامہ  لکھیں جو عشری \عددی{68} اور عشری \عددی{34} جمع کر کے نتیجہ حافظہ میں مقام \عددی{5000H} پر رکھے۔
+
+جواب:
+\begin{center}
+\begin{tabular}{r}
+\multicolumn{1}{c}{ہدایت}\\[1ex]
+\MVI{\regA}{44H}\\
+\MVI{\regB}{22H}\\
+\ADD{\regB}\\
+\STA{5000H}\\
+\HLT
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%---------------------------
+%Q11.6
+\ابتدا{سوال}
+درج بالا ماخذ برنامے کا دستی ترجمہ مشینی زبان میں کریں۔ ابتدائی پتہ \عددی{2000H}  رکھیں۔
+\انتہا{سوال}
+%-----------------------------------
+%Q11.7
+\ابتدا{سوال}
+درج ذیل برنامے پر غور کریں۔
+\begin{center}
+\begin{tabular}{rr}
+\toprule
+سرخی&\multicolumn{1}{c}{ہدایت}\\[1ex]
+دائرہ:&
+\MVI{\regC}{78H}\\
+&\DCR{\regC}\\
+&\JNZ{دائرہ}\\
+&\HLT
+\end{tabular}
+\end{center}
+
+\begin{enumerate}[a.]
+\item
+ہدایت \DCR{\regC} کی تعمیل کتنی مرتبہ  کی جاتی ہے؟ عشری جواب پیش کریں۔
+\item
+برنامہ کتنے مرتبہ  دائرہ  پر واپس  لوٹتا ہے؟
+\item
+دائرہ \عددی{210} مرتبہ لینے کے لئے برنامے میں کیا تبدیلی کرنی ہو گی؟
+\end{enumerate}
+
+جواب:\quad
+(ا) \عددی{120}، (ب)  \عددی{119}، (ج) پہلی ہدایت کی جگہ \عددی{\MVI{\regC}{D2H}} استعمال کریں۔
+\انتہا{سوال}
+%---------------------------------
+%Q11.8
+\ابتدا{سوال}
+درج ذیل میں کون کون سے سرخیاں درست ہیں؟
+\begin{enumerate}[a.]
+\item
+غ100
+\item
+باخبر
+\item
+5مرتبہ
+\item
+دوسریجگہ
+\item
+م
+\item
+دوبارہ
+\end{enumerate}
+\انتہا{سوال}
+%----------------------------------
+%Q11.9
+\ابتدا{سوال}
+پتہ \عددی{F006H}  پر واقع ضرب کار ذیلی معمولہ بروئے کار لاتے ہوئے عشری  \عددی{25} اور \عددی{7} ضرب کر کے جواب \عددی{2000H} پر رکھنے کا برنامہ لکھیں۔
+
+جواب:
+\begin{center}
+\begin{tabular}{r}
+\multicolumn{1}{c}{ہدایت}\\[1ex]
+\MVI{\regA}{00H}\\
+\MVI{\regB}{19H}\\
+\MVI{\regC}{07H}\\
+\CALL{F006H}\\
+\STA{2000H}\\
+\HLT
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%----------------------------
+%Q11.10
+\ابتدا{سوال}
+ایک برنامہ لکھیں جو روزن \عددی{1} سے بائٹ لے کر دیکھے آیا  بائٹ طاق یا جفت ہے۔ طاق  صورت میں روزن \عددی{3} پر   \عددی{O} کا ایسکی رمز اور جفت  صورت میں \عددی{E} کا ایسکی رمز بھیجے۔
+\انتہا{سوال}
+%-----------------------
+%Q11.11
+%what bits per second to ask for
+\ابتدا{سوال}
+درج بالا برنامے کو یوں تبدیل کریں کہ جواب سلسلہ وار  روزن \عددی{4} کے بِٹ \عددی{0} پر برآمد کیا جائے۔(فی سیکنڈ بھیجے گئے بِٹوں کی تعداد  جو بھی ہو، قابل قبول ہو گا۔)
+
+جواب:
+\begin{center}
+\begin{tabular}{rr}
+\multicolumn{1}{c}{سرخی}&\multicolumn{1}{c}{ہدایت}\\[1ex]
+&\IN{01H}\\
+&\ANI{01H}\\
+&\JNZ{طاق}\\
+&\MVI{\regA}{45H}\\
+طاق:
+&\MVI{\regA}{4FH}\\
+ہوگیا:
+&\MVI{\regC}{08H}\\
+دوبارہ:
+&\OUT{04H}\\
+&\RAR\\
+&\DCR{\regC}\\
+&\JNZ{دوبارہ}\\
+&\HLT
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%-----------------------------------
+%Q11.12
+\ابتدا{سوال}
+ایک برنامہ لکھیں جو مصافحہ استعمال کرتے ہوئے روزن \عددی{1} سے  ایک بائٹ درآمد کر کے اس کو \عددی{4000H} پر ذخیرہ کرے۔
+\انتہا{سوال}
+%-----------------------------------
+%Q11.13
+\ابتدا{سوال}
+درج بالا ماخذ برنامے کا دستی ترجمہ کر کے  \عددی{2000H}   ابتدائی پتے پر رکھیں۔
+
+جواب:
+\begin{center}
+\begin{tabular}{rl}
+\multicolumn{1}{c}{پتہ}&\multicolumn{1}{c}{مواد}\\[1ex]
+2000H&DBH\\
+2001H&02H\\
+2002H&E6H\\
+2003H&01H\\
+2004H&CAH\\
+2005H&00H\\
+2006H&20H\\
+2007H&DBH\\
+2008H&01H\\
+2009H&32H\\
+200AH&00H\\
+200BH&40H\\
+200CH&76H
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%--------------------------------
+%Q11.14
+\ابتدا{سوال}
+ایک ذیلی معمولہ لکھیں جو تقریباً \عددی{\SI{500}{\micro\second}} کا وقفہ دے۔
+\انتہا{سوال}
+%----------------------------
+%Q11.15
+\ابتدا{سوال}
+درج بالا ذیلی معمولہ کا دستی ترجمہ کر کے  \عددی{2000H} ابتدائی پتے پر رکھیں۔
+
+جواب:
+\begin{center}
+\begin{tabular}{rl}
+\multicolumn{1}{c}{پتہ}&\multicolumn{1}{c}{مواد}\\[1ex]
+2000H&0EH\\
+2001H&23H\\
+2002H&0DH\\
+2003H&C2H\\
+2004H&02H\\
+2005H&20H\\
+2006H&C9H
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%------------------------------
+%Q11.16
+\ابتدا{سوال}
+کمپیوٹر با کا ایک ذیلی  معمولہ طلب کر کے تقریباً \عددی{\SI{35}{\milli\second}} وقفہ پیدا کرنے والا ذیلی معمولہ لکھیں۔  اس کا دستی ترجمہ کر کے ابتدائی پتہ \عددی{E000H} پر رکھیں۔
+\انتہا{سوال}
+%------------------------
+%Q11.17
+\ابتدا{سوال}
+کمپیوٹر با کا ایک ذیلی معمولہ بروئے کار لاتے ہوئے تقریباً \عددی{\SI{50}{\milli\second}} وقفہ پیدا کرنے والا ذیلی معمولہ لکھیں۔ اس کا دستی ترجمہ کر کے پتہ  \عددی{E100H} پر رکھیں۔
+
+جواب:
+\begin{center}
+\begin{tabular}{rr}
+\multicolumn{1}{c}{سرخی}&\multicolumn{1}{c}{ہدایت}\\[1ex]
+&\MVI{\regA}{05H}\\
+دائرہ:
+&\CALL{F020H}\\
+&\DCR{\regA}\\
+&\JNZ{دائرہ}\\
+&\RET
+\end{tabular}
+\end{center}
+\begin{center}
+\begin{tabular}{rl}
+\multicolumn{1}{c}{پتہ}&\multicolumn{1}{c}{مواد}\\[1ex]
+E100H&3EH\\
+E101H&05H\\
+E102H&CDH\\
+E103H&20H\\
+E104H&F0H\\
+E105H&3DH\\
+E106H&C2H\\
+E107H&02H\\
+E108H&E1H\\
+E109H&C9H
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%----------------------------
+%Q11.18
+\ابتدا{سوال}
+ہدایت \CALL{F060H} استعمال کر کے  ایک منٹ وقفہ  پیدا کرنے والا ذیلی معمولہ لکھیں۔
+\انتہا{سوال}
+%---------------------------
+%Q11.19
+\ابتدا{سوال}
+درج بالا معمولہ کا دستی ترجمہ کر کے پتہ \عددی{F080H} پر رکھیں۔
+
+جواب:
+\begin{center}
+\begin{tabular}{rl}
+\multicolumn{1}{c}{پتہ}&\multicolumn{1}{c}{مواد}\\[1ex]
+F080H&3EH\\
+F081H&06H\\
+F082H&32H\\
+F083H&93H\\
+F084H&F0H\\
+F085H&CDH\\
+F086H&60H\\
+F087H&F0H\\
+F088H&3AH\\
+F089H&93H\\
+F08AH&F0H\\
+F08BH&3DH\\
+F08CH&32H\\
+F08DH&93H\\
+F08EH&F0H\\
+F08FH&C2H\\
+F090H&85H\\
+F091H&F0H\\
+F091H&C9H
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%--------------------------------
+%Q11.20
+\ابتدا{سوال}
+روزن \عددی{4} کے بِٹ \عددی{4} پر \عددی{\SI{523.25}{\hertz}}  کی آواز پیدا کرنے کے لئے برنامہ لکھیں۔
+\انتہا{سوال}
+%--------------------------------
+%Q11.21
+\ابتدا{سوال}
+درج بالا کا دستی ترجمہ کر کے پتہ \عددی{2000H} پر رکھیں۔
+
+جواب:
+\begin{center}
+\begin{tabular}{rl}
+\multicolumn{1}{c}{پتہ}&\multicolumn{1}{c}{مواد}\\[1ex]
+2000H&D3H\\
+2001H&04H\\
+2002H&0EH\\
+2003H&42H\\
+2004H&0DH\\
+2005H&C2H\\
+2006H&04H\\
+2007H&20H\\
+2008H&2FH\\
+2009H&00H\\
+200AH&C3H\\
+200BH&00H\\
+200CH&20H
+\end{tabular}
+\end{center}
+\انتہا{سوال}
+%--------------------------------

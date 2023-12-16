@@ -1,89 +1,89 @@
 \indexentry{floating}{\arabicdigits {321}}
 \indexentry{غیر وابسطہ}{\arabicdigits {321}}
-\indexentry{bidirectional}{\arabicdigits {322}}
-\indexentry{دو طرفہ}{\arabicdigits {322}}
-\indexentry{keyboard}{\arabicdigits {322}}
-\indexentry{ٹائپ کار تختی}{\arabicdigits {322}}
-\indexentry{READY}{\arabicdigits {322}}
-\indexentry{تیار}{\arabicdigits {322}}
-\indexentry{serial!in}{\arabicdigits {322}}
-\indexentry{سلسلہ وار!مداخل}{\arabicdigits {322}}
-\indexentry{monitor}{\arabicdigits {323}}
-\indexentry{نگران}{\arabicdigits {323}}
-\indexentry{memory data register}{\arabicdigits {323}}
-\indexentry{دفتر مواد}{\arabicdigits {323}}
-\indexentry{ALU}{\arabicdigits {323}}
-\indexentry{مرکز حساب و منطق}{\arabicdigits {323}}
-\indexentry{flag}{\arabicdigits {324}}
-\indexentry{جھنڈا}{\arabicdigits {324}}
-\indexentry{جھنڈا !علامت}{\arabicdigits {324}}
-\indexentry{flag!zero}{\arabicdigits {324}}
-\indexentry{جھنڈا!صفر}{\arabicdigits {324}}
-\indexentry{flag!sign}{\arabicdigits {324}}
-\indexentry{ACKNOWLEDGE}{\arabicdigits {324}}
-\indexentry{تشکر}{\arabicdigits {324}}
-\indexentry{handshaking}{\arabicdigits {324}}
-\indexentry{مصافحہ}{\arabicdigits {324}}
-\indexentry{signal!ready}{\arabicdigits {324}}
-\indexentry{اشارہ!تیار}{\arabicdigits {324}}
-\indexentry{serial!out}{\arabicdigits {324}}
-\indexentry{سلسلہ وار!مخارج}{\arabicdigits {324}}
-\indexentry{opcode}{\arabicdigits {325}}
-\indexentry{ہدایتی رمز}{\arabicdigits {325}}
-\indexentry{operand}{\arabicdigits {325}}
-\indexentry{رقم زیر عمل}{\arabicdigits {325}}
-\indexentry{program!source}{\arabicdigits {330}}
-\indexentry{برنامہ!ماخذ}{\arabicdigits {330}}
-\indexentry{دستی!ترجمہ}{\arabicdigits {330}}
-\indexentry{assembler}{\arabicdigits {330}}
-\indexentry{مترجم}{\arabicdigits {330}}
-\indexentry{برنامہ!مترجم}{\arabicdigits {330}}
-\indexentry{branch}{\arabicdigits {331}}
-\indexentry{شاخ}{\arabicdigits {331}}
-\indexentry{fall through}{\arabicdigits {332}}
-\indexentry{سیدھا گزرنا}{\arabicdigits {332}}
-\indexentry{jump!conditional}{\arabicdigits {333}}
-\indexentry{شاخ!مشروط}{\arabicdigits {333}}
-\indexentry{jump!unconditional}{\arabicdigits {333}}
-\indexentry{شاخ!غیر مشروط}{\arabicdigits {333}}
-\indexentry{subroutine}{\arabicdigits {333}}
-\indexentry{ذیلی معمولہ}{\arabicdigits {333}}
-\indexentry{loop}{\arabicdigits {335}}
-\indexentry{software}{\arabicdigits {336}}
-\indexentry{نرم افزار}{\arabicdigits {336}}
-\indexentry{comments}{\arabicdigits {336}}
-\indexentry{تبصرہ}{\arabicdigits {336}}
-\indexentry{labels}{\arabicdigits {336}}
-\indexentry{سرخی}{\arabicdigits {336}}
-\indexentry{hardware}{\arabicdigits {338}}
-\indexentry{سخت افزار}{\arabicdigits {338}}
-\indexentry{parameter}{\arabicdigits {340}}
-\indexentry{مقدار معلوم}{\arabicdigits {340}}
-\indexentry{subset}{\arabicdigits {341}}
-\indexentry{سلسلہ!ذیلی}{\arabicdigits {341}}
-\indexentry{set!instruction}{\arabicdigits {342}}
-\indexentry{سلسلہ!ہدایتی}{\arabicdigits {342}}
-\indexentry{mask}{\arabicdigits {345}}
-\indexentry{نقاب}{\arabicdigits {345}}
-\indexentry{handshaking}{\arabicdigits {346}}
-\indexentry{مصافحہ}{\arabicdigits {346}}
-\indexentry{addressing!direct}{\arabicdigits {349}}
-\indexentry{پتہ!بلا واسطہ انداز}{\arabicdigits {349}}
-\indexentry{addressing!immediate}{\arabicdigits {349}}
-\indexentry{پتہ!متصل انداز}{\arabicdigits {349}}
-\indexentry{addressing!register}{\arabicdigits {349}}
-\indexentry{پتہ!دفتری انداز}{\arabicdigits {349}}
-\indexentry{addressing!implied}{\arabicdigits {349}}
-\indexentry{پتہ!مضمر انداز}{\arabicdigits {349}}
-\indexentry{nested loops}{\arabicdigits {352}}
-\indexentry{محیط دائرے}{\arabicdigits {352}}
-\indexentry{traffic lights}{\arabicdigits {353}}
-\indexentry{آمد و رفت بتی}{\arabicdigits {353}}
-\indexentry{amplifier}{\arabicdigits {355}}
-\indexentry{افزائش کار}{\arabicdigits {355}}
-\indexentry{loud speaker}{\arabicdigits {355}}
-\indexentry{بلند گو}{\arabicdigits {355}}
-\indexentry{square wave}{\arabicdigits {355}}
-\indexentry{چوکور موج}{\arabicdigits {355}}
-\indexentry{serial data stream}{\arabicdigits {356}}
-\indexentry{سلسلہ وار مواد کی دھار}{\arabicdigits {356}}
+\indexentry{bidirectional}{\arabicdigits {323}}
+\indexentry{دو طرفہ}{\arabicdigits {323}}
+\indexentry{keyboard}{\arabicdigits {323}}
+\indexentry{ٹائپ کار تختی}{\arabicdigits {323}}
+\indexentry{READY}{\arabicdigits {323}}
+\indexentry{تیار}{\arabicdigits {323}}
+\indexentry{serial!in}{\arabicdigits {323}}
+\indexentry{سلسلہ وار!مداخل}{\arabicdigits {323}}
+\indexentry{monitor}{\arabicdigits {325}}
+\indexentry{نگران}{\arabicdigits {325}}
+\indexentry{memory data register}{\arabicdigits {325}}
+\indexentry{دفتر مواد}{\arabicdigits {325}}
+\indexentry{ALU}{\arabicdigits {325}}
+\indexentry{مرکز حساب و منطق}{\arabicdigits {325}}
+\indexentry{flag}{\arabicdigits {326}}
+\indexentry{جھنڈا}{\arabicdigits {326}}
+\indexentry{جھنڈا !علامت}{\arabicdigits {326}}
+\indexentry{flag!zero}{\arabicdigits {326}}
+\indexentry{جھنڈا!صفر}{\arabicdigits {326}}
+\indexentry{flag!sign}{\arabicdigits {326}}
+\indexentry{ACKNOWLEDGE}{\arabicdigits {326}}
+\indexentry{تشکر}{\arabicdigits {326}}
+\indexentry{handshaking}{\arabicdigits {326}}
+\indexentry{مصافحہ}{\arabicdigits {326}}
+\indexentry{signal!ready}{\arabicdigits {326}}
+\indexentry{اشارہ!تیار}{\arabicdigits {326}}
+\indexentry{serial!out}{\arabicdigits {326}}
+\indexentry{سلسلہ وار!مخارج}{\arabicdigits {326}}
+\indexentry{opcode}{\arabicdigits {327}}
+\indexentry{ہدایتی رمز}{\arabicdigits {327}}
+\indexentry{operand}{\arabicdigits {327}}
+\indexentry{رقم زیر عمل}{\arabicdigits {327}}
+\indexentry{program!source}{\arabicdigits {332}}
+\indexentry{برنامہ!ماخذ}{\arabicdigits {332}}
+\indexentry{دستی!ترجمہ}{\arabicdigits {332}}
+\indexentry{assembler}{\arabicdigits {332}}
+\indexentry{مترجم}{\arabicdigits {332}}
+\indexentry{برنامہ!مترجم}{\arabicdigits {332}}
+\indexentry{branch}{\arabicdigits {333}}
+\indexentry{شاخ}{\arabicdigits {333}}
+\indexentry{fall through}{\arabicdigits {334}}
+\indexentry{سیدھا گزرنا}{\arabicdigits {334}}
+\indexentry{jump!conditional}{\arabicdigits {335}}
+\indexentry{شاخ!مشروط}{\arabicdigits {335}}
+\indexentry{jump!unconditional}{\arabicdigits {335}}
+\indexentry{شاخ!غیر مشروط}{\arabicdigits {335}}
+\indexentry{subroutine}{\arabicdigits {335}}
+\indexentry{ذیلی معمولہ}{\arabicdigits {335}}
+\indexentry{loop}{\arabicdigits {337}}
+\indexentry{software}{\arabicdigits {338}}
+\indexentry{نرم افزار}{\arabicdigits {338}}
+\indexentry{comments}{\arabicdigits {338}}
+\indexentry{تبصرہ}{\arabicdigits {338}}
+\indexentry{labels}{\arabicdigits {338}}
+\indexentry{سرخی}{\arabicdigits {338}}
+\indexentry{hardware}{\arabicdigits {340}}
+\indexentry{سخت افزار}{\arabicdigits {340}}
+\indexentry{parameter}{\arabicdigits {342}}
+\indexentry{مقدار معلوم}{\arabicdigits {342}}
+\indexentry{subset}{\arabicdigits {343}}
+\indexentry{سلسلہ!ذیلی}{\arabicdigits {343}}
+\indexentry{set!instruction}{\arabicdigits {344}}
+\indexentry{سلسلہ!ہدایتی}{\arabicdigits {344}}
+\indexentry{mask}{\arabicdigits {347}}
+\indexentry{نقاب}{\arabicdigits {347}}
+\indexentry{handshaking}{\arabicdigits {348}}
+\indexentry{مصافحہ}{\arabicdigits {348}}
+\indexentry{addressing!direct}{\arabicdigits {351}}
+\indexentry{پتہ!بلا واسطہ انداز}{\arabicdigits {351}}
+\indexentry{addressing!immediate}{\arabicdigits {351}}
+\indexentry{پتہ!متصل انداز}{\arabicdigits {351}}
+\indexentry{addressing!register}{\arabicdigits {351}}
+\indexentry{پتہ!دفتری انداز}{\arabicdigits {351}}
+\indexentry{addressing!implied}{\arabicdigits {351}}
+\indexentry{پتہ!مضمر انداز}{\arabicdigits {351}}
+\indexentry{nested loops}{\arabicdigits {354}}
+\indexentry{محیط دائرے}{\arabicdigits {354}}
+\indexentry{traffic lights}{\arabicdigits {355}}
+\indexentry{آمد و رفت بتی}{\arabicdigits {355}}
+\indexentry{amplifier}{\arabicdigits {357}}
+\indexentry{افزائش کار}{\arabicdigits {357}}
+\indexentry{loud speaker}{\arabicdigits {357}}
+\indexentry{بلند گو}{\arabicdigits {357}}
+\indexentry{square wave}{\arabicdigits {357}}
+\indexentry{چوکور موج}{\arabicdigits {357}}
+\indexentry{serial data stream}{\arabicdigits {358}}
+\indexentry{سلسلہ وار مواد کی دھار}{\arabicdigits {358}}
