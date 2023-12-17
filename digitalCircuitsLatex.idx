@@ -40,50 +40,50 @@
 \indexentry{برنامہ!مترجم}{\arabicdigits {332}}
 \indexentry{branch}{\arabicdigits {333}}
 \indexentry{شاخ}{\arabicdigits {333}}
-\indexentry{fall through}{\arabicdigits {334}}
-\indexentry{سیدھا گزرنا}{\arabicdigits {334}}
+\indexentry{fall through}{\arabicdigits {335}}
+\indexentry{سیدھا گزرنا}{\arabicdigits {335}}
 \indexentry{jump!conditional}{\arabicdigits {335}}
 \indexentry{شاخ!مشروط}{\arabicdigits {335}}
 \indexentry{jump!unconditional}{\arabicdigits {335}}
 \indexentry{شاخ!غیر مشروط}{\arabicdigits {335}}
 \indexentry{subroutine}{\arabicdigits {335}}
 \indexentry{ذیلی معمولہ}{\arabicdigits {335}}
-\indexentry{loop}{\arabicdigits {337}}
-\indexentry{software}{\arabicdigits {338}}
-\indexentry{نرم افزار}{\arabicdigits {338}}
-\indexentry{comments}{\arabicdigits {338}}
-\indexentry{تبصرہ}{\arabicdigits {338}}
-\indexentry{labels}{\arabicdigits {338}}
-\indexentry{سرخی}{\arabicdigits {338}}
-\indexentry{hardware}{\arabicdigits {340}}
-\indexentry{سخت افزار}{\arabicdigits {340}}
-\indexentry{parameter}{\arabicdigits {342}}
-\indexentry{مقدار معلوم}{\arabicdigits {342}}
-\indexentry{subset}{\arabicdigits {343}}
-\indexentry{سلسلہ!ذیلی}{\arabicdigits {343}}
-\indexentry{set!instruction}{\arabicdigits {344}}
-\indexentry{سلسلہ!ہدایتی}{\arabicdigits {344}}
-\indexentry{mask}{\arabicdigits {347}}
-\indexentry{نقاب}{\arabicdigits {347}}
-\indexentry{handshaking}{\arabicdigits {348}}
-\indexentry{مصافحہ}{\arabicdigits {348}}
-\indexentry{addressing!direct}{\arabicdigits {351}}
-\indexentry{پتہ!بلا واسطہ انداز}{\arabicdigits {351}}
-\indexentry{addressing!immediate}{\arabicdigits {351}}
-\indexentry{پتہ!متصل انداز}{\arabicdigits {351}}
-\indexentry{addressing!register}{\arabicdigits {351}}
-\indexentry{پتہ!دفتری انداز}{\arabicdigits {351}}
-\indexentry{addressing!implied}{\arabicdigits {351}}
-\indexentry{پتہ!مضمر انداز}{\arabicdigits {351}}
-\indexentry{nested loops}{\arabicdigits {354}}
-\indexentry{محیط دائرے}{\arabicdigits {354}}
-\indexentry{traffic lights}{\arabicdigits {355}}
-\indexentry{آمد و رفت بتی}{\arabicdigits {355}}
-\indexentry{amplifier}{\arabicdigits {357}}
-\indexentry{افزائش کار}{\arabicdigits {357}}
-\indexentry{loud speaker}{\arabicdigits {357}}
-\indexentry{بلند گو}{\arabicdigits {357}}
-\indexentry{square wave}{\arabicdigits {357}}
-\indexentry{چوکور موج}{\arabicdigits {357}}
-\indexentry{serial data stream}{\arabicdigits {358}}
-\indexentry{سلسلہ وار مواد کی دھار}{\arabicdigits {358}}
+\indexentry{loop}{\arabicdigits {338}}
+\indexentry{software}{\arabicdigits {339}}
+\indexentry{نرم افزار}{\arabicdigits {339}}
+\indexentry{comments}{\arabicdigits {339}}
+\indexentry{تبصرہ}{\arabicdigits {339}}
+\indexentry{labels}{\arabicdigits {339}}
+\indexentry{سرخی}{\arabicdigits {339}}
+\indexentry{hardware}{\arabicdigits {342}}
+\indexentry{سخت افزار}{\arabicdigits {342}}
+\indexentry{parameter}{\arabicdigits {344}}
+\indexentry{مقدار معلوم}{\arabicdigits {344}}
+\indexentry{subset}{\arabicdigits {344}}
+\indexentry{سلسلہ!ذیلی}{\arabicdigits {344}}
+\indexentry{set!instruction}{\arabicdigits {345}}
+\indexentry{سلسلہ!ہدایتی}{\arabicdigits {345}}
+\indexentry{mask}{\arabicdigits {349}}
+\indexentry{نقاب}{\arabicdigits {349}}
+\indexentry{handshaking}{\arabicdigits {349}}
+\indexentry{مصافحہ}{\arabicdigits {349}}
+\indexentry{addressing!direct}{\arabicdigits {353}}
+\indexentry{پتہ!بلا واسطہ انداز}{\arabicdigits {353}}
+\indexentry{addressing!immediate}{\arabicdigits {353}}
+\indexentry{پتہ!متصل انداز}{\arabicdigits {353}}
+\indexentry{addressing!register}{\arabicdigits {353}}
+\indexentry{پتہ!دفتری انداز}{\arabicdigits {353}}
+\indexentry{addressing!implied}{\arabicdigits {353}}
+\indexentry{پتہ!مضمر انداز}{\arabicdigits {353}}
+\indexentry{nested loops}{\arabicdigits {356}}
+\indexentry{محیط دائرے}{\arabicdigits {356}}
+\indexentry{traffic lights}{\arabicdigits {357}}
+\indexentry{آمد و رفت بتی}{\arabicdigits {357}}
+\indexentry{amplifier}{\arabicdigits {359}}
+\indexentry{افزائش کار}{\arabicdigits {359}}
+\indexentry{loud speaker}{\arabicdigits {359}}
+\indexentry{بلند گو}{\arabicdigits {359}}
+\indexentry{square wave}{\arabicdigits {359}}
+\indexentry{چوکور موج}{\arabicdigits {359}}
+\indexentry{serial data stream}{\arabicdigits {360}}
+\indexentry{سلسلہ وار مواد کی دھار}{\arabicdigits {360}}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  16 DEC 2023 18:41
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  17 DEC 2023 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,9 +1810,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-202312161121.tex)...disabled (restricted).
+runsystem(touch w18-test-202312171114.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-202312161121.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202312171114.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -4465,7 +4465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 631--632
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر با میں دو جھنڈے ہیں جنہیں \TU/AAS
 ameerSagarNastaleeqBold(0)/m/n/10 جھنڈا علامت  \TU/JameelNooriNastaleeq(2)/m/sl
 /10 اور \TU/AASameerSagarNastaleeqBold(0)/m/n/10 جھنڈا صفر  \TU/JameelNooriNast
@@ -4473,431 +4473,429 @@ aleeq(2)/m/sl/10 کہتے ہیں۔ بعض ہدایات کی تعمیل کے دو
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کے مواد کو دیکھتے ہوئے یہ جھنڈے بلند یا
  پست ہوں گے۔ دفتر []کے مواد کی علامت منفی $[]$ہونے کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صورت میں جھنڈا علامت بلند ہو گا؛ دیگر صور
 ت یہ جھنڈا پست ہو گا۔ علامتی طور پر درج ذیل لکھا جائے گا،[]
  []
 
 [333]
-Underfull \hbox (badness 10000) in paragraph at lines 652--654
+Underfull \hbox (badness 10000) in paragraph at lines 704--706
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جھنڈا علامت اس وقت تک بلند یا پست رہے گا 
 جب تک کوئی دوسری ہدایت (جو اس جھنڈے کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []کہتی ہے ، ”منفی صورت میں شاخ“ (
 منفی کی صورت میں نئی شاخ ہر چل)؛ کمپیوٹر نامزد پتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 707--708
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پر صرف اس صورت پہنچے گا جب جھنڈا علامت بل
 ند ہو۔مثال کے طور پر، فرض کریں [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 667--668
+Underfull \hbox (badness 10000) in paragraph at lines 719--720
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 چونکہ برنامہ گنت کار اب $[]$ پر نظر جمائے
  ہوئے ہے لہٰذا اگلی ہدایت حافظہ کے مقام $[]$ سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--670
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس کے برعکس، اگر $[]$ ہو، شاخ پر چلنے ک
 ا جواز موجود نہیں ہو گا، لہٰذا برنامہ گنت کار کا مواد تبدیل نہیں ہو گا اور[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 671.
-LaTeX Info: Redefining \sffamily on input line 671.
-LaTeX Info: Redefining \ttfamily on input line 671.
+LaTeX Info: Redefining \rmfamily on input line 723.
+LaTeX Info: Redefining \sffamily on input line 723.
+LaTeX Info: Redefining \ttfamily on input line 723.
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--672
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏3b میں دونوں صورتوں کی وضاحت کی
- گئی ہے۔ اگر منفی کی شرط مطمئن ہو، کمپیوٹر اگلی ہدایت کے لئے $[]$[]
+Underfull \hbox (badness 10000) in paragraph at lines 723--724
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ١٣.‏٣[]-ب میں دونوں صورتوں کی وضاحت
+ کی گئی ہے۔ اگر منفی کی شرط مطمئن ہو، کمپیوٹر اگلی ہدایت کے لئے[]
  []
 
-
-Underfull \hbox (badness 4913) in paragraph at lines 671--672
-[]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی شاخ ($[]$ پر موجود شاخ) لے گا۔ اگر منف
-ی شرط مطمئن نہ ہو، کمپیوٹر شاخ کئے بغیر  \TU/AASameerSagarNastaleeqBold(0)/m/n/
-10 سیدھا گزر کر [][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 اگلی ہدایت[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+[334]
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دوسرا جھنڈا جو دفتر []کے مواد سے متاثر ہو
 ” جھنڈا صفر “ ہے۔ بعض ہدایات کی تعمیل پر دفتر []کا مواد[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صفر $[]$ ہو گا۔ اس واقع کو جھنڈا صفر بلند
  ہو کر یاد رکھتا ہے؛ اگر دفتر []کا مواد صفر نہ ہو یہ جھنڈا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []کہتی ہے، ”صفر کی صورت میں شاخ “
  (اگر دفتر []میں صفر ہو ، اگلی ہدایت کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 لئے شاخ کر)؛ کمپیوٹر شاخ پر صرف اس صورت چ
 لے گا جب دفتر []کا مواد صفر کے برابر ہو۔ فرض کریں،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 734--735
 [][] \TU/JameelNooriNastaleeq(2)/m/sl/10 حافظہ میں مقام $[]$ پر موجود ہو۔ اس ہد
 ایت کی تعمیل کے دوران اگر $[]$ ہو، اگلی[]
  []
 
-[334]
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []کہتی ہے،” غیر صفر صورت میں شاخ “۔
 یوں شاخ پر اس صورت چلا جائے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گا جب جھنڈا صفر پست ہو؛ بلند جھنڈے کی صور
 ت میں شاخ پر نہیں چلا جائے گا۔ فرض کریں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--686
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 [][] \TU/JameelNooriNastaleeq(2)/m/sl/10 مقام $[]$ ہے۔ اگر $[]$ ہو، اگلی ہدایت 
 $[]$ سے اٹھائی جائے گی؛[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 687.
-LaTeX Info: Redefining \sffamily on input line 687.
-LaTeX Info: Redefining \ttfamily on input line 687.
-LaTeX Info: Redefining \rmfamily on input line 687.
-LaTeX Info: Redefining \sffamily on input line 687.
-LaTeX Info: Redefining \ttfamily on input line 687.
-LaTeX Info: Redefining \rmfamily on input line 690.
-LaTeX Info: Redefining \sffamily on input line 690.
-LaTeX Info: Redefining \ttfamily on input line 690.
+LaTeX Info: Redefining \rmfamily on input line 739.
+LaTeX Info: Redefining \sffamily on input line 739.
+LaTeX Info: Redefining \ttfamily on input line 739.
+LaTeX Info: Redefining \rmfamily on input line 739.
+LaTeX Info: Redefining \sffamily on input line 739.
+LaTeX Info: Redefining \ttfamily on input line 739.
+LaTeX Info: Redefining \rmfamily on input line 742.
+LaTeX Info: Redefining \sffamily on input line 742.
+LaTeX Info: Redefining \ttfamily on input line 742.
 
-Underfull \hbox (badness 10000) in paragraph at lines 690--691
+Underfull \hbox (badness 10000) in paragraph at lines 742--743
 []\TU/AASameerSagarNastaleeqBold(0)/m/n/10 ذیلی معمولہ [][][] []\TU/JameelNoori
 Nastaleeq(2)/m/sl/10 سے مراد ایسا برنامہ ہے جو حافظہ میں اس مقصد سے رکھا جاتا ہ
 ے کہ کوئی دوسرا برنامہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--693
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ”ذیلی معمولہ طلب کرنے “ کی ہدایت []ہے۔ 
 مطلوبہ ذیلی معمولہ کا ابتدائی پتہ []ہدایت کے ساتھ فراہم کیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--693
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جاتا ہے۔مثال کے طور پر، اگر جذر کا ذیلی م
 عمولہ پتہ $[]$ سے اور لوگارتھم کا ذیلی معمولہ $[]$ سے آغاز کرتا ہو،[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+[335]
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []سے مراد واپس ”لوٹنا“ ہے۔ ہر ذیل
 ی معمولے کا اختتام اس ہدایت پر ہو گا ، جو کمپیوٹر کو برنامے میں اس[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مقام پر واپس پہنچنے کو کہتی ہے جہاں سے ذی
 لی معمولہ طلب کیا گیا۔ہر ذیلی معمولہ کے اختتام پر اس ہدایت کو شامل کرنا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر با میں []کی تعمیل پر برنامہ گنت
  کار کا مواد ( اگلی ہدایت کا پتہ) حافظہ کے آخری دو مقامات[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--709
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 []$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $[]$ پر خود بہ خود رکھ دیا جاتا 
 ہے۔ اس کے بعد []میں دیا گیا پتہ برنامہ گنت کار[]
  []
 
-[335]
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل 11.‏4 میں ذیلی معمولے کے دوران برنا
-مے کا چلن پیش ہے۔ [] ہدایت کمپیوٹر کو $[]$ پر موجود ذیلی[]
+
+Underfull \hbox (badness 10000) in paragraph at lines 762--763
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شکل ١٣.‏٤[] میں ذیلی معمولے کے دوران بر
+نامے کا چلن پیش ہے۔ [] ہدایت کمپیوٹر کو $[]$ پر موجود ذیلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 712--713
+Underfull \hbox (badness 10000) in paragraph at lines 764--765
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []کی طرح []غیر مشروط ہے۔ہدایتی دف
 تر میں []ہدایت پہنچنے پر کمپیوٹر لازماً ذیلی معمولے کی پہلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 علامت اور صفر جھنڈا بعض ہدایات کے دوران ب
 لند یا پست ہو سکتے ہیں۔ جدول ١٣.‏٢[] میں ان ہدایات کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 فہرست پیش ہے جو جھنڈوں کو متاثر کر سکتے ہ
 یں۔یہ ہدایات تعمیلی پھیرے کے دوران دفتر []استعمال[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--716
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کرتی ہیں۔اگر ان ہدایات میں سے کسی ایک کی 
 تعمیل کے دوران دفتر []کا مواد صفر یا منفی ہو، جھنڈا صفر یا جھنڈا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--738
+Underfull \hbox (badness 10000) in paragraph at lines 797--819
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثلاً،فرض کریں ہدایت [] کی تعمیل جاری ہ
 ے۔ دفتر []کا مواد دفتر []کے مواد کے ساتھ جمع ہو کر دفتر[]
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 717--738
+Underfull \hbox (badness 1859) in paragraph at lines 797--819
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ڈالا جائے گا۔ اگر دفتر []کا مواد صف
 ر ہو، جھنڈا صفر بلند ہو گا (جبکہ جھنڈا علامت پست ہو گا)؛[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--738
+Underfull \hbox (badness 10000) in paragraph at lines 797--819
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 اگر دفتر []کا مواد منفی ہو، جھنڈا علامت ب
 لند ہو گا (جبکہ جھنڈا صفر پست ہو گا)۔ اگر دفتر []کا مواد مثبت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--740
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اب []اور []ہدایات پر نظر ڈالتے ہیں۔ چون
 کہ یہ ہدایات دفتر []کے ساتھ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/s
 l/10 جمع کرتے ہیں یا اس سے $\OT1/ppl/m/n/10 1$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--740
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر []بھیج کر اس سے $\OT1/ppl/m/n/10 1$ 
 \TU/JameelNooriNastaleeq(2)/m/sl/10 منفی کر کے نتیجہ (دفتر []کا مواد) واپس دفتر
  []بھیجا جاتا ہے۔ اگر []کی تعمیل[]
  []
 
-[336]
-Underfull \hbox (badness 10000) in paragraph at lines 778--780
-[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حل: شکل 11.‏5 میں برنامے کا بہاو دکھایا
- گیا ہے۔ [] ہدایت دفتر []میں $[]$ ڈالتی ہے۔[]
+[336] [337]
+Underfull \hbox (badness 10000) in paragraph at lines 859--861
+[][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حل: شکل ١٣.‏٥[] میں برنامے کا بہاو دکھا
+یا گیا ہے۔ [] ہدایت دفتر []میں $[]$ ڈالتی ہے۔[]
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 781--782
+Underfull \hbox (badness 6944) in paragraph at lines 862--863
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت [] کی تعمیل دوسری مرتبہ کرنے سے م
 واد گھٹ کر $[]$ ہو جائے گا؛ جھنڈا صفر اب بھی پست ہو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--784
+Overfull \hbox (1.50331pt too wide) in paragraph at lines 872--872
+ [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پھیرے[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 تیسری مرتبہ [] کی تعمیل مواد کو صفر کرت
 ی ہے لہٰذا جھنڈا صفر بلند ہو گا، اور [] کمپیوٹر کو[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 785.
-LaTeX Info: Redefining \sffamily on input line 785.
-LaTeX Info: Redefining \ttfamily on input line 785.
+LaTeX Info: Redefining \rmfamily on input line 890.
+LaTeX Info: Redefining \sffamily on input line 890.
+LaTeX Info: Redefining \ttfamily on input line 890.
 
-Underfull \hbox (badness 10000) in paragraph at lines 785--786
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامے کا وہ حصہ جو دہرایا جائے \TU/AAS
 ameerSagarNastaleeqBold(0)/m/n/10 دائرہ \TU/JameelNooriNastaleeq(2)/m/sl/10 فرہ
-نگدائرہ[][] []کہلاتا ہے۔جیسا شکل 11.‏5 میں دکھایا گیا ہے، اس مثال[]
+نگدائرہ[][] []کہلاتا ہے۔جیسا شکل ١٣.‏٥[] میں دکھایا گیا ہے، اس مثال[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 785--786
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ہم دائرہ ([] اور []) سے تین مرتبہ گرت
 ے ہیں۔ آپ دیکھ سکتے ہیں کہ دائرے سے گزرنے کی[]
  []
 
-[337]
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+[338]
+Underfull \hbox (badness 10000) in paragraph at lines 896--897
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر اس دائرے سے $\OT1/ppl/m/n/10 7$ \
 TU/JameelNooriNastaleeq(2)/m/sl/10 مرتبہ گزرے گا۔ اسی طرح اگر ہم چاہتے ہوں کہ د
 ائرے سے $[]$ مرتبہ (جو $[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--800
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 نامزد دفتر (جو بطور گنتکار کام کرے گا) می
 ں وہ عدد ڈالا جائے گا جتنی مرتبہ دائرے سے گزرنا مقصود ہو۔ اس دائرے[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 804.
-LaTeX Info: Redefining \sffamily on input line 804.
-LaTeX Info: Redefining \ttfamily on input line 804.
+LaTeX Info: Redefining \rmfamily on input line 909.
+LaTeX Info: Redefining \sffamily on input line 909.
+LaTeX Info: Redefining \ttfamily on input line 909.
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--805
+Underfull \hbox (badness 10000) in paragraph at lines 908--910
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.٧:  کمپیوٹر خریدتے وقت آپ اس کا 
 \TU/AASameerSagarNastaleeqBold(0)/m/n/10 نرم افزار [][][] []\TU/JameelNooriNast
 aleeq(2)/m/sl/10 (سافٹ وئیر) بھی خریدیں گے۔ ایک[]
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 803--805
+Underfull \hbox (badness 1303) in paragraph at lines 908--910
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامہ جو آپ خرید سکتے ہیں \TU/AASameerSa
 garNastaleeqBold(0)/m/n/10 مترجم  \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ آپ عل
 امتی روپ میں برنامہ لکھ کر مترجم کی مدد اس کا ترجمہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 803--805
+Underfull \hbox (badness 10000) in paragraph at lines 908--910
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مشینی زبان میں کرتے ہیں۔ دوسرے لفظوں میں،
  اگر آپ کے پاس مترجم ہو، آپ کو دستی ترجمہ کرنے کی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 806.
-LaTeX Info: Redefining \sffamily on input line 806.
-LaTeX Info: Redefining \ttfamily on input line 806.
-LaTeX Info: Redefining \rmfamily on input line 806.
-LaTeX Info: Redefining \sffamily on input line 806.
-LaTeX Info: Redefining \ttfamily on input line 806.
-
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
+LaTeX Info: Redefining \rmfamily on input line 911.
+LaTeX Info: Redefining \sffamily on input line 911.
+LaTeX Info: Redefining \ttfamily on input line 911.
+LaTeX Info: Redefining \rmfamily on input line 911.
+LaTeX Info: Redefining \sffamily on input line 911.
+LaTeX Info: Redefining \ttfamily on input line 911.
+[339]
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامہ لکھتے وقت” تبصرہ “ شامل کرنا سود
 مند ثابت ہوتا ہے۔ اس تبصرے میں آپ اپنا مقصد بیان[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 تبصرے آپ کو اپنا لکھا ہوا برنامہ سمجھنے م
 یں مدد دیں گے۔ پہلا تبصرہ ہمیں یاد دلاتا ہے کہ ہم دفتر []کو بطور گنتکار[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 استعمال کرتے ہوئے دائرے سے تین مرتبہ گزرن
 ا چاہتے ہیں۔ دوسرا تبصرہ کہتا ہے کہ ایک مرتبہ دائرے سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 821--822
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گزرنے پر گنتکار کی گنتی کم کی جاتی ہے۔ تی
 سرا تبصرہ کہتا ہے کہ ہم جھنڈا صفر کو دیکھ کر شاخ لیں گے۔ چوتھا تبصرہ[]
  []
 
-[338]
-Underfull \hbox (badness 3668) in paragraph at lines 823--824
+
+Underfull \hbox (badness 3668) in paragraph at lines 928--929
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مشینی زبان میں ترجمہ کرتے ہوئے، وقف ناق
 ص (؛) اور اس لکیر پر اس کے بعد جو کچھ ہو ، کو مترجم نظر انداز کرتا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ کیوں؟ وجہ یہ ہے کہ مترجم برنامے اسی ط
 رح لکھے جاتے ہیں۔ وقف ناقص کمپیوٹر کو بتاتا ہے کہ جو کچھ آگے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 شاخ اور طلبی کے ساتھ” سرخی “ کا استعمال
  مددگار ثابت ہوتا ہے۔ کمپیوٹر کی مادری زبان میں برنامہ لکھتے وقت ہم[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عموماً نہیں جانتے کہ شاخ یا طلبی ہدایت کے
  ساتھ کیا پتہ شامل کریں۔اعدادی پتے کی بجائے سرخی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 825--826
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 استعمال کرنے سے برنامے کا بہاو سمجھنا زیا
 دہ آسان ہو گا۔ مترجم ان سرخیوں کو دیکھتے ہوئے شاخ اور طلبی ہدایات[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال کے طور پر، درج بالا برنامے کو مشین
 ی زبان میں لکھتے ہوئے مترجم []کی جگہ اس کا ہدایتی رمز $[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--828
+Underfull \hbox (badness 10000) in paragraph at lines 932--933
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 (جدول ١٣.‏١[] سے رجوع کریں) اور ”اختتام“ 
 کی جگہ []ہدایت کا پتہ ڈالے گا۔ اسی طرح []کی جگہ مترجم ہدایتی[]
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 827--828
+Underfull \hbox (badness 3646) in paragraph at lines 932--933
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رمز $[]$ اور ”دوبارہ“ کی جگہ ہدایت [] کا 
 پتہ ڈالے گا۔ مترجم تمام ہدایات کو درکار بائٹ گن کر مشینی برنامہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 آپ کو صرف اتنا یاد رکھنا ہو گا کہ شاخ ا
 ور طلبی ہدایات کے ساتھ استعمال کے لئے آپ کوئی بھی سرخی استعمال کر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
+Underfull \hbox (badness 10000) in paragraph at lines 934--935
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جب مترجم آپ کے برنامے کو پڑھتا ہے یہ نشان
  $[]$ مترجم کو خبردار کرتا ہے کہ اس جگہ سرخی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--832
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر با میں سرخی کے لئے ایک تا چھ عل
 امت (حرف یا ہندسے ) استعمال کیے جا سکتے ہیں، تاہم پہلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--832
+Underfull \hbox (badness 10000) in paragraph at lines 936--937
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 علامت کا لازماً ایک حرف ہونا ہو گا۔ سرخی 
 عموماً معنی خیز الفاظ ہوں گے، تاہم ہندسوں کا استعمال جائز ہے۔[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 841--842
+[340]
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پہلی دو سرخیاں عام الفاظ ہیں؛ تیسری سرخی 
 ”تختی پڑھ“ کہنا چاہتی ہے؛ چوتھی اور پانچویں سرخیاں بے معنی ہیں،[]
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 841--842
+Underfull \hbox (badness 5592) in paragraph at lines 946--947
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 تاہم ان کا استعمال جائز ہے۔ سرخی کی لمبائ
 ی پر چھ علامتوں کی پابندی اور پہلی علامت پر حرف ہونے کی پابندی ،[]
  []
 
-[339]
-Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامے میں کیا گیا تبصرہ ہمیں کم و بیش پو
 ری کہانی بتا پاتا ہے۔ سب سے پہلے ہم دفتر []کو صاف کرتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 863--864
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہیں۔ اس کے بعد عشری $[]$ دفتر []میں ڈالا 
 جاتا ہے۔اس کے بعد گنت کار میں $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(2)/m
 /sl/10 ڈال کر تیار کیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 867--868
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 چونکہ [] دائرے کے اندر پایا جاتا ہے لہٰ
 ذا اس کی تعمیل $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(2)/m/sl/10 مرتبہ ہو
  گی اور یوں دفتر [](جو آغاز میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 867--868
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 خالی تھا) کے ساتھ $\OT1/ppl/m/n/10 8$ \TU
 /JameelNooriNastaleeq(2)/m/sl/10 مرتبہ $[]$ جمع ہو گا۔ یہی $\OT1/ppl/m/n/10 8$ 
 \TU/JameelNooriNastaleeq(2)/m/sl/10 اور $[]$ ضرب کرنے سے حاصل ہو گا۔ دائرے کے $
@@ -4905,224 +4903,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 867--868
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 867--868
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کاٹنے کے بعد گنتکار میں $\OT1/ppl/m/n/10 
 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو گا، لہٰذا جھنڈا صفر بلند ہو گا؛ یوں [
 ] کی تعمیل ہو گی اور کمپیوٹر دائرے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--874
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [341]
+Underfull \hbox (badness 10000) in paragraph at lines 977--979
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 عشری $[]$ سادس عشری $[]$ کے برابر ہے لہٰذ
 ا دفتر []میں ثنائی $[]$ ہو گا۔یوں بار بار جمع کرنا[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 877.
-LaTeX Info: Redefining \sffamily on input line 877.
-LaTeX Info: Redefining \ttfamily on input line 877.
+LaTeX Info: Redefining \rmfamily on input line 982.
+LaTeX Info: Redefining \sffamily on input line 982.
+LaTeX Info: Redefining \ttfamily on input line 982.
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 زیادہ تر خرد عامل کاروں میں ضرب کرنے کا
   \TU/AASameerSagarNastaleeqBold(0)/m/n/10 سخت افزار [][][] []\TU/JameelNooriNa
 staleeq(2)/m/sl/10 نہیں پایا جاتا؛ ان میں، کمپیوٹر الف کی طرح ،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صرف جمع و منفی کار ہو گا۔ یوں، عموماً خرد
  عامل کار استعمال کرتے ہوئے ضرب کرنے کی خاطر آپ کو کسی قسم کا[]
  []
 
-[340]
-Underfull \hbox (badness 10000) in paragraph at lines 899--900
+
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ برنامہ نسبتاً سادہ ہے۔ اس میں ایک []
 ہدایت اور ایک سرخی کم ہیں۔ جب تک گنتکار صفر سے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 899--900
+Underfull \hbox (badness 10000) in paragraph at lines 1004--1005
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بڑا ہو، []کمپیوٹر کو واپس” دوبارہ “ پر بھ
 یجے گی۔ جب گنتکار صفر ہو جائے، برنامہ []سے[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 926--927
+[342]
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1032
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اولین تین ہدایات، ضرب شروع ہونے سے قبل 
 ،دفاتر کی ابتدائی حالت تعین کرتی ہیں۔ ابتدائی حالت[]
  []
 
-[341]
-Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس طرح سوچیں: ابتدائی حالت تعین کرنے وا
 لی ہدایات کا ضرب دینے کے عمل سے کوئی تعلق نہیں۔ یہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--949
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صرف ان اعداد سے تعلق رکھتی ہیں جنہیں ضرب 
 کرنا مقصود ہو۔ ذیلی معمولہ صرف اس حصے پر مشتمل ہو گا جس کا ضرب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 950--951
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامے کو نئی جگہ منتقل کرتے ہوئے ہم نے
  $[]$ تا $[]$ پتوں کو $[]$ تا $[]$ پر نقش کیا۔ ساتھ[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 965--967
+[343]
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 تین ہدایات دفتر []کو صاف کرتی ہے، دفتر []
 میں عشری $[]$، اور دفتر []میں عشری $[]$ ڈالتی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 965--967
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ []ہدایت( گزشتہ مثال میں دیے گئے ) ضرب
  کار ذیلی معمولہ کو طلب کرتی ہے۔ ضرب کے اختتام پر []کی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 968.
-LaTeX Info: Redefining \sffamily on input line 968.
-LaTeX Info: Redefining \ttfamily on input line 968.
+LaTeX Info: Redefining \rmfamily on input line 1073.
+LaTeX Info: Redefining \sffamily on input line 1073.
+LaTeX Info: Redefining \ttfamily on input line 1073.
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 [][]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 مقدار معلوم [][][] []\TU/JameelNoo
 riNastaleeq(2)/m/sl/10 اس معلومات کو کہتے ہیں جس کی بنا ذیلی معمولہ صحیح کام کر
 نے سے قاصر ہو گا۔پتہ $[]$ پر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رکھے گئے ضرب کار ذیلی معمولہ کو، صحیح کام
  کرنے کے لئے، تین مقدار معلوم ([]، []، []) درکار ہیں۔ دفتر []کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صاف کر کے، دفتر []میں مضروب، اور دفتر []م
 یں ضارب ڈال کر ہم یہ مقدار معلوم ذیلی معمولہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 968--969
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کو مہیا کرتے ہیں۔ دوسرے لفظوں میں ہم $[]$
 ، $[]$، اور $[]$ رکھ کر ذیلی معمولہ کو طلب[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 973.
-LaTeX Info: Redefining \sffamily on input line 973.
-LaTeX Info: Redefining \ttfamily on input line 973.
+LaTeX Info: Redefining \rmfamily on input line 1078.
+LaTeX Info: Redefining \sffamily on input line 1078.
+LaTeX Info: Redefining \ttfamily on input line 1078.
 
-Underfull \hbox (badness 10000) in paragraph at lines 973--974
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 خرد عامل کار حساب کے علاوہ منطق بھی کر سک
 تا ہے۔ آئیں کمپیوٹر با کی منطقی ہدایات پر غور کریں۔ یہ ہدایات بھی[]
  []
 
-[342]
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایات []کہتی ہے” دفتر []متمم کر“۔ اس ہدا
 یت کی تعمیل دفتر []کے ہر بِٹ کو متمم کر کے دفتر []کا[]
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 979--980
+Underfull \hbox (badness 7576) in paragraph at lines 1084--1085
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت دفتر []اور دیے گئے دفتر کا منطقی
  ضرب حاصل کر کے نتیجہ دفتر []میں ڈالتی ہے۔ مثال[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 985--986
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کہتی ہے دفتر []اور دفتر []کے مواد کا منطق
 ی ضرب لے کر نتیجہ دفتر []میں ڈال۔ منطقی ضرب بِٹ با بِٹ[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 999--1001
+[344]
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1106
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یاد رہے، منطقی ضرب بِٹ با بِٹ حاصل کیا 
-جاتا ہے (شکل 11.‏6 دیکھیں)۔ منطقی ضرب مطابقتی بِٹوں کی جوڑیوں کا لیا[]
+جاتا ہے (شکل ١٣.‏٦[] دیکھیں)۔ منطقی ضرب مطابقتی بِٹوں کی جوڑیوں کا لیا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 999--1001
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1106
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ $[]$ کا منطقی ضرب لیا جائے گا، وغیرہ۔
  نتیجہ دفتر []میں ڈالا جائے گا۔ کمپیوٹر با میں []کی دو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت دفتر []اور دیے گئے دفتر کا منطقی
  جمع حاصل کر کے دفتر []میں ڈالتی ہے۔ کمپیوٹر با میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1003--1004
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی دو ہدایات [] اور [] ہیں۔ مثال کے طور
  پر، اگر مساوات ١٣.‏١[] دفاتر []اور []میں دیتی[]
  []
 
-[343]
-LaTeX Info: Redefining \rmfamily on input line 1017.
-LaTeX Info: Redefining \sffamily on input line 1017.
-LaTeX Info: Redefining \ttfamily on input line 1017.
+LaTeX Info: Redefining \rmfamily on input line 1135.
+LaTeX Info: Redefining \sffamily on input line 1135.
+LaTeX Info: Redefining \ttfamily on input line 1135.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1017--1018
+Underfull \hbox (badness 10000) in paragraph at lines 1135--1136
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت” دفتر []کی بلا شرکت جمع “ دیے گئ
 ے دفتر کے ساتھ لے کر نتیجہ دفتر []میں ڈالتی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر با میں متصل منطقی ہدایات بھی موجو
 د ہیں۔ []کہتی ہے ”دفتر []کا منطقی ضرب متصل بائٹ[]
  []
 
-[344]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+[345]
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1217
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت کمپیوٹر کو” فارغ“ رہنے کی ہدایت 
 ہے۔ اس ہدایت کی تعمیل کے دوران تمام $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastal
 eeq(2)/m/sl/10 حال کچھ نہیں کرتے۔[]
  []
 
-
-Underfull \hbox (badness 6625) in paragraph at lines 1100--1101
+[346]
+Underfull \hbox (badness 6625) in paragraph at lines 1218--1219
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت وقت ضائع کرنے کے لئے استعمال ک
 ی جاتی ہے۔ []ہدایت بازیاب کرنے کے لئے اور اس کی تعمیل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 میں کل چار $\OML/zplm/m/it/10 T$ \TU/Jame
 elNooriNastaleeq(2)/m/sl/10 حال درکار ہوتے ہیں۔کئی []ملا کر وقتی وقفہ پیدا کیا 
 جا سکتا ہے۔ مثال کے طور پر، []کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1106--1107
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []”مواد درآمد “ کرتی ہے۔کمپیوٹر کو 
 یہ ہدایت نامزد روزن سے مواد اٹھا نے کو کہتی ہے۔ چونکہ کمپیوٹر با میں دو[]
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 1106--1107
+Underfull \hbox (badness 7116) in paragraph at lines 1224--1225
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 روزن موجود ہیں لہٰذا آپ نے روزن نامزد کرن
 ا ہو گا۔ یوں درج ذیل روزن $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/
 10 سے ایک بائٹ دفتر []میں درآمد کرے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت کہتی ہے ” دفتر []کو بائیں گھما“۔
  یہ ہدایت تمام بِٹ کو بائیں منتقل کرتے ہوئے بلند تر رتبی بِٹ کو کمتر[]
  []
 
-[345]
-Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
+
+Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
+[]\TU/JameelNooriNastaleeq(2)/m/sl/10 رتبی مقام پر ڈالتی ہے (شکل ١٣.‏٧[]-الف دی
+کھیں)۔ مثال کے طور پر، فرض کریں دفتر []میں درج ذیل مواد موجود[]
+ []
+
+[347]
+Underfull \hbox (badness 10000) in paragraph at lines 1286--1287
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یہ ہدایت کہتی ہے ” دفتر []کو دائیں گھما“۔
  اس مرتبہ دفتر []کے تمام بِٹ ایک قدم دائیں لیتے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1303
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.١٣:  بائٹ میں بِٹوں کی گنتی (کم 
 تر رتبی تا بلند تر رتبی) $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/1
 0 تا $\OT1/ppl/m/n/10 7$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کی جاتی ہے۔ ایک بر
@@ -5130,151 +5136,150 @@ Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1152--1154
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1303
 []$\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے بائٹ لے کر معلوم ک
 رے آیا بِٹ $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بلند یا پست 
 ہے۔ بلند بِٹ کی صورت میں دفتر []میں لاطینی[]
  []
 
-[346]
-LaTeX Info: Redefining \rmfamily on input line 1183.
-LaTeX Info: Redefining \sffamily on input line 1183.
-LaTeX Info: Redefining \ttfamily on input line 1183.
+LaTeX Info: Redefining \rmfamily on input line 1332.
+LaTeX Info: Redefining \sffamily on input line 1332.
+LaTeX Info: Redefining \ttfamily on input line 1332.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جس کو \TU/AASameerSagarNastaleeqBold(0)/m
 /n/10 نقاب[][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 کہتے ہیں۔ اس بائٹ میں پس
 ت $[]$ بِٹ، دفتر []کے مطابقتی بلند بِٹ نقاب پوش کر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1184
+Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے پست کرتے ہیں۔ دوسرے لفظوں میں، []01H ک
 ی تعمیل کے بعد دفتر []میں درج ذیل ہو[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+[348]
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اگر $[]$ بلند $[]$ ہو، []شاخ کرتے ہوئے 
 [] کو پہنچے گا؛ جو دفتر []میں $\OML/zplm/m/it/10 Y$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کا ایسی رمز $[]$ ڈالتا ہے۔ اگر $[]$ پست ہ
 و، برنامہ [] سے سیدھا گزرتے ہوئے، دفتر[]
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 1196--1198
+Underfull \hbox (badness 1038) in paragraph at lines 1345--1347
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.١٤:  متوازی مخارج کی بجائے ہم رو
 زن $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے مواد سلسلہ وار بر
 آمد کرنا چاہتے ہیں۔ مذکورہ بالا برنامے میں تبدیلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1219--1220
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 مواد کو متوازی سے سلسلہ وار بنا کر ، بِ
 ٹ $[]$ سے پہلے بھیجا جاتا ہے؛ اس کے بعد $[]$، اور اس کے بعد $[]$؛ اسی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1224.
-LaTeX Info: Redefining \sffamily on input line 1224.
-LaTeX Info: Redefining \ttfamily on input line 1224.
+LaTeX Info: Redefining \rmfamily on input line 1373.
+LaTeX Info: Redefining \sffamily on input line 1373.
+LaTeX Info: Redefining \ttfamily on input line 1373.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1223--1225
+Underfull \hbox (badness 10000) in paragraph at lines 1372--1374
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.١٥:  برآمد اور درآمد کے دوران خر
 د عامل کار اور (اس کے ساتھ جڑے ) بیرونی آلے کے بیچ تبادلے[]
  []
 
-[347]
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1228
+
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1377
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کمپیوٹر با میں مصافحہ درج ذیل صورت اختی
-ار کرتا ہے۔ جب آپ شکل 11.‏2 کے سادس عشری مرموز[]
+ار کرتا ہے۔ جب آپ شکل ١٣.‏٢[] کے سادس عشری مرموز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1226--1228
+Underfull \hbox (badness 10000) in paragraph at lines 1375--1377
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کار میں دو اعداد (ایک بائٹ) داخل کرتے ہیں
 ، یہ مواد روزن $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 میں ڈالا
  جاتا ہے؛ ساتھ ہی روزن $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 
 کو بلند[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+[349]
+Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 داخلی مواد قبول کرنے سے قبل، خرد عامل ک
 ار روزن $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 میں ”تیار“ اشار
 ے کو دیکھتا ہے۔ اگر ”تیار“ اشارہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پست ہو، خرد عامل کار انتظار کرے گا۔ اگر ”
 تیار“ بلند ہو، خرد عامل کار مواد قبول کر کے روزن $\OT1/ppl/m/n/10 1$ \TU/Jameel
 NooriNastaleeq(2)/m/sl/10 میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
+Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈالتا ہے۔ مواد کی ترسیل مکمل ہونے پر خرد 
 عامل کار ، سادس عشری ٹائپ کار کے مرموز کار کو ”تشکر“[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اگر ”تیار“ بِٹ پست ہو [] کی تعمیل دفتر 
 []کے مواد کو صفر بنائے گی جس سے جھنڈا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1266--1267
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صفر بلند ہو گا۔ یوں []ہدایت واپس دائرے کے
  آغاز میں [] کو شاخ کرے گی۔جب[]
  []
 
-[348]
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1269
+
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 بلند ”تیار“ اشارہ درست مواد کی تصدیق کر
 تا ہے۔ بلند ”تیار“ بِٹ کی صورت میں برنامہ []سے گزر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کر [] پہنچے گا۔ یوں روزن $\OT1/ppl/m/n/10
  1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے دفتر []میں بائٹ منتقل ہو گا۔ []اس با
 ئٹ کو دفتر []منتقل کرتی ہے۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1268--1269
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت [] ”تشکر“ بِٹ (بِٹ $\OT1/ppl/m/n/10
  7$\TU/JameelNooriNastaleeq(2)/m/sl/10 ) بلند کرتی ہے۔ [] ہدایت بلند ”تشکر“ اشا
 رہ سادس[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
+[350]
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 سے زیادہ لے گی۔ جیسا آپ کو یاد ہو گا، خرد
  برنامہ نویسی کا مقصد پختہ حافظہ میں قابو معمولے ذخیرہ کرنا ہے،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدول ١٣.‏٣[] میں ہر ایک ہدایت اور ہدایت
  کی تعمیل کے لئے درکار $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/1
 0 حال کی تعداد پیش ہے۔ مثلاً، [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کی تعمیل چار $\OML/zplm/m/it/10 T$ \TU/Ja
 meelNooriNastaleeq(2)/m/sl/10 حال میں ہو گی، [] کی تعمیل سات میں، اور []کی اٹھا
 رہ میں،[]
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 1280--1281
+Underfull \hbox (badness 1968) in paragraph at lines 1429--1430
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دھیان رہے کہ []کو درکار $\OML/zplm/m/it
 /10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال کی تعداد $[]$ ہے۔شاخ لینے کی صور
 ت میں درکار $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال کی تع
@@ -5282,111 +5287,111 @@ Underfull \hbox (badness 1968) in paragraph at lines 1280--1281
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1280--1281
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
 []$[]$ \TU/JameelNooriNastaleeq(2)/m/sl/10 اور سیدھا گزرنے کی صورت میں $\OT1/pp
 l/m/n/10 7$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہے۔ یہی تصور باقی مشروط شاخ ہدا
 یات کے لئے بھی ہے؛ شاخ کی صورت[]
  []
 
 
-LaTeX Warning: Float too large for page by 126.37076pt on input line 1335.
+LaTeX Warning: Float too large for page by 126.37076pt on input line 1484.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1487--1488
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جیسا آپ جانتے ہیں، بعض ہدایات کی تعمیل کے
  دوران دفتر []منفی یا صفر ہو سکتا ہے، جس سے بالترتیب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1489--1490
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر []کا مواد منفی ہونے کی صورت میں $[
 ]$ بِٹ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ہو گا۔ یہ علامت 
 بِٹ زیریں ضرب گیٹ کو چلاتی ہے۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1489--1490
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جب دفتر کا مواد صفر ہو، تمام بِٹ پست ہوں 
 گے، اور جمع متمم گیٹ کا مخارج بلند $[]$ ہو گا۔اس جمع متمم گیٹ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1489--1490
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کا مخارج بالا ضرب گیٹ کو چلاتا ہے۔ اگر $[
 ]$ بلند ہو، جھنڈے ان نتائج کے تحت صورت اختیار کر کے دفتر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Underfull \hbox (badness 10000) in paragraph at lines 1489--1490
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 کی علامت اور صفر صورت کا عکس پیش کریں گ
 ے۔ یوں دفتر []کا مواد منفی ہونے کی صورت میں $\OML/zplm/m/it/10 S$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1492
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ایسا نہیں کہ تمام ہدایات جھنڈوں پر اثر 
 انداز ہوتی ہیں۔ جیسا جدول ١٣.‏٣[] میں دکھایا گیا ہے []، []،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1492
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ، []، []، []، []، []، اور []وہ ہدایات ہ
 یں جو جھنڈوں پر اثر انداز[]
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 1342--1343
+Underfull \hbox (badness 1946) in paragraph at lines 1491--1492
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتی ہیں۔ صرف یہ ہدایات کیوں؟ اس لئے کہ ش
 کل 11.‏8 میں $[]$ اشارہ صرف اس وقت بلند ہو گا جب ان[]
  []
 
-[349] [350]
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
+[351] [352]
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1495
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جیسا ذکر کیا گیا، شاخ لینے کی صورت میں مش
 روط شاخ ہدایات دس $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال
 ، جبکہ سیدھا گزرنے کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1495
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 صورت میں سات $\OML/zplm/m/it/10 T$ \TU/Ja
 meelNooriNastaleeq(2)/m/sl/10 حال لیتے ہیں۔اس کی وجہ مختصراً درج ذیل ہے۔ تعمیلی
  پھیرے کے دوران پتہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
+Underfull \hbox (badness 10000) in paragraph at lines 1494--1495
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پختہ حافظہ ، کمپیوٹر کو مشروط شاخ کے خرد 
 معمولہ کی پہلی ہدایت کے پتے پر بھیجتا ہے۔ خرد معمولہ کا ابتدائی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1355.
-LaTeX Info: Redefining \sffamily on input line 1355.
-LaTeX Info: Redefining \ttfamily on input line 1355.
-LaTeX Info: Redefining \rmfamily on input line 1357.
-LaTeX Info: Redefining \sffamily on input line 1357.
-LaTeX Info: Redefining \ttfamily on input line 1357.
-LaTeX Info: Redefining \rmfamily on input line 1365.
-LaTeX Info: Redefining \sffamily on input line 1365.
-LaTeX Info: Redefining \ttfamily on input line 1365.
+LaTeX Info: Redefining \rmfamily on input line 1504.
+LaTeX Info: Redefining \sffamily on input line 1504.
+LaTeX Info: Redefining \ttfamily on input line 1504.
+LaTeX Info: Redefining \rmfamily on input line 1506.
+LaTeX Info: Redefining \sffamily on input line 1506.
+LaTeX Info: Redefining \ttfamily on input line 1506.
+LaTeX Info: Redefining \rmfamily on input line 1514.
+LaTeX Info: Redefining \sffamily on input line 1514.
+LaTeX Info: Redefining \ttfamily on input line 1514.
 
-Underfull \hbox (badness 6842) in paragraph at lines 1365--1366
+Underfull \hbox (badness 6842) in paragraph at lines 1514--1515
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 درج ذیل ہدایت میں مطلوبہ مواد، حافظہ کی
  بجائے دفتر میں پایا جاتا ہے۔ یہ \TU/AASameerSagarNastaleeqBold(0)/m/n/10 دفتری
  پتہ انداز[][][] []\TU/JameelNooriNastaleeq(2)/m/sl/10 کی مثال[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1373.
-LaTeX Info: Redefining \sffamily on input line 1373.
-LaTeX Info: Redefining \ttfamily on input line 1373.
-[351]
-Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
+LaTeX Info: Redefining \rmfamily on input line 1522.
+LaTeX Info: Redefining \sffamily on input line 1522.
+LaTeX Info: Redefining \ttfamily on input line 1522.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1528--1529
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کہتی ہے دفتر []کے بِٹ بائیں گھمائیں۔ مواد
  دفتر []میں موجود ہے؛ یہی وجہ ہے کہ مضمر پتے کے انداز میں[]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
+[353]
+Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت کو حافظہ میں رکھنے کے لئے ایک یا ای
 ک سے زیادہ بائٹ کی جگہ درکار ہو گی۔کمپیوٹر با کی ہدایات کو $\OT1/ppl/m/n/10 1$\
 TU/JameelNooriNastaleeq(2)/m/sl/10 ، $\OT1/ppl/m/n/10 2$\TU/JameelNooriNastalee
@@ -5394,150 +5399,150 @@ q(2)/m/sl/10 ،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
+Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 یا $\OT1/ppl/m/n/10 3$ \TU/JameelNooriNas
 taleeq(2)/m/sl/10 بائٹ جگہ چاہیے ہو گی۔ جدول ١٣.‏٣[] میں ہر ہدایت کو درکار بائٹ
  بتائے گئے ہیں۔ جیسا آپ دیکھ سکتے ہیں،[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1386--1388
+Underfull \hbox (badness 10000) in paragraph at lines 1535--1537
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.١٦:  کمپیوٹر با کی ساعت کا تعدد 
 $[]$ ہے۔ یوں ایک $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال 
 کا دورانیہ $[]$ ہو گا۔ درج ذیل ذیلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1402
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1551
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حل: گنتکار کی ابتدائی قیمت تعین کرنے کی
  خاطر []ہدایت کی تعمیل ایک مرتبہ کی جاتی ہے۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1402
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1551
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت []کی تعمیل $[]$ مرتبہ ہو گی۔ ہدایت 
 []پورے $[]$ مرتبہ شاخ لی گی اور ایک[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1402
+Underfull \hbox (badness 10000) in paragraph at lines 1549--1551
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مرتبہ سیدھا گزرنے دے گی۔ جدول ١٣.‏٣[] میں
  $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(2)/m/sl/10 حال کی تعداد پیش ہے،
  جنہیں استعمال کر کے ذیلی معمولہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1577
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس معمولہ کی کل لمبائی $\OT1/ppl/m/n/10
  8$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بائٹ ہے۔ کمپیوٹر با کے نرم افزار کے طور
  پر اس معمولہ کا ترجمہ مشینی زبان میں کر کے[]
  []
 
-[352]
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1452
+[354]
+Underfull \hbox (badness 10000) in paragraph at lines 1599--1601
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 حل: اس ذیلی معمولہ میں دو دائرے ہیں۔ بی
 رونی دائرے کو دائرہ1 کہا گیا ہے؛ اندرونی کو دائرہ2 کہا گیا ہے۔ اندرونی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1452
+Underfull \hbox (badness 10000) in paragraph at lines 1599--1601
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دائرہ [] اور [] ہدایات پر مشتمل ہے۔ اندرو
 نی دائرہ $[]$ کا وقفہ پیدا کرتا ہے، جس کی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جب گنتکار []صفر کو پہنچتا ہے ، برنامہ [] 
 سے نیچے گرتا ہے؛ گنتکار []گھٹتا ہے اور[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
 [][] \TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت، برنامے کو واپس [] بھیجتی ہے۔ ہم
  دائرہ2 میں دوسری مرتبہ داخل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہوتے ہیں۔ چونکہ دائرہ1 کے اندر دائرہ2 پای
 ا جاتا ہے لہٰذا دائرہ2 کی تعمیل $[]$ مرتبہ ہو گی اور یوں کل وقفہ تقریباً[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1477--1479
+Underfull \hbox (badness 10000) in paragraph at lines 1626--1628
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 اس ذیلی معمولہ کا ترجمہ مشینی زبان میں کر
  کے $[]$ تا $[]$ پتے پر رکھتے ہیں۔ایسا کرنے کے بعد،[]
  []
 
-[353]
-Underfull \hbox (badness 10000) in paragraph at lines 1486--1487
+[355]
+Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 اندرونی دائرے کی تعمیل $[]$ مرتبہ ہو گی، 
 اور کل وقفہ تقریباً $[]$ ہو گا۔ اس ذیلی معمولہ کو، جو $[]$[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1491.
-LaTeX Info: Redefining \sffamily on input line 1491.
-LaTeX Info: Redefining \ttfamily on input line 1491.
+LaTeX Info: Redefining \rmfamily on input line 1640.
+LaTeX Info: Redefining \sffamily on input line 1640.
+LaTeX Info: Redefining \ttfamily on input line 1640.
 
-Underfull \hbox (badness 1028) in paragraph at lines 1490--1492
+Underfull \hbox (badness 1028) in paragraph at lines 1639--1641
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.١٨:  درج ذیل ذیلی معمولہ \TU/AAS
 ameerSagarNastaleeqBold(0)/m/n/10 محیط دائروں  [][][] []\TU/JameelNooriNastalee
 q(2)/m/sl/10 پر مشتمل ہے جو ایک دوسرے کے اندر رکھے گئے ہیں۔ یہ کتنا وقفہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1514
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1663
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 حل: دائرہ3 سے گزر تقریباً $[]$ میں ہو گی۔
  دائرہ3 سے دائرہ2 سو مرتبہ گرتا ہے جو تقریباً $[]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1512--1514
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1663
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 میں ہو گا۔ دائرہ2 سے دائرہ1 پورے دس مرتبہ
  گزرتا ہے، جو تقریباً ایک سیکنڈ $[]$ لیگا۔ یوں ذیلی معمولہ کل[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
+Underfull \hbox (badness 10000) in paragraph at lines 1666--1667
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اول ہدایت کو تبدیل کر کے درج ذیل بنانے 
 سے دائرہ2 سے دائرہ1 سو مرتبہ گزرتا ہے، جو خود دائرہ0 سے سو مرتبہ گزرتا[]
  []
 
-[354]
-Underfull \hbox (badness 10000) in paragraph at lines 1525--1526
+[356]
+Underfull \hbox (badness 10000) in paragraph at lines 1674--1675
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدول ١٣.‏٤[] میں کمپیوٹر با کے وقتی دور
 انیے پیش ہیں۔ انہیں استعمال کر کے $[]$ تا $[]$ وقفے حاصل ہوں گے۔[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1549.
-LaTeX Info: Redefining \sffamily on input line 1549.
-LaTeX Info: Redefining \ttfamily on input line 1549.
-[355]
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+LaTeX Info: Redefining \rmfamily on input line 1698.
+LaTeX Info: Redefining \sffamily on input line 1698.
+LaTeX Info: Redefining \ttfamily on input line 1698.
+[357]
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 آئیں ذیلی معمولہ کے سبز بتی حصہ کو تفصی
 ل سے دیکھیں؛ پیلی بتی اور لال بتی کے حصے بھی اسی طرح ہیں۔ آغاز[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
 [][] \TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت سے ہوتا ہے جو عشری $[]$ گنتکار [
 ]میں ڈالتی ہے۔ دفتر []دیگر کاموں کے لئے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بھی مستعمل ہے لہٰذا اس میں موجود مواد کو 
 [] حافظہ میں” حفاظت“ پتے پر رکھتی ہے۔ ذیلی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 معمولہ کا آخری مقام ”حفاظت“ کے لئے مختص ہ
 ے، جس کی نشاندہی ذیلی معمولہ میں آخری سرخی کرتی ہے۔[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
+Underfull \hbox (badness 10000) in paragraph at lines 1741--1742
 [][] \TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر []کا بائٹ $\OT1/ppl/m/n/10 1$ \TU
 /JameelNooriNastaleeq(2)/m/sl/10 بلند کرتی ہے، جو روزن $\OT1/ppl/m/n/10 4$ \TU/
 JameelNooriNastaleeq(2)/m/sl/10 میں سبز بتی کے لئے مختص ہے؛ [] روزن[]
@@ -5546,98 +5551,98 @@ JameelNooriNastaleeq(2)/m/sl/10 میں سبز بتی کے لئے مختص ہے؛
 
 Underfull \vbox (badness 7576) has occurred while \output is active []
 
- [356]
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
+ [358]
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1744
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 جدول ١٣.‏٤[] میں ایک سیکنڈ وقفہ کے ذیلی
  معمولہ کا ابتدائی پتہ $[]$ دیا گیا ہے۔یوں ایک سیکنڈ وقفہ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1744
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پیدا کرنے کے لئے ہم $[]$ لکھ سکتے ہیں، تا
 ہم سرخی استعمال کرتے ہوئے اسی ذیلی معمولہ کو [] لکھ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1594--1595
+Underfull \hbox (badness 10000) in paragraph at lines 1743--1744
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کر طلب کیا جا سکتا ہے۔ ذیلی معمولہ کے ابت
 دائی مقام کو با معنی سرخی سے منسوب کر کے پتہ کی بجائے استعمال کرنا[]
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 1596--1597
+Underfull \hbox (badness 4378) in paragraph at lines 1745--1746
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 یوں ہدایت [] ایک سیکنڈ وقفے کے ذیلی معم
 ولہ کو طلب کرتی ہے۔[] گنتکار میں موجودہ گنتی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1596--1597
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ڈالتی ہے جو اس وقت عشری $[]$ ہو گی۔ [] اس
  گنتی کو گھٹا کر عشری $[]$ کرتی ہے۔ [] نئی[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1596--1597
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گنتی(عشری $[]$ ) کا تحفظ کرتی ہے۔ اس کے ب
 عد [] (دائرہ سبز چھوٹا کر کے” دائرہس “ لکھا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1596--1597
+Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا ہے ، تا کہ سرخی پر عائد ، زیادہ سے زی
 ادہ چھ علامتوں کی شرط مطمئن ہو) مزید ایک سیکنڈ کا وقفہ پیدا کرنے کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1598--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت [] پورا $[]$ مرتبہ طلب کیا گیا ہے
 ؛ یوں سبز بتی $[]$ سیکنڈ روشن رہتی ہے۔ اس کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1598--1599
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بعد برنامہ [] سے نیچے گر کو [] پہنچتا ہے۔
  یہاں سے پیلی بتی قابو کرنے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1600--1601
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1750
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پیلی بتی کے بعد لال بتی کی باری آتی ہے۔
  لال بتی سے فارغ ہونے کے بعد [] ہدایت برنامے کو نئے سرے چلاتی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1605.
-LaTeX Info: Redefining \sffamily on input line 1605.
-LaTeX Info: Redefining \ttfamily on input line 1605.
-LaTeX Info: Redefining \rmfamily on input line 1605.
-LaTeX Info: Redefining \sffamily on input line 1605.
-LaTeX Info: Redefining \ttfamily on input line 1605.
+LaTeX Info: Redefining \rmfamily on input line 1754.
+LaTeX Info: Redefining \sffamily on input line 1754.
+LaTeX Info: Redefining \ttfamily on input line 1754.
+LaTeX Info: Redefining \rmfamily on input line 1754.
+LaTeX Info: Redefining \sffamily on input line 1754.
+LaTeX Info: Redefining \ttfamily on input line 1754.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1604--1606
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1755
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مثال  ١٣.٢٠:  مختلف صوتی تعدد پیدا کرنے ک
 ے لئے خرد عامل کار بروئے کار لایا جا سکتا ہے۔ روزن $\OT1/ppl/m/n/10 4$ \TU/Jame
 elNooriNastaleeq(2)/m/sl/10 کا بِٹ $\OT1/ppl/m/n/10 5$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1604--1606
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1755
 []\TU/AASameerSagarNastaleeqBold(0)/m/n/10 افزائش کار[][][] []\TU/JameelNooriNa
 staleeq(2)/m/sl/10 (ایمپلی فائر) کے ساتھ جوڑا گیا ہے۔افزائش کار نا صرف برقی اشا
 رہ مستحکم بناتا ہے بلکہ اس کا حیطہ[]
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 1604--1606
+Underfull \hbox (badness 4303) in paragraph at lines 1753--1755
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بڑھانے کی صلاحیت بھی رکھتا ہے۔یہ  \TU/AAS
 ameerSagarNastaleeqBold(0)/m/n/10 بلند گو [][][] []\TU/JameelNooriNastaleeq(2)/
 m/sl/10 کو چلاتا ہے، تا کہ ہم پیدا آواز سن سکیں۔ ایک برنامہ لکھیں جو[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1612.
-LaTeX Info: Redefining \sffamily on input line 1612.
-LaTeX Info: Redefining \ttfamily on input line 1612.
+LaTeX Info: Redefining \rmfamily on input line 1761.
+LaTeX Info: Redefining \sffamily on input line 1761.
+LaTeX Info: Redefining \ttfamily on input line 1761.
 
-Underfull \hbox (badness 4595) in paragraph at lines 1611--1613
+Underfull \hbox (badness 4595) in paragraph at lines 1760--1762
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہم شکل 11.‏9 میں دکھائے گئے \TU/AASameerS
 agarNastaleeqBold(0)/m/n/10 چوکور موج [][][] []\TU/JameelNooriNastaleeq(2)/m/sl
 /10 کی طرح اشارہ روزن $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 ک
@@ -5646,20 +5651,20 @@ agarNastaleeqBold(0)/m/n/10 چوکور موج [][][] []\TU/JameelNooriNastaleeq(
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1611--1613
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1762
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 کے لئے بلند، اور $[]$ کے لئے پست ہو گا۔ ب
 لند اور پست حصے ملا کر $[]$ دیتے ہیں، جو $[]$ تعدد[]
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 1614--1615
+Underfull \hbox (badness 2111) in paragraph at lines 1763--1764
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 درکار برنامہ درج ذیل ہے۔یاد رہے، روزن $
 \OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/m/sl/10 کے دیگر بِٹ کہیں نہیں جو
 ڑے گئے، لہٰذا ان پر مواد بھیجنا یا نہ بھیجنا ایک برابر[]
  []
 
-[357]
-Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+[359]
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت [] روزن $\OT1/ppl/m/n/10 4$ \TU/Jam
 eelNooriNastaleeq(2)/m/sl/10 (یعنی بلند گو) کو دفتر []کا مواد بھیجتا ہے۔ہم نہیں
  جانتے بِٹ $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(2)/m/sl/10 میں کیا ہو گ
@@ -5667,188 +5672,188 @@ eelNooriNastaleeq(2)/m/sl/10 (یعنی بلند گو) کو دفتر []کا مو�
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہمیں اس سے غرض نہیں۔ یہ بِٹ ضرور بلند یا 
 پست ہو گا۔[]گنتکار میں عشری $[]$ ڈالتی ہے۔اس کے[]
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 1631--1632
+Underfull \hbox (badness 1931) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بعد دائرہ2 شروع ہو گا، اور []اور []سے گزر
  کر []کو پہنچ کر $[]$ وقفہ حاصل ہو گا۔یہ ہدایت[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دفتر []کے تمام بِٹ متمم کرتی ہے لہٰذا بِٹ
  $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بلند سے پست اور پست سے
  بلند ہو گا۔ دو عدد []مل کو[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 مزید $[]$ دیتے ہیں۔ [] برنامے کو واپس بھی
 جتی ہے۔ [] کی تعمیل بلند گو کو متمم بِٹ $\OT1/ppl/m/n/10 5$ \TU/JameelNooriNast
 aleeq(2)/m/sl/10 بھیجتی ہے۔ یوں اگر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1631--1632
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 اس سے قبل بلند گو کو بلند اشارہ دیا گیا ت
 ھا تو اب اس کو پست اشارہ ملے گا، اور اگر اس کو پست اشارہ دیا[]
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 1631--1632
+Underfull \hbox (badness 2277) in paragraph at lines 1780--1781
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 گیا تھا تو اب اس کو بلند اشارہ ملے گا۔موج
  کے دونوں نصف حصے ملا کر $[]$ ہو گا، جو درکار دوری عرصہ کے کافی[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1652.
-LaTeX Info: Redefining \sffamily on input line 1652.
-LaTeX Info: Redefining \ttfamily on input line 1652.
+LaTeX Info: Redefining \rmfamily on input line 1801.
+LaTeX Info: Redefining \sffamily on input line 1801.
+LaTeX Info: Redefining \ttfamily on input line 1801.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1651--1653
+Underfull \hbox (badness 10000) in paragraph at lines 1800--1802
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 آمد تقریباً $[]$ بِٹ فی سیکنڈ سے ہوتی ہے۔
  ایک برنامہ لکھیں جو سلسلہ وار مواد کی دھار سے آٹھ بِٹ حاصل کر کے[]
  []
 
-[358]
-Underfull \hbox (badness 10000) in paragraph at lines 1658--1660
+[360]
+Underfull \hbox (badness 10000) in paragraph at lines 1807--1809
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 ہم روزن $\OT1/ppl/m/n/10 2$ \TU/JameelNoo
 riNastaleeq(2)/m/sl/10 سے بِٹ حاصل کر کے، دفتر []کو دائیں گھما کر ، روزن سے دوس
 را بِٹ لیں گے؛ اسی طرح تمام آٹھ بِٹ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1686
+Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 پہلی ہدایت دفتر []صاف کرتی ہے، جس میں ح
 اصل بِٹ محفوظ کرائے جائیں گے۔دوسری ہدایت گنتکار[]
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 1685--1686
+Underfull \hbox (badness 2951) in paragraph at lines 1834--1835
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 میں عشری سات ڈالتی ہے، جو بِٹوں کی تعدا
 د گنتا ہے ۔ سات بِٹ دائرے میں رہ کر حاصل کیے جائیں گے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1686
+Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 جبکہ آٹھواں دائرے سے باہر حاصل کیا جائے گ
 ا۔ [] ہدایت روزن $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے ایک
  بائٹ درآمد کرتی ہے، جس[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1686
+Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 سے نقاب $[]$ ساتواں بِٹ ( جو درکار سلسلہ 
 وار بِٹ ہے) []کی تعمیل کے ذریعہ علیحدہ کرتا ہے۔[]
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 1685--1686
+Underfull \hbox (badness 6658) in paragraph at lines 1834--1835
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 پہلی مرتبہ [] کچھ نہیں کرتی، چونکہ دفتر [
 ]میں صرف $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بھرے ہیں۔ []دف
 تر []کے[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1686
+Underfull \hbox (badness 10000) in paragraph at lines 1834--1835
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ دائیں گھماتی ہے۔پہلے سات بِٹ مواد اکٹ
 ھا کرنے کے دوران دفتر []کا کمتر رتبی بِٹ $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNas
 taleeq(2)/m/sl/10 رہے گا، جو []کے[]
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 1685--1686
+Underfull \hbox (badness 1960) in paragraph at lines 1834--1835
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 دوران بلند تر رتبی مقام پر منتقل ہو گا؛ ی
 وں پہلے سات بِٹ حاصل کرتے ہوئے []کے بعد دفتر []کا بلندتر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1687--1688
+Underfull \hbox (badness 10000) in paragraph at lines 1836--1837
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت [] گنتکار میں عشری $[]$ بھرتی ہے۔
  اس کے بعد [] اور[]
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 1689--1690
+Underfull \hbox (badness 7221) in paragraph at lines 1838--1839
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 ہدایت [] دفتر گھٹاتی ہے اور [] صفر پر ن
 ظر رکھ کر سات بِٹ گنتی ہے۔ برنامہ واپس[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1689--1690
+Underfull \hbox (badness 10000) in paragraph at lines 1838--1839
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ چسپاں کیا جاتا ہے۔ []کے بعد، اب تک حا
 صل دو بِٹوں کو دفتر []میں محفوظ کیا جاتا ہے۔[]
  []
 
-[359]
-Underfull \hbox (badness 10000) in paragraph at lines 1691--1692
+[361]
+Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 برنامہ مسلسل اسی طرح چلتے ہوئے $\OT1/pp
 l/m/n/10 7$ \TU/JameelNooriNastaleeq(2)/m/sl/10 بِٹ حاصل کرتا ہے۔ ساتواں بِٹ کے
  بعد برنامہ [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1693--1694
+Underfull \hbox (badness 10000) in paragraph at lines 1842--1843
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 آخری چار ہدایات درج ذیل کرتی ہیں۔ [] آٹ
 ھواں مرتبہ روزن سے مواد درآمد کرتی ہے۔ []بِٹ[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1693--1694
+Underfull \hbox (badness 10000) in paragraph at lines 1842--1843
 []$\OT1/ppl/m/n/10 7$ \TU/JameelNooriNastaleeq(2)/m/sl/10 علیحدہ کرتی ہے۔[] اس 
 بِٹ کو گزشتہ بِٹوں کے بائیں چسپاں کرتی ہے۔ یہاں پہنچ کر دفتر []میں پورا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1695--1696
+Underfull \hbox (badness 10000) in paragraph at lines 1844--1845
 [][]\TU/JameelNooriNastaleeq(2)/m/sl/10 اس پورے عمل کی وضاحت ایک ٹھوس مثال سے ک
 رتے ہیں۔فرض کریں درآمد مواد $[]$ ہے، جو $\OML/zplm/m/it/10 W$ \TU/JameelNooriNa
 staleeq(2)/m/sl/10 کا ایسکی[]
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 1695--1696
+Underfull \hbox (badness 4739) in paragraph at lines 1844--1845
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 رمز ہے۔ کمتر رتبی بِٹ سب سے پہلے، اور بلن
 د تر رتبی بِٹ سب سے آخر میں حاصل ہو گا۔[] کی باری[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1713--1715
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1864
 []\TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.١:  ایک ماخذ برنامہ لکھیں جو دفت
 ر []میں عشری $[]$، دفتر[]میں عشری $[]$، اور[]
  []
 
-[360]
-Underfull \hbox (badness 10000) in paragraph at lines 1731--1736
+[362]
+Underfull \hbox (badness 10000) in paragraph at lines 1880--1885
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.٣:  ایک ماخذ برنامہ لکھیں جو حا
 فظہ میں مقام $[]$ پر عشری $[]$، مقام $[]$ پر[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1755--1760
+Underfull \hbox (badness 10000) in paragraph at lines 1904--1909
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.٥:  ایسا ماخذ برنامہ لکھیں جو ع
 شری $[]$ اور عشری $[]$ جمع کر کے نتیجہ حافظہ میں مقام $[]$[]
  []
 
-[361]
-Underfull \hbox (badness 10000) in paragraph at lines 1824--1829
+[363]
+Underfull \hbox (badness 10000) in paragraph at lines 1973--1978
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.٩:  پتہ $[]$ پر واقع ضرب کار ذی
 لی معمولہ بروئے کار لاتے ہوئے عشری $[]$ اور $\OT1/ppl/m/n/10 7$ \TU/JameelNoori
 Nastaleeq(2)/m/sl/10 ضرب کر کے جواب[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1842--1847
+Underfull \hbox (badness 10000) in paragraph at lines 1991--1996
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.١٠:  ایک برنامہ لکھیں جو روزن $
 \OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10 سے بائٹ لے کر دیکھے آیا 
 بائٹ طاق یا جفت ہے۔ طاق صورت میں[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1847--1853
+Underfull \hbox (badness 10000) in paragraph at lines 1996--2002
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.١١:  درج بالا برنامے کو یوں تبد
 یل کریں کہ جواب سلسلہ وار روزن $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(2)/
 m/sl/10 کے بِٹ $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر برآمد
@@ -5858,8 +5863,8 @@ m/sl/10 کے بِٹ $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(2)/m/sl/10 پر
 
 Underfull \vbox (badness 5374) has occurred while \output is active []
 
- [362]
-Underfull \hbox (badness 10000) in paragraph at lines 1874--1879
+ [364]
+Underfull \hbox (badness 10000) in paragraph at lines 2023--2028
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.١٢:  ایک برنامہ لکھیں جو مصافحہ
  استعمال کرتے ہوئے روزن $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(2)/m/sl/10
  سے ایک بائٹ درآمد کر کے اس کو[]
@@ -5868,25 +5873,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1874--1879
 
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
- [363]
-Underfull \hbox (badness 10000) in paragraph at lines 1928--1933
+ [365]
+Underfull \hbox (badness 10000) in paragraph at lines 2077--2082
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.١٦:  کمپیوٹر با کا ایک ذیلی معم
 ولہ طلب کر کے تقریباً $[]$ وقفہ پیدا کرنے والا ذیلی معمولہ لکھیں۔ اس کا[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1933--1938
+Underfull \hbox (badness 10000) in paragraph at lines 2082--2087
 [] \TU/JameelNooriNastaleeq(2)/m/sl/10 سوال  ١٣.١٧:  کمپیوٹر با کا ایک ذیلی معم
 ولہ بروئے کار لاتے ہوئے تقریباً $[]$ وقفہ پیدا کرنے والا ذیلی معمولہ لکھیں۔[]
  []
 
-[364]) [365] [366
+[366]) [367] [368
 
 
 
 
 
-] (./answer.tex) [367] [368
+] (./answer.tex) [369] [370
 
 
 ]
@@ -6856,12 +6861,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 62872 strings out of 476191
- 1680403 string characters out of 9562072
- 2529622 words of memory out of 7000000
- 82444 multiletter control sequences out of 15000+600000
+ 62933 strings out of 476191
+ 1681512 string characters out of 9562072
+ 2529732 words of memory out of 7000000
+ 82505 multiletter control sequences out of 15000+600000
  495668 words of font info for 165 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,16n,118p,2641b,1238s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (55 pages).
+Output written on digitalCircuitsLatex.pdf (57 pages).
