@@ -1,18 +1,87 @@
 \begin{theindex}
-
+\begin{otherlanguage}{english}
+  \item access time, 205
+  \item ACKNOWLEDGE, 326
+  \item active, 138
+    \subitem high, 113, 138
+    \subitem low, 114, 138
+  \item active low, 211
+  \item adder
+    \subitem full, 102
+    \subitem half, 98, 102
+  \item address, 110
+    \subitem ROM, 314
+  \item address bits, 110
   \item address field, 284
-  \item ALU, 276
+  \item addressing
+    \subitem direct, 353
+    \subitem immediate, 353
+    \subitem implied, 354
+    \subitem register, 354
+  \item adjacent numbers, 258
+  \item ALU, 277, 325
+  \item amplifier, 359
+  \item AND-OR, 62, 78
+  \item ASIC, 240
+  \item assembler, 332
+  \item assembly language, 226
+  \item asynchronous
+    \subitem combinational circuit, 247
 
   \indexspace
 
+  \item bidirectional, 323
+  \item binary coded decimal (BCD), 73, 107
+  \item bit, 10, 205
+  \item box diagram, 97
+  \item branch, 333
+  \item buffer
+    \subitem active high non inverting, 46
+    \subitem active high,inverting, 46
+    \subitem active low non inverting, 46
+    \subitem active low,inverting, 46
   \item bus
     \subitem control, 275
+  \item byte, 10, 205
 
   \indexspace
 
+  \item CAD, 241
   \item capacitor, 308
+  \item carry, 100
+    \subitem in, 102
+    \subitem out, 103
+  \item clear
+    \subitem input, 139
+  \item clock, 139, 146
+  \item code, 72
+    \subitem uni, 73
+  \item codes
+    \subitem ascii, 73
+  \item combinational logic, 97
+  \item commands, 225
+  \item comments, 339
+  \item configure, 230
+  \item control ROM, 314
   \item control unit, 271
-  \item cycle
+  \item counter, 133
+    \subitem binary, 189
+    \subitem binary, ripple, 191
+    \subitem binary, three bit, 158
+    \subitem binary,serial, 159
+    \subitem decimal, BCD, 194
+    \subitem four bit binary, down, 189
+    \subitem four bit binary, up, 189
+    \subitem ring, 201
+    \subitem ripple, 191
+    \subitem synchronous, binary, four bit, 194
+    \subitem synchronous, three bit, 191
+    \subitem synchronous, three bit binary, 194
+    \subitem variable length, 198
+  \item CPLD, 235
+  \item CPLD, complex PLD, 240
+  \item CS, chip select, 211
+  \item cycle, 256
     \subitem execution, 291
     \subitem fetch, 289
     \subitem instruction, 298
@@ -20,140 +89,618 @@
 
   \indexspace
 
+  \item datasheet, 49
   \item debounce, 307
+  \item decoder, 110, 111
+  \item delay, 243
+  \item demultiplexer, 120
+  \item don't care, 260
 
   \indexspace
 
+  \item edge
+    \subitem falling, 134
+    \subitem negative going, 134
+    \subitem positive going, 134
+    \subitem rising, 134, 268
+
+  \indexspace
+
+  \item fall through, 335
+  \item feedback, 136
+    \subitem signal, 136
+  \item feedback signal, 245, 247
+  \item feedback signals, 247
+  \item FF
+    \subitem D, 149
+    \subitem T, 157
+  \item flag, 326
+    \subitem sign, 326
+    \subitem zero, 326
+  \item flip flop, 133
+    \subitem D, negative edge, 149
+    \subitem D, positive edge, 149
+    \subitem JK, 154
+    \subitem master slave, 146
+    \subitem T, 154
+  \item floating, 321
+  \item flow table
+    \subitem non primitive, 252
+    \subitem primitive, 251
+  \item FPGA, 240
+  \item frequency, 139
   \item full-wave rectifier, 308
   \item fullstop, 280
+  \item fundamental mode, 245
+  \item fuse, 215
 
   \indexspace
 
+  \item glitch, 245
+
+  \indexspace
+
+  \item handshaking, 326, 349
+  \item hardware, 342
+  \item Hertz, 140
+  \item hexedecimal, 7
+  \item high time, 139
+
+  \indexspace
+
+  \item IC
+    \subitem programmer, 218
+  \item IC, integrated circuit, 211
+  \item inactive, 139
   \item input output unit, 271
+  \item instruction, 226
   \item instruction field, 284
   \item instruction register, 275
   \item interface circuit, 276
 
   \indexspace
 
+  \item jump
+    \subitem conditional, 335
+    \subitem unconditional, 335
+
+  \indexspace
+
+  \item keyboard, 323
+
+  \indexspace
+
+  \item labels, 339
   \item language
     \subitem assembly, 277
     \subitem machine, 283
   \item LED, 276
+  \item logic system
+    \subitem negative, 133
+    \subitem positive, 133
+  \item loop, 338
+  \item loud speaker, 359
+  \item low time, 139
+  \item lowest significant digit, 2
+  \item LSB, 5
+  \item LSI, large scale integration, 240
 
   \indexspace
 
+  \item machine cycle
+    \subitem fixed, 317
+    \subitem variable, 317
   \item machine language, 283
   \item macroinstructions, 300
+  \item mask, 349
+  \item master slave
+    \subitem negative edge triggered, 146
   \item matrix
     \subitem control, 310
+  \item Mealy, 168
+  \item memory, 133, 205
+    \subitem access time, 227
+    \subitem binary cell, 207
+    \subitem RAM, 205
+    \subitem ROM, 206
+    \subitem unit, 207
+  \item memory data register, 325
   \item memory reference instructions, 280
-  \item microinstruction, 300
-  \item microprocessor, 280
+  \item microinstruction, 299
+  \item microprocessor, 225, 280
   \item microprogram, 299
+  \item minority circuit, 129
+  \item monitor, 325
+  \item Moore, 168
+  \item Moore's law, 240
+  \item most significant digit, 2
+  \item MSB, 5
+  \item multiplexer, 120
 
   \indexspace
 
+  \item NAND-NAND, 69, 78
+  \item nested loops, 356
+  \item nibble, 10
   \item nop, 291
 
   \indexspace
 
+  \item one hot bit assignment, 259
   \item op code, 281
-  \item operand, 282
+  \item opcode, 327
+  \item operand, 282, 327
   \item operation
     \subitem memory read, 275
+  \item OR-AND, 65
+  \item oscillate, 257
+  \item oscillator, 256
+  \item OTP, 206
+  \item output, 186
 
   \indexspace
 
+  \item PAL, programmable array logic, 235
+  \item parameter, 344
+  \item PLA, programmable logic array, 235
+  \item PLD, programmable logic device, 235
   \item pointer, 273
   \item port
     \subitem output, 276
+  \item presettable, 314
   \item printer, 276
   \item program, 273
+    \subitem source, 332
   \item program counter, 273
+  \item programmer, 236
+  \item propagation delay, 134
+  \item propagation time, 190
+  \item pulse, 140
+  \item pulse generator, 202
   \item push button, 283
 
   \indexspace
 
-  \item register
+  \item race
+    \subitem critical, 254
+    \subitem non-critical, 254
+  \item race condition, 143, 253
+  \item read, 205
+  \item READY, 323
+  \item register, 179
     \subitem output, 276
+    \subitem parallel load, 182
+    \subitem shift left, 181
+    \subitem shift right, 181
+  \item reset
+    \subitem input, 139
+  \item ROM
+    \subitem EEROM, 206
+    \subitem UV erasable, 206
 
   \indexspace
 
+  \item sequence
+    \subitem detector, 169
+  \item sequential logic, 97
+  \item serial
+    \subitem in, 323
+    \subitem out, 326
+  \item serial data stream, 361
+  \item serial in, 186
+  \item serial out, 186
+  \item set
+    \subitem input, 139
+    \subitem instruction, 345
+  \item seven segment display, 131
+  \item shift register
+    \subitem universal, 183
+  \item signal
+    \subitem electrical, 189
+    \subitem ready, 326
+  \item software, 339
   \item spdt, 307
-  \item state
+  \item spike, 314
+  \item square wave, 360
+  \item SR FF, 135
+  \item SR flip flop
+    \subitem active low inputs, 140
+  \item state, 138
     \subitem address, 287
+    \subitem complete, 266
     \subitem counter, 310
+    \subitem diagram, 162
+    \subitem equation, 160
+    \subitem false, 138
+    \subitem high, 138
+    \subitem high impedance, 45, 209
     \subitem increment, 289
-    \subitem tri, 271
-    \subitem two, 271
+    \subitem low, 138
+    \subitem table, 160, 161
+    \subitem transition, 245
+    \subitem tri, 46, 271
+    \subitem true, 138
+    \subitem two, 45, 271
+  \item state variables, 248
+  \item subroutine, 335
+  \item subset, 344
+  \item switch, 218
+  \item synchronous, 139
+    \subitem sequential circuits, 160
 
   \indexspace
 
+  \item table
+    \subitem flow, 251
+  \item time
+    \subitem fall, 134
+    \subitem hold, 151
+    \subitem setup, 151
+  \item time period, 139, 194
+  \item times
+    \subitem rise, 134
   \item timing states, 286
+  \item traffic lights, 358
+  \item transient state, 248
+  \item transition table, 247
+  \item trigger, 146
 
   \indexspace
 
-  \item اشارہ گر, 273
-  \item برق گیر, 308
-  \item برنامہ, 273
-  \item بلا ٹپک, 307
-  \item جزو پتہ, 284
-  \item جزو ہدایت, 284
-  \item حال
-    \subitem بڑھوتری, 289
-    \subitem دو, 271
-    \subitem سہ, 271
-    \subitem فارغ, 291
-    \subitem پتہ, 287
-    \subitem گنت کار, 310
-  \item حسابی مرکز, 276
-  \item خارجی دفتر, 276
-  \item خارجی روزن, 276
-  \item ختمہ, 280
-  \item خرد برنامہ, 299
-  \item خرد عامل کار, 280
-  \item خرد ہدایت, 299
-  \item داب بتام, 283
-  \item دخول و خروج مرکز, 271
-  \item دفتر ہدایت, 275
-  \item دور
-    \subitem ملاپی, 276
-  \item راجع ہدایات, 280
-  \item رمز, 281
-  \item زبان
-    \subitem مادری, 277
-    \subitem مشینی, 283
-  \item زیر عمل, 282
-  \item سوئچ
-    \subitem ایک قطب دو چال, 307
+  \item unstable circuit, 256
+  \item unstable condition, 245
 
   \indexspace
 
-  \item قابو مرکز, 271
-  \item قالب
-    \subitem قابو, 310
-  \item مادری زبان, 277
-  \item مشینی زبان, 283
-  \item مکمل لہر سمت کار, 308
-  \item نوری ڈایوڈ, 276
-  \item وقتیہ حال, 286
-  \item پرنٹر, 276
-  \item پھیرا
-    \subitem بازیابی, 289
-    \subitem تعمیلی, 291
-    \subitem مشینی, 297
-    \subitem ہدایتی, 298
+  \item VLSI, 151
+  \item VLSI, very large scale integration, 240
 
   \indexspace
 
-  \item کلاں ہدایات, 300
-  \item گزرگاہ
-    \subitem قابو, 275
-
-  \indexspace
-
-  \item ہدایت پڑھ عمل, 275
-  \item ہدایت گنت کار, 273
+  \item word, 205
+  \item write, 205
+\end{otherlanguage}
+  \newpage
+  \item آقا غلام
+   \subitem کنارہ اترائی پر عمل کار، 146
+\item آمد و رفت بتی، 358
+\indexspace
+\item احکامات، 225
+\item ارتعاش، 257
+\item اشارہ
+   \subitem برقی، 189
+   \subitem تیار، 326
+\item اشارہ گر، 273
+\item افزائش کار، 359
+\item اقلیتی دور، 129
+\item انتقال دفتر
+   \subitem عالمگیر، 183
+\item ایس آر
+   \subitem پست فعال مداخل، 140
+\item ایک بلند بِٹ تقرری، 259
+\indexspace
+\item باز رسی، 136
+   \subitem اشارہ، 136
+\item باز رسی اشارات، 247
+\item باز رسی اشارہ، 245، 247
+\item بائٹ، 10، 205
+\item بِٹ، 10، 205
+\item برق گیر، 308
+\item برنامہ، 273
+   \subitem ماخذ، 332
+   \subitem مترجم، 332
+\item بلا ٹپک، 307
+\item بلند تر رتبی بِٹ، 5
+\item بلند تر رتبی ثنائی ہندسہ، 5
+\item بلند تر رتبی ہندسہ، 2
+\item بلند فعال، 138
+\item بلند گو، 359
+\item بنیادی طریقہ کار، 245
+\item بہاو کا جدول
+   \subitem اوّلی، 251
+   \subitem غیر اوّلی، 251
+\item بیدار، 211
+\indexspace
+\item پتہ، 110
+   \subitem بلا واسطہ انداز، 353
+   \subitem دفتری انداز، 354
+   \subitem متصل انداز، 353
+   \subitem مضمر انداز، 354
+\item پتہ بِٹ، 110
+\item پتہ پختہ حافظہ، 314
+\item پختہ حافظہ
+   \subitem ایک مرتبہ قابل لکھائی، 206
+   \subitem برق مٹتا، 206
+   \subitem شعاع مٹتا، 206
+\item پرنٹر، 276
+\item پروگرامر، 236
+\item پڑھنا، 205
+\item پست فعال، 138
+\item پست فعال پن، 211
+\item پلٹ کار، 133
+   \subitem آقا غلام، 146
+   \subitem ایس آر، 135
+   \subitem ٹی، 154، 157
+   \subitem جے کے، 154
+   \subitem ڈی، 149
+   \subitem ڈی، کنارہ اترائی لبلبی، 149
+   \subitem ڈی، کنارہ چڑھائی لبلبی، 149
+\item پھیرا، 256
+   \subitem بازیابی، 289
+   \subitem تعمیلی، 291
+   \subitem مشینی، 297
+   \subitem ہدایتی، 298
+\indexspace
+\item تاخیر، 243
+\item تبصرہ، 339
+\item ترتیب
+   \subitem شناس، 169
+\item ترتیبی دور
+   \subitem غیر معاصر، 247
+\item ترتیبی منطق، 97
+\item ترکیبی منطق، 97
+\item ترکیبی منطقی ادوار
+   \subitem قابل تشکیل جمع، 235
+   \subitem قابل تشکیل ضرب، 235
+   \subitem قابل تشکیل ضرب و جمع، 235
+\item تشکر، 326
+\item تشکیل، 230
+\item تعدد، 139
+\item تیار، 323
+\indexspace
+\item ٹائپ کار تختی، 323
+\indexspace
+\item ثنائی مرموز اعشاریہ، 73، 107
+\item ثنائی ہندسہ، 10، 205
+\indexspace
+\item جدول
+   \subitem بہاو کا، 251
+\item جزو پتہ، 284
+\item جزو ہدایت، 284
+\item جمع کار
+   \subitem ثنائی سلسلہ وار، 159
+   \subitem مکمل، 102
+   \subitem نصف، 98، 102
+\item جمع و ضرب، 65
+\item جھنڈا، 326
+   \subitem صفر، 326
+\item جھنڈا 
+   \subitem علامت، 326
+\indexspace
+\item چوکور موج، 360
+\indexspace
+\item حال، 138
+   \subitem بڑھوتری، 289
+   \subitem بلند، 138
+   \subitem بلند رکاوٹی، 45، 209
+   \subitem پتہ، 287
+   \subitem پست، 138
+   \subitem دو، 45، 271
+   \subitem سہ، 46، 271
+   \subitem صادق، 138
+   \subitem فارغ، 291
+   \subitem کاذب، 138
+   \subitem گنت کار، 310
+   \subitem مساوات، 160
+   \subitem مکمل، 266
+\item حاصل، 100
+   \subitem خارجی، 103
+   \subitem داخلی، 102
+\item حافظہ، 133، 205
+   \subitem اکائی، 207
+   \subitem پختہ، 206
+   \subitem دورانیہ رسائی، 205، 227
+   \subitem عارضی، 205
+\item حالت
+   \subitem نا پائیدار، 245
+\item حالت دوڑ، 143، 253
+\item حال کا جدول، 160، 161
+\item حال کا خاکہ، 162
+\item حال کے متغیرات، 248
+\item حسابی مرکز، 277
+\indexspace
+\item خارجی دفتر، 276
+\item خارجی روزن، 276
+\item ختمہ، 280
+\item خرد برنامہ، 299
+\item خرد عامل کار، 225، 280، 317
+\item خرد ہدایت، 299
+\item خروج، 186
+\indexspace
+\item داب بتام، 283
+\item دخول و خروج مرکز، 271
+\item دستی
+   \subitem ترجمہ، 332
+\item دفتر، 179
+   \subitem  بائیں انتقال، 181
+   \subitem دائیں انتقال، 181
+   \subitem متوازی بھرائی، 182
+\item دفتر مواد، 325
+\item دفتر ہدایت، 275
+\item دوڑ
+   \subitem بحرانی، 254
+   \subitem غیر بحرانی، 254
+\item دور
+   \subitem ملاپی، 276
+\item دورانیہ
+   \subitem اترائی، 134
+   \subitem بلند، 139
+   \subitem پست، 139
+   \subitem تیاری، 151
+   \subitem ٹھیراؤ، 151
+   \subitem چڑھائی، 134
+   \subitem رد عمل، 134، 190
+\item دورانیہ رسائی، 205
+\item دوری عرصہ، 139، 194
+\item دو طرفہ، 323
+\item دھڑکن پیدا کار، 202
+\indexspace
+\item ڈبہ شکل، 97
+\indexspace
+\item ذیلی معمولہ، 335
+\indexspace
+\item راجع ہدایات، 280
+\item رقم زیر عمل، 327
+\item رمز، 72
+   \subitem ایسکی، 73
+   \subitem عالمی، 73
+\item ریزہ، 10
+\indexspace
+\item زبان
+   \subitem مادری، 277
+   \subitem مشینی، 283
+\item زیر عمل، 282
+\indexspace
+\item سات کلی نمائشی تختی، 131
+\item سادس عشری، 7
+\item ساعت، 139، 146
+   \subitem دھڑکن، 140
+\item سخت افزار، 342
+\item سرخی، 339
+\item سلسلہ
+   \subitem ذیلی، 344
+   \subitem ہدایتی، 345
+\item سلسلہ وار
+   \subitem خارج، 186
+   \subitem داخل، 186
+   \subitem مخارج، 326
+   \subitem مداخل، 323
+\item سلسلہ وار مواد کی دھار، 361
+\item سوزن، 314
+\item سوئچ، 218
+   \subitem ایک قطب دو چال، 307
+\item سیدھا گزرنا، 335
+\indexspace
+\item شاخ، 333
+   \subitem غیر مشروط، 335
+   \subitem مشروط، 335
+\item شناخت کار، 110، 111
+\indexspace
+\item ضرب متمم و ضرب متمم، 78
+\item ضرب متمم و ضرب متمم منطقی دور
+   \subitem قابل تشکیل، 240
+\item ضرب و جمع، 78
+\item ضرب و جمع ، 62
+\indexspace
+\item عارضی حافظہ
+   \subitem اکائی، 207
+\item عبوری جدول، 247
+\item عبوری حال ، 245، 248
+\item عمل پیرا
+   \subitem بلند، 113
+   \subitem پست، 114
+\indexspace
+\item غیر ضروری، 260
+\item غیر فعال، 139
+\item غیر فعال کار
+   \subitem مداخل، 139
+\item غیر مستحکم دور، 256
+\item غیر وابسطہ، 321
+\indexspace
+\item فتیلہ، 215
+\item فعال، 138
+\item فعال کار
+   \subitem مداخل، 139
+\indexspace
+\item قابل پیش بھرائی، 314
+\item قابل تشکیل
+   \subitem پیچیدہ ترتیبی دور، 240
+\item قابل تشکیل منطقی دور، 235
+\item قابو پختہ حافظہ، 314
+\item قابو مرکز، 271
+\item قالب
+   \subitem قابو، 310
+\item قانون
+   \subitem مور، 240
+\indexspace
+\item کلاں ہدایات، 300
+\item کمپیوٹر کی مدد سے تیار، 241
+\item کم تر رتبی بِٹ، 5
+\item کم تر رتبی ثنائی ہندسہ، 5
+\item کم تر رتبی ہندسہ، 2
+\item کنارہ
+   \subitem اترائی، 134
+   \subitem چڑھائی، 134، 268
+   \subitem مثبت، 134
+   \subitem منفی، 134
+\indexspace
+\item گزرگاہ
+   \subitem قابو، 275
+\item گنت کار، 133
+   \subitem بے ترتیب، 200
+   \subitem تین بِٹ، معاصر، 191
+   \subitem ثنائی، 189
+   \subitem ثنائی تین ہندسی، 158
+   \subitem ثنائی مرموز اعشاری، 194
+   \subitem ثنائی، معاصر، چار بِٹ، 194
+   \subitem چار بٹ ثنائی، الٹ، 189
+   \subitem چار بٹ ثنائی سیدھا، 189
+   \subitem چھلا، 201
+   \subitem لہریا، 191
+   \subitem لہریا، ثنائی، 191
+   \subitem متغیر لمبائی، 198
+   \subitem معاصر، تین بِٹ ثنائی، 194
+\indexspace
+\item لبلبی، 146
+\item لرزش، 245
+\item لفظ، 205
+\item لکھنا، 205
+\indexspace
+\item مادری زبان، 226، 277
+\item مائکروپراسیسر، 225، 317
+\item مترجم، 332
+\item متمم ضرب و متمم ضرب، 69
+\item مجاز
+   \subitem بلند، 113
+   \subitem پست، 114
+\item محیط دائرے، 356
+\item مخلوط دور، 211
+   \subitem انتہائی وسیع پیمانہ، 240
+   \subitem برنامہ نویس، 218
+   \subitem خصوصی استعمال، 240
+   \subitem وسیع پیمانہ، 151، 240
+\item مرتعش، 256
+\item مرکز حساب و منطق، 325
+\item مستحکم کار
+   \subitem بلند عمل پیرا غیر متمم، 46
+   \subitem بلند عمل پیرا متمم، 46
+   \subitem پست عمل پیرا غیر متمم ، 46
+   \subitem پست عمل پیرا متمم، 46
+\item مشینی پھیرا
+   \subitem متغیر، 317
+   \subitem مقررہ، 317
+\item مشینی زبان، 283
+\item مصافحہ، 326، 349
+\item معاصر
+   \subitem ترتیبی ادوار، 160
+\item معلوماتی صفحات، 49
+\item مقدار معلوم، 344
+\item مکمل لہر سمت کار، 308
+\item منتخب کار
+   \subitem خارجی، 120
+   \subitem داخلی، 120
+\item منطقی نظام
+   \subitem مثبت، 133
+   \subitem منفی، 133
+\item مور نمونہ، 168
+\item موقع پر قابل تشکیل گیٹ صف، 240
+\item میلی نمونہ، 168
+\indexspace
+\item نرم افزار، 339
+\item نقاب، 349
+\item نگران، 325
+\item نوری ڈایوڈ، 276
+\indexspace
+\item وقتیہ حال، 286
+\indexspace
+\item ہدایت، 226
+\item ہدایت پڑھ عمل، 275
+\item ہدایت گنت کار، 273
+\item ہدایتی رمز، 281، 327
+\item ہرٹز، 140
+\item ہشتمی ثنائی عدد، 10
+\item ہشتمی عدد، 205
+\item ہمسایہ اعداد، 258
+\item ہم عصر، 139
 
 \end{theindex}

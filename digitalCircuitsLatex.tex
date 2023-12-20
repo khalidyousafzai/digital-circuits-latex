@@ -126,7 +126,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 %
 %\includeonly{./tex/simplestComputerOne}%
 %\includeonly{,./tex/simplestComputerTwo}%
-%\includeonly{./tex/regisers}%
+%\includeonly{./tex/test}%
 
 \author{
 خالد خان یوسفزئی\\
@@ -144,19 +144,13 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 }
 %\date{}                           %if absent gives date in arabic which is a rubbish
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
-%%might break bidi package as said on the internet
-\makeatletter
-\def\maketag@@@#1{\hbox{\m@th\normalfont\RTL{{\beginR #1\endR}}}}
-\def\tagform@#1{\maketag@@@{(\ignorespaces{\beginR#1\endR}\unskip)}}
-\makeatother
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%the following handles the ref flipping bug. i have corrected it in \حوالہ{} command instead
+%\setlatin
+
 
 %\linenumbers
-\makeindex
+
+%\makeindex
 
 %==========
 \begin{document}
@@ -259,7 +253,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
 
-%\printindex
+\printindex
 
 
 \end{document}

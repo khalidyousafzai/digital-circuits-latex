@@ -743,3 +743,8 @@
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {346}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {8}}کمپیوٹر با کا خلاصہ}{\arabicdigits {351}}{}%
 \contentsline {chapter}{جوابات}{\arabicdigits {369}}{}%
+\contentsline {chapter}{فرہنگ}{\arabicdigits {371}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
