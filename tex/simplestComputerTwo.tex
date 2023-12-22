@@ -175,7 +175,7 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
  (kA)++(0,-0.5*\kAr)coordinate(bb)  (kAnchor)++(\kdimX,0.5*\kdimY)coordinate(kA)--++(\kAr,\kAr)coordinate[pos=0.5](cc)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.5](dd)  (aa)--(cc)  (bb)--(dd)  (kA)++(0.5*\ksepXW,0)node[]{$16$};
  
  \draw(kAnchor)++(0,-1*\ksepYA)coordinate(kAnchor)   [thick] rectangle ++(\kdimX,\kdimY)
- node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{64\,K \\ \RTL{حافظہ}};
+ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{$\SI{64}{\kilo\byte}$ \\ \RTL{حافظہ}};
  %arrow head vertical
 \draw[thick](kAnchor)++(0.5*\kdimX,\kdimY)coordinate(kA)node[above,yshift=0.5ex]{$16$}--++(-\kAr,\kAr)coordinate[pos=0.65](aa)  (kA)--++(\kAr,\kAr)coordinate[pos=0.65](bb)  (aa)--(aa|-kL)  (bb)--(bb|-kL);
 \draw[thick](kAnchor)++(0.5*\kdimX,0)coordinate(kA)coordinate(kB)--++(-\kAr,-\kAr)coordinate[pos=0.65](aa)  (kA)--++(\kAr,-\kAr)coordinate[pos=0.65](bb);
@@ -343,9 +343,9 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 کمپیوٹر با کی کل \عددی{42} ہدایات ہیں۔ آئیں ان میں سے  راجع ہدایات  پر غور کریں۔
 
 \جزوحصہء{\sLDA اور \sSTA}
-\قول{\sLDA}   کی ہدایت  وہی ہے جو پہلے تھی: مخاطب مقام   (نشان زد مقام) سے دفتر \عددی{\regA} میں حافظہ سے مواد ڈالنا۔  فرق فقط  اتنا ہے کہ  کمپیوٹر با کی رسائی  \عددی{0000H} تا \عددی{FFFFH}  مقامات تک ممکن   ہے۔ مثال کے طور پر،    \قول{\LDA{2000H}} سے مراد حافظہ کے مقام  \عددی{2000H} سے دفتر \عددی{\regA} میں مواد نقل کرنا ہے۔
+\قول{\sLDA}   کی ہدایت  وہی ہے جو پہلے تھی: مخاطب مقام   (نشان زد مقام) سے دفتر \عددی{\regA} میں حافظہ سے مواد ڈالنا۔  فرق فقط  اتنا ہے کہ  کمپیوٹر با کی رسائی  \عددی{0000H} تا \عددی{FFFFH}  مقامات تک    ہے۔ مثال کے طور پر،    \قول{\LDA{2000H}} سے مراد حافظہ کے مقام  \عددی{2000H} سے دفتر \عددی{\regA} میں مواد نقل کرنا ہے۔
 
-ہدایت کے مختلف حصوں میں فرق کرنے کے لئے   بعض اوقات   ہدایت کے   پہلے حصے  کو \اصطلاح{ ہدایتی رمز }\فرہنگ{ہدایتی رمز}\حاشیہب{opcode}\فرہنگ{opcode} جبکہ باقی حصے کو  \اصطلاح{رقم زیر عمل }\فرہنگ{رقم زیر عمل}\حاشیہب{operand}\فرہنگ{operand} کہتے ہیں۔ یوں      \قول{\LDA{2000H}} کی ہدایت  میں\قول{ \sLDA } کو  \موٹا{ہدایتی رمز }اور  \قول{\عددی{2000H} } کو  \موٹا{رقم زیر عمل}  کہیں گے۔ یوں ہدایتی رمز کے دو مختلف معنی لئے جا سکتے ہیں؛ یہ ہدایت کے لئے یا ہدایت کے ثنائی رمز کے لئے استعمال کیا جا سکتا ہے۔ اصل معنی متن سے   واضح    ہو گی۔
+ہدایت کے مختلف حصوں میں فرق کرنے کے لئے   بعض اوقات   ہدایت کے   پہلے حصے  کو \اصطلاح{ ہدایتی رمز }\فرہنگ{ہدایتی رمز}\حاشیہب{opcode}\فرہنگ{opcode} جبکہ باقی حصے کو  \اصطلاح{رقم زیر عمل }\فرہنگ{رقم زیر عمل}\حاشیہب{operand}\فرہنگ{operand} کہتے ہیں۔ یوں      \قول{\LDA{2000H}} کی ہدایت  میں\قول{ \sLDA } کو  \موٹا{ہدایتی رمز }اور  \قول{\عددی{2000H} } کو  \موٹا{رقم زیر عمل}  کہیں گے۔ یوں \اصطلاح{ہدایتی رمز }\فرہنگ{ہدایتی رمز}کے دو مختلف معنی لئے جا سکتے ہیں؛ یہ ہدایت کے لئے یا ہدایت کے ثنائی رمز کے لئے استعمال کیا جا سکتا ہے۔ اصل معنی متن سے   واضح    ہو گی۔
 
 \قول{\sSTA}  ایک ایسی ہدایت ہے جو دفتر \عددی{\regA} کے مواد کو حافظہ میں محفوظ کرتی ہے۔ اس ہدایت کو  پتہ درکار ہو گا۔ یوں \قول{\STA{7FFFH}} کی ہدایت دفتر \عددی{\regA} کے مواد کو حافظہ میں مقام \عددی{7FFFH} پر  رکھتی ہے۔  اگر 
 
@@ -355,7 +355,7 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 ہو تب \قول{\STA{7FFFH}}  کی تعمیل  مقام \عددی{7FFFH} پر \عددی{8AH}    لکھے گی۔
 
 \جزوحصہء{  \sMVI}
-ہدایت \قول{\sMVI}  دفتر میں متصل  (قریب مہیا کردہ)مواد  منتقل  کرتی ہے۔یہ کمپیوٹر سے کہتی ہے  کہ  ہدایت رمز کے بعد پیش مواد کو   دیے گئے دفتر میں ڈالے۔ مثال کے طور پر، 
+ہدایت \قول{\sMVI} کہتی ہے   دفتر میں متصل  (قریب مہیا کردہ)مواد\قول{   لاد  } (جیسا گھوڑے پر بوجھ\قول{ لادنا } ہو گا)۔یہ کمپیوٹر سے کہتی ہے  کہ  ہدایت رمز کے بعد پیش  (قریب یا متصل)مواد کو   دیے گئے دفتر میں ڈالے۔  \قول{لاد } اور  \قول{قریب }  سے اس کا  ہدایتی رمز \قول{ \sMVI } نکلا ہے۔ ہدایت \sMVI کو  \قول{لاد قریب} پڑھیں۔مثال کے طور پر، 
 \begin{align*}
 \MVI{\regA}{\kop{37H}}
 \end{align*}
@@ -372,7 +372,7 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 \end{align*}
 
 \جزوحصہء{ہدایتی رمز}
-جدول \حوالہ{شکل_کمپیوٹر_ہدایتی_رمز} میں کمپیوٹر با کی تمام ہدایات پیش ہیں۔ یہ \عددی{8080\! / \! 8085} کی ہدایتی رمز ہیں۔ جیسا آپ دیکھ سکتے ہیں\قول{  \sLDA}  کا ہدایتی رمز \عددی{3A} ہے، \قول{\sSTA}  کا ہدایتی رمز \عددی{32} ہے، وغیرہ۔ اس باب کو پڑھتے ہوئے اس جدول سے رجوع کریں۔
+جدول \حوالہ{شکل_کمپیوٹر_ہدایتی_رمز} میں کمپیوٹر با کی تمام ہدایات پیش ہیں۔(ہدایتی رمز چھوٹا رکھنے کی خاطر اس کا عمل بیان کرنے والے الفاظ جوڑ کر چھوٹا نام پیدا کیا جاتا ہے؛ آپ نے یہ عمل \sMVI کی ہدایت میں دیکھا۔) یہ \عددی{8080\! / \! 8085} کی ہدایتی رمز ہیں۔ جیسا آپ دیکھ سکتے ہیں\قول{  \sLDA}  کا ہدایتی رمز \عددی{3A} ہے، \قول{\sSTA}  کا ہدایتی رمز \عددی{32} ہے، وغیرہ۔ باب  پڑھتے ہوئے اس جدول سے رجوع کریں۔
 \begin{table}
 \caption{کمپیوٹر با کے ہدایتی رمز}
 \label{شکل_کمپیوٹر_ہدایتی_رمز}
@@ -505,7 +505,7 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 یہ  کمپیوٹر با کی تیز ترین  ہدایات ہیں جنہیں محض ایک مشینی پھیرا درکار ہے۔
 
 \جزوحصہ{\sADD اور \sSUB}
-ہدایت \sADD کہتی ہے دفتر \دفترالف کے ساتھ دیے گئے دفتر کا مواد جمع کر کے نتیجہ دفتر \دفترالف میں ڈال۔ مثلاً،
+ہدایت \sADD کہتی ہے دفتر \دفترالف کے ساتھ دیے گئے دفتر کا مواد \قول{جمع } کر کے نتیجہ دفتر \دفترالف میں ڈال۔ مثلاً،
 \begin{center}
 \begin{tabular}{r}
 \ADD{\regB}
@@ -521,7 +521,7 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 \end{align*}
 دفتر \دفترالف میں نتیجہ جبکہ دفتر \دفترب اپنا مواد برقرار رکھتا ہے۔
 
-اسی طرح \sSUB کہتی ہے دیے گئے دفتر کا مواد دفتر \دفترالف سے منفی کر کے دفتر \دفترالف میں نتیجہ رکھ۔ دیے گئے دفتر کا مواد تبدیل نہیں ہو گا۔ \SUB{\regC} دفتر \دفترج کا مواد دفتر \دفترالف کے مواد سے منفی کر کے نتیجہ دفتر \دفترالف میں رکھے گی۔
+اسی طرح \sSUB کہتی ہے دیے گئے دفتر کا مواد دفتر \دفترالف سے  \قول{منفی } کر کے دفتر \دفترالف میں نتیجہ رکھ۔ دیے گئے دفتر کا مواد تبدیل نہیں ہو گا۔ \SUB{\regC} دفتر \دفترج کا مواد دفتر \دفترالف کے مواد سے منفی کر کے نتیجہ دفتر \دفترالف میں رکھے گی۔
 
 ہدایات \sADD اور \sSUB کی مختلف شکل و صورتیں درج ذیل ہیں۔
 \begin{center}
@@ -534,7 +534,7 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 \end{center}
 
 \جزوحصہء{\sINR اور \sDCR}
-بعض اوقات ہم  دفتر کا مواد  بڑھانا یا گھٹانا چاہتے ہیں۔بڑھوتری کے لئے ہدایت \sINR ہے؛ یہ کمپیوٹر سے کہتی ہے ، دیے گئے دفتر کے مواد میں \عددی{1} کا اضافہ کر۔ دفتر کے مواد میں  کمی لانے کی ہدایت \sDCR ہے، جو دیے گئے دفتر کے مواد میں \عددی{1} کی کمی پیدا کرتی ہے۔ ان ہدایات کی مختلف اشکال درج ذیل ہیں۔
+بعض اوقات ہم  دفتر کا مواد  بڑھانا یا گھٹانا چاہتے ہیں۔بڑھوتری کے لئے ہدایت \sINR ہے (یہ ہدایت  \قول{بڑھا } پڑھی جائے گی)؛ یہ کمپیوٹر سے کہتی ہے ، دیے گئے دفتر کے مواد میں \عددی{1} کا اضافہ کر۔ دفتر کے مواد میں  کمی لانے کی ہدایت \sDCR ہے، جو دیے گئے دفتر کے مواد میں \عددی{1} کی کمی پیدا کرتی ہے (یہ ہدایت \قول{گھٹا} پڑھی جائے گی)۔ ان ہدایات کی مختلف اشکال درج ذیل ہیں۔
 \begin{center}
 \begin{tabular}{r}
 \INR{\regA}\\
@@ -609,7 +609,40 @@ node[pos=0.5,rectangle,inner sep=0pt,text width=2.75cm,align=center]{\RTL{برن
 \حصہ{شاخ اور طلبی  ہدایات}
 کمپیوٹر با  کی چار ہدایات ایسی ہیں جو برنامے کی ترتیب  تبدیل کر سکتی ہیں۔دوسرے لفظوں میں، ہمیشہ کی طرح اگلی ہدایت بازیاب کرنے کی بجائے ، کمپیوٹر  برنامے   کے دوسرے حصے  پہنچ کر وہاں  سے اگلی ہدایت بازیاب کر تا ہے۔ہم کہتے ہیں کمپیوٹر دوسری  \اصطلاح{شاخ }\فرہنگ{شاخ}\حاشیہب{branch}\فرہنگ{branch} لیتا ہے یا دوسری شاخ    پر چل پڑتا ہے۔
 
-فرض کریں آپ چاہتے ہیں کہ  دفتر \دفترالف میں صفر \عددی{0} ہونے کی صورت میں ایک کام اور غیر صفر ہونے کی صورت میں دوسرا کام سرانجام ہو۔ جہاں کمپیوٹر نے یہ  کو فیصلہ کرنا ہو  گا ، وہاں برنامے کی دو شاخ ہوں گی۔ کمپیوٹر  کو فیصلہ کرنا ہو گا کہ وہ کس\قول{ شاخ } پر چلے۔
+فرض کریں آپ چاہتے ہیں کہ  دفتر \دفترالف میں صفر \عددی{0} ہونے کی صورت میں ایک کام اور غیر صفر ہونے کی صورت میں دوسرا کام سرانجام ہو۔ جس مقام پر  کمپیوٹر نے یہ  فیصلہ کرنا ہو  گا ، وہاں برنامے کی دو شاخیں ہوں گی۔ کمپیوٹر  کو فیصلہ کرنا ہو گا کہ وہ کس\قول{ شاخ } پر چلے۔
+
+ شکل \حوالہ{شکل_کمپیوٹر_با_شاخ_تصور} میں شاخ کا تصور پیش ہے۔ شکل-الف میں درخت کے تنے پر چڑھتے  ہوئے  ایک مقام آتا ہے جہاں آپ نے فیصلہ کرنا  ہو گا آیا سیدھا تنے پر رہتے ہوئے چڑھا جائے یا دائیں شاخ لیا جائے۔ آپ کے ذہن میں کوئی شرط ہو گی۔ اگر یہ شرط مطمئن ہو، آپ دائیں  شاخ لیں گے؛  دیگر صورت آپ تنے پر رہتے ہوئے آگے بڑھیں گے۔ شکل-ب میں کمپیوٹر کا حافظہ دکھایا گیا ہے جس میں برنامہ رکھنے کا طریقہ واضح کیا گیا ہے۔ آپ دیکھ سکتے ہیں کہ شرط غیر مطمئن ہونے کی صورت میں برنامے کا حصہ نچلے تنے سے  متصل رکھا جاتا ہے جبکہ شرط مطمئن ہونے پر جو برنامہ بروئے کار لایا جائے گا،تنے کے  نچلے   حصہ سے دور رکھا گیا ہے۔ 
+ 
+ حافظہ میں ان شاخ   کا برنامہ  بالا یا دور رکھا جائے گا۔ مسلط شرط  غیر مطمئن  ہونے کی صورت میں  متصل برنامے پر عمل ہو   گا، جبکہ شرط  مطمئن ہونے کی صورت میں دور رکھا گئے  برنامے پر عمل ہو گا۔
+
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kA}{0.3}
+\pgfmathsetmacro{\kL}{1}
+\pgfmathsetmacro{\kAngA}{50}
+\pgfmathsetmacro{\ksepX}{6}
+\draw[thick](0,0)--++(0,2*\kL+\kA)  (\kA,0)--++(0,\kL)coordinate(aa) ++(0,\kA)coordinate(bb)--++(0,\kL);
+\draw[thick](aa)--++(\kAngA:\kL)  (bb)--++(\kAngA:\kL)coordinate(cc);
+
+\draw[thick](-\ksepX,0)--++(0,3*\kL+\kA+0.1)  (-\ksepX-\kA,0)--++(0,3*\kL+\kA+0.1);
+\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt}](0,0)--++(0,\kL+\kA-0.1)coordinate[pos=0.5,xshift=-10pt](kA);
+\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt,mirror}](-\ksepX,0)--++(0,\kL+\kA-0.1)coordinate[pos=0.5,xshift=10pt](kB);
+\draw[latex-](kB)--(kA)node[pos=0.5,fill=white]{تنا};
+
+\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt}](0,\kL+\kA)--++(0,\kL)coordinate[pos=0.5,xshift=-10pt](kC);
+\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt,mirror}](-\ksepX,\kL+\kA)--++(0,\kL)coordinate[pos=0.5,xshift=10pt](kD);
+\draw[latex-](kD)--(kC)node[pos=0.5,fill=white,rectangle,inner sep=0pt,align=center,text width=2.5cm]{\RTL{شرط غیر مطمئن}};
+
+\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt,aspect=0.6}](bb)++(\kAngA:0.2)--(cc)coordinate[pos=0.6,shift={(90+\kAngA:0.35)}](kE);
+\draw[decorate,decoration={brace,raise=3pt,amplitude=5pt,mirror}](-\ksepX,2*\kL+\kA+0.1)--++(0,\kL)coordinate[pos=0.5,xshift=10pt](kF);
+\draw[-latex](kE) to [out=90,in=0]node[pos=0.7,fill=white,rectangle,inner sep=0pt, text width=2.5cm,align=center]{\RTL{شرط مطمئن}}(kF);
+\draw(0.5*\kA,0)node[below,yshift=-1ex]{(الف)};
+\draw(-\ksepX-0.5*\kA,0)node[below,yshift=-1ex]{(ب)};
+\end{tikzpicture}
+\caption{شاخ کا تصور}
+\label{شکل_کمپیوٹر_با_شاخ_تصور}
+\end{figure}
 
 \جزوحصہء{\sJMP}
 نئی شاخ پر چلنے کی ایک ہدایت \sJMP ہے؛ یہ کمپیوٹر کو اگلی ہدایت دئے گئے  پتے  سے بازیاب کرنے کو کہتی ہے۔\sJMP ہدایت کے ساتھ پتہ ہو گا جو برنامہ گنت کار میں ڈال دیا جاتا ہے۔ مثال کے طور پر،
@@ -1544,12 +1577,12 @@ F00BH&C9H&\RET
 گنتکار کی ابتدائی قیمت تعین کرنے کی خاطر  \sMVI ہدایت  کی تعمیل ایک مرتبہ کی جاتی ہے۔ ہدایت \sDCR کی تعمیل \عددی{70} مرتبہ ہو گی۔  ہدایت \sJNZ پورے \عددی{69} مرتبہ شاخ لی گی اور ایک مرتبہ سیدھا گزرنے دے گی۔ جدول \حوالہ{جدول_کمپیوٹر_با_ہدایات_اور_ٹی_حال}  اور جدول \حوالہ{جدول_کمپیوٹر_با_ہدایات_اور_ٹی_حال_الف} میں \عددی{T} حال   کی تعداد پیش ہے، جنہیں استعمال کر کے  ذیلی معمولہ کی تعمیلی دورانیہ معلوم کرتے ہیں۔
 \begin{center}
 \begin{tabular}{rrr}
-\sMVI&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)&\\
+\sMVI&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{00}\)&\\
 \sDCR&\(70\times 4\times \SI{1}{\micro\second}=\SI{280}{\micro\second}\)&\\
 \sJNZ&\(69\times 10\times \SI{1}{\micro\second}=\SI{690}{\micro\second}\)&(شاخ لیا گیا)\\
-\sJNZ&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)&(شاخ نہیں لیا گیا)\\
-\sNOP&\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\)&\\
-\sRET&\(1\times 10\times \SI{1}{\micro\second}=\SI{10}{\micro\second}\)&
+\sJNZ&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{00}\)&(شاخ نہیں لیا گیا)\\
+\sNOP&\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\phantom{00}\)&\\
+\sRET&\(1\times 10\times \SI{1}{\micro\second}=\SI{10}{\micro\second}\phantom{0}\)&
 \end{tabular}
 \end{center}
 یوں درکار وقت \عددی{7+280+690+7+4+10=\SI{998}{\micro\second}} ہو گا، جو تقریباً  \عددی{\SI{1}{\milli]second}} کے برابر ہے۔
@@ -1596,7 +1629,7 @@ F00BH&C9H&\RET
 \begin{tabular}{rrr}
 \sDCR&\(71\times 4\times \SI{1}{\micro\second}=\SI{284}{\micro\second}\)&\\
 \sJNZ&\(70\times 10\times \SI{1}{\micro\second}=\SI{700}{\micro\second}\)&(شاخ لیا گیا)\\
-\sJNZ&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)&(شاخ نہیں لیا گیا)\\
+\sJNZ&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{00}\)&(شاخ نہیں لیا گیا)\\
 \end{tabular}
 \end{center}
 جب گنتکار \دفترج  صفر کو پہنچتا ہے ، برنامہ \JNZ{دائرہ2} سے نیچے  گرتا ہے؛ گنتکار \دفترب گھٹتا ہے اور \JNZ{دائرہ1} ہدایت،   برنامے کو واپس \MVI{\regC}{47H} بھیجتی ہے۔ ہم دائرہ2 میں دوسری مرتبہ داخل ہوتے ہیں۔ چونکہ دائرہ1 کے اندر دائرہ2 پایا جاتا ہے لہٰذا  دائرہ2 کی تعمیل \عددی{10} مرتبہ ہو گی اور یوں کل وقفہ  تقریباً \عددی{\SI{10}{\milli\second}} پیدا ہو گا۔
@@ -1604,14 +1637,14 @@ F00BH&C9H&\RET
 پورے ذیلی معمولہ  کے حساب کی تفصیل درج ذیل ہے، جو  \عددی{\SI{10134}{\micro\second}} ( تقریباً \عددی{\SI{10}{\milli\second}} ) وقفہ دیتا   ہے۔
 \begin{center}
 \begin{tabular}{rrr}
-\MVI{\regB}{0AH}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)&\\
-\MVI{\regC}{47H}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)&\\
+\MVI{\regB}{0AH}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{000}\)&\\
+\MVI{\regC}{47H}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{000}\)&\\
 دائرہ2&
 \(10\times \SI{991}{\micro\second}=\SI{9910}{\micro\second}\)&\\
-\DCR{\regB}&\(10\times 4\times \SI{1}{\micro\second}=\SI{40}{\micro\second}\)&\\
-\JNZ{دائرہ1}&\(9\times 10\times \SI{1}{\micro\second}=\SI{90}{\micro\second}\)&(شاخ لیا گیا)\\
-\JNZ{دائرہ1}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)&(شاخ نہیں لیا گیا)\\
-\RET&\(1\times 10\times \SI{1}{\micro\second}=\SI{10}{\micro\second}\)&
+\DCR{\regB}&\(10\times 4\times \SI{1}{\micro\second}=\SI{40}{\micro\second}\phantom{00}\)&\\
+\JNZ{دائرہ1}&\(9\times 10\times \SI{1}{\micro\second}=\SI{90}{\micro\second}\phantom{00}\)&(شاخ لیا گیا)\\
+\JNZ{دائرہ1}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{000}\)&(شاخ نہیں لیا گیا)\\
+\RET&\(1\times 10\times \SI{1}{\micro\second}=\SI{10}{\micro\second}\phantom{00}\)&
 \end{tabular}
 \end{center}
 اس ذیلی معمولہ کی لمبائی (\عددی{13} بائٹ)  درج ذیل   ہے۔
@@ -1791,15 +1824,15 @@ T=\frac{1}{f}=\frac{1}{\SI{261.63}{\hertz}}=\SI{3822}{\micro\second}
 وقفوں کا حساب درج ذیل ہے۔
 \begin{center}
 \begin{tabular}{rr}
-\OUT{04H}&\(1\times 10 \times \SI{1}{\micro\second}=\SI{10}{\micro\second}\)\\
-\MVI{\regC}{86H}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)\\
-\DCR{\regC}&\(134\times 4\times \SI{1}{\micro\second}=\SI{536}{\micro\second}\)\\
+\OUT{04H}&\(1\times 10 \times \SI{1}{\micro\second}=\SI{10}{\micro\second}\phantom{00}\)\\
+\MVI{\regC}{86H}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{000}\)\\
+\DCR{\regC}&\(134\times 4\times \SI{1}{\micro\second}=\SI{536}{\micro\second}\phantom{0}\)\\
 \JNZ{دائرہ2}&\(133\times 10\times \SI{1}{\micro\second}=\SI{1330}{\micro\second}\)\\
-\JNZ{دائرہ2}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\)\\
-\CMA&\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\)\\
-\NOP&\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\)\\
-\NOP &\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\)\\
-\JMP{دائرہ1}&\(1\times 10\times \SI{1}{\micro\second}=\SI{10}{\micro\second}\)\\
+\JNZ{دائرہ2}&\(1\times 7\times \SI{1}{\micro\second}=\SI{7}{\micro\second}\phantom{000}\)\\
+\CMA&\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\phantom{000}\)\\
+\NOP&\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\phantom{000}\)\\
+\NOP &\(1\times 4\times \SI{1}{\micro\second}=\SI{4}{\micro\second}\phantom{000}\)\\
+\JMP{دائرہ1}&\(1\times 10\times \SI{1}{\micro\second}=\SI{10}{\micro\second}\phantom{00}\)\\
 \end{tabular}
 \end{center}
 درج بالا وقفے مل کر \عددی{\SI{1912}{\micro\second}} دیتے ہیں، جو نصف موج کے برابر ہے۔

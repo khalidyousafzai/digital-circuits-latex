@@ -109,15 +109,15 @@ s&=\overline{y}z+y\overline{z}
 
 \جزوحصہ{مکمل جمع کار}
  آئیں، ایک سے زیادہ بٹ ثنائی اعداد \عددی{y=111_2} اور \عددی{z=11_2} کے مجموعے کا حصول دیکھتے ہیں۔
-\begin{align*}
-\begin{split}
-11\phantom{1\,}&\\
-111&\\
-+\phantom{1}11&\\
-\noalign{\smallskip}\hline\noalign{\smallskip}
-1010&
-\end{split}
-\end{align*}
+\begin{center}
+ \begin{tabular}{R}
+ 11\phantom{1}\\
+ 111\\
+ +\phantom{1}11\\
+ \midrule
+ 1010
+ \end{tabular}
+ \end{center}
  پہلے قدم پر کم تر رتبی بِٹ \عددی{y_0} اور \عددی{z_0} کو نصف جمع کار حل کر سکتا ہے، لیکن اگلے قدم پر بِٹ \عددی{y_1} اور \عددی{z_1} جمع کرتے ہوئے گزشتہ قدم کا \اصطلاح{حاصل}\فرہنگ{حاصل}\حاشیہب{carry}\فرہنگ{carry} \عددی{(1)} بھی جمع کرنا ہو گا ۔
 
  ظاہر ہوا، دو اعداد جمع کرنے کی خاطر ایسا دور درکار ہو گا جو تین بٹ جمع کر سکے۔ آئیں ایسا دور دیکھتے ہیں۔
@@ -365,16 +365,16 @@ s&=x\oplus (y\oplus z)\\
 
 
 آئیں \عددی{y=111_2} اور \عددی{z=11_2} کا مجموعہ مکمل جمع کار کی مدد سے حاصل کریں۔سب سے پہلے دونوں اعداد کو تین ثنائی ہندسوں میں لکھیں ، لہٰذا \عددی{z=011_2} ہو گا۔شکل \حوالہ{شکل_ترکیبی_تین_درجہ_جمع_کار} میں مطلوبہ تین درجی، تین بِٹ جمع کار پیش کیا گیا ہے، جہاں مکمل جمع کار کو مختصراً \قول{جمع کار} کہا گیا ہے ۔ ثنائی عدد \عددی{y=111=y_2y_1y_0} اور \عددی{z=011=z_2z_1z_0} ہیں۔یوں کم رتبی بِٹ کے مکمل جمع کار کو دونوں اعداد کے کم رتبی ہندسے، \عددی{y_0=1} اور \عددی{z_0=1}، فراہم کیے جائیں گے، اور ساتھ ہی چونکہ پہلے قدم میں کوئی \قول{داخلی حاصل} نہیں ہو گا لہٰذا داخلی حاصل \عددی{c_0=0} فراہم کیا جائے گا۔ اگلے قدم میں جمع کار کو \عددی{y_1=1} اور \عددی{z=1} کے ساتھ پہلے قدم کا حاصل \عددی{c_1} بطور داخلی حاصل، فراہم کیا جائے گا، جبکہ آخری جمع کار کو \عددی{y_2=1} اور \عددی{z_2=0} کے ساتھ گزشتہ قدم کا حاصل \عددی{c_2} فراہم کیا جائے گا۔تین بِٹ جمع کار، ان اعداد کا مجموعہ \عددی{c_3s_2s_1s_0=1010_2} دے گا۔
-\begin{align*}
-\begin{split}
-111\phantom{1\,}&\\
-\phantom{1}111&\\
-+\phantom{1}011&\\
-\noalign{\smallskip}\hline\noalign{\smallskip}
-1010&
-\end{split}
-\end{align*}
-%
+ \begin{center}
+ \begin{tabular}{R}
+ 111\phantom{1}\\
+ 111\\
+ +\,011\\
+ \midrule
+ 1010
+ \end{tabular}
+ \end{center}
+ %
 \begin{figure}
 \centering
 \begin{tikzpicture}[
@@ -1347,14 +1347,14 @@ s_0&=m_1+m_2+m_4+m_7=\sum (m_1,m_2,m_4,m_7)
 \pgfmathsetmacro{\kydim}{2*\kul+7*\kpsep}
 \draw[thick](0,0) rectangle ++(\kxdim,\kydim);
 \foreach \y/\a/\l in {4/{a_0}/{c_0},5/{a_1}/{y_0},6/{a_2}/{x_0}}{\draw(0,\kul+\y*\kpsep)node[right]{$\a$}--++(-\kpin,0)node[left]{$\l$};}
-\draw(\kxdim,\kul+7*\kpsep)node[left]{$m_7$}--++(\kysep,0)coordinate[pos=0.75](kkk)node[or port,scale=1,number inputs=4,anchor=in 1](u1){};
-\draw(\kxdim,\kul+6*\kpsep)node[left]{$m_6$}--++(5*\kstep,0)|-(u1.in 2);
-\draw(\kxdim,\kul+5*\kpsep)node[left]{$m_5$}--++(6*\kstep,0)|-(u1.in 3);
-\draw(\kxdim,\kul+3*\kpsep)node[left]{$m_3$}--++(7*\kstep,0)|-(u1.in 4);
-\draw(\kxdim,\kul+1*\kpsep)node[left]{$m_1$}--++(\kysep,0)node[or port,scale=1,number inputs=4,anchor=in 4](u2){};
-\draw(\kxdim,\kul+4*\kpsep)node[left]{$m_4$}--++(5*\kstep,0)|-(u2.in 2);
-\draw(\kxdim,\kul+2*\kpsep)node[left]{$m_2$}--++(4*\kstep,0)|-(u2.in 3);
-\draw(kkk)|-(u2.in 1);
+\draw[thin](\kxdim,\kul+7*\kpsep)node[left]{$m_7$}--++(\kysep,0)coordinate[pos=0.75](kkk)node[or port,scale=1,number inputs=4,anchor=in 1](u1){};
+\draw[thin](\kxdim,\kul+6*\kpsep)node[left]{$m_6$}--++(5*\kstep,0)|-(u1.in 2);
+\draw[thin](\kxdim,\kul+5*\kpsep)node[left]{$m_5$}--++(6*\kstep,0)|-(u1.in 3);
+\draw[thin](\kxdim,\kul+3*\kpsep)node[left]{$m_3$}--++(7*\kstep,0)|-(u1.in 4);
+\draw[thin](\kxdim,\kul+1*\kpsep)node[left]{$m_1$}--++(\kysep,0)node[or port,scale=1,number inputs=4,anchor=in 4](u2){};
+\draw[thin](\kxdim,\kul+4*\kpsep)node[left]{$m_4$}--++(5*\kstep,0)|-(u2.in 2);
+\draw[thin](\kxdim,\kul+2*\kpsep)node[left]{$m_2$}--++(4*\kstep,0)|-(u2.in 3);
+\draw[thin](kkk)|-(u2.in 1);
 \draw(\kxdim,\kul+0*\kpsep)node[left]{$m_0$};
 \draw(u1.out)node[right]{$c_1$};
 \draw(u2.out)node[right]{$s_0$};

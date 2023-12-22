@@ -414,11 +414,11 @@
 \selectlanguage *{urdu}
 \contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {2}}مکمل جمع کار}{\arabicdigits {98}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {3}}منفی کار}{\arabicdigits {102}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {4}} اعشاری جمع کار}{\arabicdigits {104}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {1}.\arabicdigits {4}} اعشاری جمع کار}{\arabicdigits {105}}{}%
 \contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {2}}ثنائی ضرب کار}{\arabicdigits {107}}{}%
 \bgroup 
 \selectlanguage *{english}
@@ -445,7 +445,11 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {4}}شناخت کار کی مدد سے تفاعل کا حصول}{\arabicdigits {115}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {4}}شناخت کار کی مدد سے تفاعل کا حصول}{\arabicdigits {116}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -454,26 +458,22 @@
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
+\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {5}}داخلی منتخب کار اور خارجی منتخب کار}{\arabicdigits {119}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {1}}خارجی منتخب کار}{\arabicdigits {119}}{}%
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\contentsline {section}{\numberline {\arabicdigits {5}.\arabicdigits {5}}داخلی منتخب کار اور خارجی منتخب کار}{\arabicdigits {118}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {1}}خارجی منتخب کار}{\arabicdigits {118}}{}%
-\bgroup 
-\selectlanguage *{english}
 \bgroup 
 \selectlanguage *{english}
 \egroup 
 \selectlanguage *{urdu}
-\egroup 
-\selectlanguage *{urdu}
-\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {2}}داخلی منتخب کار}{\arabicdigits {119}}{}%
-\bgroup 
-\selectlanguage *{english}
-\egroup 
-\selectlanguage *{urdu}
+\contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {2}}داخلی منتخب کار}{\arabicdigits {120}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {5}.\arabicdigits {5}.\arabicdigits {3}}داخلی منتخب کار سے تفاعل کا حصول}{\arabicdigits {121}}{}%
+\bgroup 
+\selectlanguage *{english}
+\egroup 
+\selectlanguage *{urdu}
 \bgroup 
 \selectlanguage *{english}
 \egroup 
@@ -787,9 +787,9 @@
 \contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\RL {لاد}}}{\arabicdigits {328}}{}%
 \contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\RL {جمع}}اور \text {\RL {منفی}}}{\arabicdigits {329}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}شاخ اور طلبی ہدایات}{\arabicdigits {331}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {342}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {345}}{}%
-\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {8}}کمپیوٹر با کا خلاصہ}{\arabicdigits {349}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {343}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {346}}{}%
+\contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {8}}کمپیوٹر با کا خلاصہ}{\arabicdigits {350}}{}%
 \contentsline {chapter}{فرہنگ}{\arabicdigits {369}}{}%
 \bgroup 
 \selectlanguage *{english}
