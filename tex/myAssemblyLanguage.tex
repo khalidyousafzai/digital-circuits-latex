@@ -1,5 +1,4 @@
 \newcommand*{\kop}[1]{#1}		%operand formatting
-\newcommand*{\kopBinary}[1]{#1}  	%must ensure binary data grouped into 4's should retain LTR style and donot flip
 \newcommand*{\زیرعمل}[1]{#1}
 
 \newcommand*{\دفترالف}{\text{الف}}	%urdu names of A,B,C,D registers
@@ -20,62 +19,87 @@
  \newcommand*{\رک}{\text{\RL{رک}}}
  
 \newcommand*{\ADD}[1]{\text{\RL{جمع \, #1}}}
-\newcommand*{\ANA}[1]{\text{\RL{ضرب منطقی\, #1}}}		%ضرب منطقی
-\newcommand*{\ANI}[1]{\text{\RL{ضرب  منطقی  متصل\, #1}}}	%ضرب منطقی  متصل
-\newcommand*{\CALL}[1]{\text{\RL{طلبی\, #1}}}
+%\newcommand*{\ORA}[1]{\text{\RL{جمع منطقی\, #1}}}		%جمع منطقی
+\newcommand*{\ORA}[1]{\text{\RL{مج\, #1}}}			%منطقی جمع 
+				%not using جمع متمم to spare words for say add immediate, or immediate, etc
+%\newcommand*{\ORI}[1]{\text{\RL{جمع منطقی متصل\, #1}}}	  %منطقی جمع  متصل
+\newcommand*{\ORI}[1]{\text{\RL{مجق\, #1}}}	%منطقی جمع قریب
+
+%\newcommand*{\ANA}[1]{\text{\RL{ضرب منطقی\, #1}}}		%ضرب منطقی
+\newcommand*{\ANA}[1]{\text{\RL{مض\,#1}}} 		%منطقی ضرب
+%\newcommand*{\ANI}[1]{\text{\RL{ضرب  منطقی  متصل\, #1}}}	%ضرب منطقی  متصل
+\newcommand*{\ANI}[1]{\text{\RL{مضق\,#1}}}		%منطقی ضرب قریب
+\newcommand*{\CALL}[1]{\text{\RL{طلب\, #1}}}
 \newcommand*{\CMA}{\text{\RL{متمم}}}
 \newcommand*{\DCR}[1]{\text{\RL{گھٹا \, #1}}}
 \newcommand*{\HLT}{\text{\RL{رک}}}
 \newcommand*{\IN}[1]{\text{\RL{درآمد\, #1}}}
 \newcommand*{\INR}[1]{\text{\RL{بڑھا\, #1}}}
-\newcommand*{\JM}[1]{\text{\RL{شاخ منفی\, #1}}}		%
+%\newcommand*{\JM}[1]{\text{\RL{شاخ منفی\, #1}}}		%شاخ منفی
+\newcommand*{\JM}[1]{\text{\RL{شم\, #1}}}			%شاخ منفی
 \newcommand*{\JMP}[1]{\text{\RL{شاخ \, #1}}}
-%\newcommand*{\JMP}[1]{\text{\RL{شاخ \, #1}}}
-\newcommand*{\JNZ}[1]{\text{\RL{شاخ غیر صفر\, #1}}}
-\newcommand*{\JZ}[1]{\text{\RL{شاخ صفر\, #1}}}
+%\newcommand*{\JNZ}[1]{\text{\RL{شاخ غیر صفر\, #1}}}	
+\newcommand*{\JNZ}[1]{\text{\RL{شغص\, #1}}}		%شاخ غیر صفر
+%\newcommand*{\JZ}[1]{\text{\RL{شاخ صفر\, #1}}}
+\newcommand*{\JZ}[1]{\text{\RL{شص\, #1}}}		%شاخ صفر
 \newcommand*{\LDA}[1]{\text{\RL{نقل \, #1}}}
-\newcommand*{\MOV}[2]{\text{\RL{لاد\, #1 ، #2}}}
-\newcommand*{\MVI}[2]{\text{\RL{متصل\, #1 ، #2}}}
+\newcommand*{\MOV}[2]{\text{\RL{لاد\, #1 ، #2}}}		%LD
+%\newcommand*{\MVI}[2]{\text{\RL{متصل\, #1 ، #2}}}
+\newcommand*{\MVI}[2]{\text{\RL{لادق\, #1 ، #2}}}	%لاد قریب
 \newcommand*{\NOP}{\text{\RL{فارغ}}}
-\newcommand*{\ORA}[1]{\text{\RL{جمع منطقی\, #1}}}		%جمع منطقی
-\newcommand*{\ORI}[1]{\text{\RL{جمع منطقی متصل\, #1}}}	%جمع  منطقی متصل
+
 \newcommand*{\OUT}[1]{\text{\RL{برآمد\, #1}}}
-\newcommand*{\RAL}{\text{\RL{گھوم بائیں}}}
-\newcommand*{\RAR}{\text{\RL{گھوم دائیں}}}
+%\newcommand*{\RAL}{\text{\RL{گھوم بائیں}}}
+\newcommand*{\RAL}{\text{\RL{گب}}}		%گھوم بائیں
+%\newcommand*{\RAR}{\text{\RL{گھوم دائیں}}}
+\newcommand*{\RAR}{\text{\RL{گد}}}			%گھوم دائیں
 \newcommand*{\RET}{\text{\RL{لوٹ}}}
 \newcommand*{\STA}[1]{\text{\RL{ذخیرہ \, #1}}}
 \newcommand*{\SUB}[1]{\text{\RL{منفی \, #1}}}
-\newcommand*{\XRA}[1]{\text{\RL{بلا شرکت \, #1}}}
-\newcommand*{\XRI}[1]{\text{\RL{بلا شرکت متصل \, #1}}}
+%\newcommand*{\XRA}[1]{\text{\RL{بلا شرکت \, #1}}}
+\newcommand*{\XRA}[1]{\text{\RL{مبش \, #1}}}		%منطقی بلا شرکت
+%\newcommand*{\XRI}[1]{\text{\RL{بلا شرکت متصل \, #1}}}
+\newcommand*{\XRI}[1]{\text{\RL{مبشق \, #1}}}			%منطقی بلا شرکت قریب
 
  %short in-line versions without operands
 \newcommand*{\sADD}{\text{\RL{جمع}}}
-\newcommand*{\sANA}{\text{\RL{ضرب منطقی}}}		%ضرب منطقی
-\newcommand*{\sANI}{\text{\RL{ضرب  منطقی  متصل}}}	%ضرب منطقی  متصل
-\newcommand*{\sCALL}{\text{\RL{طلبی}}}
+\newcommand*{\sANA}{\text{\RL{مض}}}		%منطقی ضرب 
+\newcommand*{\sANI}{\text{\RL{مضق}}}	% منطقی ضرب   متصل
+\newcommand*{\sCALL}{\text{\RL{طلب}}}
 \newcommand*{\sCMA}{\text{\RL{متمم}}}
 \newcommand*{\sDCR}{\text{\RL{گھٹا}}}
 \newcommand*{\sHLT}{\text{\RL{\text{\RL{رک}}}}}
 \newcommand*{\sIN}{\text{\RL{درآمد}}}
 \newcommand*{\sINR}{\text{\RL{بڑھا}}}
-\newcommand*{\sJM}{\text{\RL{شاخ منفی}}}		%
+\newcommand*{\sJM}{\text{\RL{شم}}}		%
 \newcommand*{\sJMP}{\text{\RL{شاخ}}}
-\newcommand*{\sJNZ}{\text{\RL{شاخ غیر صفر}}}
-\newcommand*{\sJZ}{\text{\RL{شاخ صفر}}}
+\newcommand*{\sJNZ}{\text{\RL{شغص}}}
+\newcommand*{\sJZ}{\text{\RL{شص}}}
 \newcommand*{\sLDA}{\text{\RL{نقل}}}
 \newcommand*{\sMOV}{\text{\RL{لاد}}}
-\newcommand*{\sMVI}{\text{\RL{متصل}}}
+\newcommand*{\sMVI}{\text{\RL{لادق}}}
 \newcommand*{\sNOP}{\text{\RL{فارغ}}}
-\newcommand*{\sORA}{\text{\RL{جمع منطقی}}}		%جمع منطقی
-\newcommand*{\sORI}{\text{\RL{جمع منطقی متصل}}}	%جمع  منطقی متصل
+\newcommand*{\sORA}{\text{\RL{مج}}}		%منطقی جمع
+\newcommand*{\sORI}{\text{\RL{مجق}}}	%منطقی جمع قریب
 \newcommand*{\sOUT}{\text{\RL{برآمد}}}
-\newcommand*{\sRAL}{\text{\RL{گھوم بائیں}}}
-\newcommand*{\sRAR}{\text{\RL{گھوم دائیں}}}
+\newcommand*{\sRAL}{\text{\RL{گب}}}
+\newcommand*{\sRAR}{\text{\RL{گد}}}
 \newcommand*{\sRET}{\text{\RL{لوٹ}}}
 \newcommand*{\sSTA}{\text{\RL{ذخیرہ}}}
 \newcommand*{\sSUB}{\text{\RL{منفی}}}
-\newcommand*{\sXRA}{\text{\RL{بلا شرکت}}}
-\newcommand*{\sXRI}{\text{\RL{بلا شرکت متصل}}}
+\newcommand*{\sXRA}{\text{\RL{مبش}}}
+\newcommand*{\sXRI}{\text{\RL{مبشق}}}
 
 %for future use
-\newcommand*{\sSHL}{\text{\RL{قدم بائیں}}}  % \newcommand*{\sSHL}{\text{\RL{بائیں}}}
+\newcommand*{\sSL}{\text{\RL{قب}}}  %قدم بائیں
+\newcommand*{\sSR}{\text{\RL{قد}}}
+\newcommand*{\sSLC}{\text{\RL{قبص}}}    %قدم بائیں براستہ جھنڈا صفر
+\newcommand*{\sSRC}{\text{\RL{قدص}}}   %قدم دائیں براستہ جھنڈا صفر
+\newcommand*{\sRLC}{\text{\RL{گبص}}}  %گھوم بائیں براستہ جھنڈا صفر
+\newcommand*{\sRRC}{\text{\RL{گدص}}}  %گھوم دائیں براستہ جھنڈا صفر
+\newcommand*{\sLJMP}{\text{\RL{شد}}}      %شاخ دور
+\newcommand*{\sLCALL}{\text{\RL{طد}}}  %طلب دور
+\newcommand*{\sSBC}{\text{\RL{مح}}}		%منفی بمع حاصل
+\newcommand*{\sADC}{\text{\RL{جح}}}		%جمع بمع حاصل
+\newcommand*{\sMUL}{\text{\RL{ضرب}}}   	%ضرب
+\newcommand*{\sDAA}{\text{\RL{دعش}}}	%درست عشری
