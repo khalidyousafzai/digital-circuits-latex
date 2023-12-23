@@ -1210,3 +1210,353 @@ d(w,x,y,z)&=\sum(m_1,m_3,m_{11})
 \ترچھا{حل:}\quad
 شکل \حوالہ{شکل_بوولین_غیر_دلچسپ_دوسرا} میں کارناف نقشہ پیش کیا گیا ہے۔ سادہ مساوات کے حصول میں (بالائی صف کے) دو غیر دلچسپ خانوں کی قیمت \عددی{1} ، جبکہ باقی دو غیر دلچسپ خانوں کی قیمت \عددی{0} تصور کی گئی۔کارناف نقشے میں \عددی{0} کو نظر پوش کیا گیا ہے۔ تفاعل کی مساوات شکل میں دی گئی ہے۔
 \انتہا{مثال}
+
+%=============================
+\حصہء{سوالات}
+\ابتدا{سوال}
+جدول صداقت  میں  چار داخلی متغیرات ہیں۔ ابتدائی آٹھ مخارج \عددی{0} اور آخری آٹھ \عددی{1} ہیں۔ اس کا کارناف نقشہ کھینچیں۔
+
+جواب:\quad
+\begin{center}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$AB$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/0,3/0}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\end{tikzpicture}
+\end{center}
+
+\انتہا{سوال}
+%---------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-الف  کے  \عددی{Y_3} کا کارناف نقشہ  بنائیں۔ اس سے سادہ ترین مساوات حاصل کر کے عددی دور تخلیق دیں۔
+\begin{table}
+\centering
+\caption{تفاعلات کے  جدول }
+\label{جدول_کارناف_سوالات_الف}
+\begin{subtable}{0.45\textwidth}
+\caption{}
+\centering
+\begin{otherlanguage}{english}
+\begin{tabular}{CCCC|CCCC}
+\toprule
+A&B&C&D&Y_3&Y_2&Y_1&Y_0\\
+\midrule
+0&0&0&0&1&0&1&0\\
+0&0&0&1&0&1&0&1\\
+0&0&1&0&0&1&1&1\\
+0&0&1&1&1&0&0&1\\
+0&1&0&0&0&0&1&1\\
+0&1&0&1&1&0&0&0\\
+0&1&1&0&1&1&1&0\\
+0&1&1&1&1&1&1&1\\
+1&0&0&0&0&0&0&0\\
+1&0&0&1&0&0&0&1\\
+1&0&1&0&1&0&1&1\\
+1&0&1&1&0&1&0&0\\
+1&1&0&0&0&1&1&0\\
+1&1&0&1&1&0&1&0\\
+1&1&1&0&1&1&0&0\\
+1&1&1&1&1&1&0&1\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{subtable}\hfill
+\begin{subtable}{0.45\textwidth}
+\caption{}
+\centering
+\begin{otherlanguage}{english}
+\begin{tabular}{CCCC|CCCC}
+\toprule
+A&B&C&D&Y_3&Y_2&Y_1&Y_0\\
+\midrule
+0&0&0&0&1&0&1&0\\
+0&0&0&1&0&1&0&1\\
+0&0&1&0&0&1&1&1\\
+0&0&1&1&1&0&0&1\\
+0&1&0&0&0&0&1&1\\
+0&1&0&1&1&0&0&0\\
+0&1&1&0&1&1&1&0\\
+0&1&1&1&1&1&1&1\\
+1&0&0&0&0&0&0&0\\
+1&0&0&1&0&0&0&1\\
+1&0&1&0&x&x&x&x\\
+1&0&1&1&x&x&x&x\\
+1&1&0&0&x&x&x&x\\
+1&1&0&1&x&x&x&x\\
+1&1&1&0&x&x&x&x\\
+1&1&1&1&x&x&x&x\\
+\bottomrule
+\end{tabular}
+\end{otherlanguage}
+\end{subtable}
+\end{table}
+\انتہا{سوال}
+%-----------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-الف  کے  \عددی{Y_2}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+
+
+جواب:\quad
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kmva}{0.10}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$AB$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/1,3/0}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(1*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(2*\kxstep,-1*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(3*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(4*\kxstep,-2*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(2*\kxstep,-1*\kystep)+(\kmva,-\kmva)$) rectangle ($(4*\kxstep,-3*\kystep)+(-\kmva,\kmva)$);
+\draw[gray,dashed] ($(2*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(0*\kxstep,-2*\kystep)+(-\kmv,-\kmv)$) --++(1*\kxstep,-0*\kystep)--++(0,-\kystep+2.5*\kmv)--++(-\kxstep,0);
+\draw[gray,dashed] ($(4*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) --++(-1*\kxstep,-0*\kystep)--++(0,-\kystep+2.5*\kmv)--++(\kxstep,0);
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}{0.55\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{0.25}
+\pgfmathsetmacro{\ksepY}{1}
+\pgfmathsetmacro{\kW}{0.3}
+\draw(0,0)node[or  port,number inputs=5,anchor=out](u1){};
+\draw(u1.out)node[right]{$Y$};
+\draw[thin](u1.in 1)--++(0,2*\ksepY)--++(-\ksepX,0)node[and port,anchor=out](u2){};
+\draw[thin](u1.in 2)--++(-\ksepX,0)--++(0,\ksepY)node[and port,anchor=out,number inputs=3](u3){};
+\draw[thin](u1.in 3)--++(-\ksepX,0)node[and port,anchor=out,number inputs=3](u4){};
+\draw[thin](u1.in 4)--++(-\ksepX,0)--++(0,-\ksepY)node[and port,anchor=out,number inputs=3](u5){};
+\draw[thin](u1.in 5)--++(0,-2*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=4](u6){};
+\foreach \n/\lbl in {0/{\overline{D}},1/{D},2/{\overline{C}},3/{C},4/{\overline{B}},5/{B},6/{\overline{A}},7/{A}}\draw[thin](u2.in 1)++(-\ksepX-\n*\kW,\kW)node[above]{$\lbl$}coordinate(w\n)coordinate(kA)--($(kA|-u6.in 4)+(0,-\kW)$);
+\draw(u2.in 1)coordinate(kA)--(kA-| w5);
+\draw(u2.in 2)coordinate(kA)--(kA-| w3);
+\draw(u3.in 1)coordinate(kA)--(kA-| w6);
+\draw(u3.in 2)coordinate(kA)--(kA-| w3);
+\draw(u3.in 3)coordinate(kA)--(kA-| w0);
+\draw(u4.in 1)coordinate(kA)--(kA-| w7);
+\draw(u4.in 2)coordinate(kA)--(kA-| w3);
+\draw(u4.in 3)coordinate(kA)--(kA-| w1);
+\draw(u5.in 1)coordinate(kA)--(kA-| w7);
+\draw(u5.in 2)coordinate(kA)--(kA-| w5);
+\draw(u5.in 3)coordinate(kA)--(kA-| w0);
+\draw(u6.in 1)coordinate(kA)--(kA-| w6);
+\draw(u6.in 2)coordinate(kA)--(kA-| w4);
+\draw(u6.in 3)coordinate(kA)--(kA-| w2);
+\draw(u6.in 4)coordinate(kA)--(kA-| w1);
+\end{tikzpicture}
+\end{minipage}
+\انتہا{سوال}
+%-------------------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-الف  کے  \عددی{Y_1}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+\انتہا{سوال}
+%-------------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-الف  کے  \عددی{Y_0}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+
+جواب:
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kmva}{0.10}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$AB$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/1,3/0}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/1,3/0}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(0*\kxstep,-1*\kystep)+(\kmv,-\kmv)$) rectangle ($(1*\kxstep,-2*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(2*\kxstep,-1*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-3*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(2*\kxstep,-0*\kystep)+(\kmva,-\kmva)$) rectangle ($(4*\kxstep,-1*\kystep)+(-\kmva,\kmva)$);
+\draw[gray,dashed] ($(1*\kxstep,-0*\kystep)+(\kmv,\kmv)$) --++(0*\kxstep,-1*\kystep) --++(1*\kxstep-2*\kmv,-0*\kystep+0*\kmv) --++(-0*\kxstep,1*\kystep);
+\draw[gray,dashed] ($(1*\kxstep,-4*\kystep)+(\kmv,-\kmv)$) --++(0*\kxstep,1*\kystep)--++(1*\kxstep-2*\kmv,-0*\kystep+0*\kmv)--++(-0*\kxstep,-1*\kystep);
+\draw[gray,dashed] ($(3*\kxstep,-0*\kystep)+(\kmv,\kmv)$) --++(0*\kxstep,-1*\kystep+\kmv) --++(1*\kxstep-2.5*\kmv,-0*\kystep+0*\kmv) --++(-0*\kxstep,1*\kystep);
+\draw[gray,dashed] ($(3*\kxstep,-4*\kystep)+(\kmv,-\kmv)$) --++(0*\kxstep,1*\kystep)--++(1*\kxstep-2*\kmv,-0*\kystep+0*\kmv)--++(-0*\kxstep,-1*\kystep);
+%\draw[gray,dashed] ($(4*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) --++(-1*\kxstep,-0*\kystep)--++(0,-\kystep+2.5*\kmv)--++(\kxstep,0);
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}{0.55\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{0.25}
+\pgfmathsetmacro{\ksepY}{1}
+\pgfmathsetmacro{\kW}{0.3}
+\draw(0,0)node[or  port,number inputs=5,anchor=out](u1){};
+\draw(u1.out)node[right]{$Y$};
+\draw[thin](u1.in 1)--++(0,2*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=4](u2){};
+\draw[thin](u1.in 2)--++(-\ksepX,0)--++(0,\ksepY)node[and port,anchor=out,number inputs=3](u3){};
+\draw[thin](u1.in 3)--++(-\ksepX,0)node[and port,anchor=out,number inputs=3](u4){};
+\draw[thin](u1.in 4)--++(-\ksepX,0)--++(0,-\ksepY)node[and port,anchor=out,number inputs=3](u5){};
+\draw[thin](u1.in 5)--++(0,-2*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=3](u6){};
+\foreach \n/\lbl in {0/{\overline{D}},1/{D},2/{\overline{C}},3/{C},4/{\overline{B}},5/{B},6/{\overline{A}},7/{A}}\draw[thin](u2.in 1)++(-\ksepX-\n*\kW,\kW)node[above]{$\lbl$}coordinate(w\n)coordinate(kA)--($(kA|-u6.in 3)+(0,-\kW)$);
+\draw(u2.in 1)coordinate(kA)--(kA-| w6);
+\draw(u2.in 2)coordinate(kA)--(kA-| w5);
+\draw(u2.in 3)coordinate(kA)--(kA-| w2);
+\draw(u2.in 4)coordinate(kA)--(kA-| w0);
+\draw(u3.in 1)coordinate(kA)--(kA-| w5);
+\draw(u3.in 2)coordinate(kA)--(kA-| w3);
+\draw(u3.in 3)coordinate(kA)--(kA-| w1);
+\draw(u4.in 1)coordinate(kA)--(kA-| w6);
+\draw(u4.in 2)coordinate(kA)--(kA-| w4);
+\draw(u4.in 3)coordinate(kA)--(kA-| w3);
+\draw(u5.in 1)coordinate(kA)--(kA-| w4);
+\draw(u5.in 2)coordinate(kA)--(kA-| w2);
+\draw(u5.in 3)coordinate(kA)--(kA-| w1);
+\draw(u6.in 1)coordinate(kA)--(kA-| w4);
+\draw(u6.in 2)coordinate(kA)--(kA-| w3);
+\draw(u6.in 3)coordinate(kA)--(kA-| w0);
+\end{tikzpicture}
+\end{minipage}
+\انتہا{سوال}
+%-------------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-ب  کے  \عددی{Y_3}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+\انتہا{سوال}
+%-------------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-ب کے  \عددی{Y_2}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+
+جواب:
+
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kmva}{0.10}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$AB$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/0,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/x,1/x,2/x,3/x}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/0,2/x,3/x}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(1*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(2*\kxstep,-1*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(2*\kxstep,-1*\kystep)+(\kmv,-\kmv)$) rectangle ($(4*\kxstep,-3*\kystep)+(-1.5*\kmv,\kmv)$);
+\draw[gray,dashed] ($(3*\kxstep,-0*\kystep)+(\kmva,-\kmva)$) rectangle ($(4*\kxstep,-4*\kystep)+(-\kmva,\kmva)$);
+%\draw[gray,dashed] ($(4*\kxstep,-2*\kystep)+(\kmv,-\kmv)$) --++(-1*\kxstep,-0*\kystep)--++(0,-\kystep+2.5*\kmv)--++(\kxstep,0);
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}{0.55\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{0.25}
+\pgfmathsetmacro{\ksepY}{1}
+\pgfmathsetmacro{\kW}{0.3}
+\draw(0,0)node[or  port,number inputs=3,anchor=out](u1){};
+\draw(u1.out)node[right]{$Y$};
+\draw[thin](u1.in 1)--++(0,1*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=4](u2){};
+\draw[thin](u1.in 2)--++(-\ksepX,0)node[and port,anchor=out,number inputs=2](u3){};
+\draw[thin](u1.in 3)--++(0,-1*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=2](u4){};
+\foreach \n/\lbl in {0/{\overline{D}},1/{D},2/{\overline{C}},3/{C},4/{\overline{B}},5/{B},6/{\overline{A}},7/{A}}\draw[thin](u2.in 1)++(-\ksepX-\n*\kW,\kW)node[above]{$\lbl$}coordinate(w\n)coordinate(kA)--($(kA|-u4.in 2)+(0,-\kW)$);
+\draw(u2.in 1)coordinate(kA)--(kA-| w6);
+\draw(u2.in 2)coordinate(kA)--(kA-| w4);
+\draw(u2.in 3)coordinate(kA)--(kA-| w2);
+\draw(u2.in 4)coordinate(kA)--(kA-| w1);
+\draw(u3.in 1)coordinate(kA)--(kA-| w5);
+\draw(u3.in 2)coordinate(kA)--(kA-| w3);
+\draw(u4.in 1)coordinate(kA)--(kA-| w3);
+\draw(u4.in 2)coordinate(kA)--(kA-| w0);
+\end{tikzpicture}
+\end{minipage}
+\انتہا{سوال}
+%-------------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-ب کے  \عددی{Y_1}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+\انتہا{سوال}
+%-------------------------
+\ابتدا{سوال}
+جدول \حوالہ{جدول_کارناف_سوالات_الف}-ب کے  \عددی{Y_0}   مخارج کا کارناف نقشہ  بنا کر  سادہ ترین عددی دور تخلیق دیں۔
+
+جواب:
+
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\kmv}{0.15}
+\pgfmathsetmacro{\kmva}{0.10}
+\draw[xstep=\kxstep,ystep=\kystep](0,0) grid (4*\kxstep,-4*\kystep);
+\draw(0,0)--++(135:\kpin)node[pos=0.75,above right]{$CD$}node[pos=0.75,below left]{$AB$};
+\foreach \kx/\xlb in {0/{00},1/{01},2/{11},3/{10}}{\draw(\kx*\kxstep+\kxstep/2,0)node[above]{$\xlb$};}
+\foreach \ky/\ylb in {0/{00},1/{01},2/{11},3/{10}}{\draw(0,-\ky*\kystep-\kystep/2)node[left]{$\ylb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/1,3/1}{\draw(\kx*\kxstep+\kxstep/2,-\kystep/2)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/1,1/0,2/1,3/0}{\draw(\kx*\kxstep+\kxstep/2,-1.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/x,1/x,2/x,3/x}{\draw(\kx*\kxstep+\kxstep/2,-2.5*\kystep)node[]{$\xlb$};}
+\foreach \kx/\xlb in {0/0,1/1,2/x,3/x}{\draw(\kx*\kxstep+\kxstep/2,-3.5*\kystep)node[]{$\xlb$};}
+\draw[gray,dashed] ($(0*\kxstep,-1*\kystep)+(\kmv,-\kmv)$) rectangle ($(1*\kxstep,-3*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(2*\kxstep,-0*\kystep)+(\kmv,-\kmv)$) rectangle ($(3*\kxstep,-4*\kystep)+(-\kmv,\kmv)$);
+\draw[gray,dashed] ($(1*\kxstep,-0*\kystep)+(\kmv,\kmv)$) --++(0*\kxstep,-1*\kystep) --++(2*\kxstep-2.5*\kmv,-0*\kystep+0*\kmv) --++(-0*\kxstep,1*\kystep);
+\draw[gray,dashed] ($(1*\kxstep,-4*\kystep)+(\kmv,-1.5*\kmv)$) --++(0*\kxstep,1*\kystep) --++(2*\kxstep-2.5*\kmv,-0*\kystep+0*\kmv) --++(-0*\kxstep,-1*\kystep);
+\draw[gray,dashed] ($(2*\kxstep,-0*\kystep)+(1.5*\kmv,1.5*\kmv)$) --++(0*\kxstep,-1*\kystep-2.5*\kmv) --++(2*\kxstep-2.5*\kmv,-0*\kystep+0*\kmv) --++(-0*\kxstep,1*\kystep+2.5*\kmv);
+\draw[gray,dashed] ($(2*\kxstep,-4*\kystep)+(1.5*\kmv,-1.5*\kmv)$) --++(0*\kxstep,1*\kystep+1*\kmv) --++(2*\kxstep-2.5*\kmv,-0*\kystep+0*\kmv) --++(-0*\kxstep,-1*\kystep-1*\kmv);
+\end{tikzpicture}
+\end{minipage}\hfill
+\begin{minipage}{0.55\textwidth}
+\centering
+\begin{tikzpicture}
+\pgfmathsetmacro{\kxstep}{1}
+\pgfmathsetmacro{\kystep}{1}
+\pgfmathsetmacro{\kpin}{0.75}
+\pgfmathsetmacro{\ksepX}{0.25}
+\pgfmathsetmacro{\ksepY}{1}
+\pgfmathsetmacro{\kW}{0.3}
+\draw(0,0)node[or  port,number inputs=4,anchor=out](u1){};
+\draw(u1.out)node[right]{$Y$};
+\draw[thin](u1.in 1)--++(0,1.5*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=3](u2){};
+\draw[thin](u1.in 2)--++(-\ksepX,0)--++(0,0.5*\ksepY)node[and port,anchor=out,number inputs=2](u3){};
+\draw[thin](u1.in 3)--++(-\ksepX,0)--++(0,-0.5*\ksepY)node[and port,anchor=out,number inputs=2](u4){};
+\draw[thin](u1.in 4)--++(0,-1.5*\ksepY)--++(-\ksepX,0)node[and port,anchor=out,number inputs=2](u5){};
+\foreach \n/\lbl in {0/{\overline{D}},1/{D},2/{\overline{C}},3/{C},4/{\overline{B}},5/{B},6/{\overline{A}},7/{A}}\draw[thin](u2.in 1)++(-\ksepX-\n*\kW,\kW)node[above]{$\lbl$}coordinate(w\n)coordinate(kA)--($(kA|-u5.in 2)+(0,-\kW)$);
+\draw(u2.in 1)coordinate(kA)--(kA-| w5);
+\draw(u2.in 2)coordinate(kA)--(kA-| w2);
+\draw(u2.in 3)coordinate(kA)--(kA-| w0);
+\draw(u3.in 1)coordinate(kA)--(kA-| w4);
+\draw(u3.in 2)coordinate(kA)--(kA-| w3);
+\draw(u4.in 1)coordinate(kA)--(kA-| w4);
+\draw(u4.in 2)coordinate(kA)--(kA-| w1);
+\draw(u5.in 1)coordinate(kA)--(kA-| w3);
+\draw(u5.in 2)coordinate(kA)--(kA-| w1);
+\end{tikzpicture}
+\end{minipage}
+\انتہا{سوال}
+%-------------------------

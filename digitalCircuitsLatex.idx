@@ -1,596 +1,729 @@
-\indexentry{most significant digit}{2}
-\indexentry{بلند تر رتبی ہندسہ}{2}
-\indexentry{lowest significant digit}{2}
-\indexentry{کم تر رتبی ہندسہ}{2}
-\indexentry{کم تر رتبی ثنائی ہندسہ}{5}
-\indexentry{LSB}{5}
-\indexentry{کم تر رتبی بِٹ}{5}
-\indexentry{MSB}{5}
-\indexentry{بلند تر رتبی بِٹ}{5}
-\indexentry{بلند تر رتبی ثنائی ہندسہ}{5}
-\indexentry{hexedecimal}{7}
-\indexentry{سادس عشری}{7}
-\indexentry{bit}{10}
-\indexentry{بِٹ}{10}
-\indexentry{ثنائی ہندسہ}{10}
-\indexentry{nibble}{10}
-\indexentry{ریزہ}{10}
-\indexentry{byte}{10}
-\indexentry{بائٹ}{10}
-\indexentry{ہشتمی ثنائی عدد}{10}
-\indexentry{state!high impedance}{43}
-\indexentry{حال!بلند رکاوٹی}{43}
-\indexentry{state!two}{43}
-\indexentry{حال!دو}{43}
-\indexentry{state!tri}{44}
-\indexentry{حال!سہ}{44}
-\indexentry{buffer!active low non inverting}{44}
-\indexentry{مستحکم کار!پست عمل پیرا غیر متمم }{44}
-\indexentry{buffer!active high,inverting}{44}
-\indexentry{مستحکم کار!بلند عمل پیرا متمم}{44}
-\indexentry{buffer!active high non inverting}{44}
-\indexentry{مستحکم کار!بلند عمل پیرا غیر متمم}{44}
-\indexentry{buffer!active low,inverting}{44}
-\indexentry{مستحکم کار!پست عمل پیرا متمم}{44}
-\indexentry{datasheet}{47}
-\indexentry{معلوماتی صفحات}{47}
-\indexentry{AND-OR}{60}
-\indexentry{ضرب و جمع }{60}
-\indexentry{OR-AND}{63}
-\indexentry{جمع و ضرب}{63}
-\indexentry{NAND-NAND}{67}
-\indexentry{متمم ضرب و متمم ضرب}{67}
-\indexentry{code}{70}
-\indexentry{رمز}{70}
-\indexentry{codes!ascii}{71}
-\indexentry{رمز!ایسکی}{71}
-\indexentry{code!uni}{71}
-\indexentry{رمز!عالمی}{71}
-\indexentry{binary coded decimal (BCD)}{71}
-\indexentry{ثنائی مرموز اعشاریہ}{71}
-\indexentry{AND-OR}{76}
-\indexentry{ضرب و جمع}{76}
-\indexentry{NAND-NAND}{76}
-\indexentry{ضرب متمم و ضرب متمم}{76}
-\indexentry{combinational logic}{95}
-\indexentry{ترکیبی منطق}{95}
-\indexentry{sequential logic}{95}
-\indexentry{ترتیبی منطق}{95}
-\indexentry{box diagram}{95}
-\indexentry{ڈبہ شکل}{95}
-\indexentry{adder!half}{96}
-\indexentry{جمع کار!نصف}{96}
-\indexentry{carry}{98}
-\indexentry{حاصل}{98}
-\indexentry{adder!half}{100}
-\indexentry{جمع کار!نصف}{100}
-\indexentry{adder!full}{100}
-\indexentry{جمع کار!مکمل}{100}
-\indexentry{carry!in}{100}
-\indexentry{حاصل!داخلی}{100}
-\indexentry{carry!out}{101}
-\indexentry{حاصل!خارجی}{101}
-\indexentry{binary coded decimal (BCD)}{105}
-\indexentry{ثنائی مرموز اعشاریہ}{105}
-\indexentry{decoder}{108}
-\indexentry{شناخت کار}{108}
-\indexentry{address}{108}
-\indexentry{پتہ}{108}
-\indexentry{address bits}{108}
-\indexentry{پتہ بِٹ}{108}
-\indexentry{decoder}{109}
-\indexentry{شناخت کار}{109}
-\indexentry{active!high}{111}
-\indexentry{عمل پیرا!بلند}{111}
-\indexentry{active!high}{111}
-\indexentry{مجاز!بلند}{111}
-\indexentry{active!low}{112}
-\indexentry{عمل پیرا!پست}{112}
-\indexentry{active!low}{112}
-\indexentry{مجاز!پست}{112}
-\indexentry{demultiplexer}{118}
-\indexentry{منتخب کار!خارجی}{118}
-\indexentry{multiplexer}{118}
-\indexentry{منتخب کار!داخلی}{118}
-\indexentry{minority circuit}{127}
-\indexentry{اقلیتی دور}{127}
-\indexentry{seven segment display}{129}
-\indexentry{سات کلی نمائشی تختی}{129}
-\indexentry{logic system!positive}{131}
-\indexentry{منطقی نظام!مثبت}{131}
-\indexentry{logic system!negative}{131}
-\indexentry{منطقی نظام!منفی}{131}
-\indexentry{flip flop}{131}
-\indexentry{پلٹ کار}{131}
-\indexentry{memory}{131}
-\indexentry{حافظہ}{131}
-\indexentry{counter}{131}
-\indexentry{گنت کار}{131}
-\indexentry{edge!negative going}{132}
-\indexentry{کنارہ!منفی}{132}
-\indexentry{edge!falling}{132}
-\indexentry{کنارہ!اترائی}{132}
-\indexentry{edge!positive going}{132}
-\indexentry{کنارہ!مثبت}{132}
-\indexentry{edge!rising}{132}
-\indexentry{کنارہ!چڑھائی}{132}
-\indexentry{times!rise}{132}
-\indexentry{دورانیہ!چڑھائی}{132}
-\indexentry{time!fall}{132}
-\indexentry{دورانیہ!اترائی}{132}
-\indexentry{propagation delay}{132}
-\indexentry{دورانیہ!رد عمل}{132}
-\indexentry{SR FF}{133}
-\indexentry{پلٹ کار!ایس آر}{133}
-\indexentry{feedback}{134}
-\indexentry{باز رسی}{134}
-\indexentry{feedback!signal}{134}
-\indexentry{باز رسی!اشارہ}{134}
-\indexentry{state}{136}
-\indexentry{حال}{136}
-\indexentry{state!false}{136}
-\indexentry{حال!کاذب}{136}
-\indexentry{state!low}{136}
-\indexentry{حال!پست}{136}
-\indexentry{state!true}{136}
-\indexentry{حال!صادق}{136}
-\indexentry{state!high}{136}
-\indexentry{حال!بلند}{136}
-\indexentry{active!high}{136}
-\indexentry{بلند فعال}{136}
-\indexentry{active}{136}
-\indexentry{فعال}{136}
-\indexentry{active!low}{136}
-\indexentry{پست فعال}{136}
-\indexentry{inactive}{137}
-\indexentry{غیر فعال}{137}
-\indexentry{clear!input}{137}
-\indexentry{reset!input}{137}
-\indexentry{غیر فعال کار!مداخل}{137}
-\indexentry{set!input}{137}
-\indexentry{فعال کار!مداخل}{137}
-\indexentry{synchronous}{137}
-\indexentry{ہم عصر}{137}
-\indexentry{clock}{137}
-\indexentry{ساعت}{137}
-\indexentry{frequency}{137}
-\indexentry{تعدد}{137}
-\indexentry{low time}{137}
-\indexentry{دورانیہ!پست}{137}
-\indexentry{high time}{137}
-\indexentry{دورانیہ!بلند}{137}
-\indexentry{time period}{137}
-\indexentry{دوری عرصہ}{137}
-\indexentry{Hertz}{138}
-\indexentry{ہرٹز}{138}
-\indexentry{pulse}{138}
-\indexentry{ساعت!دھڑکن}{138}
-\indexentry{SR flip flop!active low inputs}{138}
-\indexentry{ایس آر!پست فعال مداخل}{138}
-\indexentry{race condition}{141}
-\indexentry{حالت دوڑ}{141}
-\indexentry{flip flop!master slave}{144}
-\indexentry{پلٹ کار!آقا غلام}{144}
-\indexentry{clock}{144}
-\indexentry{ساعت}{144}
-\indexentry{master slave!negative edge triggered}{144}
-\indexentry{آقا غلام!کنارہ اترائی پر عمل کار}{144}
-\indexentry{trigger}{144}
-\indexentry{لبلبی}{144}
-\indexentry{FF!D}{147}
-\indexentry{پلٹ کار!ڈی}{147}
-\indexentry{flip flop!D, negative edge}{147}
-\indexentry{پلٹ کار!ڈی، کنارہ اترائی لبلبی}{147}
-\indexentry{flip flop!D, positive edge}{147}
-\indexentry{پلٹ کار!ڈی، کنارہ چڑھائی لبلبی}{147}
-\indexentry{time!hold}{149}
-\indexentry{دورانیہ!ٹھیراؤ}{149}
-\indexentry{time!setup}{149}
-\indexentry{دورانیہ!تیاری}{149}
-\indexentry{VLSI}{149}
-\indexentry{مخلوط دور!وسیع پیمانہ}{149}
-\indexentry{flip flop!JK}{152}
-\indexentry{پلٹ کار!جے کے}{152}
-\indexentry{flip flop!T}{152}
-\indexentry{پلٹ کار!ٹی}{152}
-\indexentry{FF!T}{155}
-\indexentry{پلٹ کار!ٹی}{155}
-\indexentry{counter!binary, three bit}{156}
-\indexentry{گنت کار!ثنائی تین ہندسی}{156}
-\indexentry{counter!binary,serial}{157}
-\indexentry{جمع کار!ثنائی سلسلہ وار}{157}
-\indexentry{synchronous!sequential circuits}{158}
-\indexentry{معاصر!ترتیبی ادوار}{158}
-\indexentry{state!equation}{158}
-\indexentry{حال!مساوات}{158}
-\indexentry{state!table}{158}
-\indexentry{حال کا جدول}{158}
-\indexentry{state!table}{159}
-\indexentry{حال کا جدول}{159}
-\indexentry{state!diagram}{160}
-\indexentry{حال کا خاکہ}{160}
-\indexentry{Moore}{166}
-\indexentry{مور نمونہ}{166}
-\indexentry{Mealy}{166}
-\indexentry{میلی نمونہ}{166}
-\indexentry{sequence!detector}{167}
-\indexentry{ترتیب!شناس}{167}
-\indexentry{register}{177}
-\indexentry{دفتر}{177}
-\indexentry{register!shift right}{179}
-\indexentry{دفتر!دائیں انتقال}{179}
-\indexentry{register!shift left}{179}
-\indexentry{دفتر! بائیں انتقال}{179}
-\indexentry{register!parallel load}{180}
-\indexentry{دفتر!متوازی بھرائی}{180}
-\indexentry{shift register!universal}{181}
-\indexentry{انتقال دفتر!عالمگیر}{181}
-\indexentry{serial out}{184}
-\indexentry{سلسلہ وار!خارج}{184}
-\indexentry{output}{184}
-\indexentry{خروج}{184}
-\indexentry{serial in}{184}
-\indexentry{سلسلہ وار!داخل}{184}
-\indexentry{signal!electrical}{187}
-\indexentry{اشارہ!برقی}{187}
-\indexentry{counter!four bit binary, down}{187}
-\indexentry{گنت کار!چار بٹ ثنائی، الٹ}{187}
-\indexentry{counter!four bit binary, up}{187}
-\indexentry{گنت کار!چار بٹ ثنائی سیدھا}{187}
-\indexentry{counter!binary}{187}
-\indexentry{گنت کار!ثنائی}{187}
-\indexentry{propagation time}{188}
-\indexentry{دورانیہ!رد عمل}{188}
-\indexentry{counter!binary, ripple}{189}
-\indexentry{گنت کار!لہریا، ثنائی}{189}
-\indexentry{counter!ripple}{189}
-\indexentry{گنت کار!لہریا}{189}
-\indexentry{counter!synchronous, three bit}{189}
-\indexentry{گنت کار!تین بِٹ، معاصر}{189}
-\indexentry{counter!synchronous, three bit binary}{192}
-\indexentry{گنت کار!معاصر، تین بِٹ ثنائی}{192}
-\indexentry{counter!synchronous, binary, four bit}{192}
-\indexentry{گنت کار!ثنائی، معاصر، چار بِٹ}{192}
-\indexentry{counter!decimal, BCD}{192}
-\indexentry{گنت کار!ثنائی مرموز اعشاری}{192}
-\indexentry{time period}{192}
-\indexentry{دوری عرصہ}{192}
-\indexentry{counter!variable length}{196}
-\indexentry{گنت کار!متغیر لمبائی}{196}
-\indexentry{گنت کار!بے ترتیب}{198}
-\indexentry{counter!ring}{199}
-\indexentry{گنت کار!چھلا}{199}
-\indexentry{pulse generator}{200}
-\indexentry{دھڑکن پیدا کار}{200}
-\indexentry{bit}{203}
-\indexentry{بِٹ}{203}
-\indexentry{ثنائی ہندسہ}{203}
-\indexentry{memory}{203}
-\indexentry{حافظہ}{203}
-\indexentry{word}{203}
-\indexentry{لفظ}{203}
-\indexentry{byte}{203}
-\indexentry{بائٹ}{203}
-\indexentry{ہشتمی عدد}{203}
-\indexentry{write}{203}
-\indexentry{لکھنا}{203}
-\indexentry{read}{203}
-\indexentry{پڑھنا}{203}
-\indexentry{memory!RAM}{203}
-\indexentry{حافظہ!عارضی}{203}
-\indexentry{حافظہ!دورانیہ رسائی}{203}
-\indexentry{access time}{203}
-\indexentry{دورانیہ رسائی}{203}
-\indexentry{memory!ROM}{204}
-\indexentry{حافظہ!پختہ}{204}
-\indexentry{OTP}{204}
-\indexentry{پختہ حافظہ!ایک مرتبہ قابل لکھائی}{204}
-\indexentry{ROM!EEROM}{204}
-\indexentry{پختہ حافظہ!برق مٹتا}{204}
-\indexentry{ROM!UV erasable}{204}
-\indexentry{پختہ حافظہ!شعاع مٹتا}{204}
-\indexentry{memory!unit}{205}
-\indexentry{حافظہ!اکائی}{205}
-\indexentry{memory!binary cell}{205}
-\indexentry{عارضی حافظہ!اکائی}{205}
-\indexentry{state!high impedance}{207}
-\indexentry{حال!بلند رکاوٹی}{207}
-\indexentry{IC, integrated circuit}{209}
-\indexentry{مخلوط دور}{209}
-\indexentry{پست فعال پن}{209}
-\indexentry{active low}{209}
-\indexentry{CS, chip select}{209}
-\indexentry{بیدار}{209}
-\indexentry{fuse}{213}
-\indexentry{فتیلہ}{213}
-\indexentry{switch}{216}
-\indexentry{سوئچ}{216}
-\indexentry{IC!programmer}{216}
-\indexentry{مخلوط دور!برنامہ نویس}{216}
-\indexentry{مائکروپراسیسر}{223}
-\indexentry{microprocessor}{223}
-\indexentry{خرد عامل کار}{223}
-\indexentry{commands}{223}
-\indexentry{احکامات}{223}
-\indexentry{instruction}{224}
-\indexentry{ہدایت}{224}
-\indexentry{assembly language}{224}
-\indexentry{مادری زبان}{224}
-\indexentry{memory!access time}{225}
-\indexentry{حافظہ!دورانیہ رسائی}{225}
-\indexentry{configure}{228}
-\indexentry{تشکیل}{228}
-\indexentry{PLD, programmable logic device}{233}
-\indexentry{قابل تشکیل منطقی دور}{233}
-\indexentry{PAL, programmable array logic}{233}
-\indexentry{ترکیبی منطقی ادوار!قابل تشکیل جمع}{233}
-\indexentry{PLA, programmable logic array}{233}
-\indexentry{ترکیبی منطقی ادوار!قابل تشکیل ضرب}{233}
-\indexentry{CPLD}{233}
-\indexentry{ترکیبی منطقی ادوار!قابل تشکیل ضرب و جمع}{233}
-\indexentry{programmer}{234}
-\indexentry{پروگرامر}{234}
-\indexentry{ضرب متمم و ضرب متمم منطقی دور!قابل تشکیل}{238}
-\indexentry{LSI, large scale integration}{238}
-\indexentry{مخلوط دور!وسیع پیمانہ}{238}
-\indexentry{CPLD, complex PLD}{238}
-\indexentry{قابل تشکیل!پیچیدہ ترتیبی دور}{238}
-\indexentry{VLSI, very large scale integration}{238}
-\indexentry{مخلوط دور!انتہائی وسیع پیمانہ}{238}
-\indexentry{Moore's law}{238}
-\indexentry{قانون!مور}{238}
-\indexentry{ASIC}{238}
-\indexentry{مخلوط دور!خصوصی استعمال}{238}
-\indexentry{FPGA}{238}
-\indexentry{موقع پر قابل تشکیل گیٹ صف}{238}
-\indexentry{CAD}{239}
-\indexentry{کمپیوٹر کی مدد سے تیار}{239}
-\indexentry{delay}{241}
-\indexentry{تاخیر}{241}
-\indexentry{glitch}{243}
-\indexentry{لرزش}{243}
-\indexentry{state!transition}{243}
-\indexentry{عبوری حال }{243}
-\indexentry{feedback signal}{243}
-\indexentry{باز رسی اشارہ}{243}
-\indexentry{unstable condition}{243}
-\indexentry{حالت!نا پائیدار}{243}
-\indexentry{fundamental mode}{243}
-\indexentry{بنیادی طریقہ کار}{243}
-\indexentry{asynchronous!combinational circuit}{245}
-\indexentry{ترتیبی دور!غیر معاصر}{245}
-\indexentry{feedback signal}{245}
-\indexentry{باز رسی اشارہ}{245}
-\indexentry{transition table}{245}
-\indexentry{عبوری جدول}{245}
-\indexentry{feedback signals}{245}
-\indexentry{باز رسی اشارات}{245}
-\indexentry{state variables}{246}
-\indexentry{حال کے متغیرات}{246}
-\indexentry{transient state}{246}
-\indexentry{عبوری حال }{246}
-\indexentry{table!flow}{249}
-\indexentry{جدول!بہاو کا}{249}
-\indexentry{flow table!primitive}{249}
-\indexentry{بہاو کا جدول!اوّلی}{249}
-\indexentry{بہاو کا جدول!غیر اوّلی}{249}
-\indexentry{flow table!non primitive}{250}
-\indexentry{race condition}{251}
-\indexentry{حالت دوڑ}{251}
-\indexentry{race!critical}{252}
-\indexentry{دوڑ!بحرانی}{252}
-\indexentry{race!non-critical}{252}
-\indexentry{دوڑ!غیر بحرانی}{252}
-\indexentry{cycle}{254}
-\indexentry{پھیرا}{254}
-\indexentry{unstable circuit}{254}
-\indexentry{غیر مستحکم دور}{254}
-\indexentry{oscillator}{254}
-\indexentry{مرتعش}{254}
-\indexentry{oscillate}{255}
-\indexentry{ارتعاش}{255}
-\indexentry{adjacent numbers}{256}
-\indexentry{ہمسایہ اعداد}{256}
-\indexentry{one hot bit assignment}{257}
-\indexentry{ایک بلند بِٹ تقرری}{257}
-\indexentry{don't care}{258}
-\indexentry{غیر ضروری}{258}
-\indexentry{state!complete}{264}
-\indexentry{حال!مکمل}{264}
-\indexentry{edge!rising}{266}
-\indexentry{کنارہ!چڑھائی}{266}
-\indexentry{state!tri}{269}
-\indexentry{حال!سہ}{269}
-\indexentry{state!two}{269}
-\indexentry{حال!دو}{269}
-\indexentry{input output unit}{269}
-\indexentry{دخول و خروج مرکز}{269}
-\indexentry{control unit}{269}
-\indexentry{قابو مرکز}{269}
-\indexentry{program}{271}
-\indexentry{برنامہ}{271}
-\indexentry{program counter}{271}
-\indexentry{ہدایت گنت کار}{271}
-\indexentry{pointer}{271}
-\indexentry{اشارہ گر}{271}
-\indexentry{instruction register}{273}
-\indexentry{دفتر ہدایت}{273}
-\indexentry{operation!memory read}{273}
-\indexentry{ہدایت پڑھ عمل}{273}
-\indexentry{bus!control}{273}
-\indexentry{گزرگاہ!قابو}{273}
-\indexentry{register!output}{274}
-\indexentry{خارجی دفتر}{274}
-\indexentry{port!output}{274}
-\indexentry{خارجی روزن}{274}
-\indexentry{printer}{274}
-\indexentry{پرنٹر}{274}
-\indexentry{interface circuit}{274}
-\indexentry{دور!ملاپی}{274}
-\indexentry{LED}{274}
-\indexentry{نوری ڈایوڈ}{274}
-\indexentry{ALU}{275}
-\indexentry{حسابی مرکز}{275}
-\indexentry{language!assembly}{275}
-\indexentry{مادری زبان}{275}
-\indexentry{زبان!مادری}{275}
-\indexentry{fullstop}{278}
-\indexentry{ختمہ}{278}
-\indexentry{memory reference instructions}{278}
-\indexentry{راجع ہدایات}{278}
-\indexentry{microprocessor}{278}
-\indexentry{خرد عامل کار}{278}
-\indexentry{opcode}{279}
-\indexentry{ہدایتی رمز}{279}
-\indexentry{operand}{280}
-\indexentry{زیر عمل}{280}
-\indexentry{operand}{280}
-\indexentry{زیر عمل}{280}
-\indexentry{push button}{281}
-\indexentry{داب بتام}{281}
-\indexentry{machine language}{281}
-\indexentry{language!machine}{281}
-\indexentry{مشینی زبان}{281}
-\indexentry{زبان!مشینی}{281}
-\indexentry{address field}{282}
-\indexentry{جزو پتہ}{282}
-\indexentry{instruction field}{282}
-\indexentry{جزو ہدایت}{282}
-\indexentry{timing states}{284}
-\indexentry{وقتیہ حال}{284}
-\indexentry{state!address}{285}
-\indexentry{حال!پتہ}{285}
-\indexentry{state!increment}{287}
-\indexentry{حال!بڑھوتری}{287}
-\indexentry{cycle!fetch}{287}
-\indexentry{پھیرا!بازیابی}{287}
-\indexentry{cycle!execution}{289}
-\indexentry{پھیرا!تعمیلی}{289}
-\indexentry{nop}{289}
-\indexentry{حال!فارغ}{289}
-\indexentry{cycle!machine}{295}
-\indexentry{پھیرا!مشینی}{295}
-\indexentry{cycle!instruction}{296}
-\indexentry{پھیرا!ہدایتی}{296}
-\indexentry{microprogram}{297}
-\indexentry{خرد برنامہ}{297}
-\indexentry{خرد ہدایت}{297}
-\indexentry{microinstruction}{297}
-\indexentry{macroinstructions}{298}
-\indexentry{کلاں ہدایات}{298}
-\indexentry{debounce}{305}
-\indexentry{بلا ٹپک}{305}
-\indexentry{spdt}{305}
-\indexentry{سوئچ!ایک قطب دو چال}{305}
-\indexentry{capacitor}{306}
-\indexentry{برق گیر}{306}
-\indexentry{full-wave rectifier}{306}
-\indexentry{مکمل لہر سمت کار}{306}
-\indexentry{state!counter}{308}
-\indexentry{حال!گنت کار}{308}
-\indexentry{matrix!control}{308}
-\indexentry{قالب!قابو}{308}
-\indexentry{presettable}{312}
-\indexentry{قابل پیش بھرائی}{312}
-\indexentry{address!ROM}{312}
-\indexentry{پتہ پختہ حافظہ}{312}
-\indexentry{control ROM}{312}
-\indexentry{قابو پختہ حافظہ}{312}
-\indexentry{spike}{312}
-\indexentry{سوزن}{312}
-\indexentry{machine cycle!fixed}{315}
-\indexentry{مشینی پھیرا!مقررہ}{315}
-\indexentry{machine cycle!variable}{315}
-\indexentry{مشینی پھیرا!متغیر}{315}
-\indexentry{مائکروپراسیسر}{315}
-\indexentry{مائکروپراسیسر}{315}
-\indexentry{خرد عامل کار}{315}
-\indexentry{floating}{319}
-\indexentry{غیر وابسطہ}{319}
-\indexentry{bidirectional}{321}
-\indexentry{دو طرفہ}{321}
-\indexentry{keyboard}{321}
-\indexentry{ٹائپ کار تختی}{321}
-\indexentry{READY}{321}
-\indexentry{تیار}{321}
-\indexentry{serial!in}{321}
-\indexentry{سلسلہ وار!مداخل}{321}
-\indexentry{monitor}{323}
-\indexentry{نگران}{323}
-\indexentry{memory data register}{323}
-\indexentry{دفتر مواد}{323}
-\indexentry{ALU}{323}
-\indexentry{مرکز حساب و منطق}{323}
-\indexentry{flag}{324}
-\indexentry{جھنڈا}{324}
-\indexentry{جھنڈا !علامت}{324}
-\indexentry{flag!zero}{324}
-\indexentry{جھنڈا!صفر}{324}
-\indexentry{flag!sign}{324}
-\indexentry{ACKNOWLEDGE}{324}
-\indexentry{تشکر}{324}
-\indexentry{handshaking}{324}
-\indexentry{مصافحہ}{324}
-\indexentry{signal!ready}{324}
-\indexentry{اشارہ!تیار}{324}
-\indexentry{serial!out}{324}
-\indexentry{سلسلہ وار!مخارج}{324}
-\indexentry{opcode}{325}
-\indexentry{ہدایتی رمز}{325}
-\indexentry{operand}{325}
-\indexentry{رقم زیر عمل}{325}
-\indexentry{program!source}{330}
-\indexentry{برنامہ!ماخذ}{330}
-\indexentry{دستی!ترجمہ}{330}
-\indexentry{assembler}{330}
-\indexentry{مترجم}{330}
-\indexentry{برنامہ!مترجم}{330}
-\indexentry{branch}{331}
-\indexentry{شاخ}{331}
-\indexentry{fall through}{333}
-\indexentry{سیدھا گزرنا}{333}
-\indexentry{jump!conditional}{333}
-\indexentry{شاخ!مشروط}{333}
-\indexentry{jump!unconditional}{333}
-\indexentry{شاخ!غیر مشروط}{333}
-\indexentry{subroutine}{334}
-\indexentry{ذیلی معمولہ}{334}
-\indexentry{loop}{337}
-\indexentry{software}{337}
-\indexentry{نرم افزار}{337}
-\indexentry{comments}{338}
-\indexentry{تبصرہ}{338}
-\indexentry{labels}{338}
-\indexentry{سرخی}{338}
-\indexentry{hardware}{340}
-\indexentry{سخت افزار}{340}
-\indexentry{parameter}{342}
-\indexentry{مقدار معلوم}{342}
-\indexentry{subset}{342}
-\indexentry{سلسلہ!ذیلی}{342}
-\indexentry{set!instruction}{343}
-\indexentry{سلسلہ!ہدایتی}{343}
-\indexentry{mask}{347}
-\indexentry{نقاب}{347}
-\indexentry{handshaking}{348}
-\indexentry{مصافحہ}{348}
-\indexentry{addressing!direct}{353}
-\indexentry{پتہ!بلا واسطہ انداز}{353}
-\indexentry{addressing!immediate}{353}
-\indexentry{پتہ!متصل یا قریب انداز}{353}
-\indexentry{addressing!register}{353}
-\indexentry{پتہ!دفتری انداز}{353}
-\indexentry{addressing!implied}{353}
-\indexentry{پتہ!مضمر انداز}{353}
-\indexentry{nested loops}{355}
-\indexentry{محیط دائرے}{355}
-\indexentry{traffic lights}{357}
-\indexentry{آمد و رفت بتی}{357}
-\indexentry{amplifier}{358}
-\indexentry{افزائش کار}{358}
-\indexentry{loud speaker}{358}
-\indexentry{بلند گو}{358}
-\indexentry{square wave}{359}
-\indexentry{چوکور موج}{359}
-\indexentry{serial data stream}{360}
-\indexentry{سلسلہ وار مواد کی دھار}{360}
+\indexentry{اعشاری نظام}{\arabicdigits {1}}
+\indexentry{decimal system}{\arabicdigits {1}}
+\indexentry{عشری نظام}{\arabicdigits {1}}
+\indexentry{basis}{\arabicdigits {1}}
+\indexentry{اساس}{\arabicdigits {1}}
+\indexentry{weight}{\arabicdigits {1}}
+\indexentry{وزن}{\arabicdigits {1}}
+\indexentry{رتبہ}{\arabicdigits {2}}
+\indexentry{lowest significant digit}{\arabicdigits {2}}
+\indexentry{کم تر رتبی ہندسہ}{\arabicdigits {2}}
+\indexentry{most significant digit}{\arabicdigits {2}}
+\indexentry{بلند تر رتبی ہندسہ}{\arabicdigits {2}}
+\indexentry{octal system}{\arabicdigits {3}}
+\indexentry{ہشتمی نظام}{\arabicdigits {3}}
+\indexentry{binary system}{\arabicdigits {4}}
+\indexentry{ثنائی نظام گنتی}{\arabicdigits {4}}
+\indexentry{microcontroller}{\arabicdigits {4}}
+\indexentry{خرد قابو کار}{\arabicdigits {4}}
+\indexentry{کم تر رتبی ثنائی ہندسہ}{\arabicdigits {5}}
+\indexentry{LSB}{\arabicdigits {5}}
+\indexentry{کم تر رتبی بِٹ}{\arabicdigits {5}}
+\indexentry{MSB}{\arabicdigits {5}}
+\indexentry{بلند تر رتبی بِٹ}{\arabicdigits {5}}
+\indexentry{بلند تر رتبی ثنائی ہندسہ}{\arabicdigits {5}}
+\indexentry{کسری}{\arabicdigits {7}}
+\indexentry{حصہ مسکور}{\arabicdigits {7}}
+\indexentry{صحیح}{\arabicdigits {7}}
+\indexentry{ششدہی نظام}{\arabicdigits {7}}
+\indexentry{hexadecimal}{\arabicdigits {7}}
+\indexentry{سادس عشری}{\arabicdigits {7}}
+\indexentry{bit}{\arabicdigits {10}}
+\indexentry{بِٹ}{\arabicdigits {10}}
+\indexentry{ثنائی ہندسہ}{\arabicdigits {10}}
+\indexentry{nibble}{\arabicdigits {10}}
+\indexentry{ریزہ}{\arabicdigits {10}}
+\indexentry{byte}{\arabicdigits {10}}
+\indexentry{بائٹ}{\arabicdigits {10}}
+\indexentry{ہشتمی ثنائی عدد}{\arabicdigits {10}}
+\indexentry{اساسی تکملہ}{\arabicdigits {14}}
+\indexentry{complement!2's}{\arabicdigits {15}}
+\indexentry{تکملہ!دو کا}{\arabicdigits {15}}
+\indexentry{complement!10's}{\arabicdigits {15}}
+\indexentry{تکملہ! دس کا}{\arabicdigits {15}}
+\indexentry{complement!9's}{\arabicdigits {16}}
+\indexentry{تکملہ!نو کا}{\arabicdigits {16}}
+\indexentry{تکملہ!اساس منفی ایک}{\arabicdigits {16}}
+\indexentry{complement!1's}{\arabicdigits {16}}
+\indexentry{تکملہ!ایک کا}{\arabicdigits {16}}
+\indexentry{complement}{\arabicdigits {17}}
+\indexentry{متمم}{\arabicdigits {17}}
+\indexentry{signed}{\arabicdigits {23}}
+\indexentry{علامت دار}{\arabicdigits {23}}
+\indexentry{sign bit}{\arabicdigits {23}}
+\indexentry{علامتی بِٹ}{\arabicdigits {23}}
+\indexentry{جدول!منطقی}{\arabicdigits {28}}
+\indexentry{table!boolean}{\arabicdigits {28}}
+\indexentry{جدول!بوولین}{\arabicdigits {28}}
+\indexentry{table!truth}{\arabicdigits {28}}
+\indexentry{جدول!صداقت}{\arabicdigits {28}}
+\indexentry{AND}{\arabicdigits {29}}
+\indexentry{ضرب!منطقی}{\arabicdigits {29}}
+\indexentry{بوولین!ضرب}{\arabicdigits {29}}
+\indexentry{input}{\arabicdigits {29}}
+\indexentry{مداخل}{\arabicdigits {29}}
+\indexentry{output}{\arabicdigits {29}}
+\indexentry{مخارج}{\arabicdigits {29}}
+\indexentry{OR}{\arabicdigits {30}}
+\indexentry{جمع!منطقی}{\arabicdigits {30}}
+\indexentry{بوولین!جمع}{\arabicdigits {30}}
+\indexentry{NOT}{\arabicdigits {31}}
+\indexentry{منطقی نفی}{\arabicdigits {31}}
+\indexentry{بوولین!نفی}{\arabicdigits {31}}
+\indexentry{XOR}{\arabicdigits {31}}
+\indexentry{بوولین!بلا شرکت جمع}{\arabicdigits {31}}
+\indexentry{XNOR}{\arabicdigits {32}}
+\indexentry{منطقی ضد بلا شرکت جمع}{\arabicdigits {32}}
+\indexentry{gates}{\arabicdigits {34}}
+\indexentry{گیٹ}{\arabicdigits {34}}
+\indexentry{gate!AND}{\arabicdigits {34}}
+\indexentry{گیٹ!ضرب}{\arabicdigits {34}}
+\indexentry{true}{\arabicdigits {34}}
+\indexentry{صادق}{\arabicdigits {34}}
+\indexentry{high}{\arabicdigits {34}}
+\indexentry{بلند}{\arabicdigits {34}}
+\indexentry{false}{\arabicdigits {34}}
+\indexentry{کاذب}{\arabicdigits {34}}
+\indexentry{low}{\arabicdigits {34}}
+\indexentry{پست}{\arabicdigits {34}}
+\indexentry{control}{\arabicdigits {34}}
+\indexentry{قابو }{\arabicdigits {34}}
+\indexentry{pin}{\arabicdigits {34}}
+\indexentry{پنیا}{\arabicdigits {34}}
+\indexentry{معذور}{\arabicdigits {34}}
+\indexentry{مجاز}{\arabicdigits {34}}
+\indexentry{disabled}{\arabicdigits {34}}
+\indexentry{enabled}{\arabicdigits {34}}
+\indexentry{gate!OR}{\arabicdigits {35}}
+\indexentry{گیٹ!جمع}{\arabicdigits {35}}
+\indexentry{gate!NOT}{\arabicdigits {36}}
+\indexentry{گیٹ!نفی}{\arabicdigits {36}}
+\indexentry{گیٹ!ضد ضرب}{\arabicdigits {39}}
+\indexentry{NAND}{\arabicdigits {39}}
+\indexentry{گیٹ!ضرب متمم}{\arabicdigits {39}}
+\indexentry{gate!XOR}{\arabicdigits {41}}
+\indexentry{گیٹ!بلا شرکت جمع}{\arabicdigits {41}}
+\indexentry{گیٹ!ضد بلا شرکت جمع}{\arabicdigits {41}}
+\indexentry{gate!XNOR}{\arabicdigits {41}}
+\indexentry{گیٹ!بلا شرکت جمع متمم}{\arabicdigits {41}}
+\indexentry{voltage!output HIGH}{\arabicdigits {43}}
+\indexentry{برقی دباو!بلند خارجی}{\arabicdigits {43}}
+\indexentry{}{\arabicdigits {43}}
+\indexentry{برقی رو!بلند خارجی}{\arabicdigits {43}}
+\indexentry{voltage!output LOW}{\arabicdigits {43}}
+\indexentry{برقی دباو!پست خارجی}{\arabicdigits {43}}
+\indexentry{current!output LOW}{\arabicdigits {44}}
+\indexentry{برقی رو!پست خارجی}{\arabicdigits {44}}
+\indexentry{voltage!input HIGH}{\arabicdigits {44}}
+\indexentry{برقی دباو!بلند داخلی}{\arabicdigits {44}}
+\indexentry{current!input HIGH}{\arabicdigits {44}}
+\indexentry{برقی رو!بلند داخلی}{\arabicdigits {44}}
+\indexentry{برقی دباو!پست داخلی}{\arabicdigits {44}}
+\indexentry{current!input LOW}{\arabicdigits {44}}
+\indexentry{برقی رو!پست داخلی}{\arabicdigits {44}}
+\indexentry{voltage!input LOW}{\arabicdigits {44}}
+\indexentry{noise}{\arabicdigits {44}}
+\indexentry{شور}{\arabicdigits {44}}
+\indexentry{شور!بلند حال گنجائش}{\arabicdigits {44}}
+\indexentry{noise margin!high state}{\arabicdigits {44}}
+\indexentry{شور!پست حال گنجائش}{\arabicdigits {44}}
+\indexentry{noise margin!low state}{\arabicdigits {44}}
+\indexentry{buffer}{\arabicdigits {45}}
+\indexentry{مستحکم کار}{\arabicdigits {45}}
+\indexentry{state!high impedance}{\arabicdigits {45}}
+\indexentry{حال!بلند رکاوٹی}{\arabicdigits {45}}
+\indexentry{state!two}{\arabicdigits {46}}
+\indexentry{حال!دو}{\arabicdigits {46}}
+\indexentry{state!tri}{\arabicdigits {46}}
+\indexentry{حال!سہ}{\arabicdigits {46}}
+\indexentry{buffer!active low non inverting}{\arabicdigits {46}}
+\indexentry{مستحکم کار!پست عمل پیرا غیر متمم }{\arabicdigits {46}}
+\indexentry{buffer!active high,inverting}{\arabicdigits {46}}
+\indexentry{مستحکم کار!بلند عمل پیرا متمم}{\arabicdigits {46}}
+\indexentry{buffer!active high non inverting}{\arabicdigits {46}}
+\indexentry{مستحکم کار!بلند عمل پیرا غیر متمم}{\arabicdigits {46}}
+\indexentry{buffer!active low,inverting}{\arabicdigits {46}}
+\indexentry{مستحکم کار!پست عمل پیرا متمم}{\arabicdigits {46}}
+\indexentry{bidirectional}{\arabicdigits {47}}
+\indexentry{دو طرفہ}{\arabicdigits {47}}
+\indexentry{IC, integrated circuit}{\arabicdigits {47}}
+\indexentry{مخلوط دور}{\arabicdigits {47}}
+\indexentry{datasheet}{\arabicdigits {49}}
+\indexentry{معلوماتی صفحات}{\arabicdigits {49}}
+\indexentry{De Morgan's laws}{\arabicdigits {58}}
+\indexentry{ڈی مارگن کلیات}{\arabicdigits {58}}
+\indexentry{minterms}{\arabicdigits {61}}
+\indexentry{ارکان ضرب}{\arabicdigits {61}}
+\indexentry{SOP}{\arabicdigits {62}}
+\indexentry{ارکان ضرب کا مجموعہ}{\arabicdigits {62}}
+\indexentry{مجموعہ ارکان ضرب}{\arabicdigits {62}}
+\indexentry{AND-OR}{\arabicdigits {63}}
+\indexentry{ضرب و جمع }{\arabicdigits {63}}
+\indexentry{maxterms}{\arabicdigits {65}}
+\indexentry{ارکان جمع}{\arabicdigits {65}}
+\indexentry{POS}{\arabicdigits {65}}
+\indexentry{ارکان جمع کی ضرب}{\arabicdigits {65}}
+\indexentry{ضرب بعد از جمع}{\arabicdigits {65}}
+\indexentry{OR-AND}{\arabicdigits {65}}
+\indexentry{جمع و ضرب}{\arabicdigits {65}}
+\indexentry{NAND-NAND}{\arabicdigits {69}}
+\indexentry{متمم ضرب و متمم ضرب}{\arabicdigits {69}}
+\indexentry{NOR-NOR}{\arabicdigits {71}}
+\indexentry{متمم جمع و متمم جمع}{\arabicdigits {71}}
+\indexentry{code}{\arabicdigits {72}}
+\indexentry{رمز}{\arabicdigits {72}}
+\indexentry{codes!ascii}{\arabicdigits {73}}
+\indexentry{رمز!ایسکی}{\arabicdigits {73}}
+\indexentry{code!uni}{\arabicdigits {73}}
+\indexentry{رمز!عالمی}{\arabicdigits {73}}
+\indexentry{binary coded decimal (BCD)}{\arabicdigits {73}}
+\indexentry{ثنائی مرموز اعشاریہ}{\arabicdigits {73}}
+\indexentry{code!Gray}{\arabicdigits {75}}
+\indexentry{رمز!گرے}{\arabicdigits {75}}
+\indexentry{AND-OR}{\arabicdigits {78}}
+\indexentry{ضرب و جمع}{\arabicdigits {78}}
+\indexentry{NAND-NAND}{\arabicdigits {78}}
+\indexentry{ضرب متمم و ضرب متمم}{\arabicdigits {78}}
+\indexentry{combinational logic}{\arabicdigits {101}}
+\indexentry{ترکیبی منطق}{\arabicdigits {101}}
+\indexentry{sequential logic}{\arabicdigits {101}}
+\indexentry{ترتیبی منطق}{\arabicdigits {101}}
+\indexentry{box diagram}{\arabicdigits {101}}
+\indexentry{ڈبہ شکل}{\arabicdigits {101}}
+\indexentry{adder!half}{\arabicdigits {102}}
+\indexentry{جمع کار!نصف}{\arabicdigits {102}}
+\indexentry{carry}{\arabicdigits {104}}
+\indexentry{حاصل}{\arabicdigits {104}}
+\indexentry{adder!half}{\arabicdigits {106}}
+\indexentry{جمع کار!نصف}{\arabicdigits {106}}
+\indexentry{adder!full}{\arabicdigits {106}}
+\indexentry{جمع کار!مکمل}{\arabicdigits {106}}
+\indexentry{carry!in}{\arabicdigits {106}}
+\indexentry{حاصل!داخلی}{\arabicdigits {106}}
+\indexentry{carry!out}{\arabicdigits {106}}
+\indexentry{حاصل!خارجی}{\arabicdigits {106}}
+\indexentry{binary coded decimal (BCD)}{\arabicdigits {110}}
+\indexentry{ثنائی مرموز اعشاریہ}{\arabicdigits {110}}
+\indexentry{decoder}{\arabicdigits {114}}
+\indexentry{شناخت کار}{\arabicdigits {114}}
+\indexentry{address}{\arabicdigits {114}}
+\indexentry{پتہ}{\arabicdigits {114}}
+\indexentry{address bits}{\arabicdigits {114}}
+\indexentry{پتہ بِٹ}{\arabicdigits {114}}
+\indexentry{decoder}{\arabicdigits {115}}
+\indexentry{شناخت کار}{\arabicdigits {115}}
+\indexentry{active!high}{\arabicdigits {116}}
+\indexentry{عمل پیرا!بلند}{\arabicdigits {116}}
+\indexentry{active!high}{\arabicdigits {118}}
+\indexentry{مجاز!بلند}{\arabicdigits {118}}
+\indexentry{active!low}{\arabicdigits {120}}
+\indexentry{عمل پیرا!پست}{\arabicdigits {120}}
+\indexentry{active!low}{\arabicdigits {120}}
+\indexentry{مجاز!پست}{\arabicdigits {120}}
+\indexentry{demultiplexer}{\arabicdigits {125}}
+\indexentry{منتخب کار!خارجی}{\arabicdigits {125}}
+\indexentry{multiplexer}{\arabicdigits {125}}
+\indexentry{منتخب کار!داخلی}{\arabicdigits {125}}
+\indexentry{minority circuit}{\arabicdigits {133}}
+\indexentry{اقلیتی دور}{\arabicdigits {133}}
+\indexentry{seven segment display}{\arabicdigits {135}}
+\indexentry{سات کلی نمائشی تختی}{\arabicdigits {135}}
+\indexentry{logic system!positive}{\arabicdigits {137}}
+\indexentry{منطقی نظام!مثبت}{\arabicdigits {137}}
+\indexentry{logic system!negative}{\arabicdigits {137}}
+\indexentry{منطقی نظام!منفی}{\arabicdigits {137}}
+\indexentry{flip flop}{\arabicdigits {137}}
+\indexentry{پلٹ کار}{\arabicdigits {137}}
+\indexentry{memory}{\arabicdigits {137}}
+\indexentry{حافظہ}{\arabicdigits {137}}
+\indexentry{counter}{\arabicdigits {137}}
+\indexentry{گنت کار}{\arabicdigits {137}}
+\indexentry{edge!negative going}{\arabicdigits {138}}
+\indexentry{کنارہ!منفی}{\arabicdigits {138}}
+\indexentry{edge!falling}{\arabicdigits {138}}
+\indexentry{کنارہ!اترائی}{\arabicdigits {138}}
+\indexentry{edge!positive going}{\arabicdigits {138}}
+\indexentry{کنارہ!مثبت}{\arabicdigits {138}}
+\indexentry{edge!rising}{\arabicdigits {138}}
+\indexentry{کنارہ!چڑھائی}{\arabicdigits {138}}
+\indexentry{times!rise}{\arabicdigits {138}}
+\indexentry{دورانیہ!چڑھائی}{\arabicdigits {138}}
+\indexentry{time!fall}{\arabicdigits {138}}
+\indexentry{دورانیہ!اترائی}{\arabicdigits {138}}
+\indexentry{propagation delay}{\arabicdigits {138}}
+\indexentry{دورانیہ!رد عمل}{\arabicdigits {138}}
+\indexentry{SR FF}{\arabicdigits {139}}
+\indexentry{پلٹ کار!ایس آر}{\arabicdigits {139}}
+\indexentry{feedback}{\arabicdigits {140}}
+\indexentry{باز رسی}{\arabicdigits {140}}
+\indexentry{feedback!signal}{\arabicdigits {140}}
+\indexentry{باز رسی!اشارہ}{\arabicdigits {140}}
+\indexentry{state}{\arabicdigits {142}}
+\indexentry{حال}{\arabicdigits {142}}
+\indexentry{state!false}{\arabicdigits {142}}
+\indexentry{حال!کاذب}{\arabicdigits {142}}
+\indexentry{state!low}{\arabicdigits {142}}
+\indexentry{حال!پست}{\arabicdigits {142}}
+\indexentry{state!true}{\arabicdigits {142}}
+\indexentry{حال!صادق}{\arabicdigits {142}}
+\indexentry{state!high}{\arabicdigits {142}}
+\indexentry{حال!بلند}{\arabicdigits {142}}
+\indexentry{active!high}{\arabicdigits {142}}
+\indexentry{بلند فعال}{\arabicdigits {142}}
+\indexentry{active}{\arabicdigits {142}}
+\indexentry{فعال}{\arabicdigits {142}}
+\indexentry{active!low}{\arabicdigits {142}}
+\indexentry{پست فعال}{\arabicdigits {142}}
+\indexentry{inactive}{\arabicdigits {143}}
+\indexentry{غیر فعال}{\arabicdigits {143}}
+\indexentry{clear!input}{\arabicdigits {143}}
+\indexentry{reset!input}{\arabicdigits {143}}
+\indexentry{غیر فعال کار!مداخل}{\arabicdigits {143}}
+\indexentry{set!input}{\arabicdigits {143}}
+\indexentry{فعال کار!مداخل}{\arabicdigits {143}}
+\indexentry{synchronous}{\arabicdigits {143}}
+\indexentry{ہم عصر}{\arabicdigits {143}}
+\indexentry{clock}{\arabicdigits {143}}
+\indexentry{ساعت}{\arabicdigits {143}}
+\indexentry{frequency}{\arabicdigits {143}}
+\indexentry{تعدد}{\arabicdigits {143}}
+\indexentry{low time}{\arabicdigits {143}}
+\indexentry{دورانیہ!پست}{\arabicdigits {143}}
+\indexentry{high time}{\arabicdigits {143}}
+\indexentry{دورانیہ!بلند}{\arabicdigits {143}}
+\indexentry{time period}{\arabicdigits {143}}
+\indexentry{دوری عرصہ}{\arabicdigits {143}}
+\indexentry{Hertz}{\arabicdigits {144}}
+\indexentry{ہرٹز}{\arabicdigits {144}}
+\indexentry{pulse}{\arabicdigits {144}}
+\indexentry{ساعت!دھڑکن}{\arabicdigits {144}}
+\indexentry{SR flip flop!active low inputs}{\arabicdigits {144}}
+\indexentry{ایس آر!پست فعال مداخل}{\arabicdigits {144}}
+\indexentry{race condition}{\arabicdigits {147}}
+\indexentry{حالت دوڑ}{\arabicdigits {147}}
+\indexentry{flip flop!master slave}{\arabicdigits {150}}
+\indexentry{پلٹ کار!آقا غلام}{\arabicdigits {150}}
+\indexentry{clock}{\arabicdigits {150}}
+\indexentry{ساعت}{\arabicdigits {150}}
+\indexentry{master slave!negative edge triggered}{\arabicdigits {150}}
+\indexentry{آقا غلام!کنارہ اترائی پر عمل کار}{\arabicdigits {150}}
+\indexentry{trigger}{\arabicdigits {150}}
+\indexentry{لبلبی}{\arabicdigits {150}}
+\indexentry{FF!D}{\arabicdigits {153}}
+\indexentry{پلٹ کار!ڈی}{\arabicdigits {153}}
+\indexentry{flip flop!D, negative edge}{\arabicdigits {153}}
+\indexentry{پلٹ کار!ڈی، کنارہ اترائی لبلبی}{\arabicdigits {153}}
+\indexentry{flip flop!D, positive edge}{\arabicdigits {153}}
+\indexentry{پلٹ کار!ڈی، کنارہ چڑھائی لبلبی}{\arabicdigits {153}}
+\indexentry{time!hold}{\arabicdigits {155}}
+\indexentry{دورانیہ!ٹھیراؤ}{\arabicdigits {155}}
+\indexentry{time!setup}{\arabicdigits {155}}
+\indexentry{دورانیہ!تیاری}{\arabicdigits {155}}
+\indexentry{VLSI}{\arabicdigits {155}}
+\indexentry{مخلوط دور!وسیع پیمانہ}{\arabicdigits {155}}
+\indexentry{flip flop!JK}{\arabicdigits {158}}
+\indexentry{پلٹ کار!جے کے}{\arabicdigits {158}}
+\indexentry{flip flop!T}{\arabicdigits {158}}
+\indexentry{پلٹ کار!ٹی}{\arabicdigits {158}}
+\indexentry{FF!T}{\arabicdigits {161}}
+\indexentry{پلٹ کار!ٹی}{\arabicdigits {161}}
+\indexentry{counter!binary, three bit}{\arabicdigits {162}}
+\indexentry{گنت کار!ثنائی تین ہندسی}{\arabicdigits {162}}
+\indexentry{counter!binary,serial}{\arabicdigits {163}}
+\indexentry{جمع کار!ثنائی سلسلہ وار}{\arabicdigits {163}}
+\indexentry{synchronous!sequential circuits}{\arabicdigits {164}}
+\indexentry{معاصر!ترتیبی ادوار}{\arabicdigits {164}}
+\indexentry{state!equation}{\arabicdigits {164}}
+\indexentry{حال!مساوات}{\arabicdigits {164}}
+\indexentry{state!table}{\arabicdigits {164}}
+\indexentry{حال کا جدول}{\arabicdigits {164}}
+\indexentry{state!table}{\arabicdigits {165}}
+\indexentry{حال کا جدول}{\arabicdigits {165}}
+\indexentry{state!diagram}{\arabicdigits {166}}
+\indexentry{حال کا خاکہ}{\arabicdigits {166}}
+\indexentry{Moore}{\arabicdigits {172}}
+\indexentry{مور نمونہ}{\arabicdigits {172}}
+\indexentry{Mealy}{\arabicdigits {172}}
+\indexentry{میلی نمونہ}{\arabicdigits {172}}
+\indexentry{sequence!detector}{\arabicdigits {173}}
+\indexentry{ترتیب!شناس}{\arabicdigits {173}}
+\indexentry{register}{\arabicdigits {183}}
+\indexentry{دفتر}{\arabicdigits {183}}
+\indexentry{register!shift right}{\arabicdigits {185}}
+\indexentry{دفتر!دائیں انتقال}{\arabicdigits {185}}
+\indexentry{register!shift left}{\arabicdigits {185}}
+\indexentry{دفتر! بائیں انتقال}{\arabicdigits {185}}
+\indexentry{register!parallel load}{\arabicdigits {186}}
+\indexentry{دفتر!متوازی بھرائی}{\arabicdigits {186}}
+\indexentry{shift register!universal}{\arabicdigits {187}}
+\indexentry{انتقال دفتر!عالمگیر}{\arabicdigits {187}}
+\indexentry{serial out}{\arabicdigits {190}}
+\indexentry{سلسلہ وار!خارج}{\arabicdigits {190}}
+\indexentry{output}{\arabicdigits {190}}
+\indexentry{خروج}{\arabicdigits {190}}
+\indexentry{serial in}{\arabicdigits {190}}
+\indexentry{سلسلہ وار!داخل}{\arabicdigits {190}}
+\indexentry{signal!electrical}{\arabicdigits {193}}
+\indexentry{اشارہ!برقی}{\arabicdigits {193}}
+\indexentry{counter!four bit binary, down}{\arabicdigits {193}}
+\indexentry{گنت کار!چار بٹ ثنائی، الٹ}{\arabicdigits {193}}
+\indexentry{counter!four bit binary, up}{\arabicdigits {193}}
+\indexentry{گنت کار!چار بٹ ثنائی سیدھا}{\arabicdigits {193}}
+\indexentry{counter!binary}{\arabicdigits {193}}
+\indexentry{گنت کار!ثنائی}{\arabicdigits {193}}
+\indexentry{propagation time}{\arabicdigits {194}}
+\indexentry{دورانیہ!رد عمل}{\arabicdigits {194}}
+\indexentry{counter!binary, ripple}{\arabicdigits {195}}
+\indexentry{گنت کار!لہریا، ثنائی}{\arabicdigits {195}}
+\indexentry{counter!ripple}{\arabicdigits {195}}
+\indexentry{گنت کار!لہریا}{\arabicdigits {195}}
+\indexentry{counter!synchronous, three bit}{\arabicdigits {195}}
+\indexentry{گنت کار!تین بِٹ، معاصر}{\arabicdigits {195}}
+\indexentry{counter!synchronous, three bit binary}{\arabicdigits {198}}
+\indexentry{گنت کار!معاصر، تین بِٹ ثنائی}{\arabicdigits {198}}
+\indexentry{counter!synchronous, binary, four bit}{\arabicdigits {198}}
+\indexentry{گنت کار!ثنائی، معاصر، چار بِٹ}{\arabicdigits {198}}
+\indexentry{counter!decimal, BCD}{\arabicdigits {198}}
+\indexentry{گنت کار!ثنائی مرموز اعشاری}{\arabicdigits {198}}
+\indexentry{time period}{\arabicdigits {198}}
+\indexentry{دوری عرصہ}{\arabicdigits {198}}
+\indexentry{counter!variable length}{\arabicdigits {202}}
+\indexentry{گنت کار!متغیر لمبائی}{\arabicdigits {202}}
+\indexentry{گنت کار!بے ترتیب}{\arabicdigits {204}}
+\indexentry{counter!ring}{\arabicdigits {205}}
+\indexentry{گنت کار!چھلا}{\arabicdigits {205}}
+\indexentry{pulse generator}{\arabicdigits {206}}
+\indexentry{دھڑکن پیدا کار}{\arabicdigits {206}}
+\indexentry{bit}{\arabicdigits {209}}
+\indexentry{بِٹ}{\arabicdigits {209}}
+\indexentry{ثنائی ہندسہ}{\arabicdigits {209}}
+\indexentry{memory}{\arabicdigits {209}}
+\indexentry{حافظہ}{\arabicdigits {209}}
+\indexentry{word}{\arabicdigits {209}}
+\indexentry{لفظ}{\arabicdigits {209}}
+\indexentry{byte}{\arabicdigits {209}}
+\indexentry{بائٹ}{\arabicdigits {209}}
+\indexentry{ہشتمی عدد}{\arabicdigits {209}}
+\indexentry{write}{\arabicdigits {209}}
+\indexentry{لکھنا}{\arabicdigits {209}}
+\indexentry{read}{\arabicdigits {209}}
+\indexentry{پڑھنا}{\arabicdigits {209}}
+\indexentry{memory!RAM}{\arabicdigits {209}}
+\indexentry{حافظہ!عارضی}{\arabicdigits {209}}
+\indexentry{حافظہ!دورانیہ رسائی}{\arabicdigits {209}}
+\indexentry{access time}{\arabicdigits {209}}
+\indexentry{دورانیہ رسائی}{\arabicdigits {209}}
+\indexentry{memory!ROM}{\arabicdigits {210}}
+\indexentry{حافظہ!پختہ}{\arabicdigits {210}}
+\indexentry{OTP}{\arabicdigits {210}}
+\indexentry{پختہ حافظہ!ایک مرتبہ قابل لکھائی}{\arabicdigits {210}}
+\indexentry{ROM!EEROM}{\arabicdigits {210}}
+\indexentry{پختہ حافظہ!برق مٹتا}{\arabicdigits {210}}
+\indexentry{ROM!UV erasable}{\arabicdigits {210}}
+\indexentry{پختہ حافظہ!شعاع مٹتا}{\arabicdigits {210}}
+\indexentry{memory!unit}{\arabicdigits {211}}
+\indexentry{حافظہ!اکائی}{\arabicdigits {211}}
+\indexentry{memory!binary cell}{\arabicdigits {211}}
+\indexentry{عارضی حافظہ!اکائی}{\arabicdigits {211}}
+\indexentry{state!high impedance}{\arabicdigits {213}}
+\indexentry{حال!بلند رکاوٹی}{\arabicdigits {213}}
+\indexentry{IC, integrated circuit}{\arabicdigits {215}}
+\indexentry{مخلوط دور}{\arabicdigits {215}}
+\indexentry{پست فعال پن}{\arabicdigits {215}}
+\indexentry{active low}{\arabicdigits {215}}
+\indexentry{CS, chip select}{\arabicdigits {215}}
+\indexentry{بیدار}{\arabicdigits {215}}
+\indexentry{fuse}{\arabicdigits {219}}
+\indexentry{فتیلہ}{\arabicdigits {219}}
+\indexentry{switch}{\arabicdigits {222}}
+\indexentry{سوئچ}{\arabicdigits {222}}
+\indexentry{IC!programmer}{\arabicdigits {222}}
+\indexentry{مخلوط دور!برنامہ نویس}{\arabicdigits {222}}
+\indexentry{مائکروپراسیسر}{\arabicdigits {229}}
+\indexentry{microprocessor}{\arabicdigits {229}}
+\indexentry{خرد عامل کار}{\arabicdigits {229}}
+\indexentry{commands}{\arabicdigits {229}}
+\indexentry{احکامات}{\arabicdigits {229}}
+\indexentry{instruction}{\arabicdigits {230}}
+\indexentry{ہدایت}{\arabicdigits {230}}
+\indexentry{assembly language}{\arabicdigits {230}}
+\indexentry{مادری زبان}{\arabicdigits {230}}
+\indexentry{memory!access time}{\arabicdigits {231}}
+\indexentry{حافظہ!دورانیہ رسائی}{\arabicdigits {231}}
+\indexentry{configure}{\arabicdigits {234}}
+\indexentry{تشکیل}{\arabicdigits {234}}
+\indexentry{PLD, programmable logic device}{\arabicdigits {239}}
+\indexentry{قابل تشکیل منطقی دور}{\arabicdigits {239}}
+\indexentry{PAL, programmable array logic}{\arabicdigits {239}}
+\indexentry{ترکیبی منطقی ادوار!قابل تشکیل جمع}{\arabicdigits {239}}
+\indexentry{PLA, programmable logic array}{\arabicdigits {239}}
+\indexentry{ترکیبی منطقی ادوار!قابل تشکیل ضرب}{\arabicdigits {239}}
+\indexentry{CPLD}{\arabicdigits {239}}
+\indexentry{ترکیبی منطقی ادوار!قابل تشکیل ضرب و جمع}{\arabicdigits {239}}
+\indexentry{programmer}{\arabicdigits {240}}
+\indexentry{پروگرامر}{\arabicdigits {240}}
+\indexentry{ضرب متمم و ضرب متمم منطقی دور!قابل تشکیل}{\arabicdigits {244}}
+\indexentry{LSI, large scale integration}{\arabicdigits {244}}
+\indexentry{مخلوط دور!وسیع پیمانہ}{\arabicdigits {244}}
+\indexentry{CPLD, complex PLD}{\arabicdigits {244}}
+\indexentry{قابل تشکیل!پیچیدہ ترتیبی دور}{\arabicdigits {244}}
+\indexentry{VLSI, very large scale integration}{\arabicdigits {244}}
+\indexentry{مخلوط دور!انتہائی وسیع پیمانہ}{\arabicdigits {244}}
+\indexentry{Moore's law}{\arabicdigits {244}}
+\indexentry{قانون!مور}{\arabicdigits {244}}
+\indexentry{ASIC}{\arabicdigits {244}}
+\indexentry{مخلوط دور!خصوصی استعمال}{\arabicdigits {244}}
+\indexentry{FPGA}{\arabicdigits {244}}
+\indexentry{موقع پر قابل تشکیل گیٹ صف}{\arabicdigits {244}}
+\indexentry{CAD}{\arabicdigits {245}}
+\indexentry{کمپیوٹر کی مدد سے تیار}{\arabicdigits {245}}
+\indexentry{delay}{\arabicdigits {247}}
+\indexentry{تاخیر}{\arabicdigits {247}}
+\indexentry{glitch}{\arabicdigits {249}}
+\indexentry{لرزش}{\arabicdigits {249}}
+\indexentry{state!transition}{\arabicdigits {249}}
+\indexentry{عبوری حال }{\arabicdigits {249}}
+\indexentry{feedback signal}{\arabicdigits {249}}
+\indexentry{باز رسی اشارہ}{\arabicdigits {249}}
+\indexentry{unstable condition}{\arabicdigits {249}}
+\indexentry{حالت!نا پائیدار}{\arabicdigits {249}}
+\indexentry{fundamental mode}{\arabicdigits {249}}
+\indexentry{بنیادی طریقہ کار}{\arabicdigits {249}}
+\indexentry{asynchronous!combinational circuit}{\arabicdigits {251}}
+\indexentry{ترتیبی دور!غیر معاصر}{\arabicdigits {251}}
+\indexentry{feedback signal}{\arabicdigits {251}}
+\indexentry{باز رسی اشارہ}{\arabicdigits {251}}
+\indexentry{transition table}{\arabicdigits {251}}
+\indexentry{عبوری جدول}{\arabicdigits {251}}
+\indexentry{feedback signals}{\arabicdigits {251}}
+\indexentry{باز رسی اشارات}{\arabicdigits {251}}
+\indexentry{state variables}{\arabicdigits {252}}
+\indexentry{حال کے متغیرات}{\arabicdigits {252}}
+\indexentry{transient state}{\arabicdigits {252}}
+\indexentry{عبوری حال }{\arabicdigits {252}}
+\indexentry{table!flow}{\arabicdigits {255}}
+\indexentry{جدول!بہاو کا}{\arabicdigits {255}}
+\indexentry{flow table!primitive}{\arabicdigits {255}}
+\indexentry{بہاو کا جدول!اوّلی}{\arabicdigits {255}}
+\indexentry{بہاو کا جدول!غیر اوّلی}{\arabicdigits {255}}
+\indexentry{flow table!non primitive}{\arabicdigits {256}}
+\indexentry{race condition}{\arabicdigits {257}}
+\indexentry{حالت دوڑ}{\arabicdigits {257}}
+\indexentry{race!critical}{\arabicdigits {258}}
+\indexentry{دوڑ!بحرانی}{\arabicdigits {258}}
+\indexentry{race!non-critical}{\arabicdigits {258}}
+\indexentry{دوڑ!غیر بحرانی}{\arabicdigits {258}}
+\indexentry{cycle}{\arabicdigits {260}}
+\indexentry{پھیرا}{\arabicdigits {260}}
+\indexentry{unstable circuit}{\arabicdigits {260}}
+\indexentry{غیر مستحکم دور}{\arabicdigits {260}}
+\indexentry{oscillator}{\arabicdigits {260}}
+\indexentry{مرتعش}{\arabicdigits {260}}
+\indexentry{oscillate}{\arabicdigits {261}}
+\indexentry{ارتعاش}{\arabicdigits {261}}
+\indexentry{adjacent numbers}{\arabicdigits {262}}
+\indexentry{ہمسایہ اعداد}{\arabicdigits {262}}
+\indexentry{one hot bit assignment}{\arabicdigits {263}}
+\indexentry{ایک بلند بِٹ تقرری}{\arabicdigits {263}}
+\indexentry{don't care}{\arabicdigits {264}}
+\indexentry{غیر ضروری}{\arabicdigits {264}}
+\indexentry{state!complete}{\arabicdigits {270}}
+\indexentry{حال!مکمل}{\arabicdigits {270}}
+\indexentry{edge!rising}{\arabicdigits {272}}
+\indexentry{کنارہ!چڑھائی}{\arabicdigits {272}}
+\indexentry{state!tri}{\arabicdigits {275}}
+\indexentry{حال!سہ}{\arabicdigits {275}}
+\indexentry{state!two}{\arabicdigits {275}}
+\indexentry{حال!دو}{\arabicdigits {275}}
+\indexentry{input output unit}{\arabicdigits {275}}
+\indexentry{دخول و خروج مرکز}{\arabicdigits {275}}
+\indexentry{control unit}{\arabicdigits {275}}
+\indexentry{قابو مرکز}{\arabicdigits {275}}
+\indexentry{program}{\arabicdigits {277}}
+\indexentry{برنامہ}{\arabicdigits {277}}
+\indexentry{program counter}{\arabicdigits {277}}
+\indexentry{ہدایت گنت کار}{\arabicdigits {277}}
+\indexentry{pointer}{\arabicdigits {277}}
+\indexentry{اشارہ گر}{\arabicdigits {277}}
+\indexentry{instruction register}{\arabicdigits {279}}
+\indexentry{دفتر ہدایت}{\arabicdigits {279}}
+\indexentry{operation!memory read}{\arabicdigits {279}}
+\indexentry{ہدایت پڑھ عمل}{\arabicdigits {279}}
+\indexentry{bus!control}{\arabicdigits {279}}
+\indexentry{گزرگاہ!قابو}{\arabicdigits {279}}
+\indexentry{register!output}{\arabicdigits {280}}
+\indexentry{خارجی دفتر}{\arabicdigits {280}}
+\indexentry{port!output}{\arabicdigits {280}}
+\indexentry{خارجی روزن}{\arabicdigits {280}}
+\indexentry{printer}{\arabicdigits {280}}
+\indexentry{پرنٹر}{\arabicdigits {280}}
+\indexentry{interface circuit}{\arabicdigits {280}}
+\indexentry{دور!ملاپی}{\arabicdigits {280}}
+\indexentry{LED}{\arabicdigits {280}}
+\indexentry{نوری ڈایوڈ}{\arabicdigits {280}}
+\indexentry{ALU}{\arabicdigits {281}}
+\indexentry{حسابی مرکز}{\arabicdigits {281}}
+\indexentry{language!assembly}{\arabicdigits {281}}
+\indexentry{مادری زبان}{\arabicdigits {281}}
+\indexentry{زبان!مادری}{\arabicdigits {281}}
+\indexentry{fullstop}{\arabicdigits {284}}
+\indexentry{ختمہ}{\arabicdigits {284}}
+\indexentry{memory reference instructions}{\arabicdigits {284}}
+\indexentry{راجع ہدایات}{\arabicdigits {284}}
+\indexentry{microprocessor}{\arabicdigits {284}}
+\indexentry{خرد عامل کار}{\arabicdigits {284}}
+\indexentry{opcode}{\arabicdigits {285}}
+\indexentry{ہدایتی رمز}{\arabicdigits {285}}
+\indexentry{operand}{\arabicdigits {286}}
+\indexentry{زیر عمل}{\arabicdigits {286}}
+\indexentry{operand}{\arabicdigits {286}}
+\indexentry{زیر عمل}{\arabicdigits {286}}
+\indexentry{push button}{\arabicdigits {287}}
+\indexentry{داب بتام}{\arabicdigits {287}}
+\indexentry{machine language}{\arabicdigits {287}}
+\indexentry{language!machine}{\arabicdigits {287}}
+\indexentry{مشینی زبان}{\arabicdigits {287}}
+\indexentry{زبان!مشینی}{\arabicdigits {287}}
+\indexentry{address field}{\arabicdigits {288}}
+\indexentry{جزو پتہ}{\arabicdigits {288}}
+\indexentry{instruction field}{\arabicdigits {288}}
+\indexentry{جزو ہدایت}{\arabicdigits {288}}
+\indexentry{timing states}{\arabicdigits {290}}
+\indexentry{وقتیہ حال}{\arabicdigits {290}}
+\indexentry{state!address}{\arabicdigits {291}}
+\indexentry{حال!پتہ}{\arabicdigits {291}}
+\indexentry{state!increment}{\arabicdigits {293}}
+\indexentry{حال!بڑھوتری}{\arabicdigits {293}}
+\indexentry{cycle!fetch}{\arabicdigits {293}}
+\indexentry{پھیرا!بازیابی}{\arabicdigits {293}}
+\indexentry{cycle!execution}{\arabicdigits {295}}
+\indexentry{پھیرا!تعمیلی}{\arabicdigits {295}}
+\indexentry{nop}{\arabicdigits {295}}
+\indexentry{حال!فارغ}{\arabicdigits {295}}
+\indexentry{cycle!machine}{\arabicdigits {301}}
+\indexentry{پھیرا!مشینی}{\arabicdigits {301}}
+\indexentry{cycle!instruction}{\arabicdigits {302}}
+\indexentry{پھیرا!ہدایتی}{\arabicdigits {302}}
+\indexentry{microprogram}{\arabicdigits {303}}
+\indexentry{خرد برنامہ}{\arabicdigits {303}}
+\indexentry{خرد ہدایت}{\arabicdigits {303}}
+\indexentry{microinstruction}{\arabicdigits {303}}
+\indexentry{macroinstructions}{\arabicdigits {304}}
+\indexentry{کلاں ہدایات}{\arabicdigits {304}}
+\indexentry{debounce}{\arabicdigits {311}}
+\indexentry{بلا ٹپک}{\arabicdigits {311}}
+\indexentry{spdt}{\arabicdigits {311}}
+\indexentry{سوئچ!ایک قطب دو چال}{\arabicdigits {311}}
+\indexentry{capacitor}{\arabicdigits {312}}
+\indexentry{برق گیر}{\arabicdigits {312}}
+\indexentry{full-wave rectifier}{\arabicdigits {312}}
+\indexentry{مکمل لہر سمت کار}{\arabicdigits {312}}
+\indexentry{state!counter}{\arabicdigits {314}}
+\indexentry{حال!گنت کار}{\arabicdigits {314}}
+\indexentry{matrix!control}{\arabicdigits {314}}
+\indexentry{قالب!قابو}{\arabicdigits {314}}
+\indexentry{presettable}{\arabicdigits {318}}
+\indexentry{قابل پیش بھرائی}{\arabicdigits {318}}
+\indexentry{address!ROM}{\arabicdigits {318}}
+\indexentry{پتہ پختہ حافظہ}{\arabicdigits {318}}
+\indexentry{control ROM}{\arabicdigits {318}}
+\indexentry{قابو پختہ حافظہ}{\arabicdigits {318}}
+\indexentry{spike}{\arabicdigits {318}}
+\indexentry{سوزن}{\arabicdigits {318}}
+\indexentry{machine cycle!fixed}{\arabicdigits {321}}
+\indexentry{مشینی پھیرا!مقررہ}{\arabicdigits {321}}
+\indexentry{machine cycle!variable}{\arabicdigits {321}}
+\indexentry{مشینی پھیرا!متغیر}{\arabicdigits {321}}
+\indexentry{مائکروپراسیسر}{\arabicdigits {321}}
+\indexentry{مائکروپراسیسر}{\arabicdigits {321}}
+\indexentry{خرد عامل کار}{\arabicdigits {321}}
+\indexentry{floating}{\arabicdigits {325}}
+\indexentry{غیر وابسطہ}{\arabicdigits {325}}
+\indexentry{bidirectional}{\arabicdigits {327}}
+\indexentry{دو طرفہ}{\arabicdigits {327}}
+\indexentry{keyboard}{\arabicdigits {327}}
+\indexentry{ٹائپ کار تختی}{\arabicdigits {327}}
+\indexentry{READY}{\arabicdigits {327}}
+\indexentry{تیار}{\arabicdigits {327}}
+\indexentry{serial!in}{\arabicdigits {327}}
+\indexentry{سلسلہ وار!مداخل}{\arabicdigits {327}}
+\indexentry{monitor}{\arabicdigits {329}}
+\indexentry{نگران}{\arabicdigits {329}}
+\indexentry{memory data register}{\arabicdigits {329}}
+\indexentry{دفتر مواد}{\arabicdigits {329}}
+\indexentry{ALU}{\arabicdigits {329}}
+\indexentry{مرکز حساب و منطق}{\arabicdigits {329}}
+\indexentry{flag}{\arabicdigits {330}}
+\indexentry{جھنڈا}{\arabicdigits {330}}
+\indexentry{جھنڈا !علامت}{\arabicdigits {330}}
+\indexentry{flag!zero}{\arabicdigits {330}}
+\indexentry{جھنڈا!صفر}{\arabicdigits {330}}
+\indexentry{flag!sign}{\arabicdigits {330}}
+\indexentry{ACKNOWLEDGE}{\arabicdigits {330}}
+\indexentry{تشکر}{\arabicdigits {330}}
+\indexentry{handshaking}{\arabicdigits {330}}
+\indexentry{مصافحہ}{\arabicdigits {330}}
+\indexentry{signal!ready}{\arabicdigits {330}}
+\indexentry{اشارہ!تیار}{\arabicdigits {330}}
+\indexentry{serial!out}{\arabicdigits {330}}
+\indexentry{سلسلہ وار!مخارج}{\arabicdigits {330}}
+\indexentry{opcode}{\arabicdigits {331}}
+\indexentry{ہدایتی رمز}{\arabicdigits {331}}
+\indexentry{operand}{\arabicdigits {331}}
+\indexentry{رقم زیر عمل}{\arabicdigits {331}}
+\indexentry{ہدایتی رمز}{\arabicdigits {331}}
+\indexentry{program!source}{\arabicdigits {336}}
+\indexentry{برنامہ!ماخذ}{\arabicdigits {336}}
+\indexentry{دستی!ترجمہ}{\arabicdigits {336}}
+\indexentry{assembler}{\arabicdigits {336}}
+\indexentry{مترجم}{\arabicdigits {336}}
+\indexentry{برنامہ!مترجم}{\arabicdigits {336}}
+\indexentry{branch}{\arabicdigits {337}}
+\indexentry{شاخ}{\arabicdigits {337}}
+\indexentry{fall through}{\arabicdigits {340}}
+\indexentry{سیدھا گزرنا}{\arabicdigits {340}}
+\indexentry{jump!conditional}{\arabicdigits {340}}
+\indexentry{شاخ!مشروط}{\arabicdigits {340}}
+\indexentry{jump!unconditional}{\arabicdigits {340}}
+\indexentry{شاخ!غیر مشروط}{\arabicdigits {340}}
+\indexentry{subroutine}{\arabicdigits {340}}
+\indexentry{ذیلی معمولہ}{\arabicdigits {340}}
+\indexentry{loop}{\arabicdigits {343}}
+\indexentry{software}{\arabicdigits {344}}
+\indexentry{نرم افزار}{\arabicdigits {344}}
+\indexentry{comments}{\arabicdigits {344}}
+\indexentry{تبصرہ}{\arabicdigits {344}}
+\indexentry{labels}{\arabicdigits {344}}
+\indexentry{سرخی}{\arabicdigits {344}}
+\indexentry{hardware}{\arabicdigits {347}}
+\indexentry{سخت افزار}{\arabicdigits {347}}
+\indexentry{parameter}{\arabicdigits {349}}
+\indexentry{مقدار معلوم}{\arabicdigits {349}}
+\indexentry{subset}{\arabicdigits {349}}
+\indexentry{سلسلہ!ذیلی}{\arabicdigits {349}}
+\indexentry{set!instruction}{\arabicdigits {350}}
+\indexentry{سلسلہ!ہدایتی}{\arabicdigits {350}}
+\indexentry{mask}{\arabicdigits {354}}
+\indexentry{نقاب}{\arabicdigits {354}}
+\indexentry{handshaking}{\arabicdigits {355}}
+\indexentry{مصافحہ}{\arabicdigits {355}}
+\indexentry{addressing!direct}{\arabicdigits {360}}
+\indexentry{پتہ!بلا واسطہ انداز}{\arabicdigits {360}}
+\indexentry{addressing!immediate}{\arabicdigits {360}}
+\indexentry{پتہ!متصل یا قریب انداز}{\arabicdigits {360}}
+\indexentry{addressing!register}{\arabicdigits {360}}
+\indexentry{پتہ!دفتری انداز}{\arabicdigits {360}}
+\indexentry{addressing!implied}{\arabicdigits {360}}
+\indexentry{پتہ!مضمر انداز}{\arabicdigits {360}}
+\indexentry{nested loops}{\arabicdigits {362}}
+\indexentry{محیط دائرے}{\arabicdigits {362}}
+\indexentry{traffic lights}{\arabicdigits {364}}
+\indexentry{آمد و رفت بتی}{\arabicdigits {364}}
+\indexentry{amplifier}{\arabicdigits {365}}
+\indexentry{افزائش کار}{\arabicdigits {365}}
+\indexentry{loud speaker}{\arabicdigits {365}}
+\indexentry{بلند گو}{\arabicdigits {365}}
+\indexentry{square wave}{\arabicdigits {366}}
+\indexentry{چوکور موج}{\arabicdigits {366}}
+\indexentry{serial data stream}{\arabicdigits {367}}
+\indexentry{سلسلہ وار مواد کی دھار}{\arabicdigits {367}}
