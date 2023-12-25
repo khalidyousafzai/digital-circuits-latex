@@ -108,7 +108,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \input{./tex/myDigitalUpFacing.tex}
 \input{./tex/myDigitalDownFacing.tex}
 \input{./tex/myAssemblyLanguage.tex}
-\input{./tex/myUrduShortLetters.tex}
+%\input{./tex/myUrduShortLetters.tex}
 \input{./tex/myDigitalGates.tex}
 \input{./tex/myDigitalGatesAnchored.tex}
 
@@ -129,7 +129,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 %
 %\includeonly{./tex/simplestComputerOne,./tex/simplestComputerTwo}%
 %\includeonly{,./tex/simplestComputerTwo}%
-%\includeonly{./tex/booleanAlgebra}%
+%\includeonly{./tex/karnaughMaps}%
 
 
 \author{
@@ -148,13 +148,25 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 }
 %\date{}                           %if absent gives date in arabic which is a rubbish
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%included the following to correct the RTL issues with equation numbering after upgradation to ubuntu 18.04
+%might break bidi package as said on the internet
+\makeatletter
+\def\maketag@@@#1{\hbox{\m@th\normalfont\RTL{{\beginR #1\endR}}}}
+\def\tagform@#1{\maketag@@@{(\ignorespaces{\beginR#1\endR}\unskip)}}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %the following handles the ref flipping bug. i have corrected it in \حوالہ{} command instead
-%\setlatin
+\setlatin
 
 
 %\linenumbers
 
-\makeindex
+%\makeindex
 
 %==========
 \begin{document}
@@ -186,6 +198,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 
 \pagestyle{headings}
 
+
 \include{./tex/binarySystem}
 \include{./tex/basicMaths}
 \include{./tex/booleanAlgebra}
@@ -200,6 +213,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \include{./tex/simplestComputerOne}
 \include{./tex/simplestComputerTwo}
 %\include{./tex/test}
+
 
 %\immediate\closeout\tempfileTerms
 
@@ -257,7 +271,7 @@ math-micro=\textup{µ},text-micro=µ,math-ohm  =\upOmega,text-degree=°,
 \cleardoublepage
 \addcontentsline{toc}{chapter}{فرہنگ}
 
-%\printindex
+\printindex
 
 
 \end{document}

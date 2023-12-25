@@ -1,61 +1,66 @@
-\begin{center}
-\begin{tabular}{rcr|rcr}
+\begin{figure}
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{subfigure}{0.35\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[and port ,scale=1, number inputs=3](u1){};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.55\textwidth}
+\centering
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC|C}
 \toprule
-ہدایت&ہدایتی رمز&\multicolumn{1}{c}{پورا نام}&ہدایت&ہدایتی رمز&\multicolumn{1}{c}{پورا نام}\\
+A&B&C&Z\\
 \midrule
-\ADD{\regB}&\kop{80}&جمع&\MOV{\regB}{\regA}&\kop{47}&لاد\\
-\ADD{\regC}&\kop{81}&جمع&\MOV{\regB}{\regC}&\kop{41}&لاد\\
-\ANA{\regB}&\kop{A0}&منطقی ضرب&\MOV{\regC}{\regA}&\kop{4F}&لاد\\
-\ANA{\regC}&\kop{A1}&منطقی ضرب&\MOV{\regC}{\regB}&\kop{48}&لاد\\
-\ANI{بائٹ}&\kop{E6}&منطقی ضرب قریب&\MVI{\regA}{بائٹ}&\kop{3E}&لاد قریب\\
-\CALL{پتہ}&\kop{CD}&طلب&\MVI{\regB}{بائٹ}&\kop{06}&لاد قریب\\
-\CMA &\kop{2F}&متمم&\MVI{\regC}{بائٹ}&\kop{0E}&لاد قریب\\
-\DCR{\regA}&\kop{3D}&گھٹا&\NOP&\kop{00}&فارغ\\
-\DCR{\regB}&\kop{05}&گھٹا&\ORA{\regB}&\kop{B0}&منطقی جمع\\
-\DCR{\regC}&\kop{0D}&گھٹا&\ORA{\regC}&\kop{B1}منطقی جمع\\
-\HLT&\kop{76}&رک&\ORI{بائٹ}&\kop{F6}&منطقی جمع قریب\\
-\IN{بائٹ}&\kop{DB}&درآمد&\OUT{بائٹ}&\kop{D3}&برآمد\\
-\INR{\regA}&\kop{3C}&بڑھا&\RAL&\kop{17}&گھوم بائیں\\
-\INR{\regB}&\kop{04}&بڑھا&\RAR&\kop{1F}&گھوم دائیں\\
-\INR{\regC}&\kop{0C}&بڑھا&\RET&\kop{C9}&لوٹ\\
-\JM{پتہ}&\kop{FA}&شاخ منفی&\STA{پتہ}&\kop{32}&ذخیرہ\\
-\JMP{پتہ}&\kop{C3}&شاخ&\SUB{\regB}&\kop{90}&منفی\\
-\JNZ{پتہ}&\kop{C2}&شاخ غیر صفر&\SUB{\regC}&\kop{91}&منفی\\
-\JZ{پتہ}&\kop{CA}&شاخ صفر&\XRA{\regB}&\kop{A8}&منطقی بلا شرکت\\
-\LDA{پتہ}&\kop{3A}&نقل&\XRA{\regC}&\kop{A9}منطقی بلا شرکت\\
-\MOV{\regA}{\regB}&لاد&\kop{78}&\XRI{بائٹ}&\kop{EE}&منطقی بلا شرکت قریب\\
-\MOV{\regA}{\regC}&لاد&\kop{79}&&&\\
+0&0&0&0\\
+0&0&1&0\\
+0&1&0&0\\
+0&1&1&0\\
+1&0&0&0\\
+1&0&1&0\\
+1&1&0&0\\
+1&1&1&1\\
 \bottomrule
 \end{tabular}
-\end{center}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{center}
-\begin{tabular}{rc|rc}
+\end{otherlanguage} 
+\end{subfigure}
+\caption{تین مداخل ضرب گیٹ۔}
+\label{شکل_بوولین_تین_ضرب_گیٹ}
+\end{minipage}\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\begin{subfigure}{0.35\textwidth}
+\centering
+\begin{tikzpicture}
+\draw(0,0)node[or port ,scale=1, number inputs=3](u1){};
+\end{tikzpicture}
+\end{subfigure}%
+\begin{subfigure}{0.55\textwidth}
+\centering
+\begin{otherlanguage}{english}
+\begin{tabular}{CCC|C}
 \toprule
-ہدایت&ہدایتی رمز&ہدایت&ہدایتی رمز\\
+A&B&C&Z\\
 \midrule
-\ADD{\regB}&\kop{80}&\MOV{\regB}{\regA}&\kop{47}\\
-\ADD{\regC}&\kop{81}&\MOV{\regB}{\regC}&\kop{41}\\
-\ANA{\regB}&\kop{A0}&\MOV{\regC}{\regA}&\kop{4F}\\
-\ANA{\regC}&\kop{A1}&\MOV{\regC}{\regB}&\kop{48}\\
-\ANI{بائٹ}&\kop{E6}&\MVI{\regA}{بائٹ}&\kop{3E}\\
-\CALL{پتہ}&\kop{CD}&\MVI{\regB}{بائٹ}&\kop{06}\\
-\CMA &\kop{2F}&\MVI{\regC}{بائٹ}&\kop{0E}\\
-\DCR{\regA}&\kop{3D}&\NOP&\kop{00}\\
-\DCR{\regB}&\kop{05}&\ORA{\regB}&\kop{B0}\\
-\DCR{\regC}&\kop{0D}&\ORA{\regC}&\kop{B1}\\
-\HLT&\kop{76}&\ORI{بائٹ}&\kop{F6}\\
-\IN{بائٹ}&\kop{DB}&\OUT{بائٹ}&\kop{D3}\\
-\INR{\regA}&\kop{3C}&\RAL&\kop{17}\\
-\INR{\regB}&\kop{04}&\RAR&\kop{1F}\\
-\INR{\regC}&\kop{0C}&\RET&\kop{C9}\\
-\JM{پتہ}&\kop{FA}&\STA{پتہ}&\kop{32}\\
-\JMP{پتہ}&\kop{C3}&\SUB{\regB}&\kop{90}\\
-\JNZ{پتہ}&\kop{C2}&\SUB{\regC}&\kop{91}\\
-\JZ{پتہ}&\kop{CA}&\XRA{\regB}&\kop{A8}\\
-\LDA{پتہ}&\kop{3A}&\XRA{\regC}&\kop{A9}\\
-\MOV{\regA}{\regB}&\kop{78}&\XRI{بائٹ}&\kop{EE}\\
-\MOV{\regA}{\regC}&\kop{79}&&\\
+0&0&0&0\\
+0&0&1&1\\
+0&1&0&1\\
+0&1&1&1\\
+1&0&0&1\\
+1&0&1&1\\
+1&1&0&1\\
+1&1&1&1\\
 \bottomrule
 \end{tabular}
-\end{center}
+\end{otherlanguage}
+\end{subfigure}
+\caption{تین مداخل جمع گیٹ۔}
+\label{شکل_بوولین_تین_جمع}
+\end{minipage}
+%\caption{}
+%\label{شکل_بوولین_تین_مداخل_جمع_اور_ضرب}
+\end{figure}
+
