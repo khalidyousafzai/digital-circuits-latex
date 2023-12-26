@@ -13,12 +13,12 @@
   \item adder-subtractor, 110
     \subitem one byte, 112
   \item address, 117
-    \subitem ROM, 320
+    \subitem ROM, 321
   \item address bits, 117
   \item address field, 290
   \item addressed location, 217, 281
   \item addressing
-    \subitem direct, 362
+    \subitem direct, 361
     \subitem immediate, 362
     \subitem implied, 362
     \subitem register, 362
@@ -76,7 +76,7 @@
     \subitem 9's, 16
   \item configure, 238
   \item control, 34
-  \item control ROM, 320
+  \item control ROM, 321
   \item control unit, 277
   \item control word, 281
   \item counter, 141
@@ -226,8 +226,8 @@
   \indexspace
 
   \item machine cycle
-    \subitem fixed, 323
-    \subitem variable, 323
+    \subitem fixed, 322
+    \subitem variable, 322
   \item machine language, 289
   \item macroinstructions, 306
   \item mask, 356
@@ -301,7 +301,7 @@
   \item port
     \subitem output, 282
   \item POS, 65
-  \item presettable, 320
+  \item presettable, 321
   \item printer, 282
   \item program, 279
     \subitem source, 338
@@ -359,8 +359,8 @@
   \item software, 346
   \item SOP, 62
   \item spdt, 313
-  \item spike, 320
-  \item square wave, 368
+  \item spike, 321
+  \item square wave, 367
   \item SR FF, 143
   \item SR flip flop
     \subitem active low inputs, 148
@@ -499,12 +499,12 @@
 \item بیدار، 220
 \indexspace
 \item پتہ، 117
-   \subitem بلا واسطہ انداز، 362
+   \subitem بلا واسطہ انداز، 361
    \subitem دفتری انداز، 362
    \subitem متصل یا قریب انداز، 362
    \subitem مضمر انداز، 362
 \item پتہ بِٹ، 117
-\item پتہ پختہ حافظہ، 320
+\item پتہ پختہ حافظہ، 321
 \item پختہ حافظہ
    \subitem ایک مرتبہ قابل لکھائی، 214
    \subitem برق مٹتا، 214
@@ -584,7 +584,7 @@
 \item جھنڈا 
    \subitem علامت، 332
 \indexspace
-\item چوکور موج، 368
+\item چوکور موج، 367
 \indexspace
 \item حال، 146
    \subitem بڑھوتری، 295
@@ -670,7 +670,7 @@
 \item زبان
    \subitem مادری، 283
    \subitem مشینی، 289
-\item زیر عمل، 288، 289
+\item زیر عمل، 288
 \indexspace
 \item سات کلی نمائشی تختی، 138
 \item سادس عشری، 7
@@ -687,7 +687,7 @@
    \subitem مخارج، 332
    \subitem مداخل، 329
 \item سلسلہ وار مواد کی دھار، 369
-\item سوزن، 320
+\item سوزن، 321
 \item سوئچ، 226
    \subitem ایک قطب دو چال، 313
 \item سیدھا گزرنا، 342
@@ -742,12 +742,12 @@
 \item فعال کار
    \subitem مداخل، 147
 \indexspace
-\item قابل پیش بھرائی، 320
+\item قابل پیش بھرائی، 321
 \item قابل تشکیل
    \subitem پیچیدہ ترتیبی دور، 246
 \item قابل تشکیل منطقی دور، 241
 \item قابو ، 34
-\item قابو پختہ حافظہ، 320
+\item قابو پختہ حافظہ، 321
 \item قابو لفظ، 281
 \item قابو مرکز، 277
 \item قالب
@@ -827,8 +827,8 @@
    \subitem پست عمل پیرا غیر متمم ، 46
    \subitem پست عمل پیرا متمم، 46
 \item مشینی پھیرا
-   \subitem متغیر، 323
-   \subitem مقررہ، 323
+   \subitem متغیر، 322
+   \subitem مقررہ، 322
 \item مشینی زبان، 289
 \item مصافحہ، 332، 357
 \item معاصر

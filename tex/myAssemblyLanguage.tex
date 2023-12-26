@@ -1,105 +1,107 @@
-\newcommand*{\kop}[1]{#1}		%operand formatting
-\newcommand*{\زیرعمل}[1]{#1}
+\newcommand*{\kop}[1]{#1}		%operand formatting. english version
+\newcommand*{\زیرعمل}[1]{#1}		%operand formatting. urdu version
 
-\newcommand*{\دفترالف}{\text{الف}}	%urdu names of A,B,C,D registers
-\newcommand*{\دفترب}{\text{ب}}
-\newcommand*{\دفترج}{\text{ج}}
-\newcommand*{\دفترد}{\text{د}}
-\newcommand*{\regA}{\text{الف}}	%english names of A,B,C,D registers
-\newcommand*{\regB}{\text{ب}}
-\newcommand*{\regC}{\text{ج}}
-\newcommand*{\regD}{\text{د}}
-\newcommand*{\regPC}{\text{برنامہ گنتکار}}  %گنت کار
+\newcommand*{\دفترالف}{\text{\urduAssemblyfont{الف}}}	%urdu names of A,B,C,D registers
+\newcommand*{\دفترب}{\text{\urduAssemblyfont{ب}}}
+\newcommand*{\دفترج}{\text{\urduAssemblyfont{ج}}}
+\newcommand*{\دفترد}{\text{\urduAssemblyfont{د}}}
+\newcommand*{\regA}{\text{\urduAssemblyfont{الف}}}	%english names of A,B,C,D registers
+\newcommand*{\regB}{\text{\urduAssemblyfont{ب}}}
+\newcommand*{\regC}{\text{\urduAssemblyfont{ج}}}
+\newcommand*{\regD}{\text{\urduAssemblyfont{د}}}
+\newcommand*{\regPC}{\text{\urduAssemblyfont{برنامہ گنتکار}}}  %گنت کار
  
  
- \newcommand*{\نقل}[1]{\text{\RL{نقل \, #1}}}
- \newcommand*{\جمع}[1]{\text{\RL{جمع \, #1}}}
- \newcommand*{\منفی}[1]{\text{\RL{منفی \, #1}}}
- \newcommand*{\برآمد}[1]{\text{\RL{برآمد \, #1}}}
- \newcommand*{\رک}{\text{\RL{رک}}}
+ \newcommand*{\نقل}[1]{\text{\urduAssemblyfont\RL{نقل \, #1}}}
+ \newcommand*{\جمع}[1]{\text{\urduAssemblyfont\RL{جمع \, #1}}}
+ \newcommand*{\منفی}[1]{\text{\urduAssemblyfont\RL{منفی \, #1}}}
+ \newcommand*{\برآمد}[1]{\text{\urduAssemblyfont\RL{برآمد \, #1}}}
+ \newcommand*{\رک}{\text{\urduAssemblyfont\RL{رک}}}
  
-\newcommand*{\ADD}[1]{\text{\RL{جمع \, #1}}}
-%\newcommand*{\ORA}[1]{\text{\RL{جمع منطقی\, #1}}}		%جمع منطقی
-\newcommand*{\ORA}[1]{\text{\RL{مج\, #1}}}			%منطقی جمع 
+\newcommand*{\ADD}[1]{\text{\urduAssemblyfont\RL{جمع \, #1}}}
+%\newcommand*{\ADD}[1]{\textbf{\RL{جمع \, #1}}}
+
+%\newcommand*{\ORA}[1]{\text{\urduAssemblyfont\RL{جمع منطقی\, #1}}}		%جمع منطقی
+\newcommand*{\ORA}[1]{\text{\urduAssemblyfont\RL{مج\, #1}}}			%منطقی جمع 
 				%not using جمع متمم to spare words for say add immediate, or immediate, etc
-%\newcommand*{\ORI}[1]{\text{\RL{جمع منطقی متصل\, #1}}}	  %منطقی جمع  متصل
-\newcommand*{\ORI}[1]{\text{\RL{مجق\, #1}}}	%منطقی جمع قریب
+%\newcommand*{\ORI}[1]{\text{\urduAssemblyfont\RL{جمع منطقی متصل\, #1}}}	  %منطقی جمع  متصل
+\newcommand*{\ORI}[1]{\text{\urduAssemblyfont\RL{مجق\, #1}}}	%منطقی جمع قریب
 
-%\newcommand*{\ANA}[1]{\text{\RL{ضرب منطقی\, #1}}}		%ضرب منطقی
-\newcommand*{\ANA}[1]{\text{\RL{مض\,#1}}} 		%منطقی ضرب
-%\newcommand*{\ANI}[1]{\text{\RL{ضرب  منطقی  متصل\, #1}}}	%ضرب منطقی  متصل
-\newcommand*{\ANI}[1]{\text{\RL{مضق\,#1}}}		%منطقی ضرب قریب
-\newcommand*{\CALL}[1]{\text{\RL{طلب\, #1}}}
-\newcommand*{\CMA}{\text{\RL{متمم}}}
-\newcommand*{\DCR}[1]{\text{\RL{گھٹا \, #1}}}
-\newcommand*{\HLT}{\text{\RL{رک}}}
-\newcommand*{\IN}[1]{\text{\RL{درآمد\, #1}}}
-\newcommand*{\INR}[1]{\text{\RL{بڑھا\, #1}}}
-%\newcommand*{\JM}[1]{\text{\RL{شاخ منفی\, #1}}}		%شاخ منفی
-\newcommand*{\JM}[1]{\text{\RL{شم\, #1}}}			%شاخ منفی
-\newcommand*{\JMP}[1]{\text{\RL{شاخ \, #1}}}
-%\newcommand*{\JNZ}[1]{\text{\RL{شاخ غیر صفر\, #1}}}	
-\newcommand*{\JNZ}[1]{\text{\RL{شغص\, #1}}}		%شاخ غیر صفر
-%\newcommand*{\JZ}[1]{\text{\RL{شاخ صفر\, #1}}}
-\newcommand*{\JZ}[1]{\text{\RL{شص\, #1}}}		%شاخ صفر
-\newcommand*{\LDA}[1]{\text{\RL{نقل \, #1}}}
-\newcommand*{\MOV}[2]{\text{\RL{لاد\, #1 ، #2}}}		%LD
-%\newcommand*{\MVI}[2]{\text{\RL{متصل\, #1 ، #2}}}
-\newcommand*{\MVI}[2]{\text{\RL{لادق\, #1 ، #2}}}	%لاد قریب
-\newcommand*{\NOP}{\text{\RL{فارغ}}}
+%\newcommand*{\ANA}[1]{\text{\urduAssemblyfont\RL{ضرب منطقی\, #1}}}		%ضرب منطقی
+\newcommand*{\ANA}[1]{\text{\urduAssemblyfont\RL{مض\,#1}}} 		%منطقی ضرب
+%\newcommand*{\ANI}[1]{\text{\urduAssemblyfont\RL{ضرب  منطقی  متصل\, #1}}}	%ضرب منطقی  متصل
+\newcommand*{\ANI}[1]{\text{\urduAssemblyfont\RL{مضق\,#1}}}		%منطقی ضرب قریب
+\newcommand*{\CALL}[1]{\text{\urduAssemblyfont\RL{طلب\, #1}}}
+\newcommand*{\CMA}{\text{\urduAssemblyfont\RL{متمم}}}
+\newcommand*{\DCR}[1]{\text{\urduAssemblyfont\RL{گھٹا \, #1}}}
+\newcommand*{\HLT}{\text{\urduAssemblyfont\RL{رک}}}
+\newcommand*{\IN}[1]{\text{\urduAssemblyfont\RL{درآمد\, #1}}}
+\newcommand*{\INR}[1]{\text{\urduAssemblyfont\RL{بڑھا\, #1}}}
+%\newcommand*{\JM}[1]{\text{\urduAssemblyfont\RL{شاخ منفی\, #1}}}		%شاخ منفی
+\newcommand*{\JM}[1]{\text{\urduAssemblyfont\RL{شم\, #1}}}			%شاخ منفی
+\newcommand*{\JMP}[1]{\text{\urduAssemblyfont\RL{شاخ \, #1}}}
+%\newcommand*{\JNZ}[1]{\text{\urduAssemblyfont\RL{شاخ غیر صفر\, #1}}}	
+\newcommand*{\JNZ}[1]{\text{\urduAssemblyfont\RL{شغص\, #1}}}		%شاخ غیر صفر
+%\newcommand*{\JZ}[1]{\text{\urduAssemblyfont\RL{شاخ صفر\, #1}}}
+\newcommand*{\JZ}[1]{\text{\urduAssemblyfont\RL{شص\, #1}}}		%شاخ صفر
+\newcommand*{\LDA}[1]{\text{\urduAssemblyfont\RL{نقل \, #1}}}
+\newcommand*{\MOV}[2]{\text{\urduAssemblyfont\RL{لاد\, #1 ، #2}}}		%LD
+%\newcommand*{\MVI}[2]{\text{\urduAssemblyfont\RL{متصل\, #1 ، #2}}}
+\newcommand*{\MVI}[2]{\text{\urduAssemblyfont\RL{لادق\, #1 ، #2}}}	%لاد قریب
+\newcommand*{\NOP}{\text{\urduAssemblyfont\RL{فارغ}}}
 
-\newcommand*{\OUT}[1]{\text{\RL{برآمد\, #1}}}
-%\newcommand*{\RAL}{\text{\RL{گھوم بائیں}}}
-\newcommand*{\RAL}{\text{\RL{گب}}}		%گھوم بائیں
-%\newcommand*{\RAR}{\text{\RL{گھوم دائیں}}}
-\newcommand*{\RAR}{\text{\RL{گد}}}			%گھوم دائیں
-\newcommand*{\RET}{\text{\RL{لوٹ}}}
-\newcommand*{\STA}[1]{\text{\RL{ذخیرہ \, #1}}}
-\newcommand*{\SUB}[1]{\text{\RL{منفی \, #1}}}
-%\newcommand*{\XRA}[1]{\text{\RL{بلا شرکت \, #1}}}
-\newcommand*{\XRA}[1]{\text{\RL{مبش \, #1}}}		%منطقی بلا شرکت
-%\newcommand*{\XRI}[1]{\text{\RL{بلا شرکت متصل \, #1}}}
-\newcommand*{\XRI}[1]{\text{\RL{مبشق \, #1}}}			%منطقی بلا شرکت قریب
+\newcommand*{\OUT}[1]{\text{\urduAssemblyfont\RL{برآمد\, #1}}}
+%\newcommand*{\RAL}{\text{\urduAssemblyfont\RL{گھوم بائیں}}}
+\newcommand*{\RAL}{\text{\urduAssemblyfont\RL{گب}}}		%گھوم بائیں
+%\newcommand*{\RAR}{\text{\urduAssemblyfont\RL{گھوم دائیں}}}
+\newcommand*{\RAR}{\text{\urduAssemblyfont\RL{گد}}}			%گھوم دائیں
+\newcommand*{\RET}{\text{\urduAssemblyfont\RL{لوٹ}}}
+\newcommand*{\STA}[1]{\text{\urduAssemblyfont\RL{ذخیرہ \, #1}}}
+\newcommand*{\SUB}[1]{\text{\urduAssemblyfont\RL{منفی \, #1}}}
+%\newcommand*{\XRA}[1]{\text{\urduAssemblyfont\RL{بلا شرکت \, #1}}}
+\newcommand*{\XRA}[1]{\text{\urduAssemblyfont\RL{مبش \, #1}}}		%منطقی بلا شرکت
+%\newcommand*{\XRI}[1]{\text{\urduAssemblyfont\RL{بلا شرکت متصل \, #1}}}
+\newcommand*{\XRI}[1]{\text{\urduAssemblyfont\RL{مبشق \, #1}}}			%منطقی بلا شرکت قریب
 
  %short in-line versions without operands
-\newcommand*{\sADD}{\text{\RL{جمع}}}
-\newcommand*{\sANA}{\text{\RL{مض}}}		%منطقی ضرب 
-\newcommand*{\sANI}{\text{\RL{مضق}}}	% منطقی ضرب   متصل
-\newcommand*{\sCALL}{\text{\RL{طلب}}}
-\newcommand*{\sCMA}{\text{\RL{متمم}}}
-\newcommand*{\sDCR}{\text{\RL{گھٹا}}}
-\newcommand*{\sHLT}{\text{\RL{\text{\RL{رک}}}}}
-\newcommand*{\sIN}{\text{\RL{درآمد}}}
-\newcommand*{\sINR}{\text{\RL{بڑھا}}}
-\newcommand*{\sJM}{\text{\RL{شم}}}		%
-\newcommand*{\sJMP}{\text{\RL{شاخ}}}
-\newcommand*{\sJNZ}{\text{\RL{شغص}}}
-\newcommand*{\sJZ}{\text{\RL{شص}}}
-\newcommand*{\sLDA}{\text{\RL{نقل}}}
-\newcommand*{\sMOV}{\text{\RL{لاد}}}
-\newcommand*{\sMVI}{\text{\RL{لادق}}}
-\newcommand*{\sNOP}{\text{\RL{فارغ}}}
-\newcommand*{\sORA}{\text{\RL{مج}}}		%منطقی جمع
-\newcommand*{\sORI}{\text{\RL{مجق}}}	%منطقی جمع قریب
-\newcommand*{\sOUT}{\text{\RL{برآمد}}}
-\newcommand*{\sRAL}{\text{\RL{گب}}}
-\newcommand*{\sRAR}{\text{\RL{گد}}}
-\newcommand*{\sRET}{\text{\RL{لوٹ}}}
-\newcommand*{\sSTA}{\text{\RL{ذخیرہ}}}
-\newcommand*{\sSUB}{\text{\RL{منفی}}}
-\newcommand*{\sXRA}{\text{\RL{مبش}}}
-\newcommand*{\sXRI}{\text{\RL{مبشق}}}
+\newcommand*{\sADD}{\text{\urduAssemblyfont\RL{جمع}}}
+\newcommand*{\sANA}{\text{\urduAssemblyfont\RL{مض}}}		%منطقی ضرب 
+\newcommand*{\sANI}{\text{\urduAssemblyfont\RL{مضق}}}	% منطقی ضرب   متصل
+\newcommand*{\sCALL}{\text{\urduAssemblyfont\RL{طلب}}}
+\newcommand*{\sCMA}{\text{\urduAssemblyfont\RL{متمم}}}
+\newcommand*{\sDCR}{\text{\urduAssemblyfont\RL{گھٹا}}}
+\newcommand*{\sHLT}{\text{\urduAssemblyfont\RL{\text{\urduAssemblyfont\RL{رک}}}}}
+\newcommand*{\sIN}{\text{\urduAssemblyfont\RL{درآمد}}}
+\newcommand*{\sINR}{\text{\urduAssemblyfont\RL{بڑھا}}}
+\newcommand*{\sJM}{\text{\urduAssemblyfont\RL{شم}}}		%
+\newcommand*{\sJMP}{\text{\urduAssemblyfont\RL{شاخ}}}
+\newcommand*{\sJNZ}{\text{\urduAssemblyfont\RL{شغص}}}
+\newcommand*{\sJZ}{\text{\urduAssemblyfont\RL{شص}}}
+\newcommand*{\sLDA}{\text{\urduAssemblyfont\RL{نقل}}}
+\newcommand*{\sMOV}{\text{\urduAssemblyfont\RL{لاد}}}
+\newcommand*{\sMVI}{\text{\urduAssemblyfont\RL{لادق}}}
+\newcommand*{\sNOP}{\text{\urduAssemblyfont\RL{فارغ}}}
+\newcommand*{\sORA}{\text{\urduAssemblyfont\RL{مج}}}		%منطقی جمع
+\newcommand*{\sORI}{\text{\urduAssemblyfont\RL{مجق}}}	%منطقی جمع قریب
+\newcommand*{\sOUT}{\text{\urduAssemblyfont\RL{برآمد}}}
+\newcommand*{\sRAL}{\text{\urduAssemblyfont\RL{گب}}}
+\newcommand*{\sRAR}{\text{\urduAssemblyfont\RL{گد}}}
+\newcommand*{\sRET}{\text{\urduAssemblyfont\RL{لوٹ}}}
+\newcommand*{\sSTA}{\text{\urduAssemblyfont\RL{ذخیرہ}}}
+\newcommand*{\sSUB}{\text{\urduAssemblyfont\RL{منفی}}}
+\newcommand*{\sXRA}{\text{\urduAssemblyfont\RL{مبش}}}
+\newcommand*{\sXRI}{\text{\urduAssemblyfont\RL{مبشق}}}
 
 %for future use
-\newcommand*{\sSL}{\text{\RL{قب}}}  %قدم بائیں
-\newcommand*{\sSR}{\text{\RL{قد}}}
-\newcommand*{\sSLC}{\text{\RL{قبص}}}    %قدم بائیں براستہ جھنڈا صفر
-\newcommand*{\sSRC}{\text{\RL{قدص}}}   %قدم دائیں براستہ جھنڈا صفر
-\newcommand*{\sRLC}{\text{\RL{گبص}}}  %گھوم بائیں براستہ جھنڈا صفر
-\newcommand*{\sRRC}{\text{\RL{گدص}}}  %گھوم دائیں براستہ جھنڈا صفر
-\newcommand*{\sLJMP}{\text{\RL{شد}}}      %شاخ دور
-\newcommand*{\sLCALL}{\text{\RL{طد}}}  %طلب دور
-\newcommand*{\sSBC}{\text{\RL{مح}}}		%منفی بمع حاصل
-\newcommand*{\sADC}{\text{\RL{جح}}}		%جمع بمع حاصل
-\newcommand*{\sMUL}{\text{\RL{ضرب}}}   	%ضرب
-\newcommand*{\sDAA}{\text{\RL{دعش}}}	%درست عشری
+\newcommand*{\sSL}{\text{\urduAssemblyfont\RL{قب}}}  %قدم بائیں
+\newcommand*{\sSR}{\text{\urduAssemblyfont\RL{قد}}}
+\newcommand*{\sSLC}{\text{\urduAssemblyfont\RL{قبص}}}    %قدم بائیں براستہ جھنڈا صفر
+\newcommand*{\sSRC}{\text{\urduAssemblyfont\RL{قدص}}}   %قدم دائیں براستہ جھنڈا صفر
+\newcommand*{\sRLC}{\text{\urduAssemblyfont\RL{گبص}}}  %گھوم بائیں براستہ جھنڈا صفر
+\newcommand*{\sRRC}{\text{\urduAssemblyfont\RL{گدص}}}  %گھوم دائیں براستہ جھنڈا صفر
+\newcommand*{\sLJMP}{\text{\urduAssemblyfont\RL{شد}}}      %شاخ دور
+\newcommand*{\sLCALL}{\text{\urduAssemblyfont\RL{طد}}}  %طلب دور
+\newcommand*{\sSBC}{\text{\urduAssemblyfont\RL{مح}}}		%منفی بمع حاصل
+\newcommand*{\sADC}{\text{\urduAssemblyfont\RL{جح}}}		%جمع بمع حاصل
+\newcommand*{\sMUL}{\text{\urduAssemblyfont\RL{ضرب}}}   	%ضرب
+\newcommand*{\sDAA}{\text{\urduAssemblyfont\RL{دعش}}}	%درست عشری

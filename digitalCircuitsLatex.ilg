@@ -3,7 +3,7 @@ Scanning input file digitalCircuitsLatex.idx....
 !! Input index error (file = digitalCircuitsLatex.idx, line = 111):
    -- Illegal null field.
 done (760 entries accepted, 1 rejected).
-Sorting entries.........done (7935 comparisons).
+Sorting entries.........done (7879 comparisons).
 Generating output file digitalCircuitsLatex.ind....done (851 lines written, 0 warnings).
 Output written in digitalCircuitsLatex.ind.
 Transcript written in digitalCircuitsLatex.ilg.

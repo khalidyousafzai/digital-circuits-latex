@@ -804,8 +804,8 @@
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {2}}طرز تعمیر}{\arabicdigits {329}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {3}}حافظہ سے رجوع کرنے والی راجع ہدایات}{\arabicdigits {332}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {4}}دفتری ہدایات}{\arabicdigits {336}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\RL {لاد}}}{\arabicdigits {336}}{}%
-\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\RL {جمع}}اور \text {\RL {منفی}}}{\arabicdigits {337}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {1}}\text {\urduAssemblyfont \RL {لاد}}}{\arabicdigits {336}}{}%
+\contentsline {subsection}{\numberline {\arabicdigits {13}.\arabicdigits {4}.\arabicdigits {2}}\text {\urduAssemblyfont \RL {جمع}}اور \text {\urduAssemblyfont \RL {منفی}}}{\arabicdigits {337}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {5}}شاخ اور طلبی ہدایات}{\arabicdigits {339}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {6}}منطقی ہدایات}{\arabicdigits {351}}{}%
 \contentsline {section}{\numberline {\arabicdigits {13}.\arabicdigits {7}}دیگر ہدایات}{\arabicdigits {354}}{}%

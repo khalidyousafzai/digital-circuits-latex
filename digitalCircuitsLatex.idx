@@ -608,8 +608,8 @@
 \indexentry{ہدایتی رمز}{288}
 \indexentry{operand}{288}
 \indexentry{زیر عمل}{288}
+\indexentry{زیر عمل}{288}
 \indexentry{operand}{289}
-\indexentry{زیر عمل}{289}
 \indexentry{push button}{289}
 \indexentry{داب بتام}{289}
 \indexentry{machine language}{289}
@@ -654,18 +654,18 @@
 \indexentry{حال!گنت کار}{316}
 \indexentry{matrix!control}{316}
 \indexentry{قالب!قابو}{316}
-\indexentry{presettable}{320}
-\indexentry{قابل پیش بھرائی}{320}
-\indexentry{address!ROM}{320}
-\indexentry{پتہ پختہ حافظہ}{320}
-\indexentry{control ROM}{320}
-\indexentry{قابو پختہ حافظہ}{320}
-\indexentry{spike}{320}
-\indexentry{سوزن}{320}
-\indexentry{machine cycle!fixed}{323}
-\indexentry{مشینی پھیرا!مقررہ}{323}
-\indexentry{machine cycle!variable}{323}
-\indexentry{مشینی پھیرا!متغیر}{323}
+\indexentry{presettable}{321}
+\indexentry{قابل پیش بھرائی}{321}
+\indexentry{address!ROM}{321}
+\indexentry{پتہ پختہ حافظہ}{321}
+\indexentry{control ROM}{321}
+\indexentry{قابو پختہ حافظہ}{321}
+\indexentry{spike}{321}
+\indexentry{سوزن}{321}
+\indexentry{machine cycle!fixed}{322}
+\indexentry{مشینی پھیرا!مقررہ}{322}
+\indexentry{machine cycle!variable}{322}
+\indexentry{مشینی پھیرا!متغیر}{322}
 \indexentry{مائکروپراسیسر}{323}
 \indexentry{مائکروپراسیسر}{323}
 \indexentry{خرد عامل کار}{323}
@@ -739,8 +739,8 @@
 \indexentry{نقاب}{356}
 \indexentry{handshaking}{357}
 \indexentry{مصافحہ}{357}
-\indexentry{addressing!direct}{362}
-\indexentry{پتہ!بلا واسطہ انداز}{362}
+\indexentry{addressing!direct}{361}
+\indexentry{پتہ!بلا واسطہ انداز}{361}
 \indexentry{addressing!immediate}{362}
 \indexentry{پتہ!متصل یا قریب انداز}{362}
 \indexentry{addressing!register}{362}
@@ -755,7 +755,7 @@
 \indexentry{افزائش کار}{367}
 \indexentry{loud speaker}{367}
 \indexentry{بلند گو}{367}
-\indexentry{square wave}{368}
-\indexentry{چوکور موج}{368}
+\indexentry{square wave}{367}
+\indexentry{چوکور موج}{367}
 \indexentry{serial data stream}{369}
 \indexentry{سلسلہ وار مواد کی دھار}{369}
