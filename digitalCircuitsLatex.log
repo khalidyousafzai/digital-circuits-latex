@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  26 DEC 2023 13:08
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.20)  27 DEC 2023 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1819,9 +1819,9 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20231226788.tex)...disabled (restricted).
+runsystem(touch w18-test-202312271134.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20231226788.tex)...disabled (restricted).
+runsystem(rm -f w18-test-202312271134.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -2871,7 +2871,14 @@ LaTeX Info: Redefining \rmfamily on input line 220.
 LaTeX Info: Redefining \sffamily on input line 220.
 LaTeX Info: Redefining \ttfamily on input line 220.
 )
-(./tex/simplestComputerTwo.aux))
+(./tex/simplestComputerTwo.aux)
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+)
 \openout1 = `digitalCircuitsLatex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
@@ -4031,6 +4038,12 @@ LaTeX Info: Redefining \sffamily on input line 798.
 LaTeX Info: Redefining \ttfamily on input line 798.
 LaTeX Font Info:    Font shape `TU/Scheherazade-Bold(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 807.
+LaTeX Info: Redefining \rmfamily on input line 815.
+LaTeX Info: Redefining \sffamily on input line 815.
+LaTeX Info: Redefining \ttfamily on input line 815.
+LaTeX Info: Redefining \rmfamily on input line 817.
+LaTeX Info: Redefining \sffamily on input line 817.
+LaTeX Info: Redefining \ttfamily on input line 817.
 )
 \tf@toc=\write6
 \openout6 = `digitalCircuitsLatex.toc'.
@@ -4082,105 +4095,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 ) [9]
-\openout2 = `./tex/prefaceFirstBook.aux'.
-
- (./tex/prefaceFirstBook.tex [10
-
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 گزشتہ چند برسوں سے حکومتِ پاکستان اعلیٰ ت
-علیم کی طرف توجہ دے رہی ہے جس سے ملک کی تاریخ میں[]
- []
-
-
-Underfull \hbox (badness 6608) in paragraph at lines 4--5
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 پاکستان میں اعلٰی تعلیم کا نظام انگریزی
- زبان میں رائج ہے۔دنیا میں تحقیقی کام کا بیشتر حصہ انگریزی زبان میں ہی چھپتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 کے لئے انگریزی زبان میں موجود مواد سے است
-فادہ کرنا تو ایک طرف، انگریزی زبان ازخود ایک رکاوٹ کے طور پر ان کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 سامنے آتی ہے۔یہ طلبہ و طالبات ذہین ہونے ک
-ے باوجود آگے بڑھنے اور قوم و ملک کی بھر پور خدمت کرنے کے[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 میں برسوں تک اس صورت حال کی وجہ سے پریش
-انی کا شکار رہا۔کچھ کرنے کی نیت رکھنے کے باوجود کچھ نہ کر سکتا[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 تھا۔میرے لئے اردو میں ایک صفحہ بھی لکھنا 
-ناممکن تھا۔آخر کار ایک دن میں نے اپنی اس کمزوری کو[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 یہ کتاب اردو زبان میں تعلیم حاصل کرنے و
-الے طلبہ و طالبات کے لئے نہایت آسان اردو میں لکھی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 کتاب میں بین الاقوامی نظامِ اکائی استعم
-ال کی گئ ہے۔اہم متغیرات کی علامتیں وہی رکھی گئی ہیں جو موجودہ نظامِ تعلیم کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 نصابی کتابوں میں رائج ہیں۔یوں اردو میں لک
-ھی اس کتاب اور انگریزی میں اسی مضمون پر لکھی کتاب پڑھنے والے طلبہ و[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 امید کی جاتی ہے کہ یہ کتاب ایک دن خالصت
-اً اردو زبان میں انجنیئرنگ کی نصابی کتاب کے طور پر استعمال کی[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 اس کتاب کے پڑھنے والوں سے گزارش کی جاتی
- ہے کہ اسے زیادہ سے زیادہ طلبہ و طالبات تک پہنچانے میں[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 مدد دیں اور انہیں جہاں اس کتاب میں غلطی ن
-ظر آئے وہ اس کی نشاندہی میری ای-میل پر کریں۔میں ان کا[]
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 اس کتاب میں تمام غلطیاں مجھ سے ہی سر زد
- ہوئی ہیں البتہ انہیں درست کرنے میں بہت لوگوں کا ہاتھ[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 ہے۔میں ان سب کا شکریہ ادا کرتا ہوں۔ یہ سل
-سلہ ابھی جاری ہے اور مکمل ہونے پر ان حضرات کے تاثرات[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 میں یہاں کامسیٹ یونیورسٹی اور ہائر ایجو
-کیشن کمیشن کا شکریہ ادا کرنا چاہتا ہوں جن کی وجہ سے ایسی سرگرمیاں[]
- []
-
-) [12]
 \openout2 = `./tex/binarySystem.aux'.
 
  (./tex/binarySystem.tex
@@ -4275,6 +4189,7 @@ eelNooriNastaleeq(3)/m/sl/10 دراصل $[]$[]
  []
 
 [1
+
 
 
 
@@ -22266,21 +22181,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 945--946
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--948
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 شاخ اور طلبی کے ساتھ”سرخی “ کا استعمال 
-مددگار ثابت ہوتا ہے۔ کمپیوٹر کی مادری زبان میں برنامہ لکھتے وقت ہم[]
+Underfull \hbox (badness 5119) in paragraph at lines 947--948
+[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 شاخ اور طلبی کے ساتھ”سرنامہ “ کا استعما
+ل مددگار ثابت ہوتا ہے۔ کمپیوٹر کی مادری زبان میں برنامہ لکھتے وقت ہم[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 947--948
 []\TU/JameelNooriNastaleeq(3)/m/sl/10 عموماً نہیں جانتے کہ شاخ یا طلبی ہدایت کے
- ساتھ کیا پتہ شامل کریں۔اعدادی پتے کی بجائے سرخی[]
+ ساتھ کیا پتہ شامل کریں۔اعدادی پتے کی بجائے سرنامہ[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 947--948
 []\TU/JameelNooriNastaleeq(3)/m/sl/10 استعمال کرنے سے برنامے کا بہاو سمجھنا زیا
-دہ آسان ہو گا۔ مترجم ان سرخیوں کو دیکھتے ہوئے شاخ اور طلبی ہدایات[]
+دہ آسان ہو گا۔ مترجم ان سرناموں کو دیکھتے ہوئے شاخ اور طلبی ہدایات[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 949.
@@ -22307,37 +22222,37 @@ Underfull \hbox (badness 2529) in paragraph at lines 949--950
 
 Underfull \hbox (badness 10000) in paragraph at lines 951--952
 [][]\TU/JameelNooriNastaleeq(3)/m/sl/10 آپ کو صرف اتنا یاد رکھنا ہو گا کہ شاخ ا
-ور طلبی ہدایات کے ساتھ استعمال کے لئے آپ کوئی بھی سرخی استعمال کر[]
+ور طلبی ہدایات کے ساتھ استعمال کے لئے آپ کوئی بھی سرنامہ استعمال[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 951--952
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 جب مترجم آپ کے برنامے کو پڑھتا ہے یہ نشان
- $[]$ مترجم کو خبردار کرتا ہے کہ اس جگہ سرخی[]
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 ہیں۔ جب مترجم آپ کے برنامے کو پڑھتا ہے یہ
+ نشان $[]$ مترجم کو خبردار کرتا ہے کہ اس جگہ[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 953--954
-[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 کمپیوٹر با میں سرخی کے لئے ایک تا چھ عل
-امت (حرف یا ہندسے ) استعمال کیے جا سکتے ہیں، تاہم پہلی[]
+[][]\TU/JameelNooriNastaleeq(3)/m/sl/10 کمپیوٹر با میں سرناممے کے لئے ایک تا چھ
+ علامت (حرف یا ہندسے ) استعمال کیے جا سکتے ہیں، تاہم پہلی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 953--954
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 علامت کا لازماً ایک حرف ہونا ہو گا۔ سرخی 
-عموماً معنی خیز الفاظ ہوں گے، تاہم ہندسوں کا استعمال جائز ہے۔[]
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 علامت کا لازماً ایک حرف ہونا ہو گا۔ سرنام
+ہ کے لئے عموماً معنی خیز الفاظ استعمال کئے جائیں گے، تاہم[]
  []
 
 [347]
 Underfull \hbox (badness 10000) in paragraph at lines 963--964
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 پہلی دو سرخیاں عام الفاظ ہیں؛ تیسری سرخی 
-”تختی پڑھ“ کہنا چاہتی ہے؛ چوتھی اور پانچویں سرخیاں بے معنی ہیں،[]
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 پہلے دو سرنامے عام الفاظ ہیں؛ تیسرا سرنام
+ہ ”تختی پڑھ“ کہنا چاہتا ہے؛ چوتھا اور پانچواں سرنامہ بے معنی[]
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 963--964
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 تاہم ان کا استعمال جائز ہے۔ سرخی کی لمبائ
-ی پر چھ علامتوں کی پابندی اور پہلی علامت پر حرف ہونے کی پابندی ،[]
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 ہے، تاہم ان کا استعمال جائز ہے۔ سرنامے کی
+ لمبائی پر چھ علامتوں کی پابندی اور پہلی علامت پر حرف ہونے کی[]
  []
 
 
@@ -22375,7 +22290,7 @@ ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(3)/m/sl/10 چکر کاٹنے کے[]
  []
 
 
-Underfull \vbox (badness 1668) has occurred while \output is active []
+Underfull \vbox (badness 1735) has occurred while \output is active []
 
  [348]
 LaTeX Info: Redefining \rmfamily on input line 999.
@@ -22392,6 +22307,12 @@ eeq(3)/m/sl/10 نہیں پایا جاتا؛ ان میں، کمپیوٹر الف 
 Underfull \hbox (badness 10000) in paragraph at lines 999--1000
 []\TU/JameelNooriNastaleeq(3)/m/sl/10 صرف جمع و منفی کار ہو گا۔ یوں، عموماً خرد
  عامل کار استعمال کرتے ہوئے ضرب کرنے کی خاطر آپ کو کسی قسم کا[]
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1021--1022
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 بڑا ہو، []کمپیوٹر کو واپس”دوبارہ “ پر بھی
+جے گی۔ جب گنتکار صفر ہو جائے، برنامہ []سے سیدھا گزر کر []تک پہنچے[]
  []
 
 [349]
@@ -23012,18 +22933,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 1768--1769
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 ”حفاظت“ کے لئے مختص ہے، جس کی نشاندہی ذیل
-ی معمولہ میں آخری سرخی کرتی ہے۔ [] دفتر []کا[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 بائٹ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriN
-astaleeq(3)/m/sl/10 بلند کرتی ہے، جو روزن $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNa
-staleeq(3)/m/sl/10 میں سبز بتی کے لئے مختص ہے؛ [] روزن $\OT1/ppl/m/n/10 4$ \TU/
-JameelNooriNastaleeq(3)/m/sl/10 کے بِٹ $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNasta
-leeq(3)/m/sl/10 کو بلند کرتی ہے، جو[]
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 ”حفاظت“ کے لئے مختص ہے، جس کی نشاندہی ذیل
+ی معمولہ میں آخری سرنامہ کرتا ہے۔ [] دفتر[]
  []
 
 [366]
@@ -23037,9 +22949,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 1770--1771
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 کیا جا سکتا ہے۔ ذیلی معمولہ کے ابتدائی مق
-ام کو با معنی سرخی سے منسوب کر کے پتہ کی بجائے استعمال کرنا آسانی پیدا[]
+Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 پیدا کرنے کے لئے ہم $[]$ لکھ سکتے ہیں، تا
+ہم سرنامہ استعمال کرتے ہوئے اسی ذیلی معمولہ کو [] لکھ کر[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
+[]\TU/JameelNooriNastaleeq(3)/m/sl/10 طلب کیا جا سکتا ہے۔ ذیلی معمولہ کے ابتدائ
+ی مقام کو با معنی سرنامہ سے منسوب کر کے پتہ کی بجائے استعمال کرنا[]
  []
 
 
@@ -23051,13 +22969,7 @@ Underfull \hbox (badness 5189) in paragraph at lines 1772--1773
 
 Underfull \hbox (badness 10000) in paragraph at lines 1772--1773
 []$[]$ \TU/JameelNooriNastaleeq(3)/m/sl/10 ) کا تحفظ کرتی ہے۔ اس کے بعد [] (دائ
-رہ سبز چھوٹا کر کے”دائرہس “ لکھا گیا ہے ، تا کہ سرخی پر عائد ،[]
- []
-
-
-Underfull \hbox (badness 4981) in paragraph at lines 1772--1773
-[]\TU/JameelNooriNastaleeq(3)/m/sl/10 زیادہ سے زیادہ چھ علامتوں کی شرط مطمئن ہو
-) مزید ایک سیکنڈ کا وقفہ پیدا کرنے کے لئے واپس [] کو شاخ[]
+رہ سبز چھوٹا کر کے”دائرہس “ لکھا گیا ہے ، تا کہ سرنامہ پر[]
  []
 
 
@@ -24432,12 +24344,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 103700 strings out of 476191
- 2463482 string characters out of 9562072
- 3759641 words of memory out of 7000000
- 123254 multiletter control sequences out of 15000+600000
+ 103682 strings out of 476191
+ 2462641 string characters out of 9562072
+ 3759586 words of memory out of 7000000
+ 123238 multiletter control sequences out of 15000+600000
  507443 words of font info for 192 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  115i,18n,327p,2641b,1626s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on digitalCircuitsLatex.pdf (399 pages).
+Output written on digitalCircuitsLatex.pdf (396 pages).
