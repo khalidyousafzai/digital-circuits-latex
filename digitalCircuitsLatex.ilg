@@ -1,9 +1,9 @@
-This is makeindex, version 2.15 [TeX Live 2022/dev] (kpathsea + Thai support).
+This is makeindex, version 2.17 [TeX Live 2023] (kpathsea + Thai support).
 Scanning input file digitalCircuitsLatex.idx....
 !! Input index error (file = digitalCircuitsLatex.idx, line = 111):
    -- Illegal null field.
 done (760 entries accepted, 1 rejected).
-Sorting entries.........done (8057 comparisons).
+Sorting entries.........done (8000 comparisons).
 Generating output file digitalCircuitsLatex.ind....done (851 lines written, 0 warnings).
 Output written in digitalCircuitsLatex.ind.
 Transcript written in digitalCircuitsLatex.ilg.
