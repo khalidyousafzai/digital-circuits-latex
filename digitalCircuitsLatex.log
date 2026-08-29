@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  20 AUG 2026 16:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  24 AUG 2026 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,9 +1726,9 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20268201014.tex)...disabled (restricted).
+runsystem(touch w18-test-20268241055.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20268201014.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20268241055.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -4322,7 +4322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
 
 Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
 []\TU/JameelNooriNastaleeq(3)/b/n/10 اشارے کا متمم ہو گا۔ اسی طرح شکل [][]۳.۲۴[
-][][]-الف کے قابو اشارہ (مجاز) سے پہلے نفی گیٹ نسب کرنے سے شکل-ج حاصل ہو گا (شک
+][][]-الف کے قابو اشارہ (مجاز) سے پہلے نفی گیٹ نصب کرنے سے شکل-ج حاصل ہو گا (شک
 ل [][]۳.۲۵[][][]-ب دیکھیں)۔[]
  []
 
@@ -5455,13 +5455,6 @@ LaTeX Info: Redefining \rmfamily on input line 2680.
 LaTeX Info: Redefining \sffamily on input line 2680.
 LaTeX Info: Redefining \ttfamily on input line 2680.
 
-Underfull \hbox (badness 10000) in paragraph at lines 2680--2681
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 آپ نے دیکھا کہ شکل [][]۳.۳۴[][][]-الف کے
- ضرب و جمع دور میں تمام گیٹ تبدیل کر کے متمم ضرب گیٹ نسب کرنے سے شکل-ج کا متمم 
-ضرب و متمم ضرب دور[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 2685--2686
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 سلیکان کی فی مربع سنٹی میٹر پتری پر بہت 
 بڑی تعداد میں گیٹ بنائے جا سکتے ہیں اور یہ تعداد دن با دن بڑھتی چلی جا رہی ہے۔ 
@@ -5535,15 +5528,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2809--2810
 
 Underfull \hbox (badness 10000) in paragraph at lines 2809--2810
 [][][]\TU/JameelNooriNastaleeq(3)/b/n/10 ۳.۱۹[][][]-الف کی مدد سے) مساوی جمع مت
-مم گیٹ $[]$، $[]$، $[]$ نسب کیے گئے۔ اس کے بعد (شکل [][]۳.۱۸[][] []کی مدد سے) $
+مم گیٹ $[]$، $[]$، $[]$ نصب کیے گئے۔ اس کے بعد (شکل [][]۳.۱۸[][] []کی مدد سے) $
 []$، اور $[]$ کو نفی گیٹ مان[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2809--2810
 []\TU/JameelNooriNastaleeq(3)/b/n/10 کر، $[]$ اور $[]$ جوڑی کی جگہ متمم جمع $[]
-$ جبکہ ، $[]$ اور $[]$ جوڑی کی جگہ متمم جمع $[]$ نسب کیا گیا۔ یوں شکل [][]۳.۳۶[
-][][]-ج کا متمم جمع و متمم جمع دور[]
+$ جبکہ ، $[]$ اور $[]$ جوڑی کی جگہ متمم جمع $[]$ نصب کیا گیا۔ یوں شکل [][]۳.۳۶[
+][][]-ج کا متمم جمع و متمم جمع[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 2811.
@@ -5552,7 +5545,7 @@ LaTeX Info: Redefining \ttfamily on input line 2811.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2811--2812
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۳.۳۶[][][]-الف کے جمع و ضرب دور 
-کی شکل و صورت تبدیل کیے بغیر تمام گیٹ کی جگہ متمم جمع نسب کرنے سے شکل-ج حاصل ہو
+کی شکل و صورت تبدیل کیے بغیر تمام گیٹ کی جگہ متمم جمع نصب کرنے سے شکل-ج حاصل ہو
  گا۔ یہ ایک اہم اور عمومی[]
  []
 
@@ -9606,10 +9599,10 @@ ameelNooriNastaleeq(3)/b/n/10 کے تعدد کا نصف ہے۔ اشارہ $[]$ �
 
 Underfull \hbox (badness 10000) in paragraph at lines 1422--1423
 []$\OML/zplm/m/it/10 C$ \TU/JameelNooriNastaleeq(3)/b/n/10 کے تعدد سے $\OT1/ppl
-/m/n/10 4$ \TU/JameelNooriNastaleeq(3)/b/n/10 گنّا کم ہو گا۔ پلٹ کار $[]$ کا مخ
-ارج $[]$، تیسرے پلٹ کار کی ساعت ہے جو اسے $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNa
-staleeq(3)/b/n/10 سے تقسیم کرے گا، لہٰذا $[]$ کا تعدد $\OML/zplm/m/it/10 C$ \TU
-/JameelNooriNastaleeq(3)/b/n/10 کے[]
+/m/n/10 4$ \TU/JameelNooriNastaleeq(3)/b/n/10 گنا کم ہو گا۔ پلٹ کار $[]$ کا مخا
+رج $[]$، تیسرے پلٹ کار کی ساعت ہے جو اسے $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNas
+taleeq(3)/b/n/10 سے تقسیم کرے گا، لہٰذا $[]$ کا تعدد $\OML/zplm/m/it/10 C$ \TU/
+JameelNooriNastaleeq(3)/b/n/10 کے[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1445.
@@ -16024,7 +16017,7 @@ JameelNooriNastaleeq(3)/b/n/10 بلند) ہو تب دفتر پتہ $[]$ کا[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 2449--2450
 []\TU/JameelNooriNastaleeq(3)/b/n/10 مواد (پتہ) $[]$ کے مخارج منتقل ہو گا۔دھیان
- رہے، $[]$ کی ”دوڑ“ بیٹھک پر کوئی برقی تار نسب نہیں، لہٰذا یہ نقطہ کہیں نہیں جڑ
+ رہے، $[]$ کی ”دوڑ“ بیٹھک پر کوئی برقی تار نصب نہیں، لہٰذا یہ نقطہ کہیں نہیں جڑ
 ا۔ سوئچ $[]$ کے دو بازو،[]
  []
 
@@ -16599,16 +16592,23 @@ LaTeX Info: Redefining \sffamily on input line 3499.
 LaTeX Info: Redefining \ttfamily on input line 3499.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3499--3500
-[][][] \TU/JameelNooriNastaleeq(3)/b/n/10 پیدا کرتا ہے جو گنت کار کو صاف کرتی ہ
-ے۔ کمپیوٹر کی دوڑ شروع ہونے کے بعد $[]$ حال میں گنت کار کی گنتی $[]$، $[]$ حال 
-میں $[]$، اور[]
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 ابتدائی طور، صاف / چل بلا ٹپک دور بلند $
+[]$ اشارہ پیدا کرتا ہے۔ جمع گیٹ کے مخارج پر نصب $[]$ اس اشارے کا تفرق لیتے ہوئے
+ ایک باریک[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 3499--3500
-[]$[]$ \TU/JameelNooriNastaleeq(3)/b/n/10 حال میں $[]$ ہو گی۔ بازیابی کا ہر پھی
-را ایک سا ہو گا، چونکہ $[]$، $[]$، اور $[]$ حال کے دوران گنت کار بالترتیب $[]$،
- $[]$، اور[]
+[]\TU/AASameerSagarNastaleeqBold(0)/m/n/10 سوزن [][] \TU/JameelNooriNastaleeq(3
+)/b/n/10 پیدا کرتا ہے جو گنت کار کو صاف کرتی ہے۔ کمپیوٹر کی دوڑ شروع ہونے کے بع
+د $[]$ حال میں گنت کار کی گنتی $[]$، $[]$ حال میں[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3499--3500
+[]$[]$\TU/JameelNooriNastaleeq(3)/b/n/10 ، اور $[]$ حال میں $[]$ ہو گی۔ بازیابی
+ کا ہر پھیرا ایک سا ہو گا، چونکہ $[]$، $[]$، اور $[]$ حال کے دوران گنت کار بالت
+رتیب $[]$،[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 3501.
@@ -18251,14 +18251,6 @@ LaTeX Info: Redefining \ttfamily on input line 1701.
 LaTeX Info: Redefining \rmfamily on input line 1725.
 LaTeX Info: Redefining \sffamily on input line 1725.
 LaTeX Info: Redefining \ttfamily on input line 1725.
-
-Underfull \hbox (badness 1406) in paragraph at lines 1724--1726
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 مثال  ۱۳.۱۹:  چوراہے پر نسب  \TU/AASameerS
-agarNastaleeqBold(0)/m/n/10 آمد و رفت بتی [][] \TU/JameelNooriNastaleeq(3)/b/n/
-10 گاڑیوں کی حرکت قابو کرتی ہے۔ یہ بتی $[]$ کے لیے سبز، $[]$ کے لیے پیلی، اور $
-[]$ کے[]
- []
-
 [345]
 Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 آئیں ذیلی معمولہ کے سبز بتی حصہ کو تفصیل
@@ -18587,10 +18579,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 107120 strings out of 474878
- 2559717 string characters out of 9512517
- 3939845 words of memory out of 7000000
- 127992 multiletter control sequences out of 15000+600000
+ 107141 strings out of 474878
+ 2560418 string characters out of 9512517
+ 3940363 words of memory out of 7000000
+ 128013 multiletter control sequences out of 15000+600000
  596277 words of font info for 203 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  117i,18n,327p,2417b,1675s stack positions out of 10000i,1000n,20000p,200000b,200000s
