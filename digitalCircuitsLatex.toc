@@ -139,14 +139,14 @@
 \contentsline {chapter}{\numberline {\farsidigits {11}} غیر معاصر ترتیبی ادوار }{\farsidigits {237}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {1}} تجزیہ}{\farsidigits {239}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {1}.\farsidigits {1}}عبوری جدول}{\farsidigits {239}}{}%
-\contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {1}.\farsidigits {2}}بہاو کا جدول}{\farsidigits {244}}{}%
+\contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {1}.\farsidigits {2}}بہاؤ کا جدول}{\farsidigits {244}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {1}.\farsidigits {3}} حالت دوڑ}{\farsidigits {246}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {1}.\farsidigits {4}}توازن اور ارتعاش }{\farsidigits {249}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {2}}حالت دوڑ سے پاک ثنائی علامتوں کا تقرر}{\farsidigits {250}}{}%
 \contentsline {section}{\numberline {\farsidigits {11}.\farsidigits {3}} عبوری جدول کی مدد سے پلٹ کا تجزیہ}{\farsidigits {253}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {3}.\farsidigits {1}}ایس آر پلٹ}{\farsidigits {253}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {3}.\farsidigits {2}} ساعت کے کنارہ پر چلتا ہوا ڈی پلٹ}{\farsidigits {256}}{}%
-\contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {3}.\farsidigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم با قدم تجزیہ}{\farsidigits {259}}{}%
+\contentsline {subsection}{\numberline {\farsidigits {11}.\farsidigits {3}.\farsidigits {3}}ایس آر پلٹوں پر مبنی غیر معاصر ادوار کا قدم بہ قدم تجزیہ}{\farsidigits {259}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {12}} کمپیوٹر الف}{\farsidigits {261}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {1}}بناؤٹ}{\farsidigits {261}}{}%
 \contentsline {section}{\numberline {\farsidigits {12}.\farsidigits {2}}ہدایات کی فہرست}{\farsidigits {266}}{}%

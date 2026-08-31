@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  24 AUG 2026 17:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.6.2)  31 AUG 2026 21:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1726,9 +1726,9 @@ Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
 )
 \verbatim@out=\write4
-runsystem(touch w18-test-20268241055.tex)...disabled (restricted).
+runsystem(touch w18-test-20268311280.tex)...disabled (restricted).
 
-runsystem(rm -f w18-test-20268241055.tex)...disabled (restricted).
+runsystem(rm -f w18-test-20268311280.tex)...disabled (restricted).
 
 runsystem(rm -f "digitalCircuitsLatex.gnuploterrors")...disabled (restricted).
 
@@ -3903,13 +3903,13 @@ LaTeX Info: Redefining \ttfamily on input line 738.
 Underfull \hbox (badness 10000) in paragraph at lines 738--739
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۳.۱۴[][][]-الف سے آغاز کرتے ہیں 
 جہاں گیٹوں کو $[]$، $[]$، اور $[]$ نام دیے گئے ہیں۔ جمع گیٹ $[]$ اور $[]$ کے خا
-رجی پنیے،[]
+رجی پنیے، جمع[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 738--739
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 جمع گیٹ $[]$ کے داخلی پنیوں سے جڑے ہیں۔ چو
-نکہ $[]$ کا مخارج $[]$ اور $[]$ کا مخارج $[]$ دیگا، لہٰذا $[]$ کا مخارج[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 گیٹ $[]$ کے داخلی پنیوں سے جڑے ہیں۔ چونکہ 
+$[]$ کا مخارج $[]$ اور $[]$ کا مخارج $[]$ دے گا، لہٰذا $[]$ کا مخارج[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 741.
@@ -4017,21 +4017,21 @@ LaTeX Info: Redefining \ttfamily on input line 927.
 Underfull \hbox (badness 10000) in paragraph at lines 927--928
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۳.۱۸[][] []میں ضرب متمم اور جمع 
 متمم گیٹ سے نفی گیٹ کا حصول دکھایا گیا ہے۔ ضرب متمم کے دونوں مداخل کو آپس میں ج
-وڑا گیا ہے، لہٰذا دونوں مداخل[]
+وڑا گیا ہے، لہٰذا دونوں مداخل پر[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 927--928
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 پر $\OML/zplm/m/it/10 X$ \TU/JameelNooriNa
-staleeq(3)/b/n/10 ہو گا۔یوں مخارج $[]$ یعنی $[]$ ہو گا؛ یہاں اس حقیقت کو استعما
-ل کیا گیا ہے کہ اگر $[]$ ہو تب $[]$ بھی $\OT1/ppl/m/n/10 0$[]
+[]$\OML/zplm/m/it/10 X$ \TU/JameelNooriNastaleeq(3)/b/n/10 ہو گا۔یوں مخارج $[]$
+ یعنی $[]$ ہو گا؛ یہاں اس حقیقت کو استعمال کیا گیا ہے کہ اگر $[]$ ہو تب $[]$ بھ
+ی $\OT1/ppl/m/n/10 0$ \TU/JameelNooriNastaleeq(3)/b/n/10 ہو[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 927--928
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 ہو گا، اور اگر $[]$ ہو تب $[]$ بھی $\OT1/p
-pl/m/n/10 1$ \TU/JameelNooriNastaleeq(3)/b/n/10 ہو گا، لہٰذا $[]$ لکھا جا سکتا 
-ہے۔ نفی گیٹ کا مخارج بھی یہی ($[]$) دیگا، لہٰذا[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 گا، اور اگر $[]$ ہو تب $[]$ بھی $\OT1/ppl/
+m/n/10 1$ \TU/JameelNooriNastaleeq(3)/b/n/10 ہو گا، لہٰذا $[]$ لکھا جا سکتا ہے۔
+ نفی گیٹ کا مخارج بھی یہی ($[]$) دے گا، لہٰذا[]
  []
 
 
@@ -4106,9 +4106,9 @@ LaTeX Info: Redefining \rmfamily on input line 1104.
 LaTeX Info: Redefining \sffamily on input line 1104.
 LaTeX Info: Redefining \ttfamily on input line 1104.
 
-Underfull \hbox (badness 2762) in paragraph at lines 1104--1105
+Underfull \hbox (badness 2452) in paragraph at lines 1104--1105
 []\TU/JameelNooriNastaleeq(3)/b/n/10 گیٹ (کا مخارج) اس صورت بلند تصور کیا جاتا 
-ہے جب اس ( کے مخارج پنیا) کا خارجی دباو ایک مخصوص قیمت کے برابر یا اس سے زیادہ 
+ہے جب اس ( کے مخارج پنیا) کا خارجی دباؤ ایک مخصوص قیمت کے برابر یا اس سے زیادہ 
 ہو۔یہ قیمت  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 بلند خارجی[]
  []
 
@@ -4142,17 +4142,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 ضروری اور ناپسندیدہ برقی دباو پیدا ہوتا ہے
+Underfull \hbox (badness 7925) in paragraph at lines 1113--1114
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 ضروری اور ناپسندیدہ برقی دباؤ پیدا ہوتا ہے
  جسے برقی \TU/AASameerSagarNastaleeqBold(0)/m/n/10 شور [][] \TU/JameelNooriNast
-aleeq(3)/b/n/10 کہتے ہیں۔ایک گیٹ کے پست خارجی برقی دباو کے ساتھ یہ شور جمع ہو ک
+aleeq(3)/b/n/10 کہتے ہیں۔ایک گیٹ کے پست خارجی برقی دباؤ کے ساتھ یہ شور جمع ہو ک
 ر اگلے گیٹ کے پست داخلی[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 برقی دباو سے تجاوز کر سکتا ہے۔اسی طرح برقی
- شور بلند خارجی برقی دباو سے نفی ہو کر بلند داخلی برقی دباو سے کم ہو سکتا ہے۔ان
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 برقی دباؤ سے تجاوز کر سکتا ہے۔اسی طرح برقی
+ شور بلند خارجی برقی دباؤ سے نفی ہو کر بلند داخلی برقی دباؤ سے کم ہو سکتا ہے۔ان
  دونوں صورتوں میں اگلا گیٹ غیر[]
  []
 
@@ -4169,16 +4169,16 @@ LaTeX Info: Redefining \rmfamily on input line 1166.
 LaTeX Info: Redefining \sffamily on input line 1166.
 LaTeX Info: Redefining \ttfamily on input line 1166.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1166--1167
+Underfull \hbox (badness 5161) in paragraph at lines 1166--1167
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۳.۲۳[][] []میں $[]$ گیٹ کو مہیا 
-کردہ برقی دباو ہے جسے اس کتاب میں مثبت پانچ وولٹ $[]$ تصور کیا گیا ہے جبکہ $\OT
-1/ppl/m/n/10 0$\TU/JameelNooriNastaleeq(3)/b/n/10 سے مراد صفر وولٹ برقی دباو[]
+کردہ برقی دباؤ ہے جسے اس کتاب میں مثبت پانچ وولٹ $[]$ تصور کیا گیا ہے جبکہ $\OT
+1/ppl/m/n/10 0$\TU/JameelNooriNastaleeq(3)/b/n/10 سے مراد صفر وولٹ برقی دباؤ[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1169--1171
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 پست داخلی برقی دباو اور بلند داخل برقی د
-باو کے بیچ سعت ($[]$ تا $[]$) معنی نہیں رکھتا اور غیر متوقع صورت پیدا کر سکتا ہ
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 پست داخلی برقی دباؤ اور بلند داخل برقی د
+باؤ کے بیچ سعت ($[]$ تا $[]$) معنی نہیں رکھتا اور غیر متوقع صورت پیدا کر سکتا ہ
 ے، لہٰذا عددی اشارات اس[]
  []
 
@@ -4505,14 +4505,14 @@ LaTeX Info: Redefining \ttfamily on input line 1500.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 مخلوط ادوار سے کارکردگی حاصل کرنے کے لیے
- ان کو برقی دباو مہیا کرنا لازم ہے۔ سلسلہ $[]$ کے تمام مخلوط ادوار مثبت یک سمتی
+ ان کو برقی دباؤ مہیا کرنا لازم ہے۔ سلسلہ $[]$ کے تمام مخلوط ادوار مثبت یک سمتی
  پانچ وولٹ $[]$[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1500--1501
 []\TU/JameelNooriNastaleeq(3)/b/n/10 پر کام کرتے ہیں۔شکل [][]۳.۲۸[][] []میں دکھ
-ائے گئے مخلوط دور کو یک سمتی برقی دباو پنیا سات $[]$ اور چودہ $[]$ پر مہیا کیا 
+ائے گئے مخلوط دور کو یک سمتی برقی دباؤ پنیا سات $[]$ اور چودہ $[]$ پر مہیا کیا 
 جائے گا، جہاں پنیا $[]$ مثبت ہو[]
  []
 
@@ -4774,7 +4774,7 @@ LaTeX Info: Redefining \ttfamily on input line 1849.
 Underfull \hbox (badness 10000) in paragraph at lines 1854--1855
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 اس طرح کے سوال، جن میں ایک متغیرہ $\OML/
 zplm/m/it/10 X$ \TU/JameelNooriNastaleeq(3)/b/n/10 کو مستقل عدد $\OML/zplm/m/it
-/10 C$ \TU/JameelNooriNastaleeq(3)/b/n/10 سے منطقی ضرب دینا ہو،کی قدم با قدم تر
+/10 C$ \TU/JameelNooriNastaleeq(3)/b/n/10 سے منطقی ضرب دینا ہو،کی قدم بہ قدم تر
 کیب دیکھتے ہیں۔متغیرہ $\OML/zplm/m/it/10 X$\TU/JameelNooriNastaleeq(3)/b/n/10 ک
 ے تمام ممکنہ قیمتوں[]
  []
@@ -5521,7 +5521,7 @@ LaTeX Info: Redefining \ttfamily on input line 2809.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2809--2810
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۳.۳۶[][] []میں جمع و ضرب دور سے 
-قدم با قدم متمم جمع و متمم جمع دور کا حصول دکھایا گیا ہے۔پہلی قدم میں، شکل-الف 
+قدم بہ قدم متمم جمع و متمم جمع دور کا حصول دکھایا گیا ہے۔پہلی قدم میں، شکل-الف 
 کے ضرب گیٹ $[]$ کی جگہ (شکل[]
  []
 
@@ -5701,16 +5701,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 2884--2910
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2884--2910
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 ہے۔اعشاری گنتی کے کل دس رمز ہیں۔جدول [][]۳
-.۱۴[][] []میں تین بِٹ رمز دکھائے گئے جو کُل آٹھ ہیں۔انہیں استعمال کرتے ہوئے اعش
-اری گنتی کے دس ہندسوں[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 ہے۔اعشاری گنتی کے کُل دس رمز ہیں۔جدول [][]
+۳.۱۴[][] []میں تین بِٹ رمز دکھائے گئے جو کُل آٹھ ہیں۔انہیں استعمال کرتے ہوئے اع
+شاری گنتی کے دس ہندسوں[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2884--2910
 []\TU/JameelNooriNastaleeq(3)/b/n/10 کو ظاہر نہیں کیا جا سکتا۔اس کے برعکس چار ب
-ِٹ کل سولہ رمز دیں گے، جنہیں اعشاری گنتی کے دس ہندسوں کے رموز کے طور پر استعمال
- کیا جا سکتا ہے۔جدول[]
+ِٹ کُل سولہ رمز دیں گے، جنہیں اعشاری گنتی کے دس ہندسوں کے رموز کے طور پر استعما
+ل کیا جا سکتا ہے۔جدول[]
  []
 
 
@@ -7167,6 +7167,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--753
 $[]$ اور[]
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--753
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 حاصل (اگر موجود ہو) دیتا ہے۔ اس حاصل کو $[
+]$ (جو گیٹ $[]$ سے ملتا ہے) کے ساتھ بایاں نصف جمع کار $[]$ ملا کر $[]$ اور حاصل
+ $[]$ دے[]
+ []
+
 LaTeX Info: Redefining \rmfamily on input line 755.
 LaTeX Info: Redefining \sffamily on input line 755.
 LaTeX Info: Redefining \ttfamily on input line 755.
@@ -8250,7 +8257,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 []\TU/JameelNooriNastaleeq(3)/b/n/10 میں $[]$ سیکنڈ کا نہیں تو $[]$سیکنڈ کا فرق
- ضرور ہو گا، جو عمر رسیدگی کے ساتھ اور استعمال کے حالات (درجہ حرارت، نمی، دباو،
+ ضرور ہو گا، جو عمر رسیدگی کے ساتھ اور استعمال کے حالات (درجہ حرارت، نمی، دباؤ،
  وغیرہ) سے تبدیل[]
  []
 
@@ -10484,7 +10491,7 @@ LaTeX Info: Redefining \ttfamily on input line 2451.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2448--2452
 [] \TU/JameelNooriNastaleeq(3)/b/n/10 سوال  ۶.۶:  شکل [][]۶.۲۴[][] []میں سلسلہ 
-وار ثنائی جمع کار پیش ہے۔اسے استعمال کرتے ہوئے $[]$ اور $[]$ قدم با قدم جمع[]
+وار ثنائی جمع کار پیش ہے۔اسے استعمال کرتے ہوئے $[]$ اور $[]$ قدم بہ قدم جمع[]
  []
 
 [173]
@@ -11658,8 +11665,8 @@ Nastaleeq(3)/b/n/10 بِٹ حافظہ بنایا جا سکتا ہے۔آٹھ ثن
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 []\TU/JameelNooriNastaleeq(3)/b/n/10 ایک بائٹ پر مشتمل ہو گا جبکہ سولہ بِٹ لفظ 
-دو بائٹ پر مشتمل ہو گا۔کمپیوٹر میں موجود کل حافظے کی پیمائش بائٹ میں بیان کی جا
-تی ہے۔یوں دو سو الفاظ کا حافظہ[]
+دو بائٹ پر مشتمل ہو گا۔کمپیوٹر میں موجود کُل حافظے کی پیمائش بائٹ میں بیان کی ج
+اتی ہے۔یوں دو سو الفاظ کا حافظہ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 5.
@@ -11894,13 +11901,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 []\TU/JameelNooriNastaleeq(3)/b/n/10 کرتا ہے۔یوں دو پتہ بِٹ کا حافظہ مثال بناتے
  ہوئے، پتہ $[]$ ہمیں حافظہ کے اول مقام تک رسائی دے گا۔ ہم یوں بھی کہہ سکتے ہیں 
 کہ ہم نے مقام $[]$ تک[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 رسائی حاصل کی۔ اسی طرح پتہ $[]$ آخری یا چو
-تھے مقام تک رسائی دیگا اور ہم کہہ سکتے ہیں کہ ہم نے مقام $[]$ تک رسائی حاصل کی۔
-کسی مقام سے مواد[]
  []
 
 
@@ -12164,15 +12164,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 868--869
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 اب تک چار لفظ حافظہ پر بات کی گئی جس کی 
 وجہ سے $\OT1/ppl/m/n/10 4$ \TU/JameelNooriNastaleeq(3)/b/n/10 داخلی جمع گیٹ است
 عمال کیے گئے۔ایک لفظ $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(3)/b/n/10 بِٹ
- ہونے کی وجہ سے کل $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(3)/b/n/10 جمع گ
-یٹ استعمال کیے[]
+ ہونے کی وجہ سے کُل $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(3)/b/n/10 جمع 
+گیٹ استعمال کیے[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 868--869
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 گئے۔یوں ان حافظوں میں کل $[]$ یعنی بتیس $[
-]$ جوڑ یا فتیلے ہوں گے۔ آپ دیکھ سکتے ہیں کہ $\OML/zplm/m/it/10 n$ \TU/JameelNoo
-riNastaleeq(3)/b/n/10 بِٹ پتے کے حافظے میں $[]$ لفظ ہوں گے[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 گئے۔یوں ان حافظوں میں کُل $[]$ یعنی بتیس $
+[]$ جوڑ یا فتیلے ہوں گے۔ آپ دیکھ سکتے ہیں کہ $\OML/zplm/m/it/10 n$ \TU/JameelNo
+oriNastaleeq(3)/b/n/10 بِٹ پتے کے حافظے میں $[]$ لفظ ہوں گے[]
  []
 
 
@@ -12313,9 +12313,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1011--1012
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 ہے۔اس طرح پتہ $[]$ کل حافظے کے صفرویں مقام
- تک رسائی دیتا ہے، پتہ $[]$ کل حافظے کے تیسرے، پتہ $[]$ کل حافظہ کے چوتھے اور[]
-
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 ہے۔اس طرح پتہ $[]$ کُل حافظے کے صفرویں مقا
+م تک رسائی دیتا ہے، پتہ $[]$ کُل حافظے کے تیسرے، پتہ $[]$ کُل حافظہ کے چوتھے او
+ر[]
  []
 
 
@@ -12469,8 +12469,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
 
 Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
 []\TU/JameelNooriNastaleeq(3)/b/n/10 مقامات کو ظاہر کرتے ہیں۔جیسا پہلے ذکر کیا 
-گیا، حافظہ 0 کا آخری مقام کل حافظہ کے مقام $[]$ پر پایا جاتا ہے جبکہ حافظہ 1 کا
- صفرواں مقام اس سے[]
+گیا، حافظہ 0 کا آخری مقام کُل حافظہ کے مقام $[]$ پر پایا جاتا ہے جبکہ حافظہ 1 ک
+ا صفرواں مقام اس سے[]
  []
 
 [218] [219]
@@ -12528,9 +12528,9 @@ LaTeX Info: Redefining \sffamily on input line 1120.
 LaTeX Info: Redefining \ttfamily on input line 1120.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1090--1123
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 یہاں کل چھ پتہ بِٹ $[]$ تا $[]$ استعمال 
-کیے گئے جو چونسٹھ $[]$ مقامات تک رسائی دے سکتے ہیں۔ہم نے سولہ سولہ لفظ کے تین ح
-افظے[]
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 یہاں کُل چھ پتہ بِٹ $[]$ تا $[]$ استعمال
+ کیے گئے جو چونسٹھ $[]$ مقامات تک رسائی دے سکتے ہیں۔ہم نے سولہ سولہ لفظ کے تین 
+حافظے[]
  []
 
 
@@ -13334,8 +13334,8 @@ LaTeX Info: Redefining \sffamily on input line 59.
 LaTeX Info: Redefining \ttfamily on input line 59.
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 برقی تار میں برقی دباو کی رفتار تقریباً 
-خلاء میں روشنی کی رفتار [][] کے برابر ہوتی ہے۔یوں ایک نینو سیکنڈ میں برقی دباو 
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 برقی تار میں برقی دباؤ کی رفتار تقریباً 
+خلاء میں روشنی کی رفتار [][] کے برابر ہوتی ہے۔یوں ایک نینو سیکنڈ میں برقی دباؤ 
 تقریباً[]
  []
 
@@ -13669,13 +13669,6 @@ LaTeX Info: Redefining \ttfamily on input line 350.
 LaTeX Info: Redefining \rmfamily on input line 350.
 LaTeX Info: Redefining \sffamily on input line 350.
 LaTeX Info: Redefining \ttfamily on input line 350.
-
-Underfull \hbox (badness 1371) in paragraph at lines 350--351
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۱۱.۶[][] []میں پیش بہاو کے جدول 
-کی ہر صف میں صرف ایک مستحکم حال پایا جاتا ہے۔پہلی صف میں صرف $[]$ اور دوسری صف 
-میں صرف $[]$ مستحکم[]
- []
-
 [244]
 LaTeX Info: Redefining \rmfamily on input line 353.
 LaTeX Info: Redefining \sffamily on input line 353.
@@ -13685,7 +13678,7 @@ LaTeX Info: Redefining \sffamily on input line 353.
 LaTeX Info: Redefining \ttfamily on input line 353.
 
 Underfull \hbox (badness 10000) in paragraph at lines 353--354
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۱۱.۷[][] []میں ایک ایسا بہاو کا 
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۱۱.۷[][] []میں ایک ایسا بہاؤ کا 
 جدول پیش کیا گیا ہے جس کی صفوں میں ایک سے زیادہ مستحکم حال پائے جاتے ہیں۔مثلاً 
 ، پہلی صف میں مستحکم حال $[]$،[]
  []
@@ -13695,8 +13688,8 @@ LaTeX Info: Redefining \sffamily on input line 392.
 LaTeX Info: Redefining \ttfamily on input line 392.
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--393
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 بہاو کے جدول سے دور حاصل کرنے کے لیے پہل
-ے عبوری جدول حاصل کیا جاتا ہے۔بہاو کے جدول کے دو صف ہیں لہٰذا دور کے دو حال ہوں
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 بہاؤ کے جدول سے دور حاصل کرنے کے لیے پہل
+ے عبوری جدول حاصل کیا جاتا ہے۔بہاؤ کے جدول کے دو صف ہیں لہٰذا دور کے دو حال ہوں
  گے۔دو ممکنہ[]
  []
 
@@ -13730,7 +13723,7 @@ LaTeX Info: Redefining \sffamily on input line 419.
 LaTeX Info: Redefining \ttfamily on input line 419.
 
 Underfull \hbox (badness 10000) in paragraph at lines 419--420
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۱۱.۷[][] []میں پیش بہاو کے جدول 
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 شکل [][]۱۱.۷[][] []میں پیش بہاؤ کے جدول 
 کے استعمال پر شکل [][]۱۱.۹[][] []کی مدد سے غور کرتے ہیں۔ فرض کریں بیرونی مداخل 
 $[]$ کی قیمت $[]$ ہے،یعنی[]
  []
@@ -13769,8 +13762,8 @@ $\TU/JameelNooriNastaleeq(3)/b/n/10 رکھتے ہوئے $[]$ کی قیمت $\OT1
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 452--453
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 کرتے ہیں، یعنی $[]$ کرتے ہیں۔ بہاو کے جدول
+Underfull \hbox (badness 3407) in paragraph at lines 452--453
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 کرتے ہیں، یعنی $[]$ کرتے ہیں۔ بہاؤ کے جدول
  کے مطابق حال $\OML/zplm/m/it/10 a$ \TU/JameelNooriNastaleeq(3)/b/n/10 برقرار ر
 ہے گا ۔اب اگر $[]$ کی قیمت بھی $\OT1/ppl/m/n/10 1$ \TU/JameelNooriNastaleeq(3)/
 b/n/10 کر دی جائے، یعنی $[]$[]
@@ -14908,10 +14901,10 @@ LaTeX Info: Redefining \ttfamily on input line 293.
 
 Underfull \hbox (badness 10000) in paragraph at lines 296--298
 []\TU/JameelNooriNastaleeq(3)/b/n/10 بلند $[]$ کی صورت میں جمع و منفی کار درج ذ
-یل دیگا جہاں $[]$ سے مراد $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(3)/b/n
-/10 کا اساس $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(3)/b/n/10 تکملہ ہے۔(یا
-د رہے، $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(3)/b/n/10 کا تکملہ علامت تب
-دیل کرنے کے[]
+یل دے گا جہاں $[]$ سے مراد $\OML/zplm/m/it/10 B$ \TU/JameelNooriNastaleeq(3)/b/
+n/10 کا اساس $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(3)/b/n/10 تکملہ ہے۔(ی
+اد رہے، $\OT1/ppl/m/n/10 2$ \TU/JameelNooriNastaleeq(3)/b/n/10 کا تکملہ علامت ت
+بدیل کرنے کے[]
  []
 
 [265]
@@ -14969,10 +14962,18 @@ LaTeX Info: Redefining \rmfamily on input line 318.
 LaTeX Info: Redefining \sffamily on input line 318.
 LaTeX Info: Redefining \ttfamily on input line 318.
 
-Underfull \hbox (badness 1014) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 []\TU/JameelNooriNastaleeq(3)/b/n/10 کمپیوٹر کی با مقصد دوڑ سے قبل اس کے حافظہ 
-میں ہدایات قدم با قدم بھرنا لازم ہے۔البتہ، ایسا کرنے سے پہلے آپ کو یہ ہدایات جا
-ننی ہو گی۔ان ہدایات سے مراد[]
+میں ہدایات قدم بہ قدم بھرنا لازم ہے۔البتہ، ایسا کرنے سے پہلے آپ کو یہ ہدایات جا
+ننی ہو گی۔ان ہدایات سے[]
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 318--319
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 مراد وہ اعمال ہیں جو یہ کمپیوٹر سرانجام دے
+ سکتا ہے۔ اس کمپیوٹر کی ہدایات کی فہرست پر اب غور کرتے ہیں۔ہدایات کا مجموعہ کمپ
+یوٹر کی  \TU/AASameerSagarNastaleeqBold(0)/m/n/10 مادری زبان [][] \TU/JameelNoo
+riNastaleeq(3)/b/n/10 کہلاتا[]
  []
 
 
@@ -15082,8 +15083,8 @@ LaTeX Info: Redefining \ttfamily on input line 426.
 Underfull \hbox (badness 10000) in paragraph at lines 426--427
 []\TU/JameelNooriNastaleeq(3)/b/n/10 وسیع پیمانے پر استعمال ہونے والا پہلا  \TU
 /AASameerSagarNastaleeqBold(0)/m/n/10 خرد عامل کار [][] \TU/JameelNooriNastalee
-q(3)/b/n/10 (مائکروپراسیسر ) $[]$ تھا۔ اس کی کل $[]$ ہدایات ہیں۔اس خرد عامل کار
- $[]$ ہے جو[]
+q(3)/b/n/10 (مائکروپراسیسر ) $[]$ تھا۔ اس کی کُل $[]$ ہدایات ہیں۔اس خرد عامل کا
+ر $[]$ ہے جو[]
  []
 
 
@@ -15171,7 +15172,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--527
 [271]
 Underfull \hbox (badness 10000) in paragraph at lines 528--529
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 اب $[]$ کو ”برنامہ نویسی بیٹھک “ پر بٹھا
- کر (یعنی اس کا بازو زمین کے ساتھ جوڑ کر) پتہ اور مواد کے سوئچ قدم با قدم درج ذ
+ کر (یعنی اس کا بازو زمین کے ساتھ جوڑ کر) پتہ اور مواد کے سوئچ قدم بہ قدم درج ذ
 یل رکھیں، جہاں ” ک“ سے[]
  []
 
@@ -15839,7 +15840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2351--2352
 
 Underfull \hbox (badness 10000) in paragraph at lines 2351--2352
 []\TU/JameelNooriNastaleeq(3)/b/n/10 غیر مطلوبہ برقی گنجائش اور تاروں کے امالہ 
-کی بدولت گزرگاہ تاروں میں برقی دباو کی درست سطح کے حصول میں وقت درکار ہوتا ہے۔ 
+کی بدولت گزرگاہ تاروں میں برقی دباؤ کی درست سطح کے حصول میں وقت درکار ہوتا ہے۔ 
 دوسرے لفظوں میں[]
  []
 
@@ -16203,7 +16204,7 @@ eeq(3)/b/n/10 پیدا ہوں گے، تاہم $[]$ کے دو ضرب[]
 
 Underfull \hbox (badness 10000) in paragraph at lines 2855--2856
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 دھیان رہے $[]$ کا آدھا حصہ ”بلا ٹپک صاف 
-و چل“ اور باقی ”بلا ٹپک قدم با قدم“ دور میں مستعمل ہے۔ $[]$ مخلوط دور $[]$ کو ظ
+و چل“ اور باقی ”بلا ٹپک قدم بہ قدم“ دور میں مستعمل ہے۔ $[]$ مخلوط دور $[]$ کو ظ
 اہر کرتا[]
  []
 
@@ -16228,36 +16229,44 @@ ameelNooriNastaleeq(3)/b/n/10 سوئچ ہے، جو ”بلند “ بیٹھک پ
 Underfull \hbox (badness 10000) in paragraph at lines 2858--2859
 []\TU/JameelNooriNastaleeq(3)/b/n/10 طرز میں $[]$ ایک مرتبہ ”بلند“ اور ایک مرتب
 ہ $[]$ بیٹھک پر بٹھانے سے ساعت کی ایک مکمل دھڑکن پیدا ہو گی۔ ”بلند“ بیٹھک پر $[
-]$ بلند $[]$ دیگا؛[]
+]$ بلند $[]$ دے[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2858--2859
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 ”پست بیٹھک“ پر $[]$ پست $[]$ دیگا۔ دوسرے ل
-فظوں میں ، جیسے جیسے آپ $[]$ کو ایک بیٹھک سے دوسری بیٹھک پر بٹھاتے ہیں، شکل [][
-]۱۲.۱۷[][] []میں[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 گا؛ ”پست بیٹھک“ پر $[]$ پست $[]$ دے گا۔ دو
+سرے لفظوں میں ، جیسے جیسے آپ $[]$ کو ایک بیٹھک سے دوسری بیٹھک پر بٹھاتے ہیں، شک
+ل [][]۱۲.۱۷[][][]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2858--2859
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 پیش، ”بلا ٹپک قدم با قدم دور “ باری باری ا
-یک ایک $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(3)/b/n/10 حال پیدا ہو گا۔
- یوں آپ کمپیوٹر کو مختلف $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(3)/b/n/
-10 حال سے گزار کر اس کا تفصیلی معائنہ کر سکتے ہیں، جو[]
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 میں پیش، ”بلا ٹپک قدم بہ قدم دور “ باری 
+باری ایک ایک $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(3)/b/n/10 حال پیدا 
+ہو گا۔ یوں آپ کمپیوٹر کو مختلف $\OML/zplm/m/it/10 T$ \TU/JameelNooriNastaleeq(3
+)/b/n/10 حال سے گزار کر اس کا تفصیلی معائنہ کر سکتے ہیں،[]
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 2861--2862
+[]$[]$ \TU/AASameerSagarNastaleeqBold(0)/m/n/10 ایک قطب دو چال  \TU/JameelNoori
+Nastaleeq(3)/b/n/10 سوئچ ہے۔جب سوئچ دستی بیٹھک پر ہو، $[]$ کا پنیا $\OT1/ppl/m/
+n/10 1$ \TU/JameelNooriNastaleeq(3)/b/n/10 بلند ہو گا اور یوں قدم بہ قدم بتام ف
+عال ہو گا (یعنی $[]$ کے پنیا[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2861--2862
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 پر موجود اشارہ $[]$ سے گزر کر $[]$ کے پنیا
- $[]$ پہنچ کر $[]$ اور $[]$ پیدا کرے گا)۔جب سوئچ خود کار بیٹھک پر بیٹھا ہو، کمپ
-یوٹر خود کار کام[]
+[]$[]$ \TU/JameelNooriNastaleeq(3)/b/n/10 پر موجود اشارہ $[]$ سے گزر کر $[]$ کے
+ پنیا $[]$ پہنچ کر $[]$ اور $[]$ پیدا کرے گا)۔جب سوئچ خود کار بیٹھک پر بیٹھا ہو
+، کمپیوٹر خود[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2861--2862
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 کریگا (یعنی $[]$ کے پنیا $[]$ تک ساعت پیدا
- کرنے والا اشارہ $[]$ کے پنیا $\OT1/ppl/m/n/10 3$\TU/JameelNooriNastaleeq(3)/b/
-n/10 سے پہنچے گا)۔ $[]$ کے دو ضرب متمم گیٹ $[]$ کو بلا ٹپک بناتے[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 کار کام کریگا (یعنی $[]$ کے پنیا $[]$ تک س
+اعت پیدا کرنے والا اشارہ $[]$ کے پنیا $\OT1/ppl/m/n/10 3$\TU/JameelNooriNastale
+eq(3)/b/n/10 سے پہنچے گا)۔ $[]$ کے دو ضرب متمم گیٹ $[]$ کو بلا ٹپک[]
  []
 
 
@@ -16326,7 +16335,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3007--3008
 
 Underfull \hbox (badness 10000) in paragraph at lines 3009--3010
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 جب ”[]“ دفتر ہدایت میں ہو، $[]$ بِٹ $[]$
- ہوں گے اور $[]$ پست ہو گا۔ یہ اشارہ قدم با قدم ساعت کے دور میں $[]$ کے پنیا $[
+ ہوں گے اور $[]$ پست ہو گا۔ یہ اشارہ قدم بہ قدم ساعت کے دور میں $[]$ کے پنیا $[
 ]$[]
  []
 
@@ -16678,7 +16687,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3522--3523
 ]$ ہوں گے۔قابو پختہ حافظہ کے مخارج $[]$، $[]$، اور $[]$ ہوں گے[]
  []
 
-[303]
 LaTeX Info: Redefining \rmfamily on input line 3525.
 LaTeX Info: Redefining \sffamily on input line 3525.
 LaTeX Info: Redefining \ttfamily on input line 3525.
@@ -16700,7 +16708,7 @@ lNooriNastaleeq(3)/b/n/10 حاصل کیا جاتا ہے۔یوں ہر ہدایت 
 /10 T$ \TU/JameelNooriNastaleeq(3)/b/n/10 حال کا ہو گا۔بعض کمپیوٹر میں[]
  []
 
-
+[303]
 Underfull \hbox (badness 10000) in paragraph at lines 3527--3528
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 ایسا $\OML/zplm/m/it/10 T$ \TU/JameelNoo
 riNastaleeq(3)/b/n/10 حال جس میں فارغ ہدایت موجود ہو کو نظر انداز کرتے ہوئے آگے
@@ -16732,10 +16740,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3529--3530
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3531--3532
+Underfull \hbox (badness 2452) in paragraph at lines 3531--3532
 [][][] \TU/JameelNooriNastaleeq(3)/b/n/10 ہدایت میں پہلا فارغ خرد ہدایت $[]$ حا
-ل میں پایا جاتا ہے۔ یوں $[]$ حال کے آغاز میں قابو پختہ حافظہ $[]$ دیگا جس کو ضر
-ب متمم گیٹ[]
+ل میں پایا جاتا ہے۔ یوں $[]$ حال کے آغاز میں قابو پختہ حافظہ $[]$ دے گا جس کو ض
+رب متمم گیٹ[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 3533.
@@ -16762,24 +16770,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 3541--3542
  گے، تاہم بنیادی فلسفہ یہی ہو گا جو[]
  []
 
-[304]
 LaTeX Info: Redefining \rmfamily on input line 3546.
 LaTeX Info: Redefining \sffamily on input line 3546.
 LaTeX Info: Redefining \ttfamily on input line 3546.
+[304]
 LaTeX Info: Redefining \rmfamily on input line 3570.
 LaTeX Info: Redefining \sffamily on input line 3570.
 LaTeX Info: Redefining \ttfamily on input line 3570.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [305]
 Underfull \hbox (badness 10000) in paragraph at lines 3607--3612
 [] \TU/JameelNooriNastaleeq(3)/b/n/10 سوال  ۱۲.۶:  فرض کریں $[]$ کی ساعت کا تعد
 د $[]$ ہے۔ [] ہدایت کی بازیابی اور تعمیل کے لیے چار $\OML/zplm/m/it/10 T$ \TU/J
 ameelNooriNastaleeq(3)/b/n/10 حال درکار ہیں۔یہ کتنا[]
  []
 
-
+[305]
 Underfull \hbox (badness 10000) in paragraph at lines 3618--3621
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 جواب: ”[] “ کے لیے $[]$، $[]$، $[]$ یا $
 []$، $[]$،[]
@@ -16798,14 +16803,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3621--3626
 ا ہو گی؟ جواب ثنائی اور[]
  []
 
-[306]
 LaTeX Info: Redefining \rmfamily on input line 3676.
 LaTeX Info: Redefining \sffamily on input line 3676.
 LaTeX Info: Redefining \ttfamily on input line 3676.
 LaTeX Info: Redefining \rmfamily on input line 3676.
 LaTeX Info: Redefining \sffamily on input line 3676.
 LaTeX Info: Redefining \ttfamily on input line 3676.
-) [307]
+) [306] [307]
 \openout2 = `./tex/simplestComputerTwo.aux'.
 
  (./tex/simplestComputerTwo.tex [308
@@ -16975,10 +16979,10 @@ astaleeq(3)/b/n/10 بِٹ ہے۔ آٹھ بِٹ میں $[]$ ہدایات[]
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 315--316
-[]\TU/JameelNooriNastaleeq(3)/b/n/10 سموئے جا سکتے ہیں۔ کمپیوٹر با کے کل $[]$ ہ
-دایتی رمز ہیں جنہیں $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(3)/b/n/10 بِٹ 
-میں ڈالنا مسئلہ پیش نہیں کریگا۔ آٹھ بِٹ ہدایتی رمز استعمال کرتے ہوئے کمپیوٹر با
- کی[]
+[]\TU/JameelNooriNastaleeq(3)/b/n/10 سموئے جا سکتے ہیں۔ کمپیوٹر با کے کُل $[]$ 
+ہدایتی رمز ہیں جنہیں $\OT1/ppl/m/n/10 8$ \TU/JameelNooriNastaleeq(3)/b/n/10 بِٹ
+ میں ڈالنا مسئلہ پیش نہیں کریگا۔ آٹھ بِٹ ہدایتی رمز استعمال کرتے ہوئے کمپیوٹر ب
+ا کی[]
  []
 
 
@@ -17507,7 +17511,7 @@ LaTeX Info: Redefining \ttfamily on input line 877.
 
 Underfull \hbox (badness 10000) in paragraph at lines 876--878
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 حل: شکل [][]۱۳.۶[][] []میں برنامے کا بہا
-و دکھایا گیا ہے۔ [] ہدایت دفتر []میں $[]$ ڈالتی ہے۔ [] اس مواد کو گھٹا کر[]
+ؤ دکھایا گیا ہے۔ [] ہدایت دفتر []میں $[]$ ڈالتی ہے۔ [] اس مواد کو گھٹا کر[]
  []
 
 
@@ -17624,7 +17628,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 947--948
 
 Underfull \hbox (badness 10000) in paragraph at lines 947--948
 []\TU/JameelNooriNastaleeq(3)/b/n/10 ساتھ کیا پتہ شامل کریں۔اعدادی پتے کے بجائے
- ”عرف “ استعمال کرنے سے برنامے کا بہاو سمجھنا زیادہ آسان ہو گا۔ مترجم ان عرف کو
+ ”عرف “ استعمال کرنے سے برنامے کا بہاؤ سمجھنا زیادہ آسان ہو گا۔ مترجم ان عرف کو
  دیکھتے ہوئے شاخ اور[]
  []
 
@@ -17842,8 +17846,8 @@ q(3)/b/n/10 حال کچھ نہیں کرتے۔ یوں اس ہدایت کے دور
 
 Underfull \hbox (badness 10000) in paragraph at lines 1202--1203
 [][]\TU/JameelNooriNastaleeq(3)/b/n/10 یہ ہدایت وقت ضائع کرنے کے لیے استعمال کی
- جاتی ہے۔ []ہدایت بازیاب کرنے کے لیے اور اس کی تعمیل میں کل چار $\OML/zplm/m/it
-/10 T$ \TU/JameelNooriNastaleeq(3)/b/n/10 حال درکار ہوتے ہیں۔کئی[]
+ جاتی ہے۔ []ہدایت بازیاب کرنے کے لیے اور اس کی تعمیل میں کُل چار $\OML/zplm/m/i
+t/10 T$ \TU/JameelNooriNastaleeq(3)/b/n/10 حال درکار ہوتے ہیں۔کئی[]
  []
 
 
@@ -18190,9 +18194,9 @@ LaTeX Info: Redefining \sffamily on input line 1592.
 LaTeX Info: Redefining \ttfamily on input line 1592.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1603--1604
-[][]\TU/JameelNooriNastaleeq(3)/b/n/10 اس معمولہ کی کل لمبائی $\OT1/ppl/m/n/10 
-8$ \TU/JameelNooriNastaleeq(3)/b/n/10 بائٹ ہے۔ کمپیوٹر با کے نرم افزار کے طور پ
-ر اس معمولہ کا ترجمہ مشینی زبان میں کر کے $[]$ تا $[]$ پتے پر رکھا[]
+[][]\TU/JameelNooriNastaleeq(3)/b/n/10 اس معمولہ کی کُل لمبائی $\OT1/ppl/m/n/10
+ 8$ \TU/JameelNooriNastaleeq(3)/b/n/10 بائٹ ہے۔ کمپیوٹر با کے نرم افزار کے طور 
+پر اس معمولہ کا ترجمہ مشینی زبان میں کر کے $[]$ تا $[]$ پتے پر رکھا[]
  []
 
 
@@ -18212,7 +18216,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
 Underfull \hbox (badness 10000) in paragraph at lines 1635--1636
 []\TU/JameelNooriNastaleeq(3)/b/n/10 بھیجتی ہے۔ ہم دائرہ2 میں دوسری مرتبہ داخل 
 ہوتے ہیں۔ چونکہ دائرہ1 کے اندر دائرہ2 پایا جاتا ہے لہٰذا دائرہ2 کی تعمیل $[]$ م
-رتبہ ہو گی اور یوں کل وقفہ[]
+رتبہ ہو گی اور یوں کُل وقفہ[]
  []
 
 
@@ -18224,8 +18228,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1653--1655
 
 Underfull \hbox (badness 10000) in paragraph at lines 1662--1663
 []\TU/JameelNooriNastaleeq(3)/b/n/10 اندرونی دائرے کی تعمیل $[]$ مرتبہ ہو گی، ا
-ور کل وقفہ تقریباً $[]$ ہو گا۔ اس ذیلی معمولہ کو، جو $[]$ وقفہ دیتا ہے، پتہ $[]
-$ تا[]
+ور کُل وقفہ تقریباً $[]$ ہو گا۔ اس ذیلی معمولہ کو، جو $[]$ وقفہ دیتا ہے، پتہ $[
+]$ تا[]
  []
 
 LaTeX Info: Redefining \rmfamily on input line 1667.
@@ -18362,7 +18366,7 @@ AASameerSagarNastaleeqBold(0)/m/n/10 چوکور موج [][] \TU/JameelNooriNasta
 
 Underfull \hbox (badness 10000) in paragraph at lines 1787--1789
 []$[]$ \TU/JameelNooriNastaleeq(3)/b/n/10 کے لیے پست ہو گا۔ بلند اور پست حصے مل
-ا کر $[]$ دیتے ہیں، جو $[]$ تعدد دیگا۔ پیدا کردہ آواز سائن نما ہونے کے[]
+ا کر $[]$ دیتے ہیں، جو $[]$ تعدد دے گا۔ پیدا کردہ آواز سائن نما ہونے کے[]
  []
 
 [347]
@@ -18400,9 +18404,9 @@ LaTeX Info: Redefining \rmfamily on input line 1843.
 LaTeX Info: Redefining \sffamily on input line 1843.
 LaTeX Info: Redefining \ttfamily on input line 1843.
 
-Underfull \hbox (badness 5302) in paragraph at lines 1842--1844
+Underfull \hbox (badness 5064) in paragraph at lines 1842--1844
 []\TU/JameelNooriNastaleeq(3)/b/n/10 مثال  ۱۳.۲۱:  مواد کی سلسلہ وار ترسیل میں 
-بِٹوں کا بہاو ایک دوسرے کے بعد ہوتا ہے لہٰذا سلسلہ وار مواد کو بعض اوقات \TU/AA
+بِٹوں کا بہاؤ ایک دوسرے کے بعد ہوتا ہے لہٰذا سلسلہ وار مواد کو بعض اوقات \TU/AA
 SameerSagarNastaleeqBold(0)/m/n/10 سلسلہ وار مواد کی دھار [][][]
  []
 
@@ -18581,7 +18585,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  107141 strings out of 474878
  2560418 string characters out of 9512517
- 3940363 words of memory out of 7000000
+ 3939363 words of memory out of 7000000
  128013 multiletter control sequences out of 15000+600000
  596277 words of font info for 203 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
