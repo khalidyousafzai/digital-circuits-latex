@@ -168,6 +168,3 @@
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {7}}دیگر ہدایات}{\farsidigits {334}}{}%
 \contentsline {section}{\numberline {\farsidigits {13}.\farsidigits {8}}کمپیوٹر با کا خلاصہ}{\farsidigits {338}}{}%
 \contentsline {chapter}{فرہنگ}{\farsidigits {357}}{}%
-\selectlanguage *{english}
-\selectlanguage *{urdu}
-\selectlanguage *{urdu}
