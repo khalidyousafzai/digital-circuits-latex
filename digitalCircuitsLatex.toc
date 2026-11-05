@@ -122,7 +122,7 @@
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {1}}متغیر لمبائی گنت کار}{\farsidigits {196}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {2}}بے ترتیب گنت کار}{\farsidigits {196}}{}%
 \contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {3}} چھلا گنت کار}{\farsidigits {198}}{}%
-\contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {4}}دھڑکن پیدا کار}{\farsidigits {199}}{}%
+\contentsline {subsection}{\numberline {\farsidigits {8}.\farsidigits {3}.\farsidigits {4}}دھڑکن پیداکار}{\farsidigits {199}}{}%
 \contentsline {chapter}{\numberline {\farsidigits {9}} حافظہ}{\farsidigits {203}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {1}}عارضی حافظہ}{\farsidigits {204}}{}%
 \contentsline {section}{\numberline {\farsidigits {9}.\farsidigits {2}} پختہ حافظہ}{\farsidigits {212}}{}%
